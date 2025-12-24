@@ -1,6 +1,6 @@
 ---
 title: "Weekly Insight #1: Starting Fresh"
-date: "2024-05-26"
+date: "2025-12-24"
 issueNumber: 1
 description: "Reflections on starting a new project and the value of simplicity."
 ---
