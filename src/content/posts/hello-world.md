@@ -1,6 +1,6 @@
 ---
-title: "Hello World: The Beginning of Liang World"
-date: "2024-05-20"
+title: "在赛博空间开辟了【良的世界】"
+date: "2025-12-24"
 description: "Welcome to my personal corner of the internet where I share thoughts on philosophy, psychology, and more."
 category: "Philosophy"
 tags: ["intro", "life"]
