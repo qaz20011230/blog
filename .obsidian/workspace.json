@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "bb727f3c0564ceab",
+    "type": "split",
+    "children": [
+      {
+        "id": "1189e8fe6bb88991",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af795b82636b8cf8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/favicon.svg"
+              },
+              "icon": "lucide-image",
+              "title": "favicon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d25fe40c99f18a13",
+    "type": "split",
+    "children": [
+      {
+        "id": "4685917004b5b14a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa8f76c0df92927b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "270e1e9176bc8601",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ad62d6e68d94e6ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "071ff18fa182b7a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "96766dda4cd30187",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba7d8078b8bb0d8a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "public/favicon.svg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "favicon 的反向链接列表"
+            }
+          },
+          {
+            "id": "3a566dfbd58c58ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "public/favicon.svg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "favicon 的出链列表"
+            }
+          },
+          {
+            "id": "ef7c126ac03fea6e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "48c9d936bcd9d0a5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d628d87ca1e645b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "public/favicon.svg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "favicon 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "af795b82636b8cf8",
+  "lastOpenFiles": [
+    "README.md",
+    "public/favicon.svg",
+    "src/content/posts/consumer-behavior-intro.md",
+    "src/content/posts/logic-basics.md",
+    "src/content/posts/hello-world.md",
+    "src/content/weekly/issue-1.md"
+  ]
+}
