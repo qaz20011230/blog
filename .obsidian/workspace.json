@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1189e8fe6bb88991",
+        "id": "7dbe1347e282b000",
         "type": "tabs",
         "children": [
           {
-            "id": "af795b82636b8cf8",
+            "id": "f7945b1a93b2cbe8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/posts/logic-basics.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "logic-basics"
-            }
-          },
-          {
-            "id": "e7661638e292accc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/posts/PKM-intro.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "PKM-intro"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,10 +179,10 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "e7661638e292accc",
+  "active": "fa8f76c0df92927b",
   "lastOpenFiles": [
-    "src/content/posts/logic-basics.md",
     "src/content/posts/PKM-intro.md",
+    "src/content/posts/logic-basics.md",
     "src/content/posts/consumer-behavior-intro.md",
     "src/content/posts/hello-world.md",
     "未命名.md",
