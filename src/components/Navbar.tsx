@@ -8,6 +8,7 @@ const navItems = [
   { name: '周刊', path: '/weekly' },
   { name: '分类', path: '/categories' },
   { name: '音频', path: '/audio' },
+  { name: 'ELIZA', path: '/eliza' },
   { name: '关于', path: '/about' },
 ];
 
