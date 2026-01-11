@@ -7,6 +7,7 @@ const navItems = [
   { name: '首页', path: '/' },
   { name: '周刊', path: '/weekly' },
   { name: '分类', path: '/categories' },
+  { name: '音频', path: '/audio' },
   { name: '关于', path: '/about' },
 ];
 

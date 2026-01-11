@@ -18,3 +18,12 @@ export interface Weekly {
   description: string;
   content?: string;
 }
+
+export interface AudioItem {
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  src: string;
+  content?: string;
+}
