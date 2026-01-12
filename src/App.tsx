@@ -7,8 +7,6 @@ import Weekly from './pages/Weekly';
 import WeeklyDetail from './pages/WeeklyDetail';
 import Categories from './pages/Categories';
 import About from './pages/About';
-import Audio from './pages/Audio';
-import Eliza from './pages/Eliza';
 
 function App() {
   return (
@@ -20,8 +18,6 @@ function App() {
           <Route path="weekly" element={<Weekly />} />
           <Route path="weekly/:slug" element={<WeeklyDetail />} />
           <Route path="categories" element={<Categories />} />
-          <Route path="audio" element={<Audio />} />
-          <Route path="eliza" element={<Eliza />} />
           <Route path="about" element={<About />} />
         </Route>
       </Routes>

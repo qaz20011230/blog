@@ -1,10 +1,9 @@
 import matter from 'gray-matter';
-import { Post, Weekly, AudioItem } from '../types';
+import { Post, Weekly } from '../types';
 
 // Import all markdown files
 const postFiles = import.meta.glob('../content/posts/*.md', { query: '?raw', import: 'default', eager: true });
 const weeklyFiles = import.meta.glob('../content/weekly/*.md', { query: '?raw', import: 'default', eager: true });
-const audioFiles = import.meta.glob('../content/audios/*.md', { query: '?raw', import: 'default', eager: true });
 
 export function getAllPosts(): Post[] {
   const posts: Post[] = [];
@@ -61,32 +60,4 @@ export function getAllWeeklies(): Weekly[] {
 export function getWeeklyBySlug(slug: string): Weekly | undefined {
   const weeklies = getAllWeeklies();
   return weeklies.find((weekly) => weekly.slug === slug);
-}
-
-export function getAllAudios(): AudioItem[] {
-  const audios: AudioItem[] = [];
-
-  for (const path in audioFiles) {
-    const content = audioFiles[path] as string;
-    const { data, content: body } = matter(content);
-    
-    // Extract slug from filename
-    const slug = path.split('/').pop()?.replace('.md', '') || '';
-
-    audios.push({
-      slug,
-      title: data.title,
-      date: data.date,
-      description: data.description,
-      src: data.src,
-      content: body,
-    });
-  }
-
-  return audios.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-
-export function getAudioBySlug(slug: string): AudioItem | undefined {
-  const audios = getAllAudios();
-  return audios.find((audio) => audio.slug === slug);
 }
