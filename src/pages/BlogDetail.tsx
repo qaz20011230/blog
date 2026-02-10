@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import { format } from 'date-fns';
 import { getPostBySlug } from '../lib/content';
 import { Share2, ArrowLeft } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 import rehypeRaw from 'rehype-raw';
 
 export default function BlogDetail() {
@@ -38,6 +39,17 @@ export default function BlogDetail() {
 
   return (
     <article className="max-w-3xl mx-auto">
+      <Helmet>
+        <title>{post.title} | Liang's World</title>
+        <meta name="description" content={post.description} />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.description} />
+        <meta property="og:type" content="article" />
+        <meta property="article:published_time" content={post.date} />
+        {post.tags.map(tag => (
+          <meta property="article:tag" content={tag} key={tag} />
+        ))}
+      </Helmet>
       <button 
         onClick={() => navigate(-1)} 
         className="flex items-center text-gray-500 hover:text-gray-900 mb-8 transition-colors"

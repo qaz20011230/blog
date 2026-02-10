@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import { format } from 'date-fns';
 import { getWeeklyBySlug } from '../lib/content';
 import { ArrowLeft, Share2 } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 export default function WeeklyDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -36,6 +37,14 @@ export default function WeeklyDetail() {
 
   return (
     <article className="max-w-3xl mx-auto">
+      <Helmet>
+        <title>{weekly.title} | Liang's World Weekly</title>
+        <meta name="description" content={weekly.description} />
+        <meta property="og:title" content={weekly.title} />
+        <meta property="og:description" content={weekly.description} />
+        <meta property="og:type" content="article" />
+        <meta property="article:published_time" content={weekly.date} />
+      </Helmet>
       <button 
         onClick={() => navigate('/weekly')} 
         className="flex items-center text-gray-500 hover:text-gray-900 mb-8 transition-colors"
