@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import SicasShare from './SicasShare';
 
 export default function Layout() {
   const location = useLocation();
@@ -21,6 +22,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <Footer />
+      <SicasShare />
     </div>
   );
 }
