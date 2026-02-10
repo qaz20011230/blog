@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "client:dev": "vite",
-    "build": "node scripts/generate-sitemap.js && tsc -b && vite build",
+    "build": "node scripts/generate-sitemap.js && node scripts/generate-rss.js && tsc -b && vite build",
     "build:sitemap": "node scripts/generate-sitemap.js",
+    "build:rss": "node scripts/generate-rss.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "check": "tsc --noEmit",
@@ -30,6 +31,7 @@
     "react-router-dom": "^7.3.0",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.1",
+    "rss": "^1.2.2",
     "tailwind-merge": "^3.0.2",
     "zustand": "^5.0.3"
   },

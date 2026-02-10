@@ -35,6 +35,16 @@ export default function Home() {
         </section>
       )}
 
+      {/* Friend Links Entry */}
+      <section className="text-center py-4">
+        <Link 
+          to="/links"
+          className="inline-flex items-center gap-2 text-gray-500 hover:text-primary transition-colors text-sm"
+        >
+          <span>✦ 友情链接 / Friends</span>
+        </Link>
+      </section>
+
       {/* Recent Posts */}
       <section>
         <div className="flex justify-between items-end mb-8 border-b border-gray-100 pb-2">

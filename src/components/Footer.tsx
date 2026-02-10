@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, Mail } from 'lucide-react';
+import { Github, Twitter, Mail, Rss } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -13,13 +13,9 @@ export default function Footer() {
           </div>
           
           <div className="flex space-x-6">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600">
-              <span className="sr-only">GitHub</span>
-              <Github size={20} />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600">
-              <span className="sr-only">Twitter</span>
-              <Twitter size={20} />
+            <a href="/rss.xml" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-orange-500 transition-colors">
+              <span className="sr-only">RSS</span>
+              <Rss size={20} />
             </a>
             <a href="mailto:contact@liang.world" className="text-gray-400 hover:text-gray-600">
               <span className="sr-only">Email</span>
