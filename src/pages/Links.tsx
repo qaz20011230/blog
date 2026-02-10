@@ -1,13 +1,20 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const friends = [
-  {
-    name: '良的世界',
-    url: 'https://www.lemonary.cn/',
-    description: '忙点充实，闲点自在',
-    avatar: 'https://www.lemonary.cn/wp-content/uploads/2024/12/profile.jpg',
-  },
+interface Friend {
+  name: string;
+  url: string;
+  description: string;
+  avatar: string;
+}
+
+const friends: Friend[] = [
+  // {
+  //   name: 'Example',
+  //   url: 'https://example.com',
+  //   description: 'Description',
+  //   avatar: 'https://example.com/avatar.jpg',
+  // },
 ];
 
 export default function Links() {
@@ -20,33 +27,39 @@ export default function Links() {
       
       <h1 className="text-3xl font-bold text-gray-900 mb-8">友情链接 / Friends</h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {friends.map((friend) => (
-          <a
-            key={friend.url}
-            href={friend.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center p-4 rounded-xl border border-gray-100 hover:border-primary/20 hover:shadow-sm transition-all duration-300 bg-white"
-          >
-            <div className="flex-shrink-0 mr-4">
-              <img
-                src={friend.avatar}
-                alt={friend.name}
-                className="w-16 h-16 rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">
-                {friend.name}
-              </h3>
-              <p className="text-sm text-gray-500 mt-1 line-clamp-2">
-                {friend.description}
-              </p>
-            </div>
-          </a>
-        ))}
-      </div>
+      {friends.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {friends.map((friend) => (
+            <a
+              key={friend.url}
+              href={friend.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center p-4 rounded-xl border border-gray-100 hover:border-primary/20 hover:shadow-sm transition-all duration-300 bg-white"
+            >
+              <div className="flex-shrink-0 mr-4">
+                <img
+                  src={friend.avatar}
+                  alt={friend.name}
+                  className="w-16 h-16 rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">
+                  {friend.name}
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                  {friend.description}
+                </p>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-12 bg-gray-50 rounded-xl border border-dashed border-gray-200">
+          <p className="text-gray-500">暂无友情链接，欢迎申请交换。</p>
+        </div>
+      )}
 
       <div className="mt-12 p-6 bg-gray-50 rounded-xl">
         <h3 className="text-lg font-bold text-gray-900 mb-4">申请友链</h3>
