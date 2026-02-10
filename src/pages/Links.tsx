@@ -60,6 +60,7 @@ export default function Links() {
           <p>站点地址：https://liang.world</p>
           <p>站点描述：怀瑾握瑜，解惑忘隙</p>
           <p>站点头像：https://liang.world/favicon.jpg</p>
+          <p>RSS地址：https://liang.world/rss.xml</p>
         </div>
       </div>
     </div>
