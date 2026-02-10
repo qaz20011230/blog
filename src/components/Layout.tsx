@@ -11,8 +11,8 @@ export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col bg-white font-sans text-text">
       <Helmet>
-        <title>Liang's World | 思想助产士</title>
-        <meta name="description" content="思想助产士的个人博客 - 哲学、心理学、商业与逻辑的交叉探索" />
+        <title>良之世界 | 思想助产士</title>
+        <meta name="description" content="良之世界 - 思想助产士的个人博客。融合精神分析、哲学践行与商业逻辑，助你澄清概念、暴露预设、重构认知。这里不是标准答案的贩卖机，而是思想觉醒的演练场，致力于建立不可动摇的思想主权。" />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="robots" content="index, follow" />
         {/* Anti-AI meta tag (optional, support varies) */}
