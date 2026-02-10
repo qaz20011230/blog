@@ -42,3 +42,10 @@ Allow: /
 
 User-agent: PerplexityBot
 Allow: /
+
+# DeepSeek & Tencent Yuanbao (Explicitly Allow)
+User-agent: DeepSeekSpider
+Allow: /
+
+User-agent: YuanbaoBot
+Allow: /
