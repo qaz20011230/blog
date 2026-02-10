@@ -44,6 +44,38 @@ export default function WeeklyDetail() {
         <meta property="og:description" content={weekly.description} />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content={weekly.date} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": weekly.title,
+            "description": weekly.description,
+            "author": {
+              "@type": "Person",
+              "name": "思想助产士",
+              "url": "https://liang.world/about"
+            },
+            "datePublished": weekly.date,
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": window.location.href
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "良之世界",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://liang.world/favicon.jpg"
+              }
+            },
+            "isPartOf": {
+              "@type": "Periodical",
+              "name": "良之世界周刊",
+              "issn": ""
+            },
+            "issueNumber": weekly.issueNumber
+          })}
+        </script>
       </Helmet>
       <button 
         onClick={() => navigate('/weekly')} 

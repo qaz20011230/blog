@@ -49,6 +49,33 @@ export default function BlogDetail() {
         {post.tags.map(tag => (
           <meta property="article:tag" content={tag} key={tag} />
         ))}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": post.title,
+            "description": post.description,
+            "author": {
+              "@type": "Person",
+              "name": "思想助产士",
+              "url": "https://liang.world/about"
+            },
+            "datePublished": post.date,
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": window.location.href
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "良之世界",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://liang.world/favicon.jpg"
+              }
+            },
+            "keywords": post.tags.join(", ")
+          })}
+        </script>
       </Helmet>
       <button 
         onClick={() => navigate(-1)} 
