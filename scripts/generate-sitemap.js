@@ -11,7 +11,8 @@ const staticRoutes = [
   '',
   '/about',
   '/weekly',
-  '/categories'
+  '/categories',
+  '/links'
 ];
 
 async function generateSitemap() {
