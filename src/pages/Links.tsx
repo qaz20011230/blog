@@ -9,12 +9,36 @@ interface Friend {
 }
 
 const friends: Friend[] = [
-  // {
-  //   name: 'Example',
-  //   url: 'https://example.com',
-  //   description: 'Description',
-  //   avatar: 'https://example.com/avatar.jpg',
-  // },
+  {
+    name: 'APPA',
+    url: 'https://appa.edu/',
+    description: '美国哲学从业者协会，致力于推动哲学咨询与实践的专业化发展。',
+    avatar: 'https://www.google.com/s2/favicons?domain=appa.edu&sz=128',
+  },
+  {
+    name: 'IEP',
+    url: 'https://iep.utm.edu/',
+    description: '互联网哲学百科全书，提供高质量、同行评审的哲学学术资源。',
+    avatar: 'https://www.google.com/s2/favicons?domain=iep.utm.edu&sz=128',
+  },
+  {
+    name: 'SEP',
+    url: 'https://plato.stanford.edu/',
+    description: '斯坦福哲学百科全书，全球最权威的在线哲学参考著作之一。',
+    avatar: 'https://www.google.com/s2/favicons?domain=plato.stanford.edu&sz=128',
+  },
+  {
+    name: 'ICPP',
+    url: 'https://icpp.site/',
+    description: '国际哲学实践大会，连接全球哲学践行者的核心学术平台。',
+    avatar: 'https://www.google.com/s2/favicons?domain=icpp.site&sz=128',
+  },
+  {
+    name: 'GDUT',
+    url: 'https://glxy.gdut.edu.cn/',
+    description: '广东工业大学管理学院，我的学术启蒙之地，融合管理科学与人文精神。',
+    avatar: 'https://www.google.com/s2/favicons?domain=glxy.gdut.edu.cn&sz=128',
+  },
 ];
 
 export default function Links() {
