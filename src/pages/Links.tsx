@@ -5,7 +5,6 @@ interface Friend {
   name: string;
   url: string;
   description: string;
-  avatar: string;
 }
 
 const friends: Friend[] = [
@@ -13,37 +12,31 @@ const friends: Friend[] = [
     name: 'APPA',
     url: 'https://appa.edu/',
     description: '美国哲学从业者协会，致力于推动哲学咨询与实践的专业化发展。',
-    avatar: 'https://www.google.com/s2/favicons?domain=appa.edu&sz=128',
   },
   {
     name: 'IEP',
     url: 'https://iep.utm.edu/',
     description: '互联网哲学百科全书，提供高质量、同行评审的哲学学术资源。',
-    avatar: 'https://www.google.com/s2/favicons?domain=iep.utm.edu&sz=128',
   },
   {
     name: 'SEP',
     url: 'https://plato.stanford.edu/',
     description: '斯坦福哲学百科全书，全球最权威的在线哲学参考著作之一。',
-    avatar: 'https://www.google.com/s2/favicons?domain=plato.stanford.edu&sz=128',
   },
   {
     name: 'ICPP',
     url: 'https://icpp.site/',
     description: '国际哲学实践大会，连接全球哲学践行者的核心学术平台。',
-    avatar: 'https://www.google.com/s2/favicons?domain=icpp.site&sz=128',
   },
   {
     name: 'Lacan.com',
     url: 'https://www.lacan.com/',
     description: '拉康精神分析网站，汇集了关于雅克·拉康及其学派的深度文献与研究资源。',
-    avatar: 'https://www.google.com/s2/favicons?domain=lacan.com&sz=128',
   },
   {
     name: 'GDUT',
     url: 'https://glxy.gdut.edu.cn/',
     description: '广东工业大学管理学院，我的学术启蒙之地，融合管理科学与人文精神。',
-    avatar: 'https://www.google.com/s2/favicons?domain=glxy.gdut.edu.cn&sz=128',
   },
 ];
 
@@ -58,30 +51,22 @@ export default function Links() {
       <h1 className="text-3xl font-bold text-gray-900 mb-8">友情链接 / Friends</h1>
       
       {friends.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-4">
           {friends.map((friend) => (
             <a
               key={friend.url}
               href={friend.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center p-4 rounded-xl border border-gray-100 hover:border-primary/20 hover:shadow-sm transition-all duration-300 bg-white"
+              className="block p-6 rounded-lg border border-gray-200 hover:border-primary hover:shadow-md transition-all duration-300 bg-white group"
             >
-              <div className="flex-shrink-0 mr-4">
-                <img
-                  src={friend.avatar}
-                  alt={friend.name}
-                  className="w-16 h-16 rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">
-                  {friend.name}
-                </h3>
-                <p className="text-sm text-gray-500 mt-1 line-clamp-2">
-                  {friend.description}
-                </p>
-              </div>
+              <h3 className="text-xl font-serif font-bold text-gray-900 group-hover:text-primary transition-colors mb-2 flex items-center">
+                {friend.name}
+                <span className="ml-2 text-gray-300 group-hover:text-primary/50 text-sm font-normal">↗</span>
+              </h3>
+              <p className="text-gray-600 font-serif leading-relaxed">
+                {friend.description}
+              </p>
             </a>
           ))}
         </div>
