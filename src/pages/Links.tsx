@@ -9,6 +9,11 @@ interface Friend {
 
 const friends: Friend[] = [
   {
+    name: 'Aeon',
+    url: 'https://www.aeon.info/',
+    description: '永旺株式会社，亚洲领先的综合零售集团，也是我目前就职的企业。',
+  },
+  {
     name: 'IPP',
     url: 'http://www.pratiques-philosophiques.fr/',
     description: 'Institut de Pratiques Philosophiques，我作为咨询师受训的机构。',
