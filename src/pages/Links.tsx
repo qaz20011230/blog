@@ -34,6 +34,12 @@ const friends: Friend[] = [
     avatar: 'https://www.google.com/s2/favicons?domain=icpp.site&sz=128',
   },
   {
+    name: 'Lacan.com',
+    url: 'https://www.lacan.com/',
+    description: '拉康精神分析网站，汇集了关于雅克·拉康及其学派的深度文献与研究资源。',
+    avatar: 'https://www.google.com/s2/favicons?domain=lacan.com&sz=128',
+  },
+  {
     name: 'GDUT',
     url: 'https://glxy.gdut.edu.cn/',
     description: '广东工业大学管理学院，我的学术启蒙之地，融合管理科学与人文精神。',
