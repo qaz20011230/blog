@@ -38,6 +38,11 @@ const friends: Friend[] = [
     url: 'https://glxy.gdut.edu.cn/',
     description: '广东工业大学管理学院，我的学术启蒙之地，融合管理科学与人文精神。',
   },
+  {
+    name: 'Terence Tao',
+    url: 'https://terrytao.wordpress.com/',
+    description: '陶哲轩的博客，数学家，菲尔兹奖得主。',
+  },
 ];
 
 export default function Links() {
