@@ -1,6 +1,6 @@
 ---
 title: "构建你的财富免疫系统：进取型永久投资组合完全实践指南"
-date: "2026-02-23"
+date: "2026-02-11"
 description: "在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于“永久投资组合”哲学，并针对年轻人进行了进取性优化。"
 category: "Ecommerce"
 tags: ["investment", "finance", "portfolio-management", "wealth-building", "youth-guide"]
