@@ -9,6 +9,11 @@ interface Friend {
 
 const friends: Friend[] = [
   {
+    name: 'IPP',
+    url: 'http://www.pratiques-philosophiques.fr/',
+    description: 'Institut de Pratiques Philosophiques，我作为咨询师受训的机构。',
+  },
+  {
     name: 'APPA',
     url: 'https://appa.edu/',
     description: '美国哲学从业者协会，致力于推动哲学咨询与实践的专业化发展。',
