@@ -49,3 +49,7 @@ Allow: /
 
 User-agent: YuanbaoBot
 Allow: /
+
+# Sogou (Explicitly Allow for WeChat Search SEO)
+User-agent: Sogou web spider
+Allow: /

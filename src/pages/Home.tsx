@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { getAllPosts, getAllWeeklies } from '../lib/content';
 import PostCard from '../components/PostCard';
 import { ArrowRight } from 'lucide-react';
@@ -11,6 +12,12 @@ export default function Home() {
 
   return (
     <div className="space-y-12">
+      <Helmet>
+        <title>良之世界 | 思想助产士与哲思锻造坊</title>
+        <meta name="description" content="良之世界是思想助产士（梁良）的数字花园。这里汇集了关于哲学践行、精神分析与商业逻辑的深度思考，以及【思想助产士】与【哲思锻造坊】公众号的精华内容。" />
+        <meta name="keywords" content="良之世界, 思想助产士, 哲思锻造坊, 哲学咨询, 精神分析, 梁良, 深度阅读" />
+      </Helmet>
+
       {/* Weekly Banner */}
       {latestWeekly && (
         <section className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-6 text-white shadow-md">

@@ -70,7 +70,8 @@ export default function Links() {
     <div className="max-w-4xl mx-auto">
       <Helmet>
         <title>友链 | 良之世界</title>
-        <meta name="description" content="良之世界的友情链接 - 怀瑾握瑜，解惑忘隙" />
+        <meta name="description" content="良之世界的友情链接，包含【思想助产士】与【哲思锻造坊】微信公众号入口。" />
+        <meta name="keywords" content="友情链接, 思想助产士, 哲思锻造坊, 哲学资源, 学术导航" />
       </Helmet>
       
       <h1 className="text-3xl font-bold text-gray-900 mb-8">友情链接 / Friends</h1>
