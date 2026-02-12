@@ -9,6 +9,16 @@ interface Friend {
 
 const friends: Friend[] = [
   {
+    name: '思想助产士',
+    url: 'https://weixin.sogou.com/weixin?type=1&query=思想助产士',
+    description: '【微信公众号】苏格拉底式的精神助产，协助你诞生属于自己的思想。',
+  },
+  {
+    name: '哲思锻造坊',
+    url: 'https://weixin.sogou.com/weixin?type=1&query=哲思锻造坊',
+    description: '【微信公众号】哲学不是避难所，而是锻造场。在此锤炼思维，直面生活。',
+  },
+  {
     name: 'Aeon',
     url: 'https://www.aeon.info/',
     description: '永旺株式会社，亚洲领先的综合零售集团，也是我目前就职的企业。',
