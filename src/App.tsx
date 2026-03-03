@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import BlogDetail from './pages/BlogDetail';
 import Weekly from './pages/Weekly';
 import WeeklyDetail from './pages/WeeklyDetail';
+import Books from './pages/Books';
 import Categories from './pages/Categories';
 import About from './pages/About';
 import Links from './pages/Links';
@@ -18,6 +19,7 @@ function App() {
           <Route path="post/:slug" element={<BlogDetail />} />
           <Route path="weekly" element={<Weekly />} />
           <Route path="weekly/:slug" element={<WeeklyDetail />} />
+          <Route path="books" element={<Books />} />
           <Route path="categories" element={<Categories />} />
           <Route path="links" element={<Links />} />
           <Route path="about" element={<About />} />

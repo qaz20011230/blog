@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Feb 2026 21:04:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Feb 2026 04:15:37 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Feb 2026 21:04:52 GMT</pubDate>
+        <pubDate>Wed, 11 Feb 2026 04:15:37 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -55,6 +55,19 @@
             <category><![CDATA[wisdom]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[构建你的财富免疫系统：进取型永久投资组合完全实践指南]]></title>
+            <description><![CDATA[在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于“永久投资组合”哲学，并针对年轻人进行了进取性优化。]]></description>
+            <link>https://liang.world/post/wealth-immune-system-permanent-portfolio-guide</link>
+            <guid isPermaLink="false">https://liang.world/post/wealth-immune-system-permanent-portfolio-guide</guid>
+            <category><![CDATA[investment]]></category>
+            <category><![CDATA[finance]]></category>
+            <category><![CDATA[portfolio-management]]></category>
+            <category><![CDATA[wealth-building]]></category>
+            <category><![CDATA[youth-guide]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[思想助产士的财富观：财富即责任，管理即使命]]></title>
@@ -104,6 +117,19 @@
             <category><![CDATA[方法论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[咨询：灵魂的接生术——一份思想助产士的自白]]></title>
+            <description><![CDATA[咨询，是一场“灵魂的接生术”。它不是把咨询师已有的东西给予对方，而是协助对方，将其内心混沌、模糊、被困住的思想与生命力，“接生”到这个清晰、自由、可行动的世界里来。]]></description>
+            <link>https://liang.world/post/soul-midwifery-consultation</link>
+            <guid isPermaLink="false">https://liang.world/post/soul-midwifery-consultation</guid>
+            <category><![CDATA[consultation]]></category>
+            <category><![CDATA[midwifery]]></category>
+            <category><![CDATA[self-growth]]></category>
+            <category><![CDATA[philosophy]]></category>
+            <category><![CDATA[psychology]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2026：我们稀缺之物，我们被缚之茧]]></title>
@@ -168,19 +194,6 @@
             <category><![CDATA[方法论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[给年轻人的进取型永久投资组合完全指南]]></title>
-            <description><![CDATA[在不确定的世界里构建确定性。本文为年轻人量身定制了一套“进取型永久投资组合”策略，通过股债金现的科学配比与动态平衡，实现穿越牛熊的稳健财富增长。]]></description>
-            <link>https://liang.world/post/permanent-portfolio-youth-guide</link>
-            <guid isPermaLink="false">https://liang.world/post/permanent-portfolio-youth-guide</guid>
-            <category><![CDATA[investment]]></category>
-            <category><![CDATA[finance]]></category>
-            <category><![CDATA[portfolio-management]]></category>
-            <category><![CDATA[wealth-building]]></category>
-            <category><![CDATA[youth-guide]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[精神分析临床记录：关于主体“有山先生”的评估与诠释]]></title>

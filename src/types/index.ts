@@ -18,3 +18,14 @@ export interface Weekly {
   description: string;
   content?: string;
 }
+
+export interface Book {
+  slug: string;
+  title: string;
+  author: string;
+  coverImage?: string;
+  description: string;
+  publishDate: string;
+  downloadUrl: string;
+  content?: string;
+}

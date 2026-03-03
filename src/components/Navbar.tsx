@@ -6,6 +6,7 @@ import { cn } from '../lib/utils';
 const navItems = [
   { name: '首页', path: '/' },
   { name: '周刊', path: '/weekly' },
+  { name: '书架', path: '/books' },
   { name: '分类', path: '/categories' },
   { name: '友链', path: '/links' },
   { name: '关于', path: '/about' },

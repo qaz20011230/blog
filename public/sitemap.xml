@@ -21,6 +21,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://liang.world/links</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/yi-character-creation</loc>
     <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -39,6 +44,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/wealth-immune-system-permanent-portfolio-guide</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/wealth-as-responsibility</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/syllogism-logic</loc>
     <lastmod>2025-12-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -53,6 +70,12 @@
   <url>
     <loc>https://liang.world/posts/statistics-science</loc>
     <lastmod>2025-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/soul-midwifery-consultation</loc>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -87,14 +110,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://liang.world/posts/permanent-portfolio-youth-guide</loc>
-    <lastmod>2026-02-07</lastmod>
+    <loc>https://liang.world/posts/mr-youshan-analysis</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://liang.world/posts/mr-youshan-analysis</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://liang.world/posts/moral-philosophy-in-complex-world</loc>
+    <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -125,6 +148,12 @@
   <url>
     <loc>https://liang.world/posts/hello-world</loc>
     <lastmod>2025-12-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/genealogy-of-art</loc>
+    <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
