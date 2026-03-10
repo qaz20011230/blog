@@ -119,8 +119,8 @@ export default function BlogDetail() {
 
       <div className="prose prose-lg prose-slate max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
         <ReactMarkdown 
-          remarkPlugins={[remarkGfm]} 
-          rehypePlugins={[rehypeRaw]}
+          remarkPlugins={[remarkGfm, remarkMath]} 
+          rehypePlugins={[rehypeRaw, rehypeKatex]}
         >
           {post.content || ''}
         </ReactMarkdown>

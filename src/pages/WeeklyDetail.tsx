@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import { format } from 'date-fns';
 import { getWeeklyBySlug } from '../lib/content';
 import { ArrowLeft, Share2 } from 'lucide-react';
@@ -110,7 +112,10 @@ export default function WeeklyDetail() {
       </header>
 
       <div className="prose prose-lg prose-slate max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg mx-auto">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+        <ReactMarkdown 
+          remarkPlugins={[remarkGfm, remarkMath]}
+          rehypePlugins={[rehypeKatex]}
+        >
           {weekly.content || ''}
         </ReactMarkdown>
       </div>
