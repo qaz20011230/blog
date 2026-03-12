@@ -38,6 +38,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/womens-day-punch</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/what-is-philosophy</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -45,7 +51,7 @@
   </url>
   <url>
     <loc>https://liang.world/posts/wealth-immune-system-permanent-portfolio-guide</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -92,8 +98,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/relational-mechanics-manifesto</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/psychoanalysis-archaeology</loc>
     <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/prompt-engineering-quick-start</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -104,8 +122,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/polaris-seven-virtues</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/PKM-intro</loc>
     <lastmod>2025-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/philosophical-consciousness-and-mission</loc>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -129,7 +159,19 @@
   </url>
   <url>
     <loc>https://liang.world/posts/mao-wenchao-qu-fang-analysis</loc>
-    <lastmod>2026-02-06</lastmod>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/love-wisdom-truth-freedom-service</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/logic-universality-and-culture</loc>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -172,6 +214,12 @@
   <url>
     <loc>https://liang.world/posts/attraction-logic</loc>
     <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/ai-defense-lacanian-dialogue</loc>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -220,12 +268,6 @@
   <url>
     <loc>https://liang.world/weekly/issue-2</loc>
     <lastmod>2026-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liang.world/weekly/issue-10</loc>
-    <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
