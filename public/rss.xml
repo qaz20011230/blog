@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Mar 2026 10:16:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 08:50:27 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Mar 2026 10:16:31 GMT</pubDate>
+        <pubDate>Sat, 14 Mar 2026 08:50:27 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -96,6 +96,14 @@
             <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[思想者的内容创业：CLEAR & LIGHT 个人IP系统搭建指南]]></title>
+            <description><![CDATA[一套给思想者的内容创业哲学，包含CLEAR内容工程学框架和LIGHT创作者心法。]]></description>
+            <link>https://liang.world/post/thinkers-content-startup-clear-light</link>
+            <guid isPermaLink="false">https://liang.world/post/thinkers-content-startup-clear-light</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[初识三段论逻辑：从基本定义到符号翻译]]></title>
             <description><![CDATA[三段论是逻辑演绎推理的经典形式。本文介绍了三段论的基本定义、论证质量标准（有效性与可靠性）、命题类型（良构公式）以及检验有效性的标星法。]]></description>
             <link>https://liang.world/post/syllogism-logic</link>
@@ -145,6 +153,14 @@
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[素数之歌：黎曼猜想的历史、前沿与未来]]></title>
+            <description><![CDATA[一份系统性的综述：从黎曼1859年的八页论文，到最新的突破；从经典分析方法，到现代谱论与AI辅助；从纯数学的内部逻辑，到跨学科的哲学思考。]]></description>
+            <link>https://liang.world/post/song-of-primes-riemann-hypothesis</link>
+            <guid isPermaLink="false">https://liang.world/post/song-of-primes-riemann-hypothesis</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[2026：我们稀缺之物，我们被缚之茧]]></title>
             <description><![CDATA[2026年的中国，真正的稀缺不再是物质短少，而是一种结构性的错配与张力。从关键矿产到数字人才，从确定性崩塌到价值创造悖论，我们如何破茧而出？]]></description>
             <link>https://liang.world/post/scarce-resources-2026</link>
@@ -184,6 +200,19 @@
             <category><![CDATA[friendship]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[追问无限，触摸永恒——与每一位寻找不朽的灵魂对话]]></title>
+            <description><![CDATA[从黎曼猜想到马克思的职业选择，探讨如何在有限的生命中追问无限，通过智慧、仁爱、勇敢、节制、公正、诚信、超越七种品质，触摸永恒的意义。]]></description>
+            <link>https://liang.world/post/questioning-infinite-touching-eternity</link>
+            <guid isPermaLink="false">https://liang.world/post/questioning-infinite-touching-eternity</guid>
+            <category><![CDATA[philosophy]]></category>
+            <category><![CDATA[mathematics]]></category>
+            <category><![CDATA[life-meaning]]></category>
+            <category><![CDATA[riemann-hypothesis]]></category>
+            <category><![CDATA[eternity]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[心灵考古学：在精神分析中重寻爱与自由]]></title>
@@ -507,6 +536,15 @@
             <category><![CDATA[Weekly]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[周刊第10期：一万个陶哲轩：AI如何重塑数学与科学的未来]]></title>
+            <description><![CDATA[未来，世界上可能会有10000个陶哲轩。本文基于陶哲轩的访谈，探讨AI如何重塑科研模式、数学工程学的兴起、以及在AGI时代人类思维的独特价值。]]></description>
+            <link>https://liang.world/weekly/issue-10</link>
+            <guid isPermaLink="false">https://liang.world/weekly/issue-10</guid>
+            <category><![CDATA[Weekly]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[周刊第1期：甚么是爱？]]></title>

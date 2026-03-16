@@ -62,6 +62,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/thinkers-content-startup-clear-light</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/syllogism-logic</loc>
     <lastmod>2025-12-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -86,6 +92,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/song-of-primes-riemann-hypothesis</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/scarce-resources-2026</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -100,6 +112,12 @@
   <url>
     <loc>https://liang.world/posts/relational-mechanics-manifesto</loc>
     <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/questioning-infinite-touching-eternity</loc>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -268,6 +286,12 @@
   <url>
     <loc>https://liang.world/weekly/issue-2</loc>
     <lastmod>2026-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/weekly/issue-10</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
