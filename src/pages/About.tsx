@@ -9,7 +9,7 @@ export default function About() {
       <div className="prose prose-lg prose-slate mb-8">
         <h3 className="text-xl font-bold mt-6 mb-4">良之世界：思想助产与科学探索的工坊</h3>
         <p>
-          欢迎来到「良之世界」。我是<strong>良之</strong>，一名「思想助产士」，也是 <strong>Phaenarete Project（菲娜睿特计划）</strong>的发起者。
+          欢迎来到「良之世界」。我是<strong>良之</strong>，一名「思想助产士」，也是 <a href="https://phaenarete-project.github.io/Maieutica/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Phaenarete Project（菲娜睿特计划）</a>的发起者。
         </p>
         <p>
           这不是一份官方登记的职业，而是源于生命深处的召唤。我愿成为你思想觉醒之路的同行者，亦愿成为人类智识探索的铺路石——不为提供标准答案，而是通过严谨而深邃的对话与协作，协助个体辨识思想主权，协助科学孕育真理。
@@ -57,7 +57,7 @@ export default function About() {
           <li><strong>对话预约</strong>：请通过邮件联系 <strong>contact@liang.world</strong>，并在来信中简要描述你所面临的思想困境或希望探讨的议题。我们将在收到邮件后与你沟通后续安排。</li>
         </ul>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">🚀 轨迹 B：Phaenarete Project（菲娜睿特计划）</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">🚀 轨迹 B：<a href="https://phaenarete-project.github.io/Maieutica/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Phaenarete Project（菲娜睿特计划）</a></h4>
         <p>
           这是面向未来的宏大实验。我们正集结全球顶尖数学力量（包括 <strong>希尔伯特问题解决者</strong> 与 <strong>多国科学院院士</strong>），构建 <strong>Maieutica Framework</strong>，试图攻克黎曼猜想等百年难题。
         </p>
