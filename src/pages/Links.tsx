@@ -9,14 +9,34 @@ interface Friend {
 
 const friends: Friend[] = [
   {
-    name: '思想助产士',
-    url: 'https://weixin.sogou.com/weixin?type=1&query=思想助产士',
-    description: '【微信公众号】苏格拉底式的精神助产，协助你诞生属于自己的思想。',
+    name: 'Phaenarete Project · Maieutica Framework',
+    url: 'https://phaenarete-project.github.io/Maieutica/',
+    description: 'AI for the Riemann Hypothesis：以“苏格拉底助产术”为范式的人机协同数学研究计划。',
   },
   {
-    name: '哲思锻造坊',
-    url: 'https://weixin.sogou.com/weixin?type=1&query=哲思锻造坊',
-    description: '【微信公众号】哲学不是避难所，而是锻造场。在此锤炼思维，直面生活。',
+    name: 'Renaissance Philanthropy · AI for Math Fund',
+    url: 'https://www.renaissancephilanthropy.org/ai-for-math-fund',
+    description: 'AI for Math Fund 的发起与运营机构官网（基金信息与资助项目入口）。',
+  },
+  {
+    name: 'Stanford University',
+    url: 'https://www.stanford.edu/',
+    description: 'Phaenarete Project 团队成员所在高校之一。',
+  },
+  {
+    name: 'University College London (UCL)',
+    url: 'https://www.ucl.ac.uk/',
+    description: 'Phaenarete Project 团队成员所在高校之一。',
+  },
+  {
+    name: 'Chinese Academy of Sciences (CAS)',
+    url: 'https://english.cas.cn/',
+    description: '中国科学院官网（团队学术顾问所在机构之一）。',
+  },
+  {
+    name: 'Russian Academy of Sciences (RAS)',
+    url: 'https://www.ras.ru/?lng=en',
+    description: '俄罗斯科学院官网（团队学术顾问所在机构之一）。',
   },
   {
     name: 'Aeon',
@@ -70,8 +90,8 @@ export default function Links() {
     <div className="max-w-4xl mx-auto">
       <Helmet>
         <title>友链 | 良之世界</title>
-        <meta name="description" content="良之世界的友情链接，包含【思想助产士】与【哲思锻造坊】微信公众号入口。" />
-        <meta name="keywords" content="友情链接, 思想助产士, 哲思锻造坊, 哲学资源, 学术导航" />
+        <meta name="description" content="良之世界的友情链接：研究机构、学术资源与Phaenarete Project相关入口。" />
+        <meta name="keywords" content="友情链接, Phaenarete Project, AI for Math Fund, Stanford, UCL, CAS, RAS, 学术资源" />
       </Helmet>
       
       <h1 className="text-3xl font-bold text-gray-900 mb-8">友情链接 / Friends</h1>
