@@ -44,6 +44,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/why-we-charge-at-riemann-hypothesis-in-2026</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/what-is-philosophy</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -74,6 +80,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/survival-guide-after-civilization-collapse</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/stock-return-secrets</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -98,6 +110,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/seven-virtues-of-the-north-star</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/scarce-resources-2026</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -118,6 +136,12 @@
   <url>
     <loc>https://liang.world/posts/questioning-infinite-touching-eternity</loc>
     <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/psycholinguistics-and-relational-dynamics</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -158,6 +182,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/phaenarete-project-methodology-and-milestones</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/mr-youshan-analysis</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -166,6 +196,12 @@
   <url>
     <loc>https://liang.world/posts/moral-philosophy-in-complex-world</loc>
     <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/meta-language-and-ladder-of-being</loc>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -236,6 +272,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/ai-reshapes-mathematics-research-paradigm</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/ai-defense-lacanian-dialogue</loc>
     <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -286,6 +328,12 @@
   <url>
     <loc>https://liang.world/weekly/issue-2</loc>
     <lastmod>2026-01-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/weekly/issue-11</loc>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

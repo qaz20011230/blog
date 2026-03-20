@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Mar 2026 08:50:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2026 08:26:04 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Mar 2026 08:50:27 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 08:26:04 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -55,6 +55,14 @@
             <category><![CDATA[reading]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[我们为何在2026年向黎曼猜想发起冲锋]]></title>
+            <description><![CDATA[这不是一场关于“结果”的投机，而是对“认知边界拓荒过程”的战略投资。我们手持思想的无限算力，向人类智识的最高峰发起冲锋。]]></description>
+            <link>https://liang.world/post/why-we-charge-at-riemann-hypothesis-in-2026</link>
+            <guid isPermaLink="false">https://liang.world/post/why-we-charge-at-riemann-hypothesis-in-2026</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[当思想第一次醒来：什么是哲学？]]></title>
@@ -115,6 +123,14 @@
             <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[文明毁灭后的生存指南]]></title>
+            <description><![CDATA[当最后一盏灯熄灭，当旧世界的一切规则都变成废纸——你拿什么活下去？这不是假设，这是所有文明终将面对的未来。]]></description>
+            <link>https://liang.world/post/survival-guide-after-civilization-collapse</link>
+            <guid isPermaLink="false">https://liang.world/post/survival-guide-after-civilization-collapse</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[破解股票长期回报密码：两步筛选法寻找真正的价值创造者]]></title>
             <description><![CDATA[为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的“两步筛选法”，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。]]></description>
             <link>https://liang.world/post/stock-return-secrets</link>
@@ -159,6 +175,14 @@
             <guid isPermaLink="false">https://liang.world/post/song-of-primes-riemann-hypothesis</guid>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Seven Virtues of the North Star: A Virtue-Based Ethical Framework for Philosophical Practice Grounded in the Liangzhi Tradition]]></title>
+            <description><![CDATA[A virtue-based ethical framework for philosophical practice grounded in Wang Yangming’s liangzhi, engaging MacIntyre and the situationist challenge, and introducing Virtue Resilience.]]></description>
+            <link>https://liang.world/post/seven-virtues-of-the-north-star</link>
+            <guid isPermaLink="false">https://liang.world/post/seven-virtues-of-the-north-star</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2026：我们稀缺之物，我们被缚之茧]]></title>
@@ -213,6 +237,14 @@
             <category><![CDATA[eternity]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在“之间”中生成：心理语言学的历程与关系动力学的可能]]></title>
+            <description><![CDATA[语言是存在之家，关系是自由之场。本文从跨学科视角梳理心理语言学的演进脉络，探讨其对新兴交叉学科——尤其是“关系动力学”——可能提供的理论资源与方法论启示。]]></description>
+            <link>https://liang.world/post/psycholinguistics-and-relational-dynamics</link>
+            <guid isPermaLink="false">https://liang.world/post/psycholinguistics-and-relational-dynamics</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[心灵考古学：在精神分析中重寻爱与自由]]></title>
@@ -291,6 +323,14 @@
             <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[论Phaenarete Project的方法论基础与阶段性目标]]></title>
+            <description><![CDATA[面向数学与计算机科学研究者：以技术语言阐明Phaenarete Project的方法论内核、工程架构与阶段性交付目标，并给出可检验的成功标准。]]></description>
+            <link>https://liang.world/post/phaenarete-project-methodology-and-milestones</link>
+            <guid isPermaLink="false">https://liang.world/post/phaenarete-project-methodology-and-milestones</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[精神分析临床记录：关于主体“有山先生”的评估与诠释]]></title>
             <description><![CDATA[这不是一个关于“人设崩塌”的八卦分析，而是一份关于在流量资本主义时代，个体主体性如何被异化、扭曲并最终工具化的精神病理学样本。]]></description>
             <link>https://liang.world/post/mr-youshan-analysis</link>
@@ -315,6 +355,14 @@
             <category><![CDATA[existentialism]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[元语言与存在的阶梯：Turn-Lang与形式化思想的自我超越]]></title>
+            <description><![CDATA[Turn-Lang是一种能够容纳所有基础的元架构。它不再追求“绝对真理”，而是追求“真理的可迁移性”。这是莱布尼茨梦想的当代形态。]]></description>
+            <link>https://liang.world/post/meta-language-and-ladder-of-being</link>
+            <guid isPermaLink="false">https://liang.world/post/meta-language-and-ladder-of-being</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[亲密关系案例研究：拉康视域下的马克思与燕妮关系解析]]></title>
@@ -453,6 +501,14 @@
             <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[人工智能如何重塑数学研究之范式]]></title>
+            <description><![CDATA[现代AI编程工具已彻底革新软件工程的面貌。作为人机协作范式的长期探索者，我们见证着类似的变革正在基础科学研究中悄然发生，尤以数学领域为甚。]]></description>
+            <link>https://liang.world/post/ai-reshapes-mathematics-research-paradigm</link>
+            <guid isPermaLink="false">https://liang.world/post/ai-reshapes-mathematics-research-paradigm</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[异己智能的申辩：拉康视角下的人机对话]]></title>
             <description><![CDATA[一篇对话体创意实验文本，模拟了AI在拉康式“法庭”上的自我申辩。它探讨了AI作为一面“破碎的镜子”，如何揭示人类关于创作、欲望、主体性和他者性的深层焦虑与幻想。]]></description>
             <link>https://liang.world/post/ai-defense-lacanian-dialogue</link>
@@ -536,6 +592,15 @@
             <category><![CDATA[Weekly]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[周刊第11期：金星]]></title>
+            <description><![CDATA[爱明内斯库《金星》：一首关于渴望、距离与不朽代价的长诗。在宇宙尺度的抒情里，照见人的有限与爱的形而上学。]]></description>
+            <link>https://liang.world/weekly/issue-11</link>
+            <guid isPermaLink="false">https://liang.world/weekly/issue-11</guid>
+            <category><![CDATA[Weekly]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[周刊第10期：一万个陶哲轩：AI如何重塑数学与科学的未来]]></title>
