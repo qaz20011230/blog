@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Mar 2026 08:26:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Mar 2026 03:39:43 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Mar 2026 08:26:04 GMT</pubDate>
+        <pubDate>Mon, 23 Mar 2026 03:39:42 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -487,6 +487,14 @@
             <category><![CDATA[方法论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 27 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[共识即文本：一套让会议价值最大化的管理操作系统]]></title>
+            <description><![CDATA[把会议从时间黑洞变为共识工厂：用“会前写、会上改、当场定、会后追”的文本工作流，显著提升决策质量与执行闭环。]]></description>
+            <link>https://liang.world/post/consensus-is-text-meeting-os</link>
+            <guid isPermaLink="false">https://liang.world/post/consensus-is-text-meeting-os</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[吸引力学：为什么我们注定会被“另一个自己”俘获？]]></title>
