@@ -254,3 +254,7 @@ Broughan第三卷（第11章，例8）给出一个有趣的条件性结论：
 > **参考文献提示**：本文主要基于以下公开资料：Broughan (2017) 《Equivalents of the Riemann Hypothesis》三卷本；Polymath15 (2019) 《Effective approximation of the de Bruijn–Newman constant》；Matiyasevich (2022) 《A compact diophantine representation of the Riemann hypothesis》；Moroz & Norkin (2020) 《On the Diophantine representation of the Riemann hypothesis》；以及2025年的预印本（arXiv:2508.xxxxx，待验证）。
 
 （下篇完，正文约 10,500 字）
+
+---
+
+*二〇二六年清明写于羊城云汐谷*
