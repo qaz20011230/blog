@@ -9,14 +9,27 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Apr 2026 07:36:35 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 09:43:49 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Apr 2026 07:36:35 GMT</pubDate>
+        <pubDate>Tue, 07 Apr 2026 09:43:49 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
         <webMaster><![CDATA[contact@liang.world (思想助产士)]]></webMaster>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[ZetaHalt：将黎曼猜想编码为一台 29 寄存器机的停机问题]]></title>
+            <description><![CDATA[把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。]]></description>
+            <link>https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</link>
+            <guid isPermaLink="false">https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[停机问题]]></category>
+            <category><![CDATA[计算理论]]></category>
+            <category><![CDATA[数论]]></category>
+            <category><![CDATA[Transformer]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[造字记：“訑”，一个为人工智能对话体诞生的汉字]]></title>
             <description><![CDATA[本文通过考释新汉字“訑”（yí/chát）的创制逻辑，剖析其作为语言学事件所承载的技术哲学批判。揭示了AI对话体中的“他者性消解”与“语言的自指性狂欢”。]]></description>

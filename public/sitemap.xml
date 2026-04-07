@@ -26,6 +26,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/zetahalt-riemann-29-register-machine-halting-transformer</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/posts/yi-character-creation</loc>
     <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
