@@ -350,6 +350,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://liang.world/posts/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://liang.world/posts/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://liang.world/weekly/issue-9</loc>
     <lastmod>2026-02-11</lastmod>
     <changefreq>weekly</changefreq>

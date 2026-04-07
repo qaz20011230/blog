@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Apr 2026 09:43:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 12:42:17 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Apr 2026 09:43:49 GMT</pubDate>
+        <pubDate>Tue, 07 Apr 2026 12:42:17 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -714,6 +714,30 @@
             <category><![CDATA[流通]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21世纪黎曼猜想研究蓝图：可计算路径与算术不等式攻势]]></title>
+            <description><![CDATA[梳理黎曼猜想的等价条件，评估Π₁⁰算术不等式（如Robin准则）的计算可行性，并提出一个分布式验证的十年研究计划。]]></description>
+            <link>https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</link>
+            <guid isPermaLink="false">https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[数论]]></category>
+            <category><![CDATA[计算理论]]></category>
+            <category><![CDATA[算法]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[21世纪黎曼猜想研究蓝图：解析常数、谱与元数学的幽深之境]]></title>
+            <description><![CDATA[深入探讨黎曼猜想的非计算等价条件，包括de Bruijn–Newman常数、Hilbert–Pólya谱理论、丢番图表示及元数学的逻辑独立性问题。]]></description>
+            <link>https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics</link>
+            <guid isPermaLink="false">https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[数论]]></category>
+            <category><![CDATA[元数学]]></category>
+            <category><![CDATA[谱理论]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[周刊第9期：“导演”已死？当AI开始梦见电影]]></title>
