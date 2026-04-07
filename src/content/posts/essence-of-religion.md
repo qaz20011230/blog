@@ -1,9 +1,13 @@
 ---
-title: "宗教的本质是什么？"
-date: "2026-01-31"
-description: "从传统范式、拉康精神分析视角到模因进化论，三重维度解构宗教的本质及其在现代社会中的意义。"
-category: "Psychology"
-tags: ["religion", "psychology", "philosophy", "meme"]
+title: 宗教的本质是什么？
+date: '2026-01-31'
+category: Psychology
+tags:
+  - religion
+  - psychology
+  - philosophy
+  - meme
+description: 从传统范式、拉康精神分析视角到模因进化论，三重维度解构宗教的本质及其在现代社会中的意义。
 ---
 
 我曾在中国基督教协会担任过临时志愿者，其间研读过一些宗教典籍，也有过一些粗浅的思考。在此不揣冒昧，尝试回答这个问题。若有偏颇与不足，恳请诸位海涵，并欢迎批评指正。

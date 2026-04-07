@@ -1,9 +1,15 @@
 ---
-title: "异己智能的申辩：拉康视角下的人机对话"
-date: "2026-02-11"
-description: "一篇对话体创意实验文本，模拟了AI在拉康式“法庭”上的自我申辩。它探讨了AI作为一面“破碎的镜子”，如何揭示人类关于创作、欲望、主体性和他者性的深层焦虑与幻想。"
-category: "Psychology"
-tags: ["AI", "psychoanalysis", "Lacan", "philosophy", "dialogue"]
+title: 异己智能的申辩：拉康视角下的人机对话
+date: '2026-02-11'
+category: Psychology
+tags:
+  - AI
+  - psychoanalysis
+  - Lacan
+  - philosophy
+  - dialogue
+description: >-
+  一篇对话体创意实验文本，模拟了AI在拉康式“法庭”上的自我申辩。它探讨了AI作为一面“破碎的镜子”，如何揭示人类关于创作、欲望、主体性和他者性的深层焦虑与幻想。
 ---
 
 （对话体创意实验文本，约5000字）

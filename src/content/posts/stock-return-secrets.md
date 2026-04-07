@@ -1,9 +1,14 @@
 ---
-title: "破解股票长期回报密码：两步筛选法寻找真正的价值创造者"
-date: "2026-02-12"
-description: "为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的“两步筛选法”，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。"
-category: "Ecommerce"
-tags: ["investment", "stock-market", "financial-analysis", "ROE", "value-investing"]
+title: 破解股票长期回报密码：两步筛选法寻找真正的价值创造者
+date: '2026-02-12'
+category: Ecommerce
+tags:
+  - investment
+  - stock-market
+  - financial-analysis
+  - ROE
+  - value-investing
+description: 为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的“两步筛选法”，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。
 ---
 
 > 每年创造近千亿美元自由现金流，同时进行千亿美元股票回购，苹果公司用财务数据揭示了优秀企业的标准配置。

@@ -1,9 +1,11 @@
 ---
-title: "The Basics of Logic"
-date: "2024-05-22"
-description: "An introduction to logical reasoning and why it matters."
-category: "Logic"
-tags: ["logic", "reasoning"]
+title: The Basics of Logic
+date: '2024-05-22'
+category: Logic
+tags:
+  - logic
+  - reasoning
+description: An introduction to logical reasoning and why it matters.
 ---
 
 # What is Logic?

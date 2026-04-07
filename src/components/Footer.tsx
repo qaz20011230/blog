@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Twitter, Mail, Rss } from 'lucide-react';
+import SiteStats from './SiteStats';
 
 export default function Footer() {
   return (
@@ -10,6 +11,9 @@ export default function Footer() {
             <p className="text-gray-500 text-sm">
               &copy; {new Date().getFullYear()} 良之世界 (Liang World). All rights reserved.
             </p>
+            <div className="mt-2">
+              <SiteStats />
+            </div>
           </div>
           
           <div className="flex space-x-6">

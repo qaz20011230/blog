@@ -1,9 +1,8 @@
 ---
 title: 我懂你：不可使用的安慰指北
 author: 未知
-coverImage: 
 description: 心理学书籍，关于如何安慰他人。
-publishDate: 2026-03-03
+publishDate: '2026-03-03'
 downloadUrl: /books/wo-dong-ni.pdf
 ---
 

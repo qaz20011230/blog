@@ -1,8 +1,13 @@
 ---
-title: "The Seven Virtues of the North Star: A Virtue-Based Ethical Framework for Philosophical Practice Grounded in the Liangzhi Tradition"
-date: "2026-03-19"
-category: "Philosophy"
-description: "A virtue-based ethical framework for philosophical practice grounded in Wang Yangming’s liangzhi, engaging MacIntyre and the situationist challenge, and introducing Virtue Resilience."
+title: >-
+  The Seven Virtues of the North Star: A Virtue-Based Ethical Framework for
+  Philosophical Practice Grounded in the Liangzhi Tradition
+date: '2026-03-19'
+category: Philosophy
+description: >-
+  A virtue-based ethical framework for philosophical practice grounded in Wang
+  Yangming’s liangzhi, engaging MacIntyre and the situationist challenge, and
+  introducing Virtue Resilience.
 ---
 
 **Ang Li**

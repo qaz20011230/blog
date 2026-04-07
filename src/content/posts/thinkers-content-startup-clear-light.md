@@ -1,8 +1,8 @@
 ---
-title: "思想者的内容创业：CLEAR & LIGHT 个人IP系统搭建指南"
-date: "2026-03-13"
-category: "E-Commerce"
-description: "一套给思想者的内容创业哲学，包含CLEAR内容工程学框架和LIGHT创作者心法。"
+title: 思想者的内容创业：CLEAR & LIGHT 个人IP系统搭建指南
+date: '2026-03-13'
+category: Ecommerce
+description: 一套给思想者的内容创业哲学，包含CLEAR内容工程学框架和LIGHT创作者心法。
 ---
 
 ## 引言：一个悖论

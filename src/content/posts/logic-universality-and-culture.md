@@ -1,9 +1,15 @@
 ---
-title: "逻辑的普遍之光与文化的丰厚土壤——与Christopher W. Tindale教授商榷“理性的可公度性”"
-date: "2026-03-10"
-description: "本文从世界古代三大逻辑传统出发，提出“逻辑形式—文化负载”二重区分框架，以贝叶斯认知模型重构Tindale教授的论证，主张在承认文化多样性的同时捍卫逻辑有效性的普遍标准。"
-category: "Logic"
-tags: ["logic", "philosophy", "cross-cultural", "argumentation-theory", "mohism"]
+title: 逻辑的普遍之光与文化的丰厚土壤——与Christopher W. Tindale教授商榷“理性的可公度性”
+date: '2026-03-10'
+category: Logic
+tags:
+  - logic
+  - philosophy
+  - cross-cultural
+  - argumentation-theory
+  - mohism
+description: >-
+  本文从世界古代三大逻辑传统出发，提出“逻辑形式—文化负载”二重区分框架，以贝叶斯认知模型重构Tindale教授的论证，主张在承认文化多样性的同时捍卫逻辑有效性的普遍标准。
 ---
 
 ### 摘要

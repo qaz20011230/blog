@@ -1,9 +1,13 @@
 ---
-title: "在赛博空间开辟了【良的世界】"
-date: "2025-12-24"
-description: "Welcome to my personal corner of the internet where I share thoughts on philosophy, psychology, and more."
-category: "Philosophy"
-tags: ["intro", "life"]
+title: 在赛博空间开辟了【良的世界】
+date: '2025-12-24'
+category: Philosophy
+tags:
+  - intro
+  - life
+description: >-
+  Welcome to my personal corner of the internet where I share thoughts on
+  philosophy, psychology, and more.
 ---
 
 # Welcome to Liang World

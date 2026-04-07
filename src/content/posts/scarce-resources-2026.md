@@ -1,9 +1,14 @@
 ---
-title: "2026：我们稀缺之物，我们被缚之茧"
-date: "2026-02-02"
-description: "2026年的中国，真正的稀缺不再是物质短少，而是一种结构性的错配与张力。从关键矿产到数字人才，从确定性崩塌到价值创造悖论，我们如何破茧而出？"
-category: "Ecommerce"
-tags: ["ecommerce", "macro-economy", "resource-scarcity", "digital-economy", "future-trends"]
+title: 2026：我们稀缺之物，我们被缚之茧
+date: '2026-02-02'
+category: Ecommerce
+tags:
+  - ecommerce
+  - macro-economy
+  - resource-scarcity
+  - digital-economy
+  - future-trends
+description: 2026年的中国，真正的稀缺不再是物质短少，而是一种结构性的错配与张力。从关键矿产到数字人才，从确定性崩塌到价值创造悖论，我们如何破茧而出？
 ---
 
 近来翻看时论，满纸都是“突破”、“增长”、“机遇”，仿佛盛世就在指尖。然而夜深翻检，却从那耀眼的字缝里，看出字来，满本都写着两个字，是 **“稀缺”** 。

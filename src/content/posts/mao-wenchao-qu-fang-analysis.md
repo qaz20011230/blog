@@ -1,9 +1,15 @@
 ---
-title: "亲密关系案例研究之五：镜中之镜——拉康视域下的毛文超与瞿芳关系解析"
-date: "2026-02-11"
-description: "本文借用拉康精神分析理论，剖析小红书创始人毛文超与瞿芳的关系。论证他们并非简单的商业搭档，而是数字资本主义时代下，由“双重镜像”构建的、旨在捕捉并驯化“她者”欲望的符号机器。"
-category: "Psychology"
-tags: ["intimacy-analysis", "psychoanalysis", "Lacan", "LittleRedBook", "entrepreneurship"]
+title: 亲密关系案例研究之五：镜中之镜——拉康视域下的毛文超与瞿芳关系解析
+date: '2026-02-11'
+category: Psychology
+tags:
+  - intimacy-analysis
+  - psychoanalysis
+  - Lacan
+  - LittleRedBook
+  - entrepreneurship
+description: >-
+  本文借用拉康精神分析理论，剖析小红书创始人毛文超与瞿芳的关系。论证他们并非简单的商业搭档，而是数字资本主义时代下，由“双重镜像”构建的、旨在捕捉并驯化“她者”欲望的符号机器。
 ---
 
 > [!题记]

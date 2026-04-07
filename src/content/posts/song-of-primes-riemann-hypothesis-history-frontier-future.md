@@ -1,14 +1,21 @@
 ---
-title: "素数之歌：黎曼猜想的历史、前沿与未来"
-date: "2026-03-14"
-category: "Logic"
-description: "一份系统性的综述：从黎曼1859年的八页论文，到最新的突破；从经典分析方法，到现代谱论与AI辅助；从纯数学的内部逻辑，到跨学科的哲学思考。"
+title: 素数之歌：黎曼猜想的历史、前沿与未来
+date: '2026-03-14'
+category: Logic
+tags:
+  - 数学
+  - 黎曼猜想
+  - 解析数论
+  - 人工智能
+description: >-
+  If you could be the Devil and offer a mathematician to sell his soul for the
+  proof of one theorem — what theorem would m…
 ---
+作者：良之
 
 > If you could be the Devil and offer a mathematician to sell his soul for the proof of one theorem — what theorem would most mathematicians ask for? I think it would be the Riemann Hypothesis.
 > 
 > —— H. Montgomery
-
 ---
 ## 序章：北辰之光
 
@@ -125,7 +132,7 @@ $$
 $$
 N(\sigma,T) \ll T^{\frac{30(1-\sigma)}{13} + \varepsilon},\quad \sigma \ge 1/2.
 $$
-这里$N(\sigma,T)$是实部$\ge\sigma$、虚部不超过$T$的零点个数。以前的Ingham估计指数为$$\frac{3-2\sigma}{2-2\sigma}$$而Guth–Maynard将其降为$$\frac{30(1-\sigma)}{13}$$当$\sigma$接近$\frac{1}{2}$时，新指数远小于旧指数，意味着在远离临界线的区域内零点非常稀疏。
+这里$N(\sigma,T)$是实部$\ge\sigma$、虚部不超过$T$的零点个数。以前的Ingham估计指数为$\frac{3-2\sigma}{2-2\sigma}$而Guth–Maynard将其降为$\frac{30(1-\sigma)}{13}$。当$\sigma$接近$1/2$时，新指数远小于旧指数，意味着在远离临界线的区域内零点非常稀疏。
 
 这一突破的技术核心是“解耦”技术——一种来自调和分析的方法。他们不是逐点估计狄利克雷多项式，而是将它们分解为几乎正交的分量，再用$L^2$范数整体控制。陶哲轩评论道：“前面几步是标准的，许多尝试突破Ingham界的人，包括我自己，都认得出来。但接下来，Maynard和Guth做了一系列巧妙而意外的操作。”
 
@@ -287,11 +294,11 @@ AI或许不会直接证明黎曼猜想，但它可能在以下方面发挥关键
 
 ## 附录A：关键公式
 
-### A.1 黎曼ζ函数定义与延拓
+### A.1 黎曼$\zeta$函数定义与延拓
 $$
 \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s},\quad \Re(s)>1
 $$
-解析延拓至整个复平面（除 \(s=1\) 外）：
+解析延拓至整个复平面（除 $s=1$ 外）：
 $$
 \pi^{-s/2}\Gamma(s/2)\zeta(s) = \pi^{-(1-s)/2}\Gamma((1-s)/2)\zeta(1-s).
 $$

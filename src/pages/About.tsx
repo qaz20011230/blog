@@ -4,7 +4,8 @@ import { Mail } from 'lucide-react';
 export default function About() {
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">关于我 / About Me</h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-2">关于 / About</h1>
+      <p className="text-sm text-gray-500 mb-8">广州菲娜睿特人工智能科技有限责任公司创始人（Phaenarete AI Founder）</p>
       
       <div className="prose prose-lg prose-slate mb-8">
         <h3 className="text-xl font-bold mt-6 mb-4">良之世界：思想助产与科学探索的工坊</h3>
@@ -12,7 +13,7 @@ export default function About() {
           欢迎来到「良之世界」。我是<strong>良之</strong>，一名「思想助产士」，也是 <a href="https://phaenarete-project.github.io/Maieutica/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Phaenarete Project（菲娜睿特计划）</a>的发起者。
         </p>
         <p>
-          这不是一份官方登记的职业，而是源于生命深处的召唤。我愿成为你思想觉醒之路的同行者，亦愿成为人类智识探索的铺路石——不为提供标准答案，而是通过严谨而深邃的对话与协作，协助个体辨识思想主权，协助科学孕育真理。
+          这不是一份官方登记的职业，而是源于生命深处的使命与召唤。我愿成为你思想觉醒之路的同行者，亦愿成为人类智识探索的铺路石——不为提供标准答案，而是通过严谨而深邃的对话与协作，协助个体辨识思想主权，协助科学孕育真理。
         </p>
         <blockquote className="border-l-4 border-gray-200 pl-4 italic my-4">
           <p><strong>“我不生产真理，我只助产真理。”</strong></p>
@@ -21,7 +22,7 @@ export default function About() {
         
         <h3 className="text-xl font-bold mt-6 mb-4">一、三重根：我之所从来</h3>
         <p>
-          我的视角由三条线索交织而成，它们共同构成了 Phaenarete Project 的底层逻辑：
+          我的视角由三条线索交织而成，它们共同构成了我实践的底层逻辑：
         </p>
         <ul className="list-disc pl-5 space-y-2">
           <li>
@@ -30,7 +31,7 @@ export default function About() {
           </li>
           <li>
             <strong>叩问之志（哲学训练）</strong>：
-            在哲学践行研究所等机构的长期浸润，让我在现象学、精神分析与古典思想的深处，养成了穿透表象、追问本质的习惯。每一次发问，都旨在触及事物底层的逻辑与真实的意义。
+            在欧洲一所知名研究型大学深造哲学，并在哲学践行研究所等机构的长期浸润，让我在现象学、精神分析与古典思想的深处，养成了穿透表象、追问本质的习惯。每一次发问，都旨在触及事物底层的逻辑与真实的意义。
           </li>
           <li>
             <strong>跨界之历（生命实感）</strong>：
