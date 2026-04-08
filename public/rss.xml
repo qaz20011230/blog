@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Apr 2026 13:27:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Apr 2026 09:15:33 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Apr 2026 13:27:07 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 09:15:32 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -289,6 +289,30 @@
             <category><![CDATA[技术思考]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[关系的遗忘与回归：西方哲学史的一次诊断性重构（中）]]></title>
+            <description><![CDATA[现象学运动是西方哲学对关系的第一声呼唤。本篇追踪胡塞尔、海德格尔、萨特与梅洛-庞蒂的思想轨迹，探讨他们在突破实体形而上学、走向关系本体论过程中的贡献与内在张力。]]></description>
+            <link>https://liang.world/post/relational-oblivion-and-return-part-2</link>
+            <guid isPermaLink="false">https://liang.world/post/relational-oblivion-and-return-part-2</guid>
+            <category><![CDATA[关系动力学]]></category>
+            <category><![CDATA[哲学史]]></category>
+            <category><![CDATA[本体论]]></category>
+            <category><![CDATA[现象学]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[关系的遗忘与回归：西方哲学史的一次诊断性重构（上）]]></title>
+            <description><![CDATA[西方哲学追问“存在”两千余年，却系统性地遗忘了“之间”。本文通过思想史的诊断性考察，揭示实体中心论如何塑造了我们对自我、他人与世界的理解，并追问通往关系动力学的道路。]]></description>
+            <link>https://liang.world/post/relational-oblivion-and-return-part-1</link>
+            <guid isPermaLink="false">https://liang.world/post/relational-oblivion-and-return-part-1</guid>
+            <category><![CDATA[关系动力学]]></category>
+            <category><![CDATA[哲学史]]></category>
+            <category><![CDATA[本体论]]></category>
+            <category><![CDATA[现象学]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[关系动力学：一种关于人类连接随时间演化的数学与伦理架构]]></title>
