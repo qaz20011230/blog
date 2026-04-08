@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Apr 2026 12:39:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Apr 2026 14:01:44 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Apr 2026 12:39:06 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 14:01:44 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -29,6 +29,19 @@
             <category><![CDATA[Transformer]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[基于零信任假设的身份认证链路鲁棒性研究——以模拟数字身份全生命周期为受控实验]]></title>
+            <description><![CDATA[本文在零信任假设下构建受控实验平台，量化评估现行身份认证链路抵御系统性内部伪造的鲁棒性阈值，揭示内部威胁对跨系统身份链的脆弱性影响。]]></description>
+            <link>https://liang.world/post/zero-trust-identity-authentication-robustness</link>
+            <guid isPermaLink="false">https://liang.world/post/zero-trust-identity-authentication-robustness</guid>
+            <category><![CDATA[零信任架构]]></category>
+            <category><![CDATA[数字身份]]></category>
+            <category><![CDATA[身份认证]]></category>
+            <category><![CDATA[网络安全]]></category>
+            <category><![CDATA[受控实验]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[造字记：“訑”，一个为人工智能对话体诞生的汉字]]></title>
