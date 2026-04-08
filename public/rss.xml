@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Apr 2026 09:15:33 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Apr 2026 09:51:33 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Apr 2026 09:15:32 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 09:51:32 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -289,6 +289,18 @@
             <category><![CDATA[技术思考]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[关系的遗忘与回归：西方哲学史的一次诊断性重构（下）]]></title>
+            <description><![CDATA[本文为《关系的遗忘与回归》下篇，深入诊断西方哲学两千年来对关系保持沉默的形而上学根源，剖析当代技术社会中关系被算法量化所导致的深刻异化，并最终提出“关系动力学”作为回应的理论纲领。]]></description>
+            <link>https://liang.world/post/relational-oblivion-and-return-part-3</link>
+            <guid isPermaLink="false">https://liang.world/post/relational-oblivion-and-return-part-3</guid>
+            <category><![CDATA[关系动力学]]></category>
+            <category><![CDATA[哲学史]]></category>
+            <category><![CDATA[本体论]]></category>
+            <category><![CDATA[当代异化]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[关系的遗忘与回归：西方哲学史的一次诊断性重构（中）]]></title>
