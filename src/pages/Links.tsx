@@ -9,75 +9,20 @@ interface Friend {
 
 const friends: Friend[] = [
   {
-    name: 'Phaenarete Project · Maieutica Framework',
+    name: 'Phaenarete Project',
     url: 'https://phaenarete-project.github.io/Maieutica/',
-    description: 'AI for the Riemann Hypothesis：以“苏格拉底助产术”为范式的人机协同数学研究计划。',
+    description: '人类与 AI 协作直指黎曼假设的宏大工程。',
   },
   {
-    name: 'Renaissance Philanthropy · AI for Math Fund',
-    url: 'https://www.renaissancephilanthropy.org/ai-for-math-fund',
-    description: 'AI for Math Fund 的发起与运营机构官网（基金信息与资助项目入口）。',
+    name: 'Alibaba Group',
+    url: 'https://www.alibabagroup.com/',
+    description: '阿里巴巴集团（曾任 CTO，领导全球最大 B2B 电商平台技术战略）。',
   },
   {
-    name: 'Stanford University',
-    url: 'https://www.stanford.edu/',
-    description: 'Phaenarete Project 团队成员所在高校之一。',
-  },
-  {
-    name: 'University College London (UCL)',
-    url: 'https://www.ucl.ac.uk/',
-    description: 'Phaenarete Project 团队成员所在高校之一。',
-  },
-  {
-    name: 'Chinese Academy of Sciences (CAS)',
-    url: 'https://english.cas.cn/',
-    description: '中国科学院官网（团队学术顾问所在机构之一）。',
-  },
-  {
-    name: 'Russian Academy of Sciences (RAS)',
-    url: 'https://www.ras.ru/?lng=en',
-    description: '俄罗斯科学院官网（团队学术顾问所在机构之一）。',
-  },
-  {
-    name: 'IPP',
-    url: 'http://www.pratiques-philosophiques.fr/',
-    description: 'Institut de Pratiques Philosophiques，我作为咨询师受训的机构。',
-  },
-  {
-    name: 'APPA',
-    url: 'https://appa.edu/',
-    description: '美国哲学从业者协会，致力于推动哲学咨询与实践的专业化发展。',
-  },
-  {
-    name: 'IEP',
-    url: 'https://iep.utm.edu/',
-    description: '互联网哲学百科全书，提供高质量、同行评审的哲学学术资源。',
-  },
-  {
-    name: 'SEP',
-    url: 'https://plato.stanford.edu/',
-    description: '斯坦福哲学百科全书，全球最权威的在线哲学参考著作之一。',
-  },
-  {
-    name: 'ICPP',
-    url: 'https://icpp.site/',
-    description: '国际哲学实践大会，连接全球哲学践行者的核心学术平台。',
-  },
-  {
-    name: 'Lacan.com',
-    url: 'https://www.lacan.com/',
-    description: '拉康精神分析网站，汇集了关于雅克·拉康及其学派的深度文献与研究资源。',
-  },
-  {
-    name: 'GDUT',
-    url: 'https://glxy.gdut.edu.cn/',
-    description: '广东工业大学管理学院，我的学术启蒙之地，融合管理科学与人文精神。',
-  },
-  {
-    name: 'Terence Tao',
-    url: 'https://terrytao.wordpress.com/',
-    description: '陶哲轩的博客，数学家，菲尔兹奖得主。',
-  },
+    name: '浙江大学软件学院',
+    url: 'http://www.cst.zju.edu.cn/',
+    description: '2007年起担任电子商务技术系创系主任。',
+  }
 ];
 
 export default function Links() {
