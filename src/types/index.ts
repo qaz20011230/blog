@@ -9,23 +9,3 @@ export interface Post {
   tags: string[];
   content?: string;
 }
-
-export interface Weekly {
-  slug: string;
-  title: string;
-  date: string;
-  issueNumber: number;
-  description: string;
-  content?: string;
-}
-
-export interface Book {
-  slug: string;
-  title: string;
-  author: string;
-  coverImage?: string;
-  description: string;
-  publishDate: string;
-  downloadUrl: string;
-  content?: string;
-}

@@ -1,7 +1,7 @@
 ---
 title: 周刊第1期：甚么是爱？
 date: '2025-12-17'
-issueNumber: 1
+category: "Others"
 description: 近来有人问我甚么是爱。这问题倒很可以谈谈……今日便追本溯源，说几句老实话。爱不是“Love”，爱是Caritas，是慈善。
 ---
 

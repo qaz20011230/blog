@@ -42,24 +42,6 @@ async function generateRSS() {
     });
   }
 
-  // Add weekly issues
-  const weeklyFiles = await glob('src/content/weekly/*.md');
-  for (const file of weeklyFiles) {
-    const content = fs.readFileSync(file, 'utf-8');
-    const { data } = matter(content);
-    const slug = path.basename(file, '.md');
-    
-    feed.item({
-      title: data.title,
-      description: data.description,
-      url: `${BASE_URL}/weekly/${slug}`,
-      guid: `${BASE_URL}/weekly/${slug}`,
-      categories: ['Weekly'],
-      author: '思想助产士',
-      date: data.date,
-    });
-  }
-
   // Sort items by date (descending) is handled by most readers, but let's ensure order if needed
   // RSS package adds items in order, so we might want to sort files first if strict order is needed.
   // For now, glob order is file system dependent, usually fine for build.

@@ -1,7 +1,7 @@
 ---
 title: 周刊第11期：金星
 date: '2026-02-25'
-issueNumber: 11
+category: "Others"
 description: 爱明内斯库《金星》：一首关于渴望、距离与不朽代价的长诗。在宇宙尺度的抒情里，照见人的有限与爱的形而上学。
 ---
 

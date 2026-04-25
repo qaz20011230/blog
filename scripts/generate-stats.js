@@ -76,15 +76,13 @@ async function generateStats() {
   console.log('Generating site stats...');
 
   const posts = await countMarkdownFiles('src/content/posts/*.md');
-  const weekly = await countMarkdownFiles('src/content/weekly/*.md');
 
-  const totalWords = posts.totalWords + weekly.totalWords;
+  const totalWords = posts.totalWords;
   const payload = {
     generatedAt: new Date().toISOString(),
     totalWords,
-    totalFiles: posts.files.length + weekly.files.length,
+    totalFiles: posts.files.length,
     posts: { files: posts.files.length, words: posts.totalWords },
-    weekly: { files: weekly.files.length, words: weekly.totalWords },
   };
 
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
