@@ -8,7 +8,6 @@ import WeeklyDetail from './pages/WeeklyDetail';
 import Books from './pages/Books';
 import Categories from './pages/Categories';
 import About from './pages/About';
-import Links from './pages/Links';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Route path="weekly/:slug" element={<WeeklyDetail />} />
           <Route path="books" element={<Books />} />
           <Route path="categories" element={<Categories />} />
-          <Route path="links" element={<Links />} />
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
