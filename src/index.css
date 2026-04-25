@@ -12,3 +12,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  background-color: #050505;
+  color: #E5E7EB;
+}
+
+::selection {
+  background-color: #002FA7;
+  color: #ffffff;
+}

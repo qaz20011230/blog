@@ -9,22 +9,22 @@ interface PostCardProps {
 
 export default function PostCard({ post }: PostCardProps) {
   return (
-    <article className="group mb-8">
+    <article className="group mb-8 border-b border-gray-900 pb-6 last:border-b-0 hover:bg-gray-900/30 p-4 rounded-lg transition-colors duration-300">
       <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-2">
-        <h2 className="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors">
+        <h2 className="text-xl font-bold text-gray-100 group-hover:text-primary transition-colors">
           <Link to={`/post/${post.slug}`}>
             {post.title}
           </Link>
         </h2>
-        <div className="flex items-center gap-2 text-sm text-gray-500">
+        <div className="flex items-center gap-2 text-sm text-gray-500 font-mono">
           <time dateTime={post.date}>{format(new Date(post.date), 'MMM d, yyyy')}</time>
           <span>&bull;</span>
-          <span className="bg-blue-50 text-primary px-2 py-0.5 rounded text-xs font-medium">
+          <span className="bg-primary/10 text-primary border border-primary/20 px-2 py-0.5 rounded text-xs font-medium uppercase tracking-wider">
             {post.category}
           </span>
         </div>
       </div>
-      <p className="text-gray-600 mb-3 line-clamp-2">
+      <p className="text-gray-400 mb-3 line-clamp-2 leading-relaxed">
         {post.description}
       </p>
     </article>

@@ -81,31 +81,31 @@ export default function BlogDetail() {
       </Helmet>
       <button 
         onClick={() => navigate(-1)} 
-        className="flex items-center text-gray-500 hover:text-gray-900 mb-8 transition-colors"
+        className="flex items-center text-gray-500 hover:text-primary mb-8 transition-colors tracking-widest font-mono text-sm uppercase"
       >
         <ArrowLeft size={16} className="mr-2" />
         Back
       </button>
 
-      <header className="mb-8 border-b border-gray-100 pb-8">
-        <div className="flex flex-wrap gap-2 mb-4">
-          <span className="bg-blue-50 text-primary px-3 py-1 rounded-full text-sm font-medium">
+      <header className="mb-12 border-b border-gray-800 pb-8">
+        <div className="flex flex-wrap gap-3 mb-6">
+          <span className="bg-primary/10 text-primary border border-primary/20 px-3 py-1 rounded text-xs font-mono uppercase tracking-widest">
             {post.category}
           </span>
           {post.tags.map(tag => (
-            <span key={tag} className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm">
+            <span key={tag} className="bg-gray-900 text-gray-400 px-3 py-1 rounded text-xs font-mono">
               #{tag}
             </span>
           ))}
         </div>
         
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+        <h1 className="text-3xl md:text-5xl font-serif font-bold text-gray-100 mb-6 leading-tight">
           {post.title}
         </h1>
 
-        <div className="flex justify-between items-center text-gray-500 text-sm">
+        <div className="flex justify-between items-center text-gray-500 text-sm font-mono tracking-widest">
           <time dateTime={post.date}>
-            {format(new Date(post.date), 'MMMM d, yyyy')}
+            {format(new Date(post.date), 'MMM dd, yyyy')}
           </time>
           
           <button 
@@ -113,13 +113,13 @@ export default function BlogDetail() {
             className="flex items-center gap-2 hover:text-primary transition-colors"
             title="Share this article"
           >
-            <Share2 size={18} />
-            <span className="hidden sm:inline">Share</span>
+            <Share2 size={16} />
+            <span className="hidden sm:inline uppercase">Share</span>
           </button>
         </div>
       </header>
 
-      <div className="prose prose-lg prose-slate max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
+      <div className="prose prose-lg prose-invert prose-slate max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
         <ReactMarkdown 
           remarkPlugins={[remarkGfm, remarkMath]} 
           rehypePlugins={[rehypeRaw, rehypeKatex]}

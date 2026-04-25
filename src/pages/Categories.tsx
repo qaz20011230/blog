@@ -27,16 +27,16 @@ export default function Categories() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">Categories</h1>
+      <h1 className="text-3xl font-bold text-gray-100 mb-8 font-serif tracking-widest">CATEGORIES</h1>
 
-      <div className="flex flex-wrap gap-2 mb-12">
+      <div className="flex flex-wrap gap-3 mb-12">
         <button
           onClick={() => setSelectedCategory('All')}
           className={cn(
-            "px-4 py-2 rounded-full text-sm font-medium transition-colors",
+            "px-4 py-1.5 border text-sm font-mono tracking-widest transition-colors uppercase",
             selectedCategory === 'All'
-              ? "bg-primary text-white"
-              : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+              ? "bg-primary text-white border-primary"
+              : "bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary"
           )}
         >
           All
@@ -46,10 +46,10 @@ export default function Categories() {
             key={category}
             onClick={() => setSelectedCategory(category)}
             className={cn(
-              "px-4 py-2 rounded-full text-sm font-medium transition-colors",
+              "px-4 py-1.5 border text-sm font-mono tracking-widest transition-colors uppercase",
               selectedCategory === category
-                ? "bg-primary text-white"
-                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                ? "bg-primary text-white border-primary"
+                : "bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary"
             )}
           >
             {category}
@@ -57,13 +57,13 @@ export default function Categories() {
         ))}
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-4">
         {filteredPosts.length > 0 ? (
           filteredPosts.map((post) => (
             <PostCard key={post.slug} post={post} />
           ))
         ) : (
-          <p className="text-gray-500 italic">No posts found in this category.</p>
+          <p className="text-gray-500 italic font-mono tracking-widest">No posts found in this category.</p>
         )}
       </div>
     </div>
