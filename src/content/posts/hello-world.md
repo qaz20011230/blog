@@ -1,6 +1,6 @@
 ---
 title: 在赛博空间开辟了【良的世界】
-date: '2025-12-24'
+date: '2020-01-01'
 category: Philosophy
 tags:
   - intro
