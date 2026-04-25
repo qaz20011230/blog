@@ -9,8 +9,10 @@ export default function About() {
       </Helmet>
       
       <div className="space-y-8 py-20">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 tracking-[0.1em]">
-          良之
+        <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 tracking-[0.1em] hover:text-primary transition-colors cursor-pointer">
+          <a href="https://liang.world/cv" target="_blank" rel="noopener noreferrer">
+            良之
+          </a>
         </h1>
         
         <div className="w-12 h-[1px] bg-primary/40 mx-auto"></div>
