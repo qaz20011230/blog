@@ -1,4 +1,4 @@
-export type Category = 'Philosophy' | 'Psychology' | 'Logic' | 'Ecommerce';
+export type Category = 'Philosophy' | 'Psychology' | 'Logic' | 'Ecommerce' | 'Others';
 
 export interface Post {
   slug: string;

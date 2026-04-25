@@ -1,14 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { getAllPosts } from '../lib/content';
 import PostCard from '../components/PostCard';
 import { Category } from '../types';
 import { cn } from '../lib/utils';
 
-const categories: Category[] = ['Philosophy', 'Psychology', 'Logic', 'Ecommerce'];
+const categories: Category[] = ['Philosophy', 'Psychology', 'Logic', 'Ecommerce', 'Others'];
 
 export default function Categories() {
   const allPosts = getAllPosts();
-  const [selectedCategory, setSelectedCategory] = useState<Category | 'All'>('All');
+  const [searchParams] = useSearchParams();
+  const initialCategory = (searchParams.get('category') as Category) || 'All';
+  
+  const [selectedCategory, setSelectedCategory] = useState<Category | 'All'>(initialCategory);
+
+  useEffect(() => {
+    const categoryParam = searchParams.get('category') as Category;
+    if (categoryParam && categories.includes(categoryParam)) {
+      setSelectedCategory(categoryParam);
+    }
+  }, [searchParams]);
 
   const filteredPosts = selectedCategory === 'All' 
     ? allPosts 

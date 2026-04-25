@@ -9,14 +9,21 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Apr 2026 14:01:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Apr 2026 05:53:53 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Apr 2026 14:01:44 GMT</pubDate>
+        <pubDate>Sat, 25 Apr 2026 05:53:52 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
         <webMaster><![CDATA[contact@liang.world (思想助产士)]]></webMaster>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[致善衡容：人生博弈的不败心法]]></title>
+            <description><![CDATA[从阿里B2B的平台治理到Phaenarete项目的人机协作，以囚徒困境与阿克塞尔罗德的计算机锦标赛为引，探讨重复博弈中的致善、持衡、存容与守清四重生存铁律。]]></description>
+            <link>https://liang.world/post/zhi-shan-heng-rong-game-theory</link>
+            <guid isPermaLink="false">https://liang.world/post/zhi-shan-heng-rong-game-theory</guid>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+        </item>
         <item>
             <title><![CDATA[ZetaHalt：将黎曼猜想编码为一台 29 寄存器机的停机问题]]></title>
             <description><![CDATA[把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。]]></description>
