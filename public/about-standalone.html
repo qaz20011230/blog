@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于良之 | 良之世界</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Noto+Serif+SC:wght@300;400;600;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #fcfbf9;
+      --color-text: #1a1a1a;
+      --color-gold: #b8903c;
+      --color-gray-300: #d1d5db;
+      --color-gray-400: #9ca3af;
+      --color-gray-500: #6b7280;
+      --color-gray-600: #4b5563;
+      --font-sans: 'Inter', sans-serif;
+      --font-serif: 'Noto Serif SC', 'Cormorant Garamond', serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      position: relative;
+    }
+    .zeta-bg {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: clamp(400px, 80vw, 800px);
+      color: rgba(184, 144, 60, 0.03);
+      font-family: 'Cormorant Garamond', serif;
+      z-index: -1;
+      pointer-events: none;
+      user-select: none;
+    }
+    .container {
+      max-w-4xl;
+      max-width: 56rem;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+      position: relative;
+      z-index: 10;
+    }
+    h1, h2, h3, .font-serif { font-family: var(--font-serif); }
+    a { color: inherit; text-decoration: none; transition: color 0.3s; }
+    a:hover { color: var(--color-gold); }
+    
+    /* Header */
+    header { margin-bottom: 6rem; }
+    header h1 { font-size: 3.5rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.02em; }
+    header h1 span { font-size: 2.25rem; font-weight: 300; color: var(--color-gray-400); margin-left: 1rem; }
+    header p.subtitle { font-size: 1.125rem; color: var(--color-gold); margin-bottom: 2rem; font-family: var(--font-serif); letter-spacing: 0.05em; }
+    .quote-card {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      border-left: 2px solid var(--color-gold);
+      padding: 1.5rem 2rem;
+      font-size: 1.125rem;
+      font-style: italic;
+      color: #374151;
+      box-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+    }
+
+    /* Sections */
+    section { margin-bottom: 5rem; }
+    h2.section-title {
+      font-size: 1.5rem; font-weight: 700; margin-bottom: 2rem;
+      display: flex; align-items: center;
+    }
+    h2.section-title::before {
+      content: ''; display: block; width: 1.5rem; height: 1px; background-color: var(--color-gold); margin-right: 1rem;
+    }
+    
+    /* Grid */
+    .grid { display: grid; gap: 1.5rem; }
+    .grid-4 { grid-template-columns: repeat(4, 1fr); }
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid-5 { grid-template-columns: repeat(5, 1fr); }
+    @media (max-width: 768px) {
+      .grid { grid-template-columns: 1fr !important; }
+      header h1 { font-size: 2.5rem; }
+      header h1 span { font-size: 1.75rem; }
+    }
+
+    /* Timeline */
+    .timeline { border-left: 1px solid #e5e7eb; padding-left: 1.5rem; margin-left: 0.5rem; position: relative; }
+    .timeline-item { position: relative; margin-bottom: 2.5rem; }
+    .timeline-item::before {
+      content: ''; position: absolute; left: -1.85rem; top: 0.5rem;
+      width: 9px; height: 9px; border-radius: 50%;
+      background-color: var(--color-gold); box-shadow: 0 0 0 4px var(--color-bg);
+    }
+    .timeline-item h3 { font-size: 1.125rem; font-weight: 700; font-family: var(--font-sans); }
+    .timeline-item h3 span { color: var(--color-gold); font-size: 0.875rem; font-weight: 400; margin-left: 0.75rem; }
+    .timeline-item p { margin-top: 0.5rem; color: var(--color-gray-600); font-weight: 300; font-size: 0.95rem; }
+
+    /* Details */
+    details { border-bottom: 1px solid #f3f4f6; padding-bottom: 1rem; margin-bottom: 1rem; cursor: pointer; }
+    details > summary { list-style: none; font-size: 1.125rem; font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
+    details > summary::-webkit-details-marker { display: none; }
+    details > summary .icon { color: var(--color-gold); font-weight: 300; font-size: 1.25rem; transition: transform 0.3s; }
+    details[open] > summary .icon { transform: rotate(45deg); }
+    details p { margin-top: 0.75rem; color: var(--color-gray-600); font-size: 0.875rem; font-weight: 300; padding-right: 1rem; }
+
+    /* Tags */
+    .tags { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; max-width: 48rem; margin: 0 auto; }
+    .tag { padding: 0.5rem 1rem; font-size: 0.875rem; letter-spacing: 0.05em; border-radius: 9999px; }
+    .tag-primary { background: #fafafa; color: var(--color-text); border: 1px solid #eaeaea; }
+    .tag-gold { background: #fff; color: var(--color-gold); border: 1px solid var(--color-gold); }
+
+    /* Misc */
+    .date-label { font-size: 0.875rem; color: var(--color-gray-400); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 500; }
+    .box { background: #fafafa; border: 1px solid #f3f4f6; padding: 1.5rem; height: 100%; border-radius: 2px; }
+    .stat-box { background: rgba(255,255,255,0.8); padding: 1.5rem; border-left: 2px solid var(--color-gold); display: flex; flex-direction: column; justify-content: center; }
+    .stat-num { font-size: 2.25rem; color: var(--color-gold); font-family: var(--font-serif); margin-bottom: 0.5rem; }
+
+    /* Footer */
+    footer { border-top: 1px solid #e5e7eb; padding-top: 2.5rem; text-align: center; }
+    footer .logo { font-size: 1.125rem; font-weight: 700; display: inline-block; margin-bottom: 1.5rem; font-family: var(--font-serif); }
+    footer .links { display: flex; justify-content: center; gap: 1rem; color: var(--color-gray-500); font-size: 0.875rem; margin-bottom: 2rem; font-weight: 300; }
+    footer .copy { font-size: 0.75rem; color: var(--color-gray-400); font-weight: 300; }
+  </style>
+</head>
+<body>
+  <div class="zeta-bg">ζ(s)</div>
+  <div class="container">
+    
+    <header>
+      <h1 class="font-serif">Ang Li <span>李昂</span></h1>
+      <p class="subtitle">Co-Founder & CTO of Phaenarete AI · 前阿里巴巴 CTO · 思想者</p>
+      <div class="quote-card font-serif">“以人机协同，叩问希尔伯特第八问题——黎曼猜想。”</div>
+    </header>
+
+    <section>
+      <h2 class="section-title font-serif">当下：Phaenarete 之火</h2>
+      <div class="grid grid-4">
+        <div style="grid-column: span 1;" class="date-label">2026 - Present <br><span style="color:var(--color-gray-300)">Guangzhou</span></div>
+        <div style="grid-column: span 3;">
+          <h3 style="font-size: 1.125rem; margin-bottom: 0.75rem;">广州菲娜睿特人工智能科技有限责任公司</h3>
+          <p style="color: var(--color-gray-600); font-weight: 300; margin-bottom: 1rem;">作为联合创始人与 CTO，致力于推进 <strong>Phaenarete 项目</strong>。这是一个试图通过人类与 AI 深度协作，直指黎曼假设的宏大工程。</p>
+          <p style="color: var(--color-gray-600); font-weight: 300;">主导研发了 <strong>PrimeClaw 多智能体框架</strong>，该框架专为数学猜想探索与 Lean 4 形式化验证而设计，旨在构建机器与人类数学直觉之间的桥梁。</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title font-serif">阿里巴巴岁月：数字王国的锻造</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>CTO <span>2010 - 2018</span></h3>
+          <p>领导全球最大 B2B 电商平台技术战略，服务 2500 万企业、1100 万活跃买家。在此期间，主导了 2012 年阿里巴巴的私有化退市与深度的技术架构重组。</p>
+        </div>
+        <div class="timeline-item">
+          <h3>VP <span>2004 - 2010</span></h3>
+          <p>搭建支撑日调用 10 亿次的分布式服务框架。亲历 2007 年史诗级 IPO，创下 258 倍超额认购记录，冻结 4500 亿港元资本，见证了中国电商的历史性时刻。</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Senior Director <span>2004 - 2007</span></h3>
+          <p>入职即全面主导平台架构与系统可靠性建设，技术赋能业务，带动市场份额攀升至 74%，为公司的首次上市护航。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-2">
+      <div>
+        <h2 style="font-size: 1.25rem; margin-bottom: 1.5rem;" class="font-serif">学术与育人</h2>
+        <div class="box">
+          <div style="font-size: 0.75rem; color: var(--color-gold); font-weight: 700; margin-bottom: 0.25rem;">2007 - Present</div>
+          <h3 style="font-size: 1rem; margin-bottom: 0.5rem;">浙江大学软件学院</h3>
+          <p style="color: var(--color-gray-600); font-size: 0.875rem; font-weight: 300;">担任电子商务技术系创系主任。联合阿里巴巴，在产学研结合的边界，为中国数字商业培养核心技术人才。</p>
+        </div>
+      </div>
+      <div>
+        <h2 style="font-size: 1.25rem; margin-bottom: 1.5rem;" class="font-serif">硅谷与缘起</h2>
+        <div style="border-left: 2px solid #e5e7eb; padding-left: 1rem; margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1rem;">Angilon, Inc. <span style="font-size: 0.75rem; font-weight: 400; color: var(--color-gray-400);">硅谷</span></h3>
+          <div style="font-size: 0.75rem; color: var(--color-gold); margin-top: 0.25rem; font-weight: 500;">2000 - 2004 | Founder & Chief Consultant</div>
+        </div>
+        <div style="border-left: 2px solid #e5e7eb; padding-left: 1rem;">
+          <h3 style="font-size: 1rem;">Independent Consultant</h3>
+          <div style="font-size: 0.75rem; color: var(--color-gold); margin-top: 0.25rem; margin-bottom: 0.5rem; font-weight: 500;">1997 - 2000</div>
+          <p style="color: var(--color-gray-600); font-size: 0.875rem; font-weight: 300;">为互联网早期架构与分布式系统提供前瞻性的技术战略指引。</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title font-serif">思想与书写</h2>
+      <div class="grid grid-5">
+        <div style="grid-column: span 3;">
+          <details open>
+            <summary class="font-serif">“产婆术框架”（Maieutica） <span class="icon">+</span></summary>
+            <p>一种苏格拉底式的人机数学协作模型。我们不是为了建造更快的机器，而是为了更深刻地理解问题本身。AI 并非给出答案，而是通过不断追问，助产出人类未曾触及的数学直觉。</p>
+          </details>
+          <details>
+            <summary class="font-serif">“北斗七星美德” <span class="icon">+</span></summary>
+            <p>基于德性的哲学践行框架。在算法重塑心灵的时代，重建个体内在的秩序与伦理坐标。</p>
+          </details>
+          <details>
+            <summary class="font-serif">“关系动力学” <span class="icon">+</span></summary>
+            <p>连接与时间的数理伦理架构。在实体消融的网络中，重新审视“之间”的拓扑与引力。</p>
+          </details>
+        </div>
+        <div style="grid-column: span 2;">
+          <div class="stat-box">
+            <div class="stat-num">365,000+</div>
+            <p style="font-size: 0.875rem; color: var(--color-gray-600); font-weight: 300;">在 <a href="https://liang.world" style="border-bottom: 1px solid var(--color-gold); color: var(--color-text); font-weight: 500;">liang.world</a> 上累计书写三十六万五千余字，涵盖逻辑、哲学、心理学与电商，记录下对科技与人文交叉领域的深刻沉思。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 style="font-size: 1.125rem; text-align: center; color: var(--color-gray-400); letter-spacing: 0.1em; margin-bottom: 1.5rem;" class="font-serif">· 技术修行 ·</h2>
+      <div class="tags">
+        <span class="tag tag-primary">Lean 4</span>
+        <span class="tag tag-primary">依赖类型论</span>
+        <span class="tag tag-primary">元语言设计</span>
+        <span class="tag tag-primary">证明工程</span>
+        <span class="tag tag-gold">大规模分布式架构</span>
+        <span class="tag tag-gold">搜索与推荐系统</span>
+        <span class="tag tag-gold">零信任身份</span>
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://liang.world" class="logo">良之世界 · 在逻辑与存在的边界漫步</a>
+      <div class="links">
+        <a href="mailto:contact@liang.world">contact@liang.world</a>
+        <span>|</span>
+        <span>Guangzhou</span>
+        <span>|</span>
+        <span>Mandarin & English</span>
+      </div>
+      <div class="copy">
+        <p style="margin-bottom: 0.25rem;">© 2026 Ang Li · 良之世界</p>
+        <p>最后更新 2026年4月24日 — <a href="https://liang.world/cv" style="border-bottom: 1px solid var(--color-gray-300); padding-bottom: 2px;">https://liang.world/cv</a></p>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
