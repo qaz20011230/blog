@@ -1,7 +1,11 @@
 ---
 title: "致善衡容：人生博弈的不败心法"
-pubDate: 2026-04-25
-category: Logic
+date: "2026-04-25"
+category: "Logic"
+tags:
+  - 博弈论
+  - 关系动力学
+  - 商业伦理
 description: "从阿里B2B的平台治理到Phaenarete项目的人机协作，以囚徒困境与阿克塞尔罗德的计算机锦标赛为引，探讨重复博弈中的致善、持衡、存容与守清四重生存铁律。"
 ---
 
