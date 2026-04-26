@@ -10,7 +10,9 @@ export default function About() {
       
       <div className="space-y-8 py-20">
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em] hover:text-primary transition-colors cursor-pointer" style={{ fontFamily: '"Noto Serif SC", "SimSun", "STSong", serif' }}>
-          李昂
+          <a href="https://liang.world/resume" target="_blank" rel="noopener noreferrer">
+            李昂
+          </a>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 font-light tracking-wide leading-relaxed">
           广州菲娜睿特人工智能科技有限责任公司创始人 & CEO

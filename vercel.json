@@ -19,6 +19,24 @@
       ]
     },
     {
+      "source": "/resume",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"LiAng_Resume.pdf\""
+        }
+      ]
+    },
+    {
+      "source": "/LiAng_Resume.pdf",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"LiAng_Resume.pdf\""
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         {
@@ -45,6 +63,10 @@
     {
       "source": "/cv",
       "destination": "/cv_Ang.pdf"
+    },
+    {
+      "source": "/resume",
+      "destination": "/LiAng_Resume.pdf"
     },
     {
       "source": "/api/(.*)",
