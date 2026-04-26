@@ -7,11 +7,11 @@ import { BookOpen, Download } from 'lucide-react';
 const books = [
   {
     id: 1,
-    title: '示例书籍：关系动力学',
+    title: '我懂你',
     author: '良之',
-    description: '探索连接与时间的数理伦理架构。',
-    year: '2026',
-    pdfUrl: '/books/example.pdf' // Please replace with your actual PDF file path in the public folder
+    description: '深度洞察人性的本质与社会互动的底层逻辑。',
+    year: '2024',
+    pdfUrl: '/books/wo-dong-ni.pdf'
   }
 ];
 
