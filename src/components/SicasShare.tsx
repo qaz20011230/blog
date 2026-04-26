@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Share2, Copy, Twitter, Check, X } from 'lucide-react';
+import { Share2, Copy, Check, X, QrCode } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 
 export default function SicasShare() {
@@ -30,10 +30,10 @@ export default function SicasShare() {
     }
   };
 
-  const handleTwitterShare = () => {
-    const text = document.title;
-    const url = window.location.href;
-    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+  const handleWechatShare = () => {
+    // For WeChat, the best we can do on web without native SDK is to copy link and prompt
+    handleCopyLink();
+    alert('链接已复制，请打开微信粘贴分享至朋友圈');
   };
 
   if (!isVisible) return null;
@@ -61,11 +61,11 @@ export default function SicasShare() {
           </button>
 
           <button
-            onClick={handleTwitterShare}
+            onClick={handleWechatShare}
             className="flex items-center gap-3 px-3 py-2 text-sm text-gray-400 hover:bg-gray-900 hover:text-gray-200 rounded-md transition-colors w-full text-left group font-mono tracking-widest"
           >
-            <Twitter size={16} className="text-gray-500 group-hover:text-primary" />
-            <span>分享至 Twitter</span>
+            <QrCode size={16} className="text-gray-500 group-hover:text-primary" />
+            <span>分享至朋友圈</span>
           </button>
         </div>
       </div>
