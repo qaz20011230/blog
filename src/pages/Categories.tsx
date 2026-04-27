@@ -11,7 +11,7 @@ export default function Categories() {
   const allPosts = getAllPosts();
   const [searchParams] = useSearchParams();
   const initialCategory = (searchParams.get('category') as Category) || 'All';
-  
+
   const [selectedCategory, setSelectedCategory] = useState<Category | 'All'>(initialCategory);
 
   useEffect(() => {
@@ -21,22 +21,22 @@ export default function Categories() {
     }
   }, [searchParams]);
 
-  const filteredPosts = selectedCategory === 'All' 
-    ? allPosts 
+  const filteredPosts = selectedCategory === 'All'
+    ? allPosts
     : allPosts.filter(post => post.category === selectedCategory);
 
   return (
-    <div>
+    <div className="page-enter">
       <h1 className="text-3xl font-bold text-gray-100 mb-8 font-serif tracking-widest">CATEGORIES</h1>
 
       <div className="flex flex-wrap gap-3 mb-12">
         <button
           onClick={() => setSelectedCategory('All')}
           className={cn(
-            "px-4 py-1.5 border text-sm font-mono tracking-widest transition-colors uppercase",
+            'px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase',
             selectedCategory === 'All'
-              ? "bg-primary text-white border-primary"
-              : "bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary"
+              ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]'
+              : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary'
           )}
         >
           All
@@ -46,10 +46,10 @@ export default function Categories() {
             key={category}
             onClick={() => setSelectedCategory(category)}
             className={cn(
-              "px-4 py-1.5 border text-sm font-mono tracking-widest transition-colors uppercase",
+              'px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase',
               selectedCategory === category
-                ? "bg-primary text-white border-primary"
-                : "bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary"
+                ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]'
+                : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary'
             )}
           >
             {category}
@@ -57,7 +57,7 @@ export default function Categories() {
         ))}
       </div>
 
-      <div className="space-y-4">
+      <div className="stagger-children">
         {filteredPosts.length > 0 ? (
           filteredPosts.map((post) => (
             <PostCard key={post.slug} post={post} />

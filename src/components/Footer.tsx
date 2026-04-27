@@ -1,10 +1,10 @@
 import React from 'react';
-import { Github, Twitter, Mail, Rss } from 'lucide-react';
+import { Rss, Mail } from 'lucide-react';
 import SiteStats from './SiteStats';
 
 export default function Footer() {
   return (
-    <footer className="bg-hilbert border-t border-gray-900 py-8 mt-auto">
+    <footer className="relative bg-hilbert border-t border-gray-900 py-8 mt-auto z-10">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
@@ -15,13 +15,21 @@ export default function Footer() {
               <SiteStats />
             </div>
           </div>
-          
+
           <div className="flex space-x-6">
-            <a href="/rss.xml" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
+            <a
+              href="/rss.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 inline-block"
+            >
               <span className="sr-only">RSS</span>
               <Rss size={20} />
             </a>
-            <a href="mailto:contact@liang.world" className="text-gray-500 hover:text-primary transition-colors">
+            <a
+              href="mailto:contact@liang.world"
+              className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 inline-block"
+            >
               <span className="sr-only">Email</span>
               <Mail size={20} />
             </a>

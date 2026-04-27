@@ -22,3 +22,220 @@ body {
   background-color: #002FA7;
   color: #ffffff;
 }
+
+/* === Background dot-grid texture === */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, rgba(0, 47, 167, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2937;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #002FA7;
+}
+
+/* === Keyframes === */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes line-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes border-glow-pulse {
+  0%, 100% { border-color: rgba(0, 47, 167, 0.1); box-shadow: 0 0 0 0 rgba(0, 47, 167, 0); }
+  50% { border-color: rgba(0, 47, 167, 0.3); box-shadow: 0 0 20px 0 rgba(0, 47, 167, 0.08); }
+}
+
+@keyframes progress-shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+/* === Utility animation classes === */
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.5s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-border-glow {
+  animation: border-glow-pulse 3s ease-in-out infinite;
+}
+
+/* Stagger children */
+.stagger-children > * {
+  opacity: 0;
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 100ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 200ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 300ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 400ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 500ms; }
+.stagger-children > *:nth-child(7) { animation-delay: 600ms; }
+.stagger-children > *:nth-child(8) { animation-delay: 700ms; }
+.stagger-children > *:nth-child(9) { animation-delay: 800ms; }
+.stagger-children > *:nth-child(10) { animation-delay: 900ms; }
+
+/* === Reading Progress Bar === */
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  z-index: 100;
+  background: linear-gradient(90deg, #002FA7, #2563EB, transparent);
+  transition: width 0.15s linear;
+}
+
+/* === Link underline animation === */
+.link-underline {
+  position: relative;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #002FA7;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.link-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* === Card hover effects === */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 47, 167, 0.1), 0 0 0 1px rgba(0, 47, 167, 0.2);
+}
+
+/* === Page transition === */
+.page-enter {
+  animation: fade-in-up 0.4s ease-out forwards;
+}
+
+/* === Blockquote glow === */
+.prose blockquote {
+  border-left-color: #002FA7 !important;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prose blockquote:hover {
+  box-shadow: inset 4px 0 12px rgba(0, 47, 167, 0.08);
+}
+
+/* === Code block styling === */
+.prose pre {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.prose code {
+  color: #93C5FD !important;
+}
+
+/* === Button ripple === */
+.btn-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-ripple::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(0, 47, 167, 0.2) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.btn-ripple:hover::after {
+  opacity: 1;
+}
