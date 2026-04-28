@@ -27,7 +27,7 @@ export default function Footer() {
               <Rss size={20} />
             </a>
             <a
-              href="mailto:contact@liang.world"
+              href="mailto:contact@example.com"
               className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 inline-block"
             >
               <span className="sr-only">Email</span>

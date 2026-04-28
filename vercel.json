@@ -1,42 +1,6 @@
 {
   "headers": [
     {
-      "source": "/cv",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"Ang_Li_CV.pdf\""
-        }
-      ]
-    },
-    {
-      "source": "/cv_Ang.pdf",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"Ang_Li_CV.pdf\""
-        }
-      ]
-    },
-    {
-      "source": "/resume",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"LiAng_Resume.pdf\""
-        }
-      ]
-    },
-    {
-      "source": "/LiAng_Resume.pdf",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"LiAng_Resume.pdf\""
-        }
-      ]
-    },
-    {
       "source": "/(.*)",
       "headers": [
         {
@@ -60,14 +24,6 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/cv",
-      "destination": "/cv_Ang.pdf"
-    },
-    {
-      "source": "/resume",
-      "destination": "/LiAng_Resume.pdf"
-    },
     {
       "source": "/api/(.*)",
       "destination": "/api/index"

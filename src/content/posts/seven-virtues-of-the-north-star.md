@@ -10,7 +10,7 @@ description: >-
   introducing Virtue Resilience.
 ---
 
-**Ang Li**
+**[匿名作者]**
 
 Institut de Pratiques Philosophiques, France
 
