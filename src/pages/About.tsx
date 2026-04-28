@@ -9,26 +9,19 @@ export default function About() {
       </Helmet>
 
       <div className="space-y-8 py-20 page-enter">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em] hover:text-primary transition-colors duration-300" style={{ fontFamily: '"Noto Serif SC", "SimSun", "STSong", serif' }}>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="link-underline">
-            良之
-          </a>
+        <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em] hover:text-primary transition-colors duration-300 flex items-end justify-center gap-4" style={{ fontFamily: '"Noto Serif SC", "SimSun", "STSong", serif' }}>
+          <span>良之</span>
+          <span className="text-2xl md:text-3xl text-gray-400 font-sans tracking-normal pb-1">LeoZ</span>
         </h1>
-        <p className="text-lg md:text-xl text-gray-400 font-light tracking-wide leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          [某人工智能科技公司]创始人 & CEO
-        </p>
-
-        <div className="w-12 h-[1px] bg-primary/40 mx-auto animate-pulse-glow" />
-
-        <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em] hover:text-primary transition-colors duration-300" style={{ fontFamily: '"Noto Serif SC", "SimSun", "STSong", serif' }}>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="link-underline">
-            良之
-          </a>
-        </h2>
-
-        <p className="text-lg md:text-xl text-gray-400 font-light tracking-wide leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          [某人工智能科技公司]联合创始人 & CTO
-        </p>
+        
+        <div className="space-y-3">
+          <p className="text-lg md:text-xl text-gray-400 font-light tracking-wide leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            广州菲娜睿特人工智能科技有限公司联合创始人兼首席技术官
+          </p>
+          <p className="text-base md:text-lg text-gray-500 font-light tracking-wide leading-relaxed animate-fade-in-up font-sans" style={{ animationDelay: '0.3s' }}>
+            Co-founder & CTO of Guangzhou Phaenarete AI Technology Co., Ltd.
+          </p>
+        </div>
       </div>
     </div>
   );
