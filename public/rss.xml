@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Apr 2026 03:13:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Apr 2026 09:31:04 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Apr 2026 03:13:13 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 09:31:03 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang's World]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -314,6 +314,23 @@
             <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Tendre is All We Want — 赞希佩V3.0的理论基础：从统计近然到逻辑必然的认知架构]]></title>
+            <description><![CDATA[一个能以概率1在高考数学中取得稳定满分的系统必然存在，其最小认知架构必须满足广度、深度、刚性三重要求。 从拉丁词根 tendere 到形式证明，从维特根斯坦诊断到四层认知闭环架构，本文给出完整理论。
+]]></description>
+            <link>https://liang.world/post/tendre-is-all-we-want-xanthippe-architecture</link>
+            <guid isPermaLink="false">https://liang.world/post/tendre-is-all-we-want-xanthippe-architecture</guid>
+            <category><![CDATA[认知架构]]></category>
+            <category><![CDATA[数学推理]]></category>
+            <category><![CDATA[赞希佩]]></category>
+            <category><![CDATA[Transformer]]></category>
+            <category><![CDATA[知识论]]></category>
+            <category><![CDATA[索绪尔]]></category>
+            <category><![CDATA[维特根斯坦]]></category>
+            <category><![CDATA[Tendre]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[初识三段论逻辑：从基本定义到符号翻译]]></title>
             <description><![CDATA[三段论是逻辑演绎推理的经典形式。本文介绍了三段论的基本定义、论证质量标准（有效性与可靠性）、命题类型（良构公式）以及检验有效性的标星法。]]></description>
             <link>https://liang.world/post/syllogism-logic</link>
@@ -556,6 +573,22 @@
             <category><![CDATA[project-management]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在场的力量——为什么"没时间"是一种托辞]]></title>
+            <description><![CDATA["没时间"从来不是一个关于时间的陈述，而是一个关于注意力的诊断。 从奥勒留的《沉思录》出发，揭示"忙于行动"与"被思虑占据"的根本区别， 以及如何通过"在场"收回注意力的主权。
+]]></description>
+            <link>https://liang.world/post/presence-the-power-of-now</link>
+            <guid isPermaLink="false">https://liang.world/post/presence-the-power-of-now</guid>
+            <category><![CDATA[在场]]></category>
+            <category><![CDATA[注意力]]></category>
+            <category><![CDATA[奥勒留]]></category>
+            <category><![CDATA[沉思录]]></category>
+            <category><![CDATA[斯多葛]]></category>
+            <category><![CDATA[时间管理]]></category>
+            <category><![CDATA[焦虑]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[北辰七德：我为自己选择的星空坐标]]></title>
