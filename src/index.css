@@ -2,25 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  line-height: 1.5;
-  font-weight: 400;
+@layer base {
+  :root {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    line-height: 1.5;
+    font-weight: 400;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-body {
-  background-color: #050505;
-  color: #E5E7EB;
-}
+    /* 光明模式：皓月白 + 鲜血红 */
+    --color-primary: 138 3 3; /* #8A0303 */
+    --color-primary-light: 210 4 45; /* #D2042D */
+    --color-bg: 248 249 250; /* #F8F9FA */
+    --color-text: 17 24 39; /* gray-900: #111827 */
+    --color-muted: 75 85 99; /* gray-600: #4B5563 */
 
-::selection {
-  background-color: #002FA7;
-  color: #ffffff;
+    --color-gray-50: 249 250 251;
+    --color-gray-100: 17 24 39;
+    --color-gray-200: 31 41 55;
+    --color-gray-300: 55 65 81;
+    --color-gray-400: 75 85 99;
+    --color-gray-500: 107 114 128;
+    --color-gray-600: 156 163 175;
+    --color-gray-700: 209 213 219;
+    --color-gray-800: 229 231 235;
+    --color-gray-900: 243 244 246;
+  }
+
+  .dark {
+    /* 黑暗模式：希尔伯特黑 + 克莱因蓝 */
+    --color-primary: 0 47 167; /* #002FA7 */
+    --color-primary-light: 37 99 235; /* #2563EB */
+    --color-bg: 5 5 5; /* #050505 */
+    --color-text: 229 231 235; /* gray-200: #E5E7EB */
+    --color-muted: 156 163 175; /* gray-400: #9CA3AF */
+
+    --color-gray-50: 249 250 251;
+    --color-gray-100: 243 244 246;
+    --color-gray-200: 229 231 235;
+    --color-gray-300: 209 213 219;
+    --color-gray-400: 156 163 175;
+    --color-gray-500: 107 114 128;
+    --color-gray-600: 75 85 99;
+    --color-gray-700: 55 65 81;
+    --color-gray-800: 31 41 55;
+    --color-gray-900: 17 24 39;
+  }
+
+  body {
+    background-color: rgb(var(--color-bg));
+    color: rgb(var(--color-text));
+  }
+
+  ::selection {
+    background-color: rgb(var(--color-primary));
+    color: #ffffff;
+  }
 }
 
 /* === Background dot-grid texture === */
@@ -30,7 +70,7 @@ body::before {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image: radial-gradient(circle, rgba(0, 47, 167, 0.06) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgb(var(--color-primary) / 0.06) 1px, transparent 1px);
   background-size: 32px 32px;
 }
 
@@ -40,16 +80,16 @@ body::before {
 }
 
 ::-webkit-scrollbar-track {
-  background: #050505;
+  background: rgb(var(--color-bg));
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1F2937;
+  background: rgb(var(--color-gray-800));
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #002FA7;
+  background: rgb(var(--color-primary));
 }
 
 /* === Keyframes === */
@@ -101,8 +141,8 @@ body::before {
 }
 
 @keyframes border-glow-pulse {
-  0%, 100% { border-color: rgba(0, 47, 167, 0.1); box-shadow: 0 0 0 0 rgba(0, 47, 167, 0); }
-  50% { border-color: rgba(0, 47, 167, 0.3); box-shadow: 0 0 20px 0 rgba(0, 47, 167, 0.08); }
+  0%, 100% { border-color: rgb(var(--color-primary) / 0.1); box-shadow: 0 0 0 0 rgb(var(--color-primary) / 0); }
+  50% { border-color: rgb(var(--color-primary) / 0.3); box-shadow: 0 0 20px 0 rgb(var(--color-primary) / 0.08); }
 }
 
 @keyframes progress-shimmer {
@@ -159,7 +199,7 @@ body::before {
   left: 0;
   height: 2px;
   z-index: 100;
-  background: linear-gradient(90deg, #002FA7, #2563EB, transparent);
+  background: linear-gradient(90deg, rgb(var(--color-primary)), rgb(var(--color-primary-light)), transparent);
   transition: width 0.15s linear;
 }
 
@@ -175,7 +215,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 1px;
-  background: #002FA7;
+  background: rgb(var(--color-primary));
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s ease;
@@ -193,7 +233,7 @@ body::before {
 
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 30px rgba(0, 47, 167, 0.1), 0 0 0 1px rgba(0, 47, 167, 0.2);
+  box-shadow: 0 8px 30px rgb(var(--color-primary) / 0.1), 0 0 0 1px rgb(var(--color-primary) / 0.2);
 }
 
 /* === Page transition === */
@@ -203,22 +243,22 @@ body::before {
 
 /* === Blockquote glow === */
 .prose blockquote {
-  border-left-color: #002FA7 !important;
+  border-left-color: rgb(var(--color-primary)) !important;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .prose blockquote:hover {
-  box-shadow: inset 4px 0 12px rgba(0, 47, 167, 0.08);
+  box-shadow: inset 4px 0 12px rgb(var(--color-primary) / 0.08);
 }
 
 /* === Code block styling === */
 .prose pre {
-  background: rgba(255, 255, 255, 0.03) !important;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgb(var(--color-text) / 0.03) !important;
+  border: 1px solid rgb(var(--color-text) / 0.06);
 }
 
 .prose code {
-  color: #93C5FD !important;
+  color: rgb(var(--color-primary-light)) !important;
 }
 
 /* === Button ripple === */
@@ -231,7 +271,7 @@ body::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at center, rgba(0, 47, 167, 0.2) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgb(var(--color-primary) / 0.2) 0%, transparent 70%);
   opacity: 0;
   transition: opacity 0.4s ease;
 }

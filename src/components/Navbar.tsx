@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Moon, Sun } from 'lucide-react';
 import { cn } from '../lib/utils';
+import { useTheme } from '../hooks/useTheme';
 
 const navItems = [
   { name: '首页', path: '/' },
@@ -14,6 +15,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { isDark, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,10 +68,24 @@ export default function Navbar() {
                 )}
               </Link>
             ))}
+            <button
+              onClick={toggleTheme}
+              className="text-gray-400 hover:text-primary focus:outline-none transition-colors p-1"
+              aria-label="Toggle theme"
+            >
+              {isDark ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center md:hidden">
+          <div className="flex items-center md:hidden space-x-4">
+            <button
+              onClick={toggleTheme}
+              className="text-gray-400 hover:text-primary focus:outline-none transition-colors"
+              aria-label="Toggle theme"
+            >
+              {isDark ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-400 hover:text-primary focus:outline-none transition-colors"
