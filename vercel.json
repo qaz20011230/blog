@@ -19,7 +19,7 @@
           "value": "(.*)\\.vercel\\.app"
         }
       ],
-      "destination": "https://liang.world/$1",
+      "destination": "https://LeoZ Universe/$1",
       "permanent": true
     }
   ],

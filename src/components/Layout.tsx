@@ -7,7 +7,7 @@ import SicasShare from './SicasShare';
 
 export default function Layout() {
   const location = useLocation();
-  const canonicalUrl = `https://liang.world${location.pathname}`;
+  const canonicalUrl = `https://LeoZ Universe${location.pathname}`;
 
   return (
     <div className="min-h-screen flex flex-col bg-hilbert font-sans text-text">

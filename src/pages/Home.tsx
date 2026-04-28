@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="relative z-10">
       <Helmet>
-        <title>良之世界 | Liang.World</title>
+        <title>良之世界 | LeoZ Universe</title>
         <meta name="description" content="良之世界是思想助产士（梁良）的数字花园。这里汇集了关于哲学践行、精神分析与商业逻辑的深度思考。" />
         <meta name="keywords" content="良之世界, 思想助产士, 哲学咨询, 架构师, 极客, 黎曼猜想" />
       </Helmet>

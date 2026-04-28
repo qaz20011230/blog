@@ -11,7 +11,7 @@ export default function About() {
       <div className="space-y-8 py-20 page-enter">
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em] hover:text-primary transition-colors duration-300" style={{ fontFamily: '"Noto Serif SC", "SimSun", "STSong", serif' }}>
           <a href="#" target="_blank" rel="noopener noreferrer" className="link-underline">
-            [匿名作者]
+            良之
           </a>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 font-light tracking-wide leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -22,7 +22,7 @@ export default function About() {
 
         <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em] hover:text-primary transition-colors duration-300" style={{ fontFamily: '"Noto Serif SC", "SimSun", "STSong", serif' }}>
           <a href="#" target="_blank" rel="noopener noreferrer" className="link-underline">
-            [匿名作者]
+            良之
           </a>
         </h2>
 

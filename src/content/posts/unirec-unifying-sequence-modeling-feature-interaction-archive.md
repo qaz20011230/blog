@@ -19,7 +19,7 @@ description: >-
 > 说明：本文由 TeX 源文件自动转换生成，公式与排版可能存在差异；以 TeX/PDF 原件为准。
 
 > 原始文件名：`unirec-sequence-modeling-feature-interaction-unified-architecture.tex`
-> 源文件下载：https://liang.world/archives/unirec/unirec-sequence-modeling-feature-interaction-unified-architecture.tex
+> 源文件下载：https://LeoZ Universe/archives/unirec/unirec-sequence-modeling-feature-interaction-unified-architecture.tex
 
 ---
 

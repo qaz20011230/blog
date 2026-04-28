@@ -10,7 +10,7 @@ description: >-
   introducing Virtue Resilience.
 ---
 
-**[匿名作者]**
+**良之**
 
 Institut de Pratiques Philosophiques, France
 

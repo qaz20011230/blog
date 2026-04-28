@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-500 text-sm tracking-wide">
-              &copy; {new Date().getFullYear()} 良之世界 (Liang.World). All rights reserved.
+              &copy; {new Date().getFullYear()} 良之世界 (LeoZ Universe). All rights reserved.
             </p>
             <div className="mt-2 text-gray-500">
               <SiteStats />

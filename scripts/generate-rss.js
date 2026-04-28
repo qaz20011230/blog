@@ -4,7 +4,7 @@ import RSS from 'rss';
 import { glob } from 'glob';
 import matter from 'gray-matter';
 
-const BASE_URL = 'https://liang.world';
+const BASE_URL = 'https://LeoZ Universe';
 const OUTPUT_FILE = path.resolve('public', 'rss.xml');
 
 async function generateRSS() {
@@ -18,7 +18,7 @@ async function generateRSS() {
     image_url: `${BASE_URL}/favicon.jpg`,
     managingEditor: 'contact@example.com (思想助产士)',
     webMaster: 'contact@example.com (思想助产士)',
-    copyright: `© ${new Date().getFullYear()} Liang's World`,
+    copyright: `© ${new Date().getFullYear()} LeoZ Universe`,
     language: 'zh-CN',
     pubDate: new Date(),
     ttl: 60,

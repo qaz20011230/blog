@@ -43,7 +43,7 @@ export default function BlogDetail() {
   return (
     <article className="max-w-3xl mx-auto page-enter">
       <Helmet>
-        <title>{post.title} | Liang's World</title>
+        <title>{post.title} | LeoZ Universe</title>
         <meta name="description" content={post.description} />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.description} />
@@ -61,7 +61,7 @@ export default function BlogDetail() {
             "author": {
               "@type": "Person",
               "name": "思想助产士",
-              "url": "https://liang.world/about"
+              "url": "https://LeoZ Universe/about"
             },
             "datePublished": post.date,
             "mainEntityOfPage": {
@@ -73,7 +73,7 @@ export default function BlogDetail() {
               "name": "良之世界",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://liang.world/favicon.jpg"
+                "url": "https://LeoZ Universe/favicon.jpg"
               }
             },
             "keywords": post.tags.join(", ")
