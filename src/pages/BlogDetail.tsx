@@ -61,7 +61,7 @@ export default function BlogDetail() {
             "author": {
               "@type": "Person",
               "name": "思想助产士",
-              "url": "https://LeoZ Universe/about"
+              "url": "https://liang.world/about"
             },
             "datePublished": post.date,
             "mainEntityOfPage": {
@@ -73,7 +73,7 @@ export default function BlogDetail() {
               "name": "良之世界",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://LeoZ Universe/favicon.jpg"
+                "url": "https://liang.world/favicon.jpg"
               }
             },
             "keywords": post.tags.join(", ")

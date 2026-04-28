@@ -4,7 +4,7 @@ import RSS from 'rss';
 import { glob } from 'glob';
 import matter from 'gray-matter';
 
-const BASE_URL = 'https://LeoZ Universe';
+const BASE_URL = 'https://liang.world';
 const OUTPUT_FILE = path.resolve('public', 'rss.xml');
 
 async function generateRSS() {
@@ -26,25 +26,40 @@ async function generateRSS() {
 
   // Add blog posts
   const postFiles = await glob('src/content/posts/*.md');
-  for (const file of postFiles) {
-    const content = fs.readFileSync(file, 'utf-8');
-    const { data } = matter(content);
-    const slug = path.basename(file, '.md');
-    
+  const posts = postFiles
+    .map((file) => {
+      const content = fs.readFileSync(file, 'utf-8');
+      const { data } = matter(content);
+      const slug = path.basename(file, '.md');
+
+      return {
+        slug,
+        title: data.title,
+        description: data.description,
+        tags: data.tags || [],
+        date: data.date,
+        pinned: Boolean(data.pinned),
+      };
+    })
+    .sort((a, b) => {
+      if (a.pinned !== b.pinned) {
+        return Number(b.pinned) - Number(a.pinned);
+      }
+
+      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    });
+
+  for (const post of posts) {
     feed.item({
-      title: data.title,
-      description: data.description,
-      url: `${BASE_URL}/post/${slug}`,
-      guid: `${BASE_URL}/post/${slug}`,
-      categories: data.tags || [],
+      title: post.title,
+      description: post.description,
+      url: `${BASE_URL}/post/${post.slug}`,
+      guid: `${BASE_URL}/post/${post.slug}`,
+      categories: post.tags,
       author: '思想助产士',
-      date: data.date,
+      date: post.date,
     });
   }
-
-  // Sort items by date (descending) is handled by most readers, but let's ensure order if needed
-  // RSS package adds items in order, so we might want to sort files first if strict order is needed.
-  // For now, glob order is file system dependent, usually fine for build.
 
   const xml = feed.xml({ indent: true });
   fs.writeFileSync(OUTPUT_FILE, xml);

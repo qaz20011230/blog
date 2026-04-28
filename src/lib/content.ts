@@ -21,11 +21,18 @@ export function getAllPosts(): Post[] {
       description: data.description,
       category: data.category,
       tags: data.tags || [],
+      pinned: Boolean(data.pinned),
       content: body,
     });
   }
 
-  return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return posts.sort((a, b) => {
+    if (a.pinned !== b.pinned) {
+      return Number(b.pinned) - Number(a.pinned);
+    }
+
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
 }
 
 export function getPostBySlug(slug: string): Post | undefined {

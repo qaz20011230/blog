@@ -7,5 +7,6 @@ export interface Post {
   description: string;
   category: Category;
   tags: string[];
+  pinned?: boolean;
   content?: string;
 }
