@@ -1,15 +1,11 @@
 ---
 title: 构建财富免疫系统：进取型永久投资组合指南
 date: '2026-03-04'
-category: Ecommerce
-tags:
-  - investment
-  - finance
-  - portfolio-management
-  - wealth-building
-  - youth-guide
+category: "Business & Strategy"
+tags: ["投资", "资产配置", "财富管理"]
 description: 在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于“永久投资组合”哲学，并针对年轻人进行了进取性优化。
 ---
+
 
 > 在波动时代，以理性架构守护增长，以受托之心管理财富。——沃兹基·硕德
 

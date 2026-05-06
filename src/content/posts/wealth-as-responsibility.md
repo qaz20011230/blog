@@ -1,16 +1,12 @@
 ---
 title: 思想助产士的财富观：财富即责任，管理即使命
 date: '2026-02-21'
-category: Philosophy
-tags:
-  - wealth
-  - ethics
-  - responsibility
-  - stewardship
-  - philosophy-of-money
+category: "Philosophy"
+tags: ["财富观", "责任", "哲学"]
 description: >-
   财富的本质是什么？它不是奖赏，而是礼物；不是私产，而是责任。本文阐述一种基于“管家精神”的财富伦理：在简朴中持守责任，在清醒中实践慷慨，将财富管理升华为践行爱的生命修行。
 ---
+
 
 财富观回答两个根本问题：**财富的本质是什么？** 以及 **财富应如何管理？**
 

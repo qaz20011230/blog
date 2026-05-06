@@ -1,14 +1,11 @@
 ---
 title: "21世纪黎曼猜想研究蓝图：解析常数、谱与元数学的幽深之境"
 date: "2026-04-07"
-category: "Logic"
-tags:
-  - 黎曼猜想
-  - 数论
-  - 元数学
-  - 谱理论
+category: "Mathematics & Logic"
+tags: ["黎曼猜想", "数学", "数论"]
 description: "深入探讨黎曼猜想的非计算等价条件，包括de Bruijn–Newman常数、Hilbert–Pólya谱理论、丢番图表示及元数学的逻辑独立性问题。"
 ---
+
 
 **作者：良之**  
 *最后更新：2026年4月*

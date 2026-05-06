@@ -1,10 +1,11 @@
 ---
 title: "从 DeepSeekMath 到 Xanthippe，从“超越人类”到“定义完美”"
 date: "2026-04-25"
-category: "Logic"
-tags: ["架构", "AGI", "DeepSeek", "Xanthippe", "第一性原理"]
+category: "AI & Technology"
+tags: ["DeepSeek", "Xanthippe", "AGI", "数学"]
 description: "伟大无需多言，我们将创造高考数学的ASI。深度拆解Xanthippe架构如何通过百万Token上下文与全卷自验证飞轮，在7B参数上实现逻辑的必然与满分。"
 ---
+
 
 ## 序章 · 三个未完成
 

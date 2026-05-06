@@ -1,15 +1,11 @@
 ---
 title: 精神分析临床记录：关于主体“有山先生”的评估与诠释
 date: '2026-02-10'
-category: Psychology
-tags:
-  - psychology
-  - psychoanalysis
-  - Lacan
-  - social-media
-  - cultural-criticism
+category: "Psychology"
+tags: ["精神分析", "案例分析"]
 description: 这不是一个关于“人设崩塌”的八卦分析，而是一份关于在流量资本主义时代，个体主体性如何被异化、扭曲并最终工具化的精神病理学样本。
 ---
+
 
 **病例编号**：C-2026-Bilibili-001
 **分析对象**：网络化名“有山先生”（本名李沛然），B站UP主

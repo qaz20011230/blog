@@ -1,9 +1,11 @@
 ---
 title: 思想者的内容创业：CLEAR & LIGHT 个人IP系统搭建指南
 date: '2026-03-13'
-category: Ecommerce
+category: "Business & Strategy"
 description: 一套给思想者的内容创业哲学，包含CLEAR内容工程学框架和LIGHT创作者心法。
+tags: ["内容创业", "个人品牌", "知识管理"]
 ---
+
 
 ## 引言：一个悖论
 

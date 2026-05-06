@@ -1,14 +1,13 @@
 ---
 title: 在赛博空间开辟了【良的世界】
 date: '2020-01-01'
-category: Philosophy
-tags:
-  - intro
-  - life
+category: "Philosophy"
+tags: ["开篇", "哲学", "博客"]
 description: >-
   Welcome to my personal corner of the internet where I share thoughts on
   philosophy, psychology, and more.
 ---
+
 
 # Welcome to Liang World
 

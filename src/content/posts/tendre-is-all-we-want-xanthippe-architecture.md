@@ -1,20 +1,13 @@
 ---
 title: Tendre is All We Want — 赞希佩V3.0的理论基础：从统计近然到逻辑必然的认知架构
 date: '2026-04-28'
-category: Logic
-tags:
-  - 认知架构
-  - 数学推理
-  - 赞希佩
-  - Transformer
-  - 知识论
-  - 索绪尔
-  - 维特根斯坦
-  - Tendre
+category: "AI & Technology"
+tags: ["Tendre", "Xanthippe", "认知架构", "逻辑必然"]
 description: >
   一个能以概率1在高考数学中取得稳定满分的系统必然存在，其最小认知架构必须满足广度、深度、刚性三重要求。
   从拉丁词根 tendere 到形式证明，从维特根斯坦诊断到四层认知闭环架构，本文给出完整理论。
 ---
+
 
 ## 序章：三个支点与一个信念
 

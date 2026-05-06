@@ -1,18 +1,12 @@
 ---
 title: 学会：一种不可逆的存在方式
 date: '2026-04-07'
-category: Psychology
-tags:
-  - 学习
-  - 认知
-  - 心理学
-  - 元认知
-  - 流利度错觉
-  - 迁移
-  - 精通
+category: "Psychology"
+tags: ["学习", "存在", "认知"]
 description: >-
   真正的“学会”不是听过、读过、能复述，而是认知结构的不可逆改变：它融入你的思维方式，改变你处理信息与解决问题的操作系统。本文给出从记忆到精通的四层阶梯，并提供五个诚实检验，帮你识别“自以为知道”的危险。
 ---
+
 
 > *Experience is a hard teacher because she gives the test first, the lesson afterwards.*  
 > —— Vernon Law（前美国职棒大联盟投手）

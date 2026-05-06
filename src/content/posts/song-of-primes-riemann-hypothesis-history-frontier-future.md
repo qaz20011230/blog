@@ -1,16 +1,13 @@
 ---
 title: 素数之歌：黎曼猜想的历史、前沿与未来
 date: '2026-03-14'
-category: Logic
-tags:
-  - 数学
-  - 黎曼猜想
-  - 解析数论
-  - 人工智能
+category: "Mathematics & Logic"
+tags: ["黎曼猜想", "数学", "数论"]
 description: >-
   If you could be the Devil and offer a mathematician to sell his soul for the
   proof of one theorem — what theorem would m…
 ---
+
 作者：良之
 
 > If you could be the Devil and offer a mathematician to sell his soul for the proof of one theorem — what theorem would most mathematicians ask for? I think it would be the Riemann Hypothesis.

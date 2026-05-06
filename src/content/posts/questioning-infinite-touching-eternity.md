@@ -1,15 +1,11 @@
 ---
 title: 追问无限，触摸永恒——与每一位寻找不朽的灵魂对话
 date: '2026-03-10'
-category: Philosophy
-tags:
-  - philosophy
-  - mathematics
-  - life-meaning
-  - riemann-hypothesis
-  - eternity
+category: "Philosophy"
+tags: ["哲学", "无限", "永恒"]
 description: 从黎曼猜想到马克思的职业选择，探讨如何在有限的生命中追问无限，通过智慧、仁爱、勇敢、节制、公正、诚信、超越七种品质，触摸永恒的意义。
 ---
+
 
 ### 序曲：从有限出发
 

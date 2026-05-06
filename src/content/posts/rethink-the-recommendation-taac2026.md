@@ -1,20 +1,12 @@
 ---
 title: 推荐归一：Rethink the Recommendation —— TAAC2026 深度思考
 date: '2026-03-27'
-category: Ecommerce
-tags:
-  - 推荐系统
-  - TAAC2026
-  - KDD Cup
-  - 序列建模
-  - 特征交互
-  - Transformer
-  - 注意力机制
-  - 统一架构
-  - 技术思考
+category: "AI & Technology"
+tags: ["推荐系统", "TAAC2026"]
 description: >-
   工业推荐系统二十年，“序列建模 + 特征交互”的分离范式在长序列与高维特征下暴露三大隐含假设。本文从第一性原理提出统一架构：结构保持映射、统一注意力算子、渐进压缩与混合掩码，并给出竞赛推进与工业落地路径。
 ---
+
 
 > **写在前面**  
 > 本文是我在 TAAC2026 竞赛期间对赛题“Towards Unifying Sequence Modeling and Feature Interaction for Large-scale Recommendation”的系统性思考。  

@@ -1,10 +1,11 @@
 ---
 title: "架构师的白板：从C2C到AGI，深度复盘DeepSeek Scaling Law背后的极致务实"
 date: "2024-02-01"
-category: "Logic"
-tags: ["架构", "AGI", "Scaling Law", "DeepSeek", "长期主义"]
+category: "AI & Technology"
+tags: ["DeepSeek", "Scaling Law", "AGI", "架构"]
 description: "从2012年阿里巴巴B2B私有化的架构挑战出发，深度复盘DeepSeek LLM论文中的长期主义与极致务实，探讨通往AGI的Scaling Law规律与方法论。"
 ---
+
 
 ## 序章 · 深夜的架构图
 
