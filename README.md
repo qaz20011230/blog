@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>中文</strong>
+  <strong>中文</strong> &nbsp;|&nbsp; <a href="#english">English</a>
 </p>
 
 ---
@@ -136,6 +136,88 @@ https://liang-world.vercel.app
 | 构建 | `vite`, `typescript`, `autoprefixer`, `postcss` |
 | 开发 | `nodemon`, `concurrently`, `eslint`, `tsx` |
 | 部署 | `@vercel/node`, `vite-tsconfig-paths` |
+
+---
+
+<a name="english"></a>
+
+## English
+
+### Overview
+
+LeoZ Universe is a personal blog built with **React + TypeScript + Vite + Express**, authored in Markdown with Obsidian, and deployed on Vercel at **[liang-world.vercel.app](https://liang-world.vercel.app)**.
+
+It features math rendering via KaTeX, RSS subscription, archives, and categorized browsing — a digital space for technical writing and knowledge sharing.
+
+### Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | React 18 + TypeScript 5.8 |
+| Build | Vite 6 |
+| Styling | Tailwind CSS 3 + `@tailwindcss/typography` |
+| Routing | React Router v7 |
+| Server | Express 4 (dev proxy + API) |
+| Content | Markdown → react-markdown + remark-gfm |
+| Math | KaTeX (remark-math + rehype-katex) |
+| State | Zustand |
+| Icons | Lucide React |
+| SEO | react-helmet-async |
+| RSS | `rss` + auto-generation script |
+| Deployment | Vercel (`@vercel/node`) |
+| CMS | Obsidian |
+| Linting | ESLint 9 + TypeScript ESLint |
+
+### Features
+
+- **Markdown Rendering** — GFM tables, task lists, syntax highlighting
+- **Math Formulas** — KaTeX engine, real-time LaTeX rendering
+- **RSS Feed** — Auto-generated `rss.xml`
+- **Archives** — Browse by year / tags
+- **Bookshelf** — Reading notes and book lists
+- **SEO Optimized** — Dynamic `<title>` + `<meta>` tags
+- **Responsive** — Mobile / desktop adaptive layout
+
+### Local Development
+
+```bash
+npm install                  # Install dependencies
+npm run dev                  # Start dev server (frontend + backend)
+npm run build                # Production build
+npm run preview              # Preview production build
+```
+
+### Content Management
+
+All posts are stored as Markdown files under `src/content/`, edited locally with [Obsidian](https://obsidian.md). Posts support YAML front matter:
+
+```yaml
+---
+title: Post Title
+date: 2024-01-01
+tags: [tech, frontend]
+description: A brief summary
+---
+```
+
+### Deployment
+
+Auto-deployed on Vercel via Git push:
+
+```bash
+git push origin main         # Triggers Vercel deploy
+```
+
+### Dependencies
+
+| Category | Packages |
+|----------|----------|
+| Content | `react-markdown`, `remark-gfm`, `remark-math`, `rehype-katex`, `rehype-raw` |
+| Styling | `tailwindcss`, `@tailwindcss/typography`, `tailwind-merge`, `clsx` |
+| Utilities | `date-fns`, `gray-matter`, `buffer`, `dotenv`, `rss` |
+| Build | `vite`, `typescript`, `autoprefixer`, `postcss` |
+| Dev | `nodemon`, `concurrently`, `eslint`, `tsx` |
+| Deploy | `@vercel/node`, `vite-tsconfig-paths` |
 
 ---
 
