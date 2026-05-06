@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 May 2026 06:00:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 May 2026 08:11:32 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 May 2026 06:00:55 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 08:11:32 GMT</pubDate>
         <copyright><![CDATA[© 2026 LeoZ Universe]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@example.com (思想助产士)]]></managingEditor>
@@ -27,6 +27,19 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[寻语之道：从格物到问学的三十级台阶]]></title>
+            <description><![CDATA[从本科筑基到独立问道，三十部语言学经典的拾级而上之道——以四境格物致知、穷理尽性、铸剑试锋、问道无疆，带你步步为营深入语言迷宫。]]></description>
+            <link>https://liang.world/post/linguistics-reading-path-thirty-steps</link>
+            <guid isPermaLink="false">https://liang.world/post/linguistics-reading-path-thirty-steps</guid>
+            <category><![CDATA[语言学]]></category>
+            <category><![CDATA[书单]]></category>
+            <category><![CDATA[读书]]></category>
+            <category><![CDATA[学术路径]]></category>
+            <category><![CDATA[教育]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[光能聚合，智造未来——菲娜睿特企业使命白皮书]]></title>
