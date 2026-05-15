@@ -1,6 +1,6 @@
-import { Buffer } from 'buffer'
-// Polyfill Buffer for the browser
-globalThis.Buffer = Buffer
+import { Buffer as BufferPolyfill } from 'buffer'
+window.Buffer = BufferPolyfill as unknown as typeof Buffer
+globalThis.Buffer = window.Buffer
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'

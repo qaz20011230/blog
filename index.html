@@ -7,6 +7,18 @@
     <meta name="robots" content="index, follow" />
     <meta name="description" content="良之世界 | Liang.World — 思想助产士的数字花园。融合精神分析、哲学践行与商业逻辑的深度思考。" />
     <title>良之世界 | Liang.World</title>
+    <script>
+      // Minimal Buffer polyfill for gray-matter compatibility
+      window.Buffer = window.Buffer || {
+        from: function(data, encoding) {
+          if (typeof data === 'string') return new TextEncoder().encode(data);
+          return new Uint8Array(data);
+        },
+        isBuffer: function() { return false; },
+        alloc: function(size) { return new Uint8Array(size); },
+        isEncoding: function() { return false; },
+      };
+    </script>
     <script type="module">
       if (import.meta.hot?.on) {
         import.meta.hot.on('vite:error', (error) => {
