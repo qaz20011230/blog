@@ -27,7 +27,7 @@ async function generateSitemap() {
   }
 
   // Blog posts
-  const postFiles = await glob('src/content/posts/*.md');
+  const postFiles = await glob('src/content/posts/zh/*.md');
   for (const file of postFiles) {
     const content = fs.readFileSync(file, 'utf-8');
     const { data } = matter(content);

@@ -1,84 +1,107 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import fs from 'fs';
+import path from 'path';
 import matter from 'gray-matter';
 
-const postsDir = path.join(process.cwd(), 'src', 'content', 'posts');
+const dir = 'src/content/posts/zh';
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
 
-const ALLOWED_CATEGORIES = new Set(['Philosophy', 'Psychology', 'Logic', 'Ecommerce']);
+let errors = [];
+let warnings = [];
 
-function listMarkdownFiles(dir) {
-  return fs.readdirSync(dir).filter((f) => f.endsWith('.md'));
-}
+for (const f of files) {
+  const filePath = path.join(dir, f);
+  const raw = fs.readFileSync(filePath, 'utf-8');
 
-function normalizeTitle(title) {
-  return String(title || '').trim();
-}
-
-function auditDuplicatesByTitle() {
-  const files = listMarkdownFiles(postsDir);
-  const byTitle = new Map();
-
-  const missingDescription = [];
-  const invalidCategory = [];
-  const invalidDate = [];
-
-  for (const file of files) {
-    const filePath = path.join(postsDir, file);
-    const raw = fs.readFileSync(filePath, 'utf8');
+  // 1. YAML validation
+  let data;
+  try {
     const parsed = matter(raw);
-    const title = normalizeTitle(parsed.data.title);
-    const date = String(parsed.data.date || '').trim();
-    const category = String(parsed.data.category || '').trim();
-    const description = String(parsed.data.description || '').trim();
-
-    if (!description) missingDescription.push(file);
-    if (category && !ALLOWED_CATEGORIES.has(category)) invalidCategory.push({ file, category });
-    if (!date || Number.isNaN(new Date(date).getTime())) invalidDate.push({ file, date });
-
-    if (!title) continue;
-
-    const list = byTitle.get(title) ?? [];
-    list.push({ file, date, category, bytes: raw.length });
-    byTitle.set(title, list);
+    data = parsed.data;
+  } catch (e) {
+    errors.push(`[YAML] ${f}: ${e.message.substring(0, 150)}`);
+    continue;
   }
 
-  const duplicates = [...byTitle.entries()].filter(([, list]) => list.length > 1);
-  duplicates.sort((a, b) => b[1].length - a[1].length);
+  // 2. Required fields
+  if (!data.title) warnings.push(`[MISSING title] ${f}`);
+  if (!data.date) warnings.push(`[MISSING date] ${f}`);
+  if (!data.category) warnings.push(`[MISSING category] ${f}`);
 
-  console.log(`Posts scanned: ${files.length}`);
-  console.log(`Missing description: ${missingDescription.length}`);
-  console.log(`Invalid category: ${invalidCategory.length}`);
-  console.log(`Invalid date: ${invalidDate.length}`);
+  // 3. Content checks
+  const content = raw;
 
-  if (missingDescription.length > 0) {
-    console.log('\nMissing description files:');
-    missingDescription.slice(0, 50).forEach((f) => console.log(` - ${f}`));
+  // Unclosed LaTeX delimiters
+  const inlineDollar = (content.match(/(?<!\$)\$(?!\$)/g) || []).length;
+  if (inlineDollar % 2 !== 0) {
+    warnings.push(`[UNPAIRED $] ${f}: ${inlineDollar} single $ signs`);
   }
 
-  if (invalidCategory.length > 0) {
-    console.log('\nInvalid category files:');
-    invalidCategory.slice(0, 50).forEach((it) => console.log(` - ${it.file}: ${it.category}`));
+  const openParen = (content.match(/\\\(/g) || []).length;
+  const closeParen = (content.match(/\\\)/g) || []).length;
+  if (openParen !== closeParen) {
+    warnings.push(`[UNPAIRED \\(] ${f}: \\( ${openParen} vs \\) ${closeParen}`);
   }
 
-  if (invalidDate.length > 0) {
-    console.log('\nInvalid date files:');
-    invalidDate.slice(0, 50).forEach((it) => console.log(` - ${it.file}: ${it.date}`));
+  const openBracket = (content.match(/\\\[/g) || []).length;
+  const closeBracket = (content.match(/\\\]/g) || []).length;
+  if (openBracket !== closeBracket) {
+    warnings.push(`[UNPAIRED \\[] ${f}: \\[ ${openBracket} vs \\] ${closeBracket}`);
   }
 
-  if (duplicates.length === 0) {
-    console.log('\nNo duplicate titles found.');
-    return;
+  // Suspicious --- patterns (could be broken YAML or HR markers)
+  const bodyText = content.replace(/^---[\s\S]*?---/, ''); // remove frontmatter
+  const hLines = (bodyText.match(/^---\s*$/gm) || []).length;
+  // Check for --- directly after frontmatter (broken)
+  if (/^---[\s\S]*?---\n---/.test(content)) {
+    warnings.push(`[ADJACENT ---] ${f}: possible duplicate frontmatter markers`);
   }
 
-  for (const [title, list] of duplicates) {
-    console.log(`\n=== ${title} (${list.length}) ===`);
-    list
-      .slice()
-      .sort((a, b) => String(b.date).localeCompare(String(a.date)))
-      .forEach((it) => {
-        console.log(` - ${it.file} | ${it.date} | ${it.category} | ${it.bytes} bytes`);
-      });
+  // Check for stray YAML markers inside content
+  if (/^---\S/.test(bodyText)) {
+    warnings.push(`[INLINE ---#] ${f}: --- followed by text on same line`);
+  }
+
+  // Check for <br> or HTML that should be markdown
+  if (/<br\s*\/?>/.test(bodyText)) {
+    warnings.push(`[HTML <br>] ${f}`);
+  }
+
+  // Check for unescaped pipes in table cells that might break tables
+  const tableLines = bodyText.split('\n').filter(l => /^\|.*\|$/.test(l.trim()));
+  if (tableLines.length > 0) {
+    // Check table consistency
+    const sepLineIdx = tableLines.findIndex((l, i) => i > 0 && /^\|[\s\-:|]+\|$/.test(l));
   }
 }
 
-auditDuplicatesByTitle();
+// Report
+console.log(`\n=== AUDIT REPORT ===`);
+console.log(`Total posts: ${files.length}`);
+console.log(`Errors (YAML): ${errors.length}`);
+console.log(`Warnings: ${warnings.length}\n`);
+
+if (errors.length > 0) {
+  console.log('--- ERRORS ---');
+  errors.forEach(e => console.log('  ' + e));
+}
+
+if (warnings.length > 0) {
+  console.log('--- WARNINGS ---');
+  warnings.forEach(w => console.log('  ' + w));
+}
+
+if (errors.length === 0 && warnings.length === 0) {
+  console.log('All posts pass basic checks.');
+}
+
+// Also list all posts with tables
+const postsWithTables = [];
+for (const f of files) {
+  const raw = fs.readFileSync(path.join(dir, f), 'utf-8');
+  const body = raw.replace(/^---[\s\S]*?---/, '');
+  if (/\|.*\|.*\|/.test(body) && /^\|[-:\s|]+\|$/m.test(body)) {
+    postsWithTables.push(f);
+  }
+}
+console.log(`\nPosts with tables: ${postsWithTables.length}`);
+postsWithTables.forEach(f => console.log('  ' + f));

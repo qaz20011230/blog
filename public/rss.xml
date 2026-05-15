@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 May 2026 07:58:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 09:20:12 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 15 May 2026 07:58:45 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 09:20:12 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -34,21 +34,6 @@
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[把大象放进冰箱：论用计算方法逼近黎曼猜想]]></title>
-            <description><![CDATA[系统阐述一种用计算方法逼近黎曼猜想的路径——将黎曼猜想等价转化为一台744状态的图灵机停机问题，建立数据驱动的、人机协同的观测与实验平台。]]></description>
-            <link>https://liang.world/post/把大象放进冰箱：论用计算方法逼近黎曼猜想</link>
-            <guid isPermaLink="false">https://liang.world/post/把大象放进冰箱：论用计算方法逼近黎曼猜想</guid>
-            <category><![CDATA[黎曼猜想]]></category>
-            <category><![CDATA[数学]]></category>
-            <category><![CDATA[图灵机]]></category>
-            <category><![CDATA[停机问题]]></category>
-            <category><![CDATA[ZetaHalt]]></category>
-            <category><![CDATA[形式化验证]]></category>
-            <category><![CDATA[希尔伯特第八问题]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[键值记忆：从谟涅摩叙涅的馈赠到硅基智能的苏醒]]></title>
             <description><![CDATA[以跨学科视角系统追溯记忆研究从古希腊智慧到当代AI的演进历程。 以键值记忆框架为核心，将脑科学、认知心理学与人工智能串联为统一叙事——遗忘并非记忆的消失，而是检索路径的失效。
 ]]></description>
@@ -62,6 +47,21 @@
             <category><![CDATA[记忆巩固]]></category>
             <category><![CDATA[认知科学]]></category>
             <category><![CDATA[RAG]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[把大象放进冰箱：论用计算方法逼近黎曼猜想]]></title>
+            <description><![CDATA[系统阐述一种用计算方法逼近黎曼猜想的路径——将黎曼猜想等价转化为一台744状态的图灵机停机问题，建立数据驱动的、人机协同的观测与实验平台。]]></description>
+            <link>https://liang.world/post/elephant-in-fridge-computational-approach-riemann</link>
+            <guid isPermaLink="false">https://liang.world/post/elephant-in-fridge-computational-approach-riemann</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[图灵机]]></category>
+            <category><![CDATA[停机问题]]></category>
+            <category><![CDATA[ZetaHalt]]></category>
+            <category><![CDATA[形式化验证]]></category>
+            <category><![CDATA[希尔伯特第八问题]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
         </item>
@@ -430,17 +430,6 @@
             <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[愚人节特辑｜庆祝“我不知道”]]></title>
-            <description><![CDATA[愚人节不只是玩笑的许可，而是在庆祝“我不知道”：它提醒我们承认边界、保留好奇、延迟评判；以苏格拉底的无知之知、庄子的知无涯，换回关系里那份活的惊奇与对他者未知的尊重。]]></description>
-            <link>https://liang.world/post/愚人节特辑庆祝我不知道</link>
-            <guid isPermaLink="false">https://liang.world/post/愚人节特辑庆祝我不知道</guid>
-            <category><![CDATA[哲学]]></category>
-            <category><![CDATA[无知]]></category>
-            <category><![CDATA[苏格拉底]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[元语言与存在的阶梯：Turn-Lang与形式化思想的自我超越]]></title>
             <description><![CDATA[“我们并非在寻找真理的最终表述，而是在为真理的永恒对话搭建一个永不关闭的舞台。” —— 莱布尼茨，1686年]]></description>
             <link>https://liang.world/post/meta-language-and-ladder-of-being-turn-lang</link>
@@ -448,6 +437,17 @@
             <category><![CDATA[元语言]]></category>
             <category><![CDATA[形式化]]></category>
             <category><![CDATA[Turn-Lang]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[愚人节特辑｜庆祝“我不知道”]]></title>
+            <description><![CDATA[愚人节不只是玩笑的许可，而是在庆祝“我不知道”：它提醒我们承认边界、保留好奇、延迟评判；以苏格拉底的无知之知、庄子的知无涯，换回关系里那份活的惊奇与对他者未知的尊重。]]></description>
+            <link>https://liang.world/post/april-fools-celebrate-i-dont-know</link>
+            <guid isPermaLink="false">https://liang.world/post/april-fools-celebrate-i-dont-know</guid>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[无知]]></category>
+            <category><![CDATA[苏格拉底]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -498,8 +498,8 @@
         <item>
             <title><![CDATA[天赋不是武器，是你最后的避难所]]></title>
             <description><![CDATA[天赋不是用来赢过别人的武器，而是你在挫折与贫困中仍能回到的快乐泉眼；它不交易、不变现，只在你最疲惫时召唤你回到那件“做了就会活过来”的事。守住这份乐，才是避免“泯然众人”的真正方式。]]></description>
-            <link>https://liang.world/post/天赋不是武器是你最后的避难所</link>
-            <guid isPermaLink="false">https://liang.world/post/天赋不是武器是你最后的避难所</guid>
+            <link>https://liang.world/post/talent-not-weapon-last-sanctuary</link>
+            <guid isPermaLink="false">https://liang.world/post/talent-not-weapon-last-sanctuary</guid>
             <category><![CDATA[天赋]]></category>
             <category><![CDATA[人生]]></category>
             <category><![CDATA[哲学]]></category>
@@ -553,8 +553,8 @@
         <item>
             <title><![CDATA[论批评]]></title>
             <description><![CDATA[辨清批评与攻击、入罪、构陷之别；批评不是天赋权力，而是受托的责任。以善意为底、授权为门槛，以对方的立场/逻辑/事实为依据，只贡献可复核的推理，并追求最小附带伤害——这才是批评之道。]]></description>
-            <link>https://liang.world/post/论批评</link>
-            <guid isPermaLink="false">https://liang.world/post/论批评</guid>
+            <link>https://liang.world/post/on-criticism</link>
+            <guid isPermaLink="false">https://liang.world/post/on-criticism</guid>
             <category><![CDATA[批评]]></category>
             <category><![CDATA[哲学]]></category>
             <category><![CDATA[对话]]></category>
@@ -575,8 +575,8 @@
         <item>
             <title><![CDATA[论等于]]></title>
             <description><![CDATA[等号从不说谎，但也从不说全：相等永远发生在某个属性之上，而非实体本身。把‘等于’按在生活里，其实是在做分类与伦理选择——你选择了什么尺度，就塑造了你如何看见自己与他人。]]></description>
-            <link>https://liang.world/post/论等于</link>
-            <guid isPermaLink="false">https://liang.world/post/论等于</guid>
+            <link>https://liang.world/post/on-equality</link>
+            <guid isPermaLink="false">https://liang.world/post/on-equality</guid>
             <category><![CDATA[数学]]></category>
             <category><![CDATA[逻辑]]></category>
             <category><![CDATA[等式]]></category>
@@ -640,8 +640,8 @@
         <item>
             <title><![CDATA[情侣之间聊什么能增进感情？]]></title>
             <description><![CDATA[一封写给恋人的信：感情不是靠回忆与甜蜜维系，而是靠日常练习理解与宽容；警惕以共同仇恨取暖，学会讨论原因、感受与修复。]]></description>
-            <link>https://liang.world/post/情侣之间聊什么能增进感情</link>
-            <guid isPermaLink="false">https://liang.world/post/情侣之间聊什么能增进感情</guid>
+            <link>https://liang.world/post/what-couples-talk-deepen-relationship</link>
+            <guid isPermaLink="false">https://liang.world/post/what-couples-talk-deepen-relationship</guid>
             <category><![CDATA[亲密关系]]></category>
             <category><![CDATA[沟通]]></category>
             <category><![CDATA[心理学]]></category>
@@ -739,8 +739,8 @@
         <item>
             <title><![CDATA[金星]]></title>
             <description><![CDATA[爱明内斯库《金星》：一首关于渴望、距离与不朽代价的长诗。在宇宙尺度的抒情里，照见人的有限与爱的形而上学。]]></description>
-            <link>https://liang.world/post/金星</link>
-            <guid isPermaLink="false">https://liang.world/post/金星</guid>
+            <link>https://liang.world/post/venus</link>
+            <guid isPermaLink="false">https://liang.world/post/venus</guid>
             <category><![CDATA[文化]]></category>
             <category><![CDATA[文学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
@@ -793,8 +793,8 @@
         <item>
             <title><![CDATA[一万个陶哲轩：AI如何重塑数学与科学的未来]]></title>
             <description><![CDATA[未来，世界上可能会有10000个陶哲轩。本文基于陶哲轩的访谈，探讨AI如何重塑科研模式、数学工程学的兴起、以及在AGI时代人类思维的独特价值。]]></description>
-            <link>https://liang.world/post/一万个陶哲轩ai如何重塑数学与科学的未来</link>
-            <guid isPermaLink="false">https://liang.world/post/一万个陶哲轩ai如何重塑数学与科学的未来</guid>
+            <link>https://liang.world/post/ten-thousand-terence-taos-ai-reshapes-math-science</link>
+            <guid isPermaLink="false">https://liang.world/post/ten-thousand-terence-taos-ai-reshapes-math-science</guid>
             <category><![CDATA[AI]]></category>
             <category><![CDATA[数学]]></category>
             <category><![CDATA[陶哲轩]]></category>
@@ -837,8 +837,8 @@
         <item>
             <title><![CDATA[“导演”已死？当AI开始梦见电影]]></title>
             <description><![CDATA[从Seedance 2.0的惊艳亮相到拟像时代的创作迷思。当AI不仅能再现真实，更能生产“超真实”时，我们该如何捍卫创作中那份不可被算法化的生命体验？]]></description>
-            <link>https://liang.world/post/导演已死当ai开始梦见电影</link>
-            <guid isPermaLink="false">https://liang.world/post/导演已死当ai开始梦见电影</guid>
+            <link>https://liang.world/post/director-is-dead-ai-dreams-movies</link>
+            <guid isPermaLink="false">https://liang.world/post/director-is-dead-ai-dreams-movies</guid>
             <category><![CDATA[电影]]></category>
             <category><![CDATA[AI]]></category>
             <category><![CDATA[艺术]]></category>
@@ -848,8 +848,8 @@
         <item>
             <title><![CDATA[焦虑不是敌人——在“烦”与“畏”中重获存在力量]]></title>
             <description><![CDATA[真正的宁静不是风暴平息，而是学会在风暴中航行。借海德格尔《存在与时间》中的“烦”与“畏”，我们尝试在现代社会的焦虑迷雾中，重新寻回存在的本真力量。]]></description>
-            <link>https://liang.world/post/焦虑不是敌人在烦与畏中重获存在力量</link>
-            <guid isPermaLink="false">https://liang.world/post/焦虑不是敌人在烦与畏中重获存在力量</guid>
+            <link>https://liang.world/post/anxiety-not-enemy-reclaim-existence-power</link>
+            <guid isPermaLink="false">https://liang.world/post/anxiety-not-enemy-reclaim-existence-power</guid>
             <category><![CDATA[焦虑]]></category>
             <category><![CDATA[存在主义]]></category>
             <category><![CDATA[海德格尔]]></category>
@@ -870,8 +870,8 @@
         <item>
             <title><![CDATA[论“矜持”——算盘声里的情意]]></title>
             <description><![CDATA[当“爱情经济学”将矜持解构为“消极交易”，当我们将活生生的人熬成明码标价的“高汤”，我们究竟是在进步，还是在异化？本期周刊，借鲁迅笔意，聊聊算盘珠子声里的情意与尊严。]]></description>
-            <link>https://liang.world/post/论矜持算盘声里的情意</link>
-            <guid isPermaLink="false">https://liang.world/post/论矜持算盘声里的情意</guid>
+            <link>https://liang.world/post/on-reserve-affection-in-abacus-sounds</link>
+            <guid isPermaLink="false">https://liang.world/post/on-reserve-affection-in-abacus-sounds</guid>
             <category><![CDATA[文化]]></category>
             <category><![CDATA[情感]]></category>
             <category><![CDATA[散文]]></category>
@@ -881,8 +881,8 @@
         <item>
             <title><![CDATA[从零开始的琴瑟仙女]]></title>
             <description><![CDATA[本期周刊为大家带来《英雄联盟》中琴瑟仙女·娑娜的新手进阶指南。从基础机制到S15赛季最新出装，带你领略MOBA游戏的魅力，成为峡谷里最让队友安心的“移动泉水”。]]></description>
-            <link>https://liang.world/post/从零开始的琴瑟仙女</link>
-            <guid isPermaLink="false">https://liang.world/post/从零开始的琴瑟仙女</guid>
+            <link>https://liang.world/post/starting-from-zero-qinse-fairy</link>
+            <guid isPermaLink="false">https://liang.world/post/starting-from-zero-qinse-fairy</guid>
             <category><![CDATA[游戏]]></category>
             <category><![CDATA[文化]]></category>
             <category><![CDATA[创作]]></category>
@@ -914,8 +914,8 @@
         <item>
             <title><![CDATA[系统之美，理解宇宙]]></title>
             <description><![CDATA[从身体的健康，到社会的运行，再到星辰的运转，答案或许就藏在“系统”之中。本期周刊，我们将开启一场从个人到宇宙的旅程，探索那隐藏在万物背后的结构之美、动态之韵与和谐之律。]]></description>
-            <link>https://liang.world/post/系统之美理解宇宙</link>
-            <guid isPermaLink="false">https://liang.world/post/系统之美理解宇宙</guid>
+            <link>https://liang.world/post/beauty-of-systems-understanding-universe</link>
+            <guid isPermaLink="false">https://liang.world/post/beauty-of-systems-understanding-universe</guid>
             <category><![CDATA[系统思维]]></category>
             <category><![CDATA[哲学]]></category>
             <category><![CDATA[宇宙]]></category>
@@ -956,8 +956,8 @@
         <item>
             <title><![CDATA[面向旷野：你能不能完全不为人知的生存？]]></title>
             <description><![CDATA[旷野生存，是用不到隐私的。当一个人决定背对人群，转身走向天地相接的边际，他首先交出的，或许正是那份在人际网络中反复度量、精心维护的自我。]]></description>
-            <link>https://liang.world/post/面向旷野你能不能完全不为人知的生存</link>
-            <guid isPermaLink="false">https://liang.world/post/面向旷野你能不能完全不为人知的生存</guid>
+            <link>https://liang.world/post/facing-the-wild-living-completely-unknown</link>
+            <guid isPermaLink="false">https://liang.world/post/facing-the-wild-living-completely-unknown</guid>
             <category><![CDATA[存在主义]]></category>
             <category><![CDATA[孤独]]></category>
             <category><![CDATA[自由]]></category>
@@ -967,8 +967,8 @@
         <item>
             <title><![CDATA[斯多葛三角：取舍的智慧与选择的自由]]></title>
             <description><![CDATA[择业与择偶的“不可能三角”，本质上正是斯多葛智慧的现实映照。真正的自由不在于拥有一切，而在于清醒地知道自己愿意放弃什么。]]></description>
-            <link>https://liang.world/post/斯多葛三角取舍的智慧与选择的自由</link>
-            <guid isPermaLink="false">https://liang.world/post/斯多葛三角取舍的智慧与选择的自由</guid>
+            <link>https://liang.world/post/stoic-triangle-wisdom-choice-freedom</link>
+            <guid isPermaLink="false">https://liang.world/post/stoic-triangle-wisdom-choice-freedom</guid>
             <category><![CDATA[斯多葛]]></category>
             <category><![CDATA[哲学]]></category>
             <category><![CDATA[选择]]></category>
@@ -978,8 +978,8 @@
         <item>
             <title><![CDATA[忍他，让他，由他——寒山拾得的斯多葛式修行]]></title>
             <description><![CDATA[世间谤我、欺我、辱我者，何其多也。寒山所问的，原不是“如何报复”，却是“如何处治”——这话里便藏了斯多葛派的机锋。]]></description>
-            <link>https://liang.world/post/忍他让他由他寒山拾得的斯多葛式修行</link>
-            <guid isPermaLink="false">https://liang.world/post/忍他让他由他寒山拾得的斯多葛式修行</guid>
+            <link>https://liang.world/post/tolerate-let-be-hanshan-stoic-practice</link>
+            <guid isPermaLink="false">https://liang.world/post/tolerate-let-be-hanshan-stoic-practice</guid>
             <category><![CDATA[斯多葛]]></category>
             <category><![CDATA[禅宗]]></category>
             <category><![CDATA[修行]]></category>
@@ -989,8 +989,8 @@
         <item>
             <title><![CDATA[甚么是爱？]]></title>
             <description><![CDATA[近来有人问我甚么是爱。这问题倒很可以谈谈……今日便追本溯源，说几句老实话。爱不是“Love”，爱是Caritas，是慈善。]]></description>
-            <link>https://liang.world/post/甚么是爱</link>
-            <guid isPermaLink="false">https://liang.world/post/甚么是爱</guid>
+            <link>https://liang.world/post/what-is-love</link>
+            <guid isPermaLink="false">https://liang.world/post/what-is-love</guid>
             <category><![CDATA[爱]]></category>
             <category><![CDATA[哲学]]></category>
             <category><![CDATA[情感]]></category>

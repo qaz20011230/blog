@@ -28,7 +28,7 @@ async function generateRSS() {
   });
 
   // Add blog posts
-  const postFiles = await glob('src/content/posts/*.md');
+  const postFiles = await glob('src/content/posts/zh/*.md');
   const posts = postFiles
     .map((file) => {
       const content = fs.readFileSync(file, 'utf-8');

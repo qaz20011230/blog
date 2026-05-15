@@ -1,105 +1,45 @@
-import React, { useMemo } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams, Link } from 'react-router-dom';
 import { getAllPosts } from '../lib/content';
 import PostCard from '../components/PostCard';
+import { useLanguage } from '../context/LanguageContext';
+import { UI, Category } from '../types';
 import { cn } from '../lib/utils';
 
-type CategoryKey = 'Philosophy' | 'Psychology' | 'AI & Technology' | 'Mathematics & Logic' | 'Business & Strategy' | 'Culture & Art';
-
-const CATEGORY_LABELS: Record<CategoryKey, string> = {
-  'Philosophy': '哲学',
-  'Psychology': '心理学',
-  'AI & Technology': 'AI与技术',
-  'Mathematics & Logic': '数学与逻辑',
-  'Business & Strategy': '商业与战略',
-  'Culture & Art': '文化与艺术',
-};
-
-const CATEGORY_ICONS: Record<CategoryKey, string> = {
-  'Philosophy': 'φ',
-  'Psychology': 'ψ',
-  'AI & Technology': '∫',
-  'Mathematics & Logic': '∀',
-  'Business & Strategy': '♟',
-  'Culture & Art': '♫',
-};
+const categories: Category[] = ['Philosophy', 'Psychology', 'Logic', 'Ecommerce', 'Others'];
 
 export default function Categories() {
-  const allPosts = getAllPosts();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const { locale, t } = useLanguage();
+  const allPosts = getAllPosts(locale);
+  const [searchParams] = useSearchParams();
+  const initialCategory = (searchParams.get('category') as Category) || 'All';
+  const [selectedCategory, setSelectedCategory] = useState<Category | 'All'>(initialCategory);
 
-  const categoryParam = searchParams.get('category') || '';
-  const selectedCategory = (CATEGORY_LABELS[categoryParam as CategoryKey] ? categoryParam : 'All') as CategoryKey | 'All';
+  useEffect(() => {
+    const cat = searchParams.get('category') as Category;
+    if (cat && categories.includes(cat)) setSelectedCategory(cat);
+  }, [searchParams]);
 
-  const categoriesWithCounts = useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const post of allPosts) {
-      if (post.category) {
-        counts[post.category] = (counts[post.category] || 0) + 1;
-      }
-    }
-    return Object.entries(counts)
-      .filter(([cat]) => cat in CATEGORY_LABELS)
-      .sort(([, a], [, b]) => b - a)
-      .map(([cat, count]) => ({ key: cat as CategoryKey, count }));
-  }, [allPosts]);
-
-  const filteredPosts = selectedCategory === 'All'
-    ? allPosts
-    : allPosts.filter(post => post.category === selectedCategory);
-
-  const handleCategorySelect = (cat: CategoryKey | 'All') => {
-    if (cat === 'All') {
-      setSearchParams({});
-    } else {
-      setSearchParams({ category: cat });
-    }
-  };
+  const filteredPosts = selectedCategory === 'All' ? allPosts : allPosts.filter(p => p.category === selectedCategory);
 
   return (
     <div className="page-enter">
-      <h1 className="text-3xl font-bold text-gray-100 mb-2 font-serif tracking-widest">CATEGORIES</h1>
-      <p className="text-gray-500 text-sm mb-8 font-mono">
-        {allPosts.length} articles · {categoriesWithCounts.length} categories
-      </p>
-
+      <h1 className="text-3xl font-bold text-gray-100 mb-8 font-serif tracking-widest">
+        {t(UI.categories.heading.zh, UI.categories.heading.en)}
+      </h1>
       <div className="flex flex-wrap gap-3 mb-12">
-        <button
-          onClick={() => handleCategorySelect('All')}
-          className={cn(
-            'px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300',
-            selectedCategory === 'All'
-              ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]'
-              : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary'
-          )}
-        >
-          All ({allPosts.length})
+        <button onClick={() => setSelectedCategory('All')} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === 'All' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
+          {t(UI.categories.all.zh, UI.categories.all.en)}
         </button>
-        {categoriesWithCounts.map(({ key, count }) => (
-          <button
-            key={key}
-            onClick={() => handleCategorySelect(key)}
-            className={cn(
-              'px-4 py-1.5 border text-sm font-mono transition-all duration-300 group',
-              selectedCategory === key
-                ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]'
-                : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary'
-            )}
-          >
-            <span className="mr-1.5 opacity-60 text-xs">{CATEGORY_ICONS[key]}</span>
-            {CATEGORY_LABELS[key]}
-            <span className="ml-1.5 opacity-50 text-xs">({count})</span>
+        {categories.map(cat => (
+          <button key={cat} onClick={() => setSelectedCategory(cat)} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === cat ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
+            {cat}
           </button>
         ))}
       </div>
-
       <div className="stagger-children">
-        {filteredPosts.length > 0 ? (
-          filteredPosts.map((post) => (
-            <PostCard key={post.slug} post={post} />
-          ))
-        ) : (
-          <p className="text-gray-500 italic font-mono tracking-widest">此分类暂无文章。</p>
+        {filteredPosts.length > 0 ? filteredPosts.map(p => <PostCard key={p.slug} post={p} />) : (
+          <p className="text-gray-500 italic font-mono tracking-widest">{t(UI.categories.noPosts.zh, UI.categories.noPosts.en)}</p>
         )}
       </div>
     </div>
