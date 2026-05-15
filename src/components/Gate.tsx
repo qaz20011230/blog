@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { cn } from '../lib/utils';
 
@@ -12,8 +13,9 @@ function checkEnglish(input: string): boolean {
   return clean.includes('riemann') && (clean.includes('zeta') || clean.includes('ζ')) && (clean.includes('non-trivial zeros') || clean.includes('nontrivial zeros') || clean.includes('non trivial zeros')) && clean.includes('real part') && (clean.includes('1/2') || clean.includes('one-half') || clean.includes('one half') || clean.includes('0.5'));
 }
 
-export default function Gate() {
+export default function Gate({ onPass }: { onPass: () => void }) {
   const { setLocale } = useLanguage();
+  const navigate = useNavigate();
   const [value, setValue] = useState('');
   const [shaking, setShaking] = useState(false);
   const [result, setResult] = useState<'none' | 'zh' | 'en'>('none');
@@ -21,12 +23,26 @@ export default function Gate() {
   const handleSubmit = () => {
     if (checkChinese(value)) {
       setResult('zh');
-      setTimeout(() => { setLocale('zh'); localStorage.setItem('liang_world_locale', 'zh'); localStorage.setItem('liang_world_gate_passed', 'true'); window.location.reload(); }, 800);
+      setTimeout(() => {
+        setLocale('zh');
+        localStorage.setItem('liang_world_gate_passed', 'true');
+        localStorage.setItem('liang_world_locale', 'zh');
+        onPass();
+        navigate('/', { replace: true });
+      }, 800);
     } else if (checkEnglish(value)) {
       setResult('en');
-      setTimeout(() => { setLocale('en'); localStorage.setItem('liang_world_locale', 'en'); localStorage.setItem('liang_world_gate_passed', 'true'); window.location.reload(); }, 800);
+      setTimeout(() => {
+        setLocale('en');
+        localStorage.setItem('liang_world_gate_passed', 'true');
+        localStorage.setItem('liang_world_locale', 'en');
+        onPass();
+        navigate('/en', { replace: true });
+      }, 800);
     } else {
-      setShaking(true); setResult('none'); setTimeout(() => setShaking(false), 600);
+      setShaking(true);
+      setResult('none');
+      setTimeout(() => setShaking(false), 600);
     }
   };
 
