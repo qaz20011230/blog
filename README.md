@@ -1,141 +1,169 @@
-# LeoZ Universe · 个人博客
+# 良之世界 · Liang.World
 
 <p align="center">
-  <strong>liang-world.vercel.app</strong>
+  <strong>思想助产士的数字花园</strong>
 </p>
 
 <p align="center">
-  <strong>中文</strong> &nbsp;|&nbsp; <a href="#english">English</a>
+  <a href="https://liang.world">liang.world</a> &nbsp;|&nbsp; <a href="#中文">中文</a> &nbsp;|&nbsp; <a href="#english">English</a>
 </p>
 
 ---
 
-## 关于本站
+## 中文
 
-LeoZ Universe 是基于 **React + TypeScript + Vite + Express** 构建的个人博客，使用 Markdown + Obsidian 管理内容，通过 Vercel 部署。
+### 关于本站
 
-支持数学公式渲染、RSS 订阅、归档与分类浏览，是技术写作与知识分享的数字空间。
+**良之世界（Liang.World）** 是思想助产士（Ang Li / 梁良）的个人博客。这里汇集了关于哲学践行、精神分析、AI 架构、数学证明与商业逻辑的深度思考。
 
-## 技术栈
+网站以 Hilbert 黑 + Klein 蓝为主色调，采用极简极客美学设计，支持中英双语切换、Markdown + LaTeX 学术排版、暗色主题动效系统。
+
+### 当前状态
+
+| 指标 | 数值 |
+|------|------|
+| 文章总数 | **95 篇**（中英双版本） |
+| 分类 | Philosophy / Psychology / Logic / Ecommerce / Others |
+| 语言 | 中文版 + 英文版，导航栏一键切换 |
+| 部署 | Vercel，全球 CDN |
+| 域名 | `liang.world` |
+
+### 技术栈
 
 | 层级 | 技术 |
 |------|------|
 | 框架 | React 18 + TypeScript 5.8 |
 | 构建 | Vite 6 |
 | 样式 | Tailwind CSS 3 + `@tailwindcss/typography` |
-| 路由 | React Router v7 |
-| 服务端 | Express 4 (开发代理 + API) |
+| 路由 | React Router v7（双语言路由 `/` + `/en/`） |
 | 内容 | Markdown → react-markdown + remark-gfm |
-| 数学 | KaTeX (remark-math + rehype-katex) |
-| 状态 | Zustand |
+| 数学 | KaTeX（remark-math + rehype-katex） |
+| 状态 | React Context + Zustand |
 | 图标 | Lucide React |
-| SEO | react-helmet-async |
-| RSS | `rss` 包 + 自动生成脚本 |
-| 部署 | Vercel (`@vercel/node`) |
-| 内容管理 | Obsidian |
-| Lint | ESLint 9 + TypeScript ESLint |
+| SEO | react-helmet-async + hreflang + Open Graph + Twitter Card |
+| RSS | 双语言 RSS feed 自动生成 |
+| Sitemap | 双语言 sitemap 自动生成，含 hreflang 标注 |
+| 部署 | Vercel（GitHub 自动构建） |
 
-## 功能特色
+### 功能特色
 
-- **Markdown 渲染** — 支持 GFM 表格、任务列表、代码高亮
-- **数学公式** — KaTeX 引擎，LaTeX 语法实时渲染
-- **RSS 订阅** — 自动生成 `rss.xml`
-- **归档系统** — 按年份 / 标签分类浏览
-- **书籍页面** — 读书笔记与书单管理
-- **SEO 优化** — 动态 `<title>` + `<meta>` 标签
+- **中英双语** — 全站 UI 双语，`/`→中文，`/en`→英文，导航栏 EN/中 即时切换
+- **黎曼门禁** — 访问首页需输入黎曼猜想原始命题（中文入中文站，英文入英文站）
+- **Markdown + LaTeX** — 完整学术排版，支持 GFM 表格、代码块、数学公式
+- **阅读进度条** — 文章页面顶部实时进度指示
+- **视觉动效** — 滚动渐入、卡片悬浮光晕、页面过渡动画、呼吸光标
+- **点阵背景** — 全站 Hilbert Black 背景覆盖 Klein Blue 点阵纹理
+- **分类浏览** — 按 Philosophy / Psychology / Logic / Ecommerce 筛选
+- **书架** — 书籍资源页面，PDF 下载
+- **关于** — 双人信息，链接简历/CV
+- **SEO 完善** — hreflang 双语标注、Open Graph、Twitter Card、JSON-LD
 - **响应式** — 移动端 / 桌面端自适应
+- **SicasShare** — 右下角悬浮分享按钮，支持复制链接和微信分享
 
-## 项目结构
+### 项目结构
 
 ```
-blog/
+liang.world/
 ├── src/
-│   ├── main.tsx              # 入口
-│   ├── App.tsx               # 根组件 + 路由
-│   ├── components/           # 通用组件
-│   ├── pages/                # 页面组件
-│   ├── content/              # Markdown 文章
-│   ├── hooks/                # 自定义 Hooks
-│   ├── lib/                  # 工具函数
-│   ├── types/                # TypeScript 类型
-│   └── assets/               # 静态资源
-├── api/                      # Express 服务端
-│   ├── server.ts             # 服务入口
-│   └── routes/               # API 路由
-├── public/                   # 静态文件
-│   ├── archives/             # 归档页面数据
-│   ├── books/                # 书籍数据
-│   ├── favicon.jpg
-│   ├── robots.txt
-│   └── rss.xml               # RSS 订阅源
-├── scripts/                  # 构建脚本
-│   ├── generate-rss.js       # RSS 生成
-│   └── generate-stats.js     # 统计生成
-├── .obsidian/                # Obsidian 配置
-├── vercel.json               # Vercel 部署配置
-├── vite.config.ts
-└── tailwind.config.js
+│   ├── main.tsx                     # 应用入口
+│   ├── App.tsx                      # 根组件 + 双语路由 + LocaleSync
+│   ├── index.css                    # 全局样式 + 动画关键帧
+│   ├── components/
+│   │   ├── Layout.tsx              # 全局布局 (SEO/Hreflang)
+│   │   ├── Navbar.tsx              # 导航栏 + 语言切换器
+│   │   ├── Footer.tsx              # 页脚 + 站点统计
+│   │   ├── PostCard.tsx            # 文章卡片
+│   │   ├── Gate.tsx                # 黎曼猜想门禁
+│   │   ├── SicasShare.tsx          # 悬浮分享按钮
+│   │   ├── SiteStats.tsx           # 站点统计展示
+│   │   └── Empty.tsx               # 空状态组件
+│   ├── pages/
+│   │   ├── Home.tsx                # 首页 (Hero + 最近文章)
+│   │   ├── BlogDetail.tsx          # 文章详情 (进度条/KaTeX/Schema)
+│   │   ├── Categories.tsx          # 分类筛选页
+│   │   ├── Books.tsx               # 书架页
+│   │   └── About.tsx               # 关于页 (双语)
+│   ├── context/
+│   │   └── LanguageContext.tsx      # 双语上下文 Provider
+│   ├── hooks/
+│   │   ├── useInView.ts            # 滚动可见性检测
+│   │   ├── useScrollProgress.ts    # 阅读进度追踪
+│   │   └── useTheme.ts             # 主题切换
+│   ├── lib/
+│   │   ├── content.ts              # 双语内容加载 (zh/en glob)
+│   │   └── utils.ts                # cn() 工具函数
+│   ├── types/
+│   │   └── index.ts                # TypeScript 类型 + UI 翻译字典
+│   └── content/
+│       └── posts/
+│           ├── zh/                  # 95 篇中文 Markdown
+│           └── en/                  # 95 篇英文 Markdown
+├── scripts/
+│   ├── generate-rss.js             # 中英 RSS 生成
+│   ├── generate-sitemap.js         # 中英 Sitemap 生成 (含 hreflang)
+│   ├── generate-stats.js           # 站点统计生成
+│   ├── audit-posts.js              # 文章排版自检
+│   └── ...                         # 其他辅助脚本
+├── api/                            # Express API 服务
+├── public/                         # 静态资源 (favicon/sitemap/RSS/PDF)
+├── index.html                      # HTML 模板
+├── vercel.json                     # Vercel 部署配置
+├── tailwind.config.js              # Tailwind 主题配置 (Klein Blue)
+├── vite.config.ts                  # Vite 构建配置
+└── package.json
 ```
 
-## 本地开发
+### 本地开发
 
 ```bash
-# 安装依赖
-npm install
-
-# 启动开发服务（前端 + 后端并行）
-npm run dev
-
-# 仅前端
-npm run client:dev
-
-# 仅后端
-npm run server:dev
-
-# 构建
-npm run build
-
-# 预览构建结果
-npm run preview
+npm install              # 安装依赖
+npm run dev              # 启动开发服务（前端 + 后端并行）
+npm run build            # 生产构建 (RSS + Sitemap + Stats + TypeScript + Vite)
+npm run check            # TypeScript 类型检查
+npm run preview          # 预览生产构建
 ```
 
-## 内容管理
+### 内容管理
 
-所有文章以 Markdown 格式存放在 `src/content/` 目录下，通过 [Obsidian](https://obsidian.md) 进行本地编辑。文章支持 YAML Front Matter：
+所有文章以 Markdown 格式存放在 `src/content/posts/zh/`（中文）和 `src/content/posts/en/`（英文），通过 Obsidian 进行本地编辑。
+
+**文件命名**：全部使用英文 slug（如 `tendre-is-all-we-want-xanthippe-architecture.md`），中英双版共用同一 slug。
+
+**YAML Front Matter**：
 
 ```yaml
 ---
 title: 文章标题
-date: 2024-01-01
-tags: [技术, 前端]
-description: 文章摘要
+date: '2026-04-28'
+category: Philosophy
+tags:
+  - 哲学
+  - 认知
+description: >
+  文章摘要描述
 ---
 ```
 
-## 部署
+### 部署
 
-项目通过 Vercel 自动部署：
+项目连接 GitHub（`qaz20011230/blog`），推送到 `main` 分支自动触发 Vercel 构建部署。
 
 ```bash
-# 推送到 main 分支自动触发部署
-git push origin main
-
-# 生产地址
-https://liang-world.vercel.app
+git push origin main      # 自动部署到 liang.world
 ```
 
-配置文件 `vercel.json` 控制部署行为，Express API 通过 `@vercel/node` 适配器运行。
+**域名**：`https://liang.world`（通过 Vercel Domains 配置）
 
-## 技术依赖
+### 设计系统
 
-| 类别 | 包 |
+| 要素 | 值 |
 |------|-----|
-| 内容渲染 | `react-markdown`, `remark-gfm`, `remark-math`, `rehype-katex`, `rehype-raw` |
-| 样式 | `tailwindcss`, `@tailwindcss/typography`, `tailwind-merge`, `clsx` |
-| 工具 | `date-fns`, `gray-matter`, `buffer`, `dotenv` |
-| 构建 | `vite`, `typescript`, `autoprefixer`, `postcss` |
-| 开发 | `nodemon`, `concurrently`, `eslint`, `tsx` |
-| 部署 | `@vercel/node`, `vite-tsconfig-paths` |
+| 背景 | `#050505` Hilbert Black |
+| 主色 | `#002FA7` Klein Blue |
+| 文字 | `#E5E7EB` |
+| 辅助 | `#9CA3AF` |
+| 字体 | 系统无衬线 + 衬线标题 |
+| 动效 | 9 组 @keyframes（fade-in-up / float / pulse-glow / shake 等） |
 
 ---
 
@@ -145,82 +173,52 @@ https://liang-world.vercel.app
 
 ### Overview
 
-LeoZ Universe is a personal blog built with **React + TypeScript + Vite + Express**, authored in Markdown with Obsidian, and deployed on Vercel at **[liang-world.vercel.app](https://liang-world.vercel.app)**.
+**Liang.World** is the personal blog of the "Midwife of Thought" (Ang Li). A bilingual digital garden where philosophy, psychoanalysis, AI architecture, mathematical proof, and business logic converge — rendered in a dark-themed minimalist geek aesthetic.
 
-It features math rendering via KaTeX, RSS subscription, archives, and categorized browsing — a digital space for technical writing and knowledge sharing.
+### Current Status
+
+| Metric | Value |
+|--------|-------|
+| Total Posts | **95** (Chinese + English versions) |
+| Categories | Philosophy / Psychology / Logic / Ecommerce / Others |
+| Languages | Chinese (`/`) + English (`/en`), one-click toggle |
+| Deployment | Vercel, global CDN |
+| Domain | `liang.world` |
 
 ### Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | React 18 + TypeScript 5.8 |
-| Build | Vite 6 |
-| Styling | Tailwind CSS 3 + `@tailwindcss/typography` |
-| Routing | React Router v7 |
-| Server | Express 4 (dev proxy + API) |
-| Content | Markdown → react-markdown + remark-gfm |
-| Math | KaTeX (remark-math + rehype-katex) |
-| State | Zustand |
-| Icons | Lucide React |
-| SEO | react-helmet-async |
-| RSS | `rss` + auto-generation script |
-| Deployment | Vercel (`@vercel/node`) |
-| CMS | Obsidian |
-| Linting | ESLint 9 + TypeScript ESLint |
+React 18 + TypeScript 5.8 + Vite 6 + Tailwind CSS 3 · React Router v7 · react-markdown + KaTeX · react-helmet-async · Vercel
 
 ### Features
 
-- **Markdown Rendering** — GFM tables, task lists, syntax highlighting
-- **Math Formulas** — KaTeX engine, real-time LaTeX rendering
-- **RSS Feed** — Auto-generated `rss.xml`
-- **Archives** — Browse by year / tags
-- **Bookshelf** — Reading notes and book lists
-- **SEO Optimized** — Dynamic `<title>` + `<meta>` tags
-- **Responsive** — Mobile / desktop adaptive layout
+- **Bilingual** — Full UI translation, `EN/中` navbar toggle, locale-aware routing
+- **Riemann Gate** — Entry requires the Riemann Hypothesis original statement
+- **Markdown + LaTeX** — Academic formatting with GFM, code blocks, math rendering
+- **Reading progress bar** — Real-time scroll progress indicator
+- **Motion system** — Fade-in-up on scroll, card hover glow, page transitions
+- **Dot-grid background** — Klein Blue dot-matrix texture on Hilbert Black
+- **Category filtering** — Browse by Philosophy / Psychology / Logic / Ecommerce
+- **Bookshelf** — PDF resources with download links
+- **SEO** — hreflang tags, Open Graph, Twitter Cards, JSON-LD structured data
+- **Responsive** — Adaptive mobile/desktop layout
+- **Sitemap+RSS** — Bilingual auto-generation with hreflang annotations
 
 ### Local Development
 
 ```bash
-npm install                  # Install dependencies
-npm run dev                  # Start dev server (frontend + backend)
-npm run build                # Production build
-npm run preview              # Preview production build
-```
-
-### Content Management
-
-All posts are stored as Markdown files under `src/content/`, edited locally with [Obsidian](https://obsidian.md). Posts support YAML front matter:
-
-```yaml
----
-title: Post Title
-date: 2024-01-01
-tags: [tech, frontend]
-description: A brief summary
----
+npm install              # Install dependencies
+npm run dev              # Start dev server
+npm run build            # Production build
+npm run check            # TypeScript check
 ```
 
 ### Deployment
 
-Auto-deployed on Vercel via Git push:
-
-```bash
-git push origin main         # Triggers Vercel deploy
-```
-
-### Dependencies
-
-| Category | Packages |
-|----------|----------|
-| Content | `react-markdown`, `remark-gfm`, `remark-math`, `rehype-katex`, `rehype-raw` |
-| Styling | `tailwindcss`, `@tailwindcss/typography`, `tailwind-merge`, `clsx` |
-| Utilities | `date-fns`, `gray-matter`, `buffer`, `dotenv`, `rss` |
-| Build | `vite`, `typescript`, `autoprefixer`, `postcss` |
-| Dev | `nodemon`, `concurrently`, `eslint`, `tsx` |
-| Deploy | `@vercel/node`, `vite-tsconfig-paths` |
+Git push to `main` triggers automatic Vercel deployment at `https://liang.world`.
 
 ---
 
 <p align="center">
+  <sub>怀瑾握瑜 · 解惑忘隙</sub><br>
   <sub>Built with React · Vite · TypeScript · Deployed on Vercel</sub>
 </p>
