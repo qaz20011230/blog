@@ -16,9 +16,12 @@ async function generateRSS() {
     feed_url: `${BASE_URL}/rss.xml`,
     site_url: BASE_URL,
     image_url: `${BASE_URL}/favicon.jpg`,
-    managingEditor: 'contact@example.com (思想助产士)',
-    webMaster: 'contact@example.com (思想助产士)',
-    copyright: `© ${new Date().getFullYear()} LeoZ Universe`,
+    managingEditor: 'contact@liang.world (思想助产士)',
+    webMaster: 'contact@liang.world (思想助产士)',
+    copyright: `© ${new Date().getFullYear()} 良之世界 (Liang.World)`,
+
+    // Channel-level categories help feed readers and search engines
+    categories: ['Philosophy', 'Psychology', 'Logic', 'Ecommerce', 'Others'],
     language: 'zh-CN',
     pubDate: new Date(),
     ttl: 60,

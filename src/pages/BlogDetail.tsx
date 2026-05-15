@@ -48,7 +48,16 @@ export default function BlogDetail() {
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.description} />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://liang.world/favicon.jpg" />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
+        <meta property="og:locale" content="zh_CN" />
         <meta property="article:published_time" content={post.date} />
+        <meta property="article:author" content="思想助产士 (Ang Li)" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:image" content="https://liang.world/favicon.jpg" />
         {post.tags.map(tag => (
           <meta property="article:tag" content={tag} key={tag} />
         ))}

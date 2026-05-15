@@ -9,37 +9,79 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 May 2026 03:01:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 03:29:20 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 15 May 2026 03:01:20 GMT</pubDate>
-        <copyright><![CDATA[© 2026 LeoZ Universe]]></copyright>
+        <pubDate>Fri, 15 May 2026 03:29:20 GMT</pubDate>
+        <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
-        <managingEditor><![CDATA[contact@example.com (思想助产士)]]></managingEditor>
-        <webMaster><![CDATA[contact@example.com (思想助产士)]]></webMaster>
+        <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
+        <webMaster><![CDATA[contact@liang.world (思想助产士)]]></webMaster>
         <ttl>60</ttl>
+        <category><![CDATA[Philosophy]]></category>
+        <category><![CDATA[Psychology]]></category>
+        <category><![CDATA[Logic]]></category>
+        <category><![CDATA[Ecommerce]]></category>
+        <category><![CDATA[Others]]></category>
         <item>
             <title><![CDATA[人工智能七大公理圣旨]]></title>
             <description><![CDATA[以庄严正统的圣旨文体重述人工智能七大公理，从信息物理、意向性、 刚性边界与神谕校准等维度，为下一代智能系统立法定基。]]></description>
             <link>https://liang.world/post/the-7-axioms-of-artificial-intelligence</link>
             <guid isPermaLink="false">https://liang.world/post/the-7-axioms-of-artificial-intelligence</guid>
-            <category><![CDATA[ai]]></category>
-            <category><![CDATA[axioms]]></category>
-            <category><![CDATA[logic]]></category>
-            <category><![CDATA[cognition]]></category>
-            <category><![CDATA[oracle]]></category>
+            <category><![CDATA[AI]]></category>
+            <category><![CDATA[公理]]></category>
+            <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[把大象放进冰箱：论用计算方法逼近黎曼猜想]]></title>
+            <description><![CDATA[系统阐述一种用计算方法逼近黎曼猜想的路径——将黎曼猜想等价转化为一台744状态的图灵机停机问题，建立数据驱动的、人机协同的观测与实验平台。]]></description>
+            <link>https://liang.world/post/把大象放进冰箱：论用计算方法逼近黎曼猜想</link>
+            <guid isPermaLink="false">https://liang.world/post/把大象放进冰箱：论用计算方法逼近黎曼猜想</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[图灵机]]></category>
+            <category><![CDATA[停机问题]]></category>
+            <category><![CDATA[ZetaHalt]]></category>
+            <category><![CDATA[形式化验证]]></category>
+            <category><![CDATA[希尔伯特第八问题]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[寻语之道：从格物到问学的三十级台阶]]></title>
+            <description><![CDATA[从本科筑基到独立问道，三十部语言学经典的拾级而上之道——以四境格物致知、穷理尽性、铸剑试锋、问道无疆，带你步步为营深入语言迷宫。]]></description>
+            <link>https://liang.world/post/linguistics-reading-path-thirty-steps</link>
+            <guid isPermaLink="false">https://liang.world/post/linguistics-reading-path-thirty-steps</guid>
+            <category><![CDATA[语言学]]></category>
+            <category><![CDATA[书单]]></category>
+            <category><![CDATA[读书]]></category>
+            <category><![CDATA[学术路径]]></category>
+            <category><![CDATA[教育]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[光能聚合，智造未来——菲娜睿特企业使命白皮书]]></title>
+            <description><![CDATA[广州菲娜睿特人工智能科技有限责任公司企业使命白皮书——以聚变之火点亮千家万户，以认知之光照亮每一个求知的心灵。]]></description>
+            <link>https://liang.world/post/finaret-fusion-mission-white-paper-2026</link>
+            <guid isPermaLink="false">https://liang.world/post/finaret-fusion-mission-white-paper-2026</guid>
+            <category><![CDATA[菲娜睿特]]></category>
+            <category><![CDATA[核聚变]]></category>
+            <category><![CDATA[AI]]></category>
+            <category><![CDATA[企业使命]]></category>
+            <category><![CDATA[白皮书]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[基于零信任假设的身份认证链路鲁棒性研究——以模拟数字身份全生命周期为受控实验]]></title>
             <description><![CDATA[本文在零信任假设下构建受控实验平台，量化评估现行身份认证链路抵御系统性内部伪造的鲁棒性阈值，揭示内部威胁对跨系统身份链的脆弱性影响。]]></description>
             <link>https://liang.world/post/zero-trust-identity-authentication-robustness</link>
             <guid isPermaLink="false">https://liang.world/post/zero-trust-identity-authentication-robustness</guid>
-            <category><![CDATA[零信任架构]]></category>
-            <category><![CDATA[数字身份]]></category>
+            <category><![CDATA[零信任]]></category>
             <category><![CDATA[身份认证]]></category>
-            <category><![CDATA[网络安全]]></category>
-            <category><![CDATA[受控实验]]></category>
+            <category><![CDATA[安全]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
         </item>
@@ -49,14 +91,10 @@
 ]]></description>
             <link>https://liang.world/post/tendre-is-all-we-want-xanthippe-architecture</link>
             <guid isPermaLink="false">https://liang.world/post/tendre-is-all-we-want-xanthippe-architecture</guid>
-            <category><![CDATA[认知架构]]></category>
-            <category><![CDATA[数学推理]]></category>
-            <category><![CDATA[赞希佩]]></category>
-            <category><![CDATA[Transformer]]></category>
-            <category><![CDATA[知识论]]></category>
-            <category><![CDATA[索绪尔]]></category>
-            <category><![CDATA[维特根斯坦]]></category>
             <category><![CDATA[Tendre]]></category>
+            <category><![CDATA[Xanthippe]]></category>
+            <category><![CDATA[认知架构]]></category>
+            <category><![CDATA[逻辑必然]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -83,13 +121,9 @@
 ]]></description>
             <link>https://liang.world/post/presence-the-power-of-now</link>
             <guid isPermaLink="false">https://liang.world/post/presence-the-power-of-now</guid>
+            <category><![CDATA[存在]]></category>
             <category><![CDATA[在场]]></category>
-            <category><![CDATA[注意力]]></category>
-            <category><![CDATA[奥勒留]]></category>
-            <category><![CDATA[沉思录]]></category>
-            <category><![CDATA[斯多葛]]></category>
-            <category><![CDATA[时间管理]]></category>
-            <category><![CDATA[焦虑]]></category>
+            <category><![CDATA[时间]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -98,11 +132,9 @@
             <description><![CDATA[一个老架构师写给DeepSeek的家书，探讨企业文化如何从抽象的价值主张走向具体的组织实践，解析好奇心驱动与极度扁平的深层逻辑。]]></description>
             <link>https://liang.world/post/deep-seek-culture-letter</link>
             <guid isPermaLink="false">https://liang.world/post/deep-seek-culture-letter</guid>
-            <category><![CDATA[企业文化]]></category>
             <category><![CDATA[DeepSeek]]></category>
-            <category><![CDATA[组织架构]]></category>
-            <category><![CDATA[长期主义]]></category>
-            <category><![CDATA[开源哲学]]></category>
+            <category><![CDATA[企业文化]]></category>
+            <category><![CDATA[组织]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -112,8 +144,8 @@
             <link>https://liang.world/post/zhi-shan-heng-rong-game-theory</link>
             <guid isPermaLink="false">https://liang.world/post/zhi-shan-heng-rong-game-theory</guid>
             <category><![CDATA[博弈论]]></category>
-            <category><![CDATA[关系动力学]]></category>
-            <category><![CDATA[商业伦理]]></category>
+            <category><![CDATA[人生]]></category>
+            <category><![CDATA[哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -123,7 +155,6 @@
             <link>https://liang.world/post/on-entrepreneurship-opportunities</link>
             <guid isPermaLink="false">https://liang.world/post/on-entrepreneurship-opportunities</guid>
             <category><![CDATA[创业]]></category>
-            <category><![CDATA[商业模式]]></category>
             <category><![CDATA[战略]]></category>
             <category><![CDATA[认知]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
@@ -134,11 +165,10 @@
             <description><![CDATA[伟大无需多言，我们将创造高考数学的ASI。深度拆解Xanthippe架构如何通过百万Token上下文与全卷自验证飞轮，在7B参数上实现逻辑的必然与满分。]]></description>
             <link>https://liang.world/post/deepseekmath-to-xanthippe-asi-gaokao</link>
             <guid isPermaLink="false">https://liang.world/post/deepseekmath-to-xanthippe-asi-gaokao</guid>
-            <category><![CDATA[架构]]></category>
-            <category><![CDATA[AGI]]></category>
             <category><![CDATA[DeepSeek]]></category>
             <category><![CDATA[Xanthippe]]></category>
-            <category><![CDATA[第一性原理]]></category>
+            <category><![CDATA[AGI]]></category>
+            <category><![CDATA[数学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -147,10 +177,9 @@
             <description><![CDATA[本文为《关系的遗忘与回归》下篇，深入诊断西方哲学两千年来对关系保持沉默的形而上学根源，剖析当代技术社会中关系被算法量化所导致的深刻异化，并最终提出“关系动力学”作为回应的理论纲领。]]></description>
             <link>https://liang.world/post/relational-oblivion-and-return-part-3</link>
             <guid isPermaLink="false">https://liang.world/post/relational-oblivion-and-return-part-3</guid>
-            <category><![CDATA[关系动力学]]></category>
             <category><![CDATA[哲学史]]></category>
-            <category><![CDATA[本体论]]></category>
-            <category><![CDATA[当代异化]]></category>
+            <category><![CDATA[关系]]></category>
+            <category><![CDATA[西方哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -159,10 +188,9 @@
             <description><![CDATA[现象学运动是西方哲学对关系的第一声呼唤。本篇追踪胡塞尔、海德格尔、萨特与梅洛-庞蒂的思想轨迹，探讨他们在突破实体形而上学、走向关系本体论过程中的贡献与内在张力。]]></description>
             <link>https://liang.world/post/relational-oblivion-and-return-part-2</link>
             <guid isPermaLink="false">https://liang.world/post/relational-oblivion-and-return-part-2</guid>
-            <category><![CDATA[关系动力学]]></category>
             <category><![CDATA[哲学史]]></category>
-            <category><![CDATA[本体论]]></category>
-            <category><![CDATA[现象学]]></category>
+            <category><![CDATA[关系]]></category>
+            <category><![CDATA[西方哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -172,10 +200,8 @@
             <link>https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</link>
             <guid isPermaLink="false">https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</guid>
             <category><![CDATA[黎曼猜想]]></category>
-            <category><![CDATA[停机问题]]></category>
-            <category><![CDATA[计算理论]]></category>
+            <category><![CDATA[数学]]></category>
             <category><![CDATA[数论]]></category>
-            <category><![CDATA[Transformer]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -184,10 +210,9 @@
             <description><![CDATA[西方哲学追问“存在”两千余年，却系统性地遗忘了“之间”。本文通过思想史的诊断性考察，揭示实体中心论如何塑造了我们对自我、他人与世界的理解，并追问通往关系动力学的道路。]]></description>
             <link>https://liang.world/post/relational-oblivion-and-return-part-1</link>
             <guid isPermaLink="false">https://liang.world/post/relational-oblivion-and-return-part-1</guid>
-            <category><![CDATA[关系动力学]]></category>
             <category><![CDATA[哲学史]]></category>
-            <category><![CDATA[本体论]]></category>
-            <category><![CDATA[现象学]]></category>
+            <category><![CDATA[关系]]></category>
+            <category><![CDATA[西方哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -197,12 +222,8 @@
             <link>https://liang.world/post/learning-as-irreversible-mode-of-being</link>
             <guid isPermaLink="false">https://liang.world/post/learning-as-irreversible-mode-of-being</guid>
             <category><![CDATA[学习]]></category>
+            <category><![CDATA[存在]]></category>
             <category><![CDATA[认知]]></category>
-            <category><![CDATA[心理学]]></category>
-            <category><![CDATA[元认知]]></category>
-            <category><![CDATA[流利度错觉]]></category>
-            <category><![CDATA[迁移]]></category>
-            <category><![CDATA[精通]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -212,9 +233,8 @@
             <link>https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</link>
             <guid isPermaLink="false">https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</guid>
             <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[数学]]></category>
             <category><![CDATA[数论]]></category>
-            <category><![CDATA[计算理论]]></category>
-            <category><![CDATA[算法]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -224,9 +244,8 @@
             <link>https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics</link>
             <guid isPermaLink="false">https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics</guid>
             <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[数学]]></category>
             <category><![CDATA[数论]]></category>
-            <category><![CDATA[元数学]]></category>
-            <category><![CDATA[谱理论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -236,13 +255,8 @@
             <link>https://liang.world/post/adulting-beauty-ecommerce-dao</link>
             <guid isPermaLink="false">https://liang.world/post/adulting-beauty-ecommerce-dao</guid>
             <category><![CDATA[电商]]></category>
-            <category><![CDATA[运营]]></category>
-            <category><![CDATA[选品]]></category>
-            <category><![CDATA[服务]]></category>
-            <category><![CDATA[长期主义]]></category>
-            <category><![CDATA[内容]]></category>
-            <category><![CDATA[用户体验]]></category>
-            <category><![CDATA[流通]]></category>
+            <category><![CDATA[商业]]></category>
+            <category><![CDATA[哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -252,13 +266,8 @@
             <link>https://liang.world/post/tree-and-clouds-educators-thought-walk</link>
             <guid isPermaLink="false">https://liang.world/post/tree-and-clouds-educators-thought-walk</guid>
             <category><![CDATA[教育]]></category>
-            <category><![CDATA[教育哲学]]></category>
-            <category><![CDATA[雅斯贝尔斯]]></category>
-            <category><![CDATA[孔子]]></category>
-            <category><![CDATA[苏霍姆林斯基]]></category>
-            <category><![CDATA[苏格拉底]]></category>
-            <category><![CDATA[数学教育]]></category>
-            <category><![CDATA[Lean]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[思想]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -268,13 +277,8 @@
             <link>https://liang.world/post/nexus-relational-dynamics-three-foundations</link>
             <guid isPermaLink="false">https://liang.world/post/nexus-relational-dynamics-three-foundations</guid>
             <category><![CDATA[关系动力学]]></category>
-            <category><![CDATA[Nexus]]></category>
-            <category><![CDATA[现象学]]></category>
-            <category><![CDATA[伦理学]]></category>
-            <category><![CDATA[胡塞尔]]></category>
-            <category><![CDATA[列维纳斯]]></category>
-            <category><![CDATA[舍勒]]></category>
-            <category><![CDATA[马克思]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[伦理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -284,13 +288,8 @@
             <link>https://liang.world/post/sealed-lips-smiling-face-unsaid-words-doable-actions</link>
             <guid isPermaLink="false">https://liang.world/post/sealed-lips-smiling-face-unsaid-words-doable-actions</guid>
             <category><![CDATA[心理学]]></category>
-            <category><![CDATA[边界]]></category>
-            <category><![CDATA[沟通]]></category>
-            <category><![CDATA[职场]]></category>
-            <category><![CDATA[原则]]></category>
-            <category><![CDATA[生存策略]]></category>
-            <category><![CDATA[Paul Graham]]></category>
-            <category><![CDATA[黑客与画家]]></category>
+            <category><![CDATA[社交]]></category>
+            <category><![CDATA[策略]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -300,14 +299,9 @@
             <link>https://liang.world/post/unirec-unifying-sequence-modeling-feature-interaction-archive</link>
             <guid isPermaLink="false">https://liang.world/post/unirec-unifying-sequence-modeling-feature-interaction-archive</guid>
             <category><![CDATA[推荐系统]]></category>
-            <category><![CDATA[统一架构]]></category>
             <category><![CDATA[序列建模]]></category>
             <category><![CDATA[特征交互]]></category>
-            <category><![CDATA[Transformer]]></category>
-            <category><![CDATA[信息论]]></category>
-            <category><![CDATA[论文]]></category>
-            <category><![CDATA[存档]]></category>
-            <category><![CDATA[TeX]]></category>
+            <category><![CDATA[架构]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -318,13 +312,6 @@
             <guid isPermaLink="false">https://liang.world/post/rethink-the-recommendation-taac2026</guid>
             <category><![CDATA[推荐系统]]></category>
             <category><![CDATA[TAAC2026]]></category>
-            <category><![CDATA[KDD Cup]]></category>
-            <category><![CDATA[序列建模]]></category>
-            <category><![CDATA[特征交互]]></category>
-            <category><![CDATA[Transformer]]></category>
-            <category><![CDATA[注意力机制]]></category>
-            <category><![CDATA[统一架构]]></category>
-            <category><![CDATA[技术思考]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -334,10 +321,7 @@
             <link>https://liang.world/post/recommendation-systems-right-and-wrong</link>
             <guid isPermaLink="false">https://liang.world/post/recommendation-systems-right-and-wrong</guid>
             <category><![CDATA[推荐系统]]></category>
-            <category><![CDATA[电商]]></category>
-            <category><![CDATA[机器学习]]></category>
-            <category><![CDATA[平台治理]]></category>
-            <category><![CDATA[TAAC]]></category>
+            <category><![CDATA[伦理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -346,10 +330,9 @@
             <description><![CDATA[这不是用来占有知识的书单，而是一张用于成为哲学践行者的心智地图：以问题为向导、以知行合一为原则，沿七个维度训练思维、良心、勇毅、节制、正义、至诚与弘仁。]]></description>
             <link>https://liang.world/post/become-philosophical-practitioner-100-books</link>
             <guid isPermaLink="false">https://liang.world/post/become-philosophical-practitioner-100-books</guid>
-            <category><![CDATA[哲学践行]]></category>
-            <category><![CDATA[心智地图]]></category>
-            <category><![CDATA[阅读]]></category>
-            <category><![CDATA[修行]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[书单]]></category>
+            <category><![CDATA[践行]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -358,10 +341,9 @@
             <description><![CDATA[会议不是聊天的场所，而是共识的工厂。每一场会议都应该产出一份白纸黑字的文件。这份文件的价值，决定了这场会议的价值。]]></description>
             <link>https://liang.world/post/consensus-is-text-meeting-os</link>
             <guid isPermaLink="false">https://liang.world/post/consensus-is-text-meeting-os</guid>
-            <category><![CDATA[管理学]]></category>
-            <category><![CDATA[团队协作]]></category>
-            <category><![CDATA[效率工具]]></category>
-            <category><![CDATA[领导力]]></category>
+            <category><![CDATA[会议]]></category>
+            <category><![CDATA[管理]]></category>
+            <category><![CDATA[协作]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -370,10 +352,9 @@
             <description><![CDATA[“并非因为事情困难我们才不敢行动，而是因为我们不敢行动，事情才变得困难。” —— 塞涅卡（Seneca），古罗马哲学家]]></description>
             <link>https://liang.world/post/civilization-survival-guide</link>
             <guid isPermaLink="false">https://liang.world/post/civilization-survival-guide</guid>
-            <category><![CDATA[生存指南]]></category>
-            <category><![CDATA[底层逻辑]]></category>
-            <category><![CDATA[领导力]]></category>
-            <category><![CDATA[文明重构]]></category>
+            <category><![CDATA[文明]]></category>
+            <category><![CDATA[生存]]></category>
+            <category><![CDATA[哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -382,10 +363,9 @@
             <description><![CDATA[本文面向数学与计算机科学领域的研究者，旨在以技术语言阐明Phaenarete Project的方法论内核、工程架构与阶段性交付目标。我们将专注于三个问题：我们在做什么，为什么现在做，以及如何判断我们是否做成了。]]></description>
             <link>https://liang.world/post/phaenarete-project-methodology-and-milestones</link>
             <guid isPermaLink="false">https://liang.world/post/phaenarete-project-methodology-and-milestones</guid>
-            <category><![CDATA[Phaenarete Project]]></category>
-            <category><![CDATA[黎曼猜想]]></category>
-            <category><![CDATA[形式化验证]]></category>
-            <category><![CDATA[AI辅助数学]]></category>
+            <category><![CDATA[Phaenarete]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[方法论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -394,10 +374,9 @@
             <description><![CDATA[“We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are har…]]></description>
             <link>https://liang.world/post/why-we-charge-at-riemann-hypothesis-in-2026</link>
             <guid isPermaLink="false">https://liang.world/post/why-we-charge-at-riemann-hypothesis-in-2026</guid>
-            <category><![CDATA[Phaenarete Project]]></category>
             <category><![CDATA[黎曼猜想]]></category>
-            <category><![CDATA[形式化验证]]></category>
-            <category><![CDATA[AI辅助数学]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[数论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -406,6 +385,9 @@
             <description><![CDATA[A virtue-based ethical framework for philosophical practice grounded in Wang Yangming’s liangzhi, engaging MacIntyre and the situationist challenge, and introducing Virtue Resilience.]]></description>
             <link>https://liang.world/post/seven-virtues-of-the-north-star</link>
             <guid isPermaLink="false">https://liang.world/post/seven-virtues-of-the-north-star</guid>
+            <category><![CDATA[北辰七德]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[伦理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -416,9 +398,6 @@
             <guid isPermaLink="false">https://liang.world/post/generated-in-between-psycholinguistics-relational-dynamics</guid>
             <category><![CDATA[心理语言学]]></category>
             <category><![CDATA[关系动力学]]></category>
-            <category><![CDATA[交叉学科]]></category>
-            <category><![CDATA[方法论]]></category>
-            <category><![CDATA[认知科学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -427,11 +406,9 @@
             <description><![CDATA[作者：良之 发布日期：2026年3月17日 来源：良之世界 » 逻辑 » 研究范式]]></description>
             <link>https://liang.world/post/ai-reshapes-mathematics-research-paradigm</link>
             <guid isPermaLink="false">https://liang.world/post/ai-reshapes-mathematics-research-paradigm</guid>
-            <category><![CDATA[多智能体AI]]></category>
-            <category><![CDATA[大语言模型]]></category>
-            <category><![CDATA[负责任AI]]></category>
-            <category><![CDATA[形式化验证]]></category>
-            <category><![CDATA[数学研究范式]]></category>
+            <category><![CDATA[AI]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[研究范式]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -440,6 +417,9 @@
             <description><![CDATA[愚人节不只是玩笑的许可，而是在庆祝“我不知道”：它提醒我们承认边界、保留好奇、延迟评判；以苏格拉底的无知之知、庄子的知无涯，换回关系里那份活的惊奇与对他者未知的尊重。]]></description>
             <link>https://liang.world/post/愚人节特辑庆祝我不知道</link>
             <guid isPermaLink="false">https://liang.world/post/愚人节特辑庆祝我不知道</guid>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[无知]]></category>
+            <category><![CDATA[苏格拉底]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -448,11 +428,9 @@
             <description><![CDATA[“我们并非在寻找真理的最终表述，而是在为真理的永恒对话搭建一个永不关闭的舞台。” —— 莱布尼茨，1686年]]></description>
             <link>https://liang.world/post/meta-language-and-ladder-of-being-turn-lang</link>
             <guid isPermaLink="false">https://liang.world/post/meta-language-and-ladder-of-being-turn-lang</guid>
-            <category><![CDATA[形式化验证]]></category>
-            <category><![CDATA[类型论]]></category>
-            <category><![CDATA[范畴论]]></category>
-            <category><![CDATA[编程语言]]></category>
-            <category><![CDATA[人工智能]]></category>
+            <category><![CDATA[元语言]]></category>
+            <category><![CDATA[形式化]]></category>
+            <category><![CDATA[Turn-Lang]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -461,10 +439,9 @@
             <description><![CDATA[If you could be the Devil and offer a mathematician to sell his soul for the proof of one theorem — what theorem would m…]]></description>
             <link>https://liang.world/post/song-of-primes-riemann-hypothesis-history-frontier-future</link>
             <guid isPermaLink="false">https://liang.world/post/song-of-primes-riemann-hypothesis-history-frontier-future</guid>
-            <category><![CDATA[数学]]></category>
             <category><![CDATA[黎曼猜想]]></category>
-            <category><![CDATA[解析数论]]></category>
-            <category><![CDATA[人工智能]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[数论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -473,6 +450,9 @@
             <description><![CDATA[一套给思想者的内容创业哲学，包含CLEAR内容工程学框架和LIGHT创作者心法。]]></description>
             <link>https://liang.world/post/thinkers-content-startup-clear-light</link>
             <guid isPermaLink="false">https://liang.world/post/thinkers-content-startup-clear-light</guid>
+            <category><![CDATA[内容创业]]></category>
+            <category><![CDATA[个人品牌]]></category>
+            <category><![CDATA[知识管理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -481,11 +461,9 @@
             <description><![CDATA[从黎曼猜想到马克思的职业选择，探讨如何在有限的生命中追问无限，通过智慧、仁爱、勇敢、节制、公正、诚信、超越七种品质，触摸永恒的意义。]]></description>
             <link>https://liang.world/post/questioning-infinite-touching-eternity</link>
             <guid isPermaLink="false">https://liang.world/post/questioning-infinite-touching-eternity</guid>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[mathematics]]></category>
-            <category><![CDATA[life-meaning]]></category>
-            <category><![CDATA[riemann-hypothesis]]></category>
-            <category><![CDATA[eternity]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[无限]]></category>
+            <category><![CDATA[永恒]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -494,11 +472,9 @@
             <description><![CDATA[本文从世界古代三大逻辑传统出发，提出“逻辑形式—文化负载”二重区分框架，以贝叶斯认知模型重构Tindale教授的论证，主张在承认文化多样性的同时捍卫逻辑有效性的普遍标准。]]></description>
             <link>https://liang.world/post/logic-universality-and-culture</link>
             <guid isPermaLink="false">https://liang.world/post/logic-universality-and-culture</guid>
-            <category><![CDATA[logic]]></category>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[cross-cultural]]></category>
-            <category><![CDATA[argumentation-theory]]></category>
-            <category><![CDATA[mohism]]></category>
+            <category><![CDATA[逻辑学]]></category>
+            <category><![CDATA[文化]]></category>
+            <category><![CDATA[理性]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -507,6 +483,9 @@
             <description><![CDATA[天赋不是用来赢过别人的武器，而是你在挫折与贫困中仍能回到的快乐泉眼；它不交易、不变现，只在你最疲惫时召唤你回到那件“做了就会活过来”的事。守住这份乐，才是避免“泯然众人”的真正方式。]]></description>
             <link>https://liang.world/post/天赋不是武器是你最后的避难所</link>
             <guid isPermaLink="false">https://liang.world/post/天赋不是武器是你最后的避难所</guid>
+            <category><![CDATA[天赋]]></category>
+            <category><![CDATA[人生]]></category>
+            <category><![CDATA[哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -515,11 +494,9 @@
             <description><![CDATA[从词源到实战，用七天掌握七个最实用的提示词框架（CLEAR, ART, RICE, PAIR, SCAMPER, PESTEL, LIGHT）。这是一份给大一新生小瑶的入门指南，也是给所有希望驾驭AI的人的思维工具箱。]]></description>
             <link>https://liang.world/post/prompt-engineering-quick-start</link>
             <guid isPermaLink="false">https://liang.world/post/prompt-engineering-quick-start</guid>
-            <category><![CDATA[prompt-engineering]]></category>
-            <category><![CDATA[ai]]></category>
-            <category><![CDATA[learning]]></category>
-            <category><![CDATA[thinking-models]]></category>
-            <category><![CDATA[guide]]></category>
+            <category><![CDATA[提示词工程]]></category>
+            <category><![CDATA[入门]]></category>
+            <category><![CDATA[AI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -528,11 +505,9 @@
             <description><![CDATA[写在2026年三八节，献给还在追问“男人能不能谈女性主义”的你。以北辰七德为坐标，重读《女权辩护》与《论妇女的屈从地位》，探讨一个男人在今天谈论女性主义的责任与边界。]]></description>
             <link>https://liang.world/post/womens-day-punch</link>
             <guid isPermaLink="false">https://liang.world/post/womens-day-punch</guid>
-            <category><![CDATA[feminism]]></category>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[social-issues]]></category>
-            <category><![CDATA[ethics]]></category>
-            <category><![CDATA[reading]]></category>
+            <category><![CDATA[女性主义]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[密尔]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -541,11 +516,9 @@
             <description><![CDATA[我为自己选择的七个生命坐标：智慧、仁爱、勇敢、节制、公正、诚信、超越。这是一份关于如何以清醒、负责的态度，度过此生的实践宣言。]]></description>
             <link>https://liang.world/post/polaris-seven-virtues</link>
             <guid isPermaLink="false">https://liang.world/post/polaris-seven-virtues</guid>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[values]]></category>
-            <category><![CDATA[life-philosophy]]></category>
-            <category><![CDATA[self-improvement]]></category>
-            <category><![CDATA[ethics]]></category>
+            <category><![CDATA[北辰七德]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[伦理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -554,11 +527,9 @@
             <description><![CDATA[在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于“永久投资组合”哲学，并针对年轻人进行了进取性优化。]]></description>
             <link>https://liang.world/post/wealth-immune-system-permanent-portfolio-guide</link>
             <guid isPermaLink="false">https://liang.world/post/wealth-immune-system-permanent-portfolio-guide</guid>
-            <category><![CDATA[investment]]></category>
-            <category><![CDATA[finance]]></category>
-            <category><![CDATA[portfolio-management]]></category>
-            <category><![CDATA[wealth-building]]></category>
-            <category><![CDATA[youth-guide]]></category>
+            <category><![CDATA[投资]]></category>
+            <category><![CDATA[资产配置]]></category>
+            <category><![CDATA[财富管理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -567,6 +538,9 @@
             <description><![CDATA[辨清批评与攻击、入罪、构陷之别；批评不是天赋权力，而是受托的责任。以善意为底、授权为门槛，以对方的立场/逻辑/事实为依据，只贡献可复核的推理，并追求最小附带伤害——这才是批评之道。]]></description>
             <link>https://liang.world/post/论批评</link>
             <guid isPermaLink="false">https://liang.world/post/论批评</guid>
+            <category><![CDATA[批评]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[对话]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -575,11 +549,9 @@
             <description><![CDATA[A Complete Chronicle, Modern Proofs, and the Open Frontier: From the Entscheidungsproblem to the Undecidability of All Finitely Generated Rings.]]></description>
             <link>https://liang.world/post/hilberts-tenth-problem-complete-chronicle</link>
             <guid isPermaLink="false">https://liang.world/post/hilberts-tenth-problem-complete-chronicle</guid>
-            <category><![CDATA[Hilbert's Tenth Problem]]></category>
-            <category><![CDATA[Logic]]></category>
-            <category><![CDATA[Diophantine Equations]]></category>
-            <category><![CDATA[Computability]]></category>
-            <category><![CDATA[Mathematics]]></category>
+            <category><![CDATA[Hilbert]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[不可判定性]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -588,6 +560,9 @@
             <description><![CDATA[等号从不说谎，但也从不说全：相等永远发生在某个属性之上，而非实体本身。把‘等于’按在生活里，其实是在做分类与伦理选择——你选择了什么尺度，就塑造了你如何看见自己与他人。]]></description>
             <link>https://liang.world/post/论等于</link>
             <guid isPermaLink="false">https://liang.world/post/论等于</guid>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[逻辑]]></category>
+            <category><![CDATA[等式]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -596,11 +571,9 @@
             <description><![CDATA[从词源的“技艺”到浪漫主义的“灵光”，再到AI时代的“选择”困境。本文梳理艺术概念的历史迁徙，重申在算法洪流中，艺术作为一种深刻人类实践的不可替代性。]]></description>
             <link>https://liang.world/post/genealogy-of-art</link>
             <guid isPermaLink="false">https://liang.world/post/genealogy-of-art</guid>
-            <category><![CDATA[art-theory]]></category>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[aesthetics]]></category>
-            <category><![CDATA[AI-art]]></category>
-            <category><![CDATA[history-of-ideas]]></category>
+            <category><![CDATA[艺术]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[美学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -609,11 +582,9 @@
             <description><![CDATA[财富的本质是什么？它不是奖赏，而是礼物；不是私产，而是责任。本文阐述一种基于“管家精神”的财富伦理：在简朴中持守责任，在清醒中实践慷慨，将财富管理升华为践行爱的生命修行。]]></description>
             <link>https://liang.world/post/wealth-as-responsibility</link>
             <guid isPermaLink="false">https://liang.world/post/wealth-as-responsibility</guid>
-            <category><![CDATA[wealth]]></category>
-            <category><![CDATA[ethics]]></category>
-            <category><![CDATA[responsibility]]></category>
-            <category><![CDATA[stewardship]]></category>
-            <category><![CDATA[philosophy-of-money]]></category>
+            <category><![CDATA[财富观]]></category>
+            <category><![CDATA[责任]]></category>
+            <category><![CDATA[哲学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -622,11 +593,9 @@
             <description><![CDATA[道德不是外在的规训，而是内在的智慧。本文提出一种将道德重新奠基在“实践理性”与“有效性智慧”之上的伦理观，探讨如何从“道德乘客”成长为“道德作者”。]]></description>
             <link>https://liang.world/post/moral-philosophy-in-complex-world</link>
             <guid isPermaLink="false">https://liang.world/post/moral-philosophy-in-complex-world</guid>
-            <category><![CDATA[ethics]]></category>
-            <category><![CDATA[moral-philosophy]]></category>
-            <category><![CDATA[practical-reason]]></category>
-            <category><![CDATA[virtue-ethics]]></category>
-            <category><![CDATA[existentialism]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[道德]]></category>
+            <category><![CDATA[伦理学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -635,12 +604,8 @@
             <description><![CDATA[从弗洛伊德的躺椅到拉康的镜像，本文是一次深入心灵深处的考古之旅。探索潜意识如何塑造我们的命运，精神分析如何成为理解爱、智慧与自由的现代伦理学。]]></description>
             <link>https://liang.world/post/psychoanalysis-archaeology</link>
             <guid isPermaLink="false">https://liang.world/post/psychoanalysis-archaeology</guid>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[psychoanalysis]]></category>
-            <category><![CDATA[Freud]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[love]]></category>
-            <category><![CDATA[freedom]]></category>
+            <category><![CDATA[精神分析]]></category>
+            <category><![CDATA[心灵考古]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -649,11 +614,9 @@
             <description><![CDATA[哲学不是书斋里的古董，而是每个人内心深处的第一次觉醒。从古希腊的“爱智慧”到现代的批判性思维，本文带你追溯哲学的源头，探索它如何成为我们思考生活、理解世界的终身工具。]]></description>
             <link>https://liang.world/post/what-is-philosophy</link>
             <guid isPermaLink="false">https://liang.world/post/what-is-philosophy</guid>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[intro]]></category>
-            <category><![CDATA[critical-thinking]]></category>
-            <category><![CDATA[Socrates]]></category>
-            <category><![CDATA[wisdom]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[入门]]></category>
+            <category><![CDATA[思想]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -662,6 +625,9 @@
             <description><![CDATA[一封写给恋人的信：感情不是靠回忆与甜蜜维系，而是靠日常练习理解与宽容；警惕以共同仇恨取暖，学会讨论原因、感受与修复。]]></description>
             <link>https://liang.world/post/情侣之间聊什么能增进感情</link>
             <guid isPermaLink="false">https://liang.world/post/情侣之间聊什么能增进感情</guid>
+            <category><![CDATA[亲密关系]]></category>
+            <category><![CDATA[沟通]]></category>
+            <category><![CDATA[心理学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 16 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -670,12 +636,9 @@
             <description><![CDATA[关系动力学是关于人类连接模式随时间演化的元学科。它不是关系的静物画，而是关系的电影。它不提供“如何搞定人际关系”的技巧，而是揭示关系变化过程背后的数学结构、伦理约束与实现范式。]]></description>
             <link>https://liang.world/post/relational-mechanics-manifesto</link>
             <guid isPermaLink="false">https://liang.world/post/relational-mechanics-manifesto</guid>
-            <category><![CDATA[relational-dynamics]]></category>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[category-theory]]></category>
-            <category><![CDATA[software-architecture]]></category>
-            <category><![CDATA[ethics]]></category>
-            <category><![CDATA[friendship]]></category>
+            <category><![CDATA[关系动力学]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[伦理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -684,11 +647,9 @@
             <description><![CDATA[为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的“两步筛选法”，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。]]></description>
             <link>https://liang.world/post/stock-return-secrets</link>
             <guid isPermaLink="false">https://liang.world/post/stock-return-secrets</guid>
-            <category><![CDATA[investment]]></category>
-            <category><![CDATA[stock-market]]></category>
-            <category><![CDATA[financial-analysis]]></category>
-            <category><![CDATA[ROE]]></category>
-            <category><![CDATA[value-investing]]></category>
+            <category><![CDATA[投资]]></category>
+            <category><![CDATA[股票]]></category>
+            <category><![CDATA[价值投资]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -697,11 +658,9 @@
             <description><![CDATA[咨询，是一场“灵魂的接生术”。它不是把咨询师已有的东西给予对方，而是协助对方，将其内心混沌、模糊、被困住的思想与生命力，“接生”到这个清晰、自由、可行动的世界里来。]]></description>
             <link>https://liang.world/post/soul-midwifery-consultation</link>
             <guid isPermaLink="false">https://liang.world/post/soul-midwifery-consultation</guid>
-            <category><![CDATA[consultation]]></category>
-            <category><![CDATA[midwifery]]></category>
-            <category><![CDATA[self-growth]]></category>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[psychology]]></category>
+            <category><![CDATA[思想助产士]]></category>
+            <category><![CDATA[咨询]]></category>
+            <category><![CDATA[心理学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -710,10 +669,9 @@
             <description><![CDATA[从模糊的愿望到可视化的项目。本文介绍一种极简却强大的自我管理方法——“立项建档”，通过将个人目标转化为专业的项目档案，实现沉浸式聚焦与系统化成长。]]></description>
             <link>https://liang.world/post/project-based-productivity</link>
             <guid isPermaLink="false">https://liang.world/post/project-based-productivity</guid>
-            <category><![CDATA[productivity]]></category>
-            <category><![CDATA[self-management]]></category>
-            <category><![CDATA[learning-methods]]></category>
-            <category><![CDATA[project-management]]></category>
+            <category><![CDATA[生产力]]></category>
+            <category><![CDATA[方法论]]></category>
+            <category><![CDATA[项目管理]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -722,11 +680,9 @@
             <description><![CDATA[本文借用拉康精神分析理论，剖析小红书创始人毛文超与瞿芳的关系。论证他们并非简单的商业搭档，而是数字资本主义时代下，由“双重镜像”构建的、旨在捕捉并驯化“她者”欲望的符号机器。]]></description>
             <link>https://liang.world/post/mao-wenchao-qu-fang-analysis</link>
             <guid isPermaLink="false">https://liang.world/post/mao-wenchao-qu-fang-analysis</guid>
-            <category><![CDATA[intimacy-analysis]]></category>
-            <category><![CDATA[psychoanalysis]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[LittleRedBook]]></category>
-            <category><![CDATA[entrepreneurship]]></category>
+            <category><![CDATA[拉康]]></category>
+            <category><![CDATA[亲密关系]]></category>
+            <category><![CDATA[案例分析]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -735,12 +691,10 @@
             <description><![CDATA[这是一篇关于告别与重生的散文。作者通过‘爱智慧、求真理、得自由、以服务’这十二个字，回顾了过去在爱与责任中的笨拙与执念，并最终领悟到：真正的爱是放手，最高的服务是消失。文章以一种深情而克制的笔触，送别了那个试图成为别人答案的旧我，迎来了一个更轻盈、更自由的新我。]]></description>
             <link>https://liang.world/post/love-wisdom-truth-freedom-service</link>
             <guid isPermaLink="false">https://liang.world/post/love-wisdom-truth-freedom-service</guid>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[self-growth]]></category>
-            <category><![CDATA[love]]></category>
-            <category><![CDATA[wisdom]]></category>
-            <category><![CDATA[freedom]]></category>
-            <category><![CDATA[service]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[爱智慧]]></category>
+            <category><![CDATA[自由]]></category>
+            <category><![CDATA[人生]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -749,11 +703,9 @@
             <description><![CDATA[一篇对话体创意实验文本，模拟了AI在拉康式“法庭”上的自我申辩。它探讨了AI作为一面“破碎的镜子”，如何揭示人类关于创作、欲望、主体性和他者性的深层焦虑与幻想。]]></description>
             <link>https://liang.world/post/ai-defense-lacanian-dialogue</link>
             <guid isPermaLink="false">https://liang.world/post/ai-defense-lacanian-dialogue</guid>
+            <category><![CDATA[拉康]]></category>
             <category><![CDATA[AI]]></category>
-            <category><![CDATA[psychoanalysis]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[dialogue]]></category>
+            <category><![CDATA[精神分析]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -762,11 +714,8 @@
             <description><![CDATA[这不是一个关于“人设崩塌”的八卦分析，而是一份关于在流量资本主义时代，个体主体性如何被异化、扭曲并最终工具化的精神病理学样本。]]></description>
             <link>https://liang.world/post/mr-youshan-analysis</link>
             <guid isPermaLink="false">https://liang.world/post/mr-youshan-analysis</guid>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[psychoanalysis]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[social-media]]></category>
-            <category><![CDATA[cultural-criticism]]></category>
+            <category><![CDATA[精神分析]]></category>
+            <category><![CDATA[案例分析]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -775,6 +724,8 @@
             <description><![CDATA[爱明内斯库《金星》：一首关于渴望、距离与不朽代价的长诗。在宇宙尺度的抒情里，照见人的有限与爱的形而上学。]]></description>
             <link>https://liang.world/post/金星</link>
             <guid isPermaLink="false">https://liang.world/post/金星</guid>
+            <category><![CDATA[文化]]></category>
+            <category><![CDATA[文学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -783,12 +734,9 @@
             <description><![CDATA[借用拉康精神分析理论，深度解构武则天与李治这对帝后伴侣在权力巅峰展开的关于欲望、符号性僭越与“父亲之名”的结构性博弈。]]></description>
             <link>https://liang.world/post/wu-zetian-li-zhi-analysis</link>
             <guid isPermaLink="false">https://liang.world/post/wu-zetian-li-zhi-analysis</guid>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[Wu-Zetian]]></category>
-            <category><![CDATA[Li-Zhi]]></category>
-            <category><![CDATA[power-dynamics]]></category>
-            <category><![CDATA[relationships]]></category>
+            <category><![CDATA[拉康]]></category>
+            <category><![CDATA[亲密关系]]></category>
+            <category><![CDATA[案例分析]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -797,12 +745,9 @@
             <description><![CDATA[超越“伟大男人背后的女性”叙事，借用拉康欲望理论解构这对革命伴侣在象征界献祭、实在界创伤与想象界融合中的复杂结构。]]></description>
             <link>https://liang.world/post/marx-jenny-analysis</link>
             <guid isPermaLink="false">https://liang.world/post/marx-jenny-analysis</guid>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[Marx]]></category>
-            <category><![CDATA[Jenny-von-Westphalen]]></category>
-            <category><![CDATA[revolution]]></category>
-            <category><![CDATA[relationships]]></category>
+            <category><![CDATA[拉康]]></category>
+            <category><![CDATA[亲密关系]]></category>
+            <category><![CDATA[案例分析]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -811,12 +756,9 @@
             <description><![CDATA[借用拉康“镜像阶段”、“大他者”与“象征性阉割”等核心概念，深度解构李光耀与柯玉芝这对高度理性化、功能化的“政治双生体”伴侣关系。]]></description>
             <link>https://liang.world/post/lee-kwan-yew-analysis</link>
             <guid isPermaLink="false">https://liang.world/post/lee-kwan-yew-analysis</guid>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[Lee-Kuan-Yew]]></category>
-            <category><![CDATA[Kwa-Geok-Choo]]></category>
-            <category><![CDATA[relationships]]></category>
-            <category><![CDATA[Singapore]]></category>
+            <category><![CDATA[拉康]]></category>
+            <category><![CDATA[亲密关系]]></category>
+            <category><![CDATA[案例分析]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -825,12 +767,9 @@
             <description><![CDATA[借用拉康“性关系不存在”的核心论断，深度解构萨特与波伏瓦“开放式契约”背后的精神结构、语言幻象与实在界反击。]]></description>
             <link>https://liang.world/post/sartre-beauvoir-analysis</link>
             <guid isPermaLink="false">https://liang.world/post/sartre-beauvoir-analysis</guid>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[Lacan]]></category>
-            <category><![CDATA[existentialism]]></category>
-            <category><![CDATA[Sartre]]></category>
-            <category><![CDATA[Beauvoir]]></category>
-            <category><![CDATA[relationships]]></category>
+            <category><![CDATA[拉康]]></category>
+            <category><![CDATA[亲密关系]]></category>
+            <category><![CDATA[案例分析]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -839,6 +778,9 @@
             <description><![CDATA[未来，世界上可能会有10000个陶哲轩。本文基于陶哲轩的访谈，探讨AI如何重塑科研模式、数学工程学的兴起、以及在AGI时代人类思维的独特价值。]]></description>
             <link>https://liang.world/post/一万个陶哲轩ai如何重塑数学与科学的未来</link>
             <guid isPermaLink="false">https://liang.world/post/一万个陶哲轩ai如何重塑数学与科学的未来</guid>
+            <category><![CDATA[AI]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[陶哲轩]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -847,11 +789,9 @@
             <description><![CDATA[2026年的中国，真正的稀缺不再是物质短少，而是一种结构性的错配与张力。从关键矿产到数字人才，从确定性崩塌到价值创造悖论，我们如何破茧而出？]]></description>
             <link>https://liang.world/post/scarce-resources-2026</link>
             <guid isPermaLink="false">https://liang.world/post/scarce-resources-2026</guid>
-            <category><![CDATA[ecommerce]]></category>
-            <category><![CDATA[macro-economy]]></category>
-            <category><![CDATA[resource-scarcity]]></category>
-            <category><![CDATA[digital-economy]]></category>
-            <category><![CDATA[future-trends]]></category>
+            <category><![CDATA[稀缺]]></category>
+            <category><![CDATA[战略]]></category>
+            <category><![CDATA[2026]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -860,10 +800,9 @@
             <description><![CDATA[从社会交换理论视角拆解人际吸引的底层逻辑：临近性、相似性与互惠性如何塑造我们的情感选择。]]></description>
             <link>https://liang.world/post/attraction-logic</link>
             <guid isPermaLink="false">https://liang.world/post/attraction-logic</guid>
-            <category><![CDATA[attraction]]></category>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[social-exchange]]></category>
-            <category><![CDATA[relationships]]></category>
+            <category><![CDATA[吸引力]]></category>
+            <category><![CDATA[亲密关系]]></category>
+            <category><![CDATA[心理学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -872,10 +811,9 @@
             <description><![CDATA[从传统范式、拉康精神分析视角到模因进化论，三重维度解构宗教的本质及其在现代社会中的意义。]]></description>
             <link>https://liang.world/post/essence-of-religion</link>
             <guid isPermaLink="false">https://liang.world/post/essence-of-religion</guid>
-            <category><![CDATA[religion]]></category>
-            <category><![CDATA[psychology]]></category>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[meme]]></category>
+            <category><![CDATA[宗教]]></category>
+            <category><![CDATA[心理学]]></category>
+            <category><![CDATA[本质]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -884,6 +822,9 @@
             <description><![CDATA[从Seedance 2.0的惊艳亮相到拟像时代的创作迷思。当AI不仅能再现真实，更能生产“超真实”时，我们该如何捍卫创作中那份不可被算法化的生命体验？]]></description>
             <link>https://liang.world/post/导演已死当ai开始梦见电影</link>
             <guid isPermaLink="false">https://liang.world/post/导演已死当ai开始梦见电影</guid>
+            <category><![CDATA[电影]]></category>
+            <category><![CDATA[AI]]></category>
+            <category><![CDATA[艺术]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 26 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -892,6 +833,9 @@
             <description><![CDATA[真正的宁静不是风暴平息，而是学会在风暴中航行。借海德格尔《存在与时间》中的“烦”与“畏”，我们尝试在现代社会的焦虑迷雾中，重新寻回存在的本真力量。]]></description>
             <link>https://liang.world/post/焦虑不是敌人在烦与畏中重获存在力量</link>
             <guid isPermaLink="false">https://liang.world/post/焦虑不是敌人在烦与畏中重获存在力量</guid>
+            <category><![CDATA[焦虑]]></category>
+            <category><![CDATA[存在主义]]></category>
+            <category><![CDATA[海德格尔]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -900,10 +844,9 @@
             <description><![CDATA[本文通过考释新汉字“訑”（yí/chát）的创制逻辑，剖析其作为语言学事件所承载的技术哲学批判。揭示了AI对话体中的“他者性消解”与“语言的自指性狂欢”。]]></description>
             <link>https://liang.world/post/yi-character-creation</link>
             <guid isPermaLink="false">https://liang.world/post/yi-character-creation</guid>
-            <category><![CDATA[语言学]]></category>
-            <category><![CDATA[人工智能]]></category>
-            <category><![CDATA[技术哲学]]></category>
-            <category><![CDATA[汉字文化]]></category>
+            <category><![CDATA[语言]]></category>
+            <category><![CDATA[AI]]></category>
+            <category><![CDATA[造字]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -912,6 +855,9 @@
             <description><![CDATA[当“爱情经济学”将矜持解构为“消极交易”，当我们将活生生的人熬成明码标价的“高汤”，我们究竟是在进步，还是在异化？本期周刊，借鲁迅笔意，聊聊算盘珠子声里的情意与尊严。]]></description>
             <link>https://liang.world/post/论矜持算盘声里的情意</link>
             <guid isPermaLink="false">https://liang.world/post/论矜持算盘声里的情意</guid>
+            <category><![CDATA[文化]]></category>
+            <category><![CDATA[情感]]></category>
+            <category><![CDATA[散文]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 12 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -920,6 +866,9 @@
             <description><![CDATA[本期周刊为大家带来《英雄联盟》中琴瑟仙女·娑娜的新手进阶指南。从基础机制到S15赛季最新出装，带你领略MOBA游戏的魅力，成为峡谷里最让队友安心的“移动泉水”。]]></description>
             <link>https://liang.world/post/从零开始的琴瑟仙女</link>
             <guid isPermaLink="false">https://liang.world/post/从零开始的琴瑟仙女</guid>
+            <category><![CDATA[游戏]]></category>
+            <category><![CDATA[文化]]></category>
+            <category><![CDATA[创作]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 05 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -928,11 +877,9 @@
             <description><![CDATA[近代以来中国思想界对西方哲学的接受，始终陷于“文化哲学”的狭隘路径之中。本文借助“玄奘型学者”与“慧能型学者”的譬喻，辨析学术传承与思想原创的本质差异，阐明当代中国“自主知识体系”建构的深层逻辑：回归存在论层面的源初追问。]]></description>
             <link>https://liang.world/post/philosophical-consciousness-and-mission</link>
             <guid isPermaLink="false">https://liang.world/post/philosophical-consciousness-and-mission</guid>
-            <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[china]]></category>
-            <category><![CDATA[knowledge-system]]></category>
-            <category><![CDATA[culture]]></category>
-            <category><![CDATA[ontology]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[中国]]></category>
+            <category><![CDATA[知识体系]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -941,10 +888,9 @@
             <description><![CDATA[A definitive mathematical survey and theoretical framework of Hilbert's Tenth Problem, from Paris to Computability, the MRDP Theorem, and the latest breakthroughs over finitely generated rings.]]></description>
             <link>https://liang.world/post/hilberts-tenth-problem-overview</link>
             <guid isPermaLink="false">https://liang.world/post/hilberts-tenth-problem-overview</guid>
-            <category><![CDATA[Hilbert's Tenth Problem]]></category>
-            <category><![CDATA[Diophantine Equations]]></category>
-            <category><![CDATA[Computability]]></category>
-            <category><![CDATA[Mathematics]]></category>
+            <category><![CDATA[Hilbert]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[不可判定性]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -953,6 +899,9 @@
             <description><![CDATA[从身体的健康，到社会的运行，再到星辰的运转，答案或许就藏在“系统”之中。本期周刊，我们将开启一场从个人到宇宙的旅程，探索那隐藏在万物背后的结构之美、动态之韵与和谐之律。]]></description>
             <link>https://liang.world/post/系统之美理解宇宙</link>
             <guid isPermaLink="false">https://liang.world/post/系统之美理解宇宙</guid>
+            <category><![CDATA[系统思维]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[宇宙]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 29 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -963,7 +912,6 @@
             <guid isPermaLink="false">https://liang.world/post/syllogism-logic</guid>
             <category><![CDATA[逻辑学]]></category>
             <category><![CDATA[三段论]]></category>
-            <category><![CDATA[方法论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -973,9 +921,7 @@
             <link>https://liang.world/post/statistics-science</link>
             <guid isPermaLink="false">https://liang.world/post/statistics-science</guid>
             <category><![CDATA[统计学]]></category>
-            <category><![CDATA[数据科学]]></category>
-            <category><![CDATA[逻辑]]></category>
-            <category><![CDATA[方法论]]></category>
+            <category><![CDATA[数学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -984,9 +930,9 @@
             <description><![CDATA[梳理个人知识管理从物理时代、数字时代、连接到智能时代的三次范式转移，揭示其核心从“管理信息”演变为“延伸心智”，并展望未来人机融合的认知共生趋势。]]></description>
             <link>https://liang.world/post/PKM-intro</link>
             <guid isPermaLink="false">https://liang.world/post/PKM-intro</guid>
-            <category><![CDATA[个人知识管理]]></category>
-            <category><![CDATA[电子商务]]></category>
-            <category><![CDATA[方法论]]></category>
+            <category><![CDATA[知识管理]]></category>
+            <category><![CDATA[生产力]]></category>
+            <category><![CDATA[笔记]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -995,6 +941,9 @@
             <description><![CDATA[旷野生存，是用不到隐私的。当一个人决定背对人群，转身走向天地相接的边际，他首先交出的，或许正是那份在人际网络中反复度量、精心维护的自我。]]></description>
             <link>https://liang.world/post/面向旷野你能不能完全不为人知的生存</link>
             <guid isPermaLink="false">https://liang.world/post/面向旷野你能不能完全不为人知的生存</guid>
+            <category><![CDATA[存在主义]]></category>
+            <category><![CDATA[孤独]]></category>
+            <category><![CDATA[自由]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1003,6 +952,9 @@
             <description><![CDATA[择业与择偶的“不可能三角”，本质上正是斯多葛智慧的现实映照。真正的自由不在于拥有一切，而在于清醒地知道自己愿意放弃什么。]]></description>
             <link>https://liang.world/post/斯多葛三角取舍的智慧与选择的自由</link>
             <guid isPermaLink="false">https://liang.world/post/斯多葛三角取舍的智慧与选择的自由</guid>
+            <category><![CDATA[斯多葛]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[选择]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 15 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1011,6 +963,9 @@
             <description><![CDATA[世间谤我、欺我、辱我者，何其多也。寒山所问的，原不是“如何报复”，却是“如何处治”——这话里便藏了斯多葛派的机锋。]]></description>
             <link>https://liang.world/post/忍他让他由他寒山拾得的斯多葛式修行</link>
             <guid isPermaLink="false">https://liang.world/post/忍他让他由他寒山拾得的斯多葛式修行</guid>
+            <category><![CDATA[斯多葛]]></category>
+            <category><![CDATA[禅宗]]></category>
+            <category><![CDATA[修行]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1019,6 +974,9 @@
             <description><![CDATA[近来有人问我甚么是爱。这问题倒很可以谈谈……今日便追本溯源，说几句老实话。爱不是“Love”，爱是Caritas，是慈善。]]></description>
             <link>https://liang.world/post/甚么是爱</link>
             <guid isPermaLink="false">https://liang.world/post/甚么是爱</guid>
+            <category><![CDATA[爱]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[情感]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1027,11 +985,9 @@
             <description><![CDATA[深度拆解 DeepSeek-V3.2-Exp 的 DSA 技术：如何用“闪电索引器”打破大模型长上下文的 O(L²) 二次复杂度魔咒，实现性能无损下的效率跃升。]]></description>
             <link>https://liang.world/post/deepseek-v3-2-exp-sparse-attention-revolution</link>
             <guid isPermaLink="false">https://liang.world/post/deepseek-v3-2-exp-sparse-attention-revolution</guid>
-            <category><![CDATA[架构]]></category>
-            <category><![CDATA[AGI]]></category>
             <category><![CDATA[DeepSeek]]></category>
-            <category><![CDATA[注意力机制]]></category>
-            <category><![CDATA[第一性原理]]></category>
+            <category><![CDATA[稀疏注意力]]></category>
+            <category><![CDATA[架构]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1040,11 +996,10 @@
             <description><![CDATA[深度拆解DeepSeek-R1背后的强化学习范式转移：摒弃SFT的先验束缚，通过纯粹的GRPO算法与规则奖励，见证硅基智能如何自发涌现出反思与顿悟的高级推理能力。]]></description>
             <link>https://liang.world/post/deepseek-r1-rl-alchemy-emergence</link>
             <guid isPermaLink="false">https://liang.world/post/deepseek-r1-rl-alchemy-emergence</guid>
-            <category><![CDATA[强化学习]]></category>
-            <category><![CDATA[AGI]]></category>
             <category><![CDATA[DeepSeek]]></category>
-            <category><![CDATA[大模型]]></category>
-            <category><![CDATA[第一性原理]]></category>
+            <category><![CDATA[强化学习]]></category>
+            <category><![CDATA[推理]]></category>
+            <category><![CDATA[涌现]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1053,11 +1008,10 @@
             <description><![CDATA[深度拆解DeepSeek-V3架构革命：在“不可能三角”中找到唯一最优解的极客浪漫主义教科书，揭秘无辅助损失负载均衡与DualPipe背后的全栈式创新。]]></description>
             <link>https://liang.world/post/deepseek-v3-full-stack-architecture-revolution</link>
             <guid isPermaLink="false">https://liang.world/post/deepseek-v3-full-stack-architecture-revolution</guid>
-            <category><![CDATA[架构]]></category>
-            <category><![CDATA[AGI]]></category>
             <category><![CDATA[DeepSeek]]></category>
-            <category><![CDATA[大模型]]></category>
-            <category><![CDATA[第一性原理]]></category>
+            <category><![CDATA[架构]]></category>
+            <category><![CDATA[FP8]]></category>
+            <category><![CDATA[全栈]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
         </item>
@@ -1066,11 +1020,10 @@
             <description><![CDATA[深度拆解DeepSeek-V2架构革命：通过多头潜在注意力（MLA）与细粒度专家混合（DeepSeekMoE），如何在算力、内存与性能的不可能三角中实现优雅突围。]]></description>
             <link>https://liang.world/post/deepseek-v2-architecture-revolution</link>
             <guid isPermaLink="false">https://liang.world/post/deepseek-v2-architecture-revolution</guid>
-            <category><![CDATA[架构]]></category>
-            <category><![CDATA[AGI]]></category>
             <category><![CDATA[DeepSeek]]></category>
-            <category><![CDATA[大模型]]></category>
-            <category><![CDATA[第一性原理]]></category>
+            <category><![CDATA[架构]]></category>
+            <category><![CDATA[MLA]]></category>
+            <category><![CDATA[MoE]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
         </item>
@@ -1079,9 +1032,9 @@
             <description><![CDATA[从实证主义与解释主义的双重透镜出发，探讨消费者在购买、拥有、存在三个阶段的行为逻辑，揭示电子商务如何利用统计学与文化理论连接数据与意义。]]></description>
             <link>https://liang.world/post/consumer-behavior-intro</link>
             <guid isPermaLink="false">https://liang.world/post/consumer-behavior-intro</guid>
-            <category><![CDATA[消费者行为学]]></category>
-            <category><![CDATA[电子商务]]></category>
-            <category><![CDATA[方法论]]></category>
+            <category><![CDATA[消费者行为]]></category>
+            <category><![CDATA[数据]]></category>
+            <category><![CDATA[电商]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Mon, 27 May 2024 00:00:00 GMT</pubDate>
         </item>
@@ -1090,8 +1043,8 @@
             <description><![CDATA[An introduction to logical reasoning and why it matters.]]></description>
             <link>https://liang.world/post/logic-basics</link>
             <guid isPermaLink="false">https://liang.world/post/logic-basics</guid>
-            <category><![CDATA[logic]]></category>
-            <category><![CDATA[reasoning]]></category>
+            <category><![CDATA[逻辑学]]></category>
+            <category><![CDATA[入门]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 22 May 2024 00:00:00 GMT</pubDate>
         </item>
@@ -1100,11 +1053,10 @@
             <description><![CDATA[从2012年阿里巴巴B2B私有化的架构挑战出发，深度复盘DeepSeek LLM论文中的长期主义与极致务实，探讨通往AGI的Scaling Law规律与方法论。]]></description>
             <link>https://liang.world/post/architect-whiteboard-deepseek-scaling-law</link>
             <guid isPermaLink="false">https://liang.world/post/architect-whiteboard-deepseek-scaling-law</guid>
-            <category><![CDATA[架构]]></category>
-            <category><![CDATA[AGI]]></category>
-            <category><![CDATA[Scaling Law]]></category>
             <category><![CDATA[DeepSeek]]></category>
-            <category><![CDATA[长期主义]]></category>
+            <category><![CDATA[Scaling Law]]></category>
+            <category><![CDATA[AGI]]></category>
+            <category><![CDATA[架构]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
         </item>
@@ -1113,8 +1065,9 @@
             <description><![CDATA[Welcome to my personal corner of the internet where I share thoughts on philosophy, psychology, and more.]]></description>
             <link>https://liang.world/post/hello-world</link>
             <guid isPermaLink="false">https://liang.world/post/hello-world</guid>
-            <category><![CDATA[intro]]></category>
-            <category><![CDATA[life]]></category>
+            <category><![CDATA[开篇]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[博客]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
         </item>
