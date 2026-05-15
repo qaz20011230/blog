@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Navbar from './Navbar';
@@ -9,7 +9,15 @@ import { UI } from '../types';
 
 export default function Layout() {
   const location = useLocation();
-  const { locale, t } = useLanguage();
+  const { locale, setLocale, t } = useLanguage();
+
+  useEffect(() => {
+    const pathLocale = location.pathname.startsWith('/en') ? 'en' : 'zh';
+    if (pathLocale !== locale) {
+      setLocale(pathLocale);
+    }
+  }, [location.pathname, locale, setLocale]);
+
   const isEn = locale === 'en';
   const canonicalUrl = `https://liang.world${location.pathname}`;
   const altUrl = isEn
