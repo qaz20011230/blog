@@ -54,10 +54,8 @@ export const UI = {
   },
   about: {
     title: { zh: '关于良之 | 良之世界', en: 'About | Liang.World' },
-    name1: { zh: '李昂', en: 'Ang Li' },
-    name2: { zh: 'Ang Li', en: '良之' },
-    role1: { zh: '广州菲娜睿特人工智能科技有限责任公司创始人 & CEO', en: 'Founder & CEO, Guangzhou Phaenarete AI Technology Co., Ltd.' },
-    role2: { zh: '广州菲娜睿特人工智能科技有限责任公司联合创始人 & CTO', en: 'Co-Founder & CTO, Guangzhou Phaenarete AI Technology Co., Ltd.' },
+    name: { zh: '良之', en: 'LeoZ' },
+    role: { zh: '广州菲娜睿特人工智能科技有限责任公司首席技术官', en: 'CTO, Guangzhou Phaenarete AI Technology Co., Ltd.' },
   },
   footer: {
     copyright: { zh: '版权所有', en: 'All rights reserved' },
