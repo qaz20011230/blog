@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Apr 2026 18:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 03:01:20 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2026 18:15:17 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 03:01:20 GMT</pubDate>
         <copyright><![CDATA[© 2026 LeoZ Universe]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@example.com (思想助产士)]]></managingEditor>
@@ -57,6 +57,23 @@
             <category><![CDATA[索绪尔]]></category>
             <category><![CDATA[维特根斯坦]]></category>
             <category><![CDATA[Tendre]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[光能聚合宣言：论菲娜睿特的道路与共产主义新阶段]]></title>
+            <description><![CDATA[光能聚合，智造未来。 当人工智能与可控核聚变交汇于历史的分水岭，菲娜睿特以政治宣言的形式回答根本问题：谁掌握这些力量？为谁服务？向何处去？ 这不是商业白皮书，这是共产主义在新阶段的一份实践纲领。
+]]></description>
+            <link>https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage</link>
+            <guid isPermaLink="false">https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage</guid>
+            <category><![CDATA[共产主义]]></category>
+            <category><![CDATA[菲娜睿特]]></category>
+            <category><![CDATA[政治宣言]]></category>
+            <category><![CDATA[聚变]]></category>
+            <category><![CDATA[人工智能]]></category>
+            <category><![CDATA[北辰七德]]></category>
+            <category><![CDATA[人民企业]]></category>
+            <category><![CDATA[国际主义]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
         </item>
