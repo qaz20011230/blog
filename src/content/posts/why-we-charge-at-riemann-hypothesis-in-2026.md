@@ -1,16 +1,13 @@
 ---
 title: 我们为何在2026年向黎曼猜想发起冲锋
 date: '2026-03-19'
-category: Logic
-tags:
-  - Phaenarete Project
-  - 黎曼猜想
-  - 形式化验证
-  - AI辅助数学
+category: "Mathematics & Logic"
+tags: ["黎曼猜想", "数学", "数论"]
 description: >-
   “We choose to go to the moon in this decade and do the other things, not
   because they are easy, but because they are har…
 ---
+
 
 > “We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills.” —— John F. Kennedy, 1962
 > 

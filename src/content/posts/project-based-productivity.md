@@ -1,14 +1,11 @@
 ---
 title: 高效能人士的秘密：用“立项建档法”攻克任何复杂目标
 date: '2026-02-11'
-category: Ecommerce
-tags:
-  - productivity
-  - self-management
-  - learning-methods
-  - project-management
+category: "Business & Strategy"
+tags: ["生产力", "方法论", "项目管理"]
 description: 从模糊的愿望到可视化的项目。本文介绍一种极简却强大的自我管理方法——“立项建档”，通过将个人目标转化为专业的项目档案，实现沉浸式聚焦与系统化成长。
 ---
+
 
 你是否感觉想学的东西太多，信息散落各处，无从下手？是否常常定下目标却无法坚持，因为过程模糊、反馈遥远？
 

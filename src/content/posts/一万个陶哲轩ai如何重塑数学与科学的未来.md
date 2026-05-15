@@ -1,9 +1,11 @@
 ---
 title: 一万个陶哲轩：AI如何重塑数学与科学的未来
 date: '2026-02-02'
-category: "Others"
+category: "AI & Technology"
 description: 未来，世界上可能会有10000个陶哲轩。本文基于陶哲轩的访谈，探讨AI如何重塑科研模式、数学工程学的兴起、以及在AGI时代人类思维的独特价值。
+tags: ["AI", "数学", "陶哲轩"]
 ---
+
 
 ### 卷首
 

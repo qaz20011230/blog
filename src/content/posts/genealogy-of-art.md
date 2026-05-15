@@ -1,15 +1,11 @@
 ---
 title: 艺术的谱系：从“技艺”到“灵光”的形塑与当代困局
 date: '2026-02-22'
-category: Philosophy
-tags:
-  - art-theory
-  - philosophy
-  - aesthetics
-  - AI-art
-  - history-of-ideas
+category: "Culture & Art"
+tags: ["艺术", "哲学", "美学"]
 description: 从词源的“技艺”到浪漫主义的“灵光”，再到AI时代的“选择”困境。本文梳理艺术概念的历史迁徙，重申在算法洪流中，艺术作为一种深刻人类实践的不可替代性。
 ---
+
 
 ## 引言：一个词的迁徙
 

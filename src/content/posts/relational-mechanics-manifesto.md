@@ -1,17 +1,12 @@
 ---
 title: 关系动力学：一种关于人类连接随时间演化的数学与伦理架构
 date: '2026-02-13'
-category: Psychology
-tags:
-  - relational-dynamics
-  - philosophy
-  - category-theory
-  - software-architecture
-  - ethics
-  - friendship
+category: "Psychology"
+tags: ["关系动力学", "数学", "伦理"]
 description: >-
   关系动力学是关于人类连接模式随时间演化的元学科。它不是关系的静物画，而是关系的电影。它不提供“如何搞定人际关系”的技巧，而是揭示关系变化过程背后的数学结构、伦理约束与实现范式。
 ---
+
 
 **兼论友栖Philia的范式实验**
 

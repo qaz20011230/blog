@@ -1,16 +1,11 @@
 ---
 title: 心灵考古学：在精神分析中重寻爱与自由
 date: '2026-02-19'
-category: Psychology
-tags:
-  - psychology
-  - psychoanalysis
-  - Freud
-  - Lacan
-  - love
-  - freedom
+category: "Psychology"
+tags: ["精神分析", "心灵考古"]
 description: 从弗洛伊德的躺椅到拉康的镜像，本文是一次深入心灵深处的考古之旅。探索潜意识如何塑造我们的命运，精神分析如何成为理解爱、智慧与自由的现代伦理学。
 ---
+
 
 # **导言：来自维也纳的邀请——一场自我认识的冒险**
 

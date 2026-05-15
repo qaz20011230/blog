@@ -1,16 +1,13 @@
 ---
 title: 论Phaenarete Project的方法论基础与阶段性目标
 date: '2026-03-20'
-category: Logic
-tags:
-  - Phaenarete Project
-  - 黎曼猜想
-  - 形式化验证
-  - AI辅助数学
+category: "AI & Technology"
+tags: ["Phaenarete", "数学", "方法论"]
 description: >-
   本文面向数学与计算机科学领域的研究者，旨在以技术语言阐明Phaenarete
   Project的方法论内核、工程架构与阶段性交付目标。我们将专注于三个问题：我们在做什么，为什么现在做，以及如何判断我们是否做成了。
 ---
+
 
 ## 写在前面
 

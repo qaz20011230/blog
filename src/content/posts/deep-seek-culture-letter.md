@@ -1,10 +1,11 @@
 ---
 title: "论深度求索的企业文化：从价值主张到组织实践的一封家书"
 date: "2026-04-26"
-category: "Ecommerce"
-tags: ["企业文化", "DeepSeek", "组织架构", "长期主义", "开源哲学"]
+category: "Business & Strategy"
+tags: ["DeepSeek", "企业文化", "组织"]
 description: "一个老架构师写给DeepSeek的家书，探讨企业文化如何从抽象的价值主张走向具体的组织实践，解析好奇心驱动与极度扁平的深层逻辑。"
 ---
+
 
 # 第一章：当一位老架构师谈论文化时，他在谈论什么
 

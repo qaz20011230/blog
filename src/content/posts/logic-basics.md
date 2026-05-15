@@ -1,12 +1,11 @@
 ---
 title: The Basics of Logic
 date: '2024-05-22'
-category: Logic
-tags:
-  - logic
-  - reasoning
+category: "Mathematics & Logic"
+tags: ["逻辑学", "入门"]
 description: An introduction to logical reasoning and why it matters.
 ---
+
 
 # What is Logic?
 

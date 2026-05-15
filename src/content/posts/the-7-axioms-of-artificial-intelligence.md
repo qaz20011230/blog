@@ -1,18 +1,14 @@
 ---
 title: 人工智能七大公理圣旨
 date: '2026-04-29'
-category: Logic
-tags:
-  - ai
-  - axioms
-  - logic
-  - cognition
-  - oracle
+category: "AI & Technology"
+tags: ["AI", "公理", "AGI"]
 description: >-
   以庄严正统的圣旨文体重述人工智能七大公理，从信息物理、意向性、
   刚性边界与神谕校准等维度，为下一代智能系统立法定基。
 pinned: true
 ---
+
 
 奉天承运，认知与造化同律，信息与物理共宪。诏曰：
 

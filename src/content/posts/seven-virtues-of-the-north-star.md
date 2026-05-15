@@ -3,12 +3,14 @@ title: >-
   The Seven Virtues of the North Star: A Virtue-Based Ethical Framework for
   Philosophical Practice Grounded in the Liangzhi Tradition
 date: '2026-03-19'
-category: Philosophy
+category: "Philosophy"
 description: >-
   A virtue-based ethical framework for philosophical practice grounded in Wang
   Yangming’s liangzhi, engaging MacIntyre and the situationist challenge, and
   introducing Virtue Resilience.
+tags: ["北辰七德", "哲学", "伦理"]
 ---
+
 
 **良之**
 
@@ -547,4 +549,3 @@ Zisi (子思). (1970). *Zhongyong* 中庸 [Doctrine of the Mean]. In J. Legge (T
 ---
 
 Acknowledgments: I am grateful to the members of the Institut de Pratiques Philosophiques and the APPA community for ongoing dialogue that has shaped this work. I also wish to thank Zhang Lizeng of Shandong Normal University and Ding Xiaojun of Xi'an Jiaotong University for their valuable philosophical conversations, and Qi Wen for her generous assistance with language matters. Earlier versions of the framework's core ideas were discussed in informal seminars; the errors that remain are entirely my own.
-

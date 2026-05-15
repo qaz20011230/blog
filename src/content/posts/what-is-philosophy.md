@@ -1,16 +1,12 @@
 ---
 title: 当思想第一次醒来：什么是哲学？
 date: '2026-02-18'
-category: Philosophy
-tags:
-  - philosophy
-  - intro
-  - critical-thinking
-  - Socrates
-  - wisdom
+category: "Philosophy"
+tags: ["哲学", "入门", "思想"]
 description: >-
   哲学不是书斋里的古董，而是每个人内心深处的第一次觉醒。从古希腊的“爱智慧”到现代的批判性思维，本文带你追溯哲学的源头，探索它如何成为我们思考生活、理解世界的终身工具。
 ---
+
 
 > 哲学不是书斋里的古董，而是每个人内心深处的第一次觉醒
 

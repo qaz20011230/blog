@@ -1,17 +1,13 @@
 ---
 title: 提示词工程快速入门：小瑶的七天学习笔记
 date: '2026-03-09'
-category: Logic
-tags:
-  - prompt-engineering
-  - ai
-  - learning
-  - thinking-models
-  - guide
+category: "AI & Technology"
+tags: ["提示词工程", "入门", "AI"]
 description: >-
   从词源到实战，用七天掌握七个最实用的提示词框架（CLEAR, ART, RICE, PAIR, SCAMPER, PESTEL,
   LIGHT）。这是一份给大一新生小瑶的入门指南，也是给所有希望驾驭AI的人的思维工具箱。
 ---
+
 
 > *“Prompt the actor, and the play unfolds; prompt the mind, and wisdom speaks.”*  
 > ——改编自莎士比亚戏剧谚语

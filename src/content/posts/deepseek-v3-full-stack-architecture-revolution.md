@@ -1,10 +1,11 @@
 ---
 title: "从MLA到MTP，从FP8到DualPipe：DeepSeek-V3——一场关于效率、智能与工程哲学的“全栈式”架构革命"
 date: "2024-12-31"
-category: "Logic"
-tags: ["架构", "AGI", "DeepSeek", "大模型", "第一性原理"]
+category: "AI & Technology"
+tags: ["DeepSeek", "架构", "FP8", "全栈"]
 description: "深度拆解DeepSeek-V3架构革命：在“不可能三角”中找到唯一最优解的极客浪漫主义教科书，揭秘无辅助损失负载均衡与DualPipe背后的全栈式创新。"
 ---
+
 
 请在2024年的最后一天，系好你们的安全带。上次我们用一场“庖丁解牛”拆解了 DeepSeek-V2，探讨了它如何用 MLA 和 DeepSeekMoE 这两把“巧力之刃”，在 AI 的算力围城中杀出一条血路。今天，我们要面对的是一个全新的、更庞大的“硅基怪物”——DeepSeek-V3。
 

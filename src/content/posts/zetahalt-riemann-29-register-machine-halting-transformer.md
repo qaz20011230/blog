@@ -1,15 +1,11 @@
 ---
 title: "ZetaHalt：将黎曼猜想编码为一台 29 寄存器机的停机问题"
 date: "2026-04-07"
-category: "Logic"
-tags:
-  - 黎曼猜想
-  - 停机问题
-  - 计算理论
-  - 数论
-  - Transformer
+category: "Mathematics & Logic"
+tags: ["黎曼猜想", "数学", "数论"]
 description: "把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。"
 ---
+
 
 ## 1. 引言：为什么我们需要一个新的视角
 

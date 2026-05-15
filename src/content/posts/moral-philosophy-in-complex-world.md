@@ -1,15 +1,11 @@
 ---
 title: 在复杂世界中思考道德问题：思想助产士的道德观
 date: '2026-02-21'
-category: Philosophy
-tags:
-  - ethics
-  - moral-philosophy
-  - practical-reason
-  - virtue-ethics
-  - existentialism
+category: "Philosophy"
+tags: ["哲学", "道德", "伦理学"]
 description: 道德不是外在的规训，而是内在的智慧。本文提出一种将道德重新奠基在“实践理性”与“有效性智慧”之上的伦理观，探讨如何从“道德乘客”成长为“道德作者”。
 ---
+
 
 ## **引言：道德的危机与重新奠基**
 

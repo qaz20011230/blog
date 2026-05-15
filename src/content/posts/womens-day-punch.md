@@ -1,16 +1,12 @@
 ---
 title: 三八妇女节，我选择“打拳”：一个男人在北辰七德下重读密尔与沃斯通克拉夫特
 date: '2026-03-08'
-category: Philosophy
-tags:
-  - feminism
-  - philosophy
-  - social-issues
-  - ethics
-  - reading
+category: "Philosophy"
+tags: ["女性主义", "哲学", "密尔"]
 description: >-
   写在2026年三八节，献给还在追问“男人能不能谈女性主义”的你。以北辰七德为坐标，重读《女权辩护》与《论妇女的屈从地位》，探讨一个男人在今天谈论女性主义的责任与边界。
 ---
+
 
 > 写在2026年三八节，献给还在追问“男人能不能谈女性主义”的你。
 

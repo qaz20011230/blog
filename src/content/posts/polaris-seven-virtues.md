@@ -1,15 +1,11 @@
 ---
 title: 北辰七德：我为自己选择的星空坐标
 date: '2026-03-08'
-category: Philosophy
-tags:
-  - philosophy
-  - values
-  - life-philosophy
-  - self-improvement
-  - ethics
+category: "Philosophy"
+tags: ["北辰七德", "哲学", "伦理"]
 description: 我为自己选择的七个生命坐标：智慧、仁爱、勇敢、节制、公正、诚信、超越。这是一份关于如何以清醒、负责的态度，度过此生的实践宣言。
 ---
+
 
 > 谨以此文，献给那个选择以星辰为坐标、以德性为根基的自己。
 > 愿我在每一刻的选择中，都配得上这七颗星的照耀。

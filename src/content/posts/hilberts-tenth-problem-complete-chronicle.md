@@ -1,15 +1,11 @@
 ---
 title: "Hilbert’s Tenth Problem: From the Entscheidungsproblem to the Undecidability of All Finitely Generated Rings"
 date: "2026-03-01"
-category: "Logic"
-tags:
-  - Hilbert's Tenth Problem
-  - Logic
-  - Diophantine Equations
-  - Computability
-  - Mathematics
+category: "Mathematics & Logic"
+tags: ["Hilbert", "数学", "不可判定性"]
 description: "A Complete Chronicle, Modern Proofs, and the Open Frontier: From the Entscheidungsproblem to the Undecidability of All Finitely Generated Rings."
 ---
+
 
 ### Contents
 
