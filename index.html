@@ -11,16 +11,18 @@
       if (import.meta.hot?.on) {
         import.meta.hot.on('vite:error', (error) => {
           if (error.err) {
-            console.error(
-              [error.err.message, error.err.frame].filter(Boolean).join('\n'),
-            )
+            console.error([error.err.message, error.err.frame].filter(Boolean).join('\n'))
           }
         })
       }
     </script>
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="background:#050505;margin:0">
+    <div id="root">
+      <div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#555;font-family:serif;font-size:1.5rem">
+        LIANG.WORLD
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </body>
