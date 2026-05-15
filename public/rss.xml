@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 May 2026 03:29:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 07:58:45 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 15 May 2026 03:29:20 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 07:58:45 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -45,6 +45,23 @@
             <category><![CDATA[ZetaHalt]]></category>
             <category><![CDATA[形式化验证]]></category>
             <category><![CDATA[希尔伯特第八问题]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[键值记忆：从谟涅摩叙涅的馈赠到硅基智能的苏醒]]></title>
+            <description><![CDATA[以跨学科视角系统追溯记忆研究从古希腊智慧到当代AI的演进历程。 以键值记忆框架为核心，将脑科学、认知心理学与人工智能串联为统一叙事——遗忘并非记忆的消失，而是检索路径的失效。
+]]></description>
+            <link>https://liang.world/post/key-value-memory-mnemosyne-to-silicon-intelligence</link>
+            <guid isPermaLink="false">https://liang.world/post/key-value-memory-mnemosyne-to-silicon-intelligence</guid>
+            <category><![CDATA[键值记忆]]></category>
+            <category><![CDATA[海马体]]></category>
+            <category><![CDATA[神经网络]]></category>
+            <category><![CDATA[Transformer]]></category>
+            <category><![CDATA[注意力机制]]></category>
+            <category><![CDATA[记忆巩固]]></category>
+            <category><![CDATA[认知科学]]></category>
+            <category><![CDATA[RAG]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
         </item>
