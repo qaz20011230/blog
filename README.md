@@ -24,7 +24,9 @@
 |------|------|
 | 文章总数 | **95 篇**（中英双版本） |
 | 分类 | Philosophy / Psychology / Logic / Ecommerce / Others |
-| 语言 | 中文版 + 英文版，导航栏一键切换 |
+| UI 双语 | 全站 UI 完整中英双语，`/`↔`/en` URL 路径自动同步 |
+| 文章双语 | **进行中** — 92 篇正文待翻译，3 篇混合语言，0 篇完整英文 |
+| 翻译策略 | 逐篇渐进翻译，优先短篇（最小 3.96KB），逐步覆盖长篇 |
 | 部署 | Vercel，全球 CDN |
 | 域名 | `liang.world` |
 
@@ -47,7 +49,7 @@
 
 ### 功能特色
 
-- **中英双语** — 全站 UI 双语，`/`→中文，`/en`→英文，导航栏 EN/中 即时切换
+- **中英双语** — 全站 UI 双语，`/`→中文，`/en`→英文，导航栏 EN/中 即时切换（文章正文翻译进行中）
 - **黎曼门禁** — 访问首页需输入黎曼猜想原始命题（中文入中文站，英文入英文站）
 - **Markdown + LaTeX** — 完整学术排版，支持 GFM 表格、代码块、数学公式
 - **阅读进度条** — 文章页面顶部实时进度指示
@@ -154,6 +156,20 @@ git push origin main      # 自动部署到 liang.world
 
 **域名**：`https://liang.world`（通过 Vercel Domains 配置）
 
+### 更新日志
+
+| 日期 | 变更 |
+|------|------|
+| 2026-05-15 | 修复双语 URL 同步：访问 `/en` 路径时自动将 locale 切换为英文 |
+| 2026-05-15 | 清理未完成的 `astro-site/` 目录，修复 Buffer polyfill 兼容性 |
+| 2026-05-15 | 中英文章文件名对齐（95 篇完全一一对应），启动正文翻译计划 |
+
+### 待办事项
+
+- [ ] 翻译 92 篇英文文章正文（当前仅 frontmatter 为英文）
+- [ ] 检查 3 篇混合语言文章（hello-world / logic-basics / seven-virtues-of-the-north-star）
+- [ ] 添加 CV / Resume PDF 文件到 `public/`
+
 ### 设计系统
 
 | 要素 | 值 |
@@ -181,7 +197,9 @@ git push origin main      # 自动部署到 liang.world
 |--------|-------|
 | Total Posts | **95** (Chinese + English versions) |
 | Categories | Philosophy / Psychology / Logic / Ecommerce / Others |
-| Languages | Chinese (`/`) + English (`/en`), one-click toggle |
+| UI Bilingual | Full UI translation, `/`↔`/en` URL path auto-sync |
+| Article Translation | **In Progress** — 92 posts pending, 3 mixed, 0 fully English |
+| Translation Strategy | Progressive: shortest first (3.96KB), step by step to longest |
 | Deployment | Vercel, global CDN |
 | Domain | `liang.world` |
 
@@ -191,7 +209,7 @@ React 18 + TypeScript 5.8 + Vite 6 + Tailwind CSS 3 · React Router v7 · react-
 
 ### Features
 
-- **Bilingual** — Full UI translation, `EN/中` navbar toggle, locale-aware routing
+- **Bilingual** — Full UI translation, `EN/中` navbar toggle, locale-aware routing (article body translation in progress)
 - **Riemann Gate** — Entry requires the Riemann Hypothesis original statement
 - **Markdown + LaTeX** — Academic formatting with GFM, code blocks, math rendering
 - **Reading progress bar** — Real-time scroll progress indicator
