@@ -69,6 +69,14 @@
       "destination": "/LiAng_Resume.pdf"
     },
     {
+      "source": "/en/sitemap.xml",
+      "destination": "/en-sitemap.xml"
+    },
+    {
+      "source": "/en/rss.xml",
+      "destination": "/en-rss.xml"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/index"
     },

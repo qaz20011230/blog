@@ -3,6 +3,7 @@ Allow: /
 
 # Sitemap
 Sitemap: https://liang.world/sitemap.xml
+Sitemap: https://liang.world/en/sitemap.xml
 
 # Block AI training bots
 User-agent: GPTBot

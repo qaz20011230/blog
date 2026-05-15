@@ -5,68 +5,71 @@ import { glob } from 'glob';
 import matter from 'gray-matter';
 
 const BASE_URL = 'https://liang.world';
-const OUTPUT_FILE = path.resolve('public', 'rss.xml');
+
+function parsePosts(dir) {
+  const files = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
+  return files.map(f => {
+    try {
+      const raw = fs.readFileSync(path.join(dir, f), 'utf-8');
+      const { data } = matter(raw);
+      const slug = f.replace('.md', '');
+      return { slug, title: data.title || '', description: data.description || '', tags: data.tags || [], date: data.date, pinned: Boolean(data.pinned) };
+    } catch (e) {
+      console.warn(`  [SKIP] ${f}: ${e.message.substring(0, 80)}`);
+      return null;
+    }
+  }).filter(Boolean).sort((a, b) => {
+    if (a.pinned !== b.pinned) return Number(b.pinned) - Number(a.pinned);
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+}
 
 async function generateRSS() {
-  console.log('Generating RSS feed...');
+  console.log('Generating RSS feeds...');
 
-  const feed = new RSS({
-    title: '良之世界 | 思想助产士',
-    description: '怀瑾握瑜，解惑忘隙。融合精神分析、哲学践行与商业逻辑，助你澄清概念、暴露预设、重构认知。',
+  // Chinese RSS
+  const zhPosts = parsePosts('src/content/posts/zh');
+  const zhFeed = new RSS({
+    title: '良之世界 | Liang.World',
+    description: '怀瑾握瑜，解惑忘隙。融合精神分析、哲学践行与商业逻辑。',
     feed_url: `${BASE_URL}/rss.xml`,
     site_url: BASE_URL,
     image_url: `${BASE_URL}/favicon.jpg`,
     managingEditor: 'contact@liang.world (思想助产士)',
     webMaster: 'contact@liang.world (思想助产士)',
     copyright: `© ${new Date().getFullYear()} 良之世界 (Liang.World)`,
-
-    // Channel-level categories help feed readers and search engines
-    categories: ['Philosophy', 'Psychology', 'Logic', 'Ecommerce', 'Others'],
     language: 'zh-CN',
     pubDate: new Date(),
     ttl: 60,
+    categories: ['Philosophy', 'Psychology', 'Logic', 'Ecommerce', 'Others'],
   });
-
-  // Add blog posts
-  const postFiles = await glob('src/content/posts/zh/*.md');
-  const posts = postFiles
-    .map((file) => {
-      const content = fs.readFileSync(file, 'utf-8');
-      const { data } = matter(content);
-      const slug = path.basename(file, '.md');
-
-      return {
-        slug,
-        title: data.title,
-        description: data.description,
-        tags: data.tags || [],
-        date: data.date,
-        pinned: Boolean(data.pinned),
-      };
-    })
-    .sort((a, b) => {
-      if (a.pinned !== b.pinned) {
-        return Number(b.pinned) - Number(a.pinned);
-      }
-
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
-    });
-
-  for (const post of posts) {
-    feed.item({
-      title: post.title,
-      description: post.description,
-      url: `${BASE_URL}/post/${post.slug}`,
-      guid: `${BASE_URL}/post/${post.slug}`,
-      categories: post.tags,
-      author: '思想助产士',
-      date: post.date,
-    });
+  for (const p of zhPosts) {
+    zhFeed.item({ title: p.title, description: p.description, url: `${BASE_URL}/post/${p.slug}`, guid: `${BASE_URL}/post/${p.slug}`, categories: p.tags, author: '思想助产士', date: p.date });
   }
+  fs.writeFileSync(path.resolve('public', 'rss.xml'), zhFeed.xml({ indent: true }));
+  console.log(`Generated rss.xml (${zhPosts.length} items)`);
 
-  const xml = feed.xml({ indent: true });
-  fs.writeFileSync(OUTPUT_FILE, xml);
-  console.log(`RSS feed generated at ${OUTPUT_FILE}`);
+  // English RSS
+  const enPosts = parsePosts('src/content/posts/en');
+  const enFeed = new RSS({
+    title: 'Liang.World | Midwife of Thought',
+    description: 'Where psychoanalysis, philosophical practice, and business logic converge.',
+    feed_url: `${BASE_URL}/en/rss.xml`,
+    site_url: `${BASE_URL}/en`,
+    image_url: `${BASE_URL}/favicon.jpg`,
+    managingEditor: 'contact@liang.world (Ang Li)',
+    webMaster: 'contact@liang.world (Ang Li)',
+    copyright: `© ${new Date().getFullYear()} Liang.World`,
+    language: 'en',
+    pubDate: new Date(),
+    ttl: 60,
+    categories: ['Philosophy', 'Psychology', 'Logic', 'Ecommerce', 'Others'],
+  });
+  for (const p of enPosts) {
+    enFeed.item({ title: p.title, description: p.description, url: `${BASE_URL}/en/post/${p.slug}`, guid: `${BASE_URL}/en/post/${p.slug}`, categories: p.tags, author: 'Ang Li', date: p.date });
+  }
+  fs.writeFileSync(path.resolve('public', 'en-rss.xml'), enFeed.xml({ indent: true }));
+  console.log(`Generated en-rss.xml (${enPosts.length} items)`);
 }
 
 generateRSS().catch(console.error);

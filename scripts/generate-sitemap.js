@@ -1,58 +1,75 @@
 import fs from 'fs';
 import path from 'path';
 import { glob } from 'glob';
-import matter from 'gray-matter';
 
 const BASE_URL = 'https://liang.world';
-const OUTPUT_FILE = path.resolve('public', 'sitemap.xml');
-
-const STATIC_PAGES = ['', '/categories', '/books', '/about'];
 
 function escapeXml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-async function generateSitemap() {
-  console.log('Generating sitemap.xml...');
+async function generateSitemaps() {
+  const zhFiles = await glob('src/content/posts/zh/*.md');
+  const enFiles = await glob('src/content/posts/en/*.md');
+  const enSlugs = new Set(enFiles.map(f => path.basename(f, '.md')));
 
-  const urls = [];
+  // === Chinese sitemap ===
+  let zhUrls = [
+    { loc: BASE_URL, priority: '1.0' },
+    { loc: `${BASE_URL}/categories`, priority: '0.7' },
+    { loc: `${BASE_URL}/books`, priority: '0.7' },
+    { loc: `${BASE_URL}/about`, priority: '0.7' },
+  ];
 
-  // Static pages
-  for (const page of STATIC_PAGES) {
-    urls.push({
-      loc: `${BASE_URL}${page}`,
-      priority: page === '' ? '1.0' : '0.7',
-      changefreq: 'weekly',
-    });
-  }
-
-  // Blog posts
-  const postFiles = await glob('src/content/posts/zh/*.md');
-  for (const file of postFiles) {
-    const content = fs.readFileSync(file, 'utf-8');
-    const { data } = matter(content);
+  for (const file of zhFiles) {
     const slug = path.basename(file, '.md');
-
-    urls.push({
+    const enLoc = enSlugs.has(slug) ? `${BASE_URL}/en/post/${slug}` : null;
+    zhUrls.push({
       loc: `${BASE_URL}/post/${slug}`,
-      lastmod: data.date || new Date().toISOString().split('T')[0],
       priority: '0.8',
       changefreq: 'monthly',
+      enLoc,
     });
   }
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map(u => `  <url>
-    <loc>${escapeXml(u.loc)}</loc>
-    ${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}
-    <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>
-  </url>`).join('\n')}
-</urlset>`;
+  let zhXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
+  for (const u of zhUrls) {
+    zhXml += `  <url>\n    <loc>${escapeXml(u.loc)}</loc>\n    <changefreq>${u.changefreq || 'weekly'}</changefreq>\n    <priority>${u.priority}</priority>\n`;
+    if (u.enLoc) zhXml += `    <xhtml:link rel="alternate" hreflang="en" href="${escapeXml(u.enLoc)}"/>\n`;
+    zhXml += `    <xhtml:link rel="alternate" hreflang="zh" href="${escapeXml(u.loc)}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(u.loc)}"/>\n  </url>\n`;
+  }
+  zhXml += '</urlset>';
+  fs.writeFileSync(path.resolve('public', 'sitemap.xml'), zhXml);
+  console.log(`Generated sitemap.xml (${zhUrls.length} URLs)`);
 
-  fs.writeFileSync(OUTPUT_FILE, xml);
-  console.log(`Sitemap generated at ${OUTPUT_FILE} (${urls.length} URLs)`);
+  // === English sitemap ===
+  let enUrls = [
+    { loc: `${BASE_URL}/en`, priority: '1.0' },
+    { loc: `${BASE_URL}/en/categories`, priority: '0.7' },
+    { loc: `${BASE_URL}/en/books`, priority: '0.7' },
+    { loc: `${BASE_URL}/en/about`, priority: '0.7' },
+  ];
+
+  for (const file of enFiles) {
+    const slug = path.basename(file, '.md');
+    const zhLoc = `${BASE_URL}/post/${slug}`;
+    enUrls.push({
+      loc: `${BASE_URL}/en/post/${slug}`,
+      priority: '0.8',
+      changefreq: 'monthly',
+      zhLoc,
+    });
+  }
+
+  let enXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
+  for (const u of enUrls) {
+    enXml += `  <url>\n    <loc>${escapeXml(u.loc)}</loc>\n    <changefreq>${u.changefreq || 'weekly'}</changefreq>\n    <priority>${u.priority}</priority>\n`;
+    if (u.zhLoc) enXml += `    <xhtml:link rel="alternate" hreflang="zh" href="${escapeXml(u.zhLoc)}"/>\n`;
+    enXml += `    <xhtml:link rel="alternate" hreflang="en" href="${escapeXml(u.loc)}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(u.zhLoc || u.loc)}"/>\n  </url>\n`;
+  }
+  enXml += '</urlset>';
+  fs.writeFileSync(path.resolve('public', 'en-sitemap.xml'), enXml);
+  console.log(`Generated en-sitemap.xml (${enUrls.length} URLs)`);
 }
 
-generateSitemap().catch(console.error);
+generateSitemaps().catch(console.error);
