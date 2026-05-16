@@ -381,14 +381,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/polaris-seven-virtues"/>
   </url>
   <url>
-    <loc>https://liang.world/post/PKM-intro</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/PKM-intro"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/PKM-intro"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/PKM-intro"/>
-  </url>
-  <url>
     <loc>https://liang.world/post/philosophical-consciousness-and-mission</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -771,6 +763,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/adulting-beauty-ecommerce-dao"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/adulting-beauty-ecommerce-dao"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/adulting-beauty-ecommerce-dao"/>
+  </url>
+  <url>
+    <loc>https://liang.world/post/PKM-intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/PKM-intro"/>
   </url>
   <url>
     <loc>https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</loc>
