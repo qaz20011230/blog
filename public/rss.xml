@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 May 2026 08:11:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 May 2026 06:04:53 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 May 2026 08:11:32 GMT</pubDate>
+        <pubDate>Sat, 16 May 2026 06:04:53 GMT</pubDate>
         <copyright><![CDATA[© 2026 LeoZ Universe]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@example.com (思想助产士)]]></managingEditor>
@@ -27,6 +27,35 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[逐日盗火：通往商用可控核聚变]]></title>
+            <description><![CDATA[为有志于商用可控核聚变的研究生，绘制一份从入门到精通的完整文献地图——从Jackson电动力学到CFEDR集成设计，从Grad-Shafranov方程到AI驱动聚变控制。]]></description>
+            <link>https://liang.world/post/逐日盗火：通往商用可控核聚变</link>
+            <guid isPermaLink="false">https://liang.world/post/逐日盗火：通往商用可控核聚变</guid>
+            <category><![CDATA[核聚变]]></category>
+            <category><![CDATA[等离子体物理]]></category>
+            <category><![CDATA[文献综述]]></category>
+            <category><![CDATA[能源]]></category>
+            <category><![CDATA[托卡马克]]></category>
+            <category><![CDATA[AI]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[把大象放进冰箱：论用计算方法逼近黎曼猜想]]></title>
+            <description><![CDATA[系统阐述一种用计算方法逼近黎曼猜想的路径——将黎曼猜想等价转化为一台744状态的图灵机停机问题，建立数据驱动的、人机协同的观测与实验平台。]]></description>
+            <link>https://liang.world/post/把大象放进冰箱：论用计算方法逼近黎曼猜想</link>
+            <guid isPermaLink="false">https://liang.world/post/把大象放进冰箱：论用计算方法逼近黎曼猜想</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[数学]]></category>
+            <category><![CDATA[图灵机]]></category>
+            <category><![CDATA[停机问题]]></category>
+            <category><![CDATA[ZetaHalt]]></category>
+            <category><![CDATA[形式化验证]]></category>
+            <category><![CDATA[希尔伯特第八问题]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[寻语之道：从格物到问学的三十级台阶]]></title>
