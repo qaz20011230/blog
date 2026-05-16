@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 16 May 2026 06:22:10 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 May 2026 06:49:39 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 16 May 2026 06:22:10 GMT</pubDate>
+        <pubDate>Sat, 16 May 2026 06:49:39 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -32,6 +32,35 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[光能聚合，黑核脉冲：聚变产业链全息地图]]></title>
+            <description><![CDATA[将可控核聚变全产业链拆解为七个层次——从基础燃料到超导材料，从包层设备到AI控制，从资本政策到电站运营——为投资决策、企业战略与技术研发提供一张足够精细的产业地图。]]></description>
+            <link>https://liang.world/post/光能聚合，黑核脉冲：聚变产业链全息地图</link>
+            <guid isPermaLink="false">https://liang.world/post/光能聚合，黑核脉冲：聚变产业链全息地图</guid>
+            <category><![CDATA[核聚变]]></category>
+            <category><![CDATA[产业链]]></category>
+            <category><![CDATA[投资]]></category>
+            <category><![CDATA[能源]]></category>
+            <category><![CDATA[超导]]></category>
+            <category><![CDATA[AI]]></category>
+            <category><![CDATA[氚工厂]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[逐日盗火：通往商用可控核聚变]]></title>
+            <description><![CDATA[为有志于商用可控核聚变的研究生，绘制一份从入门到精通的完整文献地图——从Jackson电动力学到CFEDR集成设计，从Grad-Shafranov方程到AI驱动聚变控制。]]></description>
+            <link>https://liang.world/post/逐日盗火：通往商用可控核聚变</link>
+            <guid isPermaLink="false">https://liang.world/post/逐日盗火：通往商用可控核聚变</guid>
+            <category><![CDATA[核聚变]]></category>
+            <category><![CDATA[等离子体物理]]></category>
+            <category><![CDATA[文献综述]]></category>
+            <category><![CDATA[能源]]></category>
+            <category><![CDATA[托卡马克]]></category>
+            <category><![CDATA[AI]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[把大象放进冰箱：论用计算方法逼近黎曼猜想]]></title>
