@@ -2,20 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Post } from '../types';
 import { format } from 'date-fns';
+import { useLanguage } from '../context/LanguageContext';
 
 interface PostCardProps {
   post: Post;
 }
 
 export default function PostCard({ post }: PostCardProps) {
+  const { locale } = useLanguage();
+  const prefix = locale === 'en' ? '/en' : '';
+
   return (
     <article className="group relative mb-6 border border-gray-800/60 p-5 bg-hilbert/30 card-hover">
-      {/* Background glow overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-
       <div className="relative z-10 flex flex-col sm:flex-row sm:items-baseline gap-2 mb-3">
         <h2 className="text-xl font-bold text-gray-100 group-hover:text-primary transition-colors duration-300">
-          <Link to={`/post/${post.slug}`} className="link-underline">
+          <Link to={`${prefix}/post/${post.slug}`} className="link-underline">
             {post.title}
           </Link>
         </h2>

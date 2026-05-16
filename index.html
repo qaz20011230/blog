@@ -1,27 +1,40 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
-    <meta name="description" content="良之世界 - 思想助产士的个人博客。融合精神分析、哲学践行与商业逻辑，助你澄清概念、暴露预设、重构认知。这里不是标准答案的贩卖机，而是思想觉醒的演练场，致力于建立不可动摇的思想主权。" />
-    <meta name="keywords" content="良之世界, 思想助产士, 哲思锻造坊, 哲学咨询, 精神分析, 哲学践行, 个人成长, 深度思考, 梁良" />
-    <title>良之世界</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="良之世界 | Liang.World — 思想助产士的数字花园。融合精神分析、哲学践行与商业逻辑的深度思考。" />
+    <title>良之世界 | Liang.World</title>
+    <script>
+      // Minimal Buffer polyfill for gray-matter compatibility
+      window.Buffer = window.Buffer || {
+        from: function(data, encoding) {
+          if (typeof data === 'string') return new TextEncoder().encode(data);
+          return new Uint8Array(data);
+        },
+        isBuffer: function() { return false; },
+        alloc: function(size) { return new Uint8Array(size); },
+        isEncoding: function() { return false; },
+      };
+    </script>
     <script type="module">
       if (import.meta.hot?.on) {
         import.meta.hot.on('vite:error', (error) => {
           if (error.err) {
-            console.error(
-              [error.err.message, error.err.frame].filter(Boolean).join('\n'),
-            )
+            console.error([error.err.message, error.err.frame].filter(Boolean).join('\n'))
           }
         })
       }
     </script>
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="background:#050505;margin:0">
+    <div id="root">
+      <div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#555;font-family:serif;font-size:1.5rem">
+        LIANG.WORLD
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </body>

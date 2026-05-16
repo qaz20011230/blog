@@ -75,7 +75,7 @@ async function countMarkdownFiles(globPattern) {
 async function generateStats() {
   console.log('Generating site stats...');
 
-  const posts = await countMarkdownFiles('src/content/posts/*.md');
+  const posts = await countMarkdownFiles('src/content/posts/zh/*.md');
 
   const totalWords = posts.totalWords;
   const payload = {

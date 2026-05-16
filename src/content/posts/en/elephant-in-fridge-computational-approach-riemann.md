@@ -1,13 +1,19 @@
 ---
 title: 把大象放进冰箱：论用计算方法逼近黎曼猜想
 date: '2026-05-15'
-category: "Mathematics & Logic"
-tags: ["黎曼猜想", "数学", "图灵机", "停机问题", "ZetaHalt", "形式化验证", "希尔伯特第八问题"]
-description: >-
+category: Mathematics & Logic
+tags:
+  - Riemann Hypothesis
+  - mathematics
+  - 图灵机
+  - 停机问题
+  - ZetaHalt
+  - 形式化验证
+  - 希尔伯特第八问题
+description: >
   系统阐述一种用计算方法逼近黎曼猜想的路径——将黎曼猜想等价转化为一台744状态的图灵机停机问题，建立数据驱动的、人机协同的观测与实验平台。
 ---
 
-# 把大象放进冰箱：论用计算方法逼近黎曼猜想
 
 **作者：李昂（Ang Li）**
 
@@ -278,3 +284,6 @@ ZetaHalt是一个完全开源的项目（MIT许可证）。我们欢迎来自数
 ---
 
 *李昂，Phaenarete Project发起人，广州菲娜睿特人工智能科技有限责任公司创始人。美国哲学践行家协会（APPA）附属会员，法国哲学践行研究所研究助理。研究兴趣包括认知架构、形式化验证、哲学践行，以及数学与计算交叉领域的基础问题。*
+
+
+> **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

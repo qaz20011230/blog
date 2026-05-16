@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://liang.world/en</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/categories</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/categories"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en/categories"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/books</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/books"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en/books"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/about</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en/about"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/zhi-shan-heng-rong-game-theory</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/zhi-shan-heng-rong-game-theory"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/zhi-shan-heng-rong-game-theory"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/zhi-shan-heng-rong-game-theory"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/zetahalt-riemann-29-register-machine-halting-transformer</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/zetahalt-riemann-29-register-machine-halting-transformer"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/zero-trust-identity-authentication-robustness</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/zero-trust-identity-authentication-robustness"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/zero-trust-identity-authentication-robustness"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/zero-trust-identity-authentication-robustness"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/yi-character-creation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/yi-character-creation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/yi-character-creation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/yi-character-creation"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/wu-zetian-li-zhi-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/wu-zetian-li-zhi-analysis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/wu-zetian-li-zhi-analysis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/wu-zetian-li-zhi-analysis"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/womens-day-punch</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/womens-day-punch"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/womens-day-punch"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/womens-day-punch"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/why-we-charge-at-riemann-hypothesis-in-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/why-we-charge-at-riemann-hypothesis-in-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/why-we-charge-at-riemann-hypothesis-in-2026"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/why-we-charge-at-riemann-hypothesis-in-2026"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/what-is-philosophy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/what-is-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/what-is-philosophy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/what-is-philosophy"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/what-is-love</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/what-is-love"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/what-is-love"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/what-is-love"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/what-couples-talk-deepen-relationship</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/what-couples-talk-deepen-relationship"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/what-couples-talk-deepen-relationship"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/what-couples-talk-deepen-relationship"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/wealth-immune-system-permanent-portfolio-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/wealth-immune-system-permanent-portfolio-guide"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/wealth-immune-system-permanent-portfolio-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/wealth-immune-system-permanent-portfolio-guide"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/wealth-as-responsibility</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/wealth-as-responsibility"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/wealth-as-responsibility"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/wealth-as-responsibility"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/venus</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/venus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/venus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/venus"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/unirec-unifying-sequence-modeling-feature-interaction-archive</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/unirec-unifying-sequence-modeling-feature-interaction-archive"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/unirec-unifying-sequence-modeling-feature-interaction-archive"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/unirec-unifying-sequence-modeling-feature-interaction-archive"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/tree-and-clouds-educators-thought-walk</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/tree-and-clouds-educators-thought-walk"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/tree-and-clouds-educators-thought-walk"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/tree-and-clouds-educators-thought-walk"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/tolerate-let-be-hanshan-stoic-practice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/tolerate-let-be-hanshan-stoic-practice"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/tolerate-let-be-hanshan-stoic-practice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/tolerate-let-be-hanshan-stoic-practice"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/thinkers-content-startup-clear-light</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/thinkers-content-startup-clear-light"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/thinkers-content-startup-clear-light"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/thinkers-content-startup-clear-light"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/the-7-axioms-of-artificial-intelligence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/the-7-axioms-of-artificial-intelligence"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/the-7-axioms-of-artificial-intelligence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/the-7-axioms-of-artificial-intelligence"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/tendre-is-all-we-want-xanthippe-architecture</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/tendre-is-all-we-want-xanthippe-architecture"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/tendre-is-all-we-want-xanthippe-architecture"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/tendre-is-all-we-want-xanthippe-architecture"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/ten-thousand-terence-taos-ai-reshapes-math-science</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/ten-thousand-terence-taos-ai-reshapes-math-science"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/ten-thousand-terence-taos-ai-reshapes-math-science"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/ten-thousand-terence-taos-ai-reshapes-math-science"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/talent-not-weapon-last-sanctuary</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/talent-not-weapon-last-sanctuary"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/talent-not-weapon-last-sanctuary"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/talent-not-weapon-last-sanctuary"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/syllogism-logic</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/syllogism-logic"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/syllogism-logic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/syllogism-logic"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/stoic-triangle-wisdom-choice-freedom</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/stoic-triangle-wisdom-choice-freedom"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/stoic-triangle-wisdom-choice-freedom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/stoic-triangle-wisdom-choice-freedom"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/stock-return-secrets</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/stock-return-secrets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/stock-return-secrets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/stock-return-secrets"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/statistics-science</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/statistics-science"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/statistics-science"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/statistics-science"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/starting-from-zero-qinse-fairy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/starting-from-zero-qinse-fairy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/starting-from-zero-qinse-fairy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/starting-from-zero-qinse-fairy"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/soul-midwifery-consultation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/soul-midwifery-consultation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/soul-midwifery-consultation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/soul-midwifery-consultation"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/song-of-primes-riemann-hypothesis-history-frontier-future</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/song-of-primes-riemann-hypothesis-history-frontier-future"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/song-of-primes-riemann-hypothesis-history-frontier-future"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/song-of-primes-riemann-hypothesis-history-frontier-future"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/seven-virtues-of-the-north-star</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/seven-virtues-of-the-north-star"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/seven-virtues-of-the-north-star"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/seven-virtues-of-the-north-star"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/sealed-lips-smiling-face-unsaid-words-doable-actions</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/sealed-lips-smiling-face-unsaid-words-doable-actions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/sealed-lips-smiling-face-unsaid-words-doable-actions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/sealed-lips-smiling-face-unsaid-words-doable-actions"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/scarce-resources-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/scarce-resources-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/scarce-resources-2026"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/scarce-resources-2026"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/sartre-beauvoir-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/sartre-beauvoir-analysis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/sartre-beauvoir-analysis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/sartre-beauvoir-analysis"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/rethink-the-recommendation-taac2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/rethink-the-recommendation-taac2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/rethink-the-recommendation-taac2026"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/rethink-the-recommendation-taac2026"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/relational-oblivion-and-return-part-3</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/relational-oblivion-and-return-part-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/relational-oblivion-and-return-part-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/relational-oblivion-and-return-part-3"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/relational-oblivion-and-return-part-2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/relational-oblivion-and-return-part-2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/relational-oblivion-and-return-part-2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/relational-oblivion-and-return-part-2"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/relational-oblivion-and-return-part-1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/relational-oblivion-and-return-part-1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/relational-oblivion-and-return-part-1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/relational-oblivion-and-return-part-1"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/relational-mechanics-manifesto</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/relational-mechanics-manifesto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/relational-mechanics-manifesto"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/relational-mechanics-manifesto"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/recommendation-systems-right-and-wrong</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/recommendation-systems-right-and-wrong"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/recommendation-systems-right-and-wrong"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/recommendation-systems-right-and-wrong"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/questioning-infinite-touching-eternity</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/questioning-infinite-touching-eternity"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/questioning-infinite-touching-eternity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/questioning-infinite-touching-eternity"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/psychoanalysis-archaeology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/psychoanalysis-archaeology"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/psychoanalysis-archaeology"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/psychoanalysis-archaeology"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/prompt-engineering-quick-start</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/prompt-engineering-quick-start"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/prompt-engineering-quick-start"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/prompt-engineering-quick-start"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/project-based-productivity</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/project-based-productivity"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/project-based-productivity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/project-based-productivity"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/presence-the-power-of-now</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/presence-the-power-of-now"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/presence-the-power-of-now"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/presence-the-power-of-now"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/polaris-seven-virtues</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/polaris-seven-virtues"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/polaris-seven-virtues"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/polaris-seven-virtues"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/PKM-intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/PKM-intro"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/philosophical-consciousness-and-mission</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/philosophical-consciousness-and-mission"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/philosophical-consciousness-and-mission"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/philosophical-consciousness-and-mission"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/phaenarete-project-methodology-and-milestones</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/phaenarete-project-methodology-and-milestones"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/phaenarete-project-methodology-and-milestones"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/phaenarete-project-methodology-and-milestones"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/on-reserve-affection-in-abacus-sounds</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/on-reserve-affection-in-abacus-sounds"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/on-reserve-affection-in-abacus-sounds"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/on-reserve-affection-in-abacus-sounds"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/on-equality</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/on-equality"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/on-equality"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/on-equality"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/on-entrepreneurship-opportunities</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/on-entrepreneurship-opportunities"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/on-entrepreneurship-opportunities"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/on-entrepreneurship-opportunities"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/on-criticism</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/on-criticism"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/on-criticism"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/on-criticism"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/nexus-relational-dynamics-three-foundations</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/nexus-relational-dynamics-three-foundations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/nexus-relational-dynamics-three-foundations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/nexus-relational-dynamics-three-foundations"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/mr-youshan-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/mr-youshan-analysis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/mr-youshan-analysis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/mr-youshan-analysis"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/moral-philosophy-in-complex-world</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/moral-philosophy-in-complex-world"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/moral-philosophy-in-complex-world"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/moral-philosophy-in-complex-world"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/meta-language-and-ladder-of-being-turn-lang</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/meta-language-and-ladder-of-being-turn-lang"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/meta-language-and-ladder-of-being-turn-lang"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/meta-language-and-ladder-of-being-turn-lang"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/marx-jenny-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/marx-jenny-analysis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/marx-jenny-analysis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/marx-jenny-analysis"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/mao-wenchao-qu-fang-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/mao-wenchao-qu-fang-analysis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/mao-wenchao-qu-fang-analysis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/mao-wenchao-qu-fang-analysis"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/love-wisdom-truth-freedom-service</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/love-wisdom-truth-freedom-service"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/love-wisdom-truth-freedom-service"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/love-wisdom-truth-freedom-service"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/logic-universality-and-culture</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/logic-universality-and-culture"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/logic-universality-and-culture"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/logic-universality-and-culture"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/logic-basics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/logic-basics"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/logic-basics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/logic-basics"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/linguistics-reading-path-thirty-steps</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/linguistics-reading-path-thirty-steps"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/linguistics-reading-path-thirty-steps"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/linguistics-reading-path-thirty-steps"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/light-energy-convergence-manifesto-communism-new-stage</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/light-energy-convergence-manifesto-communism-new-stage"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/lee-kwan-yew-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/lee-kwan-yew-analysis"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/lee-kwan-yew-analysis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/lee-kwan-yew-analysis"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/learning-as-irreversible-mode-of-being</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/learning-as-irreversible-mode-of-being"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/learning-as-irreversible-mode-of-being"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/learning-as-irreversible-mode-of-being"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/key-value-memory-mnemosyne-to-silicon-intelligence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/key-value-memory-mnemosyne-to-silicon-intelligence"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/key-value-memory-mnemosyne-to-silicon-intelligence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/key-value-memory-mnemosyne-to-silicon-intelligence"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/hilberts-tenth-problem-overview</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/hilberts-tenth-problem-overview"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/hilberts-tenth-problem-overview"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/hilberts-tenth-problem-overview"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/hilberts-tenth-problem-complete-chronicle</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/hilberts-tenth-problem-complete-chronicle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/hilberts-tenth-problem-complete-chronicle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/hilberts-tenth-problem-complete-chronicle"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/hello-world</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/hello-world"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/hello-world"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/hello-world"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/generated-in-between-psycholinguistics-relational-dynamics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/generated-in-between-psycholinguistics-relational-dynamics"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/generated-in-between-psycholinguistics-relational-dynamics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/generated-in-between-psycholinguistics-relational-dynamics"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/genealogy-of-art</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/genealogy-of-art"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/genealogy-of-art"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/genealogy-of-art"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/finaret-fusion-mission-white-paper-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/finaret-fusion-mission-white-paper-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/finaret-fusion-mission-white-paper-2026"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/finaret-fusion-mission-white-paper-2026"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/facing-the-wild-living-completely-unknown</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/facing-the-wild-living-completely-unknown"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/facing-the-wild-living-completely-unknown"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/facing-the-wild-living-completely-unknown"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/essence-of-religion</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/essence-of-religion"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/essence-of-religion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/essence-of-religion"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/elephant-in-fridge-computational-approach-riemann</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/elephant-in-fridge-computational-approach-riemann"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/elephant-in-fridge-computational-approach-riemann"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/elephant-in-fridge-computational-approach-riemann"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/director-is-dead-ai-dreams-movies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/director-is-dead-ai-dreams-movies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/director-is-dead-ai-dreams-movies"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/director-is-dead-ai-dreams-movies"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/deepseekmath-to-xanthippe-asi-gaokao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/deepseekmath-to-xanthippe-asi-gaokao"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/deepseekmath-to-xanthippe-asi-gaokao"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/deepseekmath-to-xanthippe-asi-gaokao"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/deepseek-v3-full-stack-architecture-revolution</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/deepseek-v3-full-stack-architecture-revolution"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/deepseek-v3-full-stack-architecture-revolution"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/deepseek-v3-full-stack-architecture-revolution"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/deepseek-v3-2-exp-sparse-attention-revolution</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/deepseek-v3-2-exp-sparse-attention-revolution"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/deepseek-v3-2-exp-sparse-attention-revolution"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/deepseek-v3-2-exp-sparse-attention-revolution"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/deepseek-v2-architecture-revolution</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/deepseek-v2-architecture-revolution"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/deepseek-v2-architecture-revolution"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/deepseek-v2-architecture-revolution"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/deepseek-r1-rl-alchemy-emergence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/deepseek-r1-rl-alchemy-emergence"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/deepseek-r1-rl-alchemy-emergence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/deepseek-r1-rl-alchemy-emergence"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/deep-seek-culture-letter</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/deep-seek-culture-letter"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/deep-seek-culture-letter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/deep-seek-culture-letter"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/consumer-behavior-intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/consumer-behavior-intro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/consumer-behavior-intro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/consumer-behavior-intro"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/consensus-is-text-meeting-os</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/consensus-is-text-meeting-os"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/consensus-is-text-meeting-os"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/consensus-is-text-meeting-os"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/civilization-survival-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/civilization-survival-guide"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/civilization-survival-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/civilization-survival-guide"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/become-philosophical-practitioner-100-books</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/become-philosophical-practitioner-100-books"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/become-philosophical-practitioner-100-books"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/become-philosophical-practitioner-100-books"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/beauty-of-systems-understanding-universe</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/beauty-of-systems-understanding-universe"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/beauty-of-systems-understanding-universe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/beauty-of-systems-understanding-universe"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/attraction-logic</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/attraction-logic"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/attraction-logic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/attraction-logic"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/architect-whiteboard-deepseek-scaling-law</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/architect-whiteboard-deepseek-scaling-law"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/architect-whiteboard-deepseek-scaling-law"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/architect-whiteboard-deepseek-scaling-law"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/april-fools-celebrate-i-dont-know</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/april-fools-celebrate-i-dont-know"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/april-fools-celebrate-i-dont-know"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/april-fools-celebrate-i-dont-know"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/anxiety-not-enemy-reclaim-existence-power</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/anxiety-not-enemy-reclaim-existence-power"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/anxiety-not-enemy-reclaim-existence-power"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/anxiety-not-enemy-reclaim-existence-power"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/ai-reshapes-mathematics-research-paradigm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/ai-reshapes-mathematics-research-paradigm"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/ai-reshapes-mathematics-research-paradigm"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/ai-reshapes-mathematics-research-paradigm"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/ai-defense-lacanian-dialogue</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/ai-defense-lacanian-dialogue"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/ai-defense-lacanian-dialogue"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/ai-defense-lacanian-dialogue"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/adulting-beauty-ecommerce-dao</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/adulting-beauty-ecommerce-dao"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/adulting-beauty-ecommerce-dao"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/adulting-beauty-ecommerce-dao"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics"/>
+  </url>
+</urlset>

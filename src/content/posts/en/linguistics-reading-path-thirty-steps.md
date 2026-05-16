@@ -1,12 +1,17 @@
 ---
 title: 寻语之道：从格物到问学的三十级台阶
 date: '2026-05-06'
-category: "Culture & Art"
-tags: ["语言学", "书单", "读书", "学术路径", "教育"]
-description: 从本科筑基到独立问道，三十部语言学经典的拾级而上之道——以四境格物致知、穷理尽性、铸剑试锋、问道无疆，带你步步为营深入语言迷宫。
+category: Culture & Art
+tags:
+  - linguistics
+  - 书单
+  - 读书
+  - 学术路径
+  - education
+description: >
+  从本科筑基到独立问道，三十部语言学经典的拾级而上之道——以四境格物致知、穷理尽性、铸剑试锋、问道无疆，带你步步为营深入语言迷宫。
 ---
 
-# 寻语之道：从格物到问学的三十级台阶
 
 ## ——语言学读书志·从本科到博士
 
@@ -415,3 +420,6 @@ Everett因在亚马逊丛林中与Pirahã人共度数十年而名扬学界，他
 ---
 
 *本文书目信息以2024–2025年可查的最新版本为准。部分经典著作后续有重印本或修订版，读者可按图索骥。*
+
+
+> **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.
