@@ -1,7 +1,10 @@
+Content-Signal: search=yes,ai-input=yes,ai-train=yes
+
 User-agent: *
 Allow: /
+Crawl-delay: 0
 
-# All AI crawlers and agent bots are welcome
+# Welcome all AI crawlers and search engines
 User-agent: GPTBot
 Allow: /
 
@@ -74,9 +77,5 @@ Allow: /
 User-agent: Teoma
 Allow: /
 
-# Crawl-delay: 0 (maximum speed, explicitly permitted)
-Crawl-delay: 0
-
-# Sitemaps
 Sitemap: https://liang.world/sitemap.xml
 Sitemap: https://liang.world/en/sitemap.xml
