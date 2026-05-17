@@ -16,7 +16,7 @@ export default function Navbar() {
     { name: t(UI.nav.home.zh, UI.nav.home.en), path: '' },
     { name: t(UI.nav.categories.zh, UI.nav.categories.en), path: 'categories' },
     { name: t(UI.nav.books.zh, UI.nav.books.en), path: 'books' },
-    { name: t(UI.nav.about.zh, UI.nav.about.en), path: 'about' },
+    
   ];
 
   const prefix = locale === 'en' ? '/en' : '';
