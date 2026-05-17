@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Mail, MapPin, BookOpen, Award, Briefcase, BarChart3, Github } from 'lucide-react';
+import { Mail, MapPin, BookOpen, Award, Briefcase, BarChart3, Github, Layers } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { getAllPosts } from '../lib/content';
 import { UI } from '../types';
