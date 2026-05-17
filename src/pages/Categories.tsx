@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { getAllPosts } from '../lib/content';
 import PostCard from '../components/PostCard';
 import { useLanguage } from '../context/LanguageContext';
 import { UI, Category } from '../types';
 import { cn } from '../lib/utils';
-
-const categories: Category[] = ['Philosophy', 'Psychology', 'Logic', 'Ecommerce', 'Others'];
 
 export default function Categories() {
   const { locale, t } = useLanguage();
@@ -15,10 +13,18 @@ export default function Categories() {
   const initialCategory = (searchParams.get('category') as Category) || 'All';
   const [selectedCategory, setSelectedCategory] = useState<Category | 'All'>(initialCategory);
 
+  const categories = useMemo(() => {
+    const catSet = new Set<Category>();
+    for (const p of allPosts) {
+      if (p.category && p.category !== 'Others') catSet.add(p.category as Category);
+    }
+    return Array.from(catSet);
+  }, [allPosts]);
+
   useEffect(() => {
     const cat = searchParams.get('category') as Category;
     if (cat && categories.includes(cat)) setSelectedCategory(cat);
-  }, [searchParams]);
+  }, [searchParams, categories]);
 
   const filteredPosts = selectedCategory === 'All' ? allPosts : allPosts.filter(p => p.category === selectedCategory);
 

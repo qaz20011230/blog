@@ -1,8 +1,11 @@
 export type Category =
   | 'Philosophy'
   | 'Psychology'
+  | 'AI & Technology'
+  | 'Mathematics & Logic'
+  | 'Business & Strategy'
+  | 'Culture & Art'
   | 'Logic'
-  | 'Ecommerce'
   | 'Others';
 
 export interface Post {
@@ -55,7 +58,51 @@ export const UI = {
   about: {
     title: { zh: '关于良之 | 良之世界', en: 'About | Liang.World' },
     name: { zh: '良之', en: 'LeoZ' },
+    nameSub: { zh: 'Ang Li', en: 'Ang Li' },
     role: { zh: '广州菲娜睿特人工智能科技有限责任公司首席技术官', en: 'CTO, Guangzhou Phaenarete AI Technology Co., Ltd.' },
+    location: { zh: '广州 / 爱丁堡', en: 'Guangzhou / Edinburgh' },
+    contact: { zh: '联系方式', en: 'Contact' },
+    email: { zh: 'contact@liang.world', en: 'contact@liang.world' },
+    bio: {
+      zh: '思想助产士。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
+      en: 'Midwife of Thought. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
+    },
+    education: {
+      heading: { zh: '教育背景', en: 'Education' },
+      items: [
+        {
+          degree: { zh: '语言学博士', en: 'PhD in Linguistics' },
+          school: { zh: '爱丁堡大学', en: 'University of Edinburgh' },
+          period: { zh: '', en: '' },
+        },
+        {
+          degree: { zh: '管理学学士', en: 'Bachelor of Management' },
+          school: { zh: '广东工业大学', en: 'Guangdong University of Technology' },
+          period: { zh: '', en: '' },
+        },
+      ],
+    },
+    position: {
+      heading: { zh: '现任职务', en: 'Current Position' },
+      title: { zh: '首席技术官', en: 'Chief Technology Officer' },
+      org: { zh: '广州菲娜睿特人工智能科技有限责任公司', en: 'Guangzhou Phaenarete AI Technology Co., Ltd.' },
+      period: { zh: '2025 – 至今', en: '2025 – Present' },
+    },
+    expertise: {
+      heading: { zh: '研究领域与技能', en: 'Areas of Expertise' },
+      autoBuilt: { zh: '（以下数据基于博客内容自动生成）', en: '(Auto-generated from blog content)' },
+    },
+    writings: {
+      heading: { zh: '代表著述', en: 'Selected Writings' },
+      autoBuilt: { zh: '（以下筛选自最新博文）', en: '(Selected from recent posts)' },
+      viewAll: { zh: '查看全部文章 →', en: 'View All Posts →' },
+    },
+    stats: {
+      heading: { zh: '网站统计', en: 'Site Stats' },
+      posts: { zh: '篇文章', en: ' posts' },
+      tags: { zh: '个标签', en: ' tags' },
+      categories: { zh: '个领域', en: ' categories' },
+    },
   },
   footer: {
     copyright: { zh: '版权所有', en: 'All rights reserved' },
