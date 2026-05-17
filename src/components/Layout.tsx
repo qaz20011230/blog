@@ -28,26 +28,6 @@ export default function Layout() {
   const desc = t(UI.description.zh, UI.description.en);
   const keywords = t(UI.keywords.zh, UI.keywords.en);
 
-  const siteJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    'name': t(UI.siteName.zh, UI.siteName.en),
-    'url': 'https://liang.world',
-    'description': desc,
-    'author': {
-      '@type': 'Person',
-      'name': isEn ? 'Ang Li (良之)' : '良之 (Ang Li)',
-      'jobTitle': isEn ? 'CTO, Phaenarete AI; Former CTO, Alibaba Group' : '菲娜睿特AI首席技术官；阿里巴巴前首席技术官',
-      'url': 'https://liang.world/about',
-    },
-    'inLanguage': isEn ? 'en' : 'zh-CN',
-    'potentialAction': {
-      '@type': 'SearchAction',
-      'target': { '@type': 'EntryPoint', 'urlTemplate': 'https://liang.world/search?q={search_term_string}' },
-      'query-input': 'required name=search_term_string',
-    },
-  };
-
   return (
     <div className="min-h-screen flex flex-col bg-hilbert font-sans text-text" lang={isEn ? 'en' : 'zh-CN'}>
       <Helmet>
@@ -87,8 +67,7 @@ export default function Layout() {
         <meta name="twitter:description" content={desc} />
         <meta name="twitter:image" content="https://liang.world/favicon.jpg" />
 
-        <script type="application/ld+json">{JSON.stringify(siteJsonLd)}</script>
-      </Helmet>
+        </Helmet>
       <Navbar />
       <main className="relative flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8 max-w-4xl z-10">
         <div key={location.pathname} className="page-enter">
