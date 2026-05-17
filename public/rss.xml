@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 10:12:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 10:43:22 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 10:12:03 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 10:43:22 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -63,6 +63,23 @@
             <category><![CDATA[海德格尔]]></category>
             <category><![CDATA[信任经济]]></category>
             <category><![CDATA[生涯规划]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[非同凡想："异常"宣言]]></title>
+            <description><![CDATA[四年管理学教育后对管理学的系统背叛。融合福柯的规训权力、海德格尔的"常人"诊断、列维纳斯的面容伦理、韩炳哲的倦怠社会、维特根斯坦的语言游戏——拆解"正常"如何成为最精致的权力装置，宣告一种绝不正常的存在方式。
+]]></description>
+            <link>https://liang.world/post/非同凡想——异常宣言</link>
+            <guid isPermaLink="false">https://liang.world/post/非同凡想——异常宣言</guid>
+            <category><![CDATA[福柯]]></category>
+            <category><![CDATA[海德格尔]]></category>
+            <category><![CDATA[列维纳斯]]></category>
+            <category><![CDATA[韩炳哲]]></category>
+            <category><![CDATA[维特根斯坦]]></category>
+            <category><![CDATA[管理学批判]]></category>
+            <category><![CDATA[权力分析]]></category>
+            <category><![CDATA[现象学]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>

@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 10:12:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 10:43:22 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 10:12:03 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 10:43:22 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -47,6 +47,23 @@
             <category><![CDATA[Heidegger]]></category>
             <category><![CDATA[trust economy]]></category>
             <category><![CDATA[vocation]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Think Different: A Manifesto for the Abnormal]]></title>
+            <description><![CDATA[A systematic betrayal of management science from within. Through Foucault's disciplinary power, Heidegger's "das Man," Levinas's ethics of the face, Han Byung-Chul's burnout society, and Wittgenstein's language games — dismantling how "normal" became the most refined apparatus of power, and declaring a way of being that refuses to be normal.
+]]></description>
+            <link>https://liang.world/en/post/think-different-manifesto-for-the-abnormal</link>
+            <guid isPermaLink="false">https://liang.world/en/post/think-different-manifesto-for-the-abnormal</guid>
+            <category><![CDATA[Foucault]]></category>
+            <category><![CDATA[Heidegger]]></category>
+            <category><![CDATA[Levinas]]></category>
+            <category><![CDATA[Han Byung-Chul]]></category>
+            <category><![CDATA[Wittgenstein]]></category>
+            <category><![CDATA[critique of management]]></category>
+            <category><![CDATA[power analysis]]></category>
+            <category><![CDATA[phenomenology]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>
