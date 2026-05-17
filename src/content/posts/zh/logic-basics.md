@@ -6,7 +6,6 @@ tags: ["逻辑学", "入门"]
 description: An introduction to logical reasoning and why it matters.
 ---
 
-
 # What is Logic?
 
 Logic is the study of correct reasoning. It allows us to distinguish good arguments from bad ones.

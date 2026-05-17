@@ -9,11 +9,9 @@ description: >
   A beginner-friendly guide to Aristotelian syllogisms — understanding categorical propositions and translating natural language arguments into formal logic.
 ---
 
-
-
 # 初识三段论逻辑：从基本定义到符号翻译
 
-## 什么是三段论逻辑？
+## 什么是三段论逻辑?
 
 在逻辑学中，**算法**指的是进行一项计算或解决一个问题的精确指令的有限序列。而当我们谈论**论证**时，指的是一组由若干前提和一个结论构成的陈述。**三段论**则是其中一种经典的演绎推理形式——它由大前提、小前提和结论三部分组成，通过两个包含共同项的前提推出必然的结论。
 
@@ -28,7 +26,7 @@ description: >
 
 ## 命题的类型与良构公式
 
-在将自然语言翻译为逻辑语言时，我们使用“良构公式”（well-formed formula）来表达命题。以下是常见命题类型及其对应形式：
+在将自然语言翻译为逻辑语言时，我们使用“良构公式”(well-formed formula)来表达命题。以下是常见命题类型及其对应形式：
 
 | 中文命题      | 英文命题            | 命题类型     | 例句                |
 |------------|-----------------|----------|-------------------|
@@ -77,6 +75,5 @@ description: >
 三段论逻辑为我们提供了一套分析日常推理的精确工具。通过将自然语言命题转化为规范的逻辑形式，我们可以更清晰地识别论证的结构，评估其有效性，并避免常见的推理谬误。掌握这些基本概念是进一步学习形式逻辑的重要第一步。
 
 *提示：在翻译练习中，注意保持一致性原则，确保相同的概念始终用相同的字母表示。*
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

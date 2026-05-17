@@ -10,8 +10,6 @@ description: >
   The first post marking the birth of a digital garden where philosophy, psychoanalysis, and business logic converge.
 ---
 
-
-
 # Welcome to Liang World
 
 This is the first post on my new blog. Here I plan to share my thoughts on various topics that interest me.
@@ -28,6 +26,5 @@ I wanted a simple place to write. No distractions, just content.
 - **E-commerce**: Insights from my professional life.
 
 Stay tuned!
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

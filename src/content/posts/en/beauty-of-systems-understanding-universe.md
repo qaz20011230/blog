@@ -10,8 +10,6 @@ description: >
   从身体的健康，到社会的运行，再到星辰的运转，答案或许就藏在“系统”之中。本期周刊，我们将开启一场从个人到宇宙的旅程，探索那隐藏在万物背后的结构之美、动态之韵与和谐之律。
 ---
 
-
-
 **卷首语：从一粒沙中见世界**
 
 我们如何理解这个纷繁复杂的世界？从身体的健康，到社会的运行，再到星辰的运转，答案或许就藏在“系统”之中。本期周刊，我们将开启一场从个人到宇宙的旅程，探索那隐藏在万物背后的**结构之美、动态之韵与和谐之律**。
@@ -81,6 +79,5 @@ description: >
 最终，系统思维邀请我们完成一次身份的转变：**从疲于奔命的“问题解决者”或被动承受的“宇宙尘埃”，转变为主动的、充满觉知的“系统艺术家”与“个人宇宙的园丁”。**
 
 在这个宇宙中，愿你以健康为土，以涵养为光，让志业如生命之树，自然生长，枝繁叶茂。
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

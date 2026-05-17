@@ -10,8 +10,6 @@ description: >
   世间谤我、欺我、辱我者，何其多也。寒山所问的，原不是“如何报复”，却是“如何处治”——这话里便藏了斯多葛派的机锋。
 ---
 
-
-
 寒山问拾得时，大约是在唐时的破庙前，或是荒山的雾里。这种问法，本就像雅典街头披着破袍的爱比克泰德，拄着拐杖对围拢来的青年说：“你所能控制的，只有你的意念。”
 
 世间谤我、欺我、辱我者，何其多也。寒山所问的，原不是“如何报复”，却是“如何处治”——这话里便藏了斯多葛派的机锋。爱比克泰德早说过：“伤害人的并非事件本身，而是人对事件的判断。”那些谤、欺、辱、笑，本如门外风雨，你若不开门，风雨只在门外喧嚷。拾得答的“忍他、让他、由他”，不是缩颈挨打的怯懦，恰是分明了“何者属我，何者不属我”的边界。
@@ -36,6 +34,5 @@ description: >
 
 二〇二六年元月十一日
 （仿鲁迅笔意）
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

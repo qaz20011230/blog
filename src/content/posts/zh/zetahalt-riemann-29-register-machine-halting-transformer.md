@@ -6,10 +6,9 @@ tags: ["黎曼猜想", "数学", "数论"]
 description: "把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。"
 ---
 
-
 ## 1. 引言：为什么我们需要一个新的视角
 
-黎曼猜想（Riemann Hypothesis, RH）自1859年诞生以来，一直是数学中最富魅力的难题之一。它与素数分布有着深刻的联系，并且蕴含了大量数论中看似不相关的结论。一个多世纪以来，数学家们从解析、代数、几何、谱理论等多个方向逼近它，取得了诸如临界线上无穷多零点（Hardy, 1914）、正比例零点（Selberg, 1942）、零点密度估计（Guth–Maynard, 2024）等辉煌成就。然而，我们离最终的证明仍然遥远。
+黎曼猜想（Riemann Hypothesis, RH）自 1859 年诞生以来，一直是数学中最富魅力的难题之一。它与素数分布有着深刻的联系，并且蕴含了大量数论中看似不相关的结论。一个多世纪以来，数学家们从解析、代数、几何、谱理论等多个方向逼近它，取得了诸如临界线上无穷多零点（Hardy, 1914）、正比例零点（Selberg, 1942）、零点密度估计（Guth–Maynard, 2024）等辉煌成就。然而，我们离最终的证明仍然遥远。
 
 在本文中，我想讨论一个不那么主流但在我看来极具启发性的研究方向：将黎曼猜想等价地转化为一个关于具体寄存器机（register machine）是否停机的问题，并以此为基础，构建一个数据驱动的、人机协作的实验平台。这个平台被称为 ZetaHalt，是 Phaenarete Project 的子项目。
 
@@ -88,10 +87,10 @@ $$
 
 ```python
 def log_sub_exp(log_a: float, log_b: float) -> float:
-    """return log(exp(log_a) - exp(log_b)) for a > b"""
-    if log_a <= log_b:
-        return float('-inf')
-    return log_a + math.log1p(-math.exp(log_b - log_a))
+ """return log(exp(log_a) - exp(log_b)) for a > b"""
+ if log_a <= log_b:
+ return float('-inf')
+ return log_a + math.log1p(-math.exp(log_b - log_a))
 ```
 
 我们将在下一阶段实现这个稳定版本，并生成大规模 Parquet 格式数据集，供机器学习使用。
@@ -103,7 +102,7 @@ def log_sub_exp(log_a: float, log_b: float) -> float:
 - 输入：过去 $L=20$ 步的状态特征向量，包括 `n, p, log_d, log_m, log_f0, log_f1, log_f3, log_q, log_r, b`。
 - 输出：下一步的 `log_r`（回归任务）以及 $r$ 的符号（二分类任务，即是否 >0）。
 
-我们选择因果 Transformer 作为模型架构（4层，4个注意力头，隐藏维度128），并联合优化 MSE 损失和交叉熵损失。
+我们选择因果 Transformer 作为模型架构（4 层，4 个注意力头，隐藏维度 128），并联合优化 MSE 损失和交叉熵损失。
 
 为什么用 Transformer？因为状态变量之间存在长距离依赖：例如素数计数 $p$ 的变化会影响后续所有 $r$ 的计算。自注意力机制能够捕捉这种跨步长的关系。
 

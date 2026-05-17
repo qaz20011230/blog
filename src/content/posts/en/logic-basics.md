@@ -9,8 +9,6 @@ description: >
   An introduction to formal logic: propositions, syllogisms, and the fundamental tools of rational thought.
 ---
 
-
-
 # What is Logic?
 
 Logic is the study of correct reasoning. It allows us to distinguish good arguments from bad ones.
@@ -26,6 +24,5 @@ Logic is the study of correct reasoning. It allows us to distinguish good argume
 ## Why learn logic?
 
 In a world full of noise, logic helps us think clearly and make better decisions.
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

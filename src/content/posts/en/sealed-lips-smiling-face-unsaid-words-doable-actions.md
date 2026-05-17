@@ -10,8 +10,6 @@ description: >
   识别“不能说的话”，不是为了对抗，而是为了导航：勘定边界、铺设通路；以理想与原则立稳内核，以手段与硬功夫换取行动自由；守口如瓶是管理信息流动，笑脸相迎是边界清晰后的余裕。
 ---
 
-
-
 ## 一、保罗·格雷厄姆的沉默课
 
 保罗·格雷厄姆在《黑客与画家》中有一篇文章，题为《不能说的话》。他提出了一个令人不安的问题：每个时代都有一些"不能说的话"——不是因为它们是假的，而是因为说出来会让你付出代价。他建议的应对方式，不是勇敢地说出来，而是先学会识别它们，然后在心里保留这些想法，对外保持沉默。
@@ -163,6 +161,5 @@ description: >
 边界是路肩，不是围墙。沉默是保险箱，不是坟墓。微笑是余裕，不是伪装。
 
 循此逻辑，方能在任何环境中，守住自己，又不失去世界。
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

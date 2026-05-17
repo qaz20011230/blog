@@ -10,8 +10,6 @@ description: >
   A virtue-based ethical framework for philosophical practice grounded in Wang Yangming’s liangzhi, engaging MacIntyre and the situationist challenge, and introducing Virtue Resilience.
 ---
 
-
-
 **良之**
 
 Institut de Pratiques Philosophiques, France
@@ -549,6 +547,5 @@ Zisi (子思). (1970). *Zhongyong* 中庸 [Doctrine of the Mean]. In J. Legge (T
 ---
 
 Acknowledgments: I am grateful to the members of the Institut de Pratiques Philosophiques and the APPA community for ongoing dialogue that has shaped this work. I also wish to thank Zhang Lizeng of Shandong Normal University and Ding Xiaojun of Xi'an Jiaotong University for their valuable philosophical conversations, and Qi Wen for her generous assistance with language matters. Earlier versions of the framework's core ideas were discussed in informal seminars; the errors that remain are entirely my own.
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

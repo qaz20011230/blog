@@ -10,8 +10,6 @@ description: >
   从社会交换理论视角拆解人际吸引的底层逻辑：临近性、相似性与互惠性如何塑造我们的情感选择。
 ---
 
-
-
 在大学的食堂里，你可能无数次与某个陌生面孔擦肩而过，直到有一天你们选修了同一门课，坐在相邻的位置。几次课间闲聊后，你惊讶地发现你们都痴迷同一支独立乐队，都认为某部晦涩的电影结局堪称神来之笔。渐渐地，你开始期待每周的这节课，甚至注意到对方今天换了一副好看的眼镜。
 
 这看似是缘分的偶然，实则是一场精密计算的“吸引力经济学”在悄然运作——它遵循的不是浪漫的玄学，而是基于奖赏交换的理性逻辑。
@@ -47,6 +45,5 @@ description: >
 这套系统看似现实，却揭示了关系中最深刻的浪漫：**真正的吸引力，并非寻找一个完美无缺的人，而是与一个能和你持续进行高质量“奖赏交换”的伙伴，共同构建一个彼此增值的共生系统。**
 
 理解这套逻辑，我们便从被动的“感觉”俘虏，成长为主动的关系架构师，能在理性的地基上，建造出更稳固、更丰盈的情感大厦。
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

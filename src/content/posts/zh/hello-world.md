@@ -8,7 +8,6 @@ description: >-
   philosophy, psychology, and more.
 ---
 
-
 # Welcome to Liang World
 
 This is the first post on my new blog. Here I plan to share my thoughts on various topics that interest me.

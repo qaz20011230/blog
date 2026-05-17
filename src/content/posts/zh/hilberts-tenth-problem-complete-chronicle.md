@@ -6,7 +6,6 @@ tags: ["Hilbert", "数学", "不可判定性"]
 description: "A Complete Chronicle, Modern Proofs, and the Open Frontier: From the Entscheidungsproblem to the Undecidability of All Finitely Generated Rings."
 ---
 
-
 ### Contents
 
 **Preface**
@@ -18,57 +17,57 @@ description: "A Complete Chronicle, Modern Proofs, and the Open Frontier: From t
 3. The Davis Normal Form
 4. The Davis–Putnam–Robinson Hypothesis and Exponential Growth
 5. Matiyasevich and the Fibonacci Numbers
-   5.1. The Pell Equation and Sequence Growth
-   5.2. The Divisibility Lemma and Diophantine Coding
+ 5.1. The Pell Equation and Sequence Growth
+ 5.2. The Divisibility Lemma and Diophantine Coding
 6. The MRDP Theorem: Statement and Immediate Consequences
-   6.1. The Universal Diophantine Equation
-   6.2. Undecidability of the Halting Problem and H10
+ 6.1. The Universal Diophantine Equation
+ 6.2. Undecidability of the Halting Problem and H10
 
 **Part II: The Geometry of Undecidability**
 
 7. The Search for the Existential Universe
 8. Defining Integers in Rational Fields: Julia Robinson's Legacy
 9. Pell Equations in Number Fields and Rings of Integers
-   9.1. Denef's Work and Norm Equations
-   9.2. The Gap: Subrings of ℚ and the Finite Generation Barrier
+ 9.1. Denef's Work and Norm Equations
+ 9.2. The Gap: Subrings of ℚ and the Finite Generation Barrier
 10. Elliptic Curves as the New Workhorse
-    10.1. Rank and the Mordell–Weil Group
-    10.2. The Bumpy Road to Definability
+ 10.1. Rank and the Mordell–Weil Group
+ 10.2. The Bumpy Road to Definability
 
 **Part III: The Koymans–Pagano Revolution (2025–2026)**
 
 11. The Problem of Finitely Generated Rings
-    11.1. Why ℤ is Different from ℤ[x]
-    11.2. The Obstruction: The Unit Group and Rank Constraints
+ 11.1. Why ℤ is Different from ℤ[x]
+ 11.2. The Obstruction: The Unit Group and Rank Constraints
 12. The Alpoge–Bhargava–Ho–Shnidman Preprint
 13. **Koymans–Pagano (2026): The Definitive Proof**
-    13.1. The Construction of the Family $E_{m,n}$
-    13.2. Descent and the Selmer Rank Formula
-    13.3. **The Green–Tao Sieve over Number Fields (Kai's Extension)**
-    13.4. Forcing Rank Exactly One via Parity
-    13.5. Diophantine Definition of ℤ in $R$
+ 13.1. The Construction of the Family $E_{m,n}$
+ 13.2. Descent and the Selmer Rank Formula
+ 13.3. **The Green–Tao Sieve over Number Fields (Kai's Extension)**
+ 13.4. Forcing Rank Exactly One via Parity
+ 13.5. Diophantine Definition of ℤ in $R$
 14. Consolidation: The Final Theorem for All Infinite Finitely Generated Rings
 
 **Part IV: The Last Frontier — The Rational Numbers ℚ**
 
 15. Why ℚ Remains Unyielding
-    15.1. First-Order Definability vs. Existential Definability
-    15.2. Koenigsmann's Universal Quantifier
+ 15.1. First-Order Definability vs. Existential Definability
+ 15.2. Koenigsmann's Universal Quantifier
 16. Conditional Undecidability: The Birch–Swinnerton-Dyer Conjecture
 17. Elliptic Curves and Prime Rationals: A Dead End?
 18. Three Attack Strategies for the Next Decade
-    18.1. Existential Definition via Rank 1 Curves
-    18.2. Turing Equivalence of H10(ℚ) and H10(ℤ)
-    18.3. Model Theory and Higher-Dimensional Varieties
+ 18.1. Existential Definition via Rank 1 Curves
+ 18.2. Turing Equivalence of H10(ℚ) and H10(ℤ)
+ 18.3. Model Theory and Higher-Dimensional Varieties
 
 **Part V: Spreading the Disease: Undecidability in Analysis and Dynamics**
 
 19. From Integers to Sine Waves
-    19.1. Reduction 1: $\sin(\pi x) = 0$ and Diophantine Equations
-    19.2. Reduction 2: Convergence of Improper Integrals
+ 19.1. Reduction 1: $\sin(\pi x) = 0$ and Diophantine Equations
+ 19.2. Reduction 2: Convergence of Improper Integrals
 20. Differential Equations and Chaos
-    20.1. Ordinary Differential Equations (Power Series Solutions)
-    20.2. Partial Differential Equations
+ 20.1. Ordinary Differential Equations (Power Series Solutions)
+ 20.2. Partial Differential Equations
 
 **Part VI: The State of the Art Across Domains**
 

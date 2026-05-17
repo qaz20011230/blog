@@ -10,9 +10,7 @@ description: >
   从模糊的愿望到可视化的项目。本文介绍一种极简却强大的自我管理方法——“立项建档”，通过将个人目标转化为专业的项目档案，实现沉浸式聚焦与系统化成长。
 ---
 
-
-
-你是否感觉想学的东西太多，信息散落各处，无从下手？是否常常定下目标却无法坚持，因为过程模糊、反馈遥远？
+你是否感觉想学的东西太多，信息散落各处，无从下手？是否常常定下目标却无法坚持，因为过程模糊、反馈遥远?
 
 今天，介绍一个极简却强大的方法——**“立项与建档”**。它能将任何抽象目标，转化为你书房里一个具体、可见、可推进的“项目”，像专业团队一样管理系统地完成挑战。
 
@@ -75,6 +73,5 @@ description: >
 
 ---
 **行动起来**：今天，就为你正在盘旋在脑海中的那个目标，举行一个简单的“立项仪式”。这面墙或这个文件夹，将成为你征服它的第一座堡垒。
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

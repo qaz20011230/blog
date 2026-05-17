@@ -10,8 +10,6 @@ description: >
   A Complete Chronicle, Modern Proofs, and the Open Frontier: From the Entscheidungsproblem to the Undecidability of All Finitely Generated Rings.
 ---
 
-
-
 ### Contents
 
 **Preface**
@@ -489,6 +487,5 @@ This survey was made possible by the collective efforts of the mathematical comm
 ---
 
 *二〇二六年三月良之写于羊城云汐谷*
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

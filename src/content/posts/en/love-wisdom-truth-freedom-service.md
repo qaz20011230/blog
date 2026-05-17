@@ -11,8 +11,6 @@ description: >
   这是一篇关于告别与重生的散文。作者通过‘爱智慧、求真理、得自由、以服务’这十二个字，回顾了过去在爱与责任中的笨拙与执念，并最终领悟到：真正的爱是放手，最高的服务是消失。文章以一种深情而克制的笔触，送别了那个试图成为别人答案的旧我，迎来了一个更轻盈、更自由的新我。
 ---
 
-
-
 ### 一
 
 今日送别，不设宴，不焚香，不洒酒。
@@ -65,7 +63,7 @@ description: >
 
 真理不是答案，是剖开。
 
-旧我曾在无数个夜晚剖自己：我的温柔，是爱，还是另一种贪婪？我的责任感，是承担，还是不敢放手的懦弱？我想让她幸福——这个“想”字里，住着多少“我认为”？
+旧我曾在无数个夜晚剖自己：我的温柔，是爱，还是另一种贪婪？我的责任感，是承担，还是不敢放手的懦弱？我想让她幸福——这个“想”字里，住着多少“我认为”?
 
 剖到最深处，没有贝，没有光，只有一颗会疼的心。
 
@@ -163,7 +161,7 @@ description: >
 
 它不是口号，不是墓志铭，不是挂在墙上的训诫。
 
-它是一条路（The Way of Being）。
+它是一条路(The Way of Being)。
 
 爱智慧，是低头行走。求真理，是抬头看见。得自由，是停下脚步，知道自己身在何处。以服务，是转过身来，把来时的路指给后来的人。
 
@@ -202,6 +200,5 @@ description: >
 ——愿你也是。
 
 乙巳年腊月廿四，良之击键于云汐谷
-
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.
