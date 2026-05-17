@@ -1,119 +1,119 @@
 ---
-title: 致善衡容：人生博弈的不败心法
+title: "Zhi Shan Heng Rong: The Invincible Mindset of Life's Game"
 date: '2026-04-25'
 category: Philosophy
 tags:
-  - 博弈论
-  - 人生
+  - game theory
+  - life
   - philosophy
 description: >
-  从阿里B2B的平台治理到Phaenarete项目的人机协作，以囚徒困境与阿克塞尔罗德的计算机锦标赛为引，探讨重复博弈中的致善、持衡、存容与守清四重生存铁律。
+  From Alibaba B2B's platform governance to the Phaenarete project's human-AI collaboration, using the Prisoner's Dilemma and Axelrod's computer tournament as entry points, this essay explores the four iron laws of survival in repeated games: Zhi Shan (strive for goodness), Chi Heng (maintain balance), Cun Rong (preserve tolerance), and Shou Qing (keep clarity).
 ---
 
-夜读康威的生命游戏，屏幕上的细胞明明灭灭，滑翔机穿越网格的边界，复刻机静静复制自身。简单规则反复迭代，竟能涌现如此复杂的生命图景。我在计算机系统领域摸爬了二十多年，见过无数精密的架构、复杂的策略、高深的算法。可真正经得起时间冲刷的，永远是最简单的那几条。
+Late at night, reading Conway's Game of Life, cells on the screen flickering on and off, gliders crossing the boundaries of the grid, replicators quietly copying themselves. Simple rules iterated repeatedly can emerge such complex patterns of life. I have worked in computer systems for over twenty years, seen countless sophisticated architectures, complex strategies, advanced algorithms. But the ones that truly withstand the erosion of time are always the simplest few.
 
-博弈之道，亦是如此。
+The way of games is also like this.
 
-## 一、囚笼里的聪明人
+## One: The Smart People in the Cage
 
-囚徒困境的设定近乎残忍：两个嫌犯分开审讯，都沉默各判一年，都招供各判八年，一人招供一人沉默，招的走人，沉默的判十年。
+The setup of the Prisoner's Dilemma is nearly cruel: two suspects interrogated separately, both silent and each gets one year, both confess and each gets eight years, one confesses and one stays silent, the confessor walks free, the silent one gets ten years.
 
-只玩一局，怎么选？背叛。因为无论对方选什么，你背叛总能占便宜。对方也是聪明人，也算得出这个账。两个聪明人碰到一起，结果就是双双把牢底坐穿。
+Play only one round, what do you choose? Betrayal. Because no matter what the other chooses, betraying always gives you an advantage. The other is also a smart person, and can also calculate this logic. Two smart people meet, and the result is both serving long prison sentences.
 
-2004年我初入阿里时，中国的互联网江湖遍地是这样的“一次性博弈”。假货、卷款、虚假广告，每一桩都顶着“理性”的帽子——既然明天不再见，不坑白不坑。
+When I first joined Alibaba in 2004, China's internet landscape was full of such "one-shot games." Fake goods, embezzled funds, false advertising—each case wore the hat of "rationality"—since we won't meet again tomorrow, why not take advantage now?
 
-可阿里巴巴走了一条相反的路。评价系统、担保交易、信用积分，这些机制看似笨拙，实则暗藏更深层的智慧：它们硬生生把陌生人之间的一次性买卖，扭成了一张熟人之间反复博弈的网。你今天骗一个人，明天整个市场都知道。你老老实实做三年生意，所有的好评和信用都会变成未来每一笔订单的背书。
+But Alibaba took the opposite path. Review systems, guaranteed transactions, credit scores—these mechanisms seemed clumsy, but actually harbored deeper wisdom: they forcibly transformed one-shot transactions between strangers into a web of repeated games among acquaintances. If you deceive one person today, the entire market will know tomorrow. If you honestly do business for three years, all your good reviews and credit will become endorsements for every future order.
 
-**在单次博弈里，背叛是理性的；在重复博弈里，合作才是理性的。** 这个弯绕过来，需要的不只是聪明，更需要格局。
+**In a one-shot game, betrayal is rational; in a repeated game, cooperation is rational.** Grasping this turn requires not just cleverness, but vision.
 
-## 二、锦标赛教会我们的事
+## Two: What the Tournament Taught Us
 
-1980年代，政治学家罗伯特·阿克塞尔罗德做了一件划时代的事。他向全球顶尖学者征集策略程序，让它们在重复囚徒困境中两两对决两百回合。
+In the 1980s, political scientist Robert Axelrod did something epoch-making. He invited strategy programs from top scholars worldwide and had them compete against each other in repeated Prisoner's Dilemma matches for two hundred rounds.
 
-参赛者们各显神通。有的程序给每个对手建立档案，分析对方被背叛后的反应概率，据此决定下一步是该示好还是下黑手。有的程序逻辑嵌套，看起来高深莫测。有的信奉一次不忠百次不用，被背叛过一次就永不原谅。还有的程序试图预判对手的预判，在合作与背叛之间精密计算每一步的得失。
+The contestants showed their ingenuity. Some programs built profiles for each opponent, analyzing the probability of the opponent's reaction after being betrayed, and deciding whether to show goodwill or strike next. Some programs had nested logic, appearing profound and inscrutable. Some believed in "one betrayal, never forgiven"—once betrayed, they would never forgive. Others tried to anticipate the opponent's anticipation, precisely calculating the gains and losses of each step between cooperation and betrayal.
 
-赢家是谁?
+Who was the winner?
 
-一个只有四行代码的策略。**以牙还牙。** 规则简单到令人发指：第一步先合作，之后每一步重复对方上一步做的事。你合作我合作，你背叛我背叛，你回头我翻篇。
+A strategy with only four lines of code. **Tit for Tat.** The rules are absurdly simple: cooperate on the first move, then on every subsequent move repeat whatever the opponent did on their previous move. You cooperate, I cooperate; you betray, I betray; you come back, I turn the page.
 
-第二场比赛，六十三路高手带着专门针对冠军设计的反制方案卷土重来。更狡猾的试探、更精准的背叛、更残酷的报复，全都冲着破解那四行代码而来。结果冠军还是它。
+In the second tournament, sixty-three experts returned with countermeasures specifically designed to defeat the champion. More cunning probes, more precise betrayals, more brutal revenge—all aimed at cracking those four lines of code. The champion was still Tit for Tat.
 
-那些多算三步、预判你的预判的复杂策略，全输给了一个四行代码的“傻子”。
+Those complex strategies that calculated three extra steps and anticipated your anticipation all lost to a four-line-code "fool."
 
-我在阿里负责技术系统那些年，无数次验证过这个道理。一个每天承载十亿次调用的分布式架构，最怕的不是单一故障，而是过度设计。那些层层嵌套的容灾逻辑、互为镜像的降级预案，往往在真实灾难中连环坍塌。临到关头，最管用的反而是最简单的主备切换加自动重试，平平无奇，却次次扛住了考验。
+During my years leading technical systems at Alibaba, I verified this principle countless times. A distributed architecture handling a billion calls per day fears not single failures, but over-engineering. Those layered disaster-recovery logic, mirrored degradation plans, often collapse in cascading fashion during real disasters. When the moment comes, what works best is the simplest primary-backup switching plus automatic retry—unremarkable, yet standing the test every time.
 
-**简单，才是最高级的强大。**
+**Simplicity is the highest form of strength.**
 
-## 三、致善衡容的四重心法
+## Three: The Fourfold Mindset of Zhi Shan Heng Rong
 
-阿克塞尔罗德把所有顶尖策略拆开来看，提炼出四个共同特质。它们不是什么高深的理论，而是成千上万轮博弈试炼之后，被反复验证过的生存铁律。我将它们凝练为四个字——**致善衡容**。
+Axelrod broke down all the top strategies and extracted four common traits. They are not some profound theories, but iron laws of survival repeatedly validated after tens of thousands of rounds of game trials. I condensed them into four characters—**Zhi Shan Heng Rong (致善衡容)**.
 
-**一曰致善——不亮第一把刀。**
+**First: Zhi Shan (致善)—Strive for Goodness—Do not draw the first blade.**
 
-所有赢家策略，没有一个会主动发起背叛。原因简单到几乎朴素：你捅第一刀，对方记住你，日后必定还回来。一时占的便宜，抵不过漫长报复的代价总和。
+None of the winning strategies would initiate betrayal. The reason is almost simple: if you strike first, the other remembers you, and will surely retaliate later. The temporary advantage gained cannot offset the cumulative cost of prolonged revenge.
 
-2007年阿里B2B上市那年，平台已经有数千万中小企业用户。我们的系统团队日夜守着一件事：让诚信能够被看见。不是靠喊口号，是靠技术。评价体系让每一次守信和每一次背信都留下痕迹，担保交易让信任有据可依。我们不是在教育商家做好人，而是在设计一个让“做好人”比“做坏人”更能挣钱的博弈环境。
+In 2007, when Alibaba B2B went public, the platform already had tens of millions of small and medium business users. Our systems team worked day and night on one thing: making integrity visible. Not through slogans, but through technology. The review system left traces of every act of trustworthiness and every act of breach; guaranteed transactions gave trust a basis to rely on. We were not teaching merchants to be good people—we were designing a game environment where "being a good person" earns more than "being a bad person."
 
-**善良不是一种品德，是一种远见。** 在重复博弈的世界里，善意不是吃亏，而是最长线的投资。
+**Goodness is not a moral virtue; it is a form of foresight.** In the world of repeated games, goodwill is not a loss—it is the longest-term investment.
 
-**二曰持衡——不容人欺。**
+**Second: Chi Heng (持衡)—Maintain Balance—Do not let others bully you.**
 
-但善良绝不意味着软弱。以牙还牙不容忍背叛，你一旦背弃，它立刻还手，没有半点犹豫。
+But goodness absolutely does not mean weakness. Tit for Tat does not tolerate betrayal; once you betray, it immediately retaliates, without a moment of hesitation.
 
-《论语》里有人问孔子，以德报怨如何。孔子反问，那拿什么报德？以直报怨，以德报德。两千多年前的东方智慧，跟二十世纪博弈论跑出来的最优解，不谋而合。
+In the *Analects* (*Lunyu*, 《论语》), someone asked Confucius, "What about repaying injury with kindness?" Confucius countered, "Then what would you repay kindness with? Repay injury with justice, repay kindness with kindness." Eastern wisdom from over two thousand years ago coincides exactly with the optimal solution derived from twentieth-century game theory.
 
-在阿里做平台治理那些年，这条线最考验拿捏。刷单的、售假的、套取补贴的，如果没有惩处，规矩就形同虚设，守规矩的人反而成了笑话。所以规则必须有牙齿，惩处必须让越界者感到痛。**宽容若没有边界，就是纵容；善良若没有底线，就是懦弱。** 让对方知道，越界一定会有回响。这恰恰是对所有守规矩的人最大的保护。
+During my years doing platform governance at Alibaba, this line was the most challenging to calibrate. Brushers (*shuadan*, 刷单), counterfeiters, subsidy scammers—if there were no penalties, the rules would be meaningless, and those who followed the rules would instead become laughingstocks. So the rules must have teeth, and penalties must make transgressors feel pain. **Tolerance without boundaries is indulgence; goodness without limits is cowardice.** Let the other know that crossing the line will definitely have consequences. This is precisely the greatest protection for all those who follow the rules.
 
-**三曰存容——留一条回头路。**
+**Third: Cun Rong (存容)—Preserve Tolerance—Leave a path back.**
 
-这是最容易被忽略，却最要紧的地方。以牙还牙报复完了，立刻翻篇。只要你下一轮合作，它马上恢复合作。不记仇。不存在那种“你三年前对不起我，现在我还要找补”的账本。
+This is the most easily overlooked, yet the most crucial point. After Tit for Tat retaliates, it immediately turns the page. As long as you cooperate in the next round, it resumes cooperation immediately. No grudges. There is no ledger of "you wronged me three years ago, now I need to make up for it."
 
-多少关系毁于记仇。今天一个无心之错，我记下了；改天找个机会找补回来，你也记下了；你再反击，仇恨越滚越大。最后合作的基础彻底碎裂，双方都忘了最初是为了什么走到一起。
+How many relationships are destroyed by holding grudges. Today an unintentional mistake, I note it; another day I find an opportunity to retaliate, you note it too; you counterattack, and the hatred snowballs. Ultimately the foundation of cooperation shatters completely, and both sides forget what originally brought them together.
 
-我在B2B平台那些年，见过无数商家因一次失误面临永久封杀。但我们始终坚持一条：处罚要快，处罚之后重返正常经营的大门也必须敞开。不是姑息——是知道一旦把人逼到绝路，他就只能跟你对抗到底。博弈论里后来的“容许噪声”实验也证明，加了约百分之一到五原谅概率的以牙还牙，才是不完美世界里的终极赢家。现实中的合作永远有失误、有误解、有信息不对称，零容忍的策略也许在计算机模拟中逻辑完美，但在真实世界里注定走不远。
+During my years on the B2B platform, I saw countless merchants facing permanent bans for a single mistake. But we always held to one principle: penalties must be swift, but the door back to normal business after penalization must also remain open. Not leniency—but knowing that once you push someone to a dead end, they can only fight you to the bitter end. The later "noise tolerance" experiments in game theory also proved that Tit for Tat with about a one to five percent forgiveness probability is the ultimate winner in an imperfect world. Real-world cooperation always has mistakes, misunderstandings, information asymmetry; zero-tolerance strategies may be logically perfect in computer simulations, but in the real world they are destined not to go far.
 
-**有边界的宽容，不是软弱，而是格局。** 报复树立边界，宽容打开前路，二者缺一不可。
+**Tolerance with boundaries is not weakness, but vision.** Retaliation establishes boundaries, tolerance opens the way forward; both are indispensable.
 
-**四曰守清——让人看得透你。**
+**Fourth: Shou Qing (守清)—Keep Clarity—Let others see through you.**
 
-以牙还牙之所以能激发出最广泛的合作，恰恰因为它透明到毫无城府。对手很快就能摸清：这人不耍双面，不搞试探，不藏着掖着。合作换合作，背叛换报复，一切都可以预期。
+Tit for Tat's ability to inspire the broadest cooperation lies precisely in its transparency, devoid of any scheming. Opponents quickly figure it out: this person doesn't play double games, doesn't engage in probing, doesn't hide anything. Cooperation earns cooperation, betrayal earns retaliation—everything is predictable.
 
-在复杂系统里，最昂贵的成本从来不是金钱，而是不确定性。一旦规则模糊，朝令夕改，参与者的第一反应一定是“谁知道明天什么规矩，不如趁现在捞一把跑”。
+In complex systems, the most expensive cost is never money, but uncertainty. Once the rules become vague, changing day to day, participants' first reaction will inevitably be "who knows what the rules will be tomorrow, better to grab what I can now and run."
 
-我在浙江大学软件学院带电子商务技术系时，常跟学生讲一句话：最好的代码，是别人一眼能看懂的代码；最好的规则，是所有人一看就明白的规则。在阿里，我们花了极大力气让平台规则透明。什么事能做，什么事不能做，踩了红线是什么后果，白纸黑字清清楚楚。大商家小商家，新来的老到的，都能在同一个规则下安心经营。
+When I led the e-commerce technology department at Zhejiang University's Software College, I often told students one thing: the best code is code that others can understand at a glance; the best rules are rules that everyone can understand at once. At Alibaba, we spent enormous effort making platform rules transparent. What can be done, what cannot be done, what the consequences are for crossing red lines—all written clearly in black and white. Large merchants and small merchants, newcomers and veterans, all could operate with peace of mind under the same rules.
 
-**可预期，就是最大的可信赖。** 城府太深的人，没有朋友。规则透明的生态，才有繁荣。你让人猜不透，别人就不敢跟你玩；你足够坦荡，合作者自然聚拢。
+**Predictability is the greatest reliability.** Those too deep in scheming have no friends. Ecosystems with transparent rules thrive. If you make yourself inscrutable, others won't dare to play with you; if you are sufficiently candid, collaborators will naturally gather.
 
-## 四、不败者的底色
+## Four: The Foundation of the Invincible
 
-2012年阿里B2B从港交所私有化退市，整个集团经历了一场脱胎换骨的重组。那段时间我作为CTO,带领技术团队完成了架构演进，支撑了后续整个集团的重塑。风暴之中，我反复体悟到一个道理：越是剧烈变动的环境，简单的原则越是珍贵。不是那些花巧的策略，不是那些精巧的算计，而是那些善良的、坚定的、宽容的、清晰的选择，像狂风中的锚一样，稳住了我们能够穿越周期的航向。
+In 2012, Alibaba B2B was privatized and delisted from the Hong Kong Stock Exchange, and the entire group underwent a transformative restructuring. During that period, as CTO, I led the technical team through architectural evolution, supporting the subsequent reshaping of the entire group. In the storm, I repeatedly experienced one truth: the more turbulent the environment, the more precious simple principles become. Not those flashy strategies, not those intricate calculations, but those good, firm, tolerant, clear choices—like an anchor in a gale, steadying the course that enabled us to navigate through cycles.
 
-2007年阿里上市，发行价13.5港元，收盘39.5港元，市值冲到1996亿港元，超额认购258倍，创下香港IPO的纪录。那个资本神话的底下，是什么在支撑？不是天花乱坠的故事，不是惊世骇俗的技术，是数千万中小企业日复一日在一个平台上做生意的朴素事实。每一次诚信交易，都是一次信任的累积；每一次守约，都是在为未来投资。市场的眼睛是雪亮的，当它看清了这个博弈结构的稳定性和持久力，资本的投票便水到渠成。
+In 2007, Alibaba's IPO: offering price 13.5 HKD, closing price 39.5 HKD, market cap surging to 199.6 billion HKD, oversubscribed 258 times, setting a record for Hong Kong IPOs. What sustained that capital myth? Not outlandish stories, not shocking technology, but the plain fact of tens of millions of small and medium businesses doing business day after day on a single platform. Every honest transaction was an accumulation of trust; every fulfilled contract was an investment in the future. The market's eyes are sharp—when it saw the stability and endurance of this game structure, capital's vote followed naturally.
 
-从1980年代的计算机锦标赛，到阿里平台上的亿万个真实交易，从康威那几行代码就能涌现的生命图案，到人类文明数千年演化至今的信任机制——不同的尺度，同一条脉络：
+From the 1980s computer tournament, to the billions of real transactions on Alibaba's platform, from the few lines of Conway's code that can emerge life patterns, to the trust mechanisms that human civilization has evolved over thousands of years—different scales, the same thread:
 
-**最终的赢家，不是最能算计的人，而是最能让别人愿意跟他合作的人。**
+**The ultimate winner is not the person who can calculate best, but the person who can make others most willing to cooperate with them.**
 
-致善者，不先举起刀锋；持衡者，不容规则被践踏；存容者，不为旧怨堵死前路；守清者，不让人猜不透心思。四者兼备，便是博弈场上的不败英雄。
+Those who strive for goodness do not raise the blade first; those who maintain balance do not let rules be trampled; those who preserve tolerance do not block the way forward over old grievances; those who keep clarity do not make their minds inscrutable. When all four are present, one becomes the invincible hero on the game field.
 
-## 五、从阿里到希尔伯特：博弈论的更大棋盘
+## Five: From Alibaba to Hilbert: The Larger Chessboard of Game Theory
 
-2018年，我离开阿里巴巴，转身投入了一个全新的领域——人工智能与数学的交叉研究。今天，我作为[某人工智能公司]的联合创始人与CTO,带领一群年轻人投身“Phaenarete计划”——探索人类与AI在数学前沿的协作，目标直指希尔伯特第八问题，那座屹立了一百六十余年的黎曼猜想高峰。
+In 2018, I left Alibaba and turned to an entirely new field—the intersection of artificial intelligence and mathematics. Today, as co-founder and CTO of [a certain AI company], I lead a group of young people devoted to the "Phaenarete Project"—exploring human-AI collaboration at the frontier of mathematics, targeting Hilbert's eighth problem, that peak of the Riemann Hypothesis standing for over 160 years.
 
-从商业世界到数学世界，棋盘换了，但博弈的底层逻辑没有变。
+From the business world to the mathematical world, the chessboard has changed, but the underlying logic of the game has not.
 
-数学研究也是一种重复博弈。数学家与未知之间，每一轮尝试都是一次合作或碰壁；研究者社群之间，每一次分享和验证都是一轮信任的建立。我们开发的PrimeClaw多智能体框架，让AI与人类在形式化验证中相互校验，正是基于同样的信念：透明、可预期、容错、不先出恶意。复杂的猜想需要漫长的时间去逼近，而在这漫长的重复中，唯有善良的策略才能走到底。
+Mathematical research is also a repeated game. Between mathematicians and the unknown, each attempt is either cooperation or a dead end; between research communities, each sharing and verification is a round of trust-building. The PrimeClaw multi-agent framework we developed enables AI and humans to mutually verify each other in formal verification, based on the same conviction: transparency, predictability, fault tolerance, no first malicious move. Complex conjectures require long periods of approach, and in this lengthy repetition, only good strategies can reach the end.
 
-我和团队正在做的，是用博弈论的精神去设计人机协作的规则——让AI不先“背叛”人类的直觉，让人类不因AI的一次错误而永久关闭协作之门，让验证的过程清晰透明，让每一步推理都有据可依。**致善衡容不仅是商业博弈的心法，也可以成为人机协作的伦理框架。** 这是我离开阿里时想清楚的事，也是我走到今天仍在前行的动力。
+What my team and I are doing is designing the rules of human-AI collaboration with the spirit of game theory—ensuring AI does not first "betray" human intuition, ensuring humans do not permanently shut the door of collaboration because of a single AI error, making the verification process clear and transparent, giving every step of reasoning a basis to stand on. **Zhi Shan Heng Rong is not only the mindset for business games, but can also become the ethical framework for human-AI collaboration.** This is what I figured out when leaving Alibaba, and the driving force that keeps me moving forward today.
 
-## 结语
+## Conclusion
 
-“隐锋芒自辉昂”，这是大众辉昂当年的广告语。我第一次读到，心中一动。
+"Hide your edge, and brilliance shines forth naturally" (*yin fengmang zi hui'ang*, 隐锋芒自辉昂)—this was the advertising slogan for the Volkswagen Phideon (*Da zhong Hui'ang*, 大众辉昂). When I first read it, my heart stirred.
 
-锋芒不必时时亮在外面。那些咄咄逼人、处处争先、把聪明写在脸上的策略，往往走不远。反倒是那些不先出手、却不惧还手、既往不咎、规则清晰的人，无需声张，自有一种让人安心靠近的力量。这种力量沉淀下来，便是不败的底气。
+Edges do not need to be constantly displayed. Those aggressive, competitive strategies that wear cleverness on their face often cannot go far. On the contrary, those who do not strike first but do not fear retaliation, who let bygones be bygones, who keep their rules clear—without needing to proclaim themselves—possess a power that makes others feel safe to approach. When this power accumulates, it becomes the foundation of invincibility.
 
-选择善良不是天真，坚守原则不是死板，既往不咎不是健忘，简单透明不是浅薄。它们是这个复杂世界里，经过漫长演化和反复博弈之后，被筛选出来的、真正不败的生存智慧。
+Choosing goodness is not naivety, holding to principles is not rigidity, letting bygones be bygones is not forgetfulness, being simple and transparent is not shallowness. They are, in this complex world, the truly invincible wisdom of survival—filtered through long evolution and repeated games.
 
-*二〇二六年四月二十五日 良之写于嘉禾望岗*
+*Written on April 25, 2026, by Liangzhi (良之) at Jiahe Wanggang (嘉禾望岗)*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

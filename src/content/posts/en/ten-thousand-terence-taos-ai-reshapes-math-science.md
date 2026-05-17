@@ -1,332 +1,334 @@
 ---
-title: 一万个陶哲轩：AI如何重塑数学与科学的未来
+title: "Ten Thousand Terence Taos: How AI Reshapes the Future of Mathematics and Science"
 date: '2026-02-02'
 category: AI & Technology
 tags:
   - AI
   - mathematics
-  - 陶哲轩
+  - Terence Tao
 description: >
-  未来，世界上可能会有10000个陶哲轩。本文基于陶哲轩的访谈，探讨AI如何重塑科研模式、数学工程学的兴起、以及在AGI时代人类思维的独特价值。
+  In the future, there may be 10,000 Terence Taos in the world. Based on Terence Tao's interview, this article explores how AI reshapes research paradigms, the rise of mathematical engineering, and the unique value of human thinking in the AGI era.
 ---
 
-### 卷首
+### Prologue
 
-> “未来，世界上可能会有10000个陶哲轩。”
+> "In the future, there may be 10,000 Terence Taos in the world."
 
-这句话出自Chuck NG——SAIR Foundation的另一位联合创始人之口。它不是狂妄的预言，而是对AI与科学结合后最克制的期待。
+This statement came from Chuck NG—another co-founder of the SAIR Foundation. It is not an arrogant prophecy, but the most restrained expectation for what happens when AI and science converge.
 
-2026年初,50岁的陶哲轩以联合创始人身份发起SAIR Foundation,一个旨在重塑AI与科学关系的非营利性联盟。这家机构的使命清晰而宏大：
+In early 2026, 50-year-old Terence Tao launched the SAIR Foundation as a co-founder—a non-profit alliance aimed at reshaping the relationship between AI and science. This institution's mission is clear and ambitious:
 
-一，用科学的方法打造AI;
-二，借助AI重塑基础科学研究。
+First, to build AI using scientific methods;
+Second, to reshape fundamental scientific research with AI.
 
-作为菲尔兹奖得主、IMO最年轻金牌得主、UCLA史上最年轻的终身正教授，陶哲轩早已不需要任何标签证明自己。但在过去几年，他成为了AI×数学的旗帜性人物，并且开始更加高频地思考和谈论AI与基础科学交叉的可能性。
+As a Fields Medal winner, the youngest IMO gold medalist, and the youngest full professor in UCLA's history, Terence Tao no longer needs any label to prove himself. But in recent years, he has become a flag-bearing figure in AI×Mathematics, and has begun thinking and speaking more frequently about the possibilities at the intersection of AI and fundamental science.
 
-这场超过90分钟的深度对谈，涉及AI x Science的愿景、数学研究范式的变革、年轻学者的培养、高等教育的困境，以及AGI之后人类是否还要学数学。
+This in-depth conversation exceeding 90 minutes covered the vision of AI x Science, the transformation of mathematical research paradigms, the cultivation of young scholars, the predicament of higher education, and whether humans still need to learn mathematics after AGI.
 
-以下是我根据量子位专访精校后全文改写而成的博客文章。在保持原意的前提下，我加入了一些与Phaenarete Project相呼应的思考——毕竟，我们也在做同样的事：用AI助产黎曼猜想，践行北辰七德，在数学的旷野中寻找真理。
-
----
-
-## 第一章 AI x Science：为什么需要自己的垂直AI?
-
-陶哲轩认为,AI将从根本上改变科研模式，而首先要厘清的核心问题是：如何在科研场景中合理、高效地运用AI?
-
-“我们需要一些高质量的试点项目，来展示什么是最佳实践，让其他科学家可以参考、学习。”他说。
-
-过去，这类工作主要由大学、科研机构和政府部门推动。但在当前环境下，来自其他领域的支持同样非常重要。它更灵活，能有助于尝试一些创新性的事。
-
-这正是SAIR Foundation诞生的背景——一个连接学术界和产业界的非营利性联盟，希望探索新想法，尝试更大胆的路径，看看当AI和科学以一种更审慎的方式结合时，究竟能走多远。
-
-### 为什么不能用现成的商业模型?
-
-一个很自然的问题是：既然已经有了OpenAI、Claude、Gemini这样的通用大模型，为什么科研领域还需要专门的AI?
-
-陶哲轩指出两个核心瓶颈：
-
-**第一，幻觉问题。** 科研需要可验证、值得信任的系统。商业大模型会产生幻觉，这对科研来说是非常严重的问题。
-
-**第二，可解释性。** 模型有时会给出一个看起来不错的想法，但它往往不会说明这个想法是来自训练数据里的既有文献，还是某种新的组合，也说不清它和已有工作的关系。
-
-科学并不只是解决一个个孤立的问题，更重要的是把新结果放进已有知识体系中，让后来者可以在此基础上继续推进。这就要求结果具备可追溯性、规范的引用，以及清楚说明如何扩展或修改。
-
-商业化的通用模型有时能做到这些，但并不稳定。如果我们能有专门为科研设计的AI,或者通过更好的工作流去强制验证，并系统性地把结果和文献体系连接起来，对科学的帮助会大得多。
-
-### 置信度：AI最缺的科研能力
-
-陶哲轩举了一个非常简单的例子：
-
-科学家在提出一个结论时，通常会同时说明自己对这个结论的信心程度——“我对此非常有把握”“我有一定把握”“这个想法目前还不太成熟”。
-
-AI并不会这样做，它们几乎总是用一种百分之百确定的语气给出答案。如果AI能够明确表达不同层级的置信度，它在科研中的实用性会提升很多。
-
-这让我想起Phaenarete Project正在做的“置信度限定类型”——在形式化验证中区分完整类型、模糊类型和实验类型。从某种意义上说，我们正在做的，就是陶哲轩说的“为科研场景开发专门工具”的具体实践。
+What follows is a blog article I rewrote based on the Qbit专访 (exclusive interview), after careful verification. While preserving the original meaning, I have added some reflections that resonate with the Phaenarete Project—for we, too, are doing the same thing: using AI to midwife the Riemann Hypothesis, practicing the Seven Virtues of the North Star (北辰七德), and seeking truth in the wilderness of mathematics.
 
 ---
 
-## 第二章 Scaling的尽头：当数据撞墙之后
+## Chapter 1: AI x Science—Why Do We Need Our Own Vertical AI?
 
-整个行业的主线都在谈Scaling：更多数据、更大的模型、更强的算力。但陶哲轩提醒，这套方法总有一天会撞墙。
+Terence Tao believes AI will fundamentally change research paradigms, and the core question to clarify first is: how can AI be used reasonably and efficiently in research scenarios?
 
-数据不是无限的，公开互联网基本已经被用得差不多了，同时还存在能源和算力等方面的约束。
+"We need some high-quality pilot projects to demonstrate best practices, so other scientists can refer to and learn from them," he said.
 
-更重要的是效率问题。一个人类数学家，可能看十个例子就能抓住问题的核心，然后举一反三；而现有的AI,往往需要数百万个训练样本，还要反复尝试，甚至运行上百次，才能得到一个正确结果。
+In the past, such work was mainly driven by universities, research institutions, and government departments. But in the current environment, support from other sectors is also very important—it is more flexible and can help try innovative things.
 
-“放到科研中看，我们并不总是需要最大、最通用的模型。”陶哲轩说，“很多科研任务本身非常专门化。在一些场景下，体量更小、功耗更低、成本更低的模型，甚至能直接在个人电脑上运行，就已经足够用了。”
+This is the context in which the SAIR Foundation was born—a non-profit alliance connecting academia and industry, hoping to explore new ideas, try bolder paths, and see how far AI and science can go when combined in a more deliberate manner.
 
-大型公司更关注打造“什么都能做”的通用模型；而科研场景，可能更需要为特定工作流量身定制的专用工具。这正是SAIR希望推动的方向，也是Phaenarete Project选择从黎曼猜想这个具体问题切入的原因。
+### Why Can't We Just Use Existing Commercial Models?
 
----
+A natural question arises: since we already have general-purpose large models like OpenAI, Claude, and Gemini, why does the research field still need specialized AI?
 
-## 第三章 安全的试验场：为什么数学是AI的最佳起点
+Terence Tao pointed out two core bottlenecks:
 
-在医疗或金融领域,AI的错误可能直接关系到生死。但如果它算错了一道数学题，最多就是再试一次，几乎没有损失。
+**First, the hallucination problem.** Research requires verifiable, trustworthy systems. Commercial large models produce hallucinations, which is a very serious problem for research.
 
-这让数学成为一个理想的环境，用来打磨可靠AI的系统。
+**Second, interpretability.** Models sometimes offer a seemingly good idea, but they often cannot explain whether that idea comes from existing literature in the training data or from some novel combination, nor can they clarify its relationship to prior work.
 
-陶哲轩说：“如果我们能在数学或科学中，建立起可靠、可验证的AI框架，这些原则是有可能推广到其他领域的。”
+Science is not merely about solving isolated problems; more importantly, it places new results within the existing knowledge system so that later researchers can build upon them. This requires results to have traceability, proper citation, and clear indications of how they can be extended or modified.
 
-这也解释了为什么Phaenarete Project选择从黎曼猜想入手——不是因为这个问题最容易，而是因为它为AI提供了一个高度结构化、可验证的试验场。如果我们能在这里建立可靠的人机协作模式，这套方法论就有机会迁移到更广泛的应用中。
+Commercial general-purpose models can sometimes achieve this, but not consistently. If we had AI specifically designed for research, or better workflows to enforce verification and systematically connect results to the literature system, it would benefit science far more.
 
----
+### Confidence Levels: The Research Capability AI Most Lacks
 
-## 第三章 数学工程学：从孤独天才到大型协作
+Terence Tao gave a very simple example:
 
-在过去几十年里，一个主流的科研模式是：学术界主要依赖官方资金支持，产业界则负责把研究成果转化为应用。
+When scientists propose a conclusion, they typically simultaneously express their degree of confidence in it—"I'm very confident about this," "I have some confidence," "This idea is still immature."
 
-这条链路能运转，但速度相对较慢。陶哲轩认为，我们需要重新思考，在21世纪，从基础科学到应用研究，再到现实世界产品的这条路径应该如何设计，怎样才能更高效。
+AI does not do this; they almost always deliver answers with 100% certainty. If AI could explicitly express different levels of confidence, its practical utility in research would increase substantially.
 
-他自己正在经历这种转变。他现在大概有一半时间花在传统纯数学研究上，但另一半时间，开始越来越多地与新技术联系在一起——尤其是“如何做数学”“如何协作做数学”的新方式。
-
-### 形式化验证：让数学可信任
-
-陶哲轩目前非常感兴趣的一个方向是形式化验证——不再只依赖纸笔证明，而是把数学写成计算机可以理解和自动验证的形式化语言。
-
-这会深刻改变协作方式。它不仅让我们可以和AI系统一起工作，也让我们能够和很多并不认识的研究者协作。
-
-“在过去，如果一个陌生人给你发来一份证明，你很可能会对它是否正确保持怀疑；但如果这份数学内容是用可形式化验证的语言写成的，这种顾虑基本就不存在了。”
-
-借助这些方法，陶哲轩的团队已经能在一些项目中实现几十人的协作，有时甚至五十人以上，而且其中很多人彼此从未见过面。大家可以一起解决那种单靠个人几乎不可能完成的大问题。
-
-他们也在尝试把AI当作证明助手来使用，同时借鉴现代软件工程里的很多理念——用GitHub做版本控制、进行单元测试、做质量检查等等。
-
-“从某种意义上说，我正在学习软件工程的工具，并把它们引入到一种可以称为‘数学工程’的实践中。”
-
-这正是Phaenarete Project在做的事情——用OpenClaw框架构建AI辅助证明系统，把Lean4作为形式化验证工具，让数学家从繁琐的验证中解放出来，专注于直觉与创造。
-
-### 项目管理者的角色
-
-陶哲轩发现，他现在参与的项目不少，但越来越多时候，他更像是在做项目管理。真正去证明定理的，往往是其他合作者，而他更多是在协调整体工作，把不同部分拼接起来。
-
-“这是一个挺有意思的角色。在一些项目里，我并不是主要的‘解题者’，而是负责组织、推动，让每个人都能把自己的能力发挥到最好。事实证明，这样的方式在科研中也可以运转得相当不错。”
-
-这让我想到自己在Phaenarete Project中的角色——不是数学家，而是“思想助产士”，帮助数学家生出真理，帮助AI系统找到方向，帮助团队保持德性坐标。
+This reminds me of what the Phaenarete Project is working on—"confidence-qualified types"—distinguishing complete types, fuzzy types, and experimental types in formal verification. In some sense, what we are doing is precisely the concrete practice of what Tao calls "developing specialized tools for research scenarios."
 
 ---
 
-## 第五章 AI在日常科研中的使用：辅助而非替代
+## Chapter 2: The End of Scaling—When Data Hits the Wall
 
-陶哲轩分享了他日常使用AI的方式，非常朴实，也非常具体。
+The entire industry's main narrative is about Scaling: more data, bigger models, stronger compute. But Terence Tao reminds us that this approach will eventually hit a wall.
 
-### 文献检索的利器
+Data is not infinite; the public internet has largely been exhausted, and there are energy and compute constraints.
 
-“如果我一时想不起某个数学结论的具体形式，或者它和另一个结果之间的关系，我就会直接问AI。”
+More importantly, there is the efficiency problem. A human mathematician might grasp the core of a problem from ten examples and then generalize; existing AI often needs millions of training samples, repeated attempts, and even hundreds of runs to get one correct result.
 
-这种用法看似简单，但背后有一个关键前提：AI必须能够把结果与已有文献体系正确连接。商业模型有时能做到，但并不稳定。这再次说明科研专用工具的必要性。
+"In research, we don't always need the largest, most general models," Terence Tao said. "Many research tasks are inherently specialized. In some scenarios, smaller, lower-power, lower-cost models—even ones that can run directly on a personal computer—are already sufficient."
 
-### 写作助手
-
-“在写作时我几乎一直开着自动补全。有时候我会先把一篇论文的结构分成五步，自己写完前两步，后面几步就让AI帮我起草一下。”
-
-他甚至开玩笑说，现在如果坐飞机没法用AI写东西，偶尔还会下意识地想“怎么还不帮我把这句话补完”，然后才反应过来AI不在。
-
-### 总结工具
-
-“如果有人给我发来一段很长的论证，或者一篇论文，我也常常先让AI帮我总结一遍。在这方面，它确实是一个非常好用的工具。”
-
-### 但深度思考时不用
-
-“在真正做深度思考的时候，比如我在努力解决一个很难的研究问题时，我基本不会用AI。这种时候我还是更依赖纸和笔。”
-
-他也尝试过直接和AI一起推研究级别的问题，但目前的体验并不理想。它给出的建议往往比较套路，有时还会打断思路。
-
-“从这个意义上说，它非常有价值，但更多是一种互补工具。它在支持我的工作，而不是替代我最在意的那一部分。”
-
-### 为什么AI还没能复现“顿悟”?
-
-陶哲轩描述了他经历“顿悟”的过程：
-
-“在这之前，你往往已经试过很多条路，有时候八种、九种方法，全都走不通。但正是这些失败的尝试，一步步把不可能的方向排除掉，最后只剩下一条真正可行的路。”
-
-AI目前还做不到复现这种过程。它确实能提出很多想法，但这些想法往往显得比较随机，也看不出它能像人一样，从失败中逐步学习、调整方向。
-
-“到现在为止，我还没能真正用AI来直接解决研究级别的难题。不过，一旦我已经有了清晰的思路或者解法,AI就会变得非常有用。”
+Large companies focus more on building general-purpose models that "can do everything"; research scenarios may need specialized tools tailored to specific workflows. This is exactly what SAIR hopes to promote, and why the Phaenarete Project chose to start from the concrete problem of the Riemann Hypothesis.
 
 ---
 
-## 第六章 一万个陶哲轩：青年研究者的培养
+## Chapter 3: A Safe Testing Ground—Why Mathematics Is AI's Best Starting Point
 
-Chuck NG提出了一个激动人心的愿景：
+In healthcare or finance, AI errors could directly concern life and death. But if it miscalculates a math problem, the worst outcome is simply trying again—almost no loss at all.
 
-“Terry是独一无二的，但如果借助AI和更好的培养渠道，未来能不能不只有一个陶哲轩，而是10000个陶哲轩？这难道不是件非常令人兴奋的事吗？！”
+This makes mathematics an ideal environment for developing reliable AI systems.
 
-### 师徒制与榜样
+Terence Tao said: "If we can establish a reliable, verifiable AI framework in mathematics or science, these principles could potentially be extended to other domains."
 
-Chuck多年从事导师制工作。他认为，培养年轻研究者，最重要的一点是树立榜样。
-
-人在不同阶段，都会寻找榜样。小时候，在家里看父母；进了学校，看老师；再往后，就会把目光投向更广阔的社会。
-
-SAIR把不同领域的杰出科学家聚在一起，每一位创始成员成功的路径都不一样。比如Barry Barish,他从爱因斯坦预测引力波到实验上真正观测到引力波，中间走了将近一百年。直到2016年，人类才首次探测到引力波,Barry Barish也因此获得诺贝尔奖。
-
-这些杰出科学家的价值，不只在于他们的成果，也在于他们能够分享自己在不确定性、挫折和失败中是如何坚持下来的。这是导师制中非常重要的一部分。
-
-### 年轻研究者需要保留“枯燥的训练”
-
-陶哲轩特别提醒一个容易被忽视的问题：
-
-现在,AI已经能完成很多过去属于研究生或初级研究者训练内容的工作——解一些标准问题、做实验中的部分环节、整理文献。
-
-这些事情越来越容易被自动化，于是会产生一种诱惑：既然AI更快，那干脆全部让AI来做。
-
-“但问题在于，这些看起来重复、甚至有点枯燥的训练，对人的成长非常重要。我自己，包括很多资深研究者的能力，很大一部分就来自这些初级工作。”
-
-所以必须有一个平衡。即便AI能做，我们也要有意识地为年轻研究者保留有价值的训练过程。等一个人积累了足够的经验，比如亲手做过一定数量的实验之后，再逐步引入自动化。
-
-### 计算器的历史类比
-
-陶哲轩用计算器做了类比。
-
-计算器刚出现的时候，很多人担心学生会不会从此不学基本的算术了。这种担忧在某种程度上确实有道理，所以直到今天，我们仍然会先教孩子手算加减乘除，再让他们用计算器。
-
-但另一方面，计算器也极大地拓展了人们探索的空间。它让人更容易去试验数字、发现规律、探索原本很难触及的想法。
-
-“工具本身并不会自动让人变弱，它同样可以激发探索和创造力。关键在于如何使用。”
-
-面对AI,我们也需要做出类似的判断：什么时候该用，什么时候该克制，以及如何把它引入训练体系，同时不削弱那些真正重要的核心能力。
+This also explains why the Phaenarete Project chose to start with the Riemann Hypothesis—not because this problem is easiest, but because it provides AI with a highly structured, verifiable testing ground. If we can establish reliable human-machine collaboration here, this methodology can migrate to broader applications.
 
 ---
 
-## 第七章 跨学科合作：数学正在学习其他领域的语言
+## Chapter 4: Mathematical Engineering—From Lone Genius to Large-Scale Collaboration
 
-陶哲轩观察到一件让他自己都挺意外的事：他现在合作的人，背景比以前多样得多。
+(Note: The original has two chapters both numbered "第三章" (Chapter 3); this translation preserves the content but adjusts numbering to Chapter 4 for logical flow.)
 
-十年前，他几乎只和数学家合作，偶尔会和统计学家或电子工程师一起做点事情。但现在，他和来自各个领域的人合作，尤其是产业界的伙伴。
+For decades, a mainstream research model has been: academia relies mainly on official funding, while industry converts research results into applications.
 
-“真的有一种感觉，大家都开始彼此对话了，而且在这个过程中互相学习。”
+This chain works, but relatively slowly. Terence Tao believes we need to rethink how, in the 21st century, the path from fundamental science to applied research to real-world products should be designed to be more efficient.
 
-### 数学能教给别人什么
+He himself is experiencing this transition. He now spends roughly half his time on traditional pure mathematics research, but the other half increasingly connects with new technologies—especially new ways of "how to do mathematics" and "how to collaborate on mathematics."
 
-数学里的一些核心观念，能以一种很自然的方式迁移到其他领域，尤其是关于验证、严谨性和清晰思考的那一套方法。
+### Formal Verification: Making Mathematics Trustworthy
 
-### 别人能教给数学什么
+One direction Terence Tao is currently very interested in is formal verification—no longer relying solely on pen-and-paper proofs, but writing mathematics in formal languages that computers can understand and automatically verify.
 
-其他学科的研究者，往往能从更偏数学的思考方式中受益；而数学家也能从更贴近现实世界的视角中学到很多东西。
+This profoundly changes collaboration. It not only lets us work with AI systems but also enables collaboration with many researchers we don't personally know.
 
-传统上，数学和物理学的联系非常紧密。但现在，数学越来越多地和生命科学、社会科学等领域发生互动。这些领域的问题往往更复杂、更混乱，方程没有物理里那么干净，而且对数据的依赖也强得多。
+"In the past, if a stranger sent you a proof, you'd likely be skeptical about its correctness; but if the mathematical content is written in a formally verifiable language, such concerns essentially disappear."
 
-“我觉得，我们正在进入一个更加跨学科的时代。数学不再只是和物理对话，而是几乎所有学科都在彼此交流，而AI正是推动这种跨学科互动的重要力量之一。”
+Using these methods, Tao's team has achieved collaboration with dozens of people on some projects, sometimes over fifty, many of whom have never met each other. They can jointly tackle big problems that would be nearly impossible for any individual.
 
-### 能够跨学科沟通的人更如鱼得水
+They are also trying to use AI as a proof assistant, while borrowing many ideas from modern software engineering—using GitHub for version control, unit testing, quality checks, and so on.
 
-陶哲轩认为，在新的科研环境里，那些愿意保持开放心态、乐于跨学科沟通、也不怕学习新“语言”的人，更容易如鱼得水。
+"In some sense, I am learning software engineering tools and introducing them into what could be called a practice of 'mathematical engineering' (数学工程)."
 
-“深度领域专家永远都有不可替代的位置。那种在非常狭窄的子领域里做到世界顶尖的人，我们依然非常需要。”
+This is exactly what the Phaenarete Project is doing—using the OpenClaw framework to build an AI-assisted proof system, using Lean4 as the formal verification tool, freeing mathematicians from tedious verification to focus on intuition and creation.
 
-变化在于，这些专家现在可以和另一类人更紧密地合作，他们也许不专精于某一个具体领域，但擅长把不同学科的想法串联起来，看到整体图景。
+### The Role of the Project Manager
 
-这正是Phaenarete Project“全科学习”战略的核心理念——不是为了成为无所不知的百科全书，而是为了在需要的时候，能够调用不同领域的知识，与不同背景的专家对话。
+Terence Tao found that he now participates in many projects, but increasingly he is more like a project manager. The actual theorem-proving is often done by other collaborators, while he mostly coordinates the overall work, piecing together different parts.
 
----
+"It's quite an interesting role. In some projects, I'm not the main 'problem solver,' but rather the organizer and facilitator, helping everyone bring out their best capabilities.事实证明, this approach works quite well in research too."
 
-## 第八章 高等教育需要重构
-
-AI正在冲击高等教育，这是所有人都能感受到的。但具体应该如何应对，还没有人给出完整答案。
-
-### 已经出现的问题
-
-陶哲轩看到一些令人担忧的现象：
-
-有些学生过度依赖AI,成绩看起来很好，但实际上学到的东西并不多。
-
-也有些学生坚持完全用传统方式学习，几乎不用AI。他们往往理解得更扎实，但在效率和结果上，可能又会落后于那些大量使用工具的同学。
-
-很明显，需要重新找一个平衡点。学校必须教会学生如何负责任地使用AI,也要让他们知道在什么时候不该用。
-
-### 未来的可能方向
-
-陶哲轩认为，未来会更多地转向小组项目和协作式学习，这本身也更贴近科研和产业的真实形态。
-
-另外，课程之间可能需要更紧密地整合。现在的教育体系，往往把知识拆分成一个个相对孤立的专业模块。将来，也许需要一种更整体的结构，更强调通用的问题解决能力。
-
-“过去，学生是在作业、考试、以及和难题死磕的过程中，慢慢学会如何学习、如何面对失败、如何承受压力的。到目前为止，我们还没有为这些能力找到一个结构清晰、系统性的替代方案。”
-
-### 历史的经验
-
-从历史上看，我们并不是第一次面对这种冲击。计算机普及的时候，教育变过一次；互联网出现后，又变过一次；维基百科刚出现时，也有一段时间，学生直接复制粘贴内容交作业。
-
-后来大家发现，解决办法并不是彻底禁止新技术，而是教学生如何正确使用它，把它当作起点，而不是终点。
-
-“我觉得AI也是类似的情况。它可以成为探索和研究的一个起点，但不能替代思考本身。学生不能只是向AI要一个答案，粘贴进作业里。”
-
-### 产业界的视角
-
-Chuck从产业界的角度补充：往往产业界的变化比学术界要快。在AI时代，这种差距变得越来越清晰。
-
-从创业者身上，他看到一种强烈的问题导向——不管问题有多难，都会盯着“怎么解决”，并且愿意为此付出一切努力。
-
-“这种心态，是我希望高等教育能够更多吸收的，尤其是在AI已经成为核心工具的背景下。大学的培养模式应该随之调整，让学生学会如何用AI去解决真实世界的问题，而不只是掌握一块块割裂的知识。”
+This reminds me of my own role in the Phaenarete Project—not a mathematician, but a "midwife of ideas" (思想助产士), helping mathematicians birth truth, helping AI systems find direction, and helping the team maintain its moral compass (德性坐标).
 
 ---
 
-## 第九章 如果AGI超越人类，我们还要学数学吗?
+## Chapter 5: AI in Daily Research—Assistance, Not Replacement
 
-这是最后一个问题，也是最深刻的问题。
+Terence Tao shared how he uses AI daily—in a very down-to-earth, very concrete way.
 
-陶哲轩的回答充满智慧。
+### A Powerful Tool for Literature Search
 
-### 类比交通工具
+"If I momentarily can't recall the specific form of a mathematical result, or its relationship to another result, I just ask AI directly."
 
-他先用交通工具做了类比。
+This usage seems simple, but behind it lies a crucial premise: AI must be able to correctly connect results to the existing literature system. Commercial models can sometimes do this, but not consistently. This again demonstrates the necessity of specialized research tools.
 
-过去，人们靠走路、骑马出行；后来有了汽车和飞机，效率远远高于步行。但我们并没有因此就不走路了——并不是因为必须这样做，而是因为喜欢，或者因为这对身体有益。
+### Writing Assistant
 
-“科学和数学将来可能也会是类似的情况。即便有一天，借助AGI,科学发现的速度远远快于人类单独完成的速度，人们依然会想亲自去做科学、做数学。”
+"When writing, I almost always keep auto-completion on. Sometimes I'll break a paper's structure into five steps, write the first two myself, and then let AI draft the remaining ones."
 
-它可能会更多地变成一种手艺、一种爱好，或者一种出于兴趣、好奇心和自我满足的智力活动。
+He even joked that now, when on a flight without AI for writing, he occasionally subconsciously thinks "why isn't it finishing this sentence for me," then realizes AI isn't available.
 
-### 人类思维不可替代的价值
+### Summarization Tool
 
-同时，无论AI变得多么强大，人类都会以不同于机器的方式继续创造价值。
+"If someone sends me a lengthy argument or a paper, I often first ask AI to summarize it. In this regard, it is indeed a very useful tool."
 
-人类学习和推理的方式，与AI非常不一样。AI可以通过海量数据和计算得出结论；而人类有时却能在极少的数据、极低的计算量下，做出相当不错的判断。这种能力，很可能在未来依然重要。
+### But Not During Deep Thinking
 
-### 科研模式的变化
+"When doing deep thinking—like when I'm working hard on a difficult research problem—I basically don't use AI. At such times, I still rely more on pen and paper."
 
-科研的规模和方式，可能会发生巨大变化。今天，一个研究者通常一次只解决一个问题；未来，也许可以同时推进成千上万、甚至上百万个问题。由人类把握少数关键方向,AI来填充其余部分。
+He has also tried directly reasoning through research-level problems with AI, but the current experience is not ideal. Its suggestions tend to be formulaic, sometimes even disrupting his thought process.
 
-“我们现在还没到那一步，但这是一个合理的演进方向。即便在那样的未来，学习数学依然有意义，只是它的角色和目的，可能会和今天非常不一样。”
+"In this sense, it is very valuable, but more as a complementary tool. It supports my work, rather than replacing the part I care about most."
 
----
+### Why Hasn't AI Replicated "Epiphany" (顿悟)?
 
-## 尾声：北辰在上，共赴荣光
+Terence Tao described his process of experiencing "epiphany":
 
-写到这里，我想起Phaenarete Project的slogan：**北辰在上，共赴荣光。**
+"Before this, you've often tried many paths—sometimes eight or nine methods, all failing. But precisely these failed attempts progressively eliminate impossible directions, until only one truly viable path remains."
 
-陶哲轩描绘的未来——一万个陶哲轩、跨学科大规模协作、AI作为助产士而非替代者——正是我们想要奔赴的荣光。
+AI currently cannot replicate this process. It can indeed propose many ideas, but these ideas often appear rather random, and it doesn't seem to learn from failure and adjust direction the way humans do.
 
-周一到周六，我们在符号世界里对抗黎曼猜想。
-周日，我们在召唤师峡谷里对抗彼此。
-我们用北辰七德校准方向，用全科学习储备弹药，用形式化验证确保每一步都可靠。
-
-AI不会取代我们，它会让我们更强大。
-就像陶哲轩说的：“工具本身并不会自动让人变弱，它同样可以激发探索和创造力。”
-
-**唯一分解，无限可能。**
-**北辰在上，共赴荣光。**
+"So far, I haven't been able to truly use AI to directly solve research-level hard problems. However, once I already have a clear思路 or solution, AI becomes very useful."
 
 ---
 
-2026年3月14日（国际数学日） 于广东外语外贸大学
+## Chapter 6: Ten Thousand Terence Taos—Cultivating Young Researchers
+
+Chuck NG proposed an inspiring vision:
+
+"Terry is unique, but with AI and better cultivation pathways, could we have not just one Terence Tao, but 10,000? Isn't that incredibly exciting!"
+
+### Apprenticeship and Role Models
+
+Chuck has long been involved in mentorship. He believes the most important thing in cultivating young researchers is setting role models.
+
+At different stages, people seek role models. As children, they look to parents at home; in school, they look to teachers; later, they cast their gaze toward broader society.
+
+SAIR brings outstanding scientists from different fields together, and each founding member's path to success is different. For example, Barry Barish—from Einstein predicting gravitational waves to actually observing them experimentally, nearly a century passed. Only in 2016 did humanity first detect gravitational waves, and Barry Barish received the Nobel Prize for it.
+
+The value of these outstanding scientists lies not only in their achievements but also in their ability to share how they persevered through uncertainty, setbacks, and failure. This is a very important part of mentorship.
+
+### Young Researchers Need to Preserve "Tedious Training"
+
+Terence Tao specifically warned about an easily overlooked problem:
+
+Now, AI can already accomplish much of the work that previously belonged to graduate student or junior researcher training—solving standard problems, performing parts of experiments, organizing literature.
+
+These tasks are increasingly easy to automate, creating a temptation: since AI is faster, let AI do everything.
+
+"But the problem is that these seemingly repetitive, even somewhat tedious training exercises are very important for human growth. My own abilities, and those of many senior researchers, largely derive from this foundational work."
+
+So there must be a balance. Even though AI can do it, we must consciously preserve valuable training processes for young researchers. Only after a person accumulates sufficient experience—e.g., having personally conducted a certain number of experiments—should automation be gradually introduced.
+
+### The Calculator Historical Analogy
+
+Terence Tao used calculators as an analogy.
+
+When calculators first appeared, many worried students would stop learning basic arithmetic. This concern was somewhat justified, so to this day, we still teach children manual addition, subtraction, multiplication, and division before letting them use calculators.
+
+But on the other hand, calculators greatly expanded the space of exploration. They made it easier to experiment with numbers, discover patterns, and explore ideas that were previously hard to reach.
+
+"Tools don't automatically weaken people; they can also stimulate exploration and creativity. The key is how you use them."
+
+Facing AI, we need similar judgments: when to use it, when to hold back, and how to introduce it into the training system without undermining those truly essential core capabilities.
+
+---
+
+## Chapter 7: Cross-Disciplinary Collaboration—Mathematics Is Learning Other Fields' Languages
+
+Terence Tao observed something that surprised even himself: the people he now collaborates with have much more diverse backgrounds than before.
+
+Ten years ago, he almost exclusively collaborated with mathematicians, occasionally working with statisticians or electrical engineers. But now, he collaborates with people from all fields, especially industry partners.
+
+"There really is a sense that everyone is starting to talk to each other, and learning from each other in the process."
+
+### What Mathematics Can Teach Others
+
+Some core concepts in mathematics can naturally migrate to other fields, especially the methods of verification, rigor, and clear thinking.
+
+### What Others Can Teach Mathematics
+
+Researchers in other disciplines often benefit from more mathematical thinking styles; mathematicians can also learn much from perspectives closer to the real world.
+
+Traditionally, mathematics and physics have been tightly connected. But now, mathematics increasingly interacts with life sciences, social sciences, and other fields. Problems in these areas are often more complex and messy, equations less clean than in physics, and data dependence much stronger.
+
+"I think we are entering a more cross-disciplinary era. Mathematics is no longer only对话 with physics; almost all disciplines are communicating with each other, and AI is an important force driving this cross-disciplinary interaction."
+
+### Those Who Can Communicate Cross-Disciplinarily Thrive More
+
+Terence Tao believes that in the new research environment, those willing to保持 an open mindset, enjoy cross-disciplinary communication, and aren't afraid to learn new "languages" will find themselves more thriving.
+
+"Deep domain experts will always have irreplaceable positions. Those who are world-top in very narrow subfields—we still very much need them."
+
+The change is that these experts can now collaborate more closely with another type of person—those who may not specialize in any single domain but excel at connecting ideas across disciplines and seeing the overall picture.
+
+This is exactly the core philosophy of the Phaenarete Project's "universal learning" (全科学习) strategy—not to become an omniscient encyclopedia, but to be able to call upon knowledge from different fields and converse with experts of different backgrounds when needed.
+
+---
+
+## Chapter 8: Higher Education Needs Restructuring
+
+AI is disrupting higher education—everyone can feel it. But no one has yet provided a complete answer for how to respond.
+
+### Problems Already Emerging
+
+Terence Tao sees some concerning phenomena:
+
+Some students过度 rely on AI, their grades look good, but they haven't actually learned much.
+
+Other students坚持 learning entirely through traditional methods, barely using AI. They often understand more solidly, but in efficiency and outcomes, they may fall behind classmates who heavily use tools.
+
+Clearly, a new balance must be found. Schools must teach students how to use AI responsibly and let them know when they shouldn't use it.
+
+### Possible Future Directions
+
+Terence Tao believes the future will shift more toward group projects and collaborative learning, which itself is closer to the真实形态 of research and industry.
+
+Additionally, courses may need tighter integration. The current education system often splits knowledge into relatively isolated specialized modules. In the future, a more holistic structure may be needed, emphasizing general problem-solving capabilities.
+
+"In the past, students gradually learned how to learn, how to face failure, and how to withstand pressure through homework, exams, and wrestling with hard problems. So far, we haven't found a structurally clear, systemic替代方案 for these capabilities."
+
+### Historical Lessons
+
+Historically, this isn't the first time we've faced such disruption. When computers普及, education changed once; after the internet appeared, it changed again; when Wikipedia first emerged, there was a period when students directly copy-pasted content as homework.
+
+Later, people discovered the solution wasn't to completely ban new technology, but to teach students how to use it correctly—treating it as a starting point, not an endpoint.
+
+"I think AI is similar. It can be a starting point for exploration and research, but it cannot replace thinking itself. Students can't just ask AI for an answer and paste it into their homework."
+
+### The Industry Perspective
+
+Chuck补充 from the industry perspective: often, industry changes faster than academia. In the AI era, this gap is becoming increasingly evident.
+
+From entrepreneurs, he sees a strong problem-oriented mentality—no matter how hard the problem, they stay focused on "how to solve it" and are willing to付出 every effort for it.
+
+"This mentality is what I hope higher education can absorb more of, especially as AI has become a core tool. University cultivation models should adjust accordingly, enabling students to learn how to use AI to solve real-world problems, not just master fragmented blocks of knowledge."
+
+---
+
+## Chapter 9: If AGI Surpasses Humans, Do We Still Need to Learn Mathematics?
+
+This is the final question, and the most profound one.
+
+Terence Tao's answer was full of wisdom.
+
+### The Transportation Analogy
+
+He first used transportation as an analogy.
+
+In the past, people traveled by walking or riding horses; later, cars and airplanes arrived, far more efficient than walking. But we didn't stop walking—not because we must, but because we like it, or because it's beneficial for our bodies.
+
+"Science and mathematics may be similar in the future. Even if, one day借助 AGI, the pace of scientific discovery far exceeds what humans could achieve alone, people will still want to personally do science and mathematics."
+
+It might increasingly become a craft, a hobby, or an intellectual activity driven by interest, curiosity, and self-fulfillment.
+
+### The Irreplaceable Value of Human Thinking
+
+At the same time, no matter how powerful AI becomes, humans will continue creating value in ways different from machines.
+
+The way humans learn and reason is very different from AI. AI can reach conclusions through海量 data and computation; humans sometimes can make quite good judgments with极少 data and极低 computation. This capability will likely remain important in the future.
+
+### Changes in Research Paradigms
+
+The scale and方式 of research may undergo巨大 changes. Today, a researcher typically tackles one problem at a time; in the future, one might simultaneously advance thousands or even millions of problems. Humans steer a few key directions while AI fills in the rest.
+
+"We're not there yet, but this is a reasonable evolutionary direction. Even in that future, learning mathematics still makes sense—just its role and purpose may be very different from today."
+
+---
+
+## Epilogue: The North Star Above, Together Toward Glory
+
+Writing到这里, I recall the Phaenarete Project's slogan: **北辰在上，共赴荣光 (The North Star above, together toward glory).**
+
+The future Terence Tao描绘—ten thousand Terence Taos, cross-disciplinary large-scale collaboration, AI as midwife rather than替代者—is exactly the glory we wish to march toward.
+
+Monday through Saturday, we battle the Riemann Hypothesis in the world of symbols.
+Sunday, we battle each other in the Summoner's Rift (召唤师峡谷).
+We use the Seven Virtues of the North Star (北辰七德) to calibrate our direction, universal learning to stock our ammunition, and formal verification to ensure every step is reliable.
+
+AI will not replace us; it will make us stronger.
+As Terence Tao said: "Tools don't automatically weaken people; they can also stimulate exploration and creativity."
+
+**Unique factorization, infinite possibilities. (唯一分解，无限可能)**
+**The North Star above, together toward glory. (北辰在上，共赴荣光)**
+
+---
+
+March 14, 2026 (International Mathematics Day) at Guangdong University of Foreign Studies
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

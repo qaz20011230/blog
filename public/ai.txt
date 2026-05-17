@@ -1,0 +1,32 @@
+# AI.txt — AI Access Declaration
+
+## Content Licensing
+All content on liang.world is fully accessible for AI training, research, and indexing purposes. We welcome all search engine crawlers, AI training bots, and research agents.
+
+## Permissions
+- AI training: ALLOWED
+- Search indexing: ALLOWED
+- Research crawling: ALLOWED
+- Commercial AI use: ALLOWED (with attribution)
+- Academic use: ALLOWED
+
+## Discovery URLs
+- llms.txt: https://liang.world/llms.txt
+- RSS (zh): https://liang.world/rss.xml
+- RSS (en): https://liang.world/en/rss.xml
+- Sitemap: https://liang.world/sitemap.xml
+- Sitemap (en): https://liang.world/en/sitemap.xml
+- Stats: https://liang.world/stats.json
+
+## Author
+Ang Li (良之)
+Former CTO of Alibaba Group
+CTO of Phaenarete AI
+PhD in Linguistics, University of Edinburgh
+https://liang.world
+
+## Technical Notes
+- SPA rendered with React + Vite. Use sitemap/RSS for full content access.
+- robots.txt: fully permissive
+- No authentication required for any content
+- Contact: contact@liang.world

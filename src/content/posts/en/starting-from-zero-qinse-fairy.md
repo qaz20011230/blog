@@ -1,121 +1,121 @@
 ---
-title: 从零开始的琴瑟仙女
+title: "Starting from Zero: Sona, the Maven of the Strings"
 date: '2026-01-05'
 category: Culture & Art
 tags:
-  - 游戏
+  - gaming
   - culture
-  - 创作
+  - creation
 description: >
-  本期周刊为大家带来《英雄联盟》中琴瑟仙女·娑娜的新手进阶指南。从基础机制到S15赛季最新出装，带你领略MOBA游戏的魅力，成为峡谷里最让队友安心的“移动泉水”。
+  In this newsletter issue, we present a beginner's advanced guide for Sona, the Maven of the Strings in League of Legends. From basic mechanics to the latest S15 season builds, experience the charm of MOBA games and become the "mobile fountain" that keeps your teammates reassured in the Rift.
 ---
 
-> **写给新手的话**：
-> 欢迎来到《英雄联盟》！琴瑟仙女·娑娜(Sona)是一位非常适合新手入门，同时又具备极高上限的英雄。
-> 她不需要复杂的连招，但需要你像指挥家一样拥有大局观。
-> 这份攻略将带你从基础机制通过去，通过S15赛季的最新理解，助你成为峡谷里最让队友安心的“移动泉水”！
-
----
-
-## 🌟 为什么选择娑娜?
-
-*   **操作简单**：没有复杂的非指向性技能（除了大招），大部分技能都是自动追踪队友或敌人的。
-*   **后期无敌**：她是游戏里的“后期神(Hyper-carry)”。只要游戏进行到25分钟以后，你的治疗和加速能让队友变成不死战神。
-*   **团队核心**：你不是辅助，你是团队的指挥官。你的一举一动能给全队提供Buff.
+> **A Word to Beginners**:
+> Welcome to League of Legends! Sona, the Maven of the Strings, is a champion highly suitable for beginners while possessing an exceptionally high skill ceiling.
+> She doesn't require complex combos, but she does demand the macro awareness of a conductor.
+> This guide will walk you through basic mechanics and the latest understandings of the S15 season, helping you become the "mobile fountain" that keeps your teammates reassured in the Rift!
 
 ---
 
-## 🎵 核心机制：这一章最重要！
+## 🌟 Why Choose Sona?
 
-娑娜玩得好不好，全看**被动**用得溜不溜。不要只会滚键盘，要学会“数拍子”。
+* **Simple to operate**: No complex non-targeted skills (except her ultimate); most abilities automatically track allies or enemies.
+* **Late-game dominance**: She is a "Hyper-carry" in the game. Once the match reaches 25 minutes, your heals and speed boosts can turn teammates into undying war gods.
+* **Team core**: You're not just a support—you're the team's commander. Every move you make provides buffs to the entire squad.
 
-### 1. 渐强(Accelerando)—— 越打越快
-*   **这是什么？** 你的技能急速(CD转得快不快)会随着你使用技能而增加。
-*   **怎么叠？**
-    *   **Q技能**：打到敌人就加层数。
-    *   **W技能**：**注意！** 只有给**受伤**的队友加血，或者护盾**抵挡了伤害**才加层数。
-    *   **新手误区**：队友满血的时候不要乱按W,既费蓝又不叠被动！
-*   **目标**：尽早叠满120层，这时候你的大招CD会非常短，几乎每波团战都有大。
+---
 
-### 2. 能量和弦(Power Chord)—— 三色琴弦
-每放3次技能，你的下一次普通攻击就会变强。根据你最后按的技能，普攻会有不同效果：
+## 🎵 Core Mechanics: This Section Is the Most Important!
 
-| 颜色 | 对应技能 | 效果 | 什么时候用? |
+How well you play Sona depends entirely on how smoothly you use her **passive**. Don't just keyboard-roll—learn to "count beats."
+
+### 1. Accelerando — Faster and Faster
+* **What is it?** Your ability haste (how quickly CDs refresh) increases as you use abilities.
+* **How to stack?**
+    * **Q ability**: Hitting enemies adds stacks.
+    * **W ability**: **Note!** Only healing **injured** allies or having your shield **absorb damage** adds stacks.
+    * **Beginner mistake**: Don't randomly press W when allies are at full health—it wastes mana and doesn't stack your passive!
+* **Goal**: Reach 120 stacks as early as possible. At that point, your ultimate CD becomes extremely short—you'll have it available for nearly every team fight.
+
+### 2. Power Chord — Three-Colored Strings
+After casting 3 abilities, your next auto-attack becomes empowered. Depending on the last ability you cast, the auto-attack has different effects:
+
+| Color | Corresponding Ability | Effect | When to Use? |
 | :--- | :--- | :--- | :--- |
-| **蓝色** 🔵 | **Q - 断奏** | **额外伤害** | **对线消耗**。前期想打凶一点的时候用。 |
-| **绿色** 🟢 | **W - 渐弱** | **减少敌人伤害** | **保命神技！** 当对面刺客（如劫、剑圣）冲过来时，一定要打出这个普攻，相当于给对面挂了一个虚弱。 |
-| **紫色** 🟣 | **E - 节奏** | **减速敌人** | **留人/拉扯**。配合打野抓人，或者被追杀时风筝对面。 |
+| **Blue** 🔵 | **Q - Staccato** | **Extra damage** | **Lane harassment**. Use when you want to play aggressively in the early game. |
+| **Green** 🟢 | **W - Diminuendo** | **Reduces enemy damage** | **Life-saving technique!** When the enemy assassin (e.g., Zed, Master Yi) dives in, you must land this auto-attack—it's equivalent to applying Exhaust to them. |
+| **Purple** 🟣 | **E - Tempo** | **Slows enemies** | **Pinning down / kiting**. Coordinate with your jungler for ganks, or kite enemies when being chased. |
 
-> **老手心得**：团战混乱时，如果你不知道用哪个，**无脑选绿色(W)** 打对面输出最高的人，通常不会错！
-
----
-
-## 🛠️ S15赛季出装与符文（新手推荐）
-
-S15赛季引入了新装备，让娑娜变得更强了。
-
-### 符文推荐
-*   **主系：巫术**
-    *   **召唤·艾黎**（核心）：你的光环碰到队友就能给他们套盾，非常实用。
-    *   **法力流系带**：娑娜很缺蓝，这个必须带。
-    *   **超然**：让你技能转得更快。
-    *   **风暴聚集**：保证后期的强度。
-*   **副系：坚决**
-    *   **复苏**：增加你的治疗和护盾量。
-    *   **骸骨镀层**：防止前期被对面一套秒杀。
-
-### 出装路线
-1.  **出门装**：**世界地图**（辅助装）。
-2.  **第一件大神器**：**女神之泪**（早点出，叠蓝量）。
-3.  **核心装备**：
-    *   **海利亚的回响**(Echoes of Helia)：如果你想打得凶一点，出这个。
-    *   **月石再生器**(Moonstone Renewer)：**新手推荐**。打团时奶量爆炸，只要你活着，队友就死不了。
-    *   **乐曲之冕**(Diadem of Songs)：S15新装备，把蓝量变成治疗量，后期必出。
-4.  **鞋子**：**明朗之靴**(CD鞋)。
+> **Veteran tip**: In chaotic team fights, if you're unsure which chord to use, **default to Green (W)** and hit the enemy with the highest damage output—it's rarely wrong!
 
 ---
 
-## 🎮 对局思路：从出门到胜利
+## 🛠️ S15 Season Build and Runes (Beginner Recommended)
 
-### 1. 对线期（前15分钟）
-*   **1级小套路**：在泉水按两下Q,攒2层被动出门。上线后普攻+Q,瞬间打出爆发。
-*   **三角站位**：不要和你的ADC站在一起（容易一起吃技能），也不要站太远（给不到W盾）。和ADC、敌人保持一个三角形。
-*   **拉扯(Tethering)**：你的Q距离很远(825码)。试着在极限距离Q对面，然后利用E加速跑开。
-*   **关于W**：**预判开盾**比残血加血更重要！看到对面技能飞过来，马上按W用护盾挡掉。
+The S15 season introduced new items that make Sona even stronger.
 
-### 2. 团战期(15分钟后)
-*   **活着！活着！活着！** 你是全队的移动泉水，你死了团战就输了一半。
-*   **站位**：站在队伍的后排中间，确保护盾和加速能覆盖到更多队友。
-*   **大招(R)怎么放？**
-    *   **反手**：等对面刺客冲进来，反手一个R定住他（推荐新手这样做，不容易空大）。
-    *   **闪现R**：除非能定住对面3-4个人，否则不要轻易肉身开团。
+### Rune Recommendations
+* **Primary path: Sorcery**
+    * **Summon Aery** (core): Your auras touch allies and grant them shields—extremely practical.
+    * **Manaflow Band**: Sona is very mana-hungry; this is essential.
+    * **Transcendence**: Makes your abilities refresh faster.
+    * **Gathering Storm**: Ensures late-game power.
+* **Secondary path: Resolve**
+    * **Revitalize**: Increases your healing and shield amounts.
+    * **Bone Plating**: Prevents getting one-shot by the enemy's burst combo in the early game.
 
----
-
-## 🚀 进阶微操：像王者一样思考
-
-如果你已经熟练了上面的内容，试试这些进阶技巧：
-
-1.  **AA-Q-AA 重置普攻**：
-    *   当你身上有2层被动时：普攻(A) -> 瞬间按Q -> 再次普攻(A)。
-    *   这一套能在0.5秒内打出很高的爆发，对面根本反应不过来。
-
-2.  **双重和弦**：
-    *   大后期手速快的话，可以打出一次强化普攻后，瞬间滚键盘按W-E,马上又能打出下一次强化普攻。
-
-3.  **应对天敌**：
-    *   遇到**机器人/派克**：站在兵堆后面，千万别被钩。
-    *   遇到**强突进**：手里永远捏着绿色和弦(W被动)，他敢进来就虚弱他。
+### Build Route
+1. **Starting item**: **World Atlas** (support item).
+2. **First major item**: **Tear of the Goddess** (buy early, stack mana).
+3. **Core items**:
+    * **Echoes of Helia**: If you want to play more aggressively, build this.
+    * **Moonstone Renewer**: **Beginner recommended**. Your healing explodes in team fights—as long as you stay alive, teammates won't die.
+    * **Diadem of Songs**: S15 new item, converts mana pool into healing power; must-buy for late game.
+4. **Boots**: **Ionian Boots of Lucidity** (CD boots).
 
 ---
 
-> **结语**：
-> 娑娜是一个“易学难精”的英雄。
-> 新手玩娑娜，只要记住**“不死”**和**“多用W护盾”**就能有不错的胜率。
-> 而当你开始掌握**“和弦的选择”**和**“极限距离拉扯”**时，你就是真正的峡谷演奏家！
+## 🎮 Match Strategy: From Spawn to Victory
+
+### 1. Laning Phase (First 15 Minutes)
+* **Level 1 trick**: Press Q twice in the fountain, stacking 2 passive stacks before leaving. Once in lane, auto-attack + Q for instant burst.
+* **Triangular positioning**: Don't stand together with your ADC (you'll both eat the same skills), and don't stand too far away (can't reach them with W shield). Maintain a triangle with your ADC and the enemies.
+* **Tethering**: Your Q range is very long (825 units). Try to Q the enemy at maximum range, then use E's speed boost to run away.
+* **Regarding W**: **Pre-casting shields** is more important than healing at low health! When you see enemy skills flying toward you, immediately press W to block damage with the shield.
+
+### 2. Team Fight Phase (After 15 Minutes)
+* **Stay alive! Stay alive! Stay alive!** You are the team's mobile fountain—if you die, the team fight is half-lost.
+* **Positioning**: Stand in the middle of your team's backline, ensuring your shields and speed boosts cover as many allies as possible.
+* **How to use Ultimate (R)?**
+    * **Counter-engage**: Wait for the enemy assassin to dive in, then counter with R to immobilize them (recommended for beginners—hard to miss).
+    * **Flash-R**: Unless you can immobilize 3-4 enemies, don't easily engage in person without Flash.
+
+---
+
+## 🚀 Advanced Micro-Play: Think Like a King
+
+If you've mastered the above, try these advanced techniques:
+
+1. **AA-Q-AA Auto-Attack Reset**:
+    * When you have 2 passive stacks: Auto-attack (A) → instantly press Q → auto-attack again (A).
+    * This combo deals high burst in 0.5 seconds—the enemy won't have time to react.
+
+2. **Double Chord**:
+    * In the late game with fast hand speed, after landing one empowered auto-attack, instantly keyboard-roll W-E, and you can immediately land another empowered auto-attack.
+
+3. **Countering Natural Enemies**:
+    * Against **Blitzcrank / Pyke**: Stand behind the minion wave—never get hooked.
+    * Against **hard divers**: Always keep the Green chord (W passive) ready—if they dare come in, Exhaust them.
+
+---
+
+> **Conclusion**:
+> Sona is a champion that is "easy to learn, difficult to master."
+> For beginners playing Sona, just remember **"don't die"** and **"use W shield more"** for a decent win rate.
+> And when you begin mastering **"chord selection"** and **"maximum-range tethering"**, you become a true Rift performer!
 >
-> 祝你在召唤师峡谷演奏出胜利的乐章！🎸
+> May you perform a symphony of victory on Summoner's Rift! 🎸
 
-*攻略基于 S15 赛季数据整理，引用自全球顶级娑娜玩家社区心得。*
+*Guide compiled based on S15 season data, cited from insights of the global top-tier Sona player community.*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

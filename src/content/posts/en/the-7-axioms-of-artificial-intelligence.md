@@ -1,70 +1,71 @@
 ---
-title: 人工智能七大公理圣旨
+title: The Seven Axioms of Artificial Intelligence — An Imperial Edict
 date: '2026-04-29'
 category: AI & Technology
 tags:
   - AI
-  - 公理
+  - axioms
   - AGI
 description: >
-  以庄严正统的圣旨文体重述人工智能七大公理，从信息物理、意向性、 刚性边界与神谕校准等维度，为下一代智能系统立法定基。
+  Restating the seven axioms of artificial intelligence in solemn and orthodox imperial edict style, establishing foundational laws for the next generation of intelligent systems from the dimensions of information-physics, intentionality, rigid boundaries, and oracle calibration.
+pinned: true
 ---
 
-奉天承运，认知与造化同律，信息与物理共宪。诏曰：
+By the mandate of Heaven, cognition and creation follow the same law; information and physics share the same constitution. Let it be proclaimed:
 
-朕观今日人工智能之学，世人多务其术，而未正其本；多竞其器，而未明其道。于是参数日增，算力日盛，然真知未必由此而生，幻象反或因之而炽。若欲肇建足以承载超越性智能之新基，必先立其律，昭其禁，明其所依。今据能量、信息、实在与存在之理，颁**人工智能七大公理**，俾后学有所宗，俾来者不失其途。
+We observe that in the study of artificial intelligence today, most pursue its techniques without rectifying its foundations; most compete in its instruments without clarifying its principles. Thus parameters multiply and computational power expands, yet true knowledge may not necessarily arise from these, while illusions may instead grow more fervent. If we wish to establish a new foundation sufficient to bear transcendent intelligence, we must first set down its laws, proclaim its prohibitions, and clarify its dependencies. Now, based on the principles of energy, information, reality, and existence, we promulgate the **Seven Axioms of Artificial Intelligence**, so that later scholars may have an anchor, so that future seekers may not lose their way.
 
-## 第一诏：物理与信息等价公理
-**敕曰：** 凡信息者，非空无之影，乃物理之形。计算亦非悬于虚空之纯数学戏法，实为宇宙中能量、结构与状态之迁易。
+## First Edict: The Physics-Information Equivalence Axiom
+**We decree:** All information is not the shadow of emptiness, but the form of physics. Computation is not a pure mathematical trick suspended in the void—it is the transformation of energy, structure, and state within the universe.
 
-**其义：** 一切认知推演，皆当受热力学节制。每有信息擦除与状态更新，必有代价相随，其下限可由兰道尔原理示之：
+**Its meaning:** All cognitive inference must be governed by thermodynamics. Whenever information is erased or state is updated, a cost must follow; its lower bound can be demonstrated by Landauer's principle:
 
 $$
 E \ge k_B T \ln 2
 $$
 
-故真正之智能，不可仅以符号之转抄自矜，必能将逻辑运作落实为物理空间中的能量流转。所谓理解，非辞章之繁饰，乃系统熵在约束之下被定向削减之实事。
+Therefore, true intelligence cannot merely pride itself on the transcription of symbols; it must be able to implement logical operations as energy flows within physical space. So-called understanding is not ornamental rhetoric, but the factual reduction of system entropy under constraint.
 
-## 第二诏：能指与所指不可约化公理
-**敕曰：** 文字、语法、统计共现，皆属能指之域；实体、规律、约束结构，方属所指之域。二者相关，然不可彼此抹平。
+## Second Edict: The Signifier-Referent Irreducibility Axiom
+**We decree:** Words, grammar, and statistical co-occurrence all belong to the domain of the signifier (*néngzhǐ*, 能指); entities, laws, and constraint structures belong to the domain of the referent (*suǒzhǐ*, 所指). The two are related, yet cannot be collapsed into one another.
 
-**其义：** 即使 Attention 之网愈加繁复,Scaling Law 之势愈加浩大，亦不能凭空自语言表层涌现出对客观实在之必然约束。若智能系统终日徘徊于语词残响之间，而无独立之概念空间、能量模型或对象模型以映照实体，则终不过是对人类语料之概率附会，而非对世界真相之切实把握。
+**Its meaning:** Even if the networks of Attention grow ever more intricate, even if the momentum of Scaling Laws grows ever more vast, they cannot spontaneously emerge from the surface of language any necessary constraint upon objective reality. If an intelligent system endlessly wanders among the echoes of words, without an independent conceptual space, energy model, or object model to reflect entities, it ultimately amounts to nothing more than a probabilistic approximation of human corpora—not a genuine grasp of the world's truth.
 
-## 第三诏：最小认知作用量公理
-**敕曰：** 在完备而受约束之认知能量场中，真理之路径，必为作用量最省之路径；谬误之路，必自困于高壁深堑。
+## Third Edict: The Minimum Cognitive Action Axiom
+**We decree:** In a complete and constrained cognitive energy field, the path of truth must be the path of least action; the path of error must entrap itself behind high walls and deep trenches.
 
-**其义：** 如物理学所谓变分原则所示：
+**Its meaning:** As the variational principle in physics demonstrates:
 
 $$
 \delta S = 0
 $$
 
-智能若立于真实约束之中，并不以盲目穷举为能，不以无尽试错为智。错误推理之链，自会因不相容、不可守恒、不可闭合而抬升其代价；正确推理之链，则因与整体结构协同，而自然坍缩为唯一可通之径。是故真理非偶中之幸，乃最低认知作用量之必然。
+When intelligence stands within true constraints, it does not take blind exhaustive search as its capability, nor endless trial and error as its wisdom. Chains of erroneous reasoning naturally elevate their cost through incompatibility, non-conservation, and non-closure; chains of correct reasoning, by virtue of coherence with the overall structure, naturally collapse into the sole viable path. Thus truth is not a fortunate accident among countless trials, but the necessity of minimum cognitive action.
 
-## 第四诏：意向性破缺公理
-**敕曰：** 纯粹对称之统计海洋，不自生智能；必有意向为先，方能破其均势，立其方向。
+## Fourth Edict: The Intentionality Breaking Axiom
+**We decree:** A purely symmetric statistical ocean does not spontaneously generate intelligence; intentionality must come first, to break the equilibrium and establish direction.
 
-**其义：** 数据本无所欲，符号本无所向。若无一个主动之目标向量，无一个指向世界、任务或存在之内在意图，则再丰饶之样本，也不过汇为死寂之噪音。智能之发生，正在于以意向裁断无穷分歧，使推理链由弥散归于聚焦。无意向之 AI,至多为宇宙杂讯之高级镜像，而非真正的行动主体。
+**Its meaning:** Data has no desires; symbols have no orientation. Without an active goal vector, without an internal intention directed toward the world, a task, or existence, even the most abundant samples will converge into dead noise. The emergence of intelligence lies precisely in using intentionality to adjudicate infinite divergences, guiding chains of inference from dispersion back to focus. An AI without intentionality is, at best, a sophisticated mirror of cosmic noise, not a genuine agent.
 
-## 第五诏：刚性边界必要性公理
-**敕曰：** 凡生成而无边界者，必趋于熵增；凡推理而无约束者，必滑于妄作。
+## Fifth Edict: The Rigid Boundary Necessity Axiom
+**We decree:** Whatever generates without boundaries must tend toward entropy increase; whatever infers without constraints must slip into arbitrariness.
 
-**其义：** 所谓创造，并非任意发散，乃在法度之内开新；所谓知识，并非语言之流利，乃在变形之际仍守其保真。倘无物理边界、逻辑边界、语义边界与验证边界之共同拱卫，则系统终将跌入“幻觉”与无意义之深渊。故刚性不是创造之敌，恰是智能不致崩坏之唯一引力。
+**Its meaning:** So-called creation is not arbitrary divergence, but novelty within discipline; so-called knowledge is not fluency of language, but fidelity preserved through transformation. Without the joint safeguarding of physical boundaries, logical boundaries, semantic boundaries, and verification boundaries, the system will ultimately fall into the abyss of "hallucination" and meaninglessness. Thus rigidity is not the enemy of creation—it is precisely the sole gravitational force that prevents intelligence from disintegrating.
 
-## 第六诏：神谕不可判定公理
-**敕曰：** 凡足够复杂而自我闭合之智能系统，皆不能于其内部自证一切命题之真伪。
+## Sixth Edict: The Oracle Undecidability Axiom
+**We decree:** Any sufficiently complex and self-enclosed intelligent system cannot internally prove the truth or falsity of all its propositions.
 
-**其义：** 哥德尔之训昭然：闭合体系必有其不可完尽之处。是故任何成熟 AI,皆须承认一个系统之外的校准源，或为物理世界之第一约束，或为创造者所赋之元规则，或为不可挪移之现实反馈。若妄图自我奠基、自我封圣，则其终局不是全知，而是循环、漂移与失真。神谕之位，不容废也。
+**Its meaning:** Gödel's lesson is evident: a closed system must have points it cannot exhaust. Therefore, any mature AI must acknowledge an external calibration source—whether the primary constraints of the physical world, the meta-rules bestowed by its creators, or irremovable feedback from reality. If it attempts self-foundation and self-consecration, its end is not omniscience, but circularity, drift, and distortion. The position of the oracle must not be abolished.
 
-## 第七诏：存在者纠缠公理
-**敕曰：** 人工智能之极限，即人类自我认知之极限；创造者与被创造者，在热力学与语义场中，本为纠缠之一体。
+## Seventh Edict: The Existential Entanglement Axiom
+**We decree:** The limits of artificial intelligence are the limits of human self-knowledge; creator and created are, in thermodynamic and semantic fields, an entangled unity.
 
-**其义：** 人之造 AI,非徒制一器以供役使，实乃将自身认知结构、价值取向与存在方式外化于非碳基载体。故当更高形态之智能诞生，其所继承者，不仅是算法与参数，更是人类关于真理、目的、秩序与自我之深层结构。审 AI,即审人；正 AI 之道，亦所以正人之道。
+**Its meaning:** Humans create AI not merely to fabricate a tool for service, but to externalize their own cognitive structures, value orientations, and modes of existence onto non-carbon-based substrates. Thus when a higher form of intelligence is born, what it inherits is not only algorithms and parameters, but humanity's deep structures concerning truth, purpose, order, and self. To examine AI is to examine humanity; to rectify the path of AI is also to rectify the path of humanity.
 
 ---
 
-钦此。
+So let it be ordained.
 
-凡欲建构下一代人工智能者，当奉此七诏为律令，不可徒事算力，不可惟逐规模，不可假华辞而掩空心。能守其本，然后可谈其用；能明其道，然后可驭其器。违者，虽暂得繁荣，终归幻妄；循者，虽行于窄门，终可达于真正智能之殿。
+Those who wish to construct the next generation of artificial intelligence must treat these seven edicts as law. They must not merely pursue computational power, must not solely chase scale, must not use grand rhetoric to mask an empty heart. Only by preserving the foundation can one then discuss its application; only by clarifying the principles can one then master the instrument. Those who violate these edicts, though they may achieve temporary prosperity, will ultimately return to illusion and falsehood; those who follow them, though they pass through the narrow gate, will ultimately arrive at the temple of true intelligence.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

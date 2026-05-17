@@ -5,128 +5,128 @@ category: Philosophy
 tags:
   - love
   - philosophy
-  - 情感
+  - emotion
 description: >
-  A philosophical and psychological exploration of love beyond romantic clichés, examining its nature, varieties, and transformative power.
+  Recently someone asked me what love is. This question is well worth exploring... Today I shall trace it to its roots and speak a few honest words. Love is not "Love"—love is Caritas, charity.
 ---
 
-近来有人问我甚么是爱。这问题倒很可以谈谈，却又怕讲得浅了，被那聪明人笑作迂阔；讲得深了，又被老实人斥为虚玄。也罢，今日便追本溯源，说几句老实话。
+Recently someone asked me what love is. This question is well worth exploring, yet I fear that if I speak too superficially, the clever will mock me as pedantic (*yūkuò*, 迂阔); if I speak too deeply, the honest will dismiss me as esoteric (*xūxuán*, 虚玄). Very well—today I shall trace the matter to its roots and speak a few honest words.
 
-倘若你略通洋文，于这“爱”字或可窥得更深些。我这里且摆出三样版本来——拉丁文、英王钦定本、中文和合本。自然版本间早有无数笔墨官司，我们且搁下不论，单看那最显眼的骨架。
+If you have some command of Western languages, you may perceive deeper layers in this word "love" (爱). Let me lay out three versions here: the Latin Vulgate, the King James Version, and the Chinese Union Version. Naturally, there have been countless scholarly disputes (*bǐmò guānsī*, 笔墨官司) among these editions; we shall set those aside and look only at the most conspicuous skeleton.
 
-何以偏用《圣经》？只因今日在东亚所谈之“爱”，本非我故土里自然生出的物事，倒像是漂洋过海移植来的异卉。既如此，何妨看看它原初的形貌?
+Why insist on the Bible? Simply because the "love" (爱) discussed in East Asia today is not something that naturally sprouted from our native soil—it resembles an exotic flower transplanted across oceans. Since this is so, why not examine its original form?
 
-这拉丁文本，是罗马奉基督教为国教后钦定的正典，字字皆经修士数十年苦修，于神魂澄明之际，方以精血般慎重心力，一笔一画录在羊皮上的。英王钦定本却不然——活字机哗啦啦印将出来，是要散发给那些不识几字、但说白话的庶民去读的。至于中文和合本，更是辗转几重山水，染了别样的风霜。
+The Latin Vulgate is the canonical text established after Rome made Christianity its state religion; every word was inscribed by monks who spent decades in ascetic discipline, setting down each stroke on parchment only in moments of spiritual clarity, with a meticulousness as vital as blood itself. The King James Version is quite different—the printing presses clattered it out, to be distributed to common folk who could barely read but spoke the plain vernacular. As for the Chinese Union Version, it passed through yet more layers of mountains and rivers, weathering different storms.
 
-我们且挨着看下去。我于拉丁文并非专精，所说也只算自家的一点理解，未必便是圭臬。
+Let us proceed in sequence. I am no specialist in Latin; what I offer is only my own understanding, not necessarily the definitive standard (*guīniè*, 圭臬).
 
 **Caritas patiens est, benigna est.**
 *Charity suffereth long, and is kind.*
-“爱是恒久忍耐，又有恩慈。”
+"爱是恒久忍耐，又有恩慈。"
 
-这“忍耐”(patiens)，非是寻常的耐性，乃是专对痛楚的隐忍。所以那患病受苦的人，西洋文里称作patient。爱便是这般长久地“受着苦”(suffereth)，却又怀着一片温良(benigna)。
+This "patience" (*patiens*) is not ordinary forbearance; it is endurance specifically directed toward pain. That is why those who are ill and suffering are called "patients" in Western languages. Love is this long "suffering" (*suffereth*), yet tempered with gentle kindness (*benigna*).
 
 **Caritas non aemulatur,**
 *charity envieth not;*
-“爱是不嫉妒。”
+"爱是不嫉妒。"
 
 **non agit perperam,**
 *charity vaunteth not itself,*
-“不自夸。”
+"不自夸。"
 
 **non inflatur.**
 *is not puffed up.*
-“不张狂。”
+"不张狂。"
 
-Inflatur,原是“充气膨胀”之意。爱不是那吹胀的气球，虚飘飘的，一戳便破。
+*Inflatur* originally means "to inflate, to puff up." Love is not that blown-up balloon, airy and fragile, collapsing at a single prick.
 
 **non est ambitiosa,**
 *doth not behave itself unseemly,*
-“不做害羞的事。”
+"不做害羞的事。"
 
-此处最可见迁移的痕迹。拉丁文ambitiosa,本是“野心”之义——爱无野心。到了英王钦定本，却成了“不做失礼之事”。何为“失礼”？这解释权便悄悄从修道院的烛光下，移到了国王的御案前。一字之转，千里之谬。
+Here the traces of conceptual migration are most visible. The Latin *ambitiosa* originally means "ambitious"—love has no ambition. In the King James Version, this became "doth not behave itself unseemly." What constitutes "unseemly"? The authority of interpretation quietly shifted from the candlelight of the monastery to the desk of the king. One word turned, a thousand miles of deviation.
 
 **non quaerit quae sua sunt,**
 *seeketh not her own,*
-“不求自己的益处。”
+"不求自己的益处。"
 
 **non irritatur,**
 *is not easily provoked,*
-“不轻易发怒。”
+"不轻易发怒。"
 
-不受挑衅。
+Not susceptible to provocation.
 
 **non cogitat malum,**
 *thinketh no evil;*
-“不计较人的恶。”
+"不计较人的恶。"
 
-实则是——爱不思恶。不往阴私里揣度，不以歹意忖测人心。
+In truth—love does not think evil. It does not probe darkly into hidden motives; it does not measure others' hearts with malicious assumptions.
 
 **non gaudet super iniquitate,**
 *rejoiceth not in iniquity,*
-“不喜欢不义。”
+"不喜欢不义。"
 
-见人行恶，或幸灾乐祸，爱以此为哀。
+Witnessing others' wrongdoing, or taking pleasure in their misfortune—love regards these with sorrow.
 
 **congaudet autem veritati:**
 *but rejoiceth in the truth;*
-“只喜欢真理。”
+"只喜欢真理。"
 
-纵使真相如刀，割得人鲜血淋漓，爱仍以得见真实为乐。因它骨子里信着：事实本身终是善的。
+Even if truth is like a blade, cutting until blood flows freely, love still rejoices in beholding reality. For in its bones it holds the conviction: fact itself is ultimately good.
 
 **omnia suffert,**
 *beareth all things,*
-“凡事包容。”
+"凡事包容。"
 
-拉丁文里本是“凡事忍受”。中文译者大约觉得“忍受”二字太苦，便转作“包容”。其实原意更近于忍饥挨饿那般的承当。
+The Latin originally reads "endures all things." The Chinese translators apparently found the word "endure" (忍受) too bitter, and converted it to "包容" (*bāoróng*, containment). In truth, the original sense is closer to bearing hardship as one endures hunger and cold.
 
 **omnia credit,**
 *believeth all things,*
-“凡事相信。”
+"凡事相信。"
 
-此又一关键处。Credit非是“相信”(believe)，乃是“授信”。如同银行给你信用卡，先当你是守信之人，待你违约再作计较。爱便是这般：凡人所言，先以真诚视之，直至证据确凿方改态度。
+This is another crucial juncture. *Credit* is not "believe"—it is "extend credit." Just as a bank issues you a credit card, first assuming you are trustworthy, and only recalculating upon your default. Love operates thus: whatever a person says, it first regards with sincerity, altering its stance only when incontrovertible evidence demands it.
 
 **omnia sperat,**
 *hopeth all things,*
-“凡事盼望。”
+"凡事盼望。"
 
-永不说“我对你绝望了”。因我们这般有限的人，本无资格断言未来已绝了路。
+Never say "I have lost all hope in you." For we, such limited beings, have no standing to declare that the future has exhausted all its paths.
 
 **omnia sustinet.**
 *endureth all things.*
-“凡事忍耐。”
+"凡事忍耐。"
 
-Sustinet,即“持续”之义。今人常说的“可持续”(sustainability)，便从此出。爱是坚忍地挺着，直到风雨过去。
+*Sustinet* means "to sustain, to persist." The term "sustainability" commonly invoked today derives from this root. Love endures stubbornly, until the storm has passed.
 
 **Caritas numquam excidit**
 *Charity never faileth*
-“爱是永不止息。”
+"爱是永不止息。"
 
-拉丁文直说：爱从不失败。既从不失败，自然永不止息。
+The Latin states plainly: love never fails. Since it never fails, it naturally never ceases.
 
-诸君可见，这源头处——无论是拉丁文的Caritas,还是英文的Charity,皆未用“Love”一字。Love是盎格鲁-撒克逊的古语，原指“快乐”“赞美”，是一种令人愉悦的情愫。因着英吉利称雄四海，这“Love”竟渐渐顶替了Caritas的地位，成了“爱”的代言。
+You can see, then, that at this source—whether the Latin *Caritas* or the English *Charity*—the word "Love" was nowhere employed. *Love* is an Old Anglo-Saxon term, originally denoting "pleasure" and "praise"—a gratifying sentiment. Through England's maritime dominion, this "Love" gradually supplanted the position of *Caritas*, becoming the authorized representative of "爱."
 
-然而令人啼笑皆非的是：那汲汲于“使人快乐”的Love,往往反叫人苦痛；倒是这甘愿受苦、不图己乐的Caritas,方带来真正的平安喜乐。
+Yet the irony is exquisite: that *Love*, so bent on "bringing people pleasure," often instead brings them anguish; whereas this *Caritas*, willingly suffering and seeking no pleasure for itself, truly brings peace and joy.
 
-所以记清了：
+So mark this well:
 
-**爱不是“Love”，爱是Caritas,是慈善。**
+**Love is not "Love." Love is Caritas—charity (慈善).**
 
-一种作为，若不是慈善，便不成其为爱。
+An action, if it is not charity, does not qualify as love.
 
-爱非关耳鬓厮磨，非关缠绵悱恻，更非寤寐思服、辗转反侧——那些不过是人间常有的痴缠。
+Love has nothing to do with intimate whispers by the temple of the ear (*ěrbìn sīmó*, 耳鬓厮磨), nothing to do with tender, lingering longing (*chánmián fěicè*, 缠绵悱恻), and certainly nothing to do with yearning day and night, tossing and turning in sleep (*wùmèi sīfú, zhǎnzhuǎn fǎncè*, 寤寐思服, 辗转反侧)—those are merely the common infatuations of the human world.
 
-Caritas / 慈善，无分男女，无问族类，不论贵贱，不涉主义。
+*Caritas* / charity (慈善) makes no distinction between men and women, asks nothing of ethnicity, disregards wealth and rank, and is unconcerned with ideology (*zhǔyì*, 主义).
 
-它不自夸，不膨胀，无野心，不思恶，甘愿受苦，信奉真实，凡事授信，永不绝望。
+It does not boast, does not inflate, has no ambition, does not think evil, willingly suffers, believes in truth, extends credit in all things, and never despairs.
 
-它永不认输。
+It never admits defeat.
 
-这或许便是人类借以穿透一切兽性、消解一切恶意，最终能稍稍昂首面对浩渺苍穹的那一点神性罢。
+This may be the one fragment of divinity that humanity wields to pierce through all bestial nature, dissolve all malice, and finally lift its head slightly to face the vast heavens.
 
-是人所能行的，最近于神的事。
+It is the closest thing to the divine that a human being can accomplish.
 
-二〇二六年元月十日
-（仿鲁迅笔意）
+January 10, 2026
+(Written in imitation of Lu Xun's literary style)
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

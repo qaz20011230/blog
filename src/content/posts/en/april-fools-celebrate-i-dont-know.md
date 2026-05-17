@@ -1,122 +1,122 @@
 ---
-title: 愚人节特辑｜庆祝“我不知道”
+title: April Fools' Day Special | Celebrating "I Don't Know"
 date: '2026-03-16'
 category: Philosophy
 tags:
   - philosophy
-  - 无知
-  - 苏格拉底
+  - ignorance
+  - Socrates
 description: >
-  愚人节不只是玩笑的许可，而是在庆祝“我不知道”：它提醒我们承认边界、保留好奇、延迟评判；以苏格拉底的无知之知、庄子的知无涯，换回关系里那份活的惊奇与对他者未知的尊重。
+  April Fools' Day is not merely a license for jokes, but a celebration of "I don't know": it reminds us to acknowledge boundaries, preserve curiosity, and defer judgment; drawing on Socrates' knowledge of ignorance and Zhuangzi's (庄子) boundlessness of knowledge, it restores the living wonder in relationships and respect for the unknown in others.
 ---
 
-> 愚人节特辑
+> April Fools' Day Special
 
-文／良之
+By Liangzhi (良之)
 
-今天是四月一日。朋友圈里有人开着半真半假的玩笑，有人小心翼翼地问“你是不是在骗我”，有人把谎言裹上糖衣递出去，也有人把真心藏在愚人节的旗号下。我们笑着闹着，却很少有人问：这个节日，到底在庆祝什么?
+Today is April 1st. In social media circles, some are telling half-serious jokes, some are cautiously asking "are you lying to me," some wrap lies in sugar coating and hand them out, and some hide their true feelings under the banner of April Fools' Day. We laugh and play, yet few ask: what is this holiday really celebrating?
 
-答案或许出人意料：它在庆祝“我不知道”。
-
----
-
-## 一、愚人节的由来：一场颠倒的狂欢
-
-关于愚人节的来历，说法不一。流传最广的与1582年法国的历法改革有关。格里高利历将新年从四月一日改到一月一日，那些依然在四月一日庆祝新年的人，便被人送假礼物、请去不存在的聚会，成了“四月愚人”(Poisson d’avril,直译“四月鱼”，据说因为四月鱼儿产卵，最容易上钩)。
-
-但它的根还可以扎得更深。古罗马有个“嬉乐节”(Hilaria)，每年三月二十五日，人们纪念女神西布莉，庆祝春分之后的重生。那是一个颠倒秩序的日子：奴隶与主人互换身份，人们戴上面具，扮成别人。狂欢之中，日常的权威被暂时悬置，真实与虚假的边界也模糊起来。
-
-中世纪的欧洲还有“愚人节”(Feast of Fools)，低中阶的教士扮演主教，用滑稽的方式模仿圣礼。教会屡禁不止，正说明这种“颠倒”植根于人性深处——我们太需要一天，可以名正言顺地“不知道”。
-
-“愚人”在拉丁语里叫*fatuus*，不单指愚蠢，更是一种**天真、轻信、对常规秩序暂时放下**的状态。愚人节的核心精神，恰恰是让“愚”变成一面镜子，照出我们日常所谓的“智”，是何等有限。
+The answer may be surprising: it is celebrating "I don't know."
 
 ---
 
-## 二、愚、蠢、笨、傻、呆、痴：一场汉字里的考古
+## One: The Origins of April Fools' Day: A Carnival of Reversal
 
-中文里形容“不聪明”的词特别多。这本身就耐人寻味——我们总是急着把人分成聪明的和不聪明的，却很少去想，这些字，原本是什么意思?
+Accounts of the origins of April Fools' Day vary. The most widespread story relates to the calendar reform in France in 1582. The Gregorian calendar moved New Year's Day from April 1st to January 1st, and those who still celebrated New Year on April 1st were given fake gifts, invited to nonexistent gatherings, and became "April fools" (Poisson d'avril, literally "April fish," supposedly because fish spawn in April and are easiest to catch).
 
-**愚**
+But its roots can reach even deeper. Ancient Rome had the festival of "Hilaria," on March 25th each year, when people honored the goddess Cybele (西布莉) and celebrated rebirth after the spring equinox. It was a day of reversed order: slaves and masters swapped identities, people wore masks and pretended to be others. In the revelry, everyday authority was temporarily suspended, and the boundary between truth and falsehood blurred.
 
-《说文解字》：“愚，戆也。从心从禺。禺，猴属，兽之愚者。”段玉裁注解：“禺，猴属，其性痴顽。”愚的本义，是心性像猴子一样——顽劣、不通透、固执。但它不全是贬义。孔子说过：“其智可及也，其愚不可及也。”这里的“愚”，是大智若愚的愚，是“明知不可为而为之”的那股执拗。愚公移山，愚的是一股心劲，不是智力不行。
+Medieval Europe also had the "Feast of Fools," where lower-ranking clergy played bishops and mockingly imitated sacred rites. The Church repeatedly banned it without success, precisely demonstrating that this "reversal" is rooted deep in human nature — we so deeply need a day when we can legitimately "not know."
 
-**蠢**
-
-《说文》：“蠢，虫动也。”本义是春天虫子苏醒、蠕动的样子。由虫子盲目地爬动，引申出鲁莽、笨拙的意思。但“蠢”里藏着生命最初的萌动，虽不精巧，却满是生机。
-
-**笨**
-
-《说文》：“笨，竹篾也。”本是竹子内层的白皮，质地粗糙，后来引申为粗笨、不灵活。笨说的是材料的质地，不是人的本性。
-
-**傻**
-
-“傻”字出现得晚，本义是愚蠢、糊涂。《广韵》说：“傻，傻俏，不仁。”但在口语里，“傻”常常带着亲昵——傻孩子，傻得可爱。傻是一种没有心机的状态。
-
-**呆**
-
-“呆”原本写作“騃”，像木头一样，不灵活。呆里有“静止”的意思。我们常说“发呆”，那是大脑暂时放空，不是真傻。呆是一种停顿，是不被外界信息轰炸的安宁。
-
-**痴**
-
-《说文》：“痴，不慧也。”痴是病字旁，表示一种病态。但痴也是“痴情”的痴——太过投入，忘了利害。李商隐说“春蚕到死丝方尽”，是痴；杜丽娘因梦而死，也是痴。痴是爱到了极致。
-
-这些字，每一个都不只是“不聪明”。它们指向人心不同的状态：固执、萌动、粗粝、天真、静止、沉迷。某种意义上，它们正是“知道”的反面——当我们太自以为什么都知道的时候，恰恰失去了这些状态里珍贵的东西。
+"Fool" in Latin is *fatuus*, not merely meaning stupid, but a state of **innocence, credulity, and temporarily letting go of conventional order**. The core spirit of April Fools' Day is precisely making "foolishness" into a mirror that reflects how limited our everyday so-called "wisdom" truly is.
 
 ---
 
-## 三、我不知道我知道：苏格拉底的智慧
+## Two: 愚, 蠢, 笨, 傻, 呆, 痴: An Archaeology in Chinese Characters
 
-两千多年前，德尔斐神庙上刻着一句箴言：“认识你自己。”苏格拉底以此为起点，却走向了另一个结论：我唯一知道的，就是我一无所知。
+Chinese has a particularly large number of words for "not smart." This itself is intriguing — we are always eager to divide people into smart and not smart, yet rarely consider what these characters originally meant.
 
-这不是谦虚。在《申辩篇》里，苏格拉底说，神之所以认为他最聪明，是因为他承认自己的无知，而别人连这一点都不知道。他到处与人对话，发现诗人不懂自己写的诗，政治家不懂正义，工匠懂手艺，却误以为自己什么都懂。
+**愚 (yú)**
 
-“我不知道”不是放弃求索，而是**打开好奇的入口**。正因为知道自己不知道，才会去追问；正因为知道自己不知道，才会去倾听；正因为知道自己不知道，才不会把自己的偏见当作真理。
+The *Shuowen Jiezi* (说文解字): "愚, 戆也. From 心 (heart) and 禺. 禺, monkey-like, the foolish among beasts." Duan Yucai's annotation: "禺, monkey-like, its nature is stubborn and dull." The original meaning of 愚 is a heart-nature like a monkey — stubborn, opaque, obstinate. But it is not entirely pejorative. Confucius said: "His wisdom may be attainable, but his foolishness cannot be attained." The 愚 here is the foolishness of great wisdom appearing as folly — the stubborn persistence of "doing what one knows cannot be done." Yugong (愚公, the Foolish Old Man) moving mountains — the foolishness is a determination of spirit, not a lack of intelligence.
 
-愚人节的精神，和苏格拉底一脉相承。这一天，我们放下“我什么都知道”的姿态，戴上愚人的帽子。我们假装被骗，也假装骗人。我们故意犯错，也宽容别人的错误。因为我们心里明白：日常的秩序不过是众多可能之一，我们以为的“聪明”，也许只是另一种愚蠢。
+**蠢 (chǔn)**
 
----
+The *Shuowen*: "蠢, insects moving." The original meaning is insects awakening and wriggling in spring. From insects crawling blindly, it derived the sense of rashness and clumsiness. But 蠢 harbors the earliest stirrings of life — though unrefined, it is full of vitality.
 
-## 四、知无涯的博爱
+**笨 (bèn)**
 
-庄子说：“吾生也有涯，而知也无涯。以有涯随无涯，殆已！”用有限的生命去追逐无限的知识，是危险的。但庄子不是在劝人放弃求知，而是提醒我们：知识之外，还有更广阔的东西。
+The *Shuowen*: "笨, bamboo strips." Originally the white inner skin of bamboo, coarse in texture, later extended to mean clumsy and inflexible. 笨 describes the texture of a material, not the nature of a person.
 
-当一个人真正意识到“我不知道”的无限，他就不再急着评判别人。他知道，自己的“知道”不过是有限视角的一瞥，别人的“不知道”可能藏着另一种深刻的道理。中国有句老话：“满壶全不响，半壶响叮当。”知道得多的人，话反而少，因为他知道，每一次开口，都可能暴露自己的无知。
+**傻 (shǎ)**
 
-“我不知道”会生出一种特别的爱——博爱。它不是基于血缘或利益，而是基于**对他人未知的尊重**。正因为我不知道你的全部，我才会真正去听你说；正因为我不知道你的未来，我才不会替你安排人生；正因为我不知道你的痛苦，我才会小心翼翼地靠近，而不是轻率地给出建议。
+The character 傻 appeared late, originally meaning stupid and muddled. The *Guangyun* (广韵) says: "傻, 傻俏, without humanity." But in everyday speech, 傻 often carries affection — "silly child," "silly in a cute way." 傻 is a state without guile.
 
-关系里有一个朴素的道理：你以为你知道对方在想什么，其实你不知道。你以为你知道这段关系会怎样，其实你不知道。但正是这个“不知道”，让关系是活的，是不断生长的，是永远有惊喜的。
+**呆 (dāi)**
 
-如果一开始就“知道”了，关系也就到头了。苏格拉底从不给答案，他只提问。因为答案会关上对话的门，而问题会把门打开。
+呆 was originally written as 騃, like wood, inflexible. 呆 carries the meaning of "stillness." We often say "spacing out" (发呆) — that is the brain temporarily emptying, not truly being stupid. 呆 is a pause, a tranquility untouched by the bombardment of external information.
 
----
+**痴 (chī)**
 
-## 五、在愚人节，做一回愚人
+The *Shuowen*: "痴, not wise." 痴 has the illness radical, indicating a pathological condition. But 痴 is also the 痴 of "痴情" (infatuation) — too deeply invested, forgetting gain and loss. Li Shangyin (李商隐) wrote "the spring silkworm spins silk until death" — that is 痴; Du Liniang (杜丽娘) dying for a dream — that too is 痴. 痴 is love taken to its extreme.
 
-中国有个成语：“愚不可及。”今天，我们都拿它骂人。但它的原意是：大智若愚，那种“愚”的境界，一般人达不到。
-
-愚人节提醒我们：有一种智慧，恰恰以“愚”为表相。不急着下结论，不急着贴标签，不急着捍卫自己的正确。承认无知，就是承认自己还有成长的余地；承认无知，就是承认别人身上可能有我们看不见的深度；承认无知，就是承认这个世界永远比我们想的更复杂。
-
-中国还有句老话：“大智若愚。”自以为聪明的人，才是真糊涂。
-
-所以今天，不妨做一回愚人。承认自己不知道那个玩笑背后藏着几分真心，承认自己不知道爱人皱眉的原因，承认自己不知道明天的路该怎么走。然后，在“不知道”里，保持惊奇；在惊奇里，重新看见。
+Each of these characters is not merely "not smart." They point to different states of the human heart: stubbornness, stirring, roughness, innocence, stillness, devotion. In a certain sense, they are precisely the opposite of "knowing" — when we are too convinced that we know everything, we lose precisely what is precious in these states.
 
 ---
 
-## 结语：庆祝不知道
+## Three: I Don't Know That I Know: Socrates' Wisdom
 
-愚人节，不是嘲笑愚蠢，而是庆祝“不知道”。它让我们暂时摘下“聪明人”的面具，回到那个会好奇、会犯错、会为一句真话而惊喜的孩子。
+Over two thousand years ago, the Delphic temple bore an inscription: "Know yourself." Socrates took this as his starting point, yet arrived at another conclusion: the only thing I know is that I know nothing.
 
-**我不知道我知道**——这六个字，拆开来看：
-我——一个有限的个体
-不知道——承认边界
-我知道——依然相信探索的可能
+This is not modesty. In the *Apology*, Socrates says that the god considered him the wisest precisely because he admitted his ignorance, while others did not even know this. He conversed with people everywhere and discovered that poets did not understand their own poems, politicians did not understand justice, craftsmen understood their craft but mistakenly believed they understood everything.
 
-它不是傲慢的“全知”，也不是虚无的“不可知”，而是行走在两者之间的**谦卑与勇气**。
+"I don't know" is not abandoning inquiry, but **opening the gateway to curiosity**. Precisely because one knows one does not know, one asks; precisely because one knows one does not know, one listens; precisely because one knows one does not know, one does not treat one's prejudices as truth.
 
-当你对爱人说“我以为我了解你，但其实我可能并不了解”时，你不是在否定过去，而是在为未来留出惊奇。当你对朋友说“我不知道你怎么想，但我愿意听”时，你不是在显露无知，而是在给予最深的尊重。
+The spirit of April Fools' Day inherits directly from Socrates. On this day, we set aside the posture of "I know everything" and put on the fool's cap. We pretend to be deceived, and pretend to deceive. We deliberately make mistakes, and forgive others' mistakes. Because we understand in our hearts: the everyday order is only one of many possibilities, and what we consider "smart" may be just another form of foolishness.
 
-今天，愿我们都学会说：我不知道。然后，在不知道中，重新认识彼此。
+---
 
-愚人节快乐！愿你在不知道中，活得更加丰盈。
+## Four: The Universal Love of Boundless Ignorance
+
+Zhuangzi (庄子) said: "My life has a limit, but knowledge has no limit. To pursue the limitless with the limited is dangerous." Using finite life to chase infinite knowledge is perilous. But Zhuangzi is not urging us to abandon the pursuit of knowledge — he is reminding us: beyond knowledge, there is something even more vast.
+
+When a person truly realizes the infinitude of "I don't know," they no longer rush to judge others. They know that their own "knowing" is merely a glimpse from a finite perspective, and that others' "not knowing" may conceal another kind of profound truth. There is an old Chinese saying: "A full pot makes no sound, a half-full pot clangs loudly." Those who know much speak less, because they know that every utterance may expose their own ignorance.
+
+"I don't know" gives rise to a particular kind of love — universal love (博爱). It is not based on blood ties or interests, but on **respect for the unknown in others**. Precisely because I do not know all of you, I truly listen to what you say; precisely because I do not know your future, I will not arrange your life for you; precisely because I do not know your pain, I approach carefully rather than offering advice rashly.
+
+There is a simple truth in relationships: you think you know what the other person is thinking, but you don't. You think you know how this relationship will turn out, but you don't. Yet precisely this "not knowing" keeps the relationship alive, continuously growing, always holding surprises.
+
+If everything were "known" from the start, the relationship would have reached its end. Socrates never gave answers; he only asked questions. Because answers close the door of dialogue, while questions open it.
+
+---
+
+## Five: On April Fools' Day, Be a Fool for a Day
+
+There is a Chinese idiom: "愚不可及" (foolishness beyond reach). Today, we all use it to insult people. But its original meaning was: great wisdom appearing as folly — that realm of "foolishness" is one that ordinary people cannot attain.
+
+April Fools' Day reminds us: there is a kind of wisdom that恰恰 presents itself as "foolishness." Not rushing to conclusions, not rushing to label, not rushing to defend one's correctness. Admitting ignorance is admitting one still has room to grow; admitting ignorance is admitting others may possess depths we cannot see; admitting ignorance is admitting this world is always more complex than we imagine.
+
+There is another old Chinese saying: "Great wisdom appears as folly" (大智若愚). Those who think themselves clever are the truly muddled ones.
+
+So today,不妨 be a fool for once. Admit you don't know how much truth lies behind that joke, admit you don't know the reason for your loved one's frown, admit you don't know which path to take tomorrow. Then, within "not knowing," preserve wonder; within wonder, see again.
+
+---
+
+## Conclusion: Celebrating Not-Knowing
+
+April Fools' Day is not about mocking stupidity, but celebrating "not knowing." It lets us temporarily remove the mask of the "smart person" and return to that child who is curious, who makes mistakes, who is delighted by a single true word.
+
+**I don't know that I know** — these six words, unpacked:
+I — a finite individual
+don't know — acknowledging boundaries
+I know — still believing in the possibility of exploration
+
+It is neither arrogant "omniscience" nor nihilistic "unknowability," but **humility and courage** walking between the two.
+
+When you say to your loved one "I thought I understood you, but perhaps I do not," you are not negating the past, but leaving room for wonder in the future. When you say to a friend "I don't know what you think, but I am willing to listen," you are not displaying ignorance, but offering the deepest respect.
+
+Today, may we all learn to say: I don't know. Then, within not knowing, rediscover each other.
+
+Happy April Fools' Day! May you live more abundantly within not knowing.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

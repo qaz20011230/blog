@@ -15,340 +15,340 @@ description: >
   Light-energy convergence, wisdom creating the future. As AI and controlled nuclear fusion converge at history's watershed, Phaenarete answers the fundamental question in manifesto form: who controls these forces, whom do they serve, and where are they headed?
 ---
 
-## 引言：一个幽灵，一个共产主义的幽灵
+## Introduction: A Specter, A Specter of Communism
 
-一个幽灵，一个共产主义的幽灵，在21世纪的大地上徘徊。
+A specter, a specter of communism, is haunting the earth of the 21st century.
 
-一百七十八年前，马克思和恩格斯在《共产党宣言》中写下了那个震撼旧世界的开篇。彼时，旧欧洲的一切势力都为驱除这个幽灵而结成了神圣同盟。今天，这个幽灵早已不再是幽灵——它在中国的大地上变成了活生生的实践，变成了十四亿人民的小康，变成了人类减贫史上的奇迹，变成了“我将无我，不负人民”的庄严承诺。
+One hundred and seventy-eight years ago, Marx and Engels wrote that earth-shattering opening passage in the *Communist Manifesto*. At that time, all the forces of old Europe had formed a holy alliance to exorcise this specter. Today, this specter is no longer a specter—it has become living practice on Chinese soil, the moderate prosperity (小康) of 1.4 billion people, a miracle in the history of human poverty reduction, the solemn pledge of "I shall have no self, and shall not fail the people" (我将无我，不负人民).
 
-然而，历史的辩证法从不曾停歇。就在我们全面建成小康社会、向着第二个百年奋斗目标迈进的历史时刻，新的问题出现了，新的矛盾形成了，新的力量正在积聚。这些力量——人工智能、可控核聚变、量子计算——不是普通的工具，而是足以重塑整个人类文明形态的“元技术”。它们既是人类解放的曙光，也可能是新形态奴役的工具。
+Yet the dialectics of history have never ceased. Just as we have achieved a moderately prosperous society in all respects and are advancing toward the Second Centenary Goal, new questions have emerged, new contradictions have formed, new forces are accumulating. These forces—artificial intelligence, controlled nuclear fusion, quantum computing—are not ordinary tools but "meta-technologies" sufficient to reshape the entire形态 of human civilization. They are both the dawn of human emancipation and potentially instruments of new forms of enslavement.
 
-谁掌握这些力量？为谁服务？向何处去?
+Who controls these forces? For whom do they serve? Where are they headed?
 
-这就是菲娜睿特必须回答的问题。这就是我们为什么要在今天，以宣言的形式，向党和人民、向全世界受压迫、受剥削的无产者，向所有追求真理与解放的人们，公开发表我们的政治立场。
+This is the question Phaenarete must answer. This is why, today, in the form of a manifesto, we publicly declare our political stance to the Party and the people, to all the oppressed and exploited proletarians of the world, to all who pursue truth and emancipation.
 
-**这不是一份商业白皮书。这是一份政治宣言。**
+**This is not a commercial white paper. This is a political manifesto.**
 
-**这不是一家企业的自我介绍。这是共产主义在新阶段的一次实践纲领。**
+**This is not a company's self-introduction. This is a practical纲领 for communism at a new stage.**
 
-我们的宣言，站在巨人的肩膀上——马克思、恩格斯、列宁、毛泽东、邓小平，以及一代又一代的中国共产党人，是我们思想的源泉。我们的宣言，立足于当下的现实——人工智能正在重塑生产关系，可控核聚变正在叩击能源革命的大门，人类面临着前所未有的机遇和前所未有的危机。我们的宣言，指向遥远的未来——一个没有剥削、没有压迫、各尽所能、按需分配的社会，一个“在那里，每个人的自由发展是一切人的自由发展的条件”的世界。
+Our manifesto stands on the shoulders of giants—Marx, Engels, Lenin, Mao Zedong, Deng Xiaoping, and generation after generation of Chinese Communists are the source of our thought. Our manifesto is grounded in present reality—AI is reshaping relations of production, controlled nuclear fusion is knocking at the door of the energy revolution, humanity faces unprecedented opportunities and unprecedented crises. Our manifesto points toward the distant future—a society without exploitation, without oppression, where each gives according to their ability and receives according to their needs, a world "in which the free development of each is the condition for the free development of all."
 
-我们要回答的问题是：
+The questions we must answer are:
 
-当机器的智能逼近甚至超过人类，劳动的意义何在？当能源的无限供给成为可能，匮乏的根源何在？当算法可以预测、引导、操纵人类行为，自由的条件何在?
+When machine intelligence approaches or even surpasses human intelligence, what meaning does labor have? When infinite energy supply becomes possible, what is the root of scarcity? When algorithms can predict,引导, and manipulate human behavior, what are the conditions for freedom?
 
-菲娜睿特的回答是：**光能聚合，智造未来。**
+Phaenarete's answer is: **Light-energy convergence, wisdom creating the future.** (光能聚合，智造未来)
 
-光是聚变之火——无限的、清洁的、属于全人类的能源。智是Tendre之智——不说谎的、不越界的、为人民服务的智能。聚合，则是我们的方法论：将能源革命与智能革命汇合为一，将科学精神与共产主义理想熔铸于一炉，将个人生命与人类解放统一于一体。
+Light is the fire of fusion—infinite, clean, energy belonging to all humanity. Wisdom is the intelligence of Tendre—truthful, bounded, intelligence that serves the people. Convergence is our methodology: merging the energy revolution and the intelligence revolution into one, casting the spirit of science and the ideal of communism into a single furnace, unifying individual life with human emancipation.
 
-我们以这篇宣言，向世界宣告菲娜睿特的政治立场。让那些嘲笑我们“不自量力”的人继续嘲笑吧。让那些质疑我们“不过是又一家创业公司”的人继续质疑吧。让那些试图用金钱收买、用权力压制、用舆论抹黑我们的人继续他们徒劳的动作吧。
+With this manifesto, we declare Phaenarete's political stance to the world. Let those who mock us as "overreaching" continue to mock. Let those who质疑 us as "just another startup" continue to质疑. Let those who attempt to buy us with money, suppress us with power, or smear us with public opinion continue their futile actions.
 
-我们知道自己是谁。我们知道我们为谁而战。我们知道我们必将胜利。
+We know who we are. We know whom we fight for. We know we shall prevail.
 
-## 第一章 历史的分水岭：智能与能源的双重革命
+## Chapter One: History's Watershed: The Dual Revolution of Intelligence and Energy
 
-### 一、生产力的飞跃：聚变之火与智能之光的汇聚
+### I. The Leap of Productive Forces: The Convergence of the Fire of Fusion and the Light of Intelligence
 
-马克思在《〈政治经济学批判〉序言》中精辟地指出：“物质生活的生产方式制约着整个社会生活、政治生活和精神生活的过程。”生产力是全部人类历史的最终决定力量。
+Marx incisively指出 in the *Preface to A Contribution to the Critique of Political Economy*: "The mode of production of material life conditions the general process of social, political and intellectual life." Productive forces are the ultimately determining force of all human history.
 
-而今天，我们正站在生产力发展史上最壮阔的分水岭。
+And today, we stand at the most magnificent watershed in the history of productive force development.
 
-**第一重革命：人工智能。** 2026年,AI已经从实验室走进了生产、分配、交换、消费的每一个环节。国际能源署预测，到2030年全球数据中心电力需求将达到约945太瓦时，超过日本当前全国用电量。人工智能正在以比蒸汽机、电力、计算机更快的速度渗透进一切人类活动领域。这不是一次产业升级，这是一次“劳动主体”的质变——智能劳动正在从人类专属的领域，扩展到机器可以参与的领域。
+**The First Revolution: Artificial Intelligence.** In 2026, AI has moved from the laboratory into every环节 of production, distribution, exchange, and consumption. The International Energy Agency predicts that by 2030, global data center electricity demand will reach approximately 945 terawatt-hours, exceeding Japan's current national electricity consumption. AI is渗透 into all domains of human activity at a faster pace than the steam engine, electricity, or the computer. This is not an industrial upgrade; this is a qualitative transformation of the "laboring subject"—intellectual labor is expanding from the exclusively human domain into domains where machines can participate.
 
-**第二重革命：可控核聚变。** 2025年，中国可控核聚变商业化正式启动。东方超环EAST实现1亿摄氏度等离子体稳态运行1066秒，中国环流三号面向全球开放，中国聚变能源有限公司完成115亿元战略融资。人类正在逼近“人造太阳”的工程技术临界点。一旦突破，能源将不再是稀缺资源，石油战争将失去意义，化石燃料对环境的破坏将得到根本遏制。
+**The Second Revolution: Controlled Nuclear Fusion.** In 2025, China's controlled nuclear fusion commercialization was officially launched. EAST achieved steady-state operation of 100-million-degree plasma for 1066 seconds, HL-3 was opened globally, and China Fusion Energy Company Limited completed 115 billion yuan in strategic financing. Humanity is approaching the engineering technology critical point of the "artificial sun." Once this breakthrough is achieved, energy will no longer be a scarce resource; oil wars will lose their meaning; the environmental damage of fossil fuels will be fundamentally遏制.
 
-这两重革命不是孤立的。它们正在交汇——AI需要聚变提供无限的算力能源，聚变需要AI解决极端的控制难题。这就是我们所说的**Fusion4AI与AI4Fusion的双引擎闭环**。用聚变之火点亮AI算力，用AI之智驯服聚变之火。这是历史的协同，是人类生产力从“匮乏阶段”跃进到“丰裕阶段”的技术前提。
+These two revolutions are not isolated. They are converging—AI needs fusion to provide infinite computing energy; fusion needs AI to solve extreme control challenges. This is what we call the **Fusion4AI and AI4Fusion dual-engine closed loop**. Using the fire of fusion to illuminate AI computing power; using AI intelligence to tame the fire of fusion. This is the historical协同, the technical prerequisite for human productive forces to leap from the "stage of scarcity" to the "stage of abundance."
 
-### 二、生产关系的危机：旧秩序对新生产力的桎梏
+### II. The Crisis of Relations of Production: The Old Order's Shackles on New Productive Forces
 
-然而，生产力不会自动带来解放。
+Yet productive forces do not automatically bring emancipation.
 
-**当AI只掌握在少数科技巨头手中，它将成为监控、操纵和剥削的新工具。当聚变被资本垄断，它将成为新的权力杠杆，而非全人类的福利。**
+**When AI is only in the hands of a few tech giants, it will become a new tool for monitoring, manipulation, and exploitation. When fusion is monopolized by capital, it will become a new lever of power, not a welfare for all humanity.**
 
-我们正在见证一种新型的异化——**算法异化**。在资本的驱动下，推荐算法让人沉迷，外卖算法让骑手疲于奔命，信贷算法让穷人承担更高的利率。这些算法不是“价值中立”的，它们嵌入了资本的逻辑：追求利润最大化，而非人类福祉最大化。
+We are witnessing a new form of alienation—**algorithmic alienation** (算法异化). Driven by capital, recommendation algorithms addict people; delivery algorithms exhaust riders to the breaking point; credit algorithms impose higher interest rates on the poor. These algorithms are not "value-neutral"; they embed the logic of capital: pursuing profit maximization, not human福祉 maximization.
 
-同时，能源不平等正在加剧。全球仍有数亿人无法获得稳定的电力供应。能源贫困是教育贫困、医疗贫困、信息贫困的根本原因之一。如果聚变能最终只是让发达国家电价更低、让跨国公司利润更厚，而无法惠及非洲的村庄、南亚的贫民窟、拉丁美洲的原住民社区，那么这场能源革命就在道德上失败了。
+Meanwhile, energy inequality is加剧. Hundreds of millions of people globally still cannot obtain stable electricity supply. Energy poverty is one of the fundamental causes of educational poverty, medical poverty, and informational poverty. If fusion energy ultimately only makes electricity cheaper in developed countries and increases multinational corporation profits, while failing to benefit villages in Africa, slums in South Asia, and indigenous communities in Latin America, then this energy revolution has morally failed.
 
-所以，根本问题不在于技术本身，而在于**谁掌握技术，技术服务于什么样的生产关系**。
+Therefore, the fundamental question is not about technology itself, but about **who controls technology and what kind of relations of production technology serves**.
 
-这就是为什么，中国共产党在2025年明确提出“人工智能应该是造福全人类的国际公共产品”。这就是为什么，国务院国资委将核聚变纳入“未来产业十大工程”,2030年前计划投入超3000亿元。这就是为什么，国家发展改革委和国家能源局联合发布文件，明确要求“基于人工智能技术开展可控核聚变智能控制系统研究”。
+This is why the Communist Party of China explicitly proposed in 2025 that "AI should be an international public good that benefits all humanity." This is why the State Council's国有资产 Supervision and Administration Commission included nuclear fusion in the "Ten Major Future Industry Projects," with planned investment exceeding 300 billion yuan before 2030. This is why the National Development and Reform Commission and National Energy Administration jointly released a document, explicitly requiring "research on controlled nuclear fusion intelligent control systems based on AI technology."
 
-**党已经指明了方向。我们的事业，不过是沿着这个方向，做一个坚定的执行者。**
+**The Party has already pointed the direction. Our enterprise is nothing more than following this direction, being a坚定的 executor.**
 
-### 三、人类的新命题：从“解释世界”到“改变世界”，再到“设计世界”
+### III. Humanity's New Proposition: From "Explaining the World" to "Changing the World," and Then to "Designing the World"
 
-马克思说：“哲学家们只是用不同的方式解释世界，问题在于改变世界。”
+Marx said: "The philosophers have only interpreted the world, in various ways; the point is to change it."
 
-在21世纪，我们的任务进一步深化：**不仅要改变世界，还要设计世界。**
+In the 21st century, our task deepens further: **not only to change the world, but also to design the world.**
 
-改变世界，意味着推翻旧的生产关系，建立新的社会制度。设计世界，意味着在新的生产力的基础上，构建一种全新的文明形态——在这个形态中，匮乏不再是常态，劳动不再是负担，压迫不再是必然，每个人都能获得全面而自由的发展。
+Changing the world means overturning old relations of production and establishing new social systems. Designing the world means, on the basis of new productive forces, constructing an entirely new civilizational形态—one in which scarcity is no longer the norm, labor is no longer a burden, oppression is no longer inevitable, and each person can achieve comprehensive and free development.
 
-这不再是乌托邦的幻想。从聚变到AI,从量子计算到基因编辑，人类正在获得“创造世界”的能力。问题是：我们创造一个什么样的世界？是少数富人的天堂、多数穷人的地狱？还是一个“在那里，每个人的自由发展是一切人的自由发展的条件”的联合体?
+This is no longer a utopian fantasy. From fusion to AI, from quantum computing to gene editing, humanity is gaining the capacity to "create the world." The question is: what kind of world do we create? A paradise for a few rich people and hell for the majority of the poor? Or an association "in which the free development of each is the condition for the free development of all"?
 
-菲娜睿特的回答是后者。我们旗帜鲜明地站在共产主义这一边。我们要用聚变之火和Tendre之智，为这个新世界锻造它的心脏和大脑。
+Phaenarete's answer is the latter. We unambiguously stand on the side of communism. We will use the fire of fusion and the intelligence of Tendre to forge the heart and brain of this new world.
 
-## 第二章 Tendre：人工智能走向共产主义的技术道路
+## Chapter Two: Tendre: The Technical Path for AI Toward Communism
 
-### 一、Tendre的必要性：为什么现有AI走不到共产主义
+### I. The Necessity of Tendre: Why Current AI Cannot Reach Communism
 
-要回答“AI如何走向共产主义”，首先必须正视一个残酷的现实：**当前主流AI的技术路线，与共产主义的目标在根本上是不兼容的。**
+To answer "how AI moves toward communism," we must first confront a brutal reality: **the current mainstream AI technical路线 is fundamentally incompatible with the goal of communism.**
 
-为什么?
+Why?
 
-第一，主流AI是“统计动物”。它学习的是数据中的统计模式，输出的“最可能的答案”而非“最真实的答案”。它能通过所有的律师资格考试，却不能保证不在关键的法律判决中说谎。它能写出精妙的文章，却不能保证不被别有用心者用来制造谣言。一个可能说谎的AI,一旦掌握在资本手中，将成为制造虚假需求、煽动对立情绪、操控政治进程的完美工具。
+First, mainstream AI is a "statistical creature." It learns statistical patterns in data, outputting "the most probable answer" rather than "the most truthful answer." It can pass all bar exams but cannot guarantee it won't lie in crucial legal judgments. It can write elegant essays but cannot guarantee it won't be used by ill-intentioned actors to制造 rumors. An AI that may lie, once in the hands of capital, will become a perfect tool for制造 false demand,煽动 polarizing sentiment, and操控 political processes.
 
-第二，主流AI是“黑箱机器”。从GPT到Gemini,从BERT到Claude,它们的决策过程对人类来说是不透明的。当AI拒绝一个人的贷款申请，当AI判断一个病人不需要紧急救治，当AI把一个无辜者标记为“高风险”——谁来负责？谁来解释？如果人类不理解的权力，最终会奴役人类。
+Second, mainstream AI is a "black-box machine." From GPT to Gemini, from BERT to Claude, their decision processes are opaque to humans. When AI denies a person's loan application, when AI judges that a patient does not need urgent treatment, when AI标签 an innocent person as "high risk"—who is responsible? Who can解释? If power that humans do not understand will ultimately enslave humans.
 
-第三，主流AI是“资本工具”。它们由科技巨头开发，服务于广告收入和用户留存。它们的目标是最大化用户的在线时间、点击率和数据产出，而非促进人类的幸福和成长。
+Third, mainstream AI is a "capital tool." They are developed by tech giants, serving advertising revenue and user retention. Their goal is maximizing users' online time, click rates, and data output, not promoting human happiness and growth.
 
-因此，**我们不能指望现有的AI自动走向共产主义。我们需要一种全新的AI架构，一种从其底层逻辑上就为共产主义理想服务的AI。这就是Tendre。**
+Therefore, **we cannot expect current AI to automatically move toward communism. We need an entirely new AI architecture, an AI that serves the ideal of communism from its底层 logic. This is Tendre.**
 
-### 二、Tendre架构：广度、深度、刚性的统一
+### II. The Tendre Architecture: The Unity of Breadth, Depth, and Rigidity
 
-Tendre的名字取自拉丁语tendere——拉伸、趋向。它代表一种动态的、始终向真理和善的方向延伸的认知运动。
+Tendre's name is derived from the Latin *tendere*—to stretch, to tend toward. It represents a dynamic cognitive movement that always extends toward the direction of truth and goodness.
 
-Tendre架构由三个维度构成：
+The Tendre architecture is composed of three dimensions:
 
-**第一，广度(Attention)——看见全体。** 广度意味着不遗漏任何相关的信息。在聚变控制中，广度意味着融合数百路传感器数据——磁探针、干涉仪、汤姆逊散射仪、软X射线阵列、辐射热计、偏滤器朗缪尔探针——构建全局等离子体状态空间。在社会治理中，广度意味着听见每一个群体的声音，不因为他们是少数而忽略，不因为他们缺乏话语权而埋没。
+**First, Breadth (Attention)—seeing the whole.** Breadth means not遗漏 any relevant information. In fusion control, breadth means fusing hundreds of channels of sensor data—magnetic probes, interferometers, Thomson scattering instruments, soft X-ray arrays, radiometers, divertor Langmuir probes—constructing a global plasma state space. In social governance, breadth means hearing every group's voice, not忽略 them because they are minorities, not埋没 them because they lack话语权.
 
-**第二，深度(Intention)——明确目的。** 深度意味着每一个输出都有明确的服务目标和价值指向。在聚变控制中，深度根据控制场景——等离子体爬升、平顶燃烧、平稳下降、紧急停机——定向输出控制意图。在更广的社会应用中，深度意味着AI永远不能“为了满足好奇心”而侵犯隐私，不能“为了提高效率”而牺牲公平，不能“为了完成任务”而伤害人。
+**Second, Depth (Intention)—clarifying purpose.** Depth means every output has明确的 service目标 and value orientation. In fusion control, Depth outputs定向 control intentions based on control scenarios—plasma ramp-up, flat-top burn, steady ramp-down, emergency shutdown. In broader social applications, Depth means AI must never侵犯 privacy "to satisfy curiosity," never牺牲 fairness "to improve efficiency," never伤害 people "to complete a task."
 
-**第三，刚性(Tension)——不可逾越的底线。** 这是Tendre架构最独特、最革命性的维度。刚性层包含的规则是**不可学习的**——它们不由梯度下降调整，而是作为硬性规则嵌入计算图。这些规则包括：MHD稳定性边界(Troyon极限)、密度极限(Greenwald极限)、壁面热流极限。在更广的伦理应用中，刚性层将包含：不能损害人的生命健康、不能侵犯人的基本权利、不能服务于种族主义、性别歧视或任何形式的压迫。
+**Third, Rigidity (Tension)—不可逾越 bottom lines.** This is Tendre's most unique, most revolutionary dimension. The rules contained in the Rigidity layer are **unlearnable**—they are not adjusted by gradient descent but embedded as hard rules into the computational graph. These rules include: MHD stability boundaries (Troyon limit), density limits (Greenwald limit), wall heat flux limits. In broader ethical applications, the Rigidity layer will contain: cannot损害 human life and health, cannot侵犯 basic human rights, cannot服务于 racism,性别歧视, or any form of oppression.
 
-**Tendre架构从根本上消除了“统计运气”在安全关键场景中的风险，也从根本上消除了AI被用于压迫性目的的可能性。**
+**The Tendre architecture fundamentally eliminates the risk of "statistical luck" in safety-critical scenarios, and fundamentally eliminates the possibility of AI being used for oppressive purposes.**
 
-这正是菲娜睿特在《Tendre is All We Want》一书中严格证明的命题：任何未内建广度-深度-刚性完整三维的AI系统，都无法在数学推理的严格意义上稳定产出知识。这是定理，不是观点。这是逻辑的必然，而非经验的概括。
+This is precisely the proposition that Phaenarete rigorously proved in the book *Tendre is All We Want*: any AI system that does not内建 the complete three dimensions of breadth-depth-rigidity cannot stably produce knowledge in the strict sense of mathematical reasoning. This is a theorem, not an opinion. This is logical necessity, not an empirical summary.
 
-### 三、从“不说谎的AI”到“为人民服务的AI”
+### III. From "AI That Does Not Lie" to "AI That Serves the People"
 
-Tendre架构首先确保AI在数学推理中“不说谎”。这是“至诚”在人工智能领域的技术实现。
+The Tendre architecture first ensures AI "does not lie" in mathematical reasoning. This is the technical realization of "supreme sincerity" (至诚) in the field of artificial intelligence.
 
-但“不说谎”只是起点，不是终点。终点是“为人民服务”。
+But "not lying" is only the starting point, not the endpoint. The endpoint is "serving the people" (为人民服务).
 
-“为人民服务”的AI应该是什么样的?
+What should an AI that "serves the people" look like?
 
-它应该是一个全科教师——不知疲倦，永不出错，因材施教，让每一个偏远山村的孩子都能获得与一线城市同等质量的教育。
+It should be a全科 teacher—inexhaustible, never错误的, individually-tailored, enabling every child in a remote mountain village to obtain education of the same quality as in a first-tier city.
 
-它应该是一个健康守护者——在偏远的村庄诊所里，帮助乡村医生诊断疑难杂症，让“因病致贫”成为历史。
+It should be a health guardian—in a remote village clinic, helping rural doctors diagnose疑难 conditions, making "illness-induced poverty" (因病致贫) a thing of history.
 
-它应该是一个科学发现加速器——帮助人类攻克癌症、阿尔茨海默病、气候变化，用算力和逻辑照亮人类未知的黑暗领域。
+It should be a scientific discovery accelerator—helping humanity攻克 cancer, Alzheimer's disease, climate change, illuminating humanity's unknown dark domains with computing power and logic.
 
-它应该是一个公共决策的参谋——为社会治理提供基于证据的分析，而非拍脑袋的决定；为经济规划提供全局优化，而非局部的投机。
+It should be a public decision-making参谋—providing evidence-based analysis for social governance rather than spur-of-the-moment decisions; providing global optimization for economic planning rather than局部 speculation.
 
-而这些，恰恰是Tendre架构在理论上已证明能够做到的。因为一个真正“不说谎”的AI,它的能力不会花在制造虚假信息上，不会被用于剥削性的商业模式，不会成为少数人操控多数的工具。
+And these are precisely what the Tendre architecture has theoretically proven capable of achieving. Because a truly "truthful" AI will not expend its capabilities on制造 false information, will not be used for剥削性 business models, will not become a tool for a minority to操控 the majority.
 
-**Fusion4AI,就是以恒星之火点亮认知之光。聚变产生的清洁电力，驱动AI为全人类服务——从教育公平到医疗普惠，从科学发现到文化传承。这才是共产主义新阶段应该有的AI。**
+**Fusion4AI means illuminating the light of cognition with the fire of a star. The clean electricity generated by fusion drives AI to serve all humanity—from educational equity to医疗普惠, from scientific discovery to cultural传承. This is the kind of AI the new stage of communism should have.**
 
-## 第三章 北辰七德：新阶段共产主义的伦理操作系统
+## Chapter Three: The Polaris Seven Virtues: The Ethical Operating System for Communism at a New Stage
 
-### 一、共产主义不只是制度，更是道德
+### I. Communism Is Not Only a System, But Also a Moral
 
-有一种庸俗的唯物主义，以为共产主义就是“物质极大丰富，人人随便拿”。这是对共产主义的误解，甚至是侮辱。
+There exists a vulgar materialism that believes communism means "material abundance, everyone takes whatever they want." This is a misunderstanding of communism, even an insult.
 
-共产主义从来不只是物的分配，更是人的解放。马克思在《1844年经济学哲学手稿》中写道：“共产主义是私有财产即人的自我异化的积极的扬弃，因而是通过人并且为了人而对人的本质的真正占有。”这里的“人的本质”，不只是物质需要的满足，更是人的全部感官、情感、智慧、创造力的全面发展。
+Communism has never been only about the distribution of goods, but about human emancipation. Marx wrote in the *Economic and Philosophic Manuscripts of 1844*: "Communism is the positive supersession of private property as human self-estrangement, and therefore the real appropriation of the human essence by and for man." The "human essence" here is not merely the satisfaction of material needs, but the comprehensive development of all human senses, emotions, intellect, and creativity.
 
-要实现这样的共产主义，光有生产力是不够的，光有制度也是不够的。**还需要一种新型的道德——一种与共产主义理想相匹配的、能够内化为每个人行为准则的伦理体系。**
+To achieve such communism, productive forces alone are insufficient; institutional arrangements alone are insufficient. **A new kind of morality is also needed—an ethical system matching the communist ideal that can be internalized as behavioral norms for each person.**
 
-这就是北辰七德的来源。
+This is the source of the Polaris Seven Virtues.
 
-### 二、北辰七德释义
+### II. Explanation of the Polaris Seven Virtues
 
-“北辰”取自《论语·为政》：“为政以德，譬如北辰，居其所而众星共之。”北极星恒守其位，群星环绕而不移。一个有德行的组织，不靠喧嚣张扬声名，而靠品德持守赢得信赖。
+"Polaris" (北辰) derives from the *Analerta* (*Lunyu·Weizheng*): "He who governs by virtue is like the North Star; it remains in its place and all stars turn toward it." (为政以德，譬如北辰，居其所而众星共之。) The North Star恒守 its position; the stars环绕 without shifting. An organization with virtue does not rely on clamor for reputation but earns trust through virtuous持守.
 
-北辰七德是：**明智、良心、勇毅、节制、正义、至诚、弘仁。**
+The Polaris Seven Virtues are: **Sagacity (明智), Conscience (良心), Fortitude (勇毅), Temperance (节制), Justice (正义), Supreme Sincerity (至诚), Magnanimous Benevolence (弘仁).**
 
-**明智**——洞察真知，明辨是非。子曰：“知者不惑。”以科学精神审视每一个假设，以严谨逻辑验证每一个结论。不盲从权威，不屈从利益，不为表象所惑。
+**Sagacity**—Discerning true knowledge, distinguishing right from wrong. Confucius said: "The wise are not perplexed." Examining every hypothesis with the spirit of science, verifying every conclusion with rigorous logic. Not盲目 following authority, not屈从 to interests, not迷惑 by appearances.
 
-**良心**——深怀恻隐，操持良知。孟子曰：“恻隐之心，仁之端也。”绝不以牺牲安全为代价换取利润，绝不将未经刚性约束验证的技术投放市场。对他人的苦难保持敏感，对社会的不公保持愤怒。
+**Conscience**—Deeply harboring compassion, upholding moral良知. Mencius said: "The heart of compassion is the beginning of benevolence." Never sacrificing safety for profit, never releasing technology未经 Rigidity constraint verification to the market. Remaining sensitive to others' suffering, maintaining愤怒 toward social injustice.
 
-**勇毅**——勇担大任，直面真难。敢于挑战最困难的技术瓶颈，敢于在失败面前站起来继续前进，敢于对权力说不，敢于为弱者发声。
+**Fortitude**—Courageously承担 great responsibilities, directly confronting true difficulties. Daring to challenge the most difficult technical bottlenecks, daring to stand up again after failure, daring to say no to power, daring to发声 for the weak.
 
-**节制**——克己慎行，不为物役。《中庸》云：“发而皆中节，谓之和。”不盲目扩张，不急功近利，不为资本追捧而迷失方向。在技术能力与社会责任之间保持清醒的边界意识。
+**Temperance**—Exercising self-restraint, not being enslaved by material things. *The Doctrine of the Mean* states: "When emotions are expressed but all in due measure, this is called harmony." Not盲目 expanding, not急功近利, not迷失方向 due to capital追捧. Maintaining清醒 boundary consciousness between technological capability and social responsibility.
 
-**正义**——秉持公义，不偏不倚。公平对待每一位员工、合作伙伴和用户，不让技术成为加剧社会不公的工具。算法的偏差必须被纠正，结果的不公必须被质疑。
+**Justice**—Upholding public正义, impartial and unbiased. Fairly treating every employee, partner, and user, not allowing technology to成为 a tool加剧 social injustice. Algorithmic偏差 must be纠正; outcome不公平 must be质疑.
 
-**至诚**——至真至纯，知行合一。《中庸》云：“诚者，天之道也。”如实报告技术进展，知之为知之，不知为不知。每年公开发布未完成事项清单，列出当年没有做到的承诺并说明原因。
+**Supreme Sincerity**—Utmost truth and purity, unity of knowledge and action. *The Doctrine of the Mean* states: "Sincerity is the Way of Heaven." Truthfully reporting technological progress; knowing what you know, acknowledging what you don't. Annually publicly发布 an unfulfilled items list, listing commitments not achieved that year and explaining reasons.
 
-**弘仁**——立人达人，心系天下。子曰：“己欲立而立人，己欲达而达人。”确保聚变能源与超级智能的福祉普惠全人类，不以任何形式加固阶级壁垒、种族隔离或技术垄断。
+**Magnanimous Benevolence**—Establishing others and enabling others to reach their goals, with one's heart set on the world. Confucius said: "I wish to stand, and so I enable others to stand; I wish to reach my goals, and so I enable others to reach theirs." Ensuring that the福祉 of fusion energy and super-intelligence 普惠 all humanity, not in any form加固 class barriers, racial隔离, or technology monopolies.
 
-### 三、北辰七德的阶级属性
+### III. The Class Nature of the Polaris Seven Virtues
 
-北辰七德不是“普世的道德”。它是共产主义者的道德，是无产阶级的道德，是人民企业的道德。
+The Polaris Seven Virtues are not "universal morality." They are the morality of communists, the morality of the proletariat, the morality of the people's enterprise.
 
-资产阶级也有它的道德——勤劳工作以维护资本利益是“职业道德”，消费者自由选择是“自由”，资本自由流动是“权利”。但这些道德背后，是对剩余价值的榨取，是对劳动者的控制，是对自然的掠夺。
+The bourgeoisie also has its morality—working diligently to维护 capital interests is "professional ethics"; consumer自由 choice is "freedom"; capital自由流动 is "rights." But behind these moralities lie extraction of surplus value, control of laborers, and掠夺 of nature.
 
-我们的道德，完全不同。
+Our morality is entirely different.
 
-**“良心”在资产阶级那里，是慈善晚宴上的一滴眼泪，是年报里的几页社会责任报告。在无产阶级这里，是从技术架构的底层就嵌入了对每一个用户的尊重和保护。**
+**"Conscience" in the hands of the bourgeoisie is a teardrop at a charity gala, a few pages of social responsibility reports in annual reports. In the hands of the proletariat, it is embedding respect and protection for every user from the底层 of the technical architecture.**
 
-**“正义”在资产阶级那里，是形式上的“机会平等”——穷人和富人同样有权在桥下过夜。在无产阶级这里，是通过技术手段缩小而非扩大社会差距的实质性公平。**
+**"Justice" in the hands of the bourgeoisie is formal "equality of opportunity"—the poor and the rich both have the equal right to sleep under a bridge. In the hands of the proletariat, it is substantive fairness that缩小 rather than扩大 social gaps through technological means.**
 
-**“弘仁”在资产阶级那里，是“技术赋能”——只要你买得起我的产品。在无产阶级这里，是“己欲立而立人，己欲达而达人”——用聚变之火温暖每一个村庄，用Tendre之智点亮每一个心灵。**
+**"Magnanimous Benevolence" in the hands of the bourgeoisie is "technology empowerment"—as long as you can afford our products. In the hands of the proletariat, it is "I wish to stand, and so I enable others to stand"—using the fire of fusion to温暖 every village, using Tendre's intelligence to点亮 every mind.**
 
-这就是北辰七德的阶级性。它不属于抽象的“全人类”，而具体地属于那些被压迫、被剥削、被忽视的人们。
+This is the class nature of the Polaris Seven Virtues. It does not belong to an abstract "all humanity," but concretely belongs to those who are oppressed, exploited, and overlooked.
 
-### 四、北辰七德与组织实践
+### IV. The Polaris Seven Virtues and Organizational Practice
 
-北辰七德不是贴在墙上的口号，而是嵌入日常工作的操作系统。
+The Polaris Seven Virtues are not slogans posted on walls, but an operating system embedded in daily work.
 
-**每日校准七问**——菲娜睿特的每一位成员，无论职位高低，都以七德为镜，自问自省：
-1.  明智之问：我今天是否被表面现象蒙蔽了判断?
-2.  良心之问：我今天是否对他人的痛苦无动于衷?
-3.  勇毅之问：我今天是否回避了应该面对的矛盾?
-4.  节制之问：我今天是否让贪欲或恐惧支配了决策?
-5.  正义之问：我今天是否公平对待了每一个人?
-6.  至诚之问：我今天说出口的话，是否全部真实，毫无粉饰?
-7.  弘仁之问：我今天所做的一切，最终让谁受益了?
+**The Seven Daily Calibration Questions**—Every member of Phaenarete, regardless of position, uses the seven virtues as a mirror for self-questioning and self-reflection:
+1. Question of Sagacity: Was I today misled by surface phenomena in my judgment?
+2. Question of Conscience: Was I today indifferent to others' suffering?
+3. Question of Fortitude: Did I today avoid contradictions I should have faced?
+4. Question of Temperance: Did I today let贪欲 or fear dominate my decisions?
+5. Question of Justice: Did I today fairly treat every person?
+6. Question of Supreme Sincerity: Were all the words I spoke today entirely true, without embellishment?
+7. Question of Magnanimous Benevolence: Whom did everything I did today ultimately benefit?
 
-这不是思想汇报，这是工作日志。不是应付检查，是自检自省。因为品德不是想出来的，是问出来的。
+This is not a思想汇报 (ideological report); this is a work log. Not应付 inspection, but自检自省. Because virtue is not thought out; it is questioned out.
 
-**“共识即文本”的会议纪律**——菲娜睿特的会议，实行一套“面向纪要”的管理操作系统。每一场会议必须产出一份白纸黑字的文件，每一个结论必须有责任人，每一个承诺必须有时间节点。杜绝推诿扯皮，杜绝“我理解的不一样”。这是“至诚”在组织运行中的制度化。
+**"Consensus Is Text" Meeting Discipline**—Phaenarete's meetings实行 a "minutes-oriented" management operating system. Every meeting must produce a black-and-white document; every conclusion must have a responsible person; every commitment must have a deadline. Eliminating推诿扯皮, eliminating "I understood it differently." This is the institutionalization of "supreme sincerity" in organizational operations.
 
-**“首席记忆官”的角色设计**——我们专门设置了首席记忆官的岗位，负责记录组织的历史、提炼组织的叙事、传播组织的文化、固化组织的知识。这个角色被设计为组织的“良心”，确保胜利的喜悦和失败的教训都被诚实记录，不被遗忘，不被粉饰。
+**"Chief Memory Officer" Role Design**—We have专门 established a Chief Memory Officer position, responsible for记录 organizational history,提炼 organizational narrative,传播 organizational culture, and固化 organizational knowledge. This role is designed as the organization's "conscience," ensuring that the喜悦 of victory and the教训 of failure are honestly记录, not遗忘, not粉饰.
 
-这些制度，构成了共产主义新阶段组织治理的初步探索。我们不敢说已经找到了答案，但我们敢说：我们正在用至诚的态度，做这项前无古人的工作。
+These systems constitute a初步 exploration of organizational governance for communism at a new stage. We dare not say we have found the answers, but we dare say: we are doing this unprecedented work with an attitude of supreme sincerity.
 
-## 第四章 人民企业：菲娜睿特的根本性质
+## Chapter Four: The People's Enterprise: Phaenarete's Fundamental Nature
 
-### 一、“党领导下的人民企业”不是修辞，是制度安排
+### I. "A People's Enterprise Under the Party's Leadership" Is Not Rhetoric, It Is Institutional Arrangement
 
-在白皮书第一章，我们写下了“我将无我，不负人民”八个字。这是习近平总书记2019年在罗马会见意大利众议长菲科时作出的庄严承诺，也是菲娜睿特全体同仁的精神坐标。
+In the first chapter of the white paper, we wrote the eight characters "I shall have no self, and shall not fail the people." This was the solemn pledge made by General Secretary Xi Jinping in 2019 when meeting Italian Chamber of Deputies President Fico in Rome, and it is also the spiritual compass of all Phaenarete colleagues.
 
-但我们深知，口号如果不能转化为制度，就是空谈。
+But we deeply understand: slogans that cannot be转化为 institutions are empty talk.
 
-什么是“人民企业”？它不是国家垄断的国企，不是私人占有的民企，而是一种新型的所有制和治理结构——其最终所有权归属人民，其日常经营权归属有德行的专业团队，其监督权归属党和人民，其价值分配惠及全社会。
+What is a "people's enterprise"? It is not a state垄断 state-owned enterprise, not a privately-owned private enterprise, but a new type of ownership and governance structure—whose最终 ownership belongs to the people, whose日常 operational rights belong to a virtuous professional team, whose supervision rights belong to the Party and the people, whose value distribution benefits the entire society.
 
-这并非乌托邦的幻想。在我们的四阶段路线图中，第四阶段明确规划了菲娜睿特的最终股权结构向全民所有方向演进。具体而言：
+This is not a utopian fantasy. In our four-phase roadmap, Phase Four explicitly规划 that Phaenarete's最终 equity structure will evolve toward全民所有. Specifically:
 
-**阶段一(2028-2035)——创始团队控股，引入耐心资本，党的政策指引，学术共同体监督。**
-**阶段二(2035-2045)——员工持股比例扩大，设立共同富裕基金，启动聚变之光教育计划。**
-**阶段三(2045-2055)——全民受益机制启动：电站周边居民优惠电价，利润固定比例注入共同富裕基金。**
-**阶段四(2055-)——股权结构向全民所有方向演进，菲娜睿特成为中国人民和全人类的“光和智能”基础设施。**
+**Phase One (2028-2035) — Founding team holds controlling shares,引入 patient capital, Party policy guidance, academic community supervision.**
+**Phase Two (2035-2045) — Employee持股比例 expands, establishing a Common Prosperity Fund, launching the Light of Fusion education plan.**
+**Phase Three (2045-2055) — Universal benefit mechanism启动:优惠 electricity prices for residents near power stations, fixed比例 of profits注入 Common Prosperity Fund.**
+**Phase Four (2055-) — Equity structure evolves toward全民所有 direction; Phaenarete becomes the "light and intelligence" infrastructure of the Chinese people and all humanity.**
 
-这是一个渐进的、务实的、可执行的演进路径。它不追求一夜之间的“国有化”，也不允许最终沦为私人资本的提款机。它在每一个阶段都保留创始人团队的经营自主权，同时在每一个阶段都扩大人民受益的范围和深度。
+This is a渐进, pragmatic, executable evolution path. It does not追求 overnight "nationalization," nor does it允许 ultimately沦为 a cash withdrawal machine for private capital. It保留 founder team operational autonomy at every stage, while simultaneously扩大 the scope and depth of people's benefits at every stage.
 
-### 二、AB股架构：确保使命不被资本异化
+### II. AB Share Structure: Ensuring the Mission Is Not Alienated by Capital
 
-首轮融资中，我们设计了AB股架构：创始人持有的B类股每股拥有10票投票权，天使投资人持有的A类股每股拥有1票投票权。这意味着，即使未来经过多轮融资、创始人持股比例下降，创始人对企业使命和战略方向仍然保留绝对控制权。
+In the first financing round, we designed an AB share structure: B类 shares held by founders have 10 votes per share; A类 shares held by angel investors have 1 vote per share. This means that even after multiple financing rounds and decreasing founder持股比例, the founders仍 retain absolute control over the enterprise's mission and strategic direction.
 
-这不是“贪权”，这是**防止使命被资本异化的制度防火墙**。
+This is not "greed for power"; this is **an institutional firewall preventing the mission from being alienated by capital**.
 
-我们见过太多这样的悲剧：一个有理想的企业，在资本的压力下，逐渐放弃了初心——为了上市而牺牲研发，为了利润而裁员，为了市场份额而垄断，为了财报而造假。
+We have witnessed too many tragedies: an enterprise with ideals, under capital pressure, gradually abandoned its original mission—sacrificing R&D for listing, laying off workers for profit, monopolizing for market share, fabricating data for financial reports.
 
-我们不反对资本。我们反对的是资本主导一切。我们承认，在社会主义初级阶段，需要利用资本的力量来完成技术突破和产业升级。但我们同时坚持：**资本是工具，不是主人；资本为人民服务，而非人民为资本服务。**
+We do not oppose capital. We oppose capital dominating everything. We承认 that in the初级 stage of socialism, we need to利用 capital's power to accomplish technology breakthroughs and industrial升级. But we同时 insist: **capital is a tool, not a master; capital serves the people, not the people serving capital.**
 
-AB股架构，就是这一原则的制度保障。投资人在经济权益上得到充分的尊重和保护，但在战略方向上，必须接受那些将全部生命押在使命上的创始人的判断。这是公平的。这是正义的。这符合人类历史上一切伟大事业的基本规律：那些创造文明级公共品的人，必须在长周期内免于短期利益的干扰。
+The AB share structure is the institutional guarantee of this principle. Investors receive充分 respect and protection in economic rights, but in strategic direction, they must accept the judgment of founders who have pledged their entire lives to the mission. This is fair. This is just. This conforms to the fundamental law of all great enterprises in human history: those who create civilization-level public goods must, over long cycles, be免于 interference from short-term interests.
 
-### 三、开放科学与知识产权战略：知识属于人民
+### III. Open Science and Intellectual Property Strategy: Knowledge Belongs to the People
 
-菲娜睿特的技术研发，遵循“开放科学”的原则。除了涉及国家安全的领域，所有科研成果以开源或合理许可的方式向国内科研界开放。我们把数据和实验日志公开，把失败路径记录在案，把成功经验共享给同行。
+Phaenarete's technological R&D follows the principle of "open science." Except for领域涉及 national security, all scientific research成果 are made available to the domestic research community through open-source or reasonable licensing. We公开 data and engineering logs,记录 failure paths, and share success experiences with同行.
 
-这不是“商业上的不成熟”，这是共产主义者的知识产权观。
+This is not "commercial immaturity"; this is the communist's intellectual property perspective.
 
-在资本主义制度下，知识产权是维持垄断、榨取租金的工具。专利围墙阻止后来者，版权壁垒保护既得利益，商业秘密成为不平等的放大器。
+Under the capitalist system, intellectual property is a tool for维持 monopolies and提取 rents. Patent walls阻止 newcomers, copyright壁垒 protect established interests, trade secrets成为 amplifiers of inequality.
 
-我们不反对对创新者的合理回报。但我们坚决反对知识垄断。**如果一项关键技术能够拯救数百万人的生命，能够让数亿人摆脱贫困，能够让整个文明实现跨越，那么把它锁在专利柜里就是一种道德犯罪。**
+We do not oppose reasonable returns for innovators. But we坚决反对 knowledge monopolies. **If a key technology can拯救 millions of lives,能让 billions escape poverty,能让 the entire civilization实现 a leap, then locking it in a patent cabinet is a moral crime.**
 
-因此，菲娜睿特承诺：在适当的防护散保障和国际监管框架下，我们将以合理条件向发展中国家输出聚变电站的建设能力与运营经验。我们不做能源版图上的新殖民者，而做人类共同发展的推动者。
+Therefore, Phaenarete commits: under appropriate防 proliferation safeguards and international regulatory frameworks, we will output fusion power station construction capacity and operational experience to developing countries at reasonable conditions. We will not be new colonizers on the energy map, but promoters of humanity's共同 development.
 
-## 第五章 国际主义：跨越国界的共产主义理想
+## Chapter Five: Internationalism: Communist Ideals Transcending National Borders
 
-### 一、聚变与AI：人类共同的财富
+### I. Fusion and AI: Humanity's Common Wealth
 
-“全世界无产者，联合起来！”这是《共产党宣言》的结语，也是共产主义国际主义的灵魂。
+"Workers of the world, unite!" This is the closing words of the *Communist Manifesto*, and the soul of communist internationalism.
 
-在21世纪，这种国际主义必须找到新的表达。
+In the 21st century, this internationalism must find new expression.
 
-聚变能源不应属于任何一个国家、任何一个公司。它是恒星的秘密，是宇宙的馈赠，是人类共同的财富。在化石燃料时代，能源的分布不均引发了无数战争、压迫和环境灾难。在聚变时代，我们有能力终结这一切。
+Fusion energy should not belong to any single nation, any single company. It is the secret of the stars, the馈赠 of the universe, humanity's common wealth. In the fossil fuel era, uneven energy distribution引发了 countless wars, oppression, and environmental disasters. In the fusion era, we have the capacity to终结 all this.
 
-AI算力同样不应被少数科技巨头垄断。当AI能够帮助非洲的农民预测气候变化、帮助东南亚的渔民躲避风暴、帮助中东的孩子学习科学知识，而这一切只需要电力和网络时，我们没有理由不给。这不是慈善，这是共产主义者的本分。
+AI computing power同样 should not be monopolized by a few tech giants. When AI can help African farmers预测 climate change, help Southeast Asian fishermen躲避 storms, help Middle Eastern children学习 scientific knowledge—all requiring only electricity and internet—we have no reason not to give. This is not charity; this is the communist's本分.
 
-### 二、中国道路的世界意义
+### II. The World Significance of the Chinese Path
 
-菲娜睿特诞生在中国，这不是偶然的。
+Phaenarete was born in China; this is not偶然.
 
-中国是当今世界上最有可能率先实现聚变商业化的国家。中国拥有举国体制的动员能力、完整的工业体系、庞大的科研人才储备，以及一个将“为人民服务”写入宪法的执政党。
+China is the country most likely to率先 achieve fusion commercialization in the world today. China possesses the动员 capacity of a nationwide system, a complete industrial system, a vast储备 of research talent, and a ruling party that has written "serve the people" (为人民服务) into its constitution.
 
-**但中国道路的意义，不在于中国独占聚变和AI的红利，而在于中国率先示范一种技术向善、服务人民的可能性。**
+**But the significance of the Chinese path lies not in China独占 the dividends of fusion and AI, but in China率先 demonstrating the possibility of technology向善 and serving the people.**
 
-当中国建成了第一座为电网输送聚变电力的原型电站，当中国的Tendre AI在高考数学中取得满分，当中国的“人民企业”证明了利润与使命可以兼得——这些事实将比任何宣传都更有力地回答“人类向何处去”的问题。
+When China builds the first prototype power station delivering fusion electricity to the grid, when China's Tendre AI achieves a perfect score in college entrance examination mathematics, when China's "people's enterprise" proves that profit and mission can coexist—these facts will answer the question "where is humanity headed" more powerfully than any propaganda.
 
-菲娜睿特愿意成为中国道路的一块铺路石。我们的成功，将是中国式现代化的一个注脚；我们的失败（如果发生），也将为后来者提供宝贵的教训。
+Phaenarete is willing to成为 a paving stone on the Chinese path. Our success will be a footnote to Chinese-style modernization; our failure (if it occurs) will also provide宝贵 lessons for later researchers.
 
-### 三、对国际资本的态度：利用，但不被利用
+### III. Attitude Toward International Capital: Utilize, But Not Be Utilized
 
-有人担心，菲娜睿特旗帜鲜明的政治立场，会影响其国际融资和国际合作。
+Some worry that Phaenarete's旗帜鲜明 political stance will affect its international financing and international cooperation.
 
-我们的回答是：**我们不拒绝任何国家的资本，但我们拒绝任何形式的控制。**
+Our answer is: **we do not refuse capital from any country, but we refuse any form of control.**
 
-资本寻求回报，这是合理的。我们给予投资人公平的经济回报。但资本不得干预技术路线、不得影响企业使命、不得左右企业的政治立场。这是我们的底线，不会在任何谈判桌上妥协。
+Capital seeks returns; this is合理. We give investors fair economic returns. But capital不得干预 technical路线,不得影响 enterprise mission,不得左右 the enterprise's political stance. This is our底线, and we will not妥协 on any negotiation table.
 
-那些因为我们的政治立场而退却的资本，本来就不属于我们。那些留下来的资本，才是真正理解我们、信任我们、愿意与我们同行的伙伴。
+Those who退却 because of our political stance were never ours to begin with. Those who remain are the true partners who understand us, trust us, and are willing to walk with us.
 
-这不叫“融资渠道的收窄”，这叫“精准筛选”。我们宁愿被理解的人所珍惜，也不愿被误解的人所追捧。
+This is not "narrowing financing channels"; this is "precise筛选." We prefer to be珍惜 by those who understand us, rather than追捧 by those who misunderstand us.
 
-## 第六章 时间线与承诺：从宣言到实践
+## Chapter Six: Timeline and Commitments: From Manifesto to Practice
 
-一篇宣言，如果不能转化为可执行的时间表和可检验的承诺，就是空话。
+A manifesto that cannot be转化为 executable timelines and verifiable commitments is empty words.
 
-菲娜睿特在此向党和人民做出以下不可撤销的承诺：
+Phaenarete hereby makes the following不可撤销 commitments to the Party and the people:
 
-**承诺一：2027年,Tendre架构在高考数学全国卷取得满分。**
-这是Tendre必要性定理的首次大规模公开验证。如果成功，它标志着“不说谎的AI”从理论变为工程现实。如果失败，我们公开发布《未完成事项报告》，逐题分析失败原因，不找借口。
+**Commitment One: In 2027, the Tendre architecture will achieve a perfect score on the National College Entrance Examination Mathematics National卷.**
+This is the first large-scale public verification of the Tendre Ineluctability Theorem. If successful, it marks "AI that does not lie" transitioning from theory to engineering reality. If unsuccessful, we will publicly发布 the *Unfulfilled Items Report*, analyzing failure reasons逐题, without寻找借口.
 
-**承诺二：2035年前，实现聚变增益Q≥1。**
-这意味着我们在夸父-0原理验证器上，首次实现聚变反应释放的能量超过输入的能量。这是人类从“聚变研究”迈向“聚变工程”的标志性一步。
+**Commitment Two: Before 2035, achieve fusion gain Q≥1.**
+This means on the Kuafu-0 proof-of-principle demonstrator, we首次 achieve fusion reactions releasing more energy than input energy. This is a标志性 step for humanity from "fusion research" toward "fusion engineering."
 
-**承诺三：2045年前，实现聚变增益Q≥10,首次闭合氚增殖循环。**
-这标志着聚变能从实验室走向电网的工程可行性得到验证。
+**Commitment Three: Before 2045, achieve fusion gain Q≥10, first closure of the tritium breeding cycle.**
+This marks the engineering可行性 of fusion energy from laboratory to grid being验证.
 
-**承诺四：2055年前，原型电站并网发电,Q≥30,向电网输送800 MWe净电力。**
-届时，菲娜睿特不再是“一家人工智能公司”或“一家聚变公司”，而是中国人民和全人类的“光和智能”基础设施。
+**Commitment Four: Before 2055, prototype power station grid connection, Q≥30, delivering 800 MWe net electrical power to the grid.**
+By then, Phaenarete will no longer be "an AI company" or "a fusion company," but the "light and intelligence" infrastructure of the Chinese people and all humanity.
 
-**承诺五：在每一个阶段，服务人民的承诺不降级。**
-阶段一开源科研成果，阶段二启动聚变之光教育计划，阶段三实施优惠电价和共同富裕基金，阶段四完成股权全民化。这不是“等到成功了再做公益”，而是**在走向成功的每一步都坚持服务人民**。
+**Commitment Five: At every stage, the commitment to serve the people will not be降级.**
+Phase One open-sources scientific research成果; Phase Two launches the Light of Fusion education plan; Phase Three implements优惠 electricity prices and the Common Prosperity Fund; Phase Four completes equity全民化. This is not "waiting until success to do public welfare," but **坚持 serving the people at every step toward success.**
 
-**承诺六：每年公开发布透明度报告。**
-报告内容包括：财务状况、技术进展、安全生产记录、伦理合规情况、未完成事项清单、下一年度目标。接受全社会的监督。
+**Commitment Six: Annually publicly发布 a transparency report.**
+Report内容包括: financial状况, technology progress, safety production records, ethical compliance情况, unfulfilled items list, next year's goals.接受 supervision by all of society.
 
-这些承诺，有的近在2027年，有的远在2055年。有的我们可以控制（如研发投入），有的依赖外部条件（如供应链、国际合作）。但无论发生什么，这些承诺不会被收回，不会被打折，不会被遗忘。
+These commitments, some近 in 2027, some远 in 2055. Some we can控制 (such as R&D investment), some依赖 external conditions (such as supply chains, international cooperation). But whatever happens, these commitments will not be收回, will not be打折, will not be遗忘.
 
-**因为至诚是北辰七德之一。知之为知之，不知为不知。做得到的事我们说出来，做不到的事我们不说；说出来就一定做到，哪怕代价是自己的生命。**
+**Because supreme sincerity is one of the Polaris Seven Virtues. Knowing what you know, acknowledging what you don't. What we can achieve, we state; what we cannot achieve, we do not state; what we state, we will definitely achieve, even if the price is our own lives.**
 
-## 结语：从必然王国到自由王国的飞跃
+## Conclusion: The Leap from the Realm of Necessity to the Realm of Freedom
 
-恩格斯在《反杜林论》中写道，共产主义意味着“人类从必然王国进入自由王国的飞跃”。这个飞跃不是一蹴而就的，而是漫长、艰苦、充满反复的社会革命和技术革命的过程。
+Engels wrote in *Anti-Dühring* that communism means "the leap of humanity from the realm of necessity into the realm of freedom." This leap is not accomplished一夜, but is a long, arduous,反复 process of social revolution and technological revolution.
 
-今天，我们站在这个过程的一个关键节点上。
+Today, we stand at a关键节点 of this process.
 
-“必然王国”的枷锁是什么？是匮乏，是压迫，是无知，是人与人之间的剥削和欺骗。
+What are the shackles of the "realm of necessity"? Scarcity, oppression, ignorance, exploitation and deception among human beings.
 
-“自由王国”的条件是什么？是丰裕，是平等，是智慧，是人与人之间的信任和协作。
+What are the conditions of the "realm of freedom"? Abundance, equality, wisdom, trust and cooperation among human beings.
 
-菲娜睿特要做的，就是用**聚变之火**击碎匮乏的枷锁，用**Tendre之智**驱散无知的黑暗，用**北辰七德**建立新型的人与人的关系，用**人民企业**的制度保证这一切不被资本异化。
+What Phaenarete must do is use the **fire of fusion** to shatter the shackles of scarcity, use **Tendre's intelligence** to disperse the darkness of ignorance, use the **Polaris Seven Virtues** to establish new human-to-human relations, and use the **people's enterprise** institutional guarantee to确保 all this is not alienated by capital.
 
-我们不知道我们能不能成功。技术可能失败，历史可能拐弯，人类可能选择另一条道路。但**如果成功是可能的，我们没有理由不去尝试；如果尝试是必须的，我们没有理由不全力以赴。**
+We do not know whether we can succeed. Technology may fail, history may拐弯, humanity may choose another path. But **if success is possible, we have no reason not to try; if trying is necessary, we have no reason not to go all out.**
 
-马克思在十七岁时写道：“如果我们选择了最能为人类福利而劳动的职业，那么，重担就不能把我们压倒，因为这是为大家而献身；那时我们所感到的就不是可怜的、有限的、自私的乐趣，我们的幸福将属于千百万人，我们的事业将默默地、但是永恒发挥作用地存在下去，而面对我们的骨灰，高尚的人们将洒下热泪。”
+Marx wrote at seventeen: "If we have chosen the position in life in which we can most of all work for the good of humanity, then burdens cannot overwhelm us, because they are sacrifices for the benefit of all; then we shall experience no petty, limited, selfish joy, but our happiness will belong to millions, our deeds will quietly but eternally有效, and over our ashes will be shed the hot tears of noble people."
 
-我在二十五岁时，已经签下了遗体捐献协议。这不是一时冲动，而是我对我选择的这份事业的终身承诺。
+At age twenty-five, I had already signed a body donation agreement. This is not an impulse, but a lifelong commitment to the profession I have chosen.
 
-我不是英雄。我只是一个普通的共产主义者，一个愿意把生命献给人类解放事业的人。我站在巨人的肩膀上，身后是马克思、恩格斯、列宁、毛泽东、邓小平，以及无数为共产主义理想献出生命的先烈。我身边是我的团队、我的学术同道、我的战略顾问，以及所有认同菲娜睿特使命的人们。我的面前，是聚变之火和Tendre之光——它们是工具，也是信仰；是技术，也是理想。
+I am not a hero. I am just an ordinary communist, a person willing to devote his life to the cause of human emancipation. I stand on the shoulders of giants, behind me are Marx, Engels, Lenin, Mao Zedong, Deng Xiaoping, and countless martyrs who献出 their lives for the communist ideal. Beside me are my team, my academic同道, my strategic顾问, and all who认同 Phaenarete's mission. Before me are the fire of fusion and the light of Tendre—they are tools, and also beliefs; they are technology, and also ideals.
 
-**光能聚合，智造未来。**
+**Light-energy convergence, wisdom creating the future.** (光能聚合，智造未来)
 
-**我将无我，不负人民。**
+**I shall have no self, and shall not fail the people.** (我将无我，不负人民)
 
-**爱是永不止息。**
+**Love never ceases.** (爱是永不止息)
 
 ---
 
-**广州菲娜睿特人工智能科技有限责任公司**
+**Guangzhou Phaenarete AI Technology Co., Ltd.**
 
-**创始人兼CEO**
-**李昂**
-**2026年5月·广州**
+**Founder and CEO**
+**Li Ang**
+**May 2026 · Guangzhou**
 
-> **版权声明**：本文为中文预览版，版权属于广州菲娜睿特人工智能科技有限责任公司(Guangzhou Phaenarete AI Technology Co., Ltd.)。未经书面授权，禁止转载、引用或复制。
+> **版权声明**: This article is a Chinese preview edition; copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. (Guangzhou Phaenarete AI Technology Co., Ltd.). Unauthorized written authorization,禁止转载,引用,或复制.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

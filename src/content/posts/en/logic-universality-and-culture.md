@@ -1,330 +1,330 @@
 ---
-title: 逻辑的普遍之光与文化的丰厚土壤——与Christopher W. Tindale教授商榷“理性的可公度性”
+title: "The Universal Light of Logic and the Rich Soil of Culture: A Critical Dialogue with Professor Christopher W. Tindale on the Commensurability of Reason"
 date: '2026-03-10'
 category: Mathematics & Logic
 tags:
   - logic
   - culture
-  - 理性
+  - rationality
 description: >
-  本文从世界古代三大逻辑传统出发，提出“逻辑形式—文化负载”二重区分框架，以贝叶斯认知模型重构Tindale教授的论证，主张在承认文化多样性的同时捍卫逻辑有效性的普遍标准。
+  Starting from the world's three ancient logical traditions, this paper proposes a "logical form—cultural load" dual distinction framework, reconstructs Professor Tindale's argument using a Bayesian cognitive model, and argues for defending universal standards of logical validity while acknowledging cultural diversity.
 ---
 
-### 摘要
+### Abstract
 
-加拿大温莎大学Christopher W. Tindale教授在“Rethinking Reason”讲座中提出，以亚里士多德三段论为核心的西方逻辑传统不应被视为评判一切理性形式的唯一权威范式，非西方文化中被遮蔽的论证实践值得恢复与重视。本文从世界古代三大逻辑传统——古希腊逻辑、印度因明学、中国墨家逻辑——的比较研究出发，论证：尽管不同文化在论证风格、修辞策略与论辩习惯上存在显著差异，但在最基本的推理有效性层面上，存在着跨文化的、普遍的逻辑原则。这种普遍性并非西方文化的强加，而是人类理性思维在面对共同认知任务时的必然产物。本文提出“逻辑形式—文化负载”的二重区分框架，既承认文化多样性对论证实践的影响，又捍卫逻辑有效性的普遍标准。以贝叶斯认知框架重构Tindale教授的论证，揭示其真正有价值的洞见——对认知公正与假设空间多元化的呼唤，而非对逻辑普遍性的消解。本文主张，真正的学术对话应在“和而不同”的智慧中展开，既不让普遍性消弭差异，也不让多样性瓦解对话的可能。
+Professor Christopher W. Tindale of the University of Windsor, Canada, proposed in his "Rethinking Reason" lecture that the Western logical tradition centered on Aristotelian syllogism should not be regarded as the sole authoritative paradigm for judging all forms of rationality, and that argumentative practices obscured in non-Western cultures deserve restoration and recognition. Starting from a comparative study of the world's three ancient logical traditions—ancient Greek logic, Indian Hetuvidya (因明学), and Chinese Mohist logic—this paper argues: although different cultures exhibit significant differences in argumentative style, rhetorical strategy, and dialectical habit, at the most fundamental level of reasoning validity, there exist cross-cultural, universal logical principles. This universality is not an imposition of Western culture, but rather the inevitable product of human rational thought when confronting common cognitive tasks. This paper proposes a "logical form—cultural load" dual distinction framework, which both acknowledges the influence of cultural diversity on argumentative practice and defends universal standards of logical validity. By reconstructing Professor Tindale's argument within a Bayesian cognitive framework, the paper reveals his truly valuable insight—a call for cognitive justice and diversification of the hypothesis space, rather than a dissolution of logical universality. This paper contends that genuine academic dialogue should unfold within the wisdom of "harmony in difference" (和而不同), neither allowing universality to obliterate differences nor allowing diversity to dismantle the possibility of dialogue.
 
-**关键词**：逻辑普遍主义；逻辑相对主义；墨家逻辑；因明学；论证理论；贝叶斯认知
+**Keywords**: Logical universalism; Logical relativism; Mohist logic; Hetuvidya; Argumentation theory; Bayesian cognition
 
 ---
 
-### 引言：跨洋对话的邀约
+### Introduction: An Invitation to a Trans-Oceanic Dialogue
 
-南海之滨，白云山麓，即将迎来一场跨越东西方的学术对话。Christopher W. Tindale教授，当代论证理论的领军人物，将携其“Rethinking Reason”讲题，从加拿大温莎大学远道而来。这个题目本身即是一个富有张力的邀约——邀请我们共同思考：那个被我们习焉不察地称作“理性”的东西，究竟是人类思想的普遍财富，抑或特定文化传统的偶然产物?
+By the shores of the South Sea, at the foot of Baiyun Mountain, a trans-East-West academic dialogue is about to unfold. Professor Christopher W. Tindale, a leading figure in contemporary argumentation theory, will bring his "Rethinking Reason" lecture from the University of Windsor in Canada. The title itself is a tension-rich invitation—inviting us to reflect together: is that thing we unreflectively call "reason" a universal treasure of human thought, or an accidental product of a particular cultural tradition?
 
-《诗经》有云：“他山之石，可以攻玉。”Tindale教授的叩问，对于身处中国学术语境中的我们而言，具有特殊的亲和力与挑战性。亲和之处在于，他所关切的问题——非西方文化的论证方式是否被遮蔽、被压抑——恰好呼应了我们自身学术传统中那些“绝学”的命运：墨辩沉寂两千年，因明仅限于佛门，而西方逻辑却随着近代科学一同成为“理所当然”的思维规范。挑战之处在于，他所提供的答案路径，是否可能走向一种“各是其是，各非其非”的相对主义，从而消解跨文化对话与批判的可能性?
+The *Classic of Poetry* (*Shijing* 诗经) says: "Stones from other mountains can serve to polish this jade." Professor Tindale's inquiry holds special affinity and challenge for us situated within the Chinese academic context. The affinity lies in the question he is concerned with—whether the argumentative modes of non-Western cultures have been obscured and suppressed—which resonates precisely with the fate of those "lost disciplines" (绝学) in our own academic tradition: Mohist dialectics (墨辩) fell silent for two millennia, Hetuvidya (因明学) remained confined to Buddhist monasteries, while Western logic came to be regarded as the "natural and proper" norm of thought along with modern science. The challenge lies in whether the path of answers he provides might lead toward a relativism of "each affirming their own truths and denying others' truths" (各是其是，各非其非), thereby dissolving the possibility of cross-cultural dialogue and critique.
 
-本文愿以中国学者的立场，与Tindale教授展开一场真诚的商榷。我们将秉持《礼记·中庸》所言“执其两端用其中于民”的智慧，既不简单地捍卫西方逻辑的“霸权”，也不轻率地拥抱逻辑相对主义，而是试图在普遍与特殊、形式与内容、逻辑与文化之间，寻找一条更为审慎、更为通达的理解之路。
+This paper, from the standpoint of Chinese scholars, wishes to engage in a sincere critical dialogue (商榷) with Professor Tindale. We will uphold the wisdom expressed in the *Record of Rites* (*Liji·Zhongyong* 礼记·中庸): "Grasp both extremes and apply the middle for the people" (执其两端用其中于民), neither simply defending the "hegemony" of Western logic nor rashly embracing logical relativism, but rather seeking a more prudent, more comprehensive path of understanding between universality and particularity, form and content, logic and culture.
 
-### 第一章 Tindale教授的关切：重估被遮蔽的论证世界
+### Chapter 1: Professor Tindale's Concerns: Reassessing the Obscured World of Argumentation
 
-#### 1.1 论证的三重结构：逻辑、论辩与修辞
+#### 1.1 The Triple Structure of Argumentation: Logic, Dialectics, and Rhetoric
 
-在进入商榷之前，我们首先需要对Tindale教授的思想做一番同情的理解。据学者述评,Tindale教授长期致力于修辞论证理论研究，主张将论证研究从传统的逻辑进路转向更为广阔的人类学视域。传统上，论证研究可分为三个进路：
+Before entering our critical dialogue, we must first achieve a sympathetic understanding of Professor Tindale's thought. According to scholarly reviews, Professor Tindale has long been devoted to rhetorical argumentation theory, advocating a shift from the traditional logical approach in argumentation studies toward a broader anthropological horizon. Traditionally, argumentation research can be divided into three approaches:
 
-其一为**逻辑进路**，将论证视为成品(argument as product)，由脱离语境的命题构成；其二为**论辩进路**，将论证视为程序(argument as procedure)，每一步需合乎程序规则；其三为**修辞进路**，将论证视为过程(argument as process)，强调语境因素对论证的影响。
+The first is the **logical approach**, treating argumentation as a product (argument as product), composed of propositions detached from context; the second is the **dialectical approach**, treating argumentation as a procedure (argument as procedure), where each step must conform to procedural rules; the third is the **rhetorical approach**, treating argumentation as a process (argument as process), emphasizing the influence of contextual factors on argumentation.
 
-Tindale教授所倡导的“论证研究的人类学转向”，正是对修辞进路的深化与拓展。他主张将论证“还原至其所处时空中”，反对将其剥离产生的语境。这意味着，论证并非传统演绎逻辑那种抽象的前提—结论命题结构，而是一种社会实践活动，可以由不同方式实施，包括视觉等多模态的表达方式。
+The "anthropological turn in argumentation research" that Professor Tindale advocates is precisely a deepening and expansion of the rhetorical approach. He主张 to "restore argumentation to the spacetime in which it occurs," opposing its detachment from the context of its production. This means that argumentation is not the abstract premise-conclusion propositional structure of traditional deductive logic, but rather a social practice activity that can be implemented in different ways, including visual and other multimodal modes of expression.
 
-#### 1.2 理性：是范式，还是竞争者?
+#### 1.2 Reason: Paradigm, or Competitor?
 
-Tindale教授讲座的核心疑问是：以亚里士多德三段论为核心的西方逻辑传统，究竟是评判一切理性形式的权威范式，抑或仅仅是一个在历史竞争中获胜的竞争者？他援引心理学家Kahneman的观察——“在任何特定时期，特定领域的学者往往共享关于其研究对象的基本假设”——指出这些假设往往沉入背景之中，成为“不被看见”的预设，无声地塑造着我们的思维。
+The core question of Professor Tindale's lecture is: is the Western logical tradition centered on Aristotelian syllogism the authoritative paradigm for judging all forms of rationality, or merely a competitor that won in historical competition? He cites psychologist Kahneman's observation—"at any particular period, scholars in a particular field tend to share basic assumptions about their object of study"—pointing out that these assumptions often sink into the background, becoming "unseen" presuppositions that silently shape our thinking.
 
-这一观察与科学哲学中的“范式”理论形成呼应。自逻辑实证主义衰微以后，科学方法论经历了从逻辑主义走向历史主义、从客观主义走向相对主义、从一元论走向多元论的转变。孔恩的“不可共量性”概念更是对传统的科学进步观提出了根本性质疑。Tindale教授显然受到这一思想脉络的启发，试图将“范式”概念从科学哲学延伸到论证理论，追问西方逻辑是否也只是诸多“理性范式”中的一种。
+This observation resonates with the "paradigm" theory in philosophy of science. Since the decline of logical positivism, scientific methodology has undergone a shift from logicism to historicism, from objectivism to relativism, from monism to pluralism. Kuhn's concept of "incommensurability" (不可共量性) posed a fundamental challenge to the traditional view of scientific progress. Professor Tindale is clearly inspired by this intellectual lineage, attempting to extend the "paradigm" concept from philosophy of science to argumentation theory, asking whether Western logic is merely one among many "paradigms of rationality."
 
-#### 1.3 三个关键问题：预设、压迫与恢复
+#### 1.3 Three Key Questions: Presuppositions, Oppression, and Restoration
 
-Tindale教授通过三个问题展开其论证：
+Professor Tindale develops his argument through three questions:
 
-**第一，前提假设问题**：我们当前的论证理论背后，有哪些未被言明却习以为常的假设？这些假设是否带有西方中心主义的烙印?
+**First, the question of underlying presuppositions**: What unspoken yet customary assumptions lie behind our current argumentation theories? Do these assumptions carry the imprint of Western centrism?
 
-**第二，身份压迫问题**：非主流文化群体（如原住民）是否被迫使用“压迫者”（西方）的论证模式，才能使自己的观点被视为“理性的”？这是否构成了一种知识上的不公?
+**Second, the question of identity oppression**: Are non-mainstream cultural groups (such as indigenous peoples) forced to use the argumentative modes of the "oppressors" (the West) in order for their viewpoints to be considered "rational"? Does this constitute a form of epistemic injustice?
 
-**第三，价值恢复问题**：我们如何发现、理解并恢复那些存在于非西方语境中、却被主流话语遮蔽的多样化的论证实践?
+**Third, the question of value restoration**: How can we discover, understand, and restore the diverse argumentative practices that exist in non-Western contexts but are obscured by mainstream discourse?
 
-这三个问题环环相扣：从对主流范式的反思，到对权力关系的揭露，再到对他者价值的重建，构成了一套完整的批判性叙事。无论我们是否赞同其结论，都必须承认：这些问题本身是深刻的、有价值的，它们迫使我们反思那些习焉不察的学术预设。
+These three questions are interlinked: from reflection on the mainstream paradigm, to exposure of power relations, to reconstruction of the value of Others, they constitute a complete critical narrative. Whether or not we agree with his conclusions, we must acknowledge: these questions themselves are profound and valuable; they compel us to reflect on those academic presuppositions we have taken for granted.
 
-### 第二章 逻辑相对主义的困境：自我否定与对话的不可能
+### Chapter 2: The Dilemma of Logical Relativism: Self-Negation and the Impossibility of Dialogue
 
-在充分肯定Tindale教授问题意识的价值之后，我们需要对其可能的结论路径提出审慎的批评。如果他的论证最终走向逻辑相对主义——即认为不同文化拥有各自不可通约的“逻辑”或“理性”，不同文化之间的论证无法用统一的标准评判——那么这种立场将面临一系列深刻的哲学困境。
+After fully affirming the value of Professor Tindale's problem-consciousness, we need to offer prudent criticism of his possible conclusion. If his argument ultimately leads toward logical relativism—that is, the view that different cultures possess their own incommensurable "logics" or "rationalities," and that argumentation between different cultures cannot be judged by unified standards—then this position will face a series of profound philosophical dilemmas.
 
-#### 2.1 相对主义的自我否定问题
+#### 2.1 The Self-Negation Problem of Relativism
 
-逻辑相对主义面临一个经典的反驳：它宣称“所有逻辑都是相对的”或“不同文化有不同的逻辑”，但这一宣称本身是否具有普遍有效性？若此宣称成立，则其自身必须普遍为真，此即构成自我否定。若此宣称仅为相对地真（即“从我的文化视角看，所有逻辑都是相对的”），则它无法对主张逻辑普遍性者构成任何约束——后者完全可以回应：“从我的视角看，你是错的。”
+Logical relativism faces a classic objection: it claims "all logic is relative" or "different cultures have different logics," but does this claim itself possess universal validity? If this claim holds, then it must itself be universally true, which constitutes self-negation. If this claim is only relatively true (i.e., "from my cultural perspective, all logic is relative"), then it cannot impose any constraint on those who advocate logical universality—the latter can perfectly respond: "from my perspective, you are wrong."
 
-诚如中山大学任远副教授在分析相对主义时所言：“相对主义否定绝对真概念，而绝对真概念是语义推理中必不可少的基础。”缺乏某种共享的真值概念，任何有实质内容的对话都将成为不可能。
+As Associate Professor Ren Yuan of Sun Yat-sen University noted in analyzing relativism: "Relativism denies the concept of absolute truth, yet the concept of absolute truth is an indispensable foundation for semantic reasoning." Without some shared concept of truth value, any dialogue with substantive content becomes impossible.
 
-#### 2.2 分歧的消解问题
+#### 2.2 The Dissolution of Disagreement
 
-更深层的问题在于，逻辑相对主义会消解实质性分歧的可能性。任远副教授援引Kobel对分歧的两种定义：其一为**分歧C**，指两个信念具有矛盾的内容；其二为**分歧N**，指必然地，其中一个正确时另一个就不正确。
+A deeper problem is that logical relativism dissolves the possibility of substantive disagreement. Associate Professor Ren Yuan cites Kobel's two definitions of disagreement: **Disagreement C**, referring to two beliefs having contradictory content; and **Disagreement N**, referring to the necessity that when one is correct, the other cannot be correct.
 
-若采取彻底的相对主义立场，则当来自不同文化传统的两人对一个论证持有相反判断时，我们无法说他们之间存在真正的分歧——因为各自的判断皆从各自文化的“逻辑”出发，并无共享的评判标准。然而如此一来，跨文化批判、跨文化学习的可能性便被彻底瓦解。正如任远所指出的：“相对主义消解了分歧双方的冲突，使得实质性分歧成为不可能。”
+If one adopts a thoroughgoing relativist stance, then when two people from different cultural traditions hold contrary judgments about an argument, we cannot say there is a genuine disagreement between them—because each judgment proceeds from the "logic" of their respective cultures, with no shared standard of evaluation. But if so, the possibility of cross-cultural critique and cross-cultural learning is thoroughly dismantled. As Ren Yuan points out: "Relativism dissolves the conflict between the two parties of disagreement, making substantive disagreement impossible."
 
-#### 2.3 理解悖论
+#### 2.3 The Paradox of Understanding
 
-Tindale教授试图为非西方文化的论证方式“正名”，这一努力本身隐含着一个深刻的悖论：他既然能够以英文在西方学术语境中描述和解释因纽特人或澳洲原住民的论证实践，这一事实本身就证明存在着某种跨越文化边界的理解可能性。倘若不同文化的“理性”果真不可通约，此种理解何以可能?
+Professor Tindale attempts to "vindicate" the argumentative modes of non-Western cultures, and this effort itself implies a profound paradox: the fact that he can describe and explain the argumentative practices of Inuit or Australian Aboriginal peoples in English within a Western academic context itself proves that some form of understanding that crosses cultural boundaries is possible. If the "rationalities" of different cultures were truly incommensurable, how could such understanding be possible?
 
-孔子云：“道不同不相为谋。”然此语乃对价值选择的描述，而非对认知可能性的断言。老子亦言：“道可道，非常道。”承认终极实在的不可言说性，却未否定日常言说与交流的可能性。中国古代思想家从未走向极端的相对主义，反而始终保持着对“道通为一”的追求。
+Confucius says: "Those whose paths differ cannot make plans together" (道不同不相为谋). Yet this statement is a description of value choices, not an assertion about cognitive possibility. Laozi also says: "The Way that can be spoken of is not the constant Way" (道可道，非常道). This acknowledges the ineffability of ultimate reality but does not negate the possibility of everyday speech and communication. Chinese thinkers never moved toward extreme relativism; rather, they always maintained the pursuit of "the Way unifying all as one" (道通为一).
 
-### 第三章 三大逻辑传统中的普遍之光
+### Chapter 3: The Universal Light in the Three Great Logical Traditions
 
-让我们转向更具建设性的工作：走进世界古代三大逻辑传统——古希腊逻辑、印度因明学、中国墨家逻辑——探寻它们背后的深层同构。从世界逻辑整体观之，这三大传统“共同的逻辑本质”是值得我们高度重视的学术洞见。
+Let us turn to more constructive work: entering the world's three ancient logical traditions—ancient Greek logic, Indian Hetuvidya, and Chinese Mohist logic—to explore their deep isomorphisms. Viewed from the perspective of world logic as a whole, the "common logical essence" of these three traditions is an academic insight worthy of our highest regard.
 
-#### 3.1 墨家逻辑：以类行的推理之“故”
+#### 3.1 Mohist Logic: The "Reason" (故) of Reasoning by Class (以类行)
 
-《墨经》云：“夫辞以故生，以理长，以类行者也。立辞而不明于其所生，妄也。今人非道无所行，唯有强股肱而不明于道，其困也，可立而待也。夫辞以类行者也，立辞而不明于其类，则必困矣。”
+The *Mojing* (墨经, Mohist Canons) states: "Proposals (辞) arise from reasons (故), grow through principles (理), and proceed by classes (类). Establishing a proposal without clarity about what gave rise to it is groundless. Now, if a person has no path to walk, having only strong limbs but no clarity about the path, their predicament can be anticipated standing still. Proposals proceed by class; establishing a proposal without clarity about its class will inevitably lead to predicament."
 
-这段文字高度凝练地表达了墨家对论证结构的理解。梁启超于1904年出版的《墨子之论理学》首开以西方逻辑解读墨学的先河，认为墨家的“以名举实”是讲概念，“以辞抒意”是讲命题，“以说出故”是讲推理。此论断至今为学术界所沿用。
+This passage succinctly expresses the Mohist understanding of argumentation structure. Liang Qichao's 1904 publication *Mozi's Logic* (*墨子之论理学*) pioneered the interpretation of Mohist thought through Western logic, arguing that the Mohist "using names to indicate realities" (以名举实) concerns concepts, "using proposals to express intentions" (以辞抒意) concerns propositions, and "using explanations to present reasons" (以说出故) concerns reasoning. This judgment continues to be followed by the academic community to this day.
 
-墨家论证的核心在于“以类行”。所谓“类”，即事物的类别归属关系。一个典型的墨家推理是：
+The core of Mohist argumentation lies in "proceeding by class" (以类行). The so-called "class" (类) refers to the categorical attribution relations of things. A typical Mohist reasoning is:
 
-> 盗，人也。
-> 杀盗，非杀人也?
+> A robber is a person.
+> Killing a robber is not killing a person?
 
-此命题表面上看似矛盾，然墨家通过区分“盗”作为人的一种（类属关系）与“盗”作为特定行为的承担者，揭示了推理有效性的关键在于“类”的明确性。不明其类，则“必困矣”。这正是墨家对推理有效性的规范性要求——它与西方逻辑对“中项”的要求、因明对“因三相”的要求，具有深层的同构性。
+This proposition appears contradictory on the surface, yet the Mohists, by distinguishing "robber" as a kind of person (a class-membership relation) from "robber" as the bearer of a particular behavior, revealed that the key to reasoning validity lies in the clarity of "class." Without clarity of class, one will "inevitably be in predicament" (必困矣). This is precisely the Mohist normative requirement for reasoning validity—it possesses deep isomorphism with Western logic's requirement for the "middle term" and Hetuvidya's requirement for the "three characteristics of the reason" (因三相).
 
-#### 3.2 因明逻辑：因三相的演绎本质
+#### 3.2 Hetuvidya Logic: The Deductive Nature of the Three Characteristics of the Reason
 
-因明学是印度古代论证理论的瑰宝。陈那菩萨开创的新因明，以“三支作法”取代古因明的“五支作法”，标志着印度逻辑思想的重大突破。据学者许春梅系统研究，陈那因明的逻辑思想可从现代逻辑视角加以准确把握。
+Hetuvidya (因明学) is a treasure of ancient Indian argumentation theory. The New Hetuvidya pioneered by Dignāga (陈那菩萨), replacing the "five-member argument" (五支作法) of Old Hetuvidya with the "three-member argument" (三支作法), marked a major breakthrough in Indian logical thought. According to systematic research by scholar Xu Chunmei, Dignāga's logical thought can be accurately grasped from the perspective of modern logic.
 
-因明三支作法的典型形式为：
+The typical form of the Hetuvidya three-member argument is:
 
-> **宗**：声是无常
-> **因**：所作性故
-> **同喻**：若是所作，见彼无常，犹如瓶等
-> **异喻**：若是其常，见非所作，犹如空等
+> **Proposition (宗)**: Sound is impermanent
+> **Reason (因)**: Because it is produced
+> **Similar example (同喻)**: Whatever is produced is observed to be impermanent, such as a jar, etc.
+> **Dissimilar example (异喻)**: Whatever is permanent is observed to be non-produced, such as space, etc.
 
-因明的核心是“因三相”：
-1. **遍是宗法性**：因遍在于宗主词（所作性遍于声）；
-2. **同品定有性**：因在同品中必定存在（若是所作，见彼无常）；
-3. **异品遍无性**：因在异品中遍不存在（若是其常，见非所作）。
+The core of Hetuvidya is the "three characteristics of the reason" (因三相):
+1. **Pervasion of the proposition's subject (遍是宗法性)**: The reason pervades the proposition's subject term (the property of being produced pervades sound);
+2. **Definite presence in similar instances (同品定有性)**: The reason must definitely exist in similar instances (whatever is produced is observed to be impermanent);
+3. **Complete absence in dissimilar instances (异品遍无性)**: The reason is completely absent in dissimilar instances (whatever is permanent is observed to be non-produced).
 
-许春梅的研究揭示了一个重要结论：**陈那因明的推理性质是演绎的**。这意味着，因明并非只是某种“类比推理”或“论辩技巧”，而是一套具有严格有效性标准的逻辑体系。从现代逻辑视角看，因三相构成了三支作法的语义模型，保证了推理的必然性。
+Xu Chunmei's research reveals an important conclusion: **the reasoning nature of Dignāga's Hetuvidya is deductive**. This means that Hetuvidya is not merely some kind of "analogical reasoning" or "dialectical technique," but rather a logical system with strict validity standards. From the perspective of modern logic, the three characteristics of the reason constitute the semantic model of the three-member argument, guaranteeing the necessity of reasoning.
 
-#### 3.3 三大传统的逻辑共性：类、中项、因
+#### 3.3 Logical Commonalities of the Three Traditions: Class, Middle Term, and Reason
 
-将三大传统并置观察，可以发现以下共同特征：
+Placing the three traditions side by side for observation, the following common features can be discovered:
 
-**其一，核心推理形式的同构性。** 亚里士多德三段论依赖于中词(M)的媒介作用；墨家“以类行”依赖于类属关系的明确性；因明三支依赖于因法与所立法之间的普遍关系。三者皆可化约为某种形式的包含关系推理。
+**First, the isomorphism of core reasoning forms.** Aristotelian syllogism depends on the mediating role of the middle term (M); Mohist "proceeding by class" depends on the clarity of categorical membership relations; Hetuvidya's three-member argument depends on the universal relation between the reason-property and the property to be proved. All three can be reduced to some form of inclusion-relation reasoning.
 
-**其二，对推理有效性的规范性要求。** 亚里士多德建立了三段论的格与式，区分有效式与无效式；墨家强调“不明其类则必困”；因明发展出因三相、九句因等精细的有效性判定规则。这说明三者并非仅仅是“论证风格”的差异，而是在追求同一种规范性目标：确保推理能够从前提必然地过渡到结论。
+**Second, normative requirements for reasoning validity.** Aristotle established the figures and moods of syllogism, distinguishing valid and invalid moods; the Mohists emphasized "without clarity of class, one will inevitably be in predicament"; Hetuvidya developed fine-grained validity-determination rules such as the three characteristics of the reason and the nine-fold reason (九句因). This shows that the three are not merely differences in "argumentative style," but are pursuing the same normative goal: ensuring that reasoning can necessarily proceed from premises to conclusion.
 
-**其三，对谬误的共同识别。** 因明中的“似因”（不成、不定、相违）、墨家批评的“狂举”与“不类”、亚里士多德讨论的各类谬误，呈现出惊人的趋同性。这说明不同文化在面对同样的推理任务时，遭遇了同样的逻辑陷阱，并做出了类似的诊断。
+**Third, common identification of fallacies.** Hetuvidya's "pseudo-reasons" (似因: unestablished, uncertain, contradictory), the Mohist criticisms of "wild citation" (狂举) and "non-class" (不类), and Aristotle's discussion of various fallacies exhibit striking convergences. This indicates that when different cultures face the same reasoning tasks, they encounter the same logical traps and make similar diagnoses.
 
-#### 3.4 超越“起源谬误”：有效性的根据不在起源而在功能
+#### 3.4 Beyond the "Genetic Fallacy": The Ground of Validity Lies in Function, Not in Origin
 
-Tindale教授强调西方逻辑源于亚里士多德的希腊，此固为事实。然从这一历史事实能否推出西方逻辑不具有普遍权威性？其中隐藏着一个“起源谬误”：将主张的有效性等同于其历史起源的偶然性，并以此否定其普遍性。
+Professor Tindale emphasizes that Western logic originated from Aristotle's Greece, which is indeed a fact. But can this historical fact entail that Western logic lacks universal authority? This conceals a "genetic fallacy" (起源谬误): equating the validity of a claim with the contingency of its historical origin, and thereby negating its universality.
 
-逻辑原则的有效性不依赖于其历史起源，而依赖于其在推理实践中的规范性功能。即便西方逻辑确实源于特定文化语境，只要它所揭示的推理原则（如不矛盾律、分离规则、三段论原则）具有普遍适用性，便不能因其“出身”而否定其价值。正如马克思以人体解剖作为猴体解剖的钥匙：“人体解剖对于猴体解剖是一把钥匙。低等动物身上表露的高等动物的征兆，反而只有在高等动物本身已被认识之后才能理解。”此非西方中心主义的傲慢，而是科学认知的必然方法：用发展程度较高的形态去理解发展程度较低的形态。
+The validity of logical principles does not depend on their historical origin, but on their normative function in reasoning practice. Even if Western logic indeed originated in a particular cultural context, as long as the reasoning principles it reveals (such as the law of non-contradiction, the rule of detachment, the syllogistic principle) possess universal applicability, their value cannot be negated on account of their "birth." Just as Marx used the anatomy of the human body as a key to the anatomy of the ape: "The anatomy of the human body is a key to the anatomy of the ape. The intimations of higher animal structures in lower animals, on the other hand, can only be understood when the higher animal itself is already known." This is not the arrogance of Western centrism, but the necessary method of scientific cognition: using more developed forms to understand less developed forms.
 
-### 第四章 风格与原则的区分：一种二重分析框架
+### Chapter 4: The Distinction Between Style and Principle: A Dual Analytical Framework
 
-如何在承认文化多样性的同时，捍卫逻辑的普遍性？我们在此提出“逻辑形式—文化负载”的二重区分框架。
+How can we acknowledge cultural diversity while defending logical universality? We propose here a "logical form—cultural load" dual distinction framework.
 
-#### 4.1 逻辑形式层：必然的推导关系
+#### 4.1 The Logical Form Layer: Necessary Derivation Relations
 
-逻辑形式层涉及推理的有效性条件。例如：
+The logical form layer concerns the validity conditions of reasoning. For example:
 
-- 若所有M是P,且S是M,则S是P.
-- 若P蕴含Q,且P为真，则Q为真。
-- 若A与B不能同时为真，则其中之一为假。
+- If all M is P, and S is M, then S is P.
+- If P entails Q, and P is true, then Q is true.
+- If A and B cannot both be true, then one of them is false.
 
-这些逻辑形式不依赖于特定文化语境。无论是古希腊的哲学家、古印度的因明师，还是先秦的名辩家，只要他们进行有效的推理，就必须遵循这些形式约束。此非西方逻辑的殖民，而是人类理性面对必然性关系时的共同发现。
+These logical forms do not depend on particular cultural contexts. Whether ancient Greek philosophers, ancient Indian Hetuvidya masters, or pre-Qin (先秦) dialecticians, as long as they engage in valid reasoning, they must follow these formal constraints. This is not the colonization of Western logic, but a common discovery of human rationality when confronting relations of necessity.
 
-#### 4.2 文化负载层：论证的风格与修辞
+#### 4.2 The Cultural Load Layer: The Style and Rhetoric of Argumentation
 
-文化负载层涉及论证的具体表达方式，包括：
+The cultural load layer concerns the specific modes of expression in argumentation, including:
 
-- **修辞风格**：是喜用格言、寓言、比喻，还是喜用抽象的公式?
-- **论辩习惯**：是偏好正面交锋、层层驳难，还是偏好委婉含蓄、引而不发?
-- **权威依据**：是诉诸经典、诉诸常识、诉诸直观，还是诉诸实验证据?
-- **模态表达**：是用“必然”“应该”“或许”，还是用“不可”“当”“或可”?
+- **Rhetorical style**: Is there a preference for aphorisms, allegories, and analogies, or for abstract formulas?
+- **Dialectical habit**: Is there a preference for direct confrontation and layer-by-layer refutation, or for indirect subtlety and restrained suggestion?
+- **Authority basis**: Is there appeal to classics, appeal to common sense, appeal to intuition, or appeal to experimental evidence?
+- **Modal expression**: Is the use of "necessarily," "should," "perhaps," or "不可 ( impermissible)," "当 (ought)," "或可 (perhaps permissible)"?
 
-这些层面确深受文化传统的影响。例如，中国古代思想家确实“heavily relied on argument by comparison (i.e., analogy, example, simile, and metaphor)”，但这并不意味着他们不懂演绎推理，而只是说他们在表达方式上有所偏好。Garrett的研究指出，后期墨家(later Mohists)确曾运用三段论和假言演绎推理，说明演绎能力并非西方文化的专利。
+These dimensions are indeed deeply influenced by cultural traditions. For example, ancient Chinese thinkers indeed "heavily relied on argument by comparison (i.e., analogy, example, simile, and metaphor)," but this does not mean they did not understand deductive reasoning; it only means they had preferences in their mode of expression. Garrett's research indicates that the later Mohists did employ syllogistic and hypothetical deductive reasoning, demonstrating that deductive capacity is not the exclusive property of Western culture.
 
-#### 4.3 二重框架的解释力：以“白马非马”为例
+#### 4.3 The Explanatory Power of the Dual Framework: The Case of "A White Horse Is Not a Horse"
 
-让我们以公孙龙的“白马非马”为例，展示二重框架的解释力。
+Let us use Gongsun Long's (公孙龙) "a white horse is not a horse" (白马非马) as an example to demonstrate the explanatory power of the dual framework.
 
-从**文化负载层**观之，“白马非马”是一种极富挑战性的修辞策略，它通过制造表面上的悖论来吸引听众注意，引导他们思考“名”与“实”的关系。这种表达方式深植于先秦名辩思潮的论辩文化中。
+From the **cultural load layer**, "a white horse is not a horse" is a highly challenging rhetorical strategy; it attracts the audience's attention by creating an apparent paradox, guiding them to reflect on the relationship between "names" (名) and "realities" (实). This mode of expression is deeply rooted in the dialectical culture of the pre-Qin naming-and-dialectics movement (名辩思潮).
 
-然从**逻辑形式层**观之，“白马非马”的论证可重构为：
+Yet from the **logical form layer**, the argument of "a white horse is not a horse" can be reconstructed as:
 
-- 前提1：“马”者，所以命形也；“白”者，所以命色也。
-- 前提2：命色者非命形也。
-- 结论：故“白马”（命色兼命形）非“马”（命形）也。
+- Premise 1: "Horse" (马) is what designates form; "White" (白) is what designates color.
+- Premise 2: What designates color is not what designates form.
+- Conclusion: Therefore "white horse" (designating both color and form) is not "horse" (designating form).
 
-此一重构揭示，公孙龙实际上是在区分“种”（白马）与“属”（马）的概念层次。用现代逻辑的语言表达，他是在论证：$\{白马\} \not\subseteq \{马\}$，因为前者是后者的子集且附加了额外属性。这是一个关于类属关系的严格推理，其有效性既可用西方逻辑的形式语言加以表达，亦可用因明的因三相加以检验。
+This reconstruction reveals that Gongsun Long was in fact distinguishing the conceptual levels of "species" (白马, white horse) and "genus" (马, horse). Expressed in the language of modern logic, he was arguing: $\{\text{white horse}\} \not\subseteq \{\text{horse}\}$, because the former is a subset of the latter with additional attributes. This is a rigorous reasoning about categorical membership relations, whose validity can be expressed in the formal language of Western logic and can also be tested using Hetuvidya's three characteristics of the reason.
 
-#### 4.4 对Tindale教授的核心回应
+#### 4.4 The Core Response to Professor Tindale
 
-基于以上分析，我们对Tindale教授的核心回应如下：
+Based on the above analysis, our core response to Professor Tindale is as follows:
 
-**阁下所关切之“被遮蔽的论证实践”，大多属于文化负载层的差异，而非逻辑形式层的差异。** 这些差异确实值得研究、值得尊重、值得从文化人类学的角度加以理解，然其并不构成对逻辑普遍性的挑战。非西方文化群体的论证方式，并非另一种“逻辑”，而是同一种逻辑原则在不同文化语境中的多样化呈现。
+**What you are concerned about as "obscured argumentative practices" largely belong to differences at the cultural load layer, rather than differences at the logical form layer.** These differences are indeed worthy of study, worthy of respect, and worthy of understanding from the perspective of cultural anthropology, but they do not constitute a challenge to logical universality. The argumentative modes of non-Western cultural groups are not another kind of "logic," but rather diversified presentations of the same logical principles in different cultural contexts.
 
-此非对Tindale教授观点的简单否定，而是一种更具包容性的综合：我们既接受他对文化多样性的强调，亦坚持逻辑原则的普遍性。此种综合与中国古代“理一分殊”的智慧若合符节——月印万川，理一而分殊，殊途而同归。
+This is not a simple negation of Professor Tindale's views, but a more inclusive synthesis: we both accept his emphasis on cultural diversity and insist on the universality of logical principles. This synthesis aligns with the ancient Chinese wisdom of "the principle is one but its manifestations are diverse" (理一分殊)—the moon is reflected in ten thousand rivers; the principle is one yet its manifestations are diverse; different paths converge on the same destination.
 
-### 第五章 贝叶斯框架下的重构：从对抗走向对话
+### Chapter 5: Reconstruction Under the Bayesian Framework: From Confrontation to Dialogue
 
-前文对逻辑相对主义提出了批评。然而，若换一种解读方式，以贝叶斯认知框架重新审视Tindale教授的论证，或许可以发现其中更有价值的洞见——这些洞见与逻辑普遍主义并不必然冲突。
+The preceding sections criticized logical relativism. However, if we adopt a different interpretive approach and re-examine Professor Tindale's argument using a Bayesian cognitive framework, we may discover more valuable insights within it—insights that do not necessarily conflict with logical universalism.
 
-#### 5.1 贝叶斯更新框架下的假设检验
+#### 5.1 Hypothesis Testing Under the Bayesian Update Framework
 
-设两个竞争性假设：
+Let two competing hypotheses be set:
 
-- **H₀（普遍主义模型）**：存在跨文化的普遍逻辑原则，不同文化的论证风格差异不影响有效性判断。
-- **H₁（多元主义模型）**：不同文化拥有各自独特的“理性”或“逻辑”，有效性判断依赖于文化语境。
+- **H₀ (Universalism Model)**: There exist cross-cultural universal logical principles; differences in argumentative style across cultures do not affect validity judgments.
+- **H₁ (Pluralism Model)**: Different cultures possess their own unique "rationalities" or "logics"; validity judgments depend on cultural context.
 
-Tindale教授提供的证据可视为一系列更新贝叶斯信念的观察：
+The evidence Professor Tindale provides can be regarded as a series of observations updating Bayesian beliefs:
 
-**表1：贝叶斯框架下的证据似然比评估**
+**Table 1: Evaluation of Evidence Likelihood Ratios Under the Bayesian Framework**
 
-| **证据** | **P(E|H₁)** | **P(E|H₀)** | **似然比 P(E|H₁)/P(E|H₀)** |
+| **Evidence** | **P(E|H₁)** | **P(E|H₀)** | **Likelihood Ratio P(E|H₁)/P(E|H₀)** |
 | :--- | :---: | :---: | :---: |
-| **E1：非西方文化存在多样化论证实践** | 高 | 中 | 约 2-3 |
-| **E2：主流范式的基本假设常沉入背景** | 高 | 中 | 约 2-3 |
-| **E3：非主流群体在主流标准下处于不利** | 高 | 低 | 约 5-10 |
+| **E1: Diverse argumentative practices exist in non-Western cultures** | High | Medium | ~2-3 |
+| **E2: Basic assumptions of the mainstream paradigm often sink into the background** | High | Medium | ~2-3 |
+| **E3: Non-mainstream groups are disadvantaged under mainstream standards** | High | Low | ~5-10 |
 
-即便从中性的先验出发(P(H₀)=P(H₁)=0.5)，经过这些证据的更新,H₁的后验概率可达到相当高的水平。这意味着,Tindale教授确实提供了值得认真对待的洞见。
+Even starting from a neutral prior (P(H₀)=P(H₁)=0.5), after updating through this evidence, the posterior probability of H₁ can reach a considerable level. This means that Professor Tindale indeed provides insights worthy of serious consideration.
 
-#### 5.2 真正有价值的洞见：假设空间的局限与认知公正
+#### 5.2 The Truly Valuable Insight: The Limitation of the Hypothesis Space and Cognitive Justice
 
-然则，这些洞见的实质究竟为何？我们认为,Tindale教授真正想提醒我们的，并非“逻辑是相对的”，而是**“我们的假设空间可能受到了文化偏见的局限”**。
+What, then, is the substance of these insights? We believe that what Professor Tindale truly wants to remind us of is not "logic is relative," but rather **"our hypothesis space may have been limited by cultural bias."**
 
-在贝叶斯框架中，推理过程包括：
-1. 定义可能的假设空间 $\{H_1, H_2, \dots, H_n\}$
-2. 设定先验概率 $P(H_i)$
-3. 根据证据更新信念 $P(H_i|E)$
+In the Bayesian framework, the reasoning process includes:
+1. Defining the possible hypothesis space $\{H_1, H_2, \dots, H_n\}$
+2. Setting prior probabilities $P(H_i)$
+3. Updating beliefs based on evidence $P(H_i|E)$
 
-Tindale教授的核心关切在于**第一步**：当我们定义“什么是可能的理性形式”时，是否因文化偏见而根本不曾考虑某些可能性？非西方文化的论证模式，是否可能构成西方逻辑之外的**备择假设**？我们在模型选择时，是否过早收敛到了单一模型?
+Professor Tindale's core concern lies in **the first step**: when we define "what are possible forms of rationality," do we, due to cultural bias, fail to even consider certain possibilities? Might the argumentative patterns of non-Western cultures constitute **alternative hypotheses** beyond Western logic? Have we converged too early to a single model in model selection?
 
-此一关切涉及的是**认知公正**问题：在评估异质文化的论证时，我们是否系统地低估了它们的认知价值？是否因表达形式不符合主流范式，便将它们排除在“理性”的殿堂之外?
+This concern pertains to the issue of **cognitive justice**: when evaluating the argumentation of heterogeneous cultures, do we systematically undervalue their cognitive value? Do we, because their form of expression does not conform to the mainstream paradigm, exclude them from the hall of "rationality"?
 
-#### 5.3 与普遍主义的相容性
+#### 5.3 Compatibility with Universalism
 
-此一关切与逻辑普遍主义并不矛盾，理由如下：
+This concern does not contradict logical universalism, for the following reasons:
 
-**第一，普遍逻辑原则（如不矛盾律、分离规则）正是贝叶斯更新本身所依赖的推理规则。** 无此等规则，任何信念更新皆无法进行。故Tindale教授的研究本身即在使用普遍逻辑原则。
+**First, universal logical principles (such as the law of non-contradiction, the rule of detachment) are precisely the rules of reasoning upon which Bayesian updating itself depends.** Without such rules, no belief updating can proceed. Therefore, Professor Tindale's research itself employs universal logical principles.
 
-**第二，文化差异主要体现在“先验分布”和“证据权重分配”上，而非推理规则上。** 不同文化可能对何种证据具有说服力有不同的直觉，对何种前提可接受有不同的先验信念。但这并不影响更新规则本身的普遍性。
+**Second, cultural differences primarily manifest in "prior distributions" and "evidence weight allocation," rather than in reasoning rules.** Different cultures may have different intuitions about what evidence is persuasive and different prior beliefs about what premises are acceptable. But this does not affect the universality of the updating rules themselves.
 
-**第三，“假设空间多元化”的诉求，正是普遍主义框架内部的自我修正机制。** 承认可能存在未被发现的逻辑洞见（如因明的九句因、墨家的“三物论式”），恰恰是普遍主义开放性的体现。此非对普遍性的否定，而是对普遍性的深化。
+**Third, the demand for "diversification of the hypothesis space" is precisely a self-correcting mechanism within the universalist framework.** Acknowledging that there may be undiscovered logical insights (such as Hetuvidya's nine-fold reason, the Mohist "three-entity reasoning schema" 三物论式) is precisely an expression of universalism's openness. This is not a negation of universality, but a deepening of universality.
 
-### 第六章 中国智慧的贡献：赋比兴与名辩
+### Chapter 6: The Contribution of Chinese Wisdom: Fu-Bi-Xing and Naming-Dialectics
 
-在与Tindale教授商榷的同时，我们更愿展示中国学术传统对于论证理论的独特贡献。这些贡献并非作为“另一种逻辑”来挑战西方逻辑的权威，而是作为“同一种理性”的丰富表达，为普遍逻辑原则提供更生动的例证、更深刻的洞见。
+While engaging in critical dialogue with Professor Tindale, we wish even more to demonstrate the unique contributions of the Chinese academic tradition to argumentation theory. These contributions do not serve as "another kind of logic" to challenge the authority of Western logic, but as rich expressions of "the same rationality," providing more vivid illustrations and deeper insights for universal logical principles.
 
-#### 6.1 赋比兴：诗性论证的智慧
+#### 6.1 Fu-Bi-Xing (赋比兴): The Wisdom of Poetic Argumentation
 
-《周礼·春官》载大师“教六诗：曰风、曰赋、曰比、曰兴、曰雅、曰颂”。《诗大序》将赋比兴与风雅颂并列为“六义”。朱熹《诗集传》释云：“赋者，敷陈其事而直言之者也。比者，以彼物比此物也。兴者，先言他物以引起所咏之词也。”
+The *Rites of Zhou* (*Zhouli·Chunguan* 周礼·春官) records that the Grand Master "teaches the six poetic forms: called Feng (风), Fu (赋), Bi (比), Xing (兴), Ya (雅), and Song (颂)." The *Great Preface to the Classic of Poetry* (*Shidaxu* 诗大序) lists Fu, Bi, and Xing alongside Feng, Ya, and Song as the "Six Meanings" (六义). Zhu Xi's *Collected Commentaries on the Classic of Poetry* (*Shiji Chuan* 诗集传) explains: "Fu is laying out the matter and speaking of it directly. Bi is comparing this thing with that thing. Xing is first speaking of another thing to arouse the words being sung."
 
-从论证理论的角度看，赋比兴不仅是诗歌创作的手法，亦是一种独特的**论证方式**：
+From the perspective of argumentation theory, Fu-Bi-Xing is not only a technique of poetic creation but also a unique **mode of argumentation**:
 
-- **赋**：相当于直陈式论证，类似于西方的“直言判断”。
-- **比**：相当于类比论证，通过相似性建立推理。
-- **兴**：相当于隐喻式推理，通过意象引发联想，引导听众得出隐含的结论。
+- **Fu (赋)**: Corresponds to direct declarative argumentation, similar to Western "categorical judgment."
+- **Bi (比)**: Corresponds to analogical argumentation, establishing reasoning through similarity.
+- **Xing (兴)**: Corresponds to metaphorical reasoning, arousing associations through imagery and guiding the audience to reach implicit conclusions.
 
-《论语》载孔子与弟子言志，曾皙曰：“暮春者，春服既成，冠者五六人，童子六七人，浴乎沂，风乎舞雩，咏而归。”夫子喟然叹曰：“吾与点也！”曾皙之应答既非逻辑推理，亦非直陈主张，而是通过一幅画面、一种意境，表达了与孔子“吾与点也”相契合的人生态度。此乃“兴”式论证——通过意象引发共鸣，达成共识。
+The *Analerta* (论语) records Confucius conversing with his disciples about their aspirations. Zeng Xi (曾皙) said: "In late spring, when the spring garments are ready, with five or six young men wearing caps and six or seven boys, I would bathe in the Yi River, enjoy the breeze at the Rain Altar (舞雩), and return home singing." The Master sighed and said: "I agree with Dian!" (吾与点也). Zeng Xi's response was neither logical reasoning nor a direct assertion, but through a scene and a mood, it expressed a life attitude consonant with Confucius's "I agree with Dian." This is "Xing-style" argumentation—achieving consensus through imagery that arouses resonance.
 
-#### 6.2 名家的诡辩与正名
+#### 6.2 The School of Names' Paralogisms and Rectification of Names
 
-惠施、公孙龙等名家学者，以其看似“诡辩”的命题著称于世。惠施“历物十事”有云：“天与地卑，山与泽平。”“日方中方睨，物方生方死。”公孙龙“白马非马”“坚白石三”之说，更是聚讼纷纭。
+Scholars of the School of Names (名家), such as Hui Shi (惠施) and Gongsun Long (公孙龙), are renowned for their seemingly "paralogistic" (诡辩) propositions. Hui Shi's "Ten Propositions on Examining Things" (历物十事) include: "Heaven and earth are equally low; mountains and marshes are equally level." "The sun is at noon and simultaneously declining; a creature is simultaneously born and simultaneously dying." Gongsun Long's theories of "a white horse is not a horse" and "hard, white, and stone are three" have been endlessly disputed.
 
-从逻辑学角度看，名家命题的价值在于：**它们通过表面上的悖论，揭示了日常语言的模糊性与逻辑精确性之间的张力**。公孙龙区分“马”与“白马”，实乃区分内涵与外延、种概念与属概念。惠施强调“万物毕同毕异”，是在揭示类与类之间的相对性。这些讨论，与西方逻辑中关于共相、关于定义的讨论，有着深层的理论共鸣。
+From the perspective of logic, the value of the School of Names' propositions lies in: **they reveal, through apparent paradoxes, the tension between the vagueness of everyday language and the precision of logic.** Gongsun Long's distinction between "horse" and "white horse" is in fact a distinction between intension and extension, between species concept and genus concept. Hui Shi's emphasis that "all things are ultimately identical and ultimately different" reveals the relativity between classes. These discussions possess deep theoretical resonance with Western logic's discussions about universals and definitions.
 
-庄子评价惠施：“惠施多方，其书五车，其道舛驳，其言也不中。”（《庄子·天下》）此乃对名家的批评，然亦承认其“多方”与“五车”之博学。名家的价值，不在于提供可以照搬的现成结论，而在于通过极端的思考实验，激发人们对语言、概念、推理的深刻反思。
+Zhuangzi (庄子) evaluated Hui Shi: "Hui Shi had many methods; his books filled five carts. But his path was flawed and驳, and his words did not hit the mark." (*Zhuangzi·Tianxia*). This is a criticism of the School of Names, yet it also acknowledges their erudition of "many methods" and "five carts." The value of the School of Names lies not in providing ready-made conclusions that can be adopted wholesale, but in stimulating profound reflection on language, concepts, and reasoning through extreme thought experiments.
 
-#### 6.3 因明在中国的本土化：辩经的智慧
+#### 6.3 The Localization of Hetuvidya in China: The Wisdom of Dialectical Debate (辩经)
 
-因明学随佛教传入中国，在汉传与藏传佛教中得到了创造性的发展。据许春梅研究，“辩经”是因明本土化的代表形式。藏传佛教寺院的辩经实践，将陈那因明的逻辑思想转化为一种“具有普适性的思维训练工具”。
+Hetuvidya was transmitted to China along with Buddhism and underwent creative development in both Han Chinese and Tibetan Buddhism. According to Xu Chunmei's research, "dialectical debate" (辩经) is the representative form of Hetuvidya's localization. The dialectical debate practice in Tibetan Buddhist monasteries transformed Dignāga's logical thought into a "universally applicable tool for cognitive training."
 
-以“红白颜色之辩”为例：
-- 问：白法螺之色为白，然则白法螺之色为红乎?
-- 答：非也。
-- 问：然则白法螺之色，既为白而又非红乎?
-- 答：然也。
+Take the "debate on red and white colors" as an example:
+- Question: The color of the white conch is white; is the color of the white conch then red?
+- Answer: No.
+- Question: Then the color of the white conch is both white and not red?
+- Answer: Yes.
 
-此辩经形式，表面为简单问答，实则训练对概念关系的精确把握：白色与红色为不相容关系（异品），白法螺之色属于白色（同品），故必不属于红色（异品遍无）。此正因明“异品遍无性”之生动体现。
+This form of dialectical debate, appearing on the surface as simple question and answer, actually trains precise grasp of conceptual relations: white and red are in an incompatible relation (dissimilar instances, 异品); the color of the white conch belongs to white (similar instances, 同品), therefore it necessarily does not belong to red (complete absence in dissimilar instances, 异品遍无性). This is precisely a vivid embodiment of Hetuvidya's "complete absence in dissimilar instances."
 
-辩经的价值在于，它将抽象的因明逻辑转化为可操作的思维训练，使逻辑原则不再仅是书本上的条文，而成为僧侣日常修习的内容。此为中国化因明对世界逻辑教育的独特贡献。
+The value of dialectical debate lies in transforming abstract Hetuvidya logic into operational cognitive training, making logical principles no longer merely provisions in books but content for monks' daily practice. This is the unique contribution of Chinese-ized Hetuvidya to world logic education.
 
-#### 6.4 和而不同：中国智慧的核心精神
+#### 6.4 Harmony in Difference (和而不同): The Core Spirit of Chinese Wisdom
 
-《论语·子路》载孔子曰：“君子和而不同，小人同而不和。”何晏《论语集解》引注云：“君子心和，然其所见各异，故曰不同。”此乃中国智慧对多元与统一关系的经典表述。
+The *Analerta* (*Lunyu·Zilu* 论语·子路) records Confucius saying: "The gentleman is in harmony in difference (和而不同); the small man is in sameness without harmony (同而不和)." He Yan's (何晏) *Collected Explanations of the Analerta* (*Lunyu Jijie* 论语集解) cites a commentary: "The gentleman's heart is in harmony, yet what he sees differs from others, hence it is called 'difference' (不同)." This is the classic expression of Chinese wisdom regarding the relationship between plurality and unity.
 
-“和而不同”的精髓在于：承认差异（不同）之存在，但不让差异消解共同体的可能（和）。应用于跨文化逻辑研究：
+The essence of "harmony in difference" lies in: acknowledging the existence of differences (不同), but not allowing differences to dissolve the possibility of community (和). Applied to cross-cultural logic research:
 
-- **承认差异**：不同文化确存在论证风格、修辞偏好、论辩习惯的差异。
-- **追求和合**：这些差异不构成不可通约的“逻辑”体系，而是同一理性在不同土壤上的多样绽放。
-- **对话生成**：通过对话与交流，不同传统可相互激发、相互滋养，共同深化对理性的理解。
+- **Acknowledging differences**: Different cultures indeed have differences in argumentative style, rhetorical preference, and dialectical habit.
+- **Pursuing harmony**: These differences do not constitute incommensurable "logical" systems, but are diverse blossoms of the same rationality on different soils.
+- **Dialogue generation**: Through dialogue and exchange, different traditions can stimulate and nourish each other, jointly deepening the understanding of rationality.
 
-此与逻辑普遍主义的精神完全一致——普遍性不是单一性的强加，而是多样性的统一。
+This is entirely consonant with the spirit of logical universalism—universality is not the imposition of singularity, but the unity of diversity.
 
-### 第七章 结语：为理性辩护，为对话奠基
+### Chapter 7: Conclusion: Defending Rationality, Grounding Dialogue
 
-行文至此，可与Tindale教授的商榷作一总结。
+Having reached this point, we may summarize our critical dialogue with Professor Tindale.
 
-#### 7.1 三点共识
+#### 7.1 Three Points of Consensus
 
-首先，我们与Tindale教授达成三点共识：
+First, we reach three points of consensus with Professor Tindale:
 
-**其一，反思西方中心主义的必要性。** 西方逻辑传统确在历史传播中获得了某种“霸权”地位，此霸权可能导致对其他文化论证方式的忽视或贬低。对此保持警觉，乃学术良知的体现。
+**First, the necessity of reflecting on Western centrism.** The Western logical tradition has indeed acquired a certain "hegemonic" position in its historical dissemination, and this hegemony may lead to the neglect or devaluation of other cultures' argumentative modes. Maintaining vigilance against this is an expression of academic conscience.
 
-**其二，研究非西方论证实践的重要性。** 墨家逻辑、因明学及各种原住民的论辩文化，蕴含着丰富的思想资源，值得深入挖掘、系统研究。此乃拓宽逻辑学研究视野的必然要求。
+**Second, the importance of studying non-Western argumentative practices.** Mohist logic, Hetuvidya, and various indigenous dialectical cultures contain rich intellectual resources worthy of in-depth excavation and systematic research. This is a necessary requirement for broadening the horizons of logic research.
 
-**其三，关注认知公正的紧迫性。** 在评估异质文化的论证时，我们需要警惕系统性的认知偏见，避免因表达形式差异而低估其认知价值。
+**Third, the urgency of attending to cognitive justice.** When evaluating the argumentation of heterogeneous cultures, we need to be alert to systematic cognitive bias, avoiding the undervaluation of their cognitive value due to differences in form of expression.
 
-#### 7.2 三点商榷
+#### 7.2 Three Points of Critical Dialogue
 
-然同时，我们对Tindale教授提出三点商榷：
+Yet simultaneously, we offer three points of critical dialogue with Professor Tindale:
 
-**其一，区分论证风格与逻辑原则。** 文化差异主要体现在论证的风格、修辞、表达层面，而非推理的有效性层面。三大逻辑传统的比较研究表明，存在跨文化的普遍逻辑原则，这些原则乃人类理性的共同遗产。
+**First, distinguish argumentative style from logical principles.** Cultural differences primarily manifest at the level of argumentative style, rhetoric, and expression, rather than at the level of reasoning validity. Comparative study of the three great logical traditions demonstrates that cross-cultural universal logical principles exist, and these principles are the common heritage of human rationality.
 
-**其二，警惕相对主义的陷阱。** 若走向极端的逻辑相对主义，将消解跨文化对话与批判的可能性，使不同文化成为相互隔绝的“逻辑孤岛”。此与Tindale教授促进跨文化理解的初衷恰恰相悖。
+**Second, be wary of the trap of relativism.** If one moves toward extreme logical relativism, it will dissolve the possibility of cross-cultural dialogue and critique, making different cultures mutually isolated "logical islands." This precisely contradicts Professor Tindale's original intention of promoting cross-cultural understanding.
 
-**其三，以“和而不同”超越“一元与多元”的对立。** 真正的学术智慧，不在于在普遍主义与相对主义之间二择其一，而在于找到一条既承认多样性又坚持统一性的道路。中国“和而不同”的智慧，为我们提供了这样的思想资源。
+**Third, transcend the opposition between "monism and pluralism" through "harmony in difference" (和而不同).** Genuine academic wisdom lies not in choosing between universalism and relativism, but in finding a path that both acknowledges diversity and insists on unity. The Chinese wisdom of "harmony in difference" provides us with such intellectual resources.
 
-#### 7.3 面向未来的对话
+#### 7.3 Dialogue Oriented Toward the Future
 
-《礼记·中庸》云：“万物并育而不相害，道并行而不相悖。”不同文化传统的论证方式，正是此种“并育并行”的生动体现。它们并非相互排斥的竞争对手，而是共同照亮理性这同一轮明月的万千江河。
+The *Record of Rites* (*Liji·Zhongyong* 礼记·中庸) states: "All things are nourished together without harming one another; all paths run parallel without conflicting." The argumentative modes of different cultural traditions are precisely vivid embodiments of this "nourishing together and running parallel." They are not mutually exclusive competitors, but the thousands of rivers that together illuminate the same moon of rationality.
 
-Tindale教授的讲座，是一场富有诚意的学术邀约。他邀请我们走出习焉不察的思维定势，重新审视那些被边缘化的声音。对此邀约最好的回应，既非简单的拒斥，亦非盲目的接受，而是展开一场真诚的对话——以中国学术的深厚传统为根基，以逻辑学的严谨方法为工具，以开放包容的胸怀为态度，共同探索“理性”的奥秘。
+Professor Tindale's lecture is an academically sincere invitation. He invites us to step out of our customary patterns of thought and re-examine those marginalized voices. The best response to this invitation is neither simple rejection nor blind acceptance, but unfolding a genuine dialogue—with the deep traditions of Chinese scholarship as our foundation, with the rigorous methods of logic as our tool, with an open and inclusive spirit as our attitude, jointly exploring the mysteries of "rationality."
 
-在白云山麓的这场对话中，我们愿以后辈学人的身份，向远道而来的Tindale教授致以诚挚的敬意，并奉上这篇商榷文章，作为跨洋学术交流的一份薄礼。愿此对话，能够激发更多关于理性、逻辑与文化关系的思考；愿未来的论证研究，能够在“和而不同”的智慧指引下，走向更加开阔、更加包容、更加深邃的境界。
+In this dialogue at the foot of Baiyun Mountain, we wish, as younger scholars, to extend sincere respect to Professor Tindale who has come from afar, and to offer this critical dialogue article as a modest gift of trans-oceanic academic exchange. May this dialogue stimulate further reflection on rationality, logic, and cultural relations; may future argumentation research, guided by the wisdom of "harmony in difference," advance toward broader, more inclusive, and more profound horizons.
 
-### 参考文献
+### References
 
-**一、中文文献**
+**I. Chinese-Language References**
 
-[1] 梁启超. 墨子之论理学[M]. 北京: 北京出版社, 1999.
+[1] Liang Qichao. *Mozi's Logic* (*墨子之论理学*)[M]. Beijing: Beijing Publishing House, 1999.
 
-[2] 任远. 相对主义、真与分歧[R]. 济南: 山东大学分析哲学论坛, 2017.
+[2] Ren Yuan. Relativism, Truth, and Disagreement[R]. Jinan: Shandong University Analytic Philosophy Forum, 2017.
 
-[3] 许春梅. 现代逻辑视角下陈那因明研究[M]. 北京: 北京大学出版社, 2022.
+[3] Xu Chunmei. *Research on Dignāga's Hetuvidya from the Perspective of Modern Logic* (*现代逻辑视角下陈那因明研究*)[M]. Beijing: Peking University Press, 2022.
 
-[4] 因明绝学抢救性研究的意义[J]. 中国社会科学评价, 2020(3).
+[4] The Significance of Rescue Research on the Lost Discipline of Hetuvidya[J]. *China Social Science Evaluation*, 2020(3).
 
-[5] 庄文瑞. 化约主义·典范理论·无政府主义——现代西方自然科学方法论争议[J]. 东吴哲学传习录, 1993(2): 233-254.
+[5] Zhuang Wenrui. Reductionism · Paradigm Theory · Anarchism—Disputes over Modern Western Natural Science Methodology[J]. *Soochow Philosophy Transmissions*, 1993(2): 233-254.
 
-[6] 崔清田. 墨家逻辑与亚里士多德逻辑的比较研究[M]//崔清田. 显学重光. 沈阳: 辽宁教育出版社, 1997.
+[6] Cui Qingtian. Comparative Study of Mohist Logic and Aristotelian Logic[M]//Cui Qingtian. *Rediscovery of a Prominent School* (显学重光). Shenyang: Liaoning Education Press, 1997.
 
-[7] 沈有鼎. 墨经的逻辑学[M]. 北京: 中国社会科学出版社, 1982.
+[7] Shen Youding. *The Logic of the Mohist Canons* (*墨经的逻辑学*)[M]. Beijing: Chinese Academy of Social Sciences Press, 1982.
 
-[8] 郑伟宏. 因明大疏校释[M]. 上海: 中西书局, 2013.
+[8] Zheng Weihong. *Critical Annotation of the Great Commentary on Hetuvidya* (*因明大疏校释*)[M]. Shanghai: Zhongxi Book Bureau, 2013.
 
-**二、外文文献**
+**II. Foreign-Language References**
 
-[9] Garrett M M. The "Mo-Tzu" and the "Lu-Shih Ch‘un-Ch’iu": A Case Study of Classical Chinese Theory and Practice of Argument[D]. Berkeley: University of California, Berkeley, 1983.
+[9] Garrett M M. The "Mo-Tzu" and the "Lu-Shih Ch'un-Ch'iu": A Case Study of Classical Chinese Theory and Practice of Argument[D]. Berkeley: University of California, Berkeley, 1983.
 
 [10] Hample D. Christopher W. Tindale: The Anthropology of Argument: Cultural Foundations of Rhetoric and Reason[J]. Argumentation, 2021, 35: 509-512.
 

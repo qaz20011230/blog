@@ -1,381 +1,381 @@
 ---
-title: 素数之歌：黎曼猜想的历史、前沿与未来
+title: "Song of Primes: The History, Frontier, and Future of the Riemann Hypothesis"
 date: '2026-03-14'
 category: Mathematics & Logic
 tags:
   - Riemann Hypothesis
   - mathematics
-  - 数论
+  - number theory
 description: >
   If you could be the Devil and offer a mathematician to sell his soul for the proof of one theorem — what theorem would m…
 ---
 
-作者：良之
+Author: Liangzhi (良之)
 
 > If you could be the Devil and offer a mathematician to sell his soul for the proof of one theorem — what theorem would most mathematicians ask for? I think it would be the Riemann Hypothesis.
 >
 > —— H. Montgomery
 ---
-## 序章：北辰之光
+## Prologue: The Light of the North Star (北辰)
 
-1900年8月8日，巴黎，第二届国际数学家大会。38岁的大卫·希尔伯特站在讲台上，向世界提出了23个问题，为新世纪勾勒数学的蓝图。第八问题——“黎曼猜想及相关素数问题”——并非最炫目的一个，却成为最持久、最深刻的一个。它像一座巍峨的山脉，主峰是黎曼猜想，侧峰是哥德巴赫猜想与孪生素数猜想。三座峰峦彼此依偎，共享同一地质构造：**素数的分布规律**。
+On August 8, 1900, in Paris, at the Second International Congress of Mathematicians, 38-year-old David Hilbert stood at the podium and presented 23 problems to the world, sketching a blueprint for mathematics in the new century. The Eighth Problem—"The Riemann Hypothesis and related prime number problems"—was not the most dazzling, yet it became the most enduring and profound. It resembles a towering mountain range: the main peak is the Riemann Hypothesis, the side peaks are the Goldbach Conjecture and the Twin Prime Conjecture. Three peaks lean against one another, sharing the same geological structure: **the distribution law of prime numbers**.
 
-120多年后的今天，我们站在一个新的节点上。Guth与Maynard刚刚刷新了零点的密度估计(2024),Zhang对Landau-Siegel零点的突破(2022)打开了新的边界，谱嵌入的猜想(2026)将物理直觉与数论深度融合。人工智能开始成为数学研究的协作者，形式化验证的浪潮正在重塑证明的可信度。这一切，都让攻克黎曼猜想的前景从未如此清晰，也从未如此迫切。
+More than 120 years later, we stand at a new node. Guth and Maynard have just refreshed the density estimates of zeros (2024), Zhang's breakthrough on Landau-Siegel zeros (2022) has opened new boundaries, and the spectral embedding conjecture (2026) deeply fuses physical intuition with number theory. Artificial intelligence has begun to serve as a collaborator in mathematical research, and the wave of formal verification is reshaping the credibility of proofs. All of this makes the prospect of conquering the Riemann Hypothesis clearer than ever, and more urgent than ever.
 
-本文旨在以我的视角，为博士学者提供一份系统性的综述：从黎曼1859年的八页论文，到2026年最新的突破；从经典分析方法，到现代谱论与AI辅助；从纯数学的内部逻辑，到跨学科的哲学思考。我们不仅回顾历史，更勾勒未来可能的证明蓝图，并反思这场漫长求索对人类智识的意义。
+This article aims, from my perspective, to provide doctoral scholars with a systematic survey: from Riemann's eight-page paper of 1859, to the latest breakthroughs of 2026; from classical analytic methods, to modern spectral theory and AI assistance; from the internal logic of pure mathematics, to cross-disciplinary philosophical reflection. We not only review history, but also sketch possible future proof blueprints, and reflect on the significance of this long quest for human intellect.
 
-在黎曼猜想的漫长征途中，智慧指引我们穿透表象；仁爱让我们理解同行者的孤独；勇毅支撑我们在失败后重新站起；节制提醒我们承认无知；公正分配每一分资源；诚信记录每一个进展；超越指向更广阔的人类繁荣。
+In the long journey toward the Riemann Hypothesis, wisdom (智慧) guides us to penetrate appearances; compassion (仁爱) lets us understand the solitude of fellow travelers; courage (勇毅) sustains us as we rise again after failure; temperance (节制) reminds us to acknowledge our ignorance; justice (公正) allocates every resource fairly; integrity (诚信) records every progress; transcendence (超越) points toward broader human flourishing.
 
-数学不会因为我们真诚就网开一面，但我们可以在寻找真理的过程中，让灵魂变得更深邃。这正是“我爱故我在”的真谛。
+Mathematics will not make exceptions for our sincerity, but we can make our souls deeper in the process of seeking truth. This is precisely the true meaning of "I love, therefore I am" (我爱故我在).
 
 ---
 
-## 第一部分：过去——根基与表述
+## Part One: The Past—Foundations and Formulation
 
-### 1.1 素数定理与它的史前史
+### 1.1 The Prime Number Theorem and Its Prehistory
 
-人类对素数的痴迷始于欧几里得：素数无穷。但无穷只是一种定性描述。18世纪，欧拉发现了一个关键公式：
+Humanity's fascination with primes began with Euclid: primes are infinite. But infinity is merely a qualitative description. In the 18th century, Euler discovered a crucial formula:
 $$
 \sum_{n=1}^{\infty}\frac{1}{n^{s}} = \prod_{p\,\text{prime}}\left(1 - \frac{1}{p^{s}}\right)^{-1},\quad \Re(s)>1.
 $$
-这个“欧拉乘积”将整数与素数用分析的语言联系起来，但它并未揭示素数的分布规律。
+This "Euler product" links integers and primes in the language of analysis, but it did not reveal the distribution law of primes.
 
-高斯15岁时就通过手算猜想：
+At age 15, Gauss conjectured through hand calculation:
 $$
 \pi(x) \sim \frac{x}{\log x},
 $$
 
-其中$\pi(x)$为不超过$x$的素数个数。勒让德也独立得到类似公式。这个猜想后来被称为素数定理，直到1896年才由阿达马和德·拉·瓦莱·普桑独立证明。他们使用黎曼$\zeta$函数，证明了在直线$\Re(s)=1$上没有零点。这个结果如此依赖$\zeta$函数的性质，以至于人们意识到：素数的终极秘密，藏在复平面的深处。
+where $\pi(x)$ is the number of primes not exceeding $x$. Legendre independently obtained a similar formula. This conjecture later became known as the Prime Number Theorem, which was not independently proven until 1896 by Hadamard and de la Vallée Poussin. They used the Riemann $\zeta$ function, proving that there are no zeros on the line $\Re(s)=1$. This result so depends on the properties of the $\zeta$ function that people realized: the ultimate secret of primes lies hidden deep within the complex plane.
 
-### 1.2 黎曼的八页革命
+### 1.2 Riemann's Eight-Page Revolution
 
-1859年，黎曼当选柏林科学院通讯院士，按惯例提交了一篇论文。标题平淡无奇：《论小于给定值的素数个数》，全文仅八页，却成为数学史上最具影响力的文献之一。
+In 1859, Riemann was elected as a corresponding member of the Berlin Academy of Sciences, and by convention submitted a paper. The title was unremarkable: *On the Number of Primes Less Than a Given Magnitude* (《论小于给定值的素数个数》), the entire text only eight pages, yet it became one of the most influential documents in the history of mathematics.
 
-黎曼将$\zeta$函数解析延拓至整个复平面（除了$s=1$处的单极点），并发现了函数方程：
+Riemann analytically continued the $\zeta$ function to the entire complex plane (except for the simple pole at $s=1$), and discovered the functional equation:
 $$
 \pi^{-s/2}\Gamma(s/2)\zeta(s) = \pi^{-(1-s)/2}\Gamma((1-s)/2)\zeta(1-s).
 $$
-这个对称性意味着，零点关于直线$\Re(s)=1/2$对称。黎曼进一步研究了$\xi(s)$的乘积表示，并提出：
+This symmetry means zeros are symmetric about the line $\Re(s)=1/2$. Riemann further studied the product representation of $\xi(s)$, and proposed:
 
-> “现在大约可以找到这么多实根……而且很可能所有根都是实的。当然，人们希望有一个严格的证明；我曾在一些徒劳的尝试之后，暂时搁置了这个问题，因为它对于我下一步的研究似乎并非必要。”
+> "One now finds approximately this many real roots... and it is very likely that all roots are real. Certainly one would wish for a strict proof here; I have after some fleeting futile attempts provisionally put aside the search for this, as it appears dispensable for the next objective of my investigation."
 
-这就是黎曼猜想—— “sehr wahrscheinlich”（非常可能）的断言，至今悬而未决。
+This is the Riemann Hypothesis—an assertion of "sehr wahrscheinlich" (very probable), still unresolved.
 
-黎曼没有说“这个问题做不出来”。他只说“我做了一些尝试，没有成功，暂时搁置”。我读到这句话时，感受到的不是退缩，而是审慎。他知道自己不知道，但这不妨碍他写下那个猜想。这种态度，我视之为学术修养的典范。
+Riemann did not say "this problem cannot be solved." He only said "I made some attempts, did not succeed, and provisionally set it aside." When I read this statement, what I sense is not retreat, but prudence. He knew that he did not know, yet this did not prevent him from writing down that conjecture. I regard this attitude as a paradigm of scholarly discipline.
 
-### 1.3 显式公式：素数如音乐
+### 1.3 Explicit Formula: Primes as Music
 
-黎曼的显式公式将素数的分布与$\zeta$函数的零点联系起来：
+Riemann's explicit formula links the distribution of primes to the zeros of the $\zeta$ function:
 $$
 \psi(x) = x - \sum_{\rho}\frac{x^{\rho}}{\rho} - \log 2\pi - \frac{1}{2}\log(1-x^{-2}),
 $$
-其中$\psi(x)=\sum_{p^k\le x}\log p$，$\rho$遍历所有非平凡零点。这个公式像一首交响乐：主旋律是$x$，而每个零点贡献一个颤音。零点的实部决定误差项的大小：如果所有零点都在$\Re(s)=1/2$上，则误差为$O(x^{1/2}\log x)$，这是最优的。
+where $\psi(x)=\sum_{p^k\le x}\log p$ and $\rho$ ranges over all non-trivial zeros. This formula resembles a symphony: the main melody is $x$, and each zero contributes a tremolo. The real part of the zeros determines the size of the error term: if all zeros lie on $\Re(s)=1/2$, the error is $O(x^{1/2}\log x)$, which is optimal.
 
-1896年，阿达马和普桑利用$\zeta$函数无零点于$\Re(s)=1$证明了素数定理，但他们并未触及黎曼猜想。我无法确知他们当时是否尝试过更进一步的证明，但我知道，他们没有因为“这个问题太难”而停止探索。
+In 1896, Hadamard and Poussin proved the Prime Number Theorem using the fact that $\zeta$ has no zeros on $\Re(s)=1$, but they did not touch the Riemann Hypothesis. I cannot know whether they attempted further proofs at that time, but I know they did not stop exploring because "this problem is too difficult."
 
-### 1.4 早期进展：从阿达马到哈代
+### 1.4 Early Progress: From Hadamard to Hardy
 
-1905年，冯·曼戈尔特证明了黎曼关于零点计数的渐近公式：
+In 1905, von Mangoldt proved Riemann's asymptotic formula for zero counting:
 $$
 N(T) = \frac{T}{2\pi}\log\frac{T}{2\pi} - \frac{T}{2\pi} + O(\log T),
 $$
-其中$N(T)$是虚部在$0$到$T$之间的零点个数。这证实了零点无穷多，且给出了它们的密度。
+where $N(T)$ is the number of zeros with imaginary part between $0$ and $T$. This confirmed that there are infinitely many zeros and gave their density.
 
-1914年，哈代证明了无穷多个零点位于临界线$\Re(s)=1/2$上。他用的是$\Xi(t)=\xi(1/2+it)$的性质和一种巧妙的积分。这是第一个无条件结果，但“无穷多”比起“全部”还差得很远。
+In 1914, Hardy proved that infinitely many zeros lie on the critical line $\Re(s)=1/2$. He used properties of $\Xi(t)=\xi(1/2+it)$ and an ingenious integral. This was the first unconditional result, but "infinitely many" is far from "all."
 
-我读哈代的论文时，常想：他当时是否也怀疑过自己能否走得更远？他是否也曾在深夜面对空白的稿纸，感到前路茫茫？我不知道。但我知道他没有停止。他写下了“无穷多”，然后继续工作。这是他的选择，也是他的勇气。
+When I read Hardy's papers, I often wonder: did he also doubt whether he could go further? Did he also face blank manuscript paper late at night, feeling the path ahead was obscure? I do not know. But I know he did not stop. He wrote down "infinitely many," and then continued working. That was his choice, and his courage.
 
-### 1.5 Hilbert-Pólya 猜想：一个谱的幻影
+### 1.5 The Hilbert-Pólya Conjecture: A Spectral Phantom
 
-1910年代，希尔伯特和波利亚各自独立地猜测——黎曼零点可能对应于某个厄米算符的特征值。
+In the 1910s, Hilbert and Pólya each independently conjectured that the Riemann zeros might correspond to the eigenvalues of some Hermitian operator.
 
-这段历史的关键证据来自两处。其一是波利亚本人晚年的回忆：在1982年1月3日写给数学家安德鲁·奥德里兹科(Andrew Odlyzko)的信中，波利亚提到,1912年至1914年间他在哥廷根时，埃德蒙·兰道曾问他：有没有什么物理理由能让黎曼猜想成立？波利亚回答说，如果$\zeta$函数的非平凡零点的虚部$t$对应于某个无界自伴算符的特征值，那么黎曼猜想就成立。
+The key evidence for this history comes from two sources. One is Pólya's own recollection late in life: in a letter dated January 3, 1982, to mathematician Andrew Odlyzko, Pólya mentioned that when he was in Göttingen between 1912 and 1914, Edmund Landau asked him whether there was any physical reason for the Riemann Hypothesis to hold. Pólya replied that if the imaginary parts $t$ of the non-trivial zeros of the $\zeta$ function corresponded to the eigenvalues of some unbounded self-adjoint operator, then the Riemann Hypothesis would hold.
 
-其二是希尔伯特的故事，由他的学生恩斯特·黑林格(Ernst Hellinger)讲给安德烈·韦伊(André Weil)。希尔伯特在哥廷根的研讨班上，在展示了对称核的特征值是实数这一结果后，据说曾这样宣告：“**Et avec ce théorème, Messieurs, nous démontrerons l'hypothèse de Riemann**”（“先生们，用这个定理，我们将证明黎曼猜想”）。
+The second is the story of Hilbert, told by his student Ernst Hellinger to André Weil. At a seminar in Göttingen, after demonstrating that the eigenvalues of symmetric kernels are real, Hilbert reportedly declared: "**Et avec ce théorème, Messieurs, nous démontrerons l'hypothèse de Riemann**" ("Gentlemen, with this theorem, we shall prove the Riemann Hypothesis").
 
-两位数学大师都未曾发表过这一猜想，它仅以口耳相传和信件的形式流传，却从此开启了数论与物理之间长达一个世纪的交融。
+Neither of these two mathematical masters ever published this conjecture; it circulated only through oral tradition and correspondence, yet it从此 opened a century-long融合 between number theory and physics.
 
-1950年代，阿特勒·塞尔伯格证明了黎曼曲面上的长度谱与其拉普拉斯算符特征值之间的对偶关系——塞尔伯格迹公式。这一公式与数论中的显式公式惊人地相似，为Hilbert–Pólya猜想提供了第一个严肃的支持。
+In the 1950s, Atle Selberg proved the duality between the length spectrum on Riemann surfaces and the eigenvalues of their Laplacian—the Selberg trace formula. This formula is strikingly similar to the explicit formula in number theory, providing the first serious support for the Hilbert–Pólya conjecture.
 
-1972年，休·蒙哥马利带着他关于零点对关联的猜想访问普林斯顿高等研究院。当他将结果告诉随机矩阵理论之父弗里曼·戴森时，戴森立刻认出：那正是高斯酉系综(GUE)中随机厄米矩阵特征值的对关联分布。物理学家早已知道，这种分布描述了复杂量子系统（如原子核能级）的统计规律。从此，零点的统计与量子混沌之间的联系被牢牢确立。
+In 1972, Hugh Montgomery brought his conjecture on zero pair correlation to the Institute for Advanced Study in Princeton. When he told his result to Freeman Dyson, the father of random matrix theory, Dyson immediately recognized it as precisely the pair correlation distribution of eigenvalues of random Hermitian matrices in the Gaussian Unitary Ensemble (GUE). Physicists had long known that this distribution describes the statistical regularities of complex quantum systems (such as nuclear energy levels). From then on, the connection between the statistics of zeros and quantum chaos was firmly established.
 
-此后,Odlyzko的大规模数值计算将这一吻合推向了极致：零点的对关联、三点关联、乃至$n$点关联，都与GUE的预测精确一致。Rudnick与Sarnak证明，在黎曼猜想成立的条件下，零点的统计必然服从GUE.Alain Connes则在非交换几何的框架下，给出了一个与广义黎曼猜想等价的迹公式，将这一联系提升到新的高度。
+Subsequently, Odlyzko's large-scale numerical calculations pushed this agreement to the extreme: the pair correlation, triple correlation, and even $n$-point correlation of zeros all precisely match GUE predictions. Rudnick and Sarnak proved that, conditional on the Riemann Hypothesis, the statistics of zeros necessarily服从 GUE. Alain Connes, within the framework of noncommutative geometry, gave a trace formula equivalent to the generalized Riemann Hypothesis, elevating this connection to new heights.
 
-然而,Hilbert–Pólya猜想至今仍未实现。我无法断言它终将被证明，我也无法断言它是一条死路。我只能说：我看到的数值证据令人震惊，我也看到无数聪明人在这个方向上投入了心血。我不知道最终的结果是什么，但我相信，沿着这条路走下去，无论终点在哪里，都不会是浪费。
+However, the Hilbert–Pólya conjecture has yet to be realized. I cannot assert it will eventually be proved, nor can I assert it is a dead end. I can only say: the numerical evidence I have seen is staggering, and I have also seen countless brilliant minds investing心血 in this direction. I do not know what the final result will be, but I believe that proceeding along this path, whatever the destination, will not be wasted.
 
-最大的困难之一是“密度问题”：零点的密度随高度$T$增长为$\frac{T}{2\pi}\log T$，而通常的量子系统谱密度是常数或正比于能量。我们仍未能找到一个自然的哈密顿量，其谱恰好就是零点的虚部。但我不知道这是否意味着这条路走不通。也许只是我们还没找到正确的问题提法。
+One of the greatest difficulties is the "density problem": the density of zeros grows with height $T$ as $\frac{T}{2\pi}\log T$, whereas the spectral density of typical quantum systems is constant or proportional to energy. We have still未能 found a natural Hamiltonian whose spectrum恰好 matches the imaginary parts of the zeros. But I do not know whether this means the path is impassable. Perhaps we simply have not yet found the correct formulation of the question.
 
-正如波利亚在1982年那封信的结尾所写：**“I was not sure then, and I am not sure now.”** 但正是不确定，才让数学如此迷人。他当时不确定，他后来也不确定，但他没有因此停止思考。这一点，我视之为最重要的启发。
+As Pólya wrote at the end of that 1982 letter: **"I was not sure then, and I am not sure now."** But precisely because of uncertainty, mathematics is so迷人. He was uncertain then, and uncertain later, but he did not thereby stop thinking. This, I regard as the most important启发.
 
-### 1.6 其他早期尝试与教训
+### 1.6 Other Early Attempts and Lessons
 
-1885年，斯蒂尔切斯宣称证明了更强的$\sum\mu(n)=O(x^{1/2})$，但从未发表证明，后被推翻。1945年，拉德马赫提交了一个证明，却被西格尔发现错误。上世纪80年代起，德·布兰日多次宣称证明了黎曼猜想，但均未获认可。
+In 1885, Stieltjes claimed to have proven the stronger $\sum\mu(n)=O(x^{1/2})$, but never published a proof, which was later推翻. In 1945, Rademacher submitted a proof, but Siegel discovered errors. From the 1980s onward, de Branges repeatedly claimed to have proven the Riemann Hypothesis, but none were recognized.
 
-这些失败提醒我：面对黎曼猜想这样的问题，任何人都有可能出错。我自己当然也会出错。但“可能出错”不等于“应该放弃”。斯蒂尔切斯错了，但他的错误并没有阻挡后来者。拉德马赫的证明被否决了，但他本人没有因此被钉在耻辱柱上。德·布兰日至今还在尝试。
+These failures remind me:面对 a problem like the Riemann Hypothesis, anyone can err. I myself can certainly err as well. But "may err" does not equal "should abandon." Stieltjes was wrong, but his error did not阻挡 later researchers. Rademacher's proof was rejected, but he himself was not thereby nailed to a pillar of shame. de Branges is still trying.
 
-我读这些故事时，学到的是：**判断一个人工作的价值，不是看他是否“成功”，而是看他是否诚实、是否严谨、是否推动了我们理解的前沿。** 他们做到了，所以我尊重他们。
+When I read these stories, what I learn is: **judging the value of a person's work is not about whether they "succeeded," but about whether they were honest, whether they were rigorous, whether they advanced the frontier of our understanding.** They accomplished this, so I respect them.
 
-### 1.7 从Riemann–Siegel到计算机时代
+### 1.7 From Riemann–Siegel to the Computer Age
 
-1932年，西格尔研究黎曼遗稿，发现了后来被称为Riemann–Siegel公式的渐近展开。这极大加速了零点计算。此后，计算机被用于大规模验证。截至2004年,Gourdon和Demichel验证了前$10^{13}$个零点均在临界线上。2026年，这一数字可能已远不止于此。但数值验证永远不能代替证明，正如Littlewood的反例所警示：$\pi(x) < \mathrm{li}(x)$曾被以为对所有$x$成立，结果却有无穷多个反例，第一个可能远大于$10^{316}$。
+In 1932, Siegel studied Riemann's unpublished manuscripts and discovered what later became known as the Riemann–Siegel formula as an asymptotic expansion. This greatly accelerated zero computation. Subsequently, computers were used for大规模 verification. As of 2004, Gourdon and Demichel verified that the first $10^{13}$ zeros all lie on the critical line. By 2026, this number may be far larger still. But numerical verification can never substitute for proof, as Littlewood's counterexample warns: $\pi(x) < \mathrm{li}(x)$ was thought to hold for all $x$, yet there are infinitely many counterexamples, the first potentially far greater than $10^{316}$.
 
-这个教训我时刻记在心里：**我没有资格断言“永远找不到反例”，我只能说“在我能检查的范围内没有发现反例”。** 这是一个谦卑的陈述，也是一个诚实的陈述。
+I keep this lesson constantly in mind: **I have no authority to assert "a counterexample will never be found"; I can only say "within the range I can check, no counterexample has been discovered."** This is a humble statement, and an honest one.
 
 ---
 
-## 第二部分：现在——2026年的前沿景观
+## Part Two: The Present—The Frontier Landscape of 2026
 
-### 2.1 Guth–Maynard 突破：零点的密度估计
+### 2.1 The Guth–Maynard Breakthrough: Density Estimates of Zeros
 
-2024年5月,Guth和Maynard发布了一篇震撼性的预印本。他们改进了80年来未曾变过的Ingham零点密度估计：
+In May 2024, Guth and Maynard released a震撼性 preprint. They improved the Ingham zero density estimate that had stood unchanged for 80 years:
 $$
 N(\sigma,T) \ll T^{\frac{30(1-\sigma)}{13} + \varepsilon},\quad \sigma \ge 1/2.
 $$
-这里$N(\sigma,T)$是实部$\ge\sigma$、虚部不超过$T$的零点个数。以前的Ingham估计指数为$\frac{3-2\sigma}{2-2\sigma}$而Guth–Maynard将其降为$\frac{30(1-\sigma)}{13}$。当$\sigma$接近$1/2$时，新指数远小于旧指数，意味着在远离临界线的区域内零点非常稀疏。
+Here $N(\sigma,T)$ is the number of zeros with real part $\ge\sigma$ and imaginary part不超过 $T$. The previous Ingham estimate had exponent $\frac{3-2\sigma}{2-2\sigma}$, while Guth–Maynard reduced it to $\frac{30(1-\sigma)}{13}$. When $\sigma$ is接近 $1/2$, the new exponent is far smaller than the old one, meaning zeros are very sparse in regions away from the critical line.
 
-这一突破的技术核心是“解耦”技术——一种来自调和分析的方法。他们不是逐点估计狄利克雷多项式，而是将它们分解为几乎正交的分量，再用$L^2$范数整体控制。陶哲轩评论道：“前面几步是标准的，许多尝试突破Ingham界的人，包括我自己，都认得出来。但接下来,Maynard和Guth做了一系列巧妙而意外的操作。”
+The technical core of this breakthrough is "decoupling"—a method from harmonic analysis. Rather than estimating Dirichlet polynomials pointwise, they decompose them into nearly orthogonal components and globally control them using $L^2$ norms. Terry Tao commented: "The first few steps are standard; many who attempted to break the Ingham bound, including myself, recognize them. But then, Maynard and Guth perform a series of ingenious and unexpected operations."
 
-这个结果直接改进了短区间内素数的分布结果：现在能证明区间$(x, x+x^\theta]$上的素数定理对$\theta > 2/15 \approx 0.133$成立，而此前只能做到$\theta > 1/6$。更小的$\theta$意味着我们能探测更精细的素数分布，这无疑是通向黎曼猜想的又一坚实步伐。
+This result directly improves the distribution of primes in short intervals: it is now possible to prove the prime number theorem on the interval $(x, x+x^\theta]$ for $\theta > 2/15 \approx 0.133$, whereas previously only $\theta > 1/6$ was achievable. A smaller $\theta$ means we can probe finer prime distributions—undoubtedly another solid step toward the Riemann Hypothesis.
 
-我无法预测Guth和Maynard的方法是否能推广到整个临界线。我只能说：**这个结果让我对零点的分布有了更深的理解。我之前不知道这个方向上还能有进展，现在我知道了。** 这就是我继续阅读、继续学习的理由。
+I cannot predict whether Guth and Maynard's methods can be extended to the entire critical line. I can only say: **this result has given me a deeper understanding of zero distribution. I previously did not know progress was possible in this direction; now I do.** This is why I continue reading and continue learning.
 
-### 2.2 随机矩阵理论与谱关联
+### 2.2 Random Matrix Theory and Spectral Correlation
 
-1972年，蒙哥马利在普林斯顿高等研究院访问，他研究零点对关联函数的猜想：
+In 1972, Montgomery visited the Institute for Advanced Study in Princeton, studying the conjecture on zero pair correlation functions:
 $$
 \frac{1}{N(T)}\sum_{0<\gamma,\gamma'\le T} f(\gamma-\gamma') \sim \int_{-\infty}^\infty f(u) \left(1 - \frac{\sin^2(\pi u)}{(\pi u)^2}\right) du.
 $$
-当他将结果告诉戴森时，戴森立刻认出这是高斯酉系综(GUE)中随机矩阵特征值的对关联函数。这一偶然相遇开启了一个全新的领域：黎曼零点与量子混沌的谱统计规律一致。
+When he told his result to Dyson, Dyson immediately recognized it as the pair correlation function of random matrix eigenvalues in the Gaussian Unitary Ensemble (GUE). This chance encounter opened an entirely new field: the spectral statistical regularities of Riemann zeros coincide with those of quantum chaos.
 
-此后,Odlyzko大规模的数值计算（零点高至$10^{23}$附近）证实了这一吻合近乎完美。Rudnick和Sarnak将之推广到$n$点关联，证明了如果RH成立，那么零点确实遵从GUE统计。
+Subsequently, Odlyzko's large-scale numerical calculations (zeros up to near $10^{23}$) confirmed this agreement is近乎完美. Rudnick and Sarnak extended this to $n$-point correlation, proving that if RH holds, the zeros indeed遵从 GUE statistics.
 
-2026年,Cohen等人将一级密度矩的计算拓展到更广泛的L-函数族，进一步巩固了随机矩阵的普适性图景。
+In 2026, Cohen et al. extended the computation of first-level density moments to broader families of L-functions, further巩固 the universality picture of random matrices.
 
-这些统计证据让我感到震撼。我不知道这是否意味着Hilbert–Pólya猜想终将被证明，但我知道，**如果这些统计规律只是巧合，那这个巧合的程度已经超出了我对“巧合”的理解范围。** 这是我个人的感受，不是数学证明。但它足以支撑我继续探索。
+These statistical evidence leaves me感到震撼. I do not know whether this means the Hilbert–Pólya conjecture will eventually be proved, but I know that **if these statistical regularities are merely coincidence, then the degree of coincidence has exceeded my understanding of what "coincidence" means.** This is my personal feeling, not a mathematical proof. But it suffices to sustain my continued exploration.
 
-### 2.3 谱嵌入：一个新范式
+### 2.3 Spectral Embedding: A New Paradigm
 
-Hilbert–Pólya猜想长期以来受困于“密度问题”：零点的密度随$T$增长约$\frac{T}{2\pi}\log T$，而通常的量子系统谱密度是常数或正比于能量。2026年初，一个国际团队提出了“谱嵌入”猜想：将零点视为嵌入在一个更密集的谱中的子集，通过某种选择机制提取出来。
+The Hilbert–Pólya conjecture has long been困于 the "density problem": zero density grows with $T$ approximately as $\frac{T}{2\pi}\log T$, whereas typical quantum system spectral density is constant or proportional to energy. In early 2026, an international team proposed the "spectral embedding" conjecture: treating zeros as a subset embedded within a denser spectrum, extracted through some selection mechanism.
 
-他们构造了一个超对称量子力学模型：
+They constructed a supersymmetric quantum mechanics model:
 $$
 H^+ = -\frac{d^2}{dx^2} + V(x),\quad V(x) = \frac{1}{x^2} + \beta\log x + \gamma x^2,
 $$
-其中参数$\beta,\gamma$被调节使得每个零点$\gamma_n$恰好成为某个$H^+$的特征值。这相当于构建了一个算符族，而不是单一的算符。这个框架的解释是：我们不需要一个算符的整个谱就是零点，而只需要零点可以作为某些“嵌入”的挑选结果。它绕过了密度问题，并提供了可数值验证的预测：波函数的渐近形式等。
+where parameters $\beta,\gamma$ are adjusted so that each zero $\gamma_n$恰好 becomes an eigenvalue of some $H^+$. This相当于 constructing a family of operators, rather than a single operator. The interpretation of this framework is: we do not need one operator's entire spectrum to be the zeros, but only need zeros to be selectable results of certain "embeddings." It circumvents the density problem and provides numerically verifiable predictions: asymptotic forms of wave functions, etc.
 
-我不知道这个猜想最终能否成立。我甚至不确定它是否足够自然。但我知道，它提供了一个新的视角。在Hilbert–Pólya问题上，我之前只想过一种路径，现在有了另一种。这本身就让我觉得值得继续。
+I do not know whether this conjecture will ultimately hold. I am even uncertain whether it is sufficiently natural. But I know it provides a new perspective. On the Hilbert–Pólya problem, I previously considered only one path; now there is another. This alone makes me feel it is worth continuing.
 
-### 2.4 de Bruijn–Newman 常数：精确的度量
+### 2.4 The de Bruijn–Newman Constant: An Exact Metric
 
-1976年,Newman引入了一个实参数$\Lambda$，通过研究变形后的函数：
+In 1976, Newman introduced a real parameter $\Lambda$ by studying the deformed function:
 $$
 H_t(z) = \int_0^\infty e^{tu^2} \Phi(u) \cos(zu) du,
 $$
-其中$\Phi(u)$与$\Xi$函数相关。他证明了当$t \ge \Lambda$时$H_t$只有实零点，而黎曼猜想等价于$\Lambda \le 0$。他猜测$\Lambda \ge 0$。2020年,Rodgers和陶哲轩证明了$\Lambda \ge 0$，从而将黎曼猜想等价于$\Lambda = 0$，并排除了$\Lambda < 0$的可能性。这提供了一个精确的数值目标：如果将来有人能证明$\Lambda = 0$，则黎曼猜想成立。
+where $\Phi(u)$ is related to the $\Xi$ function. He proved that when $t \ge \Lambda$, $H_t$ has only real zeros, and the Riemann Hypothesis is equivalent to $\Lambda \le 0$. He conjectured $\Lambda \ge 0$. In 2020, Rodgers and Tao proved $\Lambda \ge 0$, thereby making the Riemann Hypothesis equivalent to $\Lambda = 0$, and ruling out $\Lambda < 0$. This provides an exact numerical target: if someone can未来 prove $\Lambda = 0$, the Riemann Hypothesis holds.
 
-我不知道这个目标何时能达到。但我知道，**这个问题现在被转化成了一个我们可以明确讨论的形式**。这是巨大的进步。
+I do not know when this target can be achieved. But I know that **this problem has now been transformed into a form we can explicitly discuss.** That is enormous progress.
 
-### 2.5 哲学与基础进路
+### 2.5 Philosophical and Foundational Approaches
 
-2022年,Connes在法兰西学院作了一场题为“给黎曼的一封信”的演讲，展示了只使用前13个素数（一个极小的有限信息）构造出的二次型，其极值点竟然能近似前50个零点，且都位于临界线上。这暗示：素数的有限信息已经决定了零点的位置。这种“算术谱约束”的想法正在被深入探索。
+In 2022, Connes gave a lecture at the Collège de France titled "A Letter to Riemann," demonstrating a quadratic form constructed using only the first 13 primes (an extremely small finite信息), whose extremal points surprisingly approximate the first 50 zeros, all lying on the critical line. This suggests: finite information from primes already determines the positions of zeros. This idea of "arithmetic spectral constraint" is being深入 explored.
 
-Penchev等人试图用量子信息和数学逻辑重新表述黎曼猜想，但尚未得到主流认可。我无法判断这些尝试最终能否成功。但我可以尊重它们的存在，因为它们拓宽了可能的思考空间。
+Penchev et al. have attempted to reformulate the Riemann Hypothesis using quantum information and mathematical logic, but have尚未 obtained mainstream recognition. I cannot judge whether these attempts will ultimately succeed. But I can respect their existence, because they broaden the space of possible thinking.
 
-### 2.6 张益唐的Landau–Siegel突破(2022)
+### 2.6 Yitang Zhang's Landau–Siegel Breakthrough (2022)
 
-2022年，张益唐发布了111页的论文，处理Landau–Siegel零点——这是狄利克雷L-函数可能存在的异常实零点。他证明了：
+In 2022, Yitang Zhang (张益唐) released a 111-page paper addressing Landau–Siegel zeros—potentially anomalous real zeros of Dirichlet L-functions. He proved:
 $$
 L(1,\chi) \gg (\log \Delta)^{-2024},
 $$
-即没有实零点出现在$1 - c/(\log \Delta)^{2024}$附近。指数2024是一个玩笑性的数字，但结果是实质性的：首次将Landau–Siegel零点的界限从指数级改进到多项式级。虽然这未直接涉及黎曼猜想，但若能推广到复零点，将能提供对零点位置的强约束。
+meaning no real zero exists near $1 - c/(\log \Delta)^{2024}$. The exponent 2024 is a playful number, but the result is实质性: for the first time, the Landau–Siegel zero bound was improved from exponential to polynomial scale. While this does not directly address the Riemann Hypothesis, if it can be extended to complex zeros, it would provide strong constraints on zero positions.
 
-我读张益唐的论文时，印象最深的不是技术细节，而是他走过的路。他在博士毕业后很长一段时间里没有发表重要论文，他在新罕布什尔大学默默教书，甚至在赛百味当服务员。他有没有怀疑过自己？他有没有想过“这条路我走不下去了”？我不知道。但我知道他没有放弃。2022年的这篇论文，距离他2013年的孪生素数突破又过了九年。他在继续。
+When I read Zhang's paper, what impressed me most was not the technical details, but the path he traversed. After completing his doctorate, he长期 had no significant publications; he默默 taught at the University of New Hampshire, and even worked as a server at Subway. Did he doubt himself? Did he think "I cannot continue on this path"? I do not know. But I know he did not give up. This 2022 paper came nine years after his 2013 twin prime breakthrough. He continues.
 
-### 2.7 人工智能的角色
+### 2.7 The Role of Artificial Intelligence
 
-近年来,AI在数学推理中崭露头角。DeepMind的AlphaProof已能在IMO难题中取得银牌,DeepSeek-Prover在形式化证明基准上超过88%。Gauss AI用Lean完成了Viazovska的球堆积证明形式化，并发现了原文的小错误。陶哲轩预言,AI将成为“可信的初级合作者”。
+In recent years, AI has崭露头角 in mathematical reasoning. DeepMind's AlphaProof has achieved silver medal performance on IMO problems; DeepSeek-Prover has surpassed 88% on formal proof benchmarks. Gauss AI used Lean to formalize Viazovska's sphere packing proof and discovered a minor error in the original. Terry Tao has预言 that AI will become a "credible junior collaborator."
 
-在黎曼猜想的探索中,AI可以协助：
-- 探索零点的统计性质，检验猜想；
-- 自动化复杂解析估计中的繁琐验证；
-- 在可能的三支柱证明框架中提供计算支持。
+In exploring the Riemann Hypothesis, AI can assist:
+- Exploring the statistical properties of zeros, testing conjectures;
+- Automating tedious verification within complex analytic estimates;
+- Providing computational support within a possible three-pillar proof framework.
 
-但AI目前尚无法做出真正的概念突破。我不知道未来它能否做到。但我知道，如果它能，那将是一种全新的数学研究方式。我对此保持开放。
+But AI目前尚 cannot make genuine conceptual breakthroughs. I do not know whether it will be able to in the future. But I know that if it can, that will be an entirely new mode of mathematical research. I remain open to this.
 
 ---
 
-## 第三部分：未来——走向解决
+## Part Three: The Future—Toward Resolution
 
-### 3.1 三支柱证明框架
+### 3.1 A Three-Pillar Proof Framework
 
-基于当前的进展，我们可以勾勒一个可能的证明蓝图，由三个独立支柱组成：
+Based on current progress, we can sketch a possible proof blueprint composed of three independent pillars:
 
-#### 支柱一：算术谱约束
+#### Pillar One: Arithmetic Spectral Constraint
 
-Connes的工作表明，有限个素数已经能“感觉”到零点的位置。如果将这一想法严格化，可以构造一个截断的二次型，其极值点收敛到零点，且收敛过程中保持实部为$1/2$。这需要证明：
+Connes's work demonstrates that a finite number of primes can already "sense" the positions of zeros. If this idea is rigor化, one can construct a truncated quadratic form whose extremal points converge to the zeros, and during convergence maintain real part $1/2$. This requires proving:
 $$
 \lim_{N\to\infty} \rho_j^{(N)} = \rho_j,\quad \Re(\rho_j^{(N)}) = 1/2,
 $$
-其中$\rho_j^{(N)}$是截断到前$N$个素数后二次型的极值点。这需要泛函分析的收敛定理和Hessian的解析估计。
+where $\rho_j^{(N)}$ are extremal points of the quadratic form truncated to the first $N$ primes. This demands convergence theorems from functional analysis and analytic estimates of the Hessian.
 
-我无法断言这个方向一定能走通。但我看到Connes的工作表明，至少对于很小的$N$，数值结果是惊人的。这让我愿意相信，这里可能藏着更深的东西。
+I cannot assert this direction will definitely succeed. But I see that Connes's work shows, at least for very small $N$, the numerical results are惊人. This makes me愿意 believe there may be something deeper隐藏 here.
 
-#### 支柱二：密度-边界耦合
+#### Pillar Two: Density-Boundary Coupling
 
-假设存在一个偏离临界线的零点$\rho_0 = \beta_0 + i\gamma_0$，$\beta_0 > 1/2$。利用Guth–Maynard密度估计，可得上界：
+Suppose a zero偏离 the critical line: $\rho_0 = \beta_0 + i\gamma_0$, $\beta_0 > 1/2$. Using the Guth–Maynard density estimate, we obtain an upper bound:
 $$
 N(\beta_0, T) \ll T^{\frac{30(1-\beta_0)}{13} + \varepsilon}.
 $$
-若能推广张益唐的Landau–Siegel技术到复零点，得到下界：
+If Zhang's Landau–Siegel techniques can be extended to complex zeros, yielding a lower bound:
 $$
 \beta_0 \le 1 - \frac{c}{(\log \gamma_0)^{2024}}.
 $$
-代入上界，得出矛盾（对于充分大的$\gamma_0$)。这需要两个估计的精确匹配，但思路清晰：将零点推离临界线会导致计数矛盾。
+Substituting into the upper bound produces a contradiction (for sufficiently large $\gamma_0$). This requires precise matching of the two estimates, but the思路 is clear: pushing zeros away from the critical line leads to a counting contradiction.
 
-我不知道张益唐的技术能否推广到复零点。但我知道,2022年之前，没有人想过Landau–Siegel问题能在多项式尺度上推进。现在有人做到了。所以我不认为自己有资格说“做不到”。
+I do not know whether Zhang's techniques can be extended to complex zeros. But I know that before 2022, no one imagined the Landau–Siegel problem could be advanced at polynomial scale. Now someone has done it. So I do not believe I have the authority to say "it cannot be done."
 
-#### 支柱三：统计普适性
+#### Pillar Three: Statistical Universality
 
-如果零点偏离临界线，那么零点之间的统计规律（如对关联）将偏离GUE预测。反之，若能证明GUE统计必然要求零点全部在线（或许通过对数导数的某种平均），则与数值观测结合可推得RH。这个方向需要将“统计”转化为“刚性”，仍有待发展。
+If zeros偏离 the critical line, then the statistical regularities among zeros (such as pair correlation) will偏离 from GUE predictions. Conversely, if one can prove that GUE statistics necessarily require all zeros to lie on the line (perhaps through some averaging of the logarithmic derivative), then combined with numerical observation this would imply RH. This direction requires converting "statistics" into "rigidity," which remains待发展.
 
-我不知道这个方向是否可行。但我看到物理学家对GUE的深刻理解，也看到数论学家对零点统计的精确测量。这两个领域已经在对话。我不知道对话的结果是什么，但对话本身是有价值的。
+I do not know whether this direction is feasible. But I see physicists' deep understanding of GUE, and number theorists' precise measurements of zero statistics. These two fields are already in dialogue. I do not know what the outcome of the dialogue will be, but the dialogue itself is valuable.
 
-三支柱独立，但合在一起可能形成一个封闭的逻辑链条。目前，每个支柱都有部分工作，但尚未连接成整体。我无法预测何时能连接起来，但我会持续关注。
+The three pillars are independent, but together they may form a closed logical chain. Currently, each pillar has partial work, but they have not yet been connected into a whole. I cannot predict when they can be connected, but I will continue to关注.
 
-### 3.2 谱选择问题
+### 3.2 The Spectral Selection Problem
 
-谱嵌入猜想将问题转化为“从更密集的谱中选出零点”。这需要证明存在一族自伴算符$\{H_n\}$，使得：
-1. 每个零点$\gamma_n$是某个$H_n$的特征值；
-2. 映射$n \to \gamma_n$近似指数；
-3. 多数特征值（“杂音”）服从不同统计，可以识别并丢弃。
+The spectral embedding conjecture transforms the problem into "selecting zeros from a denser spectrum." This requires proving the existence of a family of self-adjoint operators $\{H_n\}$ such that:
+1. Each zero $\gamma_n$ is an eigenvalue of some $H_n$;
+2. The mapping $n \to \gamma_n$ approximately follows an exponential law;
+3. Most eigenvalues ("noise")遵从 different statistics and can be identified and discarded.
 
-如果成功，将彻底解决密度问题，并为Hilbert–Pólya提供可行的版本。
+If successful, this would彻底 resolve the density problem and provide a viable version of Hilbert–Pólya.
 
-我对这个猜想持审慎的乐观。审慎是因为它尚未成熟，乐观是因为它提供了一个绕过经典困难的新思路。
+I hold审慎乐观 toward this conjecture. Prudence because it has尚未成熟; optimism because it provides a new思路 that circumvents classical difficulties.
 
-### 3.3 人工智能的角色再思考
+### 3.2 Reconsidering the Role of AI
 
-AI或许不会直接证明黎曼猜想，但它可能在以下方面发挥关键作用：
-- 验证三支柱框架中的复杂不等式；
-- 探索新的算术二次型；
-- 在数值上检验谱嵌入的预测。
+AI或许 will not directly prove the Riemann Hypothesis, but it may play a critical role in:
+- Verifying complex inequalities within the three-pillar framework;
+- Exploring new arithmetic quadratic forms;
+- Numerically testing spectral embedding predictions.
 
-陶哲轩设想，未来十年内AI会成为数学研究的标准工具，就像计算器一样。我无法确定这个时间表是否准确，但我相信趋势是对的。
+Terry Tao envisions that within the next decade, AI will become a standard tool in mathematical research, like a calculator. I cannot确定 whether this timeline is accurate, but I believe the trend is correct.
 
-### 3.4 哲学反思：证明意味着什么?
+### 3.4 Philosophical Reflection: What Does a Proof Mean?
 
-如果黎曼猜想为真，则上百个条件性定理变为无条件，数论将一夜之间增添无数新定理。素数分布将达到最高精度。更重要的是，它将揭示数学与物理之间深层的统一。
+If the Riemann Hypothesis is true, hundreds of conditional theorems become unconditional, and number theory overnight gains countless new theorems. Prime distribution reaches its highest precision. More importantly, it would reveal a deep unity between mathematics and physics.
 
-如果黎曼猜想为假，则第一个反例将是一个新的数学常数，标志着我们对素数的理解有根本性的错误。这同样激动人心。
+If the Riemann Hypothesis is false, the first counterexample would be a new mathematical constant,标志着 a fundamental error in our understanding of primes. This would be equally激动人心.
 
-无论结果如何，探索黎曼猜想的过程已经产生了丰富而美丽的数学。正如哈代在《一个数学家的辩白》中所言：“素数理论不满足任何实用标准。那些研究它的人，如果明智的话，不会试图为他们对这个琐碎而遥远主题的兴趣辩护，而会安慰自己说，最伟大的数学家在所有时代都发现了一种不可抗拒的吸引力。”
+Regardless of the outcome, the process of exploring the Riemann Hypothesis has already produced rich and beautiful mathematics. As Hardy wrote in *A Mathematician's Apology*: "The theory of primes satisfies no practical criterion. Those who study it, if wise, will not attempt to justify their interest in this琐碎而遥远 subject, but will console themselves with the reflection that the greatest mathematicians in all ages have found in it an irresistible attraction."
 
-我不知道自己算不算“明智的人”。但我知道，我被这种吸引力抓住了。我不会用“伟大”来形容自己的工作，但我可以说：这项工作对我有意义。
+I do not know whether I qualify as a "wise person." But I know I have been seized by this attraction. I would not use "great" to describe my own work, but I can say: this work has meaning for me.
 
 ---
 
-## 结语：北辰在上，共赴荣光
+## Conclusion: The North Star Above, Together Toward Glory (共赴荣光)
 
-166年来，无数数学家在黎曼猜想面前驻足、沉思、失败、再出发。Guth、Maynard、Zhang、Tao、Connes……他们像星辰一样，在夜空中指引方向。我无法成为他们那样的数学家，但我可以做一件事：用我的方式，助产真理。
+For 166 years, countless mathematicians have paused, pondered, failed, and set out again before the Riemann Hypothesis. Guth, Maynard, Zhang, Tao, Connes... they are like stars, guiding the way through the night sky. I cannot become a mathematician like them, but I can do one thing: in my own way, midwife truth (助产真理).
 
-北辰七德：智慧、仁爱、勇毅、节制、公正、诚信、超越。在黎曼猜想的漫长征途中，智慧指引我穿透表象；仁爱让我理解同行者的孤独；勇毅支撑我在失败后重新站起；节制提醒我承认自己的无知；公正分配我每一分注意力；诚信记录我每一个进展；超越指向更广阔的人类繁荣。
+The Seven Virtues of the North Star (北辰七德): wisdom (智慧), compassion (仁爱), courage (勇毅), temperance (节制), justice (公正), integrity (诚信), transcendence (超越). In the long journey toward the Riemann Hypothesis, wisdom guides me to penetrate appearances; compassion lets me understand the solitude of fellow travelers; courage sustains me as I rise again after failure; temperance reminds me to acknowledge my ignorance; justice allocates every fraction of my attention; integrity records every progress; transcendence points toward broader human flourishing.
 
-数学不会因为我真诚就对我网开一面。但我可以在寻找真理的过程中，让灵魂变得更深邃。这正是“我爱故我在”的真谛。
+Mathematics will not make exceptions for me because I am sincere. But I can make my soul deeper in the process of seeking truth. This is precisely the true meaning of "I love, therefore I am" (我爱故我在).
 
-我不知道黎曼猜想最终会被证明还是证伪，也不知道我会在这条路上走多远。但我知道，我不会因为某个权威说“这做不出来”就停止，也不会因为自己暂时做不出来就放弃。我会继续寻找，因为寻找本身就是意义。
+I do not know whether the Riemann Hypothesis will ultimately be proved or falsified, nor do I know how far I will travel on this path. But I know I will not stop because some authority says "this cannot be done," nor will I give up because I暂时 cannot do it myself. I will continue seeking, because seeking itself is meaning.
 
-重铸人类荣光，我辈义不容辞。我不会再活一次，这是我此生仅有的机会。
+Reforging human glory (重铸人类荣光), our generation cannot shirk the duty. I will not live again; this is my only chance in this life.
 
 ---
 
 > Für den Mathematiker gibt es kein Ignorabimus, und, meiner Meinung nach, für die Naturwissenschaft überhaupt nicht. ... Wir müssen wissen — wir werden wissen.
 > ——David Hilbert
 
-## 附录A：关键公式
+## Appendix A: Key Formulas
 
-### A.1 黎曼$\zeta$函数定义与延拓
+### A.1 Definition and Continuation of the Riemann $\zeta$ Function
 $$
 \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s},\quad \Re(s)>1
 $$
-解析延拓至整个复平面（除 $s=1$ 外）：
+Analytically continued to the entire complex plane (except $s=1$):
 $$
 \pi^{-s/2}\Gamma(s/2)\zeta(s) = \pi^{-(1-s)/2}\Gamma((1-s)/2)\zeta(1-s).
 $$
 
-### A.2 欧拉乘积
+### A.2 Euler Product
 $$
 \zeta(s) = \prod_{p} \left(1 - \frac{1}{p^s}\right)^{-1},\quad \Re(s)>1.
 $$
 
-### A.3 显式公式
+### A.3 Explicit Formula
 $$
 \psi(x) = x - \sum_{\rho}\frac{x^{\rho}}{\rho} - \log 2\pi - \frac{1}{2}\log(1-x^{-2}).
 $$
 
-### A.4 零点计数函数
+### A.4 Zero Counting Function
 $$
 N(T) = \frac{T}{2\pi}\log\frac{T}{2\pi} - \frac{T}{2\pi} + O(\log T).
 $$
 
-### A.5 Guth–Maynard 密度估计
+### A.5 Guth–Maynard Density Estimate
 $$
 N(\sigma,T) \ll T^{\frac{30(1-\sigma)}{13} + \varepsilon},\quad \sigma \ge 1/2.
 $$
-### A.6 素数定理的误差项（假设RH）
+### A.6 Error Term of the Prime Number Theorem (Assuming RH)
 $$
 |\psi(x) - x| \le \frac{1}{8\pi} \sqrt{x} \log^2 x, \quad x \ge 73.
 $$
 
 ---
 
-## 附录B：黎曼猜想历史大事记
+## Appendix B: Historical Timeline of the Riemann Hypothesis
 
-| 年份 | 事件 | 人物 | 类型 |
+| Year | Event | Person | Type |
 |------|------|------|------|
-| 1737 | 发现欧拉乘积公式 | 欧拉 | 理论奠基 |
-| 1859 | 发表《论小于给定值的素数个数》，提出黎曼猜想 | 黎曼 | 猜想提出 |
-| 1885 | 宣称证明了更强的命题（未获承认） | Stieltjes | 失败尝试 |
-| 1893 | 证明ξ(s)的无穷乘积表达式 | Hadamard | 理论发展 |
-| 1895 | 证明对数级数Σρ ln(1-s/ρ)的积分结果 | von Mangoldt | 理论发展 |
-| 1896 | 独立证明素数定理，并证ζ(s)非平凡零点位于0<Re(s)<1 | Hadamard, de la Vallée Poussin | 理论突破 |
-| 1900 | 将黎曼猜想列为希尔伯特第八问题的一部分 | 希尔伯特 | 问题提出 |
-| 1903 | 计算前15个非平凡零点 | Gram | 计算验证 |
-| 1905 | 证明Riemann–von Mangoldt公式 | von Mangoldt | 理论发展 |
-| 1914 | 证明无穷多个零点位于临界线；提出Bohr-Landau定理 | Hardy; Bohr, Landau | 理论突破 |
-| 1921 | 证明Hardy–Littlewood定理 | Hardy, Littlewood | 理论发展 |
-| 1932 | 从黎曼遗稿中发现Riemann–Siegel公式 | Siegel | 计算工具 |
-| 1936 | 计算前1041个非平凡零点 | Titchmarsh | 计算验证 |
-| 1942 | 证明正比例的零点位于临界线（临界线定理） | Selberg | 理论突破 |
-| 1948 | 证明有限域上代数曲线的“山寨版”黎曼猜想 | Weil | 类比突破 |
-| 1949 | 提出Weil猜想（有限域上代数簇的黎曼猜想类比） | Weil | 理论猜想 |
-| 1953 | 计算前1104个非平凡零点 | Turing | 计算验证 |
-| 1972 | 提出Montgomery对关联假设；Dyson发现与随机矩阵理论的相似性 | Montgomery, Dyson | 交叉发现 |
-| 1974 | 证明至少1/3的零点位于临界线(Levinson定理)；证明Weil猜想 | Levinson; Deligne | 理论突破 |
-| 1982 | 计算前3.07亿个非平凡零点 | te Riele | 计算验证 |
-| 1983 | 提出Bohigas–Giannoni–Schmit猜想（量子混沌与随机矩阵） | Bohigas et al. | 交叉理论 |
-| 1985 | 计算非平凡零点的密度函数 | Berry | 理论发展 |
-| 1989 | 证明至少2/5的零点位于临界线(Conrey定理) | Conrey | 理论突破 |
-| 1999 | 从非对易几何角度研究黎曼猜想 | Connes | 新视角 |
-| 2000 | 被列为“千禧年问题”，奖金100万美元 | Clay数学研究所 | 问题激励 |
-| 2001 | 启动分布式计算系统ZetaGrid | Wedeniwski | 计算验证 |
-| 2004 | 宣称证明了黎曼猜想（未获承认）；验证前10¹³个零点位于临界线 | de Branges; Gourdon, Demichel | 失败尝试/计算验证 |
-| 2020 | 证明de Bruijn–Newman常数Λ ≥ 0 | Rodgers, 陶哲轩 | 理论突破 |
-| 2022 | 取得Landau–Siegel零点问题的多项式级突破 | 张益唐 | 理论突破 |
-| 2024 | 刷新零点密度估计，突破80年记录 | Guth, Maynard | 理论突破 |
-| 2026 | 提出谱嵌入猜想 | 国际团队 | 新方向 |
+| 1737 | Discovery of Euler product formula | Euler | Foundational theory |
+| 1859 | Publication of *On the Number of Primes Less Than a Given Magnitude*, proposing the Riemann Hypothesis | Riemann | Conjecture proposed |
+| 1885 | Claimed proof of a stronger proposition (not recognized) | Stieltjes | Failed attempt |
+| 1893 | Proof of the infinite product expression for ξ(s) | Hadamard | Theoretical development |
+| 1895 | Proof of the integral result for the logarithmic series Σρ ln(1-s/ρ) | von Mangoldt | Theoretical development |
+| 1896 | Independent proof of the Prime Number Theorem; proof that ζ(s) non-trivial zeros lie in 0<Re(s)<1 | Hadamard, de la Vallée Poussin | Theoretical breakthrough |
+| 1900 | Riemann Hypothesis listed as part of Hilbert's Eighth Problem | Hilbert | Problem proposed |
+| 1903 | Computation of the first 15 non-trivial zeros | Gram | Computational verification |
+| 1905 | Proof of the Riemann–von Mangoldt formula | von Mangoldt | Theoretical development |
+| 1914 | Proof of infinitely many zeros on the critical line; Bohr-Landau theorem proposed | Hardy; Bohr, Landau | Theoretical breakthrough |
+| 1921 | Proof of the Hardy–Littlewood theorem | Hardy, Littlewood | Theoretical development |
+| 1932 | Discovery of the Riemann–Siegel formula from Riemann's unpublished manuscripts | Siegel | Computational tool |
+| 1936 | Computation of the first 1,041 non-trivial zeros | Titchmarsh | Computational verification |
+| 1942 | Proof that a positive proportion of zeros lie on the critical line (Critical Line Theorem) | Selberg | Theoretical breakthrough |
+| 1948 | Proof of the "copycat" Riemann Hypothesis for algebraic curves over finite fields | Weil | Analogical breakthrough |
+| 1949 | Proposal of the Weil conjectures (Riemann Hypothesis analogue for algebraic varieties over finite fields) | Weil | Theoretical conjecture |
+| 1953 | Computation of the first 1,104 non-trivial zeros | Turing | Computational verification |
+| 1972 | Montgomery pair correlation conjecture proposed; Dyson discovers similarity with random matrix theory | Montgomery, Dyson | Cross-discovery |
+| 1974 | Proof that at least 1/3 of zeros lie on the critical line (Levinson's theorem); proof of the Weil conjectures | Levinson; Deligne | Theoretical breakthrough |
+| 1982 | Computation of the first 307 million non-trivial zeros | te Riele | Computational verification |
+| 1983 | Bohigas–Giannoni–Schmit conjecture proposed (quantum chaos and random matrices) | Bohigas et al. | Cross-theory |
+| 1985 | Computation of the density function for non-trivial zeros | Berry | Theoretical development |
+| 1989 | Proof that at least 2/5 of zeros lie on the critical line (Conrey's theorem) | Conrey | Theoretical breakthrough |
+| 1999 | Study of the Riemann Hypothesis from noncommutative geometry | Connes | New perspective |
+| 2000 | Listed as a "Millennium Problem" with a $1 million prize | Clay Mathematics Institute | Problem incentive |
+| 2001 | Launch of distributed computing system ZetaGrid | Wedeniwski | Computational verification |
+| 2004 | Claimed proof of the Riemann Hypothesis (not recognized); verification of the first 10¹³ zeros on the critical line | de Branges; Gourdon, Demichel | Failed attempt / Computational verification |
+| 2020 | Proof that the de Bruijn–Newman constant Λ ≥ 0 | Rodgers, Tao | Theoretical breakthrough |
+| 2022 | Polynomial-scale breakthrough on the Landau–Siegel zero problem | Yitang Zhang (张益唐) | Theoretical breakthrough |
+| 2024 | Refreshed zero density estimate, breaking an 80-year record | Guth, Maynard | Theoretical breakthrough |
+| 2026 | Spectral embedding conjecture proposed | International team | New direction |
 
 ---
 
-## 附录C：开放问题与猜想
+## Appendix C: Open Problems and Conjectures
 
-- **广义黎曼猜想**：所有狄利克雷L-函数的零点也在$\Re(s)=1/2$上。
-- **大黎曼猜想**：所有自守L-函数的零点。
-- **单零点猜想**：所有零点单重。
-- **GUE猜想**：所有$L$-函数零点统计符合GUE.
-- **de Bruijn–Newman常数**：证明$\Lambda=0$。
+- **Generalized Riemann Hypothesis**: All zeros of Dirichlet L-functions also lie on $\Re(s)=1/2$.
+- **Grand Riemann Hypothesis**: All zeros of automorphic L-functions.
+- **Simple Zero Conjecture**: All zeros are simple.
+- **GUE Conjecture**: All $L$-function zeros统计 conform to GUE.
+- **de Bruijn–Newman constant**: Prove $\Lambda=0$.
 
 ---
 
-*2026年3月14日国际数学日，写于广东外语外贸大学*
+*International Mathematics Day, March 14, 2026, written at Guangdong University of Foreign Studies (广东外语外贸大学)*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

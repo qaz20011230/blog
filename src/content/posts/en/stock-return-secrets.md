@@ -7,151 +7,151 @@ tags:
   - 股票
   - 价值投资
 description: >
-  为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的“两步筛选法”，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。
+  为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的"两步筛选法"，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。
 ---
 
-> 每年创造近千亿美元自由现金流，同时进行千亿美元股票回购，苹果公司用财务数据揭示了优秀企业的标准配置。
+> Generating nearly one hundred billion dollars in free cash flow annually while simultaneously executing a hundred-billion-dollar stock buyback program, Apple Inc. uses financial data to reveal the standard configuration of an outstanding enterprise.
 
-投资中最常见的困惑是：为什么有些公司的股价能穿越周期持续创新高，而另一些看似不错的公司却长期停滞不前?
+The most common confusion in investing is: why can some companies' stock prices traverse cycles and continuously reach new highs, while other seemingly decent companies remain stagnated for long periods?
 
-苹果公司的净资产收益率长期保持在150%以上，而同期宣布了1000亿美元的股票回购计划。这不仅是财务数据的堆砌，更是理解企业价值创造的窗口。
+Apple's return on equity has long remained above 150%, and during the same period it announced a $100 billion stock buyback plan. This is not merely an accumulation of financial data, but a window into understanding enterprise value creation.
 
 ---
 
-## 01 核心原理：为何这两个指标决定长期回报?
+## 01 Core Principle: Why Do These Two Metrics Determine Long-Term Returns?
 
-理解投资回报的本质，需要回到最基础的财务逻辑。一个简单的公式可以揭示这一逻辑：**股东总回报 ≈ 净资产收益率 + 股息率 + 估值变化**。
+To understand the essence of investment returns, one must return to the most fundamental financial logic. A simple formula can reveal this logic: **Total Shareholder Return ≈ Return on Equity + Dividend Yield + Valuation Change**.
 
-其中，**净资产收益率是企业为股东创造价值的内生引擎**，它衡量公司利用股东投入的每元钱能产生多少利润。一个长期保持高ROE的企业，往往拥有强大的竞争优势和定价能力。
+Among these, **return on equity is the内生 engine through which enterprises create value for shareholders**, measuring how much profit a company generates per dollar of shareholder investment. A company that consistently maintains a high ROE typically possesses strong competitive advantages and pricing power.
 
-与此同时，**净流入率则反映了市场生态对股东的友好程度**。它的计算公式为：净流入率 = (总分红 + 总回购 - 融资总额) / 总市值。正值意味着市场在向股东输送价值，负值则表明市场在不断从股东口袋中抽水。
+Meanwhile, **net inflow rate reflects how friendly the market ecosystem is to shareholders**. Its calculation formula is: Net Inflow Rate = (Total Dividends + Total Buybacks - Total Financing) / Total Market Capitalization. A positive value means the market is delivering value to shareholders; a negative value indicates the market is continuously draining value from shareholders' pockets.
 
-这两个指标共同构成了一个完整的分析框架：**ROE决定了企业创造价值的能力，而净流入率决定了这些价值有多少能够真正流向股东。**
+These two metrics together form a complete analytical framework: **ROE determines an enterprise's capacity to create value, while the net inflow rate determines how much of that value can actually flow to shareholders.**
 
-美股市场长期走强的部分原因就在于此。截至2025年8月，美国上市公司年度股票回购规模已突破1万亿美元，而苹果、Alphabet等科技巨头贡献了其中的重要部分。这种“创造盈利-返还股东-提升每股价值”的循环，形成了**结构性支撑**。
+Part of the reason for the U.S. stock market's long-term strength lies precisely here. As of August 2025, the annual stock buyback volume of U.S. listed companies has exceeded $1 trillion, with Apple, Alphabet, and other tech giants contributing a significant portion. This cycle of "create earnings — return to shareholders — enhance per-share value" forms a **structural支撑**.
 
-## 02 第一步：如何正确分析与解读ROE
+## 02 Step One: How to Correctly Analyze and Interpret ROE
 
-寻找优秀企业的第一步是分析其盈利能力，但需要透过表面数字看本质。
+The first step in finding outstanding enterprises is to analyze their profitability, but one must look beyond surface-level numbers to grasp the essence.
 
-**收集基础数据：**
-- 查找公司近5-10年的ROE数据，观察其稳定性和趋势
-- 计算行业平均ROE,确定公司在行业中的相对位置
-- 分解ROE的组成部分（净利率 × 资产周转率 × 权益乘数）
+**Collect Basic Data:**
+- Find the company's ROE data over the past 5-10 years, observing its stability and trends
+- Calculate the industry average ROE to determine the company's relative position within the industry
+- Decompose ROE's constituent parts (Net Profit Margin × Asset Turnover × Equity Multiplier)
 
-**以苹果公司为例的深入分析：**
-根据最新财报数据，苹果2025财年的ROE达到**151.91%**，而这一数字在2022财年曾接近197%的峰值。这样持续的高水平在大型企业中极为罕见。
+**In-Depth Analysis Using Apple as an Example:**
+According to the latest financial report data, Apple's FY2025 ROE reached **151.91%**, and this figure approached a peak of nearly 197% in FY2022. Such sustained high levels are exceedingly rare among large enterprises.
 
-但单纯看ROE数字是不够的。必须追问：这样高的ROE是如何实现的？是通过高杠杆吗？通过分析苹果的财务报表，你会发现其成功主要源于极高的**净利率**和**资产周转效率**，而非财务杠杆。
+However, looking solely at the ROE figure is insufficient. One must追问: how is such a high ROE achieved? Is it through high leverage? By analyzing Apple's financial statements, you will find that its success primarily derives from extremely high **net profit margins** and **asset turnover efficiency**, rather than financial leverage.
 
-**进阶验证工具：**
-1. **ROIC分析**：苹果近12个月的平均投入资本回报率为43.44%，这一指标剔除了财务杠杆的影响，证实了其高ROE来源于真正的经营优势。
+**Advanced Verification Tools:**
+1. **ROIC Analysis**: Apple's average return on invested capital over the trailing 12 months is 43.44%. This metric strips out the influence of financial leverage, confirming that its high ROE originates from genuine operational advantages.
 
-2. **自由现金流验证**：2025财年苹果创造了**987.67亿美元**自由现金流，自由现金流收益率约为2.47%。这是比会计利润更“真实”的盈利指标。
+2. **Free Cash Flow Verification**: In FY2025, Apple generated **$98.767 billion** in free cash flow, with a free cash flow yield of approximately 2.47%. This is a more "real" profitability metric than accounting profit.
 
-3. **盈利质量评估**：关注经营性现金流与净利润的比率，持续大于1是健康信号；同时分析利润增长是否主要由主营业务驱动。
+3. **Earnings Quality Assessment**: Monitor the ratio of operating cash flow to net profit — consistently above 1 is a healthy signal; simultaneously analyze whether profit growth is primarily driven by core business operations.
 
-这种方法论的核心是：**不要被单一的高ROE数字迷惑，而要深入分析其构成、可持续性和现金转换能力。**
+The core of this methodology is: **Do not be misled by a single high ROE figure; instead, deeply analyze its composition, sustainability, and cash conversion capability.**
 
-## 03 第二步：评估市场与企业层面的资本流向
+## 03 Step Two: Evaluating Capital Flow at the Market and Enterprise Levels
 
-识别出有盈利能力的企业后，下一步是判断它是否愿意与股东分享成功。
+After identifying a profitable enterprise, the next step is to determine whether it is willing to share its success with shareholders.
 
-**市场层面净流入率评估：**
-1. 收集市场整体数据：年度分红总额、回购总额、IPO与再融资总额
-2. 计算市场整体净流入率 = (分红总额+回购总额-融资总额)/总市值
-3. 观察这一指标的长期趋势和周期性变化
+**Market-Level Net Inflow Rate Assessment:**
+1. Collect overall market data: annual total dividends, total buybacks, IPO and refinancing totals
+2. Calculate overall market net inflow rate = (Total Dividends + Total Buybacks - Total Financing) / Total Market Capitalization
+3. Observe the long-term trends and cyclical variations of this metric
 
-**企业层面股东回报分析：**
-1. 检查公司的**资本分配政策**：是否有明确的分红和回购政策？管理层如何决定现金用途?
+**Enterprise-Level Shareholder Return Analysis:**
+1. Examine the company's **capital allocation policy**: Does it have explicit dividend and buyback policies? How does management decide on the use of cash?
 
-2. 分析**实际回报历史**：公司是否持续提高分红？是否在股价低迷时增加回购？苹果2025年宣布的1000亿美元回购计划就是明确的价值信号。
+2. Analyze **actual return history**: Does the company consistently increase dividends? Does it increase buybacks when stock prices are depressed? Apple's $100 billion buyback plan announced in 2025 is a clear value signal.
 
-3. 评估**回报可持续性**：对比公司自由现金流与股东回报规模，确保回报不会损害公司财务健康或增长潜力。
+3. Assess **return sustainability**: Compare the company's free cash flow with the scale of shareholder returns, ensuring that returns do not compromise the company's financial health or growth potential.
 
-4. 警惕**稀释性行为**：频繁的增发、低价股权激励等会侵蚀现有股东利益。
+4. Be alert to **dilutive behavior**: Frequent secondary offerings, low-priced equity incentives, and similar actions erode existing shareholders' interests.
 
-**关键判断点：** 优秀的管理层在资本配置上会表现出“股东友好”特征：在增长机会有限时，将多余现金返还股东；在股价低于内在价值时，优先选择回购而非分红。
+**Key Judgment Point:** Excellent management demonstrates "shareholder-friendly" characteristics in capital allocation: returning surplus cash to shareholders when growth opportunities are limited; prioritizing buybacks over dividends when stock prices fall below intrinsic value.
 
-## 04 实践案例：苹果公司的完整分析框架
+## 04 Practical Case: A Complete Analytical Framework for Apple
 
-让我们将这一方法论应用于苹果公司的实际分析：
+Let us apply this methodology to an actual analysis of Apple:
 
-**ROE分析：**
-- 水平：151.91%(2025财年)，处于绝对高位
-- 趋势：从2020年的87.87%持续上升至2022年峰值后保持高位
-- 驱动因素：毛利率从38.23%提升至46.91%，净利润率从20.91%增长至26.92%
-- 验证指标：ROIC达43.44%，自由现金流987.67亿美元
+**ROE Analysis:**
+- Level: 151.91% (FY2025), at an absolute高位
+- Trend: Continuously rising from 87.87% in 2020 to a peak in 2022, then maintaining high levels
+- Driving factors: Gross margin rising from 38.23% to 46.91%, net profit margin growing from 20.91% to 26.92%
+- Verification metrics: ROIC at 43.44%, free cash flow at $98.767 billion
 
-**股东回报分析：**
-- 政策：明确的分红加回购组合回报策略
-- 规模：2025年宣布1000亿美元回购计划
-- 历史：持续多年大规模回购，显著减少流通股本
-- 可持续性：自由现金流充沛，财务结构稳健
+**Shareholder Return Analysis:**
+- Policy: Explicit combined dividend-plus-buyback return strategy
+- Scale: $100 billion buyback plan announced in 2025
+- History: Multiple years of large-scale buybacks, significantly reducing outstanding shares
+- Sustainability: Abundant free cash flow, robust financial structure
 
-**综合评估结论：**
-苹果展现了“高盈利创造能力”与“高股东回报意愿”的完美结合，这解释了为何它能成为长期投资者的最爱。
+**Comprehensive Assessment Conclusion:**
+Apple exhibits a perfect combination of "high profit creation capability" and "high willingness to return value to shareholders," which explains why it has become a favorite of long-term investors.
 
-## 05 不同市场环境下的应用调整
+## 05 Application Adjustments Under Different Market Environments
 
-这一分析框架在不同市场环境中需要灵活调整：
+This analytical framework requires flexible adjustments in different market environments:
 
-**成熟市场（如美股）：**
-- 重点关注：回购活动的有效性（是否在价格低于价值时进行）
-- 机会识别：寻找那些ROIC持续高于WACC（加权平均资本成本），且积极回报股东的企业
-- 风险注意：避免过度依赖财务杠杆维持高ROE的企业
+**Mature Markets (e.g., U.S. Equities):**
+- Key focus: Effectiveness of buyback activities (whether conducted when price is below value)
+- Opportunity identification: Seek enterprises where ROIC consistently exceeds WACC (Weighted Average Cost of Capital) and that actively return value to shareholders
+- Risk caution: Avoid enterprises that overly rely on financial leverage to maintain high ROE
 
-**成长型市场：**
-- 指标调整：对处于高速扩张期的企业，适当放宽净流入率要求
-- 关注重点：资本配置效率，即新增投资能否转化为未来更高的ROE
-- 平衡艺术：在增长投资与股东回报之间寻找平衡点
+**Growth Markets:**
+- Metric adjustment: For enterprises in rapid expansion phases, appropriately relax net inflow rate requirements
+- Key focus: Capital allocation efficiency — whether new investments can translate into higher future ROE
+- Balancing art: Finding a balance point between growth investment and shareholder returns
 
-**市场对比分析：**
+**Market Comparison Analysis:**
 
-| 分析维度 | 成熟市场特征 | 成长市场特征 | 投资策略侧重 |
+| Analytical Dimension | Mature Market Characteristics | Growth Market Characteristics | Investment Strategy Focus |
 |---------|------------|------------|------------|
-| **ROE水平** | 相对稳定，行业分化明显 | 波动较大，成长型企业可能较低 | 成熟市场看稳定性，成长市场看趋势 |
-| **净流入率** | 通常为正，回购是重要组成部分 | 可能为负，融资活动频繁 | 成熟市场关注回报规模，成长市场关注融资效率 |
-| **关键验证指标** | ROIC、FCF、股息覆盖率 | 营收增长、投资回报周期、市场份额 | 成熟市场重质量验证，成长市场重增长验证 |
-| **主要风险** | 增长停滞、过度金融工程 | 融资稀释、投资失败、现金流断裂 | 成熟市场防价值陷阱，成长市场防增长故事破灭 |
+| **ROE Level** | Relatively stable, pronounced industry differentiation | Higher volatility, growth enterprises may be lower | Mature markets focus on stability, growth markets focus on trends |
+| **Net Inflow Rate** | Typically positive, buybacks are a significant component | May be negative, financing activities are frequent | Mature markets focus on return scale, growth markets focus on financing efficiency |
+| **Key Verification Metrics** | ROIC, FCF, Dividend Coverage Ratio | Revenue growth, investment return cycle, market share | Mature markets emphasize quality verification, growth markets emphasize growth verification |
+| **Primary Risks** | Growth stagnation, excessive financial engineering | Financing dilution, investment failure, cash flow断裂 | Mature markets guard against value traps, growth markets guard against growth narrative collapse |
 
-## 06 构建你的投资检查清单
+## 06 Construct Your Investment Checklist
 
-基于以上分析，我为你总结了一个实用的投资检查清单：
+Based on the above analysis, I have summarized a practical investment checklist for you:
 
-**第一步：初步筛选**
-- [ ] 过去5年平均ROE > 15%（可根据行业调整）
-- [ ] ROE趋势稳定或向上，非剧烈波动
-- [ ] 企业处于或正在建立竞争优势的行业
+**Step One: Initial Screening**
+- [ ] Average ROE over the past 5 years > 15% (adjustable by industry)
+- [ ] ROE trend stable or upward, not violently fluctuating
+- [ ] Enterprise is in or building competitive advantages within its industry
 
-**第二步：深度分析**
-- [ ] 高ROE由高利润率或高资产周转率驱动，而非过度杠杆
-- [ ] ROIC持续高于WACC,表明真正的经济利润创造
-- [ ] 自由现金流充沛，且与净利润比例健康（通常>70%）
-- [ ] 经营性现金流持续增长且波动小于净利润
+**Step Two: In-Depth Analysis**
+- [ ] High ROE driven by high profit margins or high asset turnover, not excessive leverage
+- [ ] ROIC consistently exceeds WACC, indicating genuine economic profit creation
+- [ ] Abundant free cash flow, with a healthy ratio to net profit (typically > 70%)
+- [ ] Operating cash flow consistently growing with less volatility than net profit
 
-**第三步：股东回报评估**
-- [ ] 有明确且可持续的股东回报政策
-- [ ] 过去3-5年持续实施分红或回购
-- [ ] 股东回报规模与自由现金流匹配，不过度负债
-- [ ] 管理层在股价低估时加大回购的过往记录
+**Step Three: Shareholder Return Assessment**
+- [ ] Has an explicit and sustainable shareholder return policy
+- [ ] Has consistently implemented dividends or buybacks over the past 3-5 years
+- [ ] Shareholder return scale matches free cash flow, without excessive debt
+- [ ] Management has a track record of increasing buybacks when stock prices are undervalued
 
-**第四步：市场环境适配**
-- [ ] 理解所在市场整体的净流入率特征
-- [ ] 根据企业生命周期调整指标权重
-- [ ] 评估企业融资行为的合理性与必要性
+**Step Four: Market Environment Adaptation**
+- [ ] Understand the net inflow rate characteristics of the overall market in which the enterprise operates
+- [ ] Adjust metric weighting according to the enterprise's lifecycle stage
+- [ ] Assess the rationality and necessity of the enterprise's financing behavior
 
-**第五步：最终决策**
-- [ ] 综合评分高于同行业可比公司
-- [ ] 当前估值提供合理安全边际
-- [ ] 管理层具有股东友好文化和良好资本配置记录
+**Step Five: Final Decision**
+- [ ] Composite score exceeds comparable companies in the same industry
+- [ ] Current valuation provides a reasonable margin of safety
+- [ ] Management possesses a shareholder-friendly culture and a good capital allocation track record
 
 ---
 
-投资中最危险的想法是寻找“银弹指标”，而最可靠的方法是建立系统性的分析框架。ROE和净流入率不是两个孤立的数字，而是**透视企业价值创造与分配本质的窗口**。
+The most dangerous idea in investing is searching for a "silver bullet metric," while the most reliable method is establishing a systematic analytical framework. ROE and net inflow rate are not two isolated numbers, but rather **a window into透视 the essence of enterprise value creation and distribution**.
 
-当你在数千家公司中寻找投资标的时，这个两步分析法可以快速筛选掉那些不创造价值或不尊重股东的企业。
+When you search for investment targets among thousands of companies, this two-step analytical method can quickly filter out those enterprises that do not create value or do not respect shareholders.
 
-资本市场最公平之处在于，它最终只会奖励那些真正创造价值并与股东分享价值的企业。**寻找并陪伴这样的企业，是普通投资者能够掌握的最强大的复利工具。**
+The fairest aspect of capital markets is that they ultimately reward only those enterprises that genuinely create value and share it with shareholders. **Finding and accompanying such enterprises is the most powerful compounding tool that ordinary investors can master.**
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

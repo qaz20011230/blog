@@ -1,250 +1,250 @@
 ---
-title: 21世纪黎曼猜想研究蓝图：可计算路径与算术不等式攻势
+title: "21st Century Riemann Hypothesis Research Blueprint: Computable Paths and Arithmetic Inequality Offensive"
 date: '2026-04-07'
 category: Mathematics & Logic
 tags:
   - Riemann Hypothesis
   - mathematics
-  - 数论
+  - number theory
 description: >
-  梳理黎曼猜想的等价条件，评估Π₁⁰算术不等式（如Robin准则）的计算可行性，并提出一个分布式验证的十年研究计划。
+  Surveying the equivalent conditions of the Riemann Hypothesis, evaluating the computational feasibility of Π₁⁰ arithmetic inequalities (such as Robin's criterion), and proposing a ten-year research plan for distributed verification.
 ---
 
-**作者：良之**
+**Author: Liangzhi (良之)**
 
-> **阅读指南**
-> 本文不是研究论文，不包含新证明。它是一份面向研究生、跨领域研究者及高阶数学爱好者的“战略评述”，旨在梳理已知的黎曼猜想(RH)等价条件，并评估不同路径的计算可行性、逻辑独立性和长期研究价值。文中观点仅代表个人理解，欢迎讨论，但不回应任何“我已证明RH”的声明。
-> **技术难度标记**：⚡ 表示可跳过而不影响主线理解的深度技术段落。
-
----
-
-## 引言：群岛与暗流
-
-想象一片浩瀚的群岛。每个岛屿代表一个数学分支——解析数论、复分析、谱理论、可计算性理论、算术组合学。岛屿之间由看不见的暗流相连：这些暗流就是数百条已知与黎曼猜想(RH)等价的命题。要“解决”RH,不是在某一个山峰上插旗，而是绘制整片网络的地图：弄清楚哪些岛屿可通过有限计算抵达，哪些笼罩在逻辑独立性的迷雾中，哪些港口最值得远征队停靠。
-
-本文受Kevin Broughan三卷本巨著《Equivalents of the Riemann Hypothesis》的启发，但目的不是复述所有等价条件，而是根据一套21世纪实用标准对主要路径进行评估：
-
-- **计算可行性**：能否用现有或可预见的计算机资源进行验证?
-- **可证伪速率**：如果RH为假，多久能发现反例?
-- **常数显式性**：不等式中的常数是否具体给出，便于数值检验?
-- **元数学透明性**：该路径是否揭示了RH的逻辑本质（如可判定性、独立性）?
-
-我们的目标不是宣称证明即将到来，而是识别出**最可行动的路线**，阐明“找到一个反例”意味着什么，并勾勒一个理性的、跨十年的研究计划。在此过程中，我们将面对一个深刻的可能性：RH虽然为真，却可能独立于ZFC——此时我们对反例的搜索将永远进行下去却永远找不到，这一情景本身具有深远的数学后果。
-
-**上篇聚焦**：我们将全力投入**Π₁⁰ 语句**——那些可以通过有限计算验证反例的等价条件。具体而言，我们将详细剖析Robin准则及其兄弟(Nicolas、Lagarias、Schoenfeld)，设计一个切实可行的分布式计算计划，并评估当前的计算边界与最新进展。下篇将转向更幽深的领域：de Bruijn–Newman常数、谱理论、丢番图表示以及元数学的独立性问题。
+> **Reading Guide**
+> This article is not a research paper and does not contain new proofs. It is a "strategic commentary" aimed at graduate students, cross-domain researchers, and advanced mathematics enthusiasts, intended to survey known equivalent conditions of the Riemann Hypothesis (RH) and evaluate the computational feasibility, logical independence, and long-term research value of different paths. The views expressed represent only the author's personal understanding; discussion is welcome, but no claims of "I have proved RH" will be entertained.
+> **Technical difficulty marker**: ⚡ indicates deep technical sections that can be skipped without affecting comprehension of the main thread.
 
 ---
 
-## 第一部分：网络的拓扑结构——等价条件的层次分类
+## Introduction: Archipelagos and Undercurrents
 
-Broughan的著作将等价条件按自然家族组织。为便于战略分析，我们按**逻辑形式**和**计算特征**重新分类。
+Imagine a vast archipelago. Each island represents a mathematical branch—analytic number theory, complex analysis, spectral theory, computability theory, arithmetic combinatorics. The islands are connected by invisible undercurrents: these undercurrents are the hundreds of propositions known to be equivalent to the Riemann Hypothesis (RH). To "resolve" RH is not to plant a flag on any single peak, but to map the entire network: determining which islands can be reached through finite computation, which are shrouded in the fog of logical independence, and which ports are most worthwhile for expeditionary teams to dock at.
 
-### 1.1 “简单”类：Π₁⁰ 语句
+This article is inspired by Kevin Broughan's three-volume masterwork *Equivalents of the Riemann Hypothesis*, but its purpose is not to recapitulate all equivalent conditions, rather to evaluate the major paths according to a set of 21st century practical standards:
 
-一大类优美等价条件具有简单的逻辑形式：
+- **Computational feasibility**: Can the condition be verified using existing or foreseeable computational resources?
+- **Falsification rate**: If RH is false, how quickly could a counterexample be discovered?
+- **Constant explicitness**: Are the constants in the inequalities given concretely, facilitating numerical checking?
+- **Metamathematical transparency**: Does the path reveal RH's logical essence (such as decidability, independence)?
 
-> **“对所有自然数 n,某个递归性质 P(n) 成立。”**
+Our goal is not to proclaim that a proof is imminent, but to identify **the most actionable routes**, clarify what "finding a counterexample" means, and sketch a rational, decade-spanning research plan. In this process, we will confront a profound possibility: RH may be true yet independent of ZFC—in which case our search for counterexamples will proceed forever without ever finding one, a scenario itself with far-reaching mathematical consequences.
 
-在可计算性理论中，这称为**Π₁⁰ 语句**。其决定性特征是：一个反例——即某个 n 使 P(n) 不成立——原则上可以通过有限计算验证。这使得它们对计算机探索极具吸引力。
+**Focus of the Upper Volume**: We will devote ourselves fully to **Π₁⁰ statements**—those equivalent conditions whose counterexamples can be verified through finite computation. Specifically, we will dissect Robin's criterion and its brethren (Nicolas, Lagarias, Schoenfeld), design a practically feasible distributed computation plan, and evaluate current computational boundaries and latest progress. The lower volume will turn to deeper territories: the de Bruijn–Newman constant, spectral theory, Diophantine representations, and metamathematical questions of independence.
 
-**关键例子**：
+---
 
-1. **Robin准则 (1984)**：RH等价于对所有 n > 5040,
+## Part One: The Topology of the Network—Hierarchical Classification of Equivalent Conditions
+
+Broughan's work organizes equivalent conditions by natural families. For strategic analysis, we reclassify them by **logical form** and **computational characteristics**.
+
+### 1.1 The "Simple" Class: Π₁⁰ Statements
+
+A large class of elegant equivalent conditions has a simple logical form:
+
+> **"For all natural numbers n, some recursive property P(n) holds."**
+
+In computability theory, this is called a **Π₁⁰ statement**. Its defining characteristic is: a counterexample—i.e., some n such that P(n) does not hold—can in principle be verified through finite computation. This makes them highly attractive for computational exploration.
+
+**Key examples**:
+
+1. **Robin's criterion (1984)**: RH is equivalent to the statement that for all n > 5040,
    $$
    \sigma(n) < e^\gamma \, n \log\log n,
    $$
-   其中 σ(n) 是除数函数，γ ≈ 0.57721 是欧拉常数,e^γ ≈ 1.781072418。一个反例就是违反该不等式的整数。
+   where σ(n) is the divisor function, γ ≈ 0.57721 is the Euler–Mascheroni constant, and e^γ ≈ 1.781072418. A counterexample is an integer violating this inequality.
 
-2. **Nicolas准则 (1983)**：RH等价于对所有 n ≥ 2,
+2. **Nicolas's criterion (1983)**: RH is equivalent to the statement that for all n ≥ 2,
    $$
    \frac{n}{\varphi(n)} < e^\gamma \log\log n,
    $$
-   其中 φ 是欧拉函数。
+   where φ is Euler's totient function.
 
-3. **Lagarias准则 (2002)**：RH等价于对所有 n ≥ 1,
+3. **Lagarias's criterion (2002)**: RH is equivalent to the statement that for all n ≥ 1,
    $$
    \sigma(n) \le H_n + \exp(H_n)\log(H_n),
    $$
-   其中 H_n 是第 n 个调和数。
+   where H_n is the nth harmonic number.
 
-4. **Schoenfeld准则 (1976)**：RH等价于对所有 x ≥ 73.2,
+4. **Schoenfeld's criterion (1976)**: RH is equivalent to the statement that for all x ≥ 73.2,
    $$
    |\psi(x) - x| < \frac{\sqrt{x}\,(\log x)^2}{8\pi},
    $$
-   其中 ψ(x) 是切比雪夫函数（素数计数函数的平滑版本）。虽然涉及实变量，但验证所有实数可归结为在递归序列（如整数和素数幂）上检查。
+   where ψ(x) is the Chebyshev function (a smoothed version of the prime counting function). Although it involves a real variable, verifying all real numbers reduces to checking on recursive sequences (such as integers and prime powers).
 
-**可读性锚点**：我们不妨把 Robin 准则想象成一场“除数函数与增长界限的赛跑”。对所有已知的 n（最大到数万亿），σ(n) 总是落后于 e^γ n log log n,就像一辆车从未超过限速。如果有一天某个超车手（反例）出现，它必须是一个“极其高度合数”——即拥有异常多的小素因子。计算机可以精确地检查每个候选者。
+**Readability anchor**: We may imagine Robin's criterion as a "race between the divisor function and a growth bound." For all known n (up to trillions), σ(n) always lags behind e^γ n log log n, like a car that never exceeds the speed limit. If someday an overtaking driver (counterexample) appears, it must be a "extremely highly composite number"—i.e., one possessing an extraordinarily abundance of small prime factors. Computers can precisely check each candidate.
 
-⚡ **技术注**：Π₁⁰ 语句的半可判定性意味着：如果 RH 为假，一个简单程序（依次检查 n=2,3,4,…）最终会在第一个违反 n 处停机。如果 RH 为真，程序永远运行。这与**停机问题**对某个固定程序的状态完全相同。这一深刻联系并非巧合，我们将在下篇元数学部分详细探讨。
+⚡ **Technical note**: The semi-decidability of Π₁⁰ statements means: if RH is false, a simple program (checking n=2,3,4,… sequentially) will eventually halt at the first violating n. If RH is true, the program runs forever. This is exactly the same status as the **halting problem** for a fixed program. This profound connection is no coincidence; we will explore it in detail in the metamathematics section of the lower volume.
 
-### 1.2 解析类：Π₂⁰ 及更高阶语句
+### 1.2 The Analytic Class: Π₂⁰ and Higher-Order Statements
 
-许多经典等价条件涉及对实数或解析函数的量词，位于算术阶层的高层（如 Π₂⁰ 或 Σ₂⁰）。典型形式是：
+Many classical equivalent conditions involve quantifiers over real numbers or analytic functions, residing at higher levels of the arithmetic hierarchy (such as Π₂⁰ or Σ₂⁰). Their typical form is:
 
-> “对所有 ε>0,存在 T₀(ε) 使得对所有 t > T₀，某个不等式成立。”
+> "For all ε>0, there exists T₀(ε) such that for all t > T₀, some inequality holds."
 
-虽然数学上深刻（如 Lindelöf 猜想），它们不太直接适合计算验证。你不能暴力搜索“对所有 ε>0”的反例。这类语句对理论互联很有价值，但对**实证攻击**帮助较小。
+Although mathematically profound (e.g., the Lindelöf hypothesis), they are less directly suited for computational verification. You cannot brute-force search for counterexamples to "for all ε>0." Such statements are valuable for theoretical interconnection but offer less assistance for **empirical attack**.
 
-### 1.3 元数学类：关于可判定性的语句
+### 1.3 The Metamathematical Class: Statements About Decidability
 
-最奇特的类别，也是 Broughan 第三卷的重点，包括诸如“RH 在皮亚诺算术 PA 中可判定”或“RH 等价于某个具体 130 指令寄存器机的停机问题”。这些是**关于 RH 本身的可证明性或可计算性的元陈述**。它们构成一片迷人且 largely unexplored 的前沿。
+The most peculiar category, which is the focus of Broughan's third volume, includes statements such as "RH is decidable in Peano Arithmetic PA" or "RH is equivalent to the halting problem of some specific 130-instruction register machine." These are **meta-statements about RH's own provability or computability**. They constitute a fascinating and largely unexplored frontier.
 
-**上篇焦点**：我们将全力聚焦于 Π₁⁰ 类，因为它们是当前计算资源可以真正“硬碰硬”的路径。
+**Upper volume focus**: We will concentrate entirely on the Π₁⁰ class, because these are the paths that current computational resources can truly "grapple with" head-on.
 
-| 类别 | 逻辑形式 | 反例可验证? | 代表准则 | 计算可行性 |
-|------|----------|--------------|----------|-------------|
-| Π₁⁰ | ∀n P(n) | 是（有限步） | Robin, Nicolas, Lagarias | ★★★★★ |
-| 解析 | ∀ε ∃T … | 否（无限搜索） | Lindelöf, 零点密度估计 | ★★☆☆☆ |
-| 元数学 | 关于可证明性 | 不适用 | 停机等价、PA 独立性 | 不适用 |
+| Category | Logical form | Counterexample verifiable? | Representative criteria | Computational feasibility |
+|----------|----------|--------------|----------|-------------|
+| Π₁⁰ | ∀n P(n) | Yes (finite steps) | Robin, Nicolas, Lagarias | ★★★★★ |
+| Analytic | ∀ε ∃T … | No (infinite search) | Lindelöf, zero density estimates | ★★☆☆☆ |
+| Metamathematical | About provability | N/A | Halting equivalence, PA independence | N/A |
 
 ---
 
-## 第二部分：深潜——算术不等式家族
+## Part Two: Deep Dive—The Arithmetic Inequality Family
 
-### 2.1 Robin准则：一场限速赛
+### 2.1 Robin's Criterion: A Speed Limit Race
 
-让我们把 Robin 准则写得更亲切一些。定义
+Let us write Robin's criterion in a more approachable form. Define
 
 $$
 R(n) = \frac{\sigma(n)}{n \log\log n},
 $$
 
-那么 RH 等价于：对所有 n > 5040,$ R(n) < e^\gamma \approx 1.781072418\ldots $
+Then RH is equivalent to: for all n > 5040, $ R(n) < e^\gamma \approx 1.781072418\ldots $
 
-实际上，对于 n ≤ 5040,最大值出现在 n=2520 处，$ R(2520) \approx 1.79 $ 略高于 e^γ。但 5040 之后，除数函数似乎“收敛”了。
+In fact, for n ≤ 5040, the maximum occurs at n=2520, where $ R(2520) \approx 1.79 $ slightly exceeds e^γ. But beyond 5040, the divisor function appears to "converge."
 
-**为什么是 5040?** 5040 = 7!，是一个高度合数。Robin 证明了如果 RH 为假，第一个反例必然是一个**超高度合数**(colossally abundant number)，这类数拥有极其密集的小素因子。已知的超高度合数列表非常稀疏：前几个是 2, 6, 12, 60, 120, 360, 2520, 5040, 55440, 720720, …(OEIS A004490)。所以搜索反例时，我们不需要检查每个整数，只需检查这些“候选冠军”。
+**Why 5040?** 5040 = 7! is a highly composite number. Robin proved that if RH is false, the first counterexample must be a **colossally abundant number**, a class of numbers possessing extremely dense small prime factors. The known list of colossally abundant numbers is very sparse: the first few are 2, 6, 12, 60, 120, 360, 2520, 5040, 55440, 720720, … (OEIS A004490). So when searching for counterexamples, we need not check every integer—only these "champion candidates."
 
-**可读性锚点**：想象一场田径比赛。普通数字是业余跑者，偶尔有高度合数是专业运动员，而超高度合数就是奥运冠军。Robin 告诉我们：如果限速被打破，那一定是奥运冠军干的。因此我们可以把 99.999% 的普通数字跳过，直接盯着少数精英。
+**Readability anchor**: Imagine a track meet. Ordinary numbers are amateur runners; occasionally a highly composite number is a professional athlete; and colossally abundant numbers are Olympic champions. Robin tells us: if the speed limit is broken, it must have been done by an Olympic champion. Therefore we can skip 99.999% of ordinary numbers and focus directly on the few elite.
 
-### 2.2 为什么这个路径在21世纪特别诱人?
+### 2.2 Why Is This Path Especially Tempting in the 21st Century?
 
-1. **纯整数算术**：σ(n) 的计算只需加法和乘法，没有浮点误差，没有解析延拓。你可以用 C++、Rust 甚至 Python 精确验证。
-2. **天然并行**：每个 n 的检查独立，完美适配分布式计算(BOINC, Folding@home 模型)。
-3. **可证伪性极高**：一个反例就能终结 RH（否定形式）。如果搜索到极高界限仍未找到，我们对 RH 的信心会极大增强——尽管不是证明。
-4. **副产品价值**：即使 RH 为真，对 σ(n) 的极端值记录的研究本身就能产生新的数论结果，比如改进素数计数函数的显式界。
+1. **Pure integer arithmetic**: Computing σ(n) requires only addition and multiplication; there is no floating-point error, no analytic continuation. You can verify precisely using C++, Rust, or even Python.
+2. **Natural parallelism**: Each n's check is independent, perfectly suited for distributed computing (BOINC, Folding@home models).
+3. **High falsifiability**: A single counterexample can terminate RH (in its negative form). If searching to extremely high bounds yields no counterexample, our confidence in RH is greatly enhanced—though this is not a proof.
+4. **Byproduct value**: Even if RH is true, research on the extreme value records of σ(n) can itself yield new number-theoretic results, such as improved explicit bounds for the prime counting function.
 
-### 2.3 当前已知的计算边界与最新进展
+### 2.3 Current Known Computational Boundaries and Latest Progress
 
-**零点数值验证 vs. Robin 不等式验证**：需要区分两个概念。
+**Zeta zero numerical verification vs. Robin inequality verification**: Two concepts must be distinguished.
 
-- **ζ(s) 零点计算**：历史上，从 Riemann 本人手工计算几个零点开始，到 Turing 开创性的计算，再到当代的大规模计算。截至 2011 年,Platt 验证了前 10^13 个非平凡零点（虚部高度约 3×10^10）都在临界线上且为单零点。此后该边界已被进一步推进，但 3×10^10 仍是文献中常引用的基准。
-- **Robin 不等式的直接数值验证**：这是对整数 n 计算 σ(n) 并与 e^γ n log log n 比较。早期 Robin 本人验证到约 10^7。后来借助计算机，人们逐步推进：
-  - 2003 年：到 10^10
-  - 2010 年：到 10^12
-  - 2020 年左右：有非正式报告到 10^15
+- **ζ(s) zero computation**: Historically, from Riemann himself manually computing a few zeros, to Turing's pioneering computation, to contemporary large-scale calculations. As of 2011, Platt verified that the first 10^13 non-trivial zeros (with imaginary part heights approximately 3×10^10) all lie on the critical line and are simple zeros. This boundary has since been pushed further, but 3×10^10 remains a benchmark commonly cited in the literature.
+- **Direct numerical verification of Robin's inequality**: This involves computing σ(n) for integers and comparing with e^γ n log log n. Robin himself initially verified to about 10^7. Later, with the aid of computers, people progressively advanced:
+  - 2003: to 10^10
+  - 2010: to 10^12
+  - Around 2020: informal reports reaching 10^15
 
-**2025 年的重要进展**：2025 年 8 月，斯洛伐克独立研究者 J. J. 在 Zenodo 上发表预印本，声称已将 Robin 不等式的数值验证推进到 **10^25**。⚠️ **需谨慎**：该预印本尚未经过同行评审，其方法的正确性和完整性有待验证。然而，如果属实，这将是一个惊人的飞跃，意味着任何可能的反例必须大于 10^25,远远超出了过去估算的 10^18–10^20 区间。我们在制定十年计划时，应以此为参考，但同时保持保守态度：即使 10^25 的验证成立，也仍然不是证明，只是进一步压缩了反例的可能藏身之处。
+**Important progress in 2025**: In August 2025, Slovak independent researcher J. J. published a preprint on Zenodo, claiming to have advanced numerical verification of Robin's inequality to **10^25**. ⚠️ **Caution needed**: This preprint has not yet undergone peer review; the correctness and completeness of its methodology await verification. However, if true, this would be a stunning leap, meaning any possible counterexample must be greater than 10^25, far exceeding the previously estimated range of 10^18–10^20. In formulating our ten-year plan, we should take this as a reference while maintaining a conservative attitude: even if verification to 10^25 holds, it is still not a proof, merely further compressing the possible hiding places for counterexamples.
 
-### 2.4 超高度合数的构造与算法
+### 2.4 Construction and Algorithm for Colossally Abundant Numbers
 
-超高度合数(colossally abundant numbers)由 Ramanujan 定义，后来 Alaoglu 和 Erdős 在 1944 年进行了系统研究。它们的构造公式为：
-
-$$
-n = \prod_{i=1}^k p_i^{a_i}, \quad \text{其中 } a_i = \left\lfloor \frac{\log\left( \frac{p_i^{1+\varepsilon}-1}{p_i^\varepsilon -1} \right)}{\log p_i} \right\rfloor - 1,
-$$
-
-对某个 ε>0。通过逐渐减小 ε，我们可以生成所有超高度合数。实际算法中，常用优先队列维护下一个候选，每次扩展一个素数幂。
-
-**关键事实**：超高度合数的数量增长极慢。到 10^20 时，候选总数大约只有几十万；到 10^25 时，可能也只有百万量级。因此，即使验证到 10^25,实际需要检查的 n 个数是相当可控的——主要计算成本在于对每个候选进行素数分解和 σ(n) 的求值。
-
-### 2.5 一份具体的十年计划（更新版）
-
-#### 第1-3年：独立复现与优化至 10^20
-
-- **目标**：实现一个经过同行验证的开源超高度合数生成器，批量计算 σ(n)，并验证 R(n) < e^γ 到 10^20.
-- **方法**：采用 Alaoglu–Erdős 的 ε 递减方法，配合快速素数分解（由于超高度合数的素因子指数已知，分解是平凡的）。利用多核 CPU 或 GPU 并行处理候选列表。
-- **计算资源估算**：到 10^20 约需数十万候选，每候选分解成本低，单台服务器(128核)可在数月内完成。但为了鲁棒性，建议使用分布式验证。
-- **里程碑**：发表验证报告，确认无反例到 10^20。同时公布“峰值记录”：即哪些 n 使 R(n) 最接近 e^γ。这将为后续研究提供基准。
-
-#### 第4-7年：验证至 10^25 并处理预印本声称
-
-- **如果 2025 年预印本被证实**：直接采用其数据，但需独立复现以确认。若预印本方法有误，则自行扩展至 10^25.
-- **平台**：若需要大规模计算，可启动 BOINC 项目 “Riemann@Home”。但考虑到超高度合数候选数量有限，单机构集群也可能胜任。
-- **潜在挑战**：生成到 10^25 的候选时，需要处理非常大的整数（超过 64 位），需使用多精度算术库（如 GMP）。但计算量仍在现代超级计算机的范围内。
-- **副产品**：生成完整的超高度合数列表到 10^25,并分析 σ(n) 的极值分布，检验其与对数积分预测的一致性。
-
-#### 第8-10年：数据驱动理论改进
-
-- **显式界改进**：利用计算得到的 σ(n) 极值，通过已知的解析公式（如 ψ(x) 与 σ(n) 的关系），改进切比雪夫函数 ψ(x) 的显式界。这将直接改进素数计数函数 π(x) 的误差项估计，甚至可能收紧 de Bruijn–Newman 常数的上界。
-- **统计检验**：比较 R(n) 的分布与随机乘性函数模型的预测。任何系统偏离都可能揭示新的数论结构。
-- **哲学总结**：如果到 10^25 仍无反例，那么任何 RH 反例必须大于 10^25。即使 RH 为假，它在实际可计算范围内是“真”的，这对于应用数论（如密码学）已经足够。更重要的是，这为元数学分析提供了素材：也许反例存在但永远无法被计算找到，这指向独立性。
-
-### 2.6 与其他 Π₁⁰ 准则的比较与协同
-
-Nicolas 准则和 Lagarias 准则在计算上等价于 Robin 准则，因为反例也必须出现在超高度合数附近。实际上，已知这三个准则是两两等价的（在 ZFC 中）。因此，选择哪一个主要是方便性。
-
-- **Robin**：需要计算 σ(n)，直接但有除法。
-- **Nicolas**：需要计算 φ(n)，同样容易。
-- **Lagarias**：涉及调和数 H_n,可以预先计算，但需要高精度浮点（因为 H_n 增长缓慢，对数项敏感）。
-
-**最新进展：Fan–Molnar 准则 (2025)**
-2025 年 11 月,Fan、Molnar 和两位合作者在 arXiv 上发布了一篇论文，定义了函数 σ^[k](n)(k 个数的 LCM 等于 n 时的乘积和)，并证明了对任意 k≥2,RH 等价于
+Colossally abundant numbers were defined by Ramanujan and systematically studied by Alaoglu and Erdős in 1944. Their construction formula is:
 
 $$
-\sigma^{[k]}(n) < \left( \frac{e^\gamma n \log\log n}{\zeta(k)} \right)^k \quad \text{对所有 } n > 2,162,160.
+n = \prod_{i=1}^k p_i^{a_i}, \quad \text{where } a_i = \left\lfloor \frac{\log\left( \frac{p_i^{1+\varepsilon}-1}{p_i^\varepsilon -1} \right)}{\log p_i} \right\rfloor - 1,
 $$
 
-这实际上给出了 Robin 准则的一个**无限族**推广。从计算角度看，每个固定的 k 都给出一个新的 Π₁⁰ 语句，可以相互交叉验证。这为分布式计算提供了更多的检查点：如果一个 k 的值违反不等式,RH 也为假。多个独立的验证可以增强信心。
+for some ε>0. By gradually decreasing ε, we can generate all colossally abundant numbers. In practical algorithms, a priority queue is commonly used to maintain the next candidate, expanding one prime power at a time.
 
-**行动建议**：在 Robin 验证的同时，可以选取一个小 k（例如 k=2）进行并行验证，作为额外的安全网。
+**Key fact**: The number of colossally abundant numbers grows extremely slowly. At 10^20, the total number of candidates is approximately only a few hundred thousand; at 10^25, it may be only on the order of millions. Therefore, even when verifying to 10^25, the actual number of n's needing to be checked is quite manageable—the primary computational cost lies in factoring each candidate and evaluating σ(n).
+
+### 2.5 A Concrete Ten-Year Plan (Updated Version)
+
+#### Years 1–3: Independent Reproduction and Optimization to 10^20
+
+- **Goal**: Implement a peer-verified, open-source colossally abundant number generator, batch-compute σ(n), and verify R(n) < e^γ up to 10^20.
+- **Method**: Employ the Alaoglu–Erdős ε-decreasing method, combined with fast prime factorization (since the prime factor exponents of colossally abundant numbers are known, factorization is trivial). Utilize multi-core CPU or GPU parallel processing of the candidate list.
+- **Computational resource estimate**: Up to 10^20 requires approximately several hundred thousand candidates; per-candidate factoring cost is low; a single server (128 cores) can complete this in months. But for robustness, distributed verification is recommended.
+- **Milestone**: Publish a verification report confirming no counterexample up to 10^20. Simultaneously publish "peak records": which n's make R(n) closest to e^γ. This will provide a benchmark for subsequent research.
+
+#### Years 4–7: Verification to 10^25 and Handling the Preprint Claim
+
+- **If the 2025 preprint is confirmed**: Directly adopt its data, but with independent reproduction required for confirmation. If the preprint's methodology is flawed, then independently extend to 10^25.
+- **Platform**: If large-scale computation is needed, a BOINC project "Riemann@Home" can be launched. But considering the limited number of colossally abundant number candidates, a single-institution cluster may also suffice.
+- **Potential challenges**: When generating candidates up to 10^25, very large integers (exceeding 64 bits) must be handled, requiring multi-precision arithmetic libraries (such as GMP). However, the computational demands remain within the range of modern supercomputers.
+- **Byproduct**: Generate a complete list of colossally abundant numbers up to 10^25, and analyze the extreme value distribution of σ(n),testing its consistency with logarithmic integral predictions.
+
+#### Years 8–10: Data-Driven Theoretical Improvements
+
+- **Explicit bound improvements**: Utilize the computed σ(n) extreme values, through known analytic formulas (such as the relationship between ψ(x) and σ(n)), to improve explicit bounds for the Chebyshev function ψ(x). This will directly improve the error term estimates for the prime counting function π(x), and may even tighten the upper bound for the de Bruijn–Newman constant.
+- **Statistical testing**: Compare the distribution of R(n) with predictions from random multiplicative function models. Any systematic deviations may reveal new number-theoretic structures.
+- **Philosophical summary**: If no counterexample is found even up to 10^25, then any RH counterexample must be greater than 10^25. Even if RH is false, it is "true" within the practically computable range, which is sufficient for applied number theory (such as cryptography). More importantly, this provides material for metamathematical analysis: perhaps the counterexample exists but can never be computationally found, pointing toward independence.
+
+### 2.6 Comparison and Synergy with Other Π₁⁰ Criteria
+
+Nicolas's criterion and Lagarias's criterion are computationally equivalent to Robin's criterion, because counterexamples must also appear near colossally abundant numbers. Indeed, these three criteria are known to be pairwise equivalent (within ZFC). Therefore, choosing among them is primarily a matter of convenience.
+
+- **Robin**: Requires computing σ(n); straightforward but involves division.
+- **Nicolas**: Requires computing φ(n); equally straightforward.
+- **Lagarias**: Involves harmonic numbers H_n, which can be precomputed but require high-precision floating-point (because H_n grows slowly and the logarithmic term is sensitive).
+
+**Latest progress: Fan–Molnar criterion (2025)**
+In November 2025, Fan, Molnar, and two collaborators published a paper on arXiv defining the function σ^[k](n) (the product sum when the LCM of k numbers equals n), and proved that for any k≥2, RH is equivalent to
+
+$$
+\sigma^{[k]}(n) < \left( \frac{e^\gamma n \log\log n}{\zeta(k)} \right)^k \quad \text{for all } n > 2,162,160.
+$$
+
+This effectively gives an **infinite family** generalization of Robin's criterion. From a computational perspective, each fixed k yields a new Π₁⁰ statement that can be cross-verified. This provides additional checkpoints for distributed computing: if a value of k violates the inequality, RH is also false. Multiple independent verifications can strengthen confidence.
+
+**Action recommendation**: While performing Robin verification, one can simultaneously select a small k (e.g., k=2) for parallel verification, as an additional safety net.
 
 ---
 
-## 第三部分：显式零点验证与 Schoenfeld 准则
+## Part Three: Explicit Zero Verification and Schoenfeld's Criterion
 
-### 3.1 从零点到素数分布
+### 3.1 From Zeros to Prime Distribution
 
-Schoenfeld 准则(1976)是 RH 的一个解析等价条件，但它也带有显式常数，因此可以转化为一个可计算验证的问题。具体地,RH 等价于：
+Schoenfeld's criterion (1976) is an analytic equivalent condition for RH, but it also carries explicit constants, thus can be converted into a computationally verifiable problem. Specifically, RH is equivalent to:
 
 $$
-|\psi(x) - x| < \frac{\sqrt{x}\,(\log x)^2}{8\pi} \quad \text{对所有 } x \ge 73.2,
+|\psi(x) - x| < \frac{\sqrt{x}\,(\log x)^2}{8\pi} \quad \text{for all } x \ge 73.2,
 $$
 
-其中 ψ(x) 是切比雪夫函数。这个不等式右边是一个具体的函数。如果我们能计算 ψ(x) 对足够多的 x 并验证不等式，那就相当于验证了 RH 在某个有限范围内的“后果”。
+where ψ(x) is the Chebyshev function. The right side of this inequality is a concrete function. If we can compute ψ(x) for sufficiently many x and verify the inequality, that is equivalent to verifying RH's "consequences" within some finite range.
 
-但这里有一个微妙之处：ψ(x) 是阶梯函数，在素数幂处跳跃。理论上，要验证对所有实数 x ≥ 73.2 成立，只需验证在跳跃点处（即素数幂）以及可能的局部极大值点处。这些点是可枚举的，因此原则上也是一个 Π₁⁰ 语句。然而，计算 ψ(x) 到很大的 x 需要枚举所有素数，这比计算 σ(n) 更昂贵。
+But there is a subtlety: ψ(x) is a step function that jumps at prime powers. Theoretically, to verify the inequality for all real x ≥ 73.2, one only needs to verify at the jump points (i.e., prime powers) and possibly at local maxima. These points are enumerable, so in principle this is also a Π₁⁰ statement. However, computing ψ(x) to very large x requires enumerating all primes, which is more costly than computing σ(n).
 
-### 3.2 零点数值验证与 RH 的“计算近似”
+### 3.2 Zeta Zero Numerical Verification and RH's "Computational Approximation"
 
-零点数值验证与 Robin 验证是互补的。已知前 10^13 个零点（高度约 3×10^10）都在临界线上且为单零点，这已经足以证明对于 x 小于某个天文数字（取决于零点高度）,Schoenfeld 不等式成立。实际上，结合零点验证和显式公式，我们可以得到无条件的结果：
+Zeta zero numerical verification and Robin verification are complementary. It is known that the first 10^13 zeros (with heights approximately 3×10^10) all lie on the critical line and are simple zeros, which is already sufficient to prove that for x less than some astronomical number (depending on zero heights), Schoenfeld's inequality holds. In fact, combining zero verification with explicit formulas, we can obtain unconditional results:
 
-> 对 x ≤ 10^15（或更高），已有严格计算表明 |ψ(x)-x| 被一个小于右边界的函数控制。
+> For x ≤ 10^15 (or higher), rigorous computations have established that |ψ(x)-x| is bounded by a function smaller than the right-hand side.
 
-然而，这些验证并没有证明 RH,只是证明了 RH 在有限范围内的后果。但与 Robin 不等式相比，零点验证的计算量更大（需要求解 ζ(s)=0 的高精度数值），且依赖于浮点运算，可能引入舍入误差。因此,Robin 路径在**纯粹整数意义**上更优雅。
+However, these verifications do not prove RH; they merely prove RH's consequences within a finite range. But compared to Robin's inequality, zero verification requires greater computational effort (requiring high-precision numerical solutions of ζ(s)=0) and depends on floating-point operations, which may introduce rounding errors. Therefore, the Robin path is more elegant in a **purely integer sense**.
 
-### 3.3 两个路径的协同
+### 3.3 Synergy Between the Two Paths
 
-- **交叉检查**：如果 Robin 验证到 10^25 没有反例，而零点验证到高度 10^12 也没有异常，那么这两个独立的证据相互加强。
-- **理论互推**：已知若 Robin 不等式在某个 n 处失败，则必然存在一个偏离临界线的零点。反之，若发现一个偏离的零点,Robin 不等式也会在某个超高度合数处失败。因此，两个路径本质上是等价的，但计算开销不同。
+- **Cross-checking**: If Robin verification reaches 10^25 with no counterexample, and zero verification reaches heights of 10^12 with no anomalies, then these two independent pieces of evidence mutually reinforce each other.
+- **Theoretical mutual implication**: It is known that if Robin's inequality fails at some n, there must exist a zero deviating from the critical line. Conversely, if an off-critical-line zero is discovered, Robin's inequality will also fail at some colossally abundant number. Thus the two paths are essentially equivalent, but with different computational costs.
 
-**行动建议**：不应放弃零点验证，但可以将其优先级降低，因为 Robin 路径的计算成本更低且结果更易解释。
+**Action recommendation**: Zero verification should not be abandoned, but its priority can be lowered because the Robin path has lower computational cost and more easily interpretable results.
 
 ---
 
-## 上篇总结：算术路径的当前评分与推荐
+## Upper Volume Summary: Current Scoring and Recommendations for the Arithmetic Path
 
-| 路径 | 核心任务 | 计算可行性 | 可证伪速率 | 理论深度 | 十年内可达成果 | 推荐优先级 |
+| Path | Core task | Computational feasibility | Falsification rate | Theoretical depth | Achievable results within 10 years | Recommended priority |
 |------|----------|------------|------------|----------|----------------|------------|
-| Robin 筛法 | 验证 n ≤ 10²⁵ 内 σ(n) < e^γ n log log n | ★★★★★ | ★★★★☆ | ★★★☆☆ | 无反例到 10²⁵，或发现反例（若存在） | **最高** |
-| Nicolas/Lagarias 并行 | 同上，不同函数 | ★★★★☆ | ★★★★☆ | ★★★☆☆ | 交叉验证 | 中等 |
-| Fan–Molnar (k≥2) | 验证推广的不等式 | ★★★☆☆ | ★★★★☆ | ★★★★☆ | 新的等价族，增强信心 | 中等偏高 |
-| Schoenfeld 显式界 | 计算 ψ(x) 到极大 x | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | 改进已知无零区域常数 | 低（因 Robin 已覆盖） |
+| Robin sieving | Verify σ(n) < e^γ n log log n for n ≤ 10²⁵ | ★★★★★ | ★★★★☆ | ★★★☆☆ | No counterexample up to 10²⁵, or discover counterexample (if one exists) | **Highest** |
+| Nicolas/Lagarias parallel | Same as above, different functions | ★★★★☆ | ★★★★☆ | ★★★☆☆ | Cross-verification | Medium |
+| Fan–Molnar (k≥2) | Verify generalized inequalities | ★★★☆☆ | ★★★★☆ | ★★★★☆ | New equivalence family, enhanced confidence | Medium-high |
+| Schoenfeld explicit bounds | Compute ψ(x) to extremely large x | ★★★☆☆ | ★★★☆☆ | ★★★★☆ | Improve known zero-free region constants | Low (because Robin already covers this) |
 
-**上篇最后的思考**：算术路径是**平民的路径**——它不需要超群的解析技巧，只需要耐心、计算资源和工程智慧。在21世纪，数学研究不再是孤独的天才在黑板上演算的时代，而是大规模合作、计算与理论交织的时代。Robin 准则为我们提供了一个机会：任何人都可以下载代码，运行一个程序，成为 RH 探索的一部分。也许最终的答案不在云端，而在每一个 CPU 周期的累加中。
+**Final thoughts for the upper volume**: The arithmetic path is **the commoner's path**—it does not require exceptional analytic technique, only patience, computational resources, and engineering ingenuity. In the 21st century, mathematical research is no longer the era of lone geniuses working at blackboards, but an age of large-scale collaboration, computation intertwined with theory. Robin's criterion offers us an opportunity: anyone can download code, run a program, and become part of the exploration of RH. Perhaps the ultimate answer is not in the clouds, but in the accumulation of every CPU cycle.
 
-**最新进展的启示**：2025 年的预印本声称已到 10^25,如果被证实，那么我们实际上已经处于这个十年计划的中后期。但科学要求独立复现和同行评议。因此，本文提出的十年计划仍然有效：第一步是独立复现该结果，第二步是进一步推进到 10^30 或更高，第三步是理论升华。
+**Implications of the latest progress**: The 2025 preprint claims verification to 10^25; if confirmed, we are effectively already in the mid-to-late stage of this ten-year plan. But science demands independent reproduction and peer review. Therefore, the ten-year plan proposed in this article remains valid: the first step is independent reproduction of that result, the second step is further advancement to 10^30 or beyond, and the third step is theoretical elevation.
 
-**下篇预告**：我们将进入更幽深的领域——de Bruijn–Newman 常数、谱理论(Hilbert–Pólya)、可计算性理论(Matiyasevich 多项式、停机问题等价)、以及元数学的独立性问题。届时我们将面对一个惊人的可能性：RH 可能真，但不可证明；而我们寻找反例的程序将永远运行下去，却永远找不到——这不是程序员的噩梦，而是逻辑的美丽风景。我们还将介绍 Matiyasevich 在 2022 年提出的“9 变量二项式系数条件”以及 Moroz–Norkin 的显式丢番图方程，这些将 DPRM 路径从理论存在推进到近乎可书写的形态。
+**Lower volume preview**: We will enter deeper territories—the de Bruijn–Newman constant, spectral theory (Hilbert–Pólya), computability theory (Matiyasevich polynomial, halting problem equivalence), and metamathematical questions of independence. There we will confront an astonishing possibility: RH may be true but unprovable; and our counterexample-searching program will run forever without ever finding one—this is not a programmer's nightmare, but a beautiful landscape of logic. We will also introduce Matiyasevich's "9-variable binomial coefficient condition" proposed in 2022, and Moroz–Norkin's explicit Diophantine equation, advancing the DPRM path from theoretical existence to a nearly writable form.
 
 ---
 
-> **版权声明**：本文作者保留全部权利。欢迎非商业性转载，请注明出处和作者。商业用途请联系。
+> **Copyright notice**: The author reserves all rights. Non-commercial reproduction is welcome with attribution to the source and author. For commercial use, please contact the author.
 >
-> **致谢**：感谢 Kevin Broughan 的巨著启发，感谢 Polymath15 项目、J. J.(2025 预印本)以及 Fan–Molnar 等研究者的最新工作。所有事实核查基于公开文献和预印本，如有疏漏，欢迎指正。
+> **Acknowledgments**: Thanks to Kevin Broughan's masterwork for inspiration, to the Polymath15 project, to J. J. (2025 preprint), and to Fan–Molnar and other researchers for their latest work. All fact-checking is based on public literature and preprints; corrections for any omissions are welcome.
 
 ---
 
-*二〇二六年清明写于羊城云汐谷*
+*Written on Qingming (清明), 2026, at Yunxi Valley (云汐谷), Guangzhou (羊城)*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

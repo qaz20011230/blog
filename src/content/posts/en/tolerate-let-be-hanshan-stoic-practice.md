@@ -1,38 +1,42 @@
 ---
-title: 忍他，让他，由他——寒山拾得的斯多葛式修行
+title: "Endure Him, Let Him, Leave Him to His Own Devices — The Stoic Practice of Hanshan and Shide"
 date: '2025-12-08'
 category: Philosophy
 tags:
   - Stoicism
-  - 禅宗
+  - Chan Buddhism
   - practice
 description: >
-  世间谤我、欺我、辱我者，何其多也。寒山所问的，原不是“如何报复”，却是“如何处治”——这话里便藏了斯多葛派的机锋。
+  There are so many in this world who slander, deceive, and insult me. What Hanshan asked was never 'how to retaliate,' but 'how to deal with it' — and in this question lies the thrust of Stoic wisdom.
 ---
 
-寒山问拾得时，大约是在唐时的破庙前，或是荒山的雾里。这种问法，本就像雅典街头披着破袍的爱比克泰德，拄着拐杖对围拢来的青年说：“你所能控制的，只有你的意念。”
+When Hanshan (寒山) asked Shide (拾得), it was perhaps before a ruined temple in the Tang dynasty, or in the mist of a barren mountain. This manner of asking resembles Epictetus on the streets of Athens — clad in a threadbare cloak, leaning on his staff, telling the gathered youths: "The only thing you can control is your own mind."
 
-世间谤我、欺我、辱我者，何其多也。寒山所问的，原不是“如何报复”，却是“如何处治”——这话里便藏了斯多葛派的机锋。爱比克泰德早说过：“伤害人的并非事件本身，而是人对事件的判断。”那些谤、欺、辱、笑，本如门外风雨，你若不开门，风雨只在门外喧嚷。拾得答的“忍他、让他、由他”，不是缩颈挨打的怯懦，恰是分明了“何者属我，何者不属我”的边界。
+There are so many in this world who slander, deceive, and insult me. What Hanshan asked was never "how to retaliate," but "how to deal with it" — and in this question lies the thrust of Stoic wisdom. Epictetus said long ago: "It is not events that harm people, but people's judgments about events." Those slanders, deceits, insults, and mockeries are like wind and rain outside the door — if you do not open the door, the storm merely howls beyond it. Shide's answer — "endure him, let him, leave him to his own devices" — is not the cowering of one who tucks his neck and takes a beating; it is the clear demarcation of "what belongs to me and what does not belong to me."
 
-**一、你且看他的，不是看他遭报应，是看你自己的心**
-“再待几年，你且看他。”这话最易被解作诅咒，却成了世俗恩怨的注脚，倒像是市井婆姨咬耳的咒骂了。若按斯多葛派的说法，当是这样解：他人之恶行，如泥泞中的石块，本与你无干；你若蹲下身与石块计较，反溅自己一身污浊。待几年后，你再看那石块，它依旧在泥里，而你早已行至山腰——那时你方知，当年计较的，原不过是自己鞋底那点泥。
+**I. You will look at him — not to see him suffer retribution, but to examine your own heart**
 
-**二、敬他，不是敬他的人，是敬命运的砧板**
-拾得说的“敬他”，最是精微。爱比克泰德训练学生时，常要他们对着辱骂者说：“你既不知我全部，批评的便不是我。”这“敬”不是鞠躬作揖，是承认命运将此人此事置于你面前的必然——如同木匠面对一块疤痕累累的木料，他敬的是材料本身，却不妨碍他下刀时避开疖疤。敬他，实是敬天地间一切遭遇皆为修心的材具。
+"Just wait a few years, and you will see what becomes of him." This line is most easily read as a curse, and indeed it has become a footnote to worldly grudges, like the whispered imprecations of market women. But interpreted through Stoic wisdom, it means something else: another person's wickedness is like a stone in the mud — it has nothing to do with you. If you crouch down to quarrel with the stone, you only splash yourself with filth. Years later, when you look at that stone again, it remains in the mud while you have already climbed to the mountainside — and then you realize that what you once quarreled over was merely the mud on your own shoe.
 
-**三、我亦忍你——这便是哲人的自由**
-续篇里拾得反问：“我亦且忍你、让你、由你、避你、耐你、敬你，如何？”这已不是应对，而是将整个对话翻转过来，照见寒山提问时那点细微的“我执”。斯多葛派说，真正的自由不是改变世界，而是无论遭遇什么，都能持守灵魂的秩序。拾得此言，恰似爱比克泰德那句：“你可以锁住我的腿，但我的意志连宙斯也无法征服。”
+**II. Respect him — not the person he is, but the anvil fate has placed before you**
 
-寒山拾得的对话，原不是东方禅宗的专利。你看爱比克泰德早将类似的道理，刻在《手册》第二十条：“若有人骂你是驴，你无需愤怒，只需冷静思量——若他说的对，你该改过；若不对，那骂的便是一个与你无关的名号。”东西相隔万里，智者却站在同一处高崖上，俯瞰世人如蚂蚁般为虚名实利撕扯。
+Shide's instruction to "respect him" is the most subtle point. When Epictetus trained his students, he would have them say to their abusers: "Since you do not know me in my entirety, your criticism is not about me." This "respect" is not bowing and scraping; it is acknowledging the necessity of fate placing this person and this event before you — just as a carpenter, facing a plank scarred with knots, respects the material itself, yet this does not prevent him from cutting around the blemishes. To respect him is truly to respect all encounters in this world as material for the cultivation of the mind.
 
-今日读这典故的诸君，莫要只当是佛寺里的古训。且想想：办公室里谤你的同僚，网络上辱你的匿名人，路上故意挤你的车——这些何尝不是当代的“寒山之问”？你若学不会拾得的“由他”，便注定要将灵魂的舵，交到每一个过路的风浪手里。
+**III. I, too, shall endure you — and herein lies the philosopher's freedom**
 
-最后记起爱比克泰德的话，权作结尾：
-“不要要求事情照你希望的发生，而要希望事情正如它们确实发生的那样发生——这样你便会从容。”
+In the continuation, Shide turns the question back: "And I, too, shall endure you, let you, leave you, avoid you, bear you, and respect you — how about that?" This is no longer a response but a reversal of the entire dialogue, illuminating that faint trace of ego-attachment (我执, *wǒzhí*) in Hanshan's original question. The Stoics say that true freedom is not changing the world, but preserving the order of one's soul regardless of what one encounters. Shide's words echo Epictetus: "You may lock my legs, but my will even Zeus cannot conquer."
 
-寒山若活在今日，大约会点一支烟，在烟雾里眯眼看这荒唐的人间。而拾得或许依旧笑着，将那句“我亦忍你”化作键盘上删除的一句咒骂，转身沏自己的茶去了。
+The dialogue between Hanshan and Shide is not the exclusive property of Eastern Zen. See how Epictetus inscribed a similar principle in Chapter 20 of the *Enchiridion*: "If someone calls you a donkey, you need not be angry — simply consider calmly: if what he says is true, you should correct yourself; if it is not, then the insult applies to a name that has nothing to do with you." Separated by ten thousand miles, the wise nonetheless stand upon the same high cliff, looking down upon the masses tearing at each other over empty fame and tangible gain like ants in a frenzy.
 
-二〇二六年元月十一日
-（仿鲁迅笔意）
+Those who read this tale today, do not treat it merely as an ancient lesson from a Buddhist temple. Consider this: the colleague who slanders you in the office, the anonymous person who insults you online, the driver who deliberately cuts you off on the road — are these not contemporary instances of "Hanshan's question"? If you cannot learn Shide's "leave him to his own devices," you are doomed to hand the helm of your soul to every passing wind and wave.
+
+Finally, let us recall the words of Epictetus, as an ending:
+
+"Do not demand that things happen as you wish; rather, wish that they happen as they do happen — and so you shall be at ease."
+
+If Hanshan were alive today, he would probably light a cigarette and, through the smoke, narrow his eyes at this absurd world of men. And Shide would likely still be smiling, converting "I, too, shall endure you" into a deleted curse word on the keyboard, turning instead to brew his own tea.
+
+January 11, 2026
+(Written in imitation of Lu Xun's style)
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

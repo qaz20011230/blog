@@ -4,664 +4,665 @@ date: '2026-02-09'
 category: Culture & Art
 tags:
   - culture
-  - 文学
+  - literature
 description: >
-  A poetic and philosophical reflection on love, beauty, desire, and the eternal feminine principle embodied in the mythological Venus.
+  Eminescu's "Venus" (*Luceafărul*): a long poem about longing, distance, and the cost of immortality. In cosmically scaled lyricism, it illuminates human finitude and the metaphysics of love.
 ---
 
-## 金星
+## Venus (The Evening Star)
 
-作者：米哈伊·爱明内斯库
+Author: Mihai Eminescu
 
-从前，如传说中那般，
-从前，如从未有过一般，
-一位出身高贵的公主，
-美得超凡。
+Once upon a time, as in legends told,
+Once upon a time, as if never before,
+A princess of noble birth,
+Beautiful beyond mortal measure.
 
-她是父母的独生女，
-集万般娇媚于一身，
-如同圣女居于群圣之间，
-又如月亮居于群星之林。
+She was her parents' only child,
+All charms gathered in her alone,
+Like a saint among saints,
+Like the moon among the stars.
 
-从宏伟拱廊的阴影中，
-她移步向前，
-来到窗边，墙角处，
-金星在等待。
+From the shadow of grand arcades,
+She stepped forward,
+Coming to the window, at the wall's corner,
+Venus was waiting.
 
-她眺望远方，看海上，
-光芒升起又闪耀，
-看它在动荡的航道上，
-引领黑色的船。
+She gazed afar, over the sea,
+Where light rose and shone,
+Watching it on turbulent courses,
+Guiding dark ships.
 
-今日望见，明日又见，
-她的心愿已成：
-金星亦凝望多日，
-已倾心于她。
+Seen today, seen again tomorrow,
+Her wish had taken form:
+Venus had gazed for many days,
+And had fallen in love with her.
 
-当她以肘支颐，
-梦境轻抚她的鬓角，
-对他的思念，便充满
-她的心与魂。
+When she rested her chin on her hand,
+Dreams gently stroked her temples,
+Thoughts of him filled
+Her heart and soul.
 
-每个夜晚，他多么炽烈地
-燃起，
-当她在黑色城堡的阴影中，
-即将出现。
+Every night, how fiercely he
+Burned,
+When she was about to appear
+In the shadow of the dark castle.
 
-他一步一步，追随她的足迹，
-滑入她的闺房，
-用他冰冷的火焰，
-编织一张火网。
+Step by step, following her traces,
+Slipping into her chamber,
+With his cold flame,
+Weaving a web of fire.
 
-当她笔直地躺到床上，
-少女将要入睡，
-他便轻触她胸前的双手，
-合上她甜美的眼睫；
+When she lay straight on her bed,
+The young girl about to sleep,
+He gently touched her hands upon her chest,
+Closing her sweet eyelids;
 
-从镜中，光芒倾泻，
-在她身上流溢，
-落在大大的、闭着的眼上，
-落在她侧转的脸庞。
+From the mirror, light poured forth,
+Flowing over her,
+Falling on her large, closed eyes,
+Falling on her turned face.
 
-如新婚之日的新娘，
-她甜美而圣洁，
-从头到脚，
-如雕塑般完美。
+Like a bride on her wedding day,
+She was sweet and holy,
+From head to foot,
+Perfect as sculpture.
 
-她望着他，带着笑意，
-他在镜中颤抖——
-因他深梦中追随她，
-渴望与灵魂相守。
-她在梦中与他交谈，
-沉重地叹息低语：
-“哦，我甜美的夜之主，
-为何你不来？来吧！
-降临吧，温柔的金星，
-沿着光芒滑落，
-进入这房间，进入这思绪，
-将我的生命照亮！”
+She looked at him with a smile,
+He trembled in the mirror—
+For in deep dreams he pursued her,
+Longing to be with her soul.
+She spoke with him in dreams,
+Sighing heavily, whispering:
+"O, my sweet lord of night,
+Why do you not come? Come!
+Descend, gentle Venus,
+Slide down along the light,
+Enter this room, enter this thought,
+Illuminate my life!"
 
-他颤栗着倾听，
-燃烧得更加炽烈，
-如闪电般冲下，
-沉入大海；
-坠落之处，海水
-荡起层层圆环，
-从不可知的深处，
-一位英俊少年升起。
+He listened, trembling,
+Burning ever more fiercely,
+Like lightning he plunged down,
+Sinking into the sea;
+Where he fell, the water
+Rippled in spreading rings,
+From unknowable depths,
+A handsome youth arose.
 
-他轻如踏过门槛，
-越过窗沿，
-手持一根权杖，
-杖头以芦苇加冕。
-他似一位年轻的公爵，
-金发柔软，
-赤裸的肩上，
-系着深蓝的披风。
+He stepped as lightly as crossing a threshold,
+Over the window ledge,
+Holding a staff,
+Its tip crowned with reeds.
+He seemed a young duke,
+With soft golden hair,
+On his bare shoulders,
+A deep blue mantle fastened.
 
-他透明的面容之影，
-白如蜡像——
-一位美丽的亡者，眼却鲜活，
-向外闪耀光芒。
+The shadow of his translucent face,
+White as wax—
+A beautiful dead one, yet with living eyes,
+Shining outward with light.
 
-“我艰难地从我的天域降临，
-只为回应你的呼唤，
-天空是我的父亲，
-而大海是我的母亲。
-为能进入你的闺房，
-近前将你凝视，
-我携着我的清辉降临，
-从水中诞生。
-来吧！我无以言表的珍宝，
-抛下你的尘世；
-我是天上的金星，
-而你，做我的新娘。
-那里，在珊瑚的宫殿中，
-我将带你去往亿万年，
-整个海洋的世界，
-都将听命于你。”
+"I have descended with difficulty from my celestial domain,
+Only to answer your call,
+The sky is my father,
+And the sea is my mother.
+To enter your chamber,
+To gaze upon you close at hand,
+I descended bearing my clear radiance,
+Born from the waters.
+Come! My ineffable treasure,
+Leave your mortal world;
+I am the heavenly Venus,
+And you, be my bride.
+There, in palaces of coral,
+I will take you for millions of years,
+The entire oceanic world,
+Will be at your command."
 
-“哦，你如此美丽，仿佛只在梦中，
-天使才显现，
-但你开辟的那条路，
-我永远不会走；
-留在天上吧，不要垂怜
-我不配得到的爱，
-因我并非与你同属，
-你的容貌超越尘世。
-你言语陌生，衣饰奇异，
-你闪耀却没有生命，
-因我生，而你亡，
-你的目光使我冰冷。”
+"O, you are so beautiful, as if only in dreams,
+Angels might appear,
+But the path you have opened,
+I will never walk;
+Stay in the heavens, do not pity
+Love I do not deserve,
+For I am not of your kind,
+Your visage transcends the earthly.
+Your speech is strange, your garb alien,
+You shine yet have no life,
+For I live, and you are dead,
+Your gaze makes me cold."
 
-于是他的面容颤抖，
-因一种奇异的痛苦，
-仿佛一枝树枝坠落，
-在消逝的林间空地。
+Then his face trembled,
+From a strange pain,
+As if a branch fell,
+In a fading forest clearing.
 
-一日过去，三日过去，
-夜晚再次来临，
-金星在她上方，
-带着它清朗的光芒。
+A day passed, three days passed,
+Night came again,
+Venus above her,
+With its clear radiance.
 
-她在梦中，不得不
-将他忆起，
-对那波涛之主的思念，
-攫住了她的心：
+In her dream, she could not help
+Remembering him,
+Longing for the lord of the waves,
+Seized her heart:
 
-“降临吧，温柔的金星，
-沿着光芒滑落，
-进入这房间，进入这思绪，
-将我的生命照亮！”
+"Descend, gentle Venus,
+Slide down along the light,
+Enter this room, enter this thought,
+Illuminate my life!"
 
-他听着，闪烁，
-颤抖得更加剧烈，
-霎时，云层燃烧，
-天空与大海俱焚。
+He listened, flickering,
+Trembling ever more violently,
+Instantly, clouds burned,
+Sky and sea both aflame.
 
-他在天上听见她，
-带着痛苦熄灭，
-天空开始旋转，
-在他消失的地方；
-他消失之处，
-在球形的圆环中旋转，
-太阳的碎片，仿佛沸腾，
-在黑色的黑暗中。
+He heard her from the heavens,
+Extinguishing in pain,
+The sky began to rotate,
+Where he disappeared;
+Where he vanished,
+Spinning in spherical rings,
+Fragments of the sun, as if boiling,
+In black darkness.
 
-空气中赤红的烈焰，
-布满整个世界，
-从混沌的幽谷里，
-一位英俊的身影凝聚成形。
+Red flames in the air,
+Spread across the entire world,
+From the valley of chaos,
+A handsome figure coalesced into form.
 
-在他黑色的卷发上，
-仿佛燃烧着冠冕，
-他浮游而来，真切地，
-沐浴在日光之焰中。
-从黑色的寿衣下，
-舒展着大理石般的双臂，
-他走来，忧伤而沉思，
-面色苍白；
-唯有那巨大而奇异的眼睛，
-深邃地闪着幻梦般的光，
-如两种无尽的激情，
-充满黑暗。
+On his black curls,
+As if a crown burned,
+He floated toward her, truly,
+Bathed in the flames of sunlight.
+From beneath a black shroud,
+Stretching marble-like arms,
+He came, sorrowful and contemplative,
+Pale-faced;
+Only those enormous strange eyes,
+Flashing deeply with dreamlike light,
+Like two endless passions,
+Filling the darkness.
 
-“我艰难地从我的天域降临，
-只为再一次倾听你，
-太阳是我的父亲，
-而黑夜是我的母亲；
-来吧，到天上，让我带你去，
-我的爱人，
-从时间的道路上，攫取
-光明的冠冕。
-来吧，随我同去，我的挚爱，
-让你看看何为永恒，
-因我的母亲是智慧，
-是黑夜，是万物之母。
-来吧，我无以言表的珍宝，
-抛下你的尘世；
-我是天上的金星，
-而你，做我的新娘。
-来吧，在你淡金色的发间，
-我将系上星辰的花环，
-让你在我的天空中升起，
-比它们更加灿烂。”
+"I have descended with difficulty from my celestial domain,
+Only to hear you once more,
+The sun is my father,
+And night is my mother;
+Come, to the heavens, let me take you,
+My beloved,
+From the path of time, pluck
+The crown of light.
+Come, go with me, my love,
+Let me show you what eternity is,
+For my mother is wisdom,
+Night, the mother of all things.
+Come, my ineffable treasure,
+Leave your mortal world;
+I am the heavenly Venus,
+And you, be my bride.
+Come, in your pale golden hair,
+I will fasten a wreath of stars,
+Let you rise in my sky,
+More brilliant than they."
 
-“哦，你如此美丽，仿佛只在梦中，
-魔鬼才显现，
-但你开辟的那条路，
-我永远不会走！
-因你残酷的爱，
-我胸中的心弦在疼痛，
-你那巨大而沉重的眼睛，
-你的凝视，灼烧着我。”
+"O, you are so beautiful, as if only in dreams,
+Devils might appear,
+But the path you have opened,
+I will never walk!
+For your cruel love,
+The heartstrings in my chest ache,
+Your enormous heavy eyes,
+Your gaze, burns me."
 
-“但你想要我如何降临?
-难道你不明白，
-我是不朽的，
-而你终有一死？”
+"But how do you want me to descend?
+Don't you understand,
+I am immortal,
+And you are mortal?"
 
-“我不寻华丽的言辞，
-也不知如何启齿——
-尽管你言辞易懂，
-我却无法将你理解；
-但若你真要我相信，
-让我爱上你，
-你就降临到大地，
-变得和我一样，终有一死。”
+"I seek no ornate words,
+Nor know how to begin—
+Though your words are easy to understand,
+I cannot comprehend you;
+But if you truly want me to believe,
+To let me love you,
+Then descend to the earth,
+Become like me, mortal."
 
-“你竟要我用不朽，
-来交换一个吻，
-但你也该知道，
-我有多么爱你；
-我将升上天空，
-去往万物的主那里，
-我要他将死亡赐予我，
-唯他能够做到。
-是的，我将诞生于罪孽，
-接受另一种法则：
-我与永恒相连，
-我却要斩断这联结。”
+"You ask me to trade immortality,
+For a single kiss,
+But you should also know,
+How much I love you;
+I will ascend to the heavens,
+Go to the Lord of all things,
+I will ask Him to grant me death,
+Only He can do so.
+Yes, I will be born from sin,
+Accepting another law:
+I am linked to eternity,
+Yet I will sever this link."
 
-他在虚空中展开翅膀，
-翅膀拍打，
-在瞬间穿过千万年的路途，
-他穿越混沌。
+He spread his wings in the void,
+Wings beating,
+In an instant crossing the paths of millions of years,
+He traversed chaos.
 
-他不停地飞……飞了很久。
-为了一位少女的爱，
-他脱离了天上的所在，
-经历了无数日夜。
+He flew ceaselessly... flew for a long time.
+For a young girl's love,
+He departed his celestial abode,
+Passing through countless days and nights.
 
-这时，卡塔林，
-那个狡黠的家童，
-在席间为宾客，
-把酒杯斟满红酒，
-一个侍童，一步步捧着
-皇后的长裙，
-一个出身微贱的野孩子，
-眼睛却大胆无畏，
-双颊如两朵牡丹，
-红得滚烫——愿他受罚——
-他偷偷地窥探着，
-注视着卡塔利娜。
+Now, Cătălin,
+That cunning page,
+At the banquet for guests,
+Filling wine cups with red wine,
+A servant boy, step by step holding
+The queen's long train,
+A wild child of humble birth,
+Yet with bold fearless eyes,
+Cheeks like two peonies,
+Red and burning—may he be punished—
+He secretly peeked,
+Watching Cătălina.
 
-啊，她是多么美丽，
-又多么骄傲，愿火烧她！
-嘿，卡塔林，此刻正是此刻，
-来试试你的运气吧。
+Ah, how beautiful she was,
+And how proud—may fire burn her!
+Hey, Cătălin, now is precisely the moment,
+Come try your luck.
 
-他轻轻揽住她的腰，
-在屋子的角落里。
+He gently took her waist,
+In the corner of the room.
 
-“你要做什么，卡塔林大人?
-走开，别碰我。”
-“我要什么？我要你不再
-永远沉思，
-不如笑一笑，给我
-一个吻，就一个。”
-“我甚至不知你要什么，
-让我安静，走远点——
-哦，天上的金星，
-让我思念至死。”
-“你若不知，我就告诉你，
-一点一滴地诉说爱情，
-只是不要生气，
-好好听我说。
-就像猎人在林中张网，
-捕捉小鸟，
-等我伸出左臂，
-你就用双臂将我拥抱；
-你一动不动的双眼，
-留在我的目光之下……
-若我托起你的腋下，
-你就踮起脚来；
-当我的脸俯下，
-你的脸就朝上，
-让我们无尽而甜蜜地，
-对望一生；
-而为了让你的爱，
-全然被你知晓，
-当我俯身吻你，
-你就也来吻我。
-一个吻！你已把我抱住，
-在你的袖中，
-当你的眼睛合上，
-它们会重新点亮。”
+"What are you doing, Lord Cătălin?
+Go away, don't touch me."
+"What do I want? I want you to no longer
+Forever be lost in thought,
+Why not smile, give me
+A kiss, just one."
+"I don't even know what you want,
+Let me be quiet, go far away—
+O, the heavenly Venus,
+Let me yearn to death."
+"If you don't know, I'll tell you,
+Speaking of love bit by bit,
+Just don't be angry,
+Listen well to me.
+Just as a hunter spreads nets in the forest,
+To catch little birds,
+When I extend my left arm,
+You embrace me with both arms;
+Your motionless eyes,
+Remain beneath my gaze...
+If I lift you under your arms,
+You stand on tiptoe;
+When my face bends down,
+Your face tilts up,
+Let us endlessly and sweetly,
+Gaze at each other for a lifetime;
+And so that your love,
+May be fully known to you,
+When I bend to kiss you,
+You also kiss me.
+A kiss! You've already embraced me,
+In your sleeve,
+When your eyes close,
+They will relight."
 
-她听着这少年的话，
-迷惘而分神，
-羞怯又可爱，
-半推半就。
-他把她紧拥在怀，
-更温柔地抚慰：
-“愿我永不醒来，
-从这深深的幸福中。”
-她轻声对他说：“从小我就认识你，
-你话多又没正经，
-你倒也，和我相配……”
+She listened to this youth's words,
+Bewildered and distracted,
+Shy yet lovely,
+Half yielding, half resisting.
+He held her tightly in his arms,
+Caressing more gently:
+"May I never wake,
+From this deep happiness."
+She whispered to him: "I've known you since childhood,
+You're talkative and unserious,
+Yet you... suit me too..."
 
-但一颗金星，从遗忘的
-寂静中升起，
-给大海的孤独，
-划出无垠的天际；
-我神秘地垂下眼睫，
-因泪水将它充盈，
-当水的波浪经过，
-向着它旅行；
-它以无以言表的爱闪耀，
-想要驱散我的悲伤，
-却越升越高，
-让我无法企及。
-它忧伤地用冰冷的光芒穿透，
-从隔开我们的世界……
-我将永远爱它，而它，
-将永远遥不可及……
-因此我的白昼，
-荒凉如草原，
-而夜晚，有着神圣的魅力，
-我已无法理解。”
+But a Venus star, from the silence
+Of oblivion arose,
+Drawing boundless skies
+For the loneliness of the sea;
+I mysteriously lowered my eyelashes,
+Filled with tears,
+As waves of water passed by,
+Traveling toward it;
+It shines with ineffable love,
+Wanting to disperse my sorrow,
+Yet rises ever higher,
+Beyond my reach.
+It mournfully pierces with cold radiance,
+From the world that separates us...
+I will love it forever, and it,
+Will forever be beyond reach...
+Thus my days,
+Desolate as plains,
+And nights, with sacred allure,
+I can no longer comprehend."
 
-“你还是个孩子，就这样……
-来吧，我们逃到人间去，
-让我们的踪迹消失，
-无人知晓我们的名字，
-因我们都会变得乖巧，
-快乐又健康，
-你将忘掉对父母的思念，
-也忘掉对金星的梦想。”
+"You're still a child, just so...
+Come, let us flee to the human world,
+Let our traces vanish,
+No one knowing our names,
+For we will both become clever,
+Happy and healthy,
+You will forget longing for your parents,
+And forget dreams of Venus."
 
-金星起程。他的翅膀，
-在天际生长，
-千万年的路途，
-在同样多的瞬间飞越。
+Venus set forth. His wings,
+Growing in the sky,
+The paths of millions of years,
+Flown across in as many moments.
 
-脚下是一片星辰之天，
-头顶也是一片星辰之天——
-他仿佛一道不间断的闪电，
-在群星间穿行。
-此处，一轮月亮在路上点燃，
-彼处，一颗太阳熄灭，
-却丝毫不能阻挡，
-他飞驰的思绪。
-从混沌的幽谷，
-白色的星辰成群涌出，
-在壮丽的轨道上旋转，
-如一串串项链。
-从混沌的幽谷，
-在自己的四面八方，
-他看见，如创世的第一天，
-光芒如何涌出；
-光芒涌出，将他环绕，
-如汪洋大海，任他泅渡……
-他被思念载着飞翔，
-直到一切，一切消逝。
+Below was a sky of stars,
+Above too was a sky of stars—
+He seemed an unbroken flash of lightning,
+Passing among the stars.
+Here, a moon ignited on the path,
+There, a sun extinguished,
+Yet nothing could halt
+His racing thought.
+From the valley of chaos,
+White stars swarmed forth,
+Spinning on magnificent orbits,
+Like strings of necklaces.
+From the valley of chaos,
+In all directions around him,
+He saw, as on the first day of creation,
+How light surged forth;
+Light surged, surrounding him,
+Like a vast ocean, for him to swim across...
+He flew borne by longing,
+Until everything, everything vanished.
 
-这里，永恒已倦于
-旋转成球，
-无光无罪，
-黑暗蔓延。
-这里是熄灭的居所，
-是至洁的夜晚，
-那里从未有过任何存在，
-也永远不会再有。
-如此深邃，如此忧伤，
-不曾被一丝火花触及，
-金星黯淡了，
-被迫停驻。
-因他到达之处没有边界，
-也没有眼睛能够认识，
-时间徒劳地尝试，
-从虚空中诞生。
-千年万年无法理解，
-被盲目的遗忘攫住，
-整个宇宙不过是虚无，
-被这深渊吞噬。
-空无一物，却又有一物，
-一种渴望将它吞噬，
-那是一个深渊，如同
-盲目的遗忘。
-战栗穿过他，他感到寒冷，
-他收起翅膀，
-自存在以来第一次，
-他开始哭泣。
+Here, eternity had grown weary of
+Spinning into spheres,
+Without light, without sin,
+Darkness spreading.
+Here was the dwelling of extinction,
+The purest night,
+Where nothing had ever existed,
+And nothing ever would again.
+So deep, so sorrowful,
+Untouched by a single spark,
+Venus dimmed,
+Forced to halt.
 
-“哦，你，你的圣名，
-没有语言能呼唤，
-我求你，将我这地上的存在，
-改变吧。
-将我从沉重的永恒中，
-解脱吧，父亲，
-愿你永远被赞美，
-在这世界的整个阶梯上；
-哦，向我索要任何代价，主啊，
-但请给我另一种命运，
-因你是生命的源泉，
-也是死亡的赐予者；
-收回我不朽的光环，
-收回我眼中的火焰，
-作为这一切的交换，给我，
-一个时辰的爱吧……
-之后，我便可离去，
-如飘落的叶片，
-沉入黑暗，
-沉入冰冷的遗忘。
-主啊，我从混沌中现身，
-我将回到混沌……
-我从安息中诞生，
-我渴望着安息。”
+For where he arrived there were no boundaries,
+Nor eyes that could recognize,
+Time vainly attempted,
+To be born from the void.
+Thousands and millions of years could not comprehend,
+Seized by blind oblivion,
+The entire universe was but nothingness,
+Swallowed by this abyss.
+Nothing at all, yet something,
+A longing consumed it,
+It was an abyss, like
+Blind oblivion.
+Tremor passed through him, he felt cold,
+He folded his wings,
+For the first time since existence,
+He began to weep.
 
-如此残酷的战栗，
-穿过他，黑夜变得狂暴，
-一个深沉的声音响起，
-在他耳中轰鸣。
+"O, You, whose holy name,
+No language can call,
+I beseech You, change
+My earthly existence.
+Release me from heavy eternity,
+Father,
+May You be forever praised,
+Across the entire ladder of this world;
+O, demand any price from me, Lord,
+But give me another fate,
+For You are the source of life,
+And the giver of death;
+Take back my immortal halo,
+Take back the fire in my eyes,
+In exchange for all this, give me,
+One hour of love...
+After that, I may depart,
+Like a falling leaf,
+Sinking into darkness,
+Sinking into cold oblivion.
+Lord, I emerged from chaos,
+I will return to chaos...
+I was born from rest,
+I long for rest."
 
-“海佩里昂，时间的源头，
-空间的完成者，
-你从处子之夜呼唤，
-永不餍足的意志。
-海佩里昂，你反叛地，
-随太阳从光中升起，
-谁若心中没有死亡，
-他便永远不会死。
-海佩里昂，你从深渊，
-携一整个世界升起，
-不要祈求神迹奇事，
-它们没有形象和名称。
-即便你索要整个宇宙，
-我也愿如你所愿给你，
-但你是我的力量，我不能，
-拒绝那力量本身。
-你怎能由泪水与罪愆，
-塑造而成——
-你自永恒便升起，
-光中之光。
-你竟想成为一个凡人，
-与他们相似?
-让所有人毁灭吧，
-他们会再度诞生。
-他们只在风中延续，
-空虚的理想——
-当波浪寻得坟墓，
-新的波浪便随之升起；
-他们只有命运的星辰，
-与命运的追逐，
-我们没有时间，也没有空间，
-我们不知何为死亡。
-他们将自己渺小的自我，
-系于生命的痛苦，
-用千百种悔恨，
-紧握那消逝的梦。
-我们没有失去，也没有获得，
-不知何为虚空，
-因那飞下的群鸟，
-来年又会飞回。
-徒劳地，你想逃离，
-你那可怜的世界，
-当眼睫开始流泪，
-眼睫便会放晴。
-无论多么枯萎，
-来年树木仍会开花，
-当人开始衰老，
-人却会重获青春。
-因他们是短暂的，
-万物都是短暂的——
-难道一切不都是，
-不朽存在的衣袍吗?
-因他散开他们，又聚起他们，
-他以月亮丈量他们的生命，
-他们生又死，在神圣的一之中，
-万物皆归于一一。
-一切曾经存在的，一切将要存在的，
-永远都在眼前，
-而那消亡的悲伤故事，
-只是表象与传说。
-从永恒昨天的胸怀中，
-今天那将死之物活着，
-天上若有一颗太阳熄灭，
-便会有另一颗太阳燃起。
-仿佛永远在升起，
-死亡却从身后将它追逐，
-因一切生者皆为赴死，
-一切死者皆为新生。
-即便时间和空间消失，
-在黑暗的幽谷中，
-它们也会重新升起，
-如同球体般旋转。
-若天空被反叛的暴风雨，
-染成漆黑，
-若星辰都消逝，
-星辰会再度诞生。
-让世界坠入深渊，
-如冷叶在风中飘零，
-让大地在毁灭中消亡，
-新的大地又会诞生。
-太阳从山巅的林间，
-沉入泡沫的浪中，
-却同时在世界的另一边，
-重新升起。
-当你看见太阳落下，
-红红地沉入水中，
-在另一片土地上它已升起，
-新的一天即将开始。
-在每一刻，你都在询问，
-太阳与月亮在哪里，
-它们既在每一刻，各不相同，
-又在万物中浑然一体。
-你用肘尺丈量你的世界，
-你用月亮划分时间——
-但若一者存在于全体，
-万物便存在于一之中。
-海之浪，湖之波，
-森林，民族，
-在任何一片树叶上，
-你看见一棵枝繁叶茂的树。
-任何努力都归于虚无，
-自然自有其法则，
-在每一颗橡实里，
-都藏着一整片森林。
-你只有对好运的追逐，
-与命运的追逐，
-自然没有时间与空间，
-不知何为死亡。
-它永远在场，
-如夏娃之母的罪愆，
-你处处都能找到它，
-在一切真实的事物中。
-你相信星辰与命运，
-如同青春时代的童话，
-当生命战胜死亡，
-而死亡是生命之母。
-你想用痛苦，
-去说服那伟大者、至高者?
-天上那位，又怎会在意，
-是你还是别人在哭泣?
-既无死亡亦无罪孽，
-只要泡沫还在闪耀，
-因梵天并未与黑夜和解，
-那万物之母。
-千年万年，歌声悲戚，
-向着他升去，
-所有的眼睛将逐一消逝，
-永恒的唯有哭泣。
-你，从我永恒的整体中，
-只占三分之一，
-你怎能要我否定我的力量，
-我怎能将死亡赐予你?
-而你，海佩里昂，留下吧，
-无论你在何处落下……
-向我索要——我的第一句话，
-要我赐你智慧?
-若你想做一位圣人，
-要知道什么是痛苦与劳碌，
-我给你一片土地，
-让你被称为佛陀。
-若你想以名将我召唤，
-在我创造的这世界里，
-我给你一段时光，
-让你被称为柏拉图。
-你想让那声音开口，
-让它的歌唱之后，
-群山与森林，
-岛屿与海洋，都随之而动?
-或许你想在现实中展现，
-正义与力量?
-我会把大地分成碎块，
-让你建立王国。
-我给你帆樯林立，
-给你千军万马，
-去跨越陆地海洋，
-但死亡——不能给予……
-而你为谁，想要赴死?
-回去吧，转过身，
-朝着那片流浪的土地，
-看看有什么在等你。”
+Such cruel trembling,
+Passed through him, night grew violent,
+A deep voice sounded,
+Resounding in his ears.
 
-金星回到了
-他在天上命定的所在，
-如昨日一般，
-重新倾泻他的光芒。
+"Hyperion, source of time,
+Completer of space,
+You call from the virgin night,
+Insatiable will.
+Hyperion, you rebelliously,
+Rose with the sun from light,
+Whoever has no death in their heart,
+Will never die.
+Hyperion, you from the abyss,
+Carried an entire world upward,
+Do not pray for miracles,
+They have no form or name.
+Even if you demand the entire universe,
+I would give it as you wish,
+But you are my strength, I cannot,
+Refuse that strength itself.
+How could you be formed—
+From tears and sin—
+You have risen since eternity,
+Light of light.
+You would want to become mortal,
+Like them?
+Let all perish,
+They will be born again.
+They only persist in the wind,
+Empty ideals—
+When waves find their grave,
+New waves rise after them;
+They have only stars of fate,
+And the pursuit of fate,
+We have no time, nor space,
+We know not what death is.
+They bind their petty selves,
+To the pain of life,
+With a thousand regrets,
+Clutching the vanishing dream.
+We have neither loss nor gain,
+Knowing not what emptiness is,
+For the birds that fly down,
+Will fly back next year.
+In vain you wish to flee,
+Your pitiful world,
+When eyelids begin to tear,
+Eyelids will clear again.
+No matter how withered,
+Trees will bloom next year,
+When humans begin to age,
+Humans will regain youth.
+For they are transient,
+All things are transient—
+Is not everything,
+The garment of immortal existence?
+For He disperses them and gathers them,
+He measures their lives by the moon,
+They live and die, in the sacred One,
+All things return to the One.
+All that ever was, all that ever will be,
+Is forever present,
+And the sorrowful story of perishing,
+Is but appearance and legend.
+From the bosom of eternal yesterday,
+Today's dying things live,
+If one sun extinguishes in the heavens,
+Another sun will ignite.
+As if forever rising,
+Yet death pursues from behind,
+For all that lives is destined to die,
+All that dies is destined for new birth.
+Even if time and space vanish,
+In the dark valleys,
+They will rise again,
+Spinning like spheres.
+If the sky is dyed black
+By rebellious storms,
+If stars all perish,
+Stars will be born again.
+Let the world plunge into the abyss,
+Like cold leaves drifting in the wind,
+Let the earth perish in destruction,
+A new earth will be born.
+The sun from the mountain forest,
+Sinks into foaming waves,
+Yet simultaneously on the other side of the world,
+Rises again.
+When you see the sun setting,
+Redly sinking into the water,
+On another land it has already risen,
+A new day is about to begin.
+At every moment, you ask,
+Where are the sun and moon,
+They are in every moment, each different,
+Yet unified in all things.
+You measure your world with cubits,
+You divide time with the moon—
+But if one exists in the whole,
+All things exist in the One.
+Waves of the sea, waves of the lake,
+Forests, nations,
+On any single leaf,
+You see a leafy tree.
+All effort returns to nothing,
+Nature has its own law,
+In every acorn,
+A whole forest is hidden.
+You have only the pursuit of fortune,
+And the pursuit of fate,
+Nature has no time or space,
+Knows not what death is.
+It is forever present,
+Like the sin of Eve's mother,
+You can find it everywhere,
+In all real things.
+You believe in stars and fate,
+Like fairy tales of youth,
+When life conquers death,
+And death is the mother of life.
+You wish to use suffering,
+To persuade the Great One, the Highest One?
+How would the One in heaven care,
+Whether it is you or someone else crying?
+Neither death nor sin exists,
+As long as foam still shines,
+For Brahma has not reconciled with night,
+The mother of all things.
+Thousands and millions of years, songs sorrowful,
+Rising toward Him,
+All eyes will逐一 vanish,
+Only crying is eternal.
+You, from my eternal whole,
+Occupy only one-third,
+How can you ask me to negate my strength,
+How can I grant you death?
+And you, Hyperion, remain,
+Wherever you fall...
+Ask of me—my first word,
+Want me to grant you wisdom?
+If you wish to be a saint,
+To know what suffering and labor are,
+I give you a land,
+For you to be called Buddha.
+If you wish to call me by name,
+In this world I created,
+I give you a time,
+For you to be called Plato.
+Do you want that voice to open,
+So that after its song,
+Mountains and forests,
+Islands and seas, all move with it?
+Or perhaps you wish to demonstrate in reality,
+Justice and power?
+I will shatter the earth into fragments,
+For you to build kingdoms.
+I give you forests of sails,
+Give you armies of thousands,
+To cross land and sea,
+But death—cannot be given...
+And for whom do you wish to die?
+Go back, turn around,
+Toward that wandering land,
+See what awaits you."
 
-因黄昏正在降临，
-夜晚即将开始；
-月亮静静升起，
-在水中颤动，
-用它闪耀的光辉，
-充满林间的道路。
-在长长的菩提树下，
-坐着一对年轻人：
+Venus returned to
+His ordained place in the heavens,
+As yesterday,
+Pouring forth his light anew.
 
-“让我把头放在你胸前，
-爱人，让它安睡，
-在你清澄的目光下，
-那不可言说的甜蜜；
-用你清冷的光芒的魅力，
-穿透我的思绪，
-将永恒的宁静，
-倾泻在我激情的夜晚。
-留在我身边吧，
-平息我的痛苦，
-因你是我的初恋，
-也是我最后的梦。”
+For dusk was falling,
+Night was about to begin;
+The moon quietly rose,
+Trembling in the water,
+With its shining radiance,
+Filling the forest paths.
+Under the long linden trees,
+Sat a pair of youths:
 
-金星从上方看见，
-他们脸上的惊奇——
-他刚将手臂搭上她的颈，
-她便将他紧拥……
+"Let me rest my head on your chest,
+Beloved, let it sleep,
+Under your clear gaze,
+That unspeakable sweetness;
+With the charm of your cold radiance,
+Piercing my thoughts,
+Pouring eternal tranquility,
+Over my passionate night.
+Stay beside me,
+Soothe my pain,
+For you are my first love,
+And my final dream."
 
-银色的花散发着芳香，
-如甜美的雨，
-落在两个孩子的头顶，
-他们长发淡金。
+Venus saw from above,
+The wonder on their faces—
+He had just placed his arm on her neck,
+And she embraced him tightly...
 
-她沉醉于爱，
-抬起眼睛。她看见了
-金星。在幽暗中，
-她将心愿托付：
+Silver flowers散发着 fragrance,
+Like sweet rain,
+Falling on the heads of two children,
+Their hair pale gold.
 
-“降临吧，温柔的金星，
-沿着光芒滑落，
-进入这森林，进入这思绪，
-将我的幸福照亮！”
+She, intoxicated with love,
+Lifted her eyes. She saw
+Venus. In the dimness,
+She entrusted her wish:
 
-他如以往般颤抖，
-在森林与山丘上，
-为漂泊的波浪，
-孤独地指引方向；
+"Descend, gentle Venus,
+Slide down along the light,
+Enter this forest, enter this thought,
+Illuminate my happiness!"
 
-却不再如过去那般，
-从高空坠入大海：
-——“你是泥塑的形，又何须在意，
-是我还是另一个?
-在你们狭窄的圈子里生活，
-幸运将你们陪伴，
-而我在我的世界里，
-感到自己不朽且冰冷。”
+He trembled as before,
+Over forests and hills,
+For wandering waves,
+Guiding the way in solitude;
+
+Yet no longer as in the past,
+Plunging from the heights into the sea:
+—"You are a form shaped from clay, why care,
+Whether it is I or another?
+Live in your narrow circle,
+Fortune accompanies you,
+And I in my world,
+Feel myself immortal and cold."
 
 ---
 
-## 文学评论（约300字）
+## Literary Commentary (approximately 300 words)
 
-《金星》以宇宙神话托举人的爱情悲剧：公主的凝望唤醒星辰，星辰为爱两度“降临”，却始终以不同形态呈现“不可同类”的距离。诗中反复的呼唤“沿着光芒滑落”像咒语，推动叙事从海到天、从天到渊，完成一次从欲望到形而上学的上升。爱明内斯库把“永恒”写成光学经验：冷辉、火网、圆环、燃烧的云层——这些意象既华丽又残酷，让读者看见不朽之身的孤独与人间之爱的局限。结尾处，金星仍为航道指引，却拒绝再坠入大海，宣告一种成熟的悲剧意识：爱可以照亮，但不能占有；渴望可以抵达边界，却无法越界。此诗的力量在于把情感推到宇宙尺度，又把宇宙收束回一颗心的颤动。
+*Venus* (*Luceafărul*) uses cosmic mythology to elevate a human love tragedy: the princess's gaze awakens the star, and the star twice "descends" for love, yet always presents the distance of "incommensurable kinds" in different forms. The repeated invocation "slide down along the light" acts like a spell, propelling the narrative from sea to sky, from sky to abyss, completing an ascent from desire to metaphysics. Eminescu writes "eternity" as optical experience: cold radiance, webs of fire, spherical rings, burning clouds—these images are both magnificent and cruel, letting the reader see the loneliness of the immortal body and the limits of human love. At the ending, Venus still guides the courses, yet refuses to plunge into the sea again, declaring a mature tragic consciousness: love can illuminate, but cannot possess; longing can reach the boundary, yet cannot cross it. The power of this poem lies in pushing emotion to the cosmic scale, then contracting the cosmos back into the trembling of a single heart.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

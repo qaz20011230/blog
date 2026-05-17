@@ -9,71 +9,69 @@ description: >
   A beginner-friendly guide to Aristotelian syllogisms — understanding categorical propositions and translating natural language arguments into formal logic.
 ---
 
-# 初识三段论逻辑：从基本定义到符号翻译
+## What Is Syllogistic Logic?
 
-## 什么是三段论逻辑?
+In logic, an **algorithm** refers to a finite sequence of precise instructions for performing a computation or solving a problem. When we speak of an **argument**, we refer to a set of statements consisting of several premises and one conclusion. A **syllogism** is a classic form of deductive reasoning — composed of a major premise, a minor premise, and a conclusion, it derives a necessary conclusion from two premises that share a common term.
 
-在逻辑学中，**算法**指的是进行一项计算或解决一个问题的精确指令的有限序列。而当我们谈论**论证**时，指的是一组由若干前提和一个结论构成的陈述。**三段论**则是其中一种经典的演绎推理形式——它由大前提、小前提和结论三部分组成，通过两个包含共同项的前提推出必然的结论。
+## Quality Standards for Arguments: Validity and Soundness
 
-## 论证的质量标准：有效性与可靠性
+To understand the quality of an argument, we need to grasp two key concepts:
 
-理解一个论证的质量，我们需要掌握两个关键概念：
+- **Validity**: An argument's form guarantees that — **if the premises are true, the conclusion must necessarily be true**.
+- **Soundness**: An argument satisfies two conditions simultaneously — **the premises are true** and **the form is valid**.
 
-- **有效性**：指一个论证的形式确保——**如果前提为真，则结论必然为真**。
-- **可靠性**：指一个论证同时满足两个条件——**前提为真**且**形式有效**。
+An argument can be **valid but unsound** (if the premises are false), but a sound argument must possess both true premises and a valid form.
 
-一个论证可以**有效但不可靠**（前提为假），但一个可靠的论证必须同时具备真前提和有效形式。
+## Types of Propositions and Well-Formed Formulas
 
-## 命题的类型与良构公式
+When translating natural language into logical language, we use "well-formed formulas" (wffs) to express propositions. The following table presents common proposition types and their corresponding forms:
 
-在将自然语言翻译为逻辑语言时，我们使用“良构公式”(well-formed formula)来表达命题。以下是常见命题类型及其对应形式：
-
-| 中文命题      | 英文命题            | 命题类型     | 例句                |
+| Chinese Proposition | English Proposition | Proposition Type | Example |
 |------------|-----------------|----------|-------------------|
-| 所有A是B     | all A is B      | 全称肯定命题   | 所有人是动物。          |
-| 没有A是B     | no A is B       | 全称否定命题   | 没有鸟是无脊椎动物。      |
-| 有些A是B     | some A is B     | 特称肯定命题   | 有些猫是黑色的。        |
-| 有些A不是B    | some A is not B | 特称否定命题   | 有些学生不是勤奋的。      |
-| x是A       | x is A          | 单称肯定命题   | 苏格拉底是人。         |
-| x不是A      | x is not A      | 单称否定命题   | 张三不是狗。          |
-| x是y       | x is y          | 专称肯定命题   | 晨星是暮星。（同一性命题） |
-| x不是y      | x is not y      | 专称否定命题   | 地球不是最大的行星。      |
+| All A is B | all A is B | Universal affirmative | All humans are animals. |
+| No A is B | no A is B | Universal negative | No birds are invertebrates. |
+| Some A is B | some A is B | Particular affirmative | Some cats are black. |
+| Some A is not B | some A is not B | Particular negative | Some students are not diligent. |
+| x is A | x is A | Singular affirmative | Socrates is human. |
+| x is not A | x is not A | Singular negative | Zhang San is not a dog. |
+| x is y | x is y | Identity affirmative | The morning star is the evening star. (Identity proposition) |
+| x is not y | x is not y | Identity negative | The Earth is not the largest planet. |
 
-## 理解“周延”
+## Understanding "Distribution"
 
-**周延**是理解三段论有效性的重要概念。它指的是在命题中，词项对所指的每一个实体都做出了断言。更具体地说：
+**Distribution** is an important concept for understanding syllogistic validity. It refers to a term in a proposition that makes an assertion about every entity it denotes. More precisely:
 
-> 一个良构公式中的字母实例是周延的，当且仅当它仅出现在“所有”之后，或者在“没有”、“不是”之后的任何位置出现。
+> A letter instance in a well-formed formula is distributed if and only if it occurs only after "all," or occurs anywhere after "no" or "is not."
 
-## 快速检验：标星法
+## Quick Test: The Star Method
 
-**标星检验**是一种快速判断三段论有效性的方法：
+The **star test** is a rapid method for determining syllogistic validity:
 
-1. 将前提中周延的字母和结论中不周延的字母标上星号
-2. 该三段论是有效的，当且仅当：
-   - 每个大写字母都恰好被标星一次（亚里士多德观点假设三段论中的每个通项都指称至少一个实存个体）
-   - 恰好有一处星号出现在右侧
+1. Star the distributed letters in the premises and the undistributed letters in the conclusion
+2. The syllogism is valid if and only if:
+  - Every capital letter is starred exactly once (the Aristotelian viewpoint assumes that each general term in a syllogism denotes at least one existing entity)
+  - Exactly one star appears on the right side
 
-## 翻译的一致性要求
+## Consistency Requirements for Translation
 
-在将自然语言词项翻译为逻辑语言时，必须保持**一致性**：
-- 相同的字母表示相同的概念
-- 不同的字母表示不同的概念
+When translating natural language terms into logical language, **consistency** must be maintained:
+- The same letter represents the same concept
+- Different letters represent different concepts
 
-## 实践练习：英语句子翻译
+## Practice Exercise: Translating English Sentences
 
-试着将这些英语句子翻译为良构公式：
+Try translating these English sentences into well-formed formulas:
 
-| English Sentences                         | wffs（参考答案） |
+| English Sentences | wffs (Reference Answers) |
 |-------------------------------------------|----------------|
-| 1. This is a sentence.                    | t is S         |
-| 2. This isn't the first sentence.         | t is not s     |
-| 3. No logical positivist believes in God. | no LP is B     |
+| 1. This is a sentence. | t is S |
+| 2. This isn't the first sentence. | t is not s |
+| 3. No logical positivist believes in God. | no LP is B |
 
-## 小结
+## Summary
 
-三段论逻辑为我们提供了一套分析日常推理的精确工具。通过将自然语言命题转化为规范的逻辑形式，我们可以更清晰地识别论证的结构，评估其有效性，并避免常见的推理谬误。掌握这些基本概念是进一步学习形式逻辑的重要第一步。
+Syllogistic logic provides us with a precise toolkit for analyzing everyday reasoning. By converting natural language propositions into standardized logical forms, we can more clearly identify the structure of arguments, evaluate their validity, and avoid common reasoning fallacies. Mastering these basic concepts is an important first step toward further study in formal logic.
 
-*提示：在翻译练习中，注意保持一致性原则，确保相同的概念始终用相同的字母表示。*
+*Tip: In translation exercises, observe the principle of consistency, ensuring that the same concept is always represented by the same letter.*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

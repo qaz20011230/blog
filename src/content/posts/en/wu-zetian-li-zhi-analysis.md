@@ -1,69 +1,69 @@
 ---
-title: 亲密关系案例研究：拉康视域下的武则天与李治
+title: "Intimate Relationship Case Study: Wu Zetian and Li Zhi Through the Lacanian Lens"
 date: '2026-02-06'
 category: Psychology
 tags:
   - Lacan
   - intimate relationships
-  - 案例分析
+  - case analysis
 description: >
-  借用拉康精神分析理论，深度解构武则天与李治这对帝后伴侣在权力巅峰展开的关于欲望、符号性僭越与“父亲之名”的结构性博弈。
+  Employing Lacanian psychoanalytic theory to deeply deconstruct the structural struggle of desire, symbolic transgression, and the "Name-of-the-Father" enacted at the pinnacle of power between the imperial couple Wu Zetian and Li Zhi.
 ---
 
-**摘要**：本文旨在超越“女帝篡权”或“夫妻共治”的传统史学与文学叙事，借用雅克·拉康的精神分析理论，对武则天与李治的伴侣—权力关系进行结构性解剖。本文将论证，他们的关系是帝国“象征秩序”核心一场空前绝后的拓扑学实验。李治并非软弱的丈夫，而是武则天得以僭越性别符号、最终抵达“天子”能指位置的**关键性“他者”与镜像**；而武则天则是李治主体性中那个被压抑的、强硬的“父亲之名”的**外在化投射与替代性执行者**。他们的结合，在“性关系不存在”的法则下，上演了一幕欲望与权力在皇权“大他者”宝座上的残酷双人舞。武则天通过李治这个“阳具能指”的持有者，进行了一场惊世骇俗的**符号性身份盗窃与重构**，最终将自己从“他者的欲望对象”（嫔妃、皇后）转变为“欲望的终极主体”（皇帝）。这一过程深刻揭示了在父权象征秩序的极致中心，性别、欲望与权力之间的动态绞杀与诡异共生。
+**Abstract**: This article aims to transcend the traditional historiographical and literary narratives of "the female emperor usurping power" or "husband and wife co-governance," and instead employs Jacques Lacan's psychoanalytic theory to structurally dissect the partner-power relationship between Wu Zetian and Li Zhi. This article will argue that their relationship was an unprecedented and unrepeatable topological experiment at the core of the imperial "symbolic order." Li Zhi was not a weak husband, but rather the **critical "Other" and mirror image** enabling Wu Zetian to transgress gender signs and ultimately arrive at the signifier position of "Son of Heaven"; while Wu Zetian was the **externalized projection and substitute executor** of the repressed, stern "Name-of-the-Father" within Li Zhi's subjectivity. Their union, under the law of "there is no sexual relationship," enacted a cruel double dance of desire and power upon the throne of the imperial "Big Other." Through Li Zhi as the holder of the "phallic signifier," Wu Zetian conducted an earth-shattering **symbolic identity theft and reconstruction**, ultimately transforming herself from "object of the Other's desire" (concubine, empress) to "ultimate subject of desire" (emperor). This process profoundly reveals the dynamic entanglement and uncanny symbiosis between gender, desire, and power at the very center of the patriarchal symbolic order.
 
 ---
 
-### **引言：从宫闱秘史到象征秩序的内爆**
+### **Introduction: From Palace Secrets to the Implosion of the Symbolic Order**
 
-武则天与唐高宗李治的关系，被重重包裹在“狐媚惑主”、“牝鸡司晨”的儒家道德话语与后世演义之中。拉康的理论提供了一把利刃，剥开这些表层叙事，直指驱动这对帝后关系的**无意识动力与符号性操作**。
+The relationship between Wu Zetian and Tang Emperor Gaozong Li Zhi is heavily wrapped in Confucian moral discourse such as "fox-like seduction of the ruler" and "the hen announcing the dawn," as well as later popular historical romances. Lacan's theory provides a sharp blade to peel away these surface narratives and directly address the **unconscious dynamics and symbolic operations** driving this imperial couple's relationship.
 
-在拉康的体系中，“父亲之名”是象征秩序的核心，代表律法与权威。皇权是“父亲之名”在尘世的终极化身，其能指——“天子”——在结构上是**男性化的、菲勒斯中心主义的**。武则天与李治的关系，本质上是两个主体围绕这个至高能指展开的一场复杂博弈：一个（李治）是法定的持有者却受困于身体的软弱与性格的犹疑；另一个（武则天）拥有强烈的统治欲望与政治才能，却因性别被排除在符号系统之外。他们的关系，成了**象征秩序内部一次危险的“症状”爆发**，一个试图用实在界的身体（女性）去占据一个排斥她的符号位置（天子）的极限实验。
+In Lacan's framework, the "Name-of-the-Father" (Nom-du-Pere) is the core of the symbolic order, representing law and authority. Imperial power is the ultimate earthly incarnation of the "Name-of-the-Father," and its signifier—"Son of Heaven"—is structurally **masculinized and phallocentric**. The relationship between Wu Zetian and Li Zhi was fundamentally a complex struggle between two subjects around this supreme signifier: one (Li Zhi) was the legal holder yet trapped by bodily weakness and temperamental hesitation; the other (Wu Zetian) possessed an intense desire to rule and political talent, yet was excluded from the symbolic system by virtue of her gender. Their relationship became **a dangerous "symptom" erupting within the symbolic order**, an extreme experiment attempting to use a Real body (female) to occupy a symbolic position (Son of Heaven) that excluded her.
 
-### **第一章：李治作为“他者之镜”与“菲勒斯能指的通道”**
+### **Chapter One: Li Zhi as "Mirror of the Other" and "Passageway of the Phallic Signifier"**
 
-**1. 镜像与认同：从“才人”到“皇后”的攀升**
-初为太宗才人的武则天，在象征秩序中处于一个模糊而边缘的位置。李治的出现，成为了她认同与欲望的**关键他者镜像**。拉康认为，欲望是他者的欲望。武则天早期的欲望，并非直接指向皇权（那对她而言是不可思议的），而是指向**成为李治这个“天子”的欲望对象**，并通过成为他欲望中那个最特殊、最有力的对象，来获得权力。从感业寺回宫，到“废王立武”，武则天每一步的攀升，都紧密依赖于李治的欲望与授权。李治是她进入权力核心场域的**唯一合法符号性通道**。在这个阶段，她必须完全内化并扮演好李治欲望中的理想女性形象——既是柔情的伴侣，又是得力的政治助手——从而在想象界与他构建一种特殊的融合，为后来的符号性僭越埋下伏笔。
+**1. Mirror Image and Identification: The Ascension from "Talented Lady" to "Empress"**
+Wu Zetian, initially a Talented Lady under Emperor Taizong, occupied an ambiguous and marginal position within the symbolic order. Li Zhi's appearance became her **key Other-mirror image** for identification and desire. Lacan holds that desire is the desire of the Other. Wu Zetian's early desire was not directly pointed toward imperial power (which was unthinkable for her), but rather pointed toward **becoming the object of Li Zhi's desire as "Son of Heaven,"** and through becoming the most special and powerful object in his desire, to gain power. From her return to the palace from Ganye Temple to the "abolishment of Empress Wang and elevation of Wu," every step of Wu Zetian's ascension was tightly dependent on Li Zhi's desire and authorization. Li Zhi was her **sole legitimate symbolic passageway** into the core arena of power. At this stage, she had to fully internalize and perform the ideal feminine image in Li Zhi's desire—both a tender companion and a capable political assistant—thereby constructing a special fusion with him in the Imaginary, laying the groundwork for later symbolic transgression.
 
-**2. 症状的显现：李治的“头痛”与武则天的“代行”**
-李治因风疾导致的“头痛欲裂”，以及由此产生的理政困难，是一个极具象征意义的**实在界事件**。身体的疾病（实在界）侵蚀了天子履行其符号功能（象征界）的能力，造成了皇权能指与其实在承载者之间的断裂。这一缺口，成为了武则天行动的**合法性裂缝**。
+**2. The Manifestation of Symptom: Li Zhi's "Headaches" and Wu Zetian's "Acting on His Behalf"**
+Li Zhi's "splitting headaches" caused by wind illness (fengji), and the resulting difficulty in governing, constituted a highly symbolically meaningful **Real event**. Bodily illness (the Real) eroded the Son of Heaven's ability to perform his symbolic function (the Symbolic), creating a rupture between the imperial signifier and its Real bearer. This gap became the **crack in legitimacy** for Wu Zetian's action.
 
-武则天“时时令后决之”，并非简单的“干政”，而是扮演了一个**补充性、替代性的“父亲之名”执行者**的角色。李治的疾病，像一种无意识的“邀请”，将武则天从后宫（私人领域）召唤到前朝（公共象征领域）。在此，拉康关于“症状是主体欲望的真相”的论断得到印证：李治的疾病与依赖，或许正是其无意识中对于强硬统治角色（一个他无法完全承担的“父亲”角色）的**拒绝与转让**。武则天则成了他无法言说的统治欲望的**外在化症状与代理人**。
+Wu Zetian "frequently having the Empress decide matters" was not simple "meddling in politics," but rather performing the role of a **supplementary, substitute executor of the "Name-of-the-Father."** Li Zhi's illness functioned like an unconscious "invitation," summoning Wu Zetian from the inner palace (private domain) to the outer court (public symbolic domain). Here, Lacan's dictum that "the symptom is the truth of the subject's desire" is confirmed: Li Zhi's illness and dependence may well have been his unconscious **refusal and transfer** of the stern ruling role (a "father" role he could not fully bear). Wu Zetian then became the **externalized symptom and proxy of his unspeakable desire to rule**.
 
-### **第二章：武则天的符号性僭越与“天子”能指的重构**
+### **Chapter Two: Wu Zetian's Symbolic Transgression and Reconstruction of the "Son of Heaven" Signifier**
 
-**1. 从“皇后”到“二圣”：对二元性别符号的挤压**
-“二圣临朝”是中国政治史上一个极其罕见的符号性时刻。它打破了“天子—皇后”这一传统性别化权力二元结构。武则天不再仅仅作为“内助”，而是与皇帝共享“圣”这一至高符号。这并非平等的分享，而是一种**符号性入侵与拓扑学扭曲**。她通过李治这个媒介，将自己的能指强行嵌入了原本纯粹的男性化象征序列。此时的朝廷，呈现出一个拉康式的诡异画面：**一个生理女性，通过一个生理男性的授权与共谋，占据了“父亲之名”的部分能指功能**。这已经动摇了“天子”能指的性别纯粹性。
+**1. From "Empress" to "Two Sages": The Compression of Binary Gender Signs**
+"The Two Sages Presiding Over Court" was an extremely rare symbolic moment in Chinese political history. It broke the traditional gendered binary power structure of "Son of Heaven—Empress." Wu Zetian was no longer merely an "inner helper," but shared the supreme sign of "Sage" with the emperor. This was not equal sharing, but a **symbolic invasion and topological distortion**. Through Li Zhi as medium, she forcibly embedded her signifier into what was originally a purely masculine symbolic sequence. The court at this time presented a Lacanian uncanny tableau: **a physiological female, through the authorization and complicity of a physiological male, occupying partial signifier function of the "Name-of-the-Father."** This had already shaken the gender purity of the "Son of Heaven" signifier.
 
-**2. 称帝与改号：对“大他者”的终极盗窃与重写**
-武则天称帝，改唐为周，这是对拉康“象征界”最彻底的一次挑衅与重构。她完成了一场惊心动魄的**符号性身份盗窃**：
-- **盗用“天子”能指**：她直接占用了那个本属于男性的终极符号。
-- **重构起源神话**：利用佛教《大云经》称其为弥勒转世，是试图**创造一个属于她自己的“大他者”叙事源头**，以替代儒家父权谱系，为自己的统治提供符号性根基。
-- **发明新字与新名**：如“曌”字，是试图在语言（大他者的领域）层面打上自己的烙印，创造一个能指与所指完全合一（如日月当空，普照万物）的**完美自我镜像**，这近乎一种造物主般的符号学野心。
+**2. Claiming the Throne and Changing the Dynasty: The Ultimate Theft and Rewriting of the "Big Other"**
+Wu Zetian claiming the throne and changing Tang to Zhou was the most thorough provocation and reconstruction of Lacan's "Symbolic order." She accomplished a soul-stirring **symbolic identity theft**:
+- **Appropriating the "Son of Heaven" signifier**: She directly seized the ultimate sign that originally belonged to males.
+- **Reconstructing the origin myth**: Utilizing the Buddhist *Great Cloud Sutra* to declare herself as a reincarnation of Maitreya was an attempt to **create her own "Big Other" narrative source** to replace the Confucian patriarchal lineage, providing a symbolic foundation for her rule.
+- **Inventing new characters and new names**: Such as the character "曌" (Zhao), which was an attempt to imprint her own mark at the level of language (the domain of the Big Other), creating a **perfect self-mirror image** where signifier and signified are completely unified (like sun and moon illuminating the sky, shining upon all things)—this bordered on a demiurgic semiotic ambition.
 
-在这一过程中，李治早已去世，但他的符号遗产（唐朝的法统、她作为皇太后的身份）以及他们的儿子（李唐血脉），既是她必须克服的障碍，又是她权力过渡中无法完全摆脱的**符号性垫脚石**。她最终站在了“大他者”的位置上，但这个位置因为她生理性别的“异常”，而始终充满裂隙与不安。
+In this process, Li Zhi had long passed away, but his symbolic legacy (the Tang dynasty's legal lineage, her identity as empress dowager) as well as their sons (the Li-Tang bloodline) were both obstacles she had to overcome and **symbolic stepping stones** she could not completely shed during her power transition. She ultimately stood at the position of the "Big Other," but this position, because of the "anomaly" of her physiological gender, was always fraught with fissures and restlessness.
 
-### **第三章：欲望的僵局与实在界的复仇**
+### **Chapter Three: The Deadlock of Desire and the Revenge of the Real**
 
-**1. “性关系不存在”的皇权版本：双头统治的悖论**
-武则天与李治的关系，即使在最和谐的“二圣”时期，也深刻体现了“性关系不存在”的政治版本。不存在一个天然的、和谐的“帝后共治”公式。他们的权力分配始终处于动态的紧张与协商中。李治晚年试图废后失败，证明了武则天已经从一个依赖“他者欲望”的客体，成长为一个**拥有自身欲望逻辑、并能反向制约他者的主体**。他们的“共治”，是两种不同欲望模式（李治的儒家君主欲望与武则天更个人化、更具扩张性的权力欲望）在同一个符号框架内的**勉强并存与相互利用**，而非融合。
+**1. The Imperial Version of "There Is No Sexual Relationship": The Paradox of Dual-Head Rule**
+Wu Zetian and Li Zhi's relationship, even during the most harmonious "Two Sages" period, profoundly embodied the political version of "there is no sexual relationship." There existed no natural, harmonious formula for "emperor-empress co-governance." Their power allocation was always in dynamic tension and negotiation. Li Zhi's late-life attempt to abolish the empress—which failed—proved that Wu Zetian had grown from an object dependent on "the Other's desire" into a **subject possessing her own desire logic and able to reciprocally constrain the Other**. Their "co-governance" was a **reluctant coexistence and mutual utilization** of two different desire modes (Li Zhi's Confucian sovereign desire and Wu Zetian's more individuated, more expansive power desire) within the same symbolic framework, not a fusion.
 
-**2. 继承者的困境：符号链条的断裂与缝合失败**
-武则天最大的悲剧，是她无法解决**欲望的传递问题**，即继承问题。在拉康看来，欲望需要通过能指链传递。武则天称帝，中断了李唐父系能指链的直系传递。她面临一个无解的矛盾：传位给武家侄子，能延续“周”的国号，但割裂了母子血缘的实在界联系；传位给李姓儿子，能维系母子实在界联系，却意味着她亲手缔造的“大周”符号系统的自我否定。
+**2. The Dilemma of the Successor: Rupture of the Signifier Chain and Failed Suturing**
+Wu Zetian's greatest tragedy was her inability to resolve the **problem of the transmission of desire**, i.e., the succession problem. In Lacan's view, desire must be transmitted through the signifier chain. Wu Zetian's claiming the throne interrupted the direct transmission of the Li-Tang paternal signifier chain. She faced an insoluble contradiction: passing the throne to nephews of the Wu family could continue the "Zhou" dynasty name, but severed the Real bond of mother-child blood relation; passing it to sons of the Li lineage could maintain the Real mother-child connection, but meant the self-negation of the "Great Zhou" symbolic system she had personally created.
 
-这一困境是她**符号性僭越的内在代价**。她可以暂时占据“父亲”的位置，却无法在象征秩序中建立一个以女性为起源的、可持续的能指传承系统。最终“神龙政变”及还政李唐，是象征秩序（父权宗法）对这次空前女性僭越的**一次强力回调与“复仇”**。她的无字碑，可以解读为对这种符号性困境的终极回应——一个**空的能指**，将一切意义交给“大他者”（历史、后世）去填充，本身承认了其一生事业在符号层面最终无法被完美定论的巨大悖论。
+This dilemma was the **inherent price of her symbolic transgression**. She could temporarily occupy the "father" position, but could not establish in the symbolic order a sustainable signifier transmission system originating from a female. Ultimately, the Shenlong Revolution and the restoration of Tang rule were **a forceful rectification and "revenge"** by the symbolic order (patriarchal clan law) against this unprecedented female transgression. Her Wordless Stele can be interpreted as the ultimate response to this symbolic dilemma—an **empty signifier**, surrendering all meaning to the "Big Other" (history, posterity) to fill, inherently acknowledging the immense paradox that her life's enterprise could ultimately not be conclusively defined at the symbolic level.
 
-**3. 身体的衰朽与权力的褪色：实在界的最终胜利**
-与所有统治者一样，晚年的疾病与衰朽（实在界）最终侵蚀了武则天的权力意志。被迫退位，移居上阳宫，标志着那个曾经强大到可以重构符号的主体，最终被**无法符号化的肉体消亡过程**所征服。实在界以最平等、最残酷的方式，宣告了任何符号性权力（即使是女帝的权力）的暂时性与有限性。
+**3. The Decay of the Body and the Fading of Power: The Final Victory of the Real**
+Like all rulers, the illness and decay of her later years (the Real) ultimately eroded Wu Zetian's will to power. Being forced to abdicate and relocate to Shangyang Palace marked the moment when the subject once powerful enough to reconstruct the symbolic was ultimately subjugated by the **unsymbolizable process of bodily dissolution**. The Real, in the most egalitarian and most cruel manner, declared the temporality and finitude of any symbolic power—even that of a female emperor.
 
-### **结论：僭越者的足迹与象征秩序的弹性**
+### **Conclusion: The Footprints of the Transgressor and the Resilience of the Symbolic Order**
 
-通过拉康的视角，武则天与李治的关系是一部关于**欲望、符号与性别界限**的史诗级戏剧。
+Through the Lacanian lens, the relationship between Wu Zetian and Li Zhi is an epic-level drama about **desire, signs, and gender boundaries**.
 
-李治作为武则天权力之路的**关键“他者”与镜像**，其作用复杂而矛盾：他既是她上升的阶梯，也是她始终需要面对和利用的“父亲之名”的合法化身。他的软弱非但不是缺点，反而成了武则天欲望得以显现和实现的**结构性缺口**。
+Li Zhi, as the **critical "Other" and mirror image** on Wu Zetian's path to power, played a complex and contradictory role: he was both the ladder of her ascent and the legitimate incarnation of the "Name-of-the-Father" she always had to confront and utilize. His weakness was not a flaw, but rather became the **structural gap** through which Wu Zetian's desire could manifest and be realized.
 
-武则天则完成了一次在父权象征秩序核心的极限冲浪。她展示了欲望如何能驱动一个主体，利用既有符号系统的裂缝（李治的疾病、皇权运作的模糊地带），进行惊世骇俗的**符号性挪用与重构**。她的成功，短暂地证明了性别并非符号身份的绝对宿命；她的最终困境（继承难题）和身后的符号回调（复唐），却又深刻地揭示了**既有象征秩序（“大他者”）那强大的弹性与排异能力**。
+Wu Zetian, meanwhile, accomplished an extreme surfing at the core of the patriarchal symbolic order. She demonstrated how desire can drive a subject to exploit the fissures in existing symbolic systems (Li Zhi's illness, the ambiguous zones of imperial power operations) to conduct earth-shattering **symbolic appropriation and reconstruction**. Her success briefly proved that gender is not the absolute destiny of symbolic identity; her ultimate dilemma (the succession crisis) and posthumous symbolic rectification (the restoration of Tang) profoundly revealed **the powerful resilience and exclusionary capacity of the existing symbolic order (the "Big Other")**.
 
-他们的故事，最终昭示了一个拉康式的真理：个体可以极端地挑战和扭曲“大他者”的规则，甚至暂时占据其中心位置，但“大他者”本身作为一个结构，总会以某种方式（通过继承危机、通过历史书写）重新主张其权威，并将挑战者的痕迹吸纳或贬抑为一段“例外”的传奇。武则天在无字碑上留下的空白，正是这场人与符号、女性与父权、欲望与律法之间永恒搏斗的、一个沉默而恢弘的纪念碑。
+Their story ultimately reveals a Lacanian truth: an individual can extremely challenge and distort the rules of the "Big Other," even temporarily occupying its central position, but the "Big Other" itself as a structure will always in some manner (through succession crises, through historical writing) reassert its authority, and absorb or diminish the challenger's traces into a legend of "exception." The blankness Wu Zetian left upon her Wordless Stele is precisely a silent and magnificent monument to this eternal struggle between human and signs, between women and patriarchy, between desire and law.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

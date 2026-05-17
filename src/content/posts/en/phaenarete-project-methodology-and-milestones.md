@@ -1,289 +1,289 @@
 ---
-title: 论Phaenarete Project的方法论基础与阶段性目标
+title: "On the Methodological Foundations and Milestones of the Phaenarete Project"
 date: '2026-03-20'
 category: AI & Technology
 tags:
   - Phaenarete
   - mathematics
-  - 方法论
+  - methodology
 description: >
-  本文面向数学与计算机科学领域的研究者，旨在以技术语言阐明Phaenarete Project的方法论内核、工程架构与阶段性交付目标。我们将专注于三个问题：我们在做什么，为什么现在做，以及如何判断我们是否做成了。
+  This article is addressed to researchers in mathematics and computer science, aiming to clarify in technical language the methodological内核, engineering architecture, and milestone deliverables of the Phaenarete Project. We will focus on three questions: what we are doing, why we are doing it now, and how we judge whether we have succeeded.
 ---
 
-## 写在前面
+## Preface
 
-本文面向数学与计算机科学领域的研究者，旨在以技术语言阐明Phaenarete Project的方法论内核、工程架构与阶段性交付目标。我们将专注于三个问题：我们在做什么，为什么现在做，以及如何判断我们是否做成了。
+This article is addressed to researchers in mathematics and computer science, aiming to clarify in technical language the methodological内核, engineering architecture, and milestone deliverables of the Phaenarete Project. We will focus on three questions: what we are doing, why we are doing it now, and how we judge whether we have succeeded.
 
-我们不回避一个事实：黎曼猜想在本项目周期内被证明的概率极低。但我们同样不回避另一个事实：当前是构建"人机协同数学研究基础设施"的最佳窗口期，而解析数论——特别是围绕$\zeta$函数零点分布的核心问题群——是检验这套基础设施的理想试金石。
+We do not回避 one fact: the probability that the Riemann Hypothesis will be证明 within this project's周期 is extremely low. But we equally do not回避 another fact: the current moment is the best窗口期 for building "human-AI collaborative mathematical research infrastructure," and analytic number theory—particularly the core problem cluster围绕 the distribution of zeros of the $\zeta$ function—is the ideal试金石 for testing this infrastructure.
 
-选择最难的问题，不是因为我们自信能解决它，而是因为只有最难的问题才能暴露基础设施的全部缺陷。
-
----
-
-## 一、问题的结构：RH为什么难
-
-初次接触黎曼猜想的研究者，容易将其理解为一个孤立命题。但一百六十六年的研究史表明,RH实际上是一个问题网络的焦点，其困难源于多个深层结构的交汇。
-
-**解析维度。** $\zeta$函数零点的分布，本质上是关于Dirichlet级数的精细估计问题。这条线索从Hardy1914年证明临界线上有无穷多零点开始，经Selberg 1940年代证明正比例零点位于临界线上，到Guth与Maynard 2024年利用decoupling技术改进零密度估计，核心工具始终是调和分析与大值估计。每一步都耗费数十年，每一步都只融化了冰山的一角。
-
-**代数-几何维度。** Weil 1949年对有限域上$\zeta$函数的类比猜想，由Deligne 1974年最终证明。Gaitsgory等人2024年发布的几何朗兰兹猜想证明（约800页，由9位数学家合作完成）进一步打通了自守形式与几何对象之间的通道。但从几何朗兰兹到数论朗兰兹，再到RH,仍然存在从特征0到$\mathbb{Z}$的巨大鸿沟。
-
-**谱维度。** 1972年,Montgomery在普林斯顿的一次茶会上向Dyson描述了$\zeta$函数零点间距的pair correlation,Dyson立即指出这与GUE随机矩阵的特征值间距相同。这一偶然发现开启了数论与随机矩阵理论之间长达半个世纪的对话。Connes的非交换几何纲领试图为这种联系提供算子论框架，但至今未能给出完整的谱解释。
-
-这三个维度之间存在深刻联系，但目前没有任何单一框架能够统一它们。这正是RH的核心困难，也是我们选择它作为基础设施压力测试的原因。
+Choosing the hardest problem is not because we are自信 we can solve it, but because only the hardest problems can暴露 all the defects of the infrastructure.
 
 ---
 
-## 二、当前技术窗口的冷静评估
+## I. The Structure of the Problem: Why RH Is Difficult
 
-### 2.1 Guth-Maynard：方法论的示范
+Researchers初次 encountering the Riemann Hypothesis easily understand it as an isolated proposition. But 166 years of research history indicate that RH is actually the焦点 of a problem network, whose difficulty stems from the交汇 of multiple deep structures.
 
-2024年,Larry Guth与James Maynard发表了关于Dirichlet多项式大值估计的新结果。他们将Bourgain-Demeter的$\ell^2$ decoupling定理引入解析数论，实现了对零密度估计的改进——这是自Ingham经典工作以来，该方向数十年未见的实质性进展。
+**Analytic dimension.** The distribution of zeros of the $\zeta$ function is本质上 a problem of精细 estimation concerning Dirichlet series. This线索 begins with Hardy's 1914 proof that infinitely many zeros lie on the critical line, proceeds through Selberg's 1940s proof that a正比例 of zeros lie on the critical line, to Guth and Maynard's 2024 improvement of zero-density estimates using decoupling技术—the core tools始终 being harmonic analysis and large-value estimates. Each step耗费 decades; each step melts only a一角 of the iceberg.
 
-这一进展的方法论意义大于数值意义。它证明了调和分析的现代工具可以有效作用于经典解析数论问题。但我们必须指出其局限：
+**Algebraic-geometric dimension.** Weil's 1949 analogous conjecture for $\zeta$ functions over finite fields was最终证明 by Deligne in 1974. Gaitsgory et al.'s 2024 proof of the geometric Langlands conjecture (approximately 800 pages, completed by 9 mathematicians collaborating) further打通 the通道 between automorphic forms and geometric objects. But from geometric Langlands to number-theoretic Langlands, and then to RH, there仍然 exists a巨大鸿沟 from characteristic 0 to $\mathbb{Z}$.
 
-- decoupling技术在$\sigma \to 1/2^+$时存在本质的效率衰减，这不是技术细节，而是因为临界线附近零点分布的结构特征与decoupling所依赖的频率分离假设不兼容。
-- 零密度估计的历史表明，每一次实质性改进都需要新的概念性输入，而非对已有方法的参数微调。
+**Spectral dimension.** In 1972, at a tea party in Princeton, Montgomery described to Dyson the pair correlation of $\zeta$ function zero spacings; Dyson immediately指出 that this matches the eigenvalue spacings of GUE random matrices. This偶然发现 opened a half-century-long对话 between number theory and random matrix theory. Connes's noncommutative geometry program attempted to provide an operator-theoretic framework for this connection, but至今 has not delivered a complete spectral解释.
 
-我们的定位：形式化其核心技术，理解其边界，而非期望通过算力堆砌实现线性外推。
-
-### 2.2 张益唐的Landau-Siegel工作
-
-2022年，张益唐发布了关于Landau-Siegel零点问题的预印本，声称证明了Dirichlet L-函数在$s=1$附近不存在异常零点。如果成立，这将是该问题从指数级到多项式级的首次跨越。
-
-需要诚实指出的是：截至本文撰写时，该论文的同行评审尚未完成，数学界对其完整性和正确性尚未达成共识。我们在项目中引用这一工作时，将严格区分"已发表的预印本"与"经同行评审确认的结果"。
-
-即便该结果最终被确认，将其技术推广到复零点仍面临根本性障碍。张益唐的方法核心依赖于$L(1, \chi)$的算术性质——特别是其与类数公式的联系——这些性质在$\text{Re}(s) = 1/2$处没有直接类比。
-
-我们的定位：形式化其论证中可独立验证的核心引理，精确刻画推广受阻的数学结构，将障碍本身作为知识资产记录。
-
-### 2.3 Rodgers-Tao:de Bruijn-Newman常数
-
-2018-2020年间,Brad Rodgers与陶哲轩证明了de Bruijn-Newman常数$\Lambda \geq 0$。这一结果将黎曼猜想等价于$\Lambda = 0$，即一个精确的数值等式。
-
-这一等价形式在概念上是优美的，但在技术上并未降低问题的难度——证明一个常数恰好等于零，通常比证明它的符号更困难。然而，它为数值探索提供了一个清晰的目标函数，这对PrimeClaw的Explorer智能体有潜在价值。
-
-### 2.4 几何朗兰兹
-
-2024年,Dennis Gaitsgory领导的团队（包括Raskin、Rozenblyum等9位数学家）发布了几何朗兰兹猜想的完整证明，总计约800页。这一工作打通了从D-模到叠层的深层逻辑。
-
-但我们不应高估其对RH的直接影响。几何朗兰兹处理的是特征0的函数域情形，而RH关心的是$\mathbb{Z}$上的算术。从前者到后者的"算术化"是朗兰兹纲领中最困难的未解问题之一。我们将其视为PrimeClaw知识图谱中的重要节点，而非主攻方向。
+Deep connections exist among these three dimensions, but目前 no single framework can统一 them. This is precisely the core difficulty of RH, and the reason we chose it as an infrastructure stress test.
 
 ---
 
-## 三、AI能力的诚实评估
+## II. A Calm Assessment of the Current Technical Window
 
-### 3.1 已验证的能力边界
+### 2.1 Guth-Maynard: A Methodological Demonstration
 
-2024-2026年间,AI在数学推理领域取得了若干里程碑式进展。我们逐一评估其与本项目的相关性：
+In 2024, Larry Guth and James Maynard published new results on large-value estimates for Dirichlet polynomials. They引入 Bourgain-Demeter's $\ell^2$ decoupling theorem into analytic number theory, achieving an improvement in zero-density estimates—substantive progress unseen in that direction for decades since Ingham's classical work.
 
-**形式化证明搜索。** 2024年,DeepMind的AlphaProof系统在国际数学奥林匹克(IMO 2024)中解决了6道题中的4道，达到银牌水平。其核心架构是将语言模型与Lean 4形式化验证结合，通过强化学习训练证明搜索策略。这证明了AI在竞赛级别的形式化推理上已达到可用水平。
+The methodological significance of this进展 outweighs its numerical significance. It证明 that modern tools of harmonic analysis can effectively act upon classical analytic number theory problems. But we must指出 its limitations:
 
-但IMO题目与研究级数学之间存在本质差异：前者有明确的解，搜索空间有界；后者的解是否存在都是未知的，搜索空间无界。AlphaProof的成功不能线性外推到RH级别的问题。
+- decoupling技术 suffers essential efficiency衰减 as $\sigma \to 1/2^+$; this is not a technical detail, but because the structural特征 of zero distribution near the critical line is incompatible with the frequency separation假设 that decoupling relies upon.
+- The history of zero-density estimates indicates that every substantive improvement requires new conceptual input, rather than parameter微调 of existing methods.
 
-**大模型的数学直觉。** 陶哲轩在多个场合表示，他已将AI作为日常研究的辅助工具，用于快速检验猜想、生成反例、搜索文献中的相关结果。这种"AI作为初级合作者"的模式，是我们PrimeClaw设计的直接灵感来源。
+Our positioning: formalize其 core techniques, understand其 boundaries, rather than期望 linear extrapolation through compute堆砌.
 
-**自动形式化。** 将自然语言数学翻译为形式化证明的能力正在快速提升，但在前沿研究领域仍然不足。成熟理论（如本科级别的实分析）的自动形式化已基本可用；前沿技术（如decoupling估计的精细版本）的自动形式化仍需大量人工介入。
+### 2.2 Yitang Zhang's Landau-Siegel Work
 
-### 3.2 尚未验证的能力
+In 2022, Yitang Zhang released a预印本 on the Landau-Siegel zero problem, claiming to prove that Dirichlet L-functions have no abnormal zeros near $s=1$. If valid, this would be the first跨越 from exponential to polynomial scale on this problem.
 
-- **概念创新。** 没有证据表明AI能独立发明新的数学概念或框架。Guth-Maynard将decoupling引入解析数论，这种跨领域的概念迁移仍是人类专属。
-- **长程证明规划。** AI在局部推理上表现优异，但在需要数百步、跨越多个子领域的长程规划上，尚无令人信服的案例。
-- **失败诊断。** AI可以尝试大量路径并报告失败，但提炼失败的结构性原因仍需人类介入。
+It must be honestly指出 that: as of this article's writing, the paper's peer review has not been completed, and the mathematical community has not yet reached共识 on its completeness and correctness. When we引用 this work in the project, we will strictly区分 "published预印本" from "results确认 through peer review."
 
-### 3.3 我们的使用原则
+Even if the result is最终确认, extending其 techniques to complex zeros still faces fundamental障碍. The core of Zhang's method依赖于 the arithmetic properties of $L(1, \chi)$—particularly其 connection with the class number formula—properties that have no direct类比 at $\text{Re}(s) = 1/2$.
 
-基于上述评估,PrimeClaw的设计哲学是：让AI做它擅长的事，让人做人擅长的事，用工程架构确保接口清晰。
+Our positioning: formalize the core lemmas in其 argument that can be independently验证, precisely刻画 the mathematical structures where extension受阻, and record the obstacles themselves as knowledge assets.
 
-人类负责：选择攻击路径、提供高维直觉、评估数学意义、诊断失败原因。
+### 2.3 Rodgers-Tao: The de Bruijn-Newman Constant
 
-AI负责：大规模引理搜索与生成、形式化翻译、参数空间扫描、已知技术的组合与变体生成、形式化验证。
+During 2018-2020, Brad Rodgers and Terence Tao proved that the de Bruijn-Newman constant $\Lambda \geq 0$. This result makes the Riemann Hypothesis等价 to $\Lambda = 0$, i.e., a precise numerical equality.
 
-工程架构负责：确保AI输出经过形式化验证才能进入知识库、通过置信度分级管理不确定性、记录所有探索路径的完整日志。
+This equivalent form is conceptually优美, but technically does not降低 the problem's difficulty—proving a constant恰好 equals zero is通常 more difficult than proving其 sign. However, it provides a clear objective function for numerical exploration, which has潜在 value for PrimeClaw's Explorer agent.
 
----
+### 2.4 Geometric Langlands
 
-## 四、PrimeClaw技术架构
+In 2024, the team led by Dennis Gaitsgory (including Raskin, Rozenblyum, and 7 others, totaling 9 mathematicians) released a complete proof of the geometric Langlands conjecture,总计 approximately 800 pages. This work打通 the deep logic from D-modules to stacks.
 
-### 4.1 四智能体协同
-
-PrimeClaw由四个专门化智能体组成：
-
-**Archivist（知识智能体）。** 维护语义知识图谱，节点为数学概念、定理与技术，边为逻辑依赖、类比关系与已知障碍。输入源包括arXiv预印本、Mathlib更新与项目内部探索日志。每日增量更新。
-
-**Explorer（探索智能体）。** 基于蒙特卡洛树搜索(MCTS)，在知识图谱约束下生成候选引理、猜想变体与类比映射。其输出被标记为置信度区间，而非二值判断。Explorer被允许"犯错"——它的价值不在于每次输出都正确，而在于覆盖足够大的搜索空间。
-
-**Prover（证明智能体）。** 接收经Formalizer翻译的Lean 4 tactic骨架，尝试填充`sorry`占位符生成完整证明。核心技术为微调的代码生成模型与Lean 4 tactic搜索的结合。
-
-**Sentinel（验证智能体）。** 整个系统中唯一不使用概率模型的组件。它调用Lean 4内核类型检查器，对Prover的输出进行确定性验证。通过Sentinel的命题，其正确性由Lean 4的类型论保证，不依赖任何AI模型的置信度。
-
-### 4.2 自动形式化中介层(Formalizer)
-
-这是架构中最关键也最脆弱的环节。
-
-Explorer的输出通常是非形式化的（例如"对这个Dirichlet多项式做Cauchy-Schwarz,然后用大筛法控制余项"）。直接交给Prover在Lean 4中实现，会因隐含假设暴露、"显然"步骤需要展开、类型不匹配等问题导致级联失败。
-
-Formalizer的职责是将这个翻译过程标准化：接收Explorer的伪代码输出，生成带`sorry`占位符的Lean 4 tactic骨架，再由Prover填充。
-
-当前评估：在成熟理论上，翻译成功率已基本可用；在前沿研究上，成功率不足。这是项目前6个月的重点工程瓶颈。我们设计了人工回退机制——当自动翻译失败时，由Lean 4工程师手动完成关键步骤。
-
-### 4.3 置信度有界类型
-
-Turn-Lang引入的置信度有界类型系统为PrimeClaw提供了管理不确定性的形式化框架：
-
-- **Proven（置信度 = 1.0）。** 经Lean 4内核验证。唯一可被下游证明无条件引用的级别。
-- **Bounded（置信度 ∈ $[c_1, c_2]$）。** 经数值验证或启发式检验但未形式化证明。可被引用，但引用方自动继承其置信度上界，确保不确定性的传播显式可追踪。
-- **Speculative（置信度未定义）。** Explorer的原始猜想。不可被任何证明引用，仅作为搜索方向提示。
-
-工程实现依赖Lean 4的tactic框架。我们为Bounded类型设计了自定义`oracle` tactic,调用外部预言机并将结果包装为带置信度标记的项。编译器在类型检查时追踪置信度传播链，确保最终输出不包含任何未解决的Bounded依赖。
+But we should not overestimate其 direct impact on RH. Geometric Langlands handles the function field case over characteristic 0, while RH关心 arithmetic over $\mathbb{Z}$. The "arithmetization" from前者 to后者 is one of the most difficult unsolved problems in the Langlands program. We将其视为 an important node in PrimeClaw's knowledge graph, not a primary attack direction.
 
 ---
 
-## 五、阶段性目标与交付物
+## III. An Honest Assessment of AI Capabilities
 
-### 第一阶段（第1-6个月）：基础建设
+### 3.1 Verified Capability Boundaries
 
-**交付物：**
+During 2024-2026, AI achieved several milestone-level进展 in mathematical reasoning. We evaluate each one's relevance to this project:
 
-1. **Lean4解析数论基础库v0.1。** 覆盖：Euler-Maclaurin求和公式、Perron公式及变体、大筛法不等式(Bombieri型)、Dirichlet多项式均值定理、$\zeta$函数基本解析性质（函数方程、经典无零区域）。目标：不少于200个已验证引理。
+**Formalized proof search.** In 2024, DeepMind's AlphaProof system solved 4 out of 6 problems at the International Mathematical Olympiad (IMO 2024), reaching silver medal水平. Its core architecture combines language models with Lean 4 formal verification, training proof search strategies through reinforcement learning. This证明 that AI has reached a usable水平 in competition-level formalized reasoning.
 
-2. **PrimeClaw原型v0.1。** 四智能体基本框架搭建完成。验收标准：在至少3个非平凡但已知的解析数论命题上，完成从自然语言输入到Lean 4证明输出的全流程。
+But there exists an essential差异 between IMO problems and research-level mathematics:前者 have definite solutions and bounded search spaces;后者 may have unknown existence of solutions and unbounded search spaces. AlphaProof's success cannot be linearly extrapolated to RH-level problems.
 
-3. **知识图谱v0.1。** 覆盖解析数论核心文献（约200篇关键论文），节点包含形式化状态标记。
+**Mathematical intuition of large models.** Terence Tao has stated on multiple occasions that he has adopted AI as a daily research辅助 tool, for quickly testing conjectures, generating counterexamples, and searching literature for相关 results. This "AI as a junior collaborator"模式 is the direct inspiration for our PrimeClaw design.
 
-### 第二阶段（第7-12个月）：技术攻坚
+**Autoformalization.** The ability to翻译 natural-language mathematics into formalized proofs is rapidly提升, but still insufficient at the frontier research level. Autoformalization of mature theories (such as undergraduate-level real analysis) is基本上 usable; autoformalization of frontier techniques (such as refined versions of decoupling estimates) still requires大量 manual intervention.
 
-**交付物：**
+### 3.2 Unverified Capabilities
 
-1. **Guth-Maynard核心估计的形式化。** 策略：优先形式化论文的逻辑骨架（关键命题间的依赖关系），逐步填充技术细节。即使无法100%完成，骨架本身将精确揭示当前形式化工具的瓶颈所在。
+- **Conceptual innovation.** There is no证据 that AI can independently发明 new mathematical concepts or frameworks. Guth-Maynard's引入 of decoupling into analytic number theory—this kind of cross-domain conceptual迁移 remains human-exclusive.
+- **Long-range proof planning.** AI excels at局部 reasoning, but has no令人信服 cases for long-range planning requiring hundreds of steps跨越 multiple sub-fields.
+- **Failure diagnosis.** AI can尝试大量 paths and报告 failures, but提炼 the structural causes of failure still requires human intervention.
 
-2. **零密度估计参数探索报告。** 利用Explorer在Guth-Maynard框架内系统性搜索参数改进。诚实预期：大概率不会找到实质性改进。但搜索过程将生成大量关于"为什么某些参数组合不工作"的形式化记录，以结构化数据公开发布。
+### 3.3 Our Usage Principles
 
-3. **Turn-Lang编译器原型v0.1。** 支持从元语言到CIC的基本函子映射。验收标准：至少10个命题正确编译为Lean 4代码并通过类型检查。
+Based on the above assessment, PrimeClaw's design philosophy is: let AI do what AI擅长, let humans do what humans擅长, and use engineering architecture to ensure接口 clarity.
 
-### 第三阶段（第13-18个月）：拓展与整合
+Humans are responsible for: selecting attack paths, providing high-dimensional intuition, evaluating mathematical significance, diagnosing failure causes.
 
-**交付物：**
+AI is responsible for: large-scale lemma search and generation, formalized translation, parameter space scanning,组合 and variant generation of known techniques, formalized verification.
 
-1. **Lean 4形式化库v1.0。** 不少于500个已验证引理，提交Mathlib审核,MIT许可证开源。
-
-2. **PrimeClaw v1.0。** 完整系统，附技术文档与使用指南，开源发布。
-
-3. **谱维度探索报告。** 在随机矩阵与谱理论方向生成可形式化验证的猜想变体。
-
-4. **Turn-Lang编译器v0.5。** 支持置信度有界类型的运行时预言机。
-
-5. **《探索日志》全集。** 所有路径（成功与失败）的完整记录，含自然语言描述、形式化状态、失败原因分析、相关文献引用。
-
-6. **终期评估报告。** 对三大维度的探索进展进行诚实评估，明确哪些方向值得后续投入，哪些应当放弃。
+Engineering architecture is responsible for: ensuring AI output passes formalized verification before entering the knowledge base, managing uncertainty through confidence-level分级, recording complete logs of all exploration paths.
 
 ---
 
-## 六、团队与治理
+## IV. PrimeClaw Technical Architecture
 
-### 6.1 核心团队
+### 4.1 Four-Agent Collaboration
 
-- **良之（项目负责人）。** 整体架构设计、Turn-Lang开发、资源协调。
-- **Travor Liu（首席数学家）。** 斯坦福大学博士生，数学方向判断、关键路径选择。
-- **2-3名全职形式化工程师（待招聘）。** 将数学洞察转化为Lean代码，维护Prover与Sentinel.
+PrimeClaw consists of four specialized agents:
 
-### 6.2 顾问团队与参与机制
+**Archivist (Knowledge Agent).** Maintains a semantic knowledge graph, whose nodes are mathematical concepts, theorems, and techniques, and whose edges are logical dependencies, analogous relationships, and known obstacles. Input sources include arXiv预印本, Mathlib updates, and project internal exploration logs. Daily incremental updates.
 
-我们不会假装院士们每周都在审阅代码。顾问的价值在于战略方向把关，而非日常技术参与。
+**Explorer (Exploration Agent).** Based on Monte Carlo Tree Search (MCTS), generates candidate lemmas, conjecture variants, and analogous mappings under knowledge graph constraints. Its output is标记 with confidence intervals, not binary judgments. Explorer is allowed to "make mistakes"—its value lies not in每次 output being correct, but in覆盖 a sufficiently large search space.
 
-- **刘建亚院士、孙斌勇院士。** 月度书面咨询（不超过5页技术摘要），季度视频评估。
-- **Yuri Matiyasevich教授。** 按需邮件咨询，针对Diophantine方向的具体技术问题。
-- **张益唐教授。** 荣誉顾问，参与主要体现在项目对其工作的形式化上。
+**Prover (Proof Agent).** Receives Lean 4 tactic skeletons translated by the Formalizer, attempts to fill `sorry` placeholders to generate complete proofs. Core technique is the combination of fine-tuned code generation models with Lean 4 tactic search.
 
-### 6.3 质量控制
+**Sentinel (Verification Agent).** The only component in the entire system that does not use probabilistic models. It invokes the Lean 4 kernel type checker to perform deterministic验证 on Prover's output. Propositions passing Sentinel have其 correctness guaranteed by Lean 4's type theory, not依赖于 any AI model's confidence level.
 
-四层机制：
-- **自动层：** Sentinel对所有形式化输出进行Lean 4类型检查，不可绕过。
-- **工程层：** 每周代码交叉审查。
-- **数学层：** Travor Liu评估所有入库命题的数学意义。
-- **战略层：** 月度顾问反馈，季度全体评估。
+### 4.2 Autoformalization Intermediary Layer (Formalizer)
+
+This is the most critical and most fragile环节 in the architecture.
+
+Explorer's output is通常 informal (e.g., "apply Cauchy-Schwarz to this Dirichlet polynomial, then use the large sieve to control the remainder"). Directly handing this to Prover for Lean 4 implementation would cause cascade failures due to implicit假设暴露, "obvious" steps requiring expansion, and type mismatches.
+
+Formalizer's职责 is to standardize this translation process: receiving Explorer's pseudocode output, generating Lean 4 tactic skeletons with `sorry` placeholders, then由 Prover fills them.
+
+Current assessment: on mature theories, translation success rate is基本上 usable; on frontier research, success rate is不足. This is the key engineering bottleneck for the first 6 months of the project. We have designed a manual fallback mechanism—when auto-translation fails, Lean 4 engineers manually complete关键 steps.
+
+### 4.3 Confidence-Bounded Types
+
+The confidence-bounded type system引入 by Turn-Lang provides PrimeClaw with a formalized framework for managing uncertainty:
+
+- **Proven (confidence = 1.0).** Verified by the Lean 4 kernel. The only level that can be无条件引用 by downstream proofs.
+- **Bounded (confidence ∈ $[c_1, c_2]$).** Verified numerically or heuristically检验 but not formally证明. Can be引用, but the引用方 automatically inherits其 confidence upper bound, ensuring that uncertainty propagation is显式 trackable.
+- **Speculative (confidence undefined).** Explorer's raw conjectures. Cannot be引用 by any proof; serves仅 as search direction hints.
+
+Engineering implementation依赖于 Lean 4's tactic framework. We have designed custom `oracle` tactics for Bounded types, invoking external oracles and包装 results as items标记 with confidence levels. The compiler追踪 confidence propagation chains during type checking, ensuring that最终 output contains no unresolved Bounded dependencies.
 
 ---
 
-## 七、风险登记簿
+## V. Milestones and Deliverables
 
-| 风险 | 概率 | 影响 | 缓解措施 |
+### Phase 1 (Months 1-6): Infrastructure Building
+
+**Deliverables:**
+
+1. **Lean4 Analytic Number Theory Foundation Library v0.1.** Coverage: Euler-Maclaurin summation formula, Perron's formula及 variants, large sieve inequalities (Bombieri-type), Dirichlet polynomial mean-value theorems, $\zeta$ function basic analytic properties (functional equation, classical zero-free regions). Target: no fewer than 200 verified lemmas.
+
+2. **PrimeClaw Prototype v0.1.** Four-agent basic framework setup complete. Acceptance标准: on at least 3 non-trivial but known analytic number theory propositions, complete the full pipeline from natural language input to Lean 4 proof output.
+
+3. **Knowledge Graph v0.1.** Coverage of analytic number theory core literature (approximately 200 key papers), nodes包含 formalization status markers.
+
+### Phase 2 (Months 7-12): Technical Breakthrough
+
+**Deliverables:**
+
+1. **Formalization of Guth-Maynard core estimates.** Strategy:优先 formalize the logical skeleton of the paper (dependency relationships between关键 propositions),逐步 filling in technical details. Even if 100% completion is not achievable, the skeleton本身 will precisely揭示 where current formalization tools' bottlenecks lie.
+
+2. **Zero-density estimate parameter exploration report.** Using Explorer to systematically search for parameter improvements within the Guth-Maynard framework. Honest expectation: most likely will not find substantive improvements. But the search process will generate大量 formalized records about "why certain parameter combinations don't work," released as structured public data.
+
+3. **Turn-Lang Compiler Prototype v0.1.** Supporting basic functor mappings from meta-language to CIC. Acceptance标准: at least 10 propositions correctly compile to Lean 4 code and pass type checking.
+
+### Phase 3 (Months 13-18): Expansion and Integration
+
+**Deliverables:**
+
+1. **Lean 4 Formalization Library v1.0.** No fewer than 500 verified lemmas, submitted for Mathlib review, open-sourced under MIT license.
+
+2. **PrimeClaw v1.0.** Complete system,附 technical documentation and usage guide, open-source release.
+
+3. **Spectral dimension exploration report.** Generating formalizable-verified conjecture variants in the random matrix and spectral theory directions.
+
+4. **Turn-Lang Compiler v0.5.** Supporting runtime oracles for confidence-bounded types.
+
+5. **"Exploration Log" complete collection.** Complete records of all paths (successes and failures),包含 natural language descriptions, formalization status, failure cause analysis, relevant literature citations.
+
+6. **Final evaluation report.** Honest assessment of exploration progress across the three major dimensions, clearly stating which directions值得后续 investment and which should be放弃.
+
+---
+
+## VI. Team and Governance
+
+### 6.1 Core Team
+
+- **Liangzhi (Project Lead).** Overall architecture design, Turn-Lang development, resource coordination.
+- **Travor Liu (Chief Mathematician).** Stanford University PhD student, mathematical direction judgment, critical path selection.
+- **2-3 full-time formalization engineers (to be hired).** Translating mathematical insights into Lean code, maintaining Prover and Sentinel.
+
+### 6.2 Advisory Team and Participation Mechanism
+
+We will not pretend that academicians are reviewing code every week. Advisors' value lies in strategic direction oversight, not daily technical participation.
+
+- **Academician Liu Jianya, Academician Sun Binyong.** Monthly written consultation (no more than 5 pages of technical摘要), quarterly video evaluation.
+- **Professor Yuri Matiyasevich.** On-demand email consultation, targeting specific technical questions in the Diophantine direction.
+- **Professor Yitang Zhang.** Honorary advisor; participation primarily体现在 the project's formalization of其 work.
+
+### 6.3 Quality Control
+
+Four-layer mechanism:
+- **Automatic layer**: Sentinel performs Lean 4 type checking on all formalized output, non-bypassable.
+- **Engineering layer**: Weekly code交叉 review.
+- **Mathematical layer**: Travor Liu evaluates the mathematical significance of all propositions entering the库.
+- **Strategic layer**: Monthly advisor反馈, quarterly全体 evaluation.
+
+---
+
+## VII. Risk Register
+
+| Risk | Probability | Impact | Mitigation |
 |------|------|------|----------|
-| 形式化工作量超预期 | 高 | 第一阶段延迟 | 优先形式化逻辑骨架；与Mathlib社区合作 |
-| Formalizer效率不足 | 中高 | Explorer→Prover管道堵塞 | 专项优化 + 人工回退机制 |
-| Turn-Lang工程延迟 | 中 | 第二阶段交付缩水 | 与PrimeClaw主线解耦，确保独立运行 |
-| 数学路径全部受阻 | 高 | 数学成果为零 | 交付目标已与"证明RH"解耦；系统性记录失败本身是核心产出 |
-| 关键人员或资金中断 | 低-中 | 项目缩减或终止 | 所有代码和数据从第一天起开源 |
+| Formalization工作量 exceeds expectations | High | Phase 1 delay | Prioritize formalizing logical skeletons; collaborate with Mathlib community |
+| Formalizer效率 insufficient | Medium-High | Explorer→Prover pipeline堵塞 | Dedicated optimization + manual fallback mechanism |
+| Turn-Lang engineering延迟 | Medium | Phase 2 deliverables缩水 | Decouple from PrimeClaw主线, ensure独立 operation |
+| All mathematical paths受阻 | High | Zero mathematical results | Deliverables已 decoupled from "proving RH"; systematic recording of failure itself is core产出 |
+| Critical personnel or funding中断 | Low-Medium | Project缩减 or termination | All code and data open-sourced from day one |
 
-关于"数学路径全部受阻"这一风险，我们需要特别坦诚：这是最可能的结果。RH之所以悬而未决一百六十六年，不是因为前人不够聪明或工具不够先进，而是因为它可能需要尚未被发明的数学。我们的项目无法保证发明这种数学，但可以保证：如果它在我们的搜索空间内,PrimeClaw有能力找到它；如果它不在，我们将精确记录搜索空间的边界，为后来者节省时间。
-
----
-
-## 八、开放科学承诺
-
-以下承诺不附加条件：
-
-1. 所有代码MIT许可证开源，托管于GitHub.
-2. 所有形式化库提交Mathlib审核。
-3. 所有探索日志（含失败路径）以结构化数据公开发布。
-4. 季度进展报告在项目网站公开，包含成功与失败的诚实记录。
-5. 所有论文通过arXiv预印本发布，无访问限制。
-
-在数学研究中，"我们试过了，走不通，原因如下"与"我们证明了"具有同等的知识价值。前者甚至可能更有价值，因为它帮助后来者避免重复劳动。
+Regarding the risk of "all mathematical paths受阻," we need to be particularly坦诚: this is the most likely outcome. RH has remained未解 for 166 years not because predecessors were不够聪明 or tools不够 advanced, but because it may require mathematics that has not yet been发明. Our project cannot guarantee发明 such mathematics, but can guarantee: if it exists within our search space, PrimeClaw has the ability to find it; if it does not, we will precisely record the boundaries of the search space, saving time for those who come later.
 
 ---
 
-## 九、我们为什么仍然要做
+## VIII. Open Science Commitments
 
-读到这里的研究者可能会问：既然你们自己都承认大概率不会证明RH,为什么还要做?
+The following commitments are无条件:
 
-三个理由。
+1. All code open-sourced under MIT license, hosted on GitHub.
+2. All formalization libraries submitted for Mathlib review.
+3. All exploration logs (including失败 paths) released as structured public data.
+4. Quarterly progress reports公开 on the project website, containing honest records of successes and failures.
+5. All papers published via arXiv预印本, with no access restrictions.
 
-第一，基础设施的价值独立于RH。解析数论的Lean 4形式化库目前几乎是空白。Mathlib中与$\zeta$函数直接相关的形式化内容极为有限。无论RH是否被触及，一个包含500+核心引理的形式化库对整个数论社区都是实质性贡献。
-
-第二，方法论的价值独立于RH.PrimeClaw的"四智能体协同 + 置信度分级 + 形式化验证"架构，如果在RH级别的压力测试下被证明可用，它可以迁移到任何数学研究问题上。我们在建造的不是一把只能开一扇门的钥匙，而是一套可以反复使用的锻造工具。
-
-第三，失败的记录本身就是知识。数学史上，许多重大突破建立在前人系统性排除错误路径的基础上。Lakatos在《证明与反驳》中指出，数学的进步不仅来自正确的证明，也来自对错误的深刻理解。我们承诺公开发布的《探索日志》——包含每条失败路径的形式化记录、失败原因的结构性分析、以及对搜索空间边界的精确刻画——将成为后续研究者的导航图。
-
-这三个理由的共同指向是：Phaenarete Project的成功标准不是"是否证明了RH"，而是"是否为数学社区留下了可持续使用的资产"。
+In mathematical research, "we tried it, it doesn't work, and here is why" has同等 knowledge value as "we proved it." The前者 may even be more valuable, because it helps subsequent researchers avoid repeated labor.
 
 ---
 
-## 十、关于叙事的自我反思
+## IX. Why We Still Do It
 
-我们意识到，本项目的早期宣传文本中使用了大量修辞性语言——肯尼迪登月演讲的引用、"历史奇点"的措辞、"思想的无限算力"等表述。这些语言在激发公众兴趣方面有其作用，但在学术语境中可能产生反效果。
+Researchers reading到这里 may ask: since you yourselves承认 that RH will most likely not be证明, why still do it?
 
-数学家对"宣称攻克RH"这类叙事天然警惕，这种警惕是健康的。历史上不乏声称证明RH的尝试，绝大多数在专家审查下迅速瓦解。我们不希望被归入这一类别。
+Three reasons.
 
-因此，我们在此明确本项目的叙事边界：
+First, the value of infrastructure is独立 of RH. Lean 4 formalization libraries for analytic number theory are目前 nearly空白. Formalized content in Mathlib directly相关 to the $\zeta$ function is extremely limited. Regardless of whether RH is触及, a formalization library containing 500+ core lemmas is a substantive contribution to the entire number theory community.
 
-- 我们不声称拥有证明RH的路径。我们拥有的是一套探索路径的系统性方法。
-- 我们不声称AI能够独立解决RH。我们声称的是,AI可以显著加速形式化验证和引理搜索，从而提高人类数学家的探索效率。
-- 我们不声称18个月后会有数学突破。我们声称的是,18个月后会有一套可验证的基础设施交付物。
+Second, the value of methodology is独立 of RH. PrimeClaw's "four-agent collaboration + confidence-level分级 + formalized verification" architecture, if证明 usable under RH-level stress testing, can迁移 to any mathematical research problem. We are building not a key that can only open one door, but a set of forging tools that can be used反复.
 
-如果这些交付物最终促成了某个方向上的数学进展——哪怕只是一个微小的改进——那将是额外的收获，而非预设的承诺。
+Third, the record of failure itself is knowledge. Throughout mathematical history, many major breakthroughs建立 upon predecessors' systematic排除 of erroneous paths. Lakatos in *Proofs and Refutations*指出 that mathematical progress comes not only from correct proofs, but also from deep understanding of errors. The "Exploration Log" we承诺 to publicly release—containing formalized records of each failed path, structural analysis of failure causes, and precise刻画 of search space boundaries—will become a navigation chart for subsequent researchers.
 
----
-
-## 十一、对同行的邀请
-
-Phaenarete Project从第一天起就是一个开放项目。我们邀请以下方向的研究者参与：
-
-**解析数论方向。** 如果你熟悉零密度估计、大值猜想、或Dirichlet多项式的精细结构，我们需要你的专业判断来校准Explorer的搜索方向。即使只是指出"这个方向不值得探索，因为……"，对我们也有巨大价值。
-
-**形式化数学方向。** 如果你有Lean 4（或其他证明助手）的开发经验，我们的形式化库需要贡献者。我们设立了悬赏池，对完成特定引理形式化的贡献者提供资金奖励。具体引理清单将在项目GitHub页面持续更新。
-
-**AI与机器学习方向。** 如果你在神经定理证明、自动形式化、或大模型数学推理方面有经验,PrimeClaw的每个组件都有优化空间。Formalizer的翻译效率是当前最紧迫的工程瓶颈。
-
-**数学哲学方向。** 置信度有界类型系统引发了一系列认识论问题：一个依赖概率预言机的"证明"在什么意义上仍然是证明？形式化验证是否改变了数学真理的本质？我们欢迎这些方向的思考与批评。
-
-所有贡献将在项目网站和相关论文中获得明确署名。我们相信，数学研究的未来属于开放协作，而非封闭竞争。
+The common指向 of these three reasons is: the success标准 of the Phaenarete Project is not "whether RH was证明," but "whether sustainable-use assets were left for the mathematical community."
 
 ---
 
-## 十二、技术附录：北极星命题的形式化
+## X. Self-Reflection on Narrative
 
-为确保PrimeClaw系统拥有统一的形式化目标，我们将黎曼猜想在Lean 4中写为一个命题。这段代码是项目的工程起点——我们把目标写清楚、写可检验，但不把它伪装成已完成的定理。
+We recognize that the project's early promotional texts used大量 rhetorical language—引用 of Kennedy's moon-landing speech, "historical singularity"措辞, "infinite computing power of thought" and similar expressions. Such language has其 role in激发 public interest, but in academic contexts may产生 counter-effects.
+
+Mathematicians are naturally警惕 toward narratives of "claiming to攻克 RH"; this警惕 is healthy. History is不乏 attempts claiming to prove RH, the vast majority of which rapidly瓦解 under expert review. We do not wish to be归类 in this category.
+
+Therefore, we hereby clarify the narrative boundaries of this project:
+
+- We do not claim to拥有 a path to proving RH. What we拥有 is a systematic method for exploring paths.
+- We do not claim that AI can独立 solve RH. What we claim is that AI can significantly加速 formalized verification and lemma search, thereby提高 human mathematicians' exploration efficiency.
+- We do not claim that there will be mathematical breakthroughs after 18 months. What we claim is that after 18 months there will be a set of verifiable infrastructure deliverables.
+
+If these deliverables ultimately促成 some mathematical advancement in a certain direction—even a微小的 improvement—that would be additional收获, not a预设 commitment.
+
+---
+
+## XI. An Invitation to Peers
+
+The Phaenarete Project has been an open project from day one. We invite researchers from the following directions to participate:
+
+**Analytic number theory direction.** If you are familiar with zero-density estimates, large-value conjectures, or the fine structure of Dirichlet polynomials, we need your professional judgment to校准 Explorer's search direction. Even merely指出 "this direction is not值得 exploring, because..." has巨大 value for us.
+
+**Formalized mathematics direction.** If you have Lean 4 (or other proof assistant) development experience, our formalization library needs contributors. We have设立 a bounty pool, providing financial rewards to contributors who complete the formalization of specific lemmas. The specific lemma list will be持续 updated on the project's GitHub page.
+
+**AI and machine learning direction.** If you have experience in neural theorem proving, autoformalization, or large-model mathematical reasoning, every component of PrimeClaw has optimization space. Formalizer's translation efficiency is the most紧迫 engineering bottleneck currently.
+
+**Philosophy of mathematics direction.** The confidence-bounded type system引发 a series of epistemological questions: in what sense is a "proof"依赖于 a probabilistic oracle still a proof? Does formalized verification change the本质 of mathematical truth? We welcome thinking and criticism in these directions.
+
+All contributions will receive明确 attribution on the project website and in相关 papers. We believe that the future of mathematical research belongs to open collaboration, not封闭 competition.
+
+---
+
+## XII. Technical Appendix: Formalization of the North Star Proposition
+
+To ensure the PrimeClaw system has a统一 formalized target, we write the Riemann Hypothesis as a proposition in Lean 4. This code is the project's engineering起点—we write the goal clearly and testably, but do not伪装 it as a completed theorem.
 
 ```lean
 import Mathlib.Analysis.SpecialFunctions.Complex.Log
@@ -331,22 +331,22 @@ def RiemannHypothesis : Prop :=
 #check RiemannHypothesis
 ```
 
-这个命题本身不包含任何数学内容——它只是一个类型签名。但它的存在确保了项目所有组件的输出最终指向同一个形式化目标。当Mathlib完成$\zeta$函数解析延拓的形式化后，`axiom riemannZeta`将被替换为具体定义，届时这个命题将获得完整的数学语义。
+This proposition本身 contains no mathematical content—it is merely a type signature. But its existence ensures that all components of the project's output最终 point toward the same formalized target. When Mathlib completes the formalization of the $\zeta$ function's analytic continuation, `axiom riemannZeta` will be替换 by a concrete definition, at which point this proposition will获得 complete mathematical semantics.
 
 ---
 
-## 结语
+## Conclusion
 
-本文刻意回避了两种叙事：一种是"我们即将攻克RH"的豪言壮语，另一种是"RH不可能被证明"的虚无主义。我们选择的是第三种立场：承认问题的极端困难，同时相信系统性的努力——即使不能登顶——也能为后来者铺设道路。
+This article deliberately回避 two narratives: the bold proclamation of "we are about to攻克 RH," and the nihilism of "RH cannot be prove." We choose a third stance: acknowledging the extreme difficulty of the problem, while believing that systematic effort—even if it cannot reach the summit—can pave the way for those who come later.
 
-一百六十六年前，黎曼在八页论文中写下那个猜想时，他大概没有想到它会成为数学史上最持久的悬案。我们同样无法预知，十八个月后我们会站在什么位置。但我们可以承诺的是：无论站在哪里，我们都会诚实地报告我们看到的风景——包括那些死胡同里的风景。
+166 years ago, when Riemann wrote down that conjecture in an eight-page paper, he probably did not imagine it would become the most enduring未解 problem in the history of mathematics. We同样 cannot预知 where we will stand after eighteen months. But what we can承诺 is: wherever we stand, we will honestly report the scenery we see—including the scenery in those dead ends.
 
-项目主页： [Phaenarete Project](https://phaenarete-project.github.io/Maieutica/)
-代码仓库： [GitHub](https://github.com/Phaenarete-Project)
-联系方式： contact@example.com
+Project homepage: [Phaenarete Project](https://phaenarete-project.github.io/Maieutica/)
+Code repository: [GitHub](https://github.com/Phaenarete-Project)
+Contact: contact@example.com
 
 ---
 
-*本文所有事实性陈述均经过公开来源核实。对于无法独立验证的信息（如尚未公开发表的系统或尚在同行评审中的论文），我们已在文中明确标注其状态。如发现任何事实错误，请通过上述邮箱联系我们，我们将在24小时内更正。*
+*All factual statements in this article have been核实 through公开 sources. For information that cannot be independently验证 (such as systems not yet公开发表 or papers still in peer review), we have clearly标注其 status in the text. If you发现 any factual errors, please contact us via the email above; we will correct them within 24 hours.*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

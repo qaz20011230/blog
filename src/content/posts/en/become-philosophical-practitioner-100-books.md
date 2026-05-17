@@ -10,222 +10,222 @@ description: >
   这不是用来占有知识的书单，而是一张用于成为哲学践行者的心智地图：以问题为向导、以知行合一为原则，沿七个维度训练思维、良心、勇毅、节制、正义、至诚与弘仁。
 ---
 
-> **哲学不是读进去的，而是做出来的。**
+> **Philosophy is not something you read in—it is something you do.**
 
-这份书单不是为了“占有”知识，而是为了“成为”一种人——一种以哲学为道路，帮助自己和他人更清醒地思考、更整全地生活的人。我们称这样的人为哲学践行者。
+This book list is not for "possessing" knowledge, but for "becoming" a certain kind of person—one who uses philosophy as a path to help oneself and others think more clearly and live more fully. We call such a person a philosophical practitioner (哲学践行者).
 
-书单分为七个维度，从思维的锋利，到内心的至诚。每个维度都是一项需要终身修习的能力。
+The list is divided into seven dimensions, from the sharpness of thought to the sincerity of the inner heart. Each dimension is a capability requiring lifelong cultivation.
 
-**使用原则：**
-1. **问题驱动**：从你此刻最灼人的困惑开始，让问题成为向导。
-2. **知行合一**：读一本，就在生活中“活”一本。被活过的书，才真正属于你。
-3. **难度标识**：★入门 | ★★进阶 | ★★★高阶
+**Usage Principles:**
+1. **Problem-driven**: Start from whatever困惑 burns you most at this moment; let the problem be your guide.
+2. **Unity of knowledge and action (知行合一)**: Read one book, then "live" it in your life. Only books that have been lived truly belong to you.
+3. **Difficulty indicators**: ★ Beginner | ★★ Intermediate | ★★★ Advanced
 
 ---
 
-## 壹 · 明智：锻造思维的锋利
+## I · Discernment (明智): Forging the Sharpness of Thought
 
-**修行要义**：哲学践行的底线，是拥有不被情绪和偏见裹挟的思考能力。这一部分训练的是逻辑的钢刀与系统的目光。
+**Cultivation essence**: The baseline of philosophical practice is possessing the capacity to think without being swept away by emotion and prejudice. This section trains the steel blade of logic and the systemic gaze.
 
-| 序号 | 书名 | 作者 | 难度 | 核心关切 |
+| # | Title | Author | Difficulty | Core Concern |
 |:---:|:---|:---|:---:|:---|
-| 1 | 《学会提问》 | 尼尔·布朗 | ★ | 如何识别论证的漏洞，不被带节奏 |
-| 2 | 《逻辑学导论》 | 欧文·柯匹 | ★★ | 区分有效论证与修辞骗术的基本功 |
-| 3 | 《清醒》 | 弗雷德·考夫曼 | ★★ | 在复杂组织中守住价值观的导航仪 |
-| 4 | 《系统之美》 | 德内拉·梅多斯 | ★★ | 看见结构而非表象，理解“好心办坏事”的根源 |
-| 5 | 《世界观》 | 理查德·德威特 | ★★ | “常识”如何成为历史的产物 |
-| 6 | 《清晰思考》 | 沙恩·帕里什 | ★ | 压力决策的避坑指南 |
-| 7 | 《靠谱》 | 大石哲之 | ★ | 职业化思考的底线：清晰表达与赢得信任 |
-| 8 | 《世界的逻辑》 | 马兆远 | ★★ | 应对不确定性的顶层思维 |
-| 9 | 《费曼物理学讲义》 | 理查德·费曼 | ★★★ | “第一性原理”的思维训练场 |
-| 10 | 《人工智能：现代方法》 | 斯图尔特·罗素 | ★★★ | 智能的本质，以及人的独特性的边界 |
-| 11 | 《智慧的疆界》 | 周志明 | ★★ | 从图灵到深度学习，理解计算如何重塑思想 |
-| 12 | 《计算机程序的构造和解释》 | 阿贝尔森等 | ★★★ | 系统演化与复杂性的哲学课 |
-| 13 | 《心智简史》 | 奥吉·奥加斯 | ★ | 意识如何从生物演化中涌现 |
-| 14 | 《符号学：原理与推演》 | 赵毅衡 | ★★ | 意义如何生成——解码世界的钥匙 |
-| 15 | 《现象学导论》 | 罗伯特·索科拉夫斯基 | ★★ | 悬置成见，“回到事物本身” |
-| 16 | 《心理学和精神病学中的现象学》 | 赫伯特·斯皮格尔伯格 | ★★★ | 从内在视角理解人的异样体验 |
-| 17 | 《津巴多普通心理学》 | 菲利普·津巴多 | ★ | 人性的实验室：从众、服从与情境的力量 |
-| 18 | 《心理学与生活》 | 理查德·格里格 | ★ | 心理机制与日常琐事的关联 |
-| 19 | 《沈渔邨精神病学》 | 陆林 | ★★★ | 哲学践行的能力边界——何时转介 |
-| 20 | 《亲密关系》 | 罗兰·米勒 | ★ | 爱、冲突与修复的实证研究 |
-| 21 | 《助人技术》 | 克拉拉·希尔 | ★★ | “探索-领悟-行动”三阶段模型 |
-| 22 | 《对空言说》 | 约翰·彼得斯 | ★★★ | 沟通不是思想的传输，而是身体的相遇 |
+| 1 | *Asking the Right Questions* (学会提问) | Neil Browne | ★ | How to identify漏洞 in arguments and not be led astray |
+| 2 | *Introduction to Logic* (逻辑学导论) | Irving Copi | ★★ | The fundamentals of distinguishing valid arguments from rhetorical deception |
+| 3 | *Clear* (清醒) | Fred Kaufman | ★★ | A navigational instrument for holding onto values within complex organizations |
+| 4 | *Thinking in Systems* (系统之美) | Donella Meadows | ★★ | Seeing structure rather than surface; understanding the root of "good intentions producing bad outcomes" |
+| 5 | *Worldviews* (世界观) | Richard DeWitt | ★★ | How "common sense" becomes a product of history |
+| 6 | *Clear Thinking* (清晰思考) | Shane Parrish | ★ | A pitfall-avoidance guide for decisions under pressure |
+| 7 | *Reliable* (靠谱) | Oishi Tetsuji | ★ | The baseline of professionalized thinking: clear expression and earning trust |
+| 8 | *The Logic of the World* (世界的逻辑) | Ma Zhaoyuan | ★★ | Top-level thinking for confronting uncertainty |
+| 9 | *The Feynman Lectures on Physics* (费曼物理学讲义) | Richard Feynman | ★★★ | The training ground for "first principles" thinking |
+| 10 | *Artificial Intelligence: A Modern Approach* (人工智能：现代方法) | Stuart Russell | ★★★ | The essence of intelligence and the boundaries of human uniqueness |
+| 11 | *Boundaries of Wisdom* (智慧的疆界) | Zhou Zhiming | ★★ | From Turing to deep learning: understanding how computation reshapes thought |
+| 12 | *Structure and Interpretation of Computer Programs* (计算机程序的构造和解释) | Abelson et al. | ★★★ | A philosophy course on system evolution and complexity |
+| 13 | *A Brief History of the Mind* (心智简史) | Augie Ogas | ★ | How consciousness emerges from biological evolution |
+| 14 | *Semiotics: Principles and Deduction* (符号学：原理与推演) | Zhao Yiheng | ★★ | How meaning is generated—the key to decoding the world |
+| 15 | *Introduction to Phenomenology* (现象学导论) | Robert Sokolowski | ★★ | Bracketing prejudices, "returning to the things themselves" |
+| 16 | *Phenomenology in Psychology and Psychiatry* (心理学和精神病学中的现象学) | Herbert Spiegelberg | ★★★ | Understanding unusual human experiences from an inner perspective |
+| 17 | *Zimbardo's General Psychology* (津巴多普通心理学) | Philip Zimbardo | ★ | The laboratory of human nature: conformity, obedience, and the power of情境 |
+| 18 | *Psychology and Life* (心理学与生活) | Richard Gerrig | ★ | The connection between psychological mechanisms and everyday trivialities |
+| 19 | *Shen Yucun's Psychiatry* (沈渔邨精神病学) | Lu Lin | ★★★ | The capability boundary of philosophical practice—when to refer |
+| 20 | *Close Relationships* (亲密关系) | Rowland Miller | ★ | Empirical research on love, conflict, and repair |
+| 21 | *Helping Skills* (助人技术) | Clara Hill | ★★ | The "exploration-insight-action" three-stage model |
+| 22 | *Speaking into the Air* (对空言说) | John Peters | ★★★ | Communication is not the transmission of thought, but the encounter of bodies |
 
 ---
 
-## 贰 · 良心：滋养感知的敏锐
+## II · Conscience (良心): Nourishing the Acuity of Perception
 
-**修行要义**：思考需要温度。这一部分训练的是对存在之惊奇的感受力，对意义之问的敬畏。
+**Cultivation essence**: Thought requires warmth. This section trains one's receptivity to the wonder of existence and one's reverence for the question of meaning.
 
-| 序号 | 书名 | 作者 | 难度 | 核心关切 |
+| # | Title | Author | Difficulty | Core Concern |
 |:---:|:---|:---|:---:|:---|
-| 23 | 《你的第一本哲学书》 | 托马斯·内格尔 | ★ | 哲学问题如何像针一样扎进心里 |
-| 24 | 《大问题》 | 罗伯特·所罗门 | ★ | 将哲学拉回生命本身 |
-| 25 | 《做哲学》 | 小西奥多·希克 | ★★ | 88个思想实验，亲手做哲学而非读哲学 |
-| 26 | 《哲学导论：综合原典教程》 | 罗伯特·所罗门 | ★★ | 直面柏拉图和康德的原始脉动 |
-| 27 | 《打开》 | 周濂 | ★ | 通往西方哲学的优雅小径 |
-| 28 | 《刘擎西方现代思想讲义》 | 刘擎 | ★ | 现代人的“成人礼”：为何我们活得这么累 |
-| 29 | 《给青年人的哲学十二讲》 | 卡尔·雅斯贝尔斯 | ★ | 哲学是活动，不是结论 |
-| 30 | 《思想家》 | 布莱恩·麦基 | ★★ | 与以赛亚·伯林、马尔库塞等灵魂对话 |
-| 31 | 《西方哲学史》 | 奎纳尔·希尔贝克 | ★★ | 将思想置于历史洪流中理解 |
-| 32 | 《哲学塑造的世界》 | 斯科特·索姆斯 | ★★ | 哲学如何走出象牙塔，影响科学与社会 |
-| 33 | 《四大圣哲》 | 卡尔·雅斯贝尔斯 | ★★ | 苏格拉底、佛陀、孔子、耶稣的交汇 |
-| 34 | 《苏菲的世界》 | 乔斯坦·贾德 | ★ | 在童话中重历智慧的童年 |
-| 35 | 《人类简史三部曲》 | 尤瓦尔·赫拉利 | ★ | 刺破文明的“共同虚构” |
+| 23 | *What Does It All Mean?* (你的第一本哲学书) | Thomas Nagel | ★ | How philosophical questions pierce the heart like needles |
+| 24 | *The Big Questions* (大问题) | Robert Solomon | ★ | Pulling philosophy back to life itself |
+| 25 | *Doing Philosophy* (做哲学) | Theodore Schick | ★★ | 88 thought experiments: doing philosophy hands-on rather than merely reading it |
+| 26 | *Introduction to Philosophy: Classical and Contemporary Readings* (哲学导论：综合原典教程) | Robert Solomon | ★★ | Confronting the原始 pulse of Plato and Kant |
+| 27 | *Open* (打开) | Zhou Lian | ★ | An elegant pathway into Western philosophy |
+| 28 | *Liu Qing's Lectures on Modern Western Thought* (刘擎西方现代思想讲义) | Liu Qing | ★ | The modern person's "rite of passage": why we live so exhaustingly |
+| 29 | *Twelve Lectures on Philosophy for Young People* (给青年人的哲学十二讲) | Karl Jaspers | ★ | Philosophy is an activity, not a conclusion |
+| 30 | *The Great Philosophers* (思想家) | Bryan Magee | ★★ | Conversations with souls like Isaiah Berlin and Marcuse |
+| 31 | *History of Western Philosophy* (西方哲学史) | Gunnar Skirbekk | ★★ | Understanding thought within the torrents of history |
+| 32 | *Philosophy and the Shaping of the World* (哲学塑造的世界) | Scott Soames | ★★ | How philosophy steps out of the ivory tower to influence science and society |
+| 33 | *The Four Great Sages* (四大圣哲) | Karl Jaspers | ★★ | The convergence of Socrates, Buddha, Confucius, and Jesus |
+| 34 | *Sophie's World* (苏菲的世界) | Jostein Gaarder | ★ | Reliving the childhood of wisdom within a fairy tale |
+| 35 | *Sapiens Trilogy* (人类简史三部曲) | Yuval Harari | ★ | Piercing civilization's "shared fictions" |
 
 ---
 
-## 叁 · 勇毅：获得面对真相的力量
+## III · Fortitude (勇毅): Gaining the Strength to Face Truth
 
-**修行要义**：哲学践行不是温和的对话。有时需要说出不舒服的真相，有时需要在压力下守住立场。
+**Cultivation essence**: Philosophical practice is not gentle dialogue. Sometimes one must speak uncomfortable truths; sometimes one must hold one's ground under pressure.
 
-| 序号 | 书名 | 作者 | 难度 | 核心关切 |
+| # | Title | Author | Difficulty | Core Concern |
 |:---:|:---|:---|:---:|:---|
-| 36 | 《苏格拉底的方法》 | 沃德·法恩斯沃斯 | ★★ | 将对话演变为改变认知的技术 |
-| 37 | 《深夜加油站遇见苏格拉底》 | 丹·米尔曼 | ★ | 身心合一的修行小说 |
-| 38 | 《存在的勇气》 | 保罗·蒂利希 | ★★ | 在虚无时代，勇气是面对焦虑的唯一良药 |
-| 39 | 《在绝望之巅》 | E.M.齐奥朗 | ★★ | 极致的悲观如何转化为极致的清醒 |
-| 40 | 《查拉图斯特拉如是说》 | 弗里德里希·尼采 | ★★★ | 创造属于自己的价值 |
-| 41 | 《朝霞》 | 弗里德里希·尼采 | ★★★ | 重估一切道德，质疑“理所当然” |
-| 42 | 《毒堇之杯》 | 贝塔妮·休斯 | ★★ | 苏格拉底之死：真理的代价 |
-| 43 | 《苏格拉底赞歌》 | 皮埃尔·阿多 | ★★ | 哲学是“向死而生”的准备 |
-| 44 | 《苏格拉底的申辩》 | 柏拉图 | ★ | “未经审视的人生不值得过” |
-| 45 | 《柏拉图全集》 | 柏拉图 | ★★★ | 西方哲学的母体，对话中的思想交锋 |
-| 46 | 《离经叛道》 | 亚当·格兰特 | ★ | 如何做不盲从的改变者 |
-| 47 | 《福柯的生死爱欲》 | 詹姆斯·米勒 | ★★ | 思想如何与生命纠缠 |
-| 48 | 《犬儒主义》 | 安斯加尔·艾伦 | ★★ | 还原犬儒的真相：对世界的彻底清醒 |
-| 49 | 《康德三大批判》 | 伊曼努尔·康德 | ★★★ | 为理性划界，为自由留白 |
+| 36 | *The Socratic Method* (苏格拉底的方法) | Ward Farnsworth | ★★ | Evolving dialogue into a technique for cognitive transformation |
+| 37 | *Way of the Peaceful Warrior* (深夜加油站遇见苏格拉底) | Dan Millman | ★ | A修行 novel of mind-body unity |
+| 38 | *The Courage to Be* (存在的勇气) | Paul Tillich | ★★ | In the age of nihilism, courage is the sole remedy for facing anxiety |
+| 39 | *On the Heights of Despair* (在绝望之巅) | E.M. Cioran | ★★ | How极致 pessimism transforms into极致 lucidity |
+| 40 | *Thus Spoke Zarathustra* (查拉图斯特拉如是说) | Friedrich Nietzsche | ★★★ | Creating values of one's own |
+| 41 | *Daybreak* (朝霞) | Friedrich Nietzsche | ★★★ | Revaluating all morality; questioning what is "taken for granted" |
+| 42 | *The Hemlock Cup* (毒堇之杯) | Bettany Hughes | ★★ | The death of Socrates: the price of truth |
+| 43 | *A Hymn to Socrates* (苏格拉底赞歌) | Pierre Hadot | ★★ | Philosophy as preparation for "being-toward-death" |
+| 44 | *Apology of Socrates* (苏格拉底的申辩) | Plato | ★ | "The unexamined life is not worth living" |
+| 45 | *Complete Works of Plato* (柏拉图全集) | Plato | ★★★ | The matrix of Western philosophy; intellectual交锋 within dialogue |
+| 46 | *Originals* (离经叛道) | Adam Grant | ★ | How to be a non-conforming change-maker |
+| 47 | *The Passion of Michel Foucault* (福柯的生死爱欲) | James Miller | ★★ | How thought entangles with life |
+| 48 | *Cynicism* (犬儒主义) | Ansgar Allen | ★★ | Recovering the truth of Cynicism: thorough lucidity about the world |
+| 49 | *Kant's Three Critiques* (康德三大批判) | Immanuel Kant | ★★★ | Drawing boundaries for reason, leaving space for freedom |
 
 ---
 
-## 肆 · 节制：修炼适度的智慧
+## IV · Temperance (节制): Cultivating the Wisdom of Moderation
 
-**修行要义**：哲学践行者最容易犯的错误是“过度”——过度分析、过度干预、过度负责。节制，是知道何时该停、何时该退、何时该沉默。
+**Cultivation essence**: The most common error of philosophical practitioners is "excess"—over-analysis, over-intervention, over-responsibility. Temperance is knowing when to stop, when to retreat, when to remain silent.
 
-| 序号 | 书名 | 作者 | 难度 | 核心关切 |
+| # | Title | Author | Difficulty | Core Concern |
 |:---:|:---|:---|:---:|:---|
-| 50 | 《福格行为模型》 | B.J.福格 | ★ | 用设计代替意志，无痛改变习惯 |
-| 51 | 《稀缺》 | 塞德希尔·穆来纳森 | ★★ | 认知的“隧道效应”：为何越忙越穷 |
-| 52 | 《道德经》 | 老子 | ★ | “为学日益，为道日损”——无为的智慧 |
-| 53 | 《易经》 | 佚名 | ★★★ | 万物皆流，变化中的恒常 |
-| 54 | 《周易说什么》 | 韩鹏杰 | ★★ | 剔除迷信，还原中国古人的博弈智慧 |
-| 55 | 《人物志》 | 刘劭 | ★★ | 中国式的识人学：如何看透一个人的本质 |
-| 56 | 《资治通鉴》 | 司马光 | ★★★ | 权力与人性极限碰撞中的生存之道 |
-| 57 | 《马克思恩格斯选集》 | 中共中央编译局 | ★★ | 资本对人的异化，与人的主体性重建 |
-| 58 | 《政治学通识》 | 包刚升 | ★ | 理解权力运作的逻辑 |
-| 59 | 《什么是权力？》 | 韩炳哲 | ★★ | 权力不再是皮鞭，而是诱惑 |
-| 60 | 《债》 | 大卫·格雷伯 | ★★ | 从经济史看道德：我们究竟欠了谁的债 |
-| 61 | 《格调》 | 保罗·福塞尔 | ★ | 阶层如何通过品味自我固化 |
-| 62 | 《万历十五年》 | 黄仁宇 | ★★ | 大历史观：制度如何碾碎个体 |
-| 63 | 《乔姆斯基精粹》 | 诺姆·乔姆斯基 | ★★ | 知识分子的脊梁——对权力的永久审视 |
-| 64 | 《对话最伟大的头脑》 | 约翰·布罗克曼 | ★★ | 打破学科壁垒的前沿智慧碰撞 |
+| 50 | *Tiny Habits* (福格行为模型) | B.J. Fogg | ★ | Using design instead of willpower; painless habit change |
+| 51 | *Scarcity* (稀缺) | Sendhil Mullainathan | ★★ | The cognitive "tunnel effect": why being busier makes you poorer |
+| 52 | *Dao De Jing* (道德经) | Laozi | ★ | "For learning, daily increase; for the Way, daily decrease"—the wisdom of无为 (non-action) |
+| 53 | *I Ching* (易经) | Anonymous | ★★★ | All things flow; constancy within change |
+| 54 | *What the I Ching Says* (周易说什么) | Han Pengjie | ★★ | Stripping away superstition; recovering the博弈 wisdom of ancient Chinese |
+| 55 | *Records of Characters* (人物志) | Liu Shao | ★★ | Chinese-style person-reading: how to see through someone's essence |
+| 56 | *Zizhi Tongjian* (资治通鉴) | Sima Guang | ★★★ | The way of survival where power and the limits of人性 collide |
+| 57 | *Selected Works of Marx and Engels* (马克思恩格斯选集) | Central Compilation Bureau | ★★ | Capital's alienation of humans and the reconstruction of human subjectivity |
+| 58 | *General Political Science* (政治学通识) | Bao Gangsheng | ★ | Understanding the logic of power operations |
+| 59 | *What Is Power?* (什么是权力？) | Byung-Chul Han (韩炳哲) | ★★ | Power is no longer the whip—it is temptation |
+| 60 | *Debt* (债) | David Graeber | ★★ | Viewing morality through economic history: whose debt do we really owe |
+| 61 | *Class* (格调) | Paul Fussell | ★ | How social class self-solidifies through taste |
+| 62 | *1587, A Year of No Significance* (万历十五年) | Ray Huang (黄仁宇) | ★★ | Macro-historical perspective: how institutions crush the individual |
+| 63 | *The Chomsky Reader* (乔姆斯基精粹) | Noam Chomsky | ★★ | The spine of intellectuals—permanent scrutiny of power |
+| 64 | *Conversations with the Greatest Minds* (对话最伟大的头脑) | John Brockman | ★★ | Cutting-edge wisdom collisions breaking disciplinary barriers |
 
 ---
 
-## 伍 · 正义：培养公平的眼光
+## V · Justice (正义): Cultivating a Fair Gaze
 
-**修行要义**：在冲突中保持公平，在他人身上看见另一个自己。这是哲学践行者的伦理底色。
+**Cultivation essence**: Maintaining fairness in conflict; seeing another self in others. This is the ethical foundation of the philosophical practitioner.
 
-| 序号 | 书名 | 作者 | 难度 | 核心关切 |
+| # | Title | Author | Difficulty | Core Concern |
 |:---:|:---|:---|:---:|:---|
-| 65 | 《沉思录》 | 马可·奥勒留 | ★ | 权力的巅峰处，如何守住内心的宁静 |
-| 66 | 《哲学的指引》 | 马西莫·匹格里奇 | ★ | 现代斯多葛派：如何面对不可控的灾难 |
-| 67 | 《像哲学家一样生活》 | 威廉·欧文 | ★ | 斯多葛练习手册：如何获得心理韧性 |
-| 68 | 《我与你》 | 马丁·布伯 | ★★ | 将他者视为目的，而非对象 |
-| 69 | 《忏悔录》 | 奥古斯丁 | ★★ | 真诚，是通往正义的第一步 |
-| 70 | 《忏悔录》 | 列夫·托尔斯泰 | ★★ | 功成名就之后的虚无：意义何在 |
-| 71 | 《蒙田随笔》 | 米歇尔·德·蒙田 | ★ | 温和的怀疑：如何在教条中活得真切 |
-| 72 | 《论语译注》 | 孔祥瑞 | ★ | 温润如玉：如何在关系中成就他人 |
-| 73 | 《与庄子哲游》 | 奥斯卡·柏尼菲 | ★★ | 逻辑化的庄子：出世之心做入世之事 |
-| 74 | 《与庄子哲游2》 | 奥斯卡·柏尼菲 | ★★ | 庄子故事作为哲学践行案例 |
-| 75 | 《哲学的生活方式》 | 皮埃尔·阿多 | ★★ | 哲学在古代的本质是精神修炼 |
-| 76 | 《古代哲学的智慧》 | 皮埃尔·阿多 | ★★ | 社群修行：柏拉图学园与斯多葛门廊 |
-| 77 | 《伊西斯的面纱》 | 皮埃尔·阿多 | ★★ | 人与自然关系的史诗性反思 |
-| 78 | 《哲学实践的艺术》 | 奥斯卡·柏尼菲 | ★★ | 通过反问让对方自愈 |
-| 79 | 《当代哲学咨询研究》 | 张利增 | ★★ | 中国哲学咨询的开山之作 |
-| 80 | 《哲学践行文献精选》 | 潘天群 | ★★ | 领域的学术地图 |
-| 81 | 《让青春不再纠结》 | 王习胜 | ★★ | 针对年轻人焦虑的哲学处方 |
-| 82 | 《规训、自知力与自我救赎》 | 杨玉昌 | ★★ | 哲学如何面对边缘与苦难 |
-| 83 | 《哲学治疗的可能性》 | 尚杰 | ★★ | 哲学不治愈身体，它治愈意义的缺失 |
-| 84 | 《西方神秘学指津》 | 乌特·哈内赫拉夫 | ★★ | 理性的阴影：人类认知的边缘探索 |
+| 65 | *Meditations* (沉思录) | Marcus Aurelius | ★ | At the peak of power, how to preserve inner tranquility |
+| 66 | *How to Be a Stoic* (哲学的指引) | Massimo Pigliucci | ★ | Modern Stoicism: how to face uncontrollable catastrophes |
+| 67 | *A Guide to the Good Life* (像哲学家一样生活) | William Irvine | ★ | Stoic practice manual: how to acquire psychological resilience |
+| 68 | *I and Thou* (我与你) | Martin Buber | ★★ | Treating the Other as an end, not an object |
+| 69 | *Confessions* (忏悔录) | Augustine | ★★ | Sincerity is the first step toward justice |
+| 70 | *Confessions* (忏悔录) | Leo Tolstoy | ★★ | The nihilism after success and fame: where is meaning |
+| 71 | *Essays* (蒙田随笔) | Michel de Montaigne | ★ | Mild skepticism: how to live authentically amid dogma |
+| 72 | *Annotated Analects* (论语译注) | Kong Xiangrui | ★ | Gentle as jade: how to fulfill others within relationships |
+| 73 | *Philosophizing with Zhuangzi* (与庄子哲游) | Oscar Brenifier | ★★ | Logicized Zhuangzi: acting in the world with a mind beyond it |
+| 74 | *Philosophizing with Zhuangzi 2* (与庄子哲游2) | Oscar Brenifier | ★★ | Zhuangzi's stories as philosophical practice case studies |
+| 75 | *Philosophy as a Way of Life* (哲学的生活方式) | Pierre Hadot | ★★ | The essence of philosophy in antiquity was spiritual practice (精神修炼) |
+| 76 | *Wisdom of the Ancients* (古代哲学的智慧) | Pierre Hadot | ★★ | Communal修行: the Platonic Academy and the Stoic Porch |
+| 77 | *The Veil of Isis* (伊西斯的面纱) | Pierre Hadot | ★★ | An epic reflection on the relationship between humans and nature |
+| 78 | *The Art of Philosophical Practice* (哲学实践的艺术) | Oscar Brenifier | ★★ | Enabling self-healing through counter-questioning |
+| 79 | *Research on Contemporary Philosophical Counseling* (当代哲学咨询研究) | Zhang Lizeng | ★★ | The foundational work of philosophical counseling in China |
+| 80 | *Selected Literature on Philosophical Practice* (哲学践行文献精选) | Pan Tianqun | ★★ | The academic map of the field |
+| 81 | *Let Youth No Longer Entangled* (让青春不再纠结) | Wang Xisheng | ★★ | A philosophical prescription for young people's anxiety |
+| 82 | *Discipline, Self-Knowledge, and Self-Salvation* (规训、自知力与自我救赎) | Yang Yuchang | ★★ | How philosophy confronts marginality and suffering |
+| 83 | *The Possibility of Philosophical Therapy* (哲学治疗的可能性) | Shang Jie | ★★ | Philosophy does not cure the body; it cures the absence of meaning |
+| 84 | *Guide to Western Esotericism* (西方神秘学指津) | Wouter Hanegraaff | ★★ | The shadow of reason: humanity's explorations at the margins of cognition |
 
 ---
 
-## 陆 · 至诚：修炼内外的统一
+## VI · Sincerity (至诚): Cultivating Unity of Inner and Outer
 
-**修行要义**：哲学践行者最大的敌人是伪善。当你试图帮助他人思考时，你自己却在逃避思考——这是最根本的背叛。
+**Cultivation essence**: The greatest enemy of the philosophical practitioner is hypocrisy. When you attempt to help others think, yet you yourself evade thinking—this is the most fundamental betrayal.
 
-| 序号 | 书名 | 作者 | 难度 | 核心关切 |
+| # | Title | Author | Difficulty | Core Concern |
 |:---:|:---|:---|:---:|:---|
-| 85 | 《如何阅读一本书》 | 莫提默·艾德勒 | ★ | 认知的底层架构：不盲目读书，要狩猎思想 |
-| 86 | 《如何阅读西方经典》 | 苏珊·怀斯·鲍尔 | ★★ | 跳过导读，让经典直击灵魂 |
-| 87 | 《幽默》 | 特里·伊格尔顿 | ★★ | 看穿真相后的温柔反抗 |
-| 88 | 《创意行为》 | 里克·鲁宾 | ★ | 创造力是存在的状态：如何打破思维定式 |
-| 89 | 《鲁米作品集》 | 贾拉鲁丁·鲁米 | ★ | 在语言终结处，让生命开始呼吸 |
-| 90 | 《薄伽梵歌》 | 毗耶娑 | ★★ | 行动的真谛：在矛盾中履行职责 |
-| 91 | 《悉达多》 | 赫尔曼·黑塞 | ★ | 自我的朝圣之旅：智慧不可传授，只能亲历 |
-| 92 | 《三体》 | 刘慈欣 | ★ | 宇宙尺度的哲学实验：极端处境下的道德底线 |
-| 93 | 《人类群星闪耀时》 | 斯蒂芬·茨威格 | ★ | 历史的转折点往往取决于瞬间的勇气 |
-| 94 | 《平面国》 | 埃德温·艾勃特 | ★ | 认知的降维打击：对更高维度真理的敬畏 |
-| 95 | 《美丽心灵》 | 西尔维娅·娜萨 | ★★ | 理性与癫狂的共舞 |
+| 85 | *How to Read a Book* (如何阅读一本书) | Mortimer Adler | ★ | The underlying architecture of cognition: not reading blindly, but hunting for ideas |
+| 86 | *How to Read Western Classics* (如何阅读西方经典) | Susan Wise Bauer | ★★ | Skip the introductions; let classics strike the soul directly |
+| 87 | *Humour* (幽默) | Terry Eagleton | ★★ | Gentle rebellion after seeing through the truth |
+| 88 | *The Creative Act* (创意行为) | Rick Rubin | ★ | Creativity is a state of being: how to break fixed patterns of thought |
+| 89 | *Collected Works of Rumi* (鲁米作品集) | Jalaluddin Rumi | ★ | Where language ends, let life begin to breathe |
+| 90 | *Bhagavad Gita* (薄伽梵歌) | Vyasa | ★★ | The true meaning of action: fulfilling duty amid contradiction |
+| 91 | *Siddhartha* (悉达多) | Hermann Hesse | ★ | The pilgrimage of the self: wisdom cannot be taught, only lived |
+| 92 | *The Three-Body Problem* (三体) | Liu Cixin | ★ | A philosophical experiment on a cosmic scale: moral底线 under extreme circumstances |
+| 93 | *Sternstunden der Menschheit* (人类群星闪耀时) | Stefan Zweig | ★ | Historical turning points often depend on a moment of courage |
+| 94 | *Flatland* (平面国) | Edwin Abbott | ★ | The降维 blow to cognition: reverence for truth in higher dimensions |
+| 95 | *A Beautiful Mind* (美丽心灵) | Sylvia Nasar | ★★ | The dance of reason and madness |
 
 ---
 
-## 柒 · 弘仁：胸怀整全的福祉
+## VII · Magnanimity (弘仁): Embracing the Welfare of the Whole
 
-**修行要义**：最后的维度，也是最难的一步——将个体的福祉置于更大的图景中理解。
+**Cultivation essence**: The final dimension, and the most difficult step—placing individual welfare within a larger picture.
 
-| 序号 | 书名 | 作者 | 难度 | 核心关切 |
+| # | Title | Author | Difficulty | Core Concern |
 |:---:|:---|:---|:---:|:---|
-| 96 | 《与马修·李普曼的对话》 | 乔治·贾诺塔基斯 | ★★ | 儿童哲学：如何保护孩子的惊奇心 |
-| 97 | 《幸福》 | 丹尼尔·海布伦 | ★ | 幸福不是欲望的满足，而是某种“卓越” |
-| 98 | 《零售的哲学》 | 铃木敏文 | ★ | 实践中的利他：如何将哲学注入商业日常 |
-| 99 | 《黄帝内经》 | 苏晶、袁世宏导读 | ★★ | 身心合一的生命哲学 |
-| 100 | 《活出生命的意义》 | 维克多·弗兰克尔 | ★ | 集中营中的意义寻索 |
+| 96 | *Conversations with Matthew Lipman* (与马修·李普曼的对话) | George Notakis | ★★ | Philosophy for children: how to protect a child's sense of wonder |
+| 97 | *Happiness* (幸福) | Daniel Haybron | ★ | Happiness is not the satisfaction of desire, but某种 "excellence" |
+| 98 | *The Philosophy of Retail* (零售的哲学) | Suzuki Toshifumi | ★ | Altruism in practice: how to infuse philosophy into everyday business |
+| 99 | *Huangdi Neijing* (黄帝内经) | Su Jing & Yuan Shihong (ed.) | ★★ | The life philosophy of mind-body unity |
+| 100 | *Man's Search for Meaning* (活出生命的意义) | Viktor Frankl | ★ | The search for meaning within the concentration camps |
 
 ---
 
-## 核心二十本：最低配置
+## Core Twenty: Minimum Configuration
 
-若精力有限，这20本是必修课：
+If energy is limited, these 20 are the必修 curriculum:
 
-**入门(7本)**
-1. 《你的第一本哲学书》——哲学问题的重量
-2. 《苏菲的世界》——重历智慧的童年
-3. 《学会提问》——不被带节奏的基本功
-4. 《系统之美》——看见结构而非表象
-5. 《亲密关系》——理解爱与被爱的实证研究
-6. 《沉思录》——在压力下保持内心宁静
-7. 《悉达多》——自我的朝圣之旅
+**Beginner (7)**
+1. *What Does It All Mean?* — The weight of philosophical questions
+2. *Sophie's World* — Reliving the childhood of wisdom
+3. *Asking the Right Questions* — The fundamentals of not being led astray
+4. *Thinking in Systems* — Seeing structure rather than surface
+5. *Close Relationships* — Empirical research on understanding love and being loved
+6. *Meditations* — Maintaining inner tranquility under pressure
+7. *Siddhartha* — The pilgrimage of the self
 
-**进阶(7本)**
-8. 《助人技术》——真正帮到一个人的方法
-9. 《道德经》——“无为”的智慧
-10. 《论语译注》——在关系中成就他人
-11. 《像哲学家一样生活》——获得心理韧性的练习册
-12. 《哲学的生活方式》——把哲学活出来
-13. 《蒙田随笔选》——在教条中活得真切
-14. 《三体》——极端处境下的道德实验
+**Intermediate (7)**
+8. *Helping Skills* — The method for truly helping someone
+9. *Dao De Jing* — The wisdom of无为 (non-action)
+10. *Annotated Analects* — Fulfilling others within relationships
+11. *A Guide to the Good Life* — The practice manual for acquiring psychological resilience
+12. *Philosophy as a Way of Life* — Living philosophy out
+13. *Selected Essays of Montaigne* — Living authentically amid dogma
+14. *The Three-Body Problem* — Moral experiments under extreme circumstances
 
-**高阶(6本)**
-15. 《苏格拉底的申辩》——为自己的信念辩护
-16. 《查拉图斯特拉如是说》——创造自己的价值
-17. 《存在的勇气》——虚无中的坚守
-18. 《康德三大批判》（导读）——知识的边界与道德的根基
-19. 《哲学践行文献精选》——领域的学术地图
-20. 《活出生命的意义》——极限处境下的意义寻索
+**Advanced (6)**
+15. *Apology of Socrates* — Defending one's own beliefs
+16. *Thus Spoke Zarathustra* — Creating one's own values
+17. *The Courage to Be* — Holding fast amid nihilism
+18. *Kant's Three Critiques* (with guided reading) — The boundaries of knowledge and the foundation of morality
+19. *Selected Literature on Philosophical Practice* — The academic map of the field
+20. *Man's Search for Meaning* — The search for meaning under extreme circumstances
 
 ---
 
-## 结语：成为北极星
+## Conclusion: Becoming the North Star
 
-《论语》云：“为政以德，譬如北辰，居其所而众星共之。”
+The *Analects* (论语) says: "He who exercises government by means of virtue may be compared to the north polar star, which keeps its place while all the other stars revolve around it."
 
-哲学践行者，就是那个“居其所”的人——不四处奔波，不声嘶力竭，而是稳定地在那里，让周围的事物围绕着你找到自己的轨道。
+The philosophical practitioner is the one who "keeps their place"—not rushing about, not shouting desperately, but steadily being there, allowing surrounding things to find their orbits around you.
 
-这100本书，是帮助你成为那个参照点的地图。地图上的每一个点，都是前人走过的路。但最终，路要你自己走。
+These 100 books are a map to help you become that reference point. Every point on the map is a path walked by predecessors. But ultimately, the path must be walked by you yourself.
 
-愿你在这条路上，找到你自己的方向。
+May you find your own direction on this path.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

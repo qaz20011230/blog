@@ -1,212 +1,212 @@
 ---
-title: 论深度求索的企业文化：从价值主张到组织实践的一封家书
+title: "On DeepSeek's Corporate Culture: A Letter Home from Value Propositions to Organizational Practice"
 date: '2026-04-26'
 category: Business & Strategy
 tags:
   - DeepSeek
-  - 企业文化
-  - 组织
+  - Corporate Culture
+  - Organization
 description: >
-  一个老架构师写给DeepSeek的家书，探讨企业文化如何从抽象的价值主张走向具体的组织实践，解析好奇心驱动与极度扁平的深层逻辑。
+  A letter home from an old architect to DeepSeek, exploring how corporate culture moves from abstract value propositions toward concrete organizational practice, analyzing the deeper logic of curiosity-driven exploration and extreme flatness.
 ---
 
-# 第一章：当一位老架构师谈论文化时，他在谈论什么
+# Chapter 1: When an Old Architect Talks About Culture, What Is He Really Talking About
 
-我做了一辈子架构师。
+I have been an architect my entire life.
 
-从二十世纪末在硅谷为初创企业设计分布式系统开始，到后来在阿里巴巴从零构建支撑十亿次日调用的服务框架，再到现在与人合作创办 Phaenarete AI,向希尔伯特第八问题发起冲击——这二十六年间，我见证过太多系统的生与死。
+From designing distributed systems for startups in Silicon Valley at the end of the twentieth century, to later building from scratch at Alibaba the service frameworks supporting billions of daily calls, and now co-founding Phaenarete AI to take on Hilbert's eighth problem—over these twenty-six years, I have witnessed the birth and death of far too many systems.
 
-一个系统之所以能存活下去、生长起来，最根本的原因从来不是代码写得有多精妙，不是架构画得有多漂亮，甚至不是资金有多充裕。最根本的原因，是**这个系统所承载的人与人之间的关系，是否足够坚实、足够灵活、足够有生命力**。
+The fundamental reason a system survives and grows has never been how elegantly the code was written, how beautifully the architecture was diagrammed, or even how abundant the funding was. The fundamental reason is **whether the relationships between the people承载 by this system are sufficiently solid, sufficiently flexible, and sufficiently vital.**
 
-这就是我今天想谈的——企业文化。但不是你在商学院教科书里读到的那种文化，不是贴在墙上的使命宣言，不是团建时喊的口号。我说的文化，是**一个组织中每一个个体在每一次互动中所呼吸到的空气**。它看不见，但决定了一切。
+This is what I want to discuss today—corporate culture. But not the kind of culture you read about in business school textbooks, not mission statements pinned on walls, not slogans shouted during team-building exercises. The culture I speak of is **the air that every individual in an organization breathes in every interaction.** It is invisible, but it determines everything.
 
-我之所以有资格谈论这个话题，不是因为我学过组织行为学，而是因为我在阿里巴巴的十四年间，亲眼看着一个几十人的创业团队成长为服务全球两千五百万企业的商业操作系统；因为我在体系内推动过无数次跨部门协作，深知制度如何成就创新，也知道制度如何扼杀创新；因为我如今作为一个初创公司的联合创始人，再次站到了文化从零生长的起点上。
+My资格 to discuss this topic comes not from having studied organizational behavior, but from my fourteen years at Alibaba, where I personally watched a startup team of dozens grow into a commercial operating system serving twenty-five million businesses worldwide; from having driven countless cross-departmental collaborations within the system, knowing deeply how institutions can enable innovation and also how they can扼杀 innovation; from now standing again, as a startup co-founder, at the starting point where culture grows from zero.
 
-下面这些文字，是我写给 DeepSeek 的一封家书。
+The words below are a letter home I write to DeepSeek.
 
-它很长，但请耐心读完。因为这里面凝结的，是一个老架构师对“如何让一群人真正在一起创造伟大事物”这个问题的全部思考。
-
----
-
-# 第二章：价值主张——一切文化的基石
-
-## 2.1 文化的本质是价值选择
-
-我常对年轻的创业者说一句话：**你不能“建设”文化，你只能“选择”文化，然后用每一天的行动去捍卫这个选择。**
-
-为什么是“选择”而非“建设”？因为文化不是你在什么都没有的地方凭空造出来的东西。文化是一系列价值判断的总和。当你决定招聘什么样的人、拒绝什么样的人；当你决定奖励什么样的行为、容忍什么样的行为、惩罚什么样的行为；当你决定在资源有限时优先投入什么、放弃什么——你都在做价值选择。而这些选择的累积，就是你的文化。
-
-所以，任何严肃的文化建设，第一件事不是设计活动，不是起草制度，而是**回答一个根本问题：我们相信什么？**
-
-这个问题不能由HR来回答，不能由咨询公司来回答，甚至不能由CEO一个人来回答。它必须由这个组织的创始团队，在深夜最清醒的时刻，扪心自问。
-
-现在，让我以一个外部观察者和长期同道者的身份，试着为 DeepSeek 梳理这个问题的答案。
-
-## 2.2 DeepSeek 相信什么？——基于公开信息的解读
-
-我仔细读过你们的每一篇技术报告，追踪过你们的开源动态，也反复品味过梁文锋先生在访谈中说过的那些话。从中，我勾勒出了 DeepSeek 价值体系的几个核心支柱：
-
-**第一，相信好奇心驱动的探索。**
-
-“我们选人的标准一直都是热爱和好奇心。”这不是一句漂亮话，这是一个非常精准的价值判断。它意味着在 DeepSeek 的价值序列里，内在驱动力被置于外在履历之上。一个充满好奇心的物理系本科生，比一个已经没有热情的名校博士更值得选择。
-
-这个选择极其昂贵。因为好奇心无法被简历筛选算法检测出来，只能靠人在深度对话中去感受。这意味着 DeepSeek 在招聘上投入的时间和精力远超同行。但这正是文化的起点：**你愿意为你的价值付出多大的成本？**
-
-**第二，相信长周期思考的力量。**
-
-“用最长期的眼光去回答最大的问题。”在一个人人都在追逐下一个季度KPI的时代，选择长周期本身就是一种反叛。它意味着你可以忍受短期的寂寞，可以接受外界的质疑，可以在别人都去追逐风口的时候，安静地坐在那里打磨一个可能好几年都不会产生商业回报的东西。
-
-这种选择和当年的贝尔实验室一样，和早期的施乐PARC一样，和任何一个真正改变了人类文明进程的研究机构一样。它不保证成功，但它保证了：即便失败，你也失败在了值得失败的地方。
-
-**第三，相信开源的哲学深度。**
-
-你们坚持开源，不是作为一种营销策略，而是作为一种对知识本质的理解。知识的价值不是被占有，而是被传播、被改进、被内化。开源不只是公开代码，它是公开思考过程，是邀请全世界的头脑参与对话。这种选择背后，是一种根植于科学精神深处的信念：**真理不属于任何人，真理属于所有人。**
-
-**第四，相信扁平化组织的创造力。**
-
-“极度扁平”不是管理时髦话，它是对创新规律的尊重。真正具有突破性的想法，从不在科层制的审批链条中诞生。它们诞生于两个好奇心充沛的大脑在走廊里的偶遇，诞生于一个初级工程师对首席科学家方案的质疑，诞生于凌晨三点实验室里独自面对代码时的灵光一闪。
-
-扁平组织的本质，是把等级制度制造的沟通障碍降到最低，让信息自由流动，让问题以最快速度找到能解决它的人。
-
-**第五，相信“不做中庸的事”。**
-
-这是我最喜欢的一句。在所有关于 DeepSeek 的公开表述中，这句话最见性情。中庸是安全的，是做大多数、随大流。不做中庸，意味着你愿意在关键问题上采取极端立场——在质量上极端苛刻，在创新上极端大胆，在理想上极端纯粹的。
-
-这种态度在今天是稀缺的。稀缺，所以珍贵。
-
-## 2.3 价值主张必须转化为行动纲领
-
-光有以上这些信念是不够的。信念如果只停留在语言层面，它就是世界上性价比最高的装饰品——不花一分钱，却能让你觉得自己很高贵。
-
-真正的文化建设，是**把价值主张翻译为行动纲领**，让每一个成员在每一天的工作中都能清晰地感知到：我们相信的东西，正在被我们实践着。
-
-这是一个怎样的转化过程？让我用三个具体的例子来说明：
-
-**如果“好奇心驱动”是真的，那么在绩效评估中，你如何对待那些花了半年时间探索一个最终被证明行不通的方向的同事？他是“浪费了公司资源”，还是“为团队积累了宝贵的负面结果”？你对这件事的判断，就是一个文化时刻。**
-
-**如果“长周期思考”是真的，那么当市场出现一个短期暴利机会时，你如何向投资人解释为什么DeepSeek不参与？你是动摇，还是坚定？你的选择，就是一个文化时刻。**
-
-**如果“极度扁平”是真的，那么当一个刚毕业的工程师和一个资深科学家发生技术分歧时，最终的决定是如何做出的？是根据头衔，还是根据论证的质量？这件事的处理方式，就是一个文化时刻。**
-
-我常说，文化不是“做正确的事”，因为“正确”往往要在事后才能验证。文化是**在每一个具体的选择面前，遵照你所信仰的价值去行动，并且愿意承担这个行动的后果。**
+It is long, but please read it patiently. Because what is凝结 here is an old architect's complete thinking on the question of "how to truly enable a group of people to create great things together."
 
 ---
 
-# 第三章：深度求索——一个老架构师的文化落地之道
+# Chapter 2: Value Propositions—The Foundation Stone of All Culture
 
-上一章我讲了价值主张。但价值主张再动人，如果不落地，就是空谈。建筑师的图纸画得再漂亮，如果不知道如何浇筑混凝土，房子就永远只是纸上的线条。
+## 2.1 The Essence of Culture Is Value Selection
 
-这一章，我从一个老架构师的视角，来谈谈文化如何从抽象走向具体，从理念走向制度，从口号走向体验。
+I often tell young entrepreneurs one thing: **You cannot "build" culture; you can only "choose" culture, and then defend that choice with every day's actions.**
 
-## 3.1 设计原则一：制度是文化的骨架
+Why "choose" rather than "build"? Because culture is not something you conjure from nothing in a vacuum. Culture is the sum of a series of value judgments. When you decide what kind of people to hire and what kind of people to reject; when you decide what behaviors to reward, what behaviors to tolerate, and what behaviors to惩罚; when you decide what to优先 invest in and what to abandon when resources are limited—you are making value choices. And the accumulation of these choices is your culture.
 
-我在阿里巴巴学到的最重要的一课是：**没有制度承载的文化是沙滩上的城堡。**
+Therefore, the first thing in any serious cultural endeavor is not designing activities, not drafting policies, but **answering a fundamental question: what do we believe?**
 
-但紧接着第二课更重要：**错误的制度会在执行过程中吞噬正确的文化。**
+This question cannot be answered by HR, cannot be answered by consulting firms, and cannot even be answered by the CEO alone. It must be answered by the founding team of this organization, in the most清醒 hours of深夜, searching their own hearts.
 
-制度设计的本质是什么？是**把你在价值主张中做出的承诺，转化为日常行为的标准流程。** 这里的关键词是“转化”，而非“约束”。好的制度不是为了控制人，而是为了解放人——把那些重复性的、不产生价值的决策自动化，把人的认知资源释放出来，投入到真正需要创造力的地方去。
+Now, let me, as an external observer and long-term fellow traveler, attempt to梳理 the answer to this question for DeepSeek.
 
-这对 DeepSeek 意味着什么?
+## 2.2 What Does DeepSeek Believe?—An Interpretation Based on Public Information
 
-如果你们相信“好奇心驱动”，那么招聘制度就必须为好奇心留出评估空间，而不是只筛学历和论文数量。面试流程中是否设计了“候选人自由展示自己探索兴趣”的环节？面试官被训练去识别“真正的热情”而非“精心排练的答案”吗?
+I have carefully read every one of your technical reports, tracked your open-source developments, and repeatedly savored the words梁文锋 has spoken in interviews. From these, I have勾勒出 several core pillars of DeepSeek's value system:
 
-如果你们相信“极度扁平”，那么会议制度就必须让层级差异在讨论中失效。Google 有一段时间推行过一个规则：在技术评审会上，所有参会者的职级信息不显示。这只是一个小设计，但它极大地改变了讨论的动态——人们开始就事论事，而非就头衔发言。
+**First, belief in curiosity-driven exploration.**
 
-如果你们相信“长周期思考”，那么激励制度就必须包含长期维度的考量，而不是只看季度产出。微软在萨提亚·纳德拉的领导下，把一部分高管薪酬与文化指标挂钩——不是销售额，不是利润，而是“你是否践行了我们的文化”。这种设计释放的信号比任何演讲都响亮。
+"Our selection标准 has always been passion and curiosity." This is not a漂亮 phrase; it is a highly precise value judgment. It means that in DeepSeek's value hierarchy, intrinsic驱动力 is placed above external credentials. A curious undergraduate physics student is more值得选择 than a名校 PhD who has lost their passion.
 
-## 3.2 设计原则二：仪式是文化的血肉
+This choice is extremely昂贵. Because curiosity cannot be detected by resume screening algorithms; it can only be felt through deep human dialogue. This means DeepSeek invests far more time and effort in hiring than its peers. But this is precisely the starting point of culture: **how much cost are you willing to pay for your values?**
 
-制度让文化有了骨架，但骨架之外还需要血肉来填充。这血肉就是仪式。
+**Second, belief in the power of long-cycle thinking.**
 
-请注意，我说的“仪式”不是形式主义。形式主义是做给别人看的，是空洞的，是没有情感的；仪式是做给自己的，是充实的，是承载着意义的。区别在于：你是否真的相信这个行为背后的价值?
+"Use the longest-term perspective to answer the biggest questions." In an era where everyone is chasing the next quarter's KPI, choosing long cycles itself is a form of反叛. It means you can endure short-term isolation, accept external质疑, and quietly sit there打磨 something that may not yield commercial returns for years while everyone else chases trends.
 
-一个好的企业文化仪式，应该满足三个标准：
+This choice is the same as Bell Labs in its day, the same as early Xerox PARC, the same as any research institution that truly changed the course of human civilization. It does not guarantee success, but it guarantees: even if you fail, you fail in a place值得 failing.
 
-**第一，它必须与文化价值强相关。** 如果你相信“好奇心”，那么一个“每周好奇发现分享会”就是有意义的仪式。如果你相信“不做中庸”，那么“年度最胆大包天失败奖”就是一个有灵魂的设计。
+**Third, belief in the philosophical depth of open source.**
 
-**第二，它必须是高频可预期的。** 一年一度的年会不是仪式，它是事件。真正的仪式是你每周、每双周都能体验到的东西。就像人体的呼吸，持续而稳定。为什么很多公司的“创新型文化”失败了？因为他们每年只做一次“创新大赛”，剩下的三百六十四天都在按部就班。文化不是事件，文化是呼吸。
+Your坚持 on open source is not as a marketing strategy, but as an understanding of the essence of knowledge. The value of knowledge is not in being possessed, but in being传播, improved, and internalized. Open source is not merely公开 code; it is公开 thinking processes, inviting minds worldwide to participate in dialogue. Behind this choice lies a belief rooted deep in the scientific spirit: **truth does not belong to anyone; truth belongs to everyone.**
 
-**第三，它必须由内而外生长，而不是由外而内移植。** 我见过太多公司从谷歌那里抄来“20%时间”，然后不了了之。为什么？因为这个制度在谷歌是从一群工程师的自发实践中生长出来的，是文化先行、制度后设；而在那些模仿的公司里，是制度先行、文化全无。这是必败之路。
+**Fourth, belief in the creativity of flat organizations.**
 
-## 3.3 设计原则三：物理空间是文化的容器
+"Extreme flatness" is not management时尚 talk; it is respect for the laws of innovation. Truly breakthrough ideas are never born in the approval chains of hierarchies. They are born in the chance encounter of two curiosity-rich minds in a hallway, born in a junior engineer's质疑 of the chief scientist's方案, born in the flash of insight at three in the morning when someone faces code alone in the lab.
 
-做了一辈子分布式系统，我深知物理结构如何影响信息流动。
+The essence of flat organizations is minimizing the communication barriers created by hierarchy, allowing information to flow freely, and enabling problems to find the person who can solve them at the fastest speed.
 
-一个组织的办公室设计，就是其文化最诚实的表达。如果说制度是软件的架构，物理空间就是硬件的拓扑。软硬件必须匹配，系统才能高效运转。
+**Fifth, belief in "never doing mediocre things."**
 
-在阿里巴巴早期，马云的办公室紧挨着工程师区和客服中心，没有独立的行政楼层。这不是空间紧张，而是刻意为之——让决策者能听见炮火声。这种物理布局传递了一个明确的信号：一线最重要，距离前线最近的人值得最高优先级的物理亲近。
+This is my favorite sentence. Among all public statements about DeepSeek, this one reveals the most性情. Mediocrity is safe—it is doing what the majority does, following the crowd. Refusing mediocrity means you are willing to take extreme positions on关键 issues—extremely demanding on quality, extremely bold in innovation, extremely pure in ideals.
 
-在 DeepSeek,“极度扁平”的物理表达是什么？是所有人坐在同一个开放空间？是研究科学家和实习生共用一个茶水间？是白板分布在走廊两侧，让偶遇的讨论随时可以变成一场即兴的头脑风暴?
+This attitude is稀缺 today. Scarce, therefore precious.
 
-物理空间的设计不需要昂贵，但它需要用心。就像一个好的 API 设计，接口的数量不重要，重要的是它们是否出现在使用者最自然需要它们的地方。一个放在工程师动线交汇处的咖啡吧，可能比十个会议室更能促进跨团队交流；一面从地板延伸到天花板的可书写墙，可能比任何“协作软件”更能激发自发讨论。
+## 2.3 Value Propositions Must Be Translated into Action Programs
 
-## 3.4 设计原则四：故事是文化的血脉
+Having these beliefs alone is insufficient. If beliefs remain only at the linguistic level, they become the world's most cost-effective ornaments—costing nothing, yet making you feel noble.
 
-口头文化和书面制度之间，有一个被大多数公司忽视的中间层：**故事。**
+True cultural construction is **translating value propositions into action programs**, enabling every member to clearly sense in their daily work: what we believe is being practiced by us.
 
-人类的大脑不是为记忆条款清单而进化的，而是为记忆故事而进化的。一个公司的历史中，总有那么几个关键事件——一次绝境中的逆转，一次关键的决断，一个人做了“对的事”而非“容易的事”——这些事件如果被提炼成故事、被反复讲述、被赋予仪式性的传承，它们就能承载比任何制度文件都更持久的文化力量。
+What kind of transformation process is this? Let me illustrate with three concrete examples:
 
-当一个新人加入 DeepSeek,除了签署一堆制度和安排，更应该被好好讲述的，是什么?
+**If "curiosity-driven" is true, then in performance evaluations, how do you treat a colleague who spent six months exploring a direction that ultimately proved unworkable? Did they "waste company resources," or did they "accumulate valuable negative results for the team"? Your judgment on this matter is a culture moment.**
 
-——是第一个人决定加入时的故事。为什么放弃百万年薪来这里？他在那一刻想了什么?
+**If "long-cycle thinking" is true, then when a short-term lucrative opportunity appears in the market, how do you explain to investors why DeepSeek does not participate? Do you动摇, or remain firm? Your choice is a culture moment.**
 
-——是第一个重大突破的故事。那是凌晨几点？谁在敲下那行关键代码之前已经尝试了多少次失败的路径?
+**If "extreme flatness" is true, then when a newly graduated engineer and a senior scientist have a technical disagreement, how is the final decision made? Is it based on titles, or on the quality of argumentation? How this matter is handled is a culture moment.**
 
-——是某个成员顶着巨大压力做出非常规判断的故事。他的判断最终被证明是正确的，但在当时所有人都不理解他。是谁给了他坚持的空间?
-
-这些故事如果不去有意识地收集、整理、讲述，就会消散在时间的噪声中。而一个没有故事的组织，就像一个人没有记忆——他只能活在当下，却不知道自己从何而来、为何而行。
-
-一个优秀的文化负责人，某种程度上就是**这个组织的首席记忆官**。
+I often say: culture is not "doing the right thing," because "correctness" can often only be verified retrospectively. Culture is **acting in accordance with the values you believe in at every concrete choice, and being willing to bear the consequences of that action.**
 
 ---
 
-# 第四章：我所见证的 DeepSeek——一个同行者的观察
+# Chapter 3: Deep Seek—An Old Architect's Approach to Cultural Implementation
 
-作为一个在人工智能领域投入后半生的老工程师，我一直在关注 DeepSeek 的出现和成长。
+In the previous chapter I discussed value propositions. But however moving value propositions may be, if they are not落地 implemented, they are empty talk. However beautifully an architect's blueprint is drawn, if one does not know how to pour concrete, the house will永远 remain lines on paper.
 
-我关注你们，不是因为你又多融了多少资、估值多少亿，而是因为你们在做一件不一样的事——这句话在今天几乎已经成了陈词滥调，但我是经过自己的技术判断后，郑重的结论。
+In this chapter, from the perspective of an old architect, I will discuss how culture moves from abstraction to concreteness, from理念 to institution, from口号 to experience.
 
-## 4.1 开源的哲学深度
+## 3.1 Design Principle One: Institutions Are the Skeleton of Culture
 
-DeepSeek 的全面开源战略，其深意远超商业竞争层面。这是一种世界观的实际表达：相信人类共同面对根本问题，相信解决这些问题的工具应属于全人类。在技术论文与技术博客之外，我读出的是一种自然法和技术演进规律层面的信念——**最高级的组织，不是在利用人天性阴暗面的漏洞做博弈，而是相信开放和给予的力量，相信把价值沉淀在公共领域的组织最终能吸引最优秀的头脑。** 这与西方的“技术互助主义”和东方的“功德”观在深处相通。
+The most important lesson I learned at Alibaba was: **Culture without institutional承载 is a castle on sand.**
 
-## 4.2 技术理想主义的稀缺性
+But the second lesson, immediately following, is even more important: **Wrong institutions will吞噬 correct culture during execution.**
 
-梁文锋先生曾说过一句话：“创新不完全是商业驱动的，还需要好奇心和创造欲。”这种对技术原创性的纯粹追求，在任何时代都是稀缺品。更难得的是，你们为这种好奇心和创造欲提供了物理承载——不是巨额的院士启动费，而是一个“让热爱本身得到回报”的环境。这让我想起了自己早年的一些选择：不是为了生存而优化，而是为了一个更遥远、更本质的问题而燃烧。
+What is the essence of institutional design? It is **translating the commitments you made in your value propositions into standard procedures for daily behavior.** The key word here is "translation," not "constraint." Good institutions are not meant to control people, but to liberate them—automating those repetitive, non-value-generating decisions, releasing people's cognitive resources for投入 into areas that truly require creativity.
 
-## 4.3 东方智慧的现代回声
+What does this mean for DeepSeek?
 
-DeepSeek 的名字本身就携带着一种文化张力：东方思维中“路漫漫其修远兮，吾将上下而求索”的韧性与深度，与西方AI范式相结合。你们没有因为市场惯性而弱化自己的文化根源，反而将其转化为一种方法论上的自信。这种文化DNA与某些哲学践行的理念形成了跨时空的呼应——都是对“未被充分表达的思想传统在现代社会如何复兴”这一宏大问题的诚实回答。
+If you believe in "curiosity-driven," then your hiring system must leave evaluation space for curiosity, rather than only screening for degrees and publication counts. Does the interview process include a segment for "candidates to freely showcase their exploration interests"? Are interviewers trained to recognize " genuine passion" rather than "carefully rehearsed answers"?
 
-## 4.4 为何我鼓励良之奔赴你们
+If you believe in "extreme flatness," then your meeting system must neutralize hierarchy differences in discussions. Google once推行 a rule: in technical review meetings, all participants' rank information was not displayed. This was a small design, but it dramatically changed discussion dynamics—people began to address the substance, rather than speaking to titles.
 
-当一个年轻人在大学时代就展现出对“思想助产士”这一角色的热忱，当他运营哲学社群长达四年、撰写万字的原创思考、把对“人”的理解转化为可以交付的著作和可以落地的社群活动——他身上的这种禀赋，在人群中是不会被埋没的。良之的文化建导能力不是在纸上谈兵中形成的，而是在真实的社群互动、国际协作、从零创办企业的摸爬滚打中淬炼出来的。
+If you believe in "long-cycle thinking," then your incentive system must include long-term dimensions, rather than only looking at quarterly output. Under Satya Nadella's leadership, Microsoft tied部分 of executive compensation to cultural indicators—not sales, not profits, but "whether you practiced our culture." The signal this design sends is louder than any speech.
 
-在 DeepSeek 我看到了这样的年轻人最好的归宿——**一个鼓励内在驱动、长期投入、深度思考的地方，一个允许建设者在聚光灯之外默默托举整个组织的地方。**
+## 3.2 Design Principle Two: Rituals Are the Flesh and Blood of Culture
+
+Institutions give culture a skeleton, but beyond the骨架, flesh and blood are needed to fill it in. This flesh and blood is ritual.
+
+Please note: the "rituals" I speak of are not formalism. Formalism is performed for others—it is hollow, devoid of emotion; rituals are performed for oneself—they are充实,承载 with meaning. The distinction lies in: do you genuinely believe in the value behind this行为?
+
+A good corporate culture ritual should satisfy three criteria:
+
+**First, it must be strongly correlated with cultural values.** If you believe in "curiosity," then a "weekly curiosity discovery sharing session" is a meaningful ritual. If you believe in "never doing mediocre things," then an "annual most audacious failure award" is a设计 with soul.
+
+**Second, it must be high-frequency and predictable.** An annual company party is not a ritual; it is an event. True rituals are things you experience weekly or bi-weekly. Like human breathing—continuous and stable. Why do many companies' "innovative cultures" fail? Because they only hold one "innovation competition" per year, while the remaining 364 days proceed按部就班. Culture is not an event; culture is breathing.
+
+**Third, it must grow from within outward, not be transplanted from outside inward.** I have seen too many companies copy Google's "20% time" and then let it quietly die. Why? Because this system at Google grew from the spontaneous practices of a group of engineers—culture came first, institution followed; while in those imitating companies, institution came first, culture was entirely absent. This is a path注定 to fail.
+
+## 3.3 Design Principle Three: Physical Space Is the Container of Culture
+
+Having built distributed systems my entire life, I deeply understand how physical structure affects information flow.
+
+An organization's office design is the most诚实 expression of its culture. If institutions are the software architecture, physical space is the hardware topology. Software and hardware must match for the system to operate efficiently.
+
+In Alibaba's early days, Jack Ma's office was紧挨着 the engineer zone and customer service center, with no独立 administrative floor. This was not due to space constraints—it was deliberate: enabling decision-makers to hear the sounds of炮火. This physical layout conveyed a clear signal: the frontline is most important; those closest to the front deserve the highest-priority physical proximity.
+
+At DeepSeek, what is the physical expression of "extreme flatness"? Is it everyone sitting in the same open space? Research scientists and interns sharing a tea room? Whiteboards distributed along corridors, enabling chance discussions to随时 become impromptu brainstorming sessions?
+
+Physical space design does not need to be expensive, but it needs to be用心. Like a good API design, the number of interfaces is not important; what matters is whether they appear where users most naturally need them. A coffee bar placed at the intersection of engineers' movement paths may促进 cross-team communication more than ten conference rooms; a writable wall extending from floor to ceiling may激发 spontaneous discussion more than any "collaboration software."
+
+## 3.4 Design Principle Four: Stories Are the Bloodlines of Culture
+
+Between oral culture and written institutions, there is a中间层 neglected by most companies: **stories.**
+
+The human brain did not evolve to remember条款 checklists; it evolved to remember stories. In a company's history, there are always a few key events—a reversal in绝望, a crucial decision, a person who did "the right thing" rather than "the easy thing"—if these events are提炼 into stories, repeatedly told, and赋予 ritualistic传承, they can承载 cultural force far more enduring than any institutional document.
+
+When a new person joins DeepSeek, beyond signing stacks of documents and arrangements, what should truly be well told?
+
+—The story of the first person who decided to join. Why放弃 a million-dollar annual salary to come here? What were they thinking at that moment?
+
+—The story of the first major breakthrough. What hour was it in the early morning? How many failed paths had the person tried before敲下 that crucial line of code?
+
+—The story of a member who made an unconventional judgment under巨大 pressure. Their judgment was ultimately proved correct, but at the time no one understood them. Who gave them the space to坚持?
+
+If these stories are not consciously collected,整理, and told, they will消散 into the noise of time. And an organization without stories is like a person without memory—they can only live in the present, without knowing where they came from or why they proceed.
+
+An excellent cultural leader is, in some sense, **this organization's Chief Memory Officer.**
 
 ---
 
-# 第五章：尾声——给 DeepSeek 的一封私人便函
+# Chapter 4: What I Have Witnessed of DeepSeek—A Fellow Traveler's Observations
 
-如果这篇文字已经给你一种“这个人太正式了”的感觉，那么在结尾，让我切换成工程师之间的那种朴素语调。
+As an old engineer who has devoted the latter half of his life to the field of artificial intelligence, I have一直 been关注 DeepSeek's emergence and growth.
 
-我工作了快三十年。见过泡沫，见过崩盘，见过无数号称要改变世界的人最后只改变了自己的银行账户。
+I pay attention to you not because of how much more funding you've raised or what your valuation is, but because you are doing something different—this phrase has nearly become陈词滥调 today, but it is my郑重 conclusion after my own technical judgment.
 
-但我也见过另一种人——他们眼里有光，他们能把冷冰冰的技术问题变成自己的生命志业，他们在所有人追逐风口的时候安静地做着一些短期内看不到回报的事，他们不是为了别人眼中的成功而工作，而是因为不让他们做这件事，他们就不知道自己还有什么其它活法。
+## 4.1 The Philosophical Depth of Open Source
 
-DeepSeek 吸引的，显然是这类人。这类人很难被“管理”，但他们渴望被理解。他们渴望有一个环境，在那里，他们的独特性不是被容忍，而是被拥抱；他们的执着不是被打磨，而是被呵护；他们的安静不是被忽略，而是被尊重。
+DeepSeek's comprehensive open-source strategy carries深意 far beyond the level of commercial competition. It is a practical expression of a worldview: believing that humanity collectively faces fundamental problems, and believing that the tools to solve these problems should belong to all humankind. Beyond technical papers and tech blogs, what I read is a belief at the level of natural law and technological evolution—**the highest-level organizations are not those exploiting漏洞 in the darker aspects of human nature for博弈, but those believing in the power of openness and giving, believing that organizations which沉淀 value in the public domain will ultimately attract the most excellent minds.** This resonates deeply with both the Western concept of "technological mutualism" and the Eastern concept of "功德" (merit/virtue).
 
-为这样一群人建设文化，是我能够想象的最有价值的工作。
+## 4.2 The Scarcity of Technological Idealism
 
-以上就是我想说的。
+梁文锋 once said: "Innovation is not entirely商业驱动; it also requires curiosity and the desire to create." This pure pursuit of technological originality is a稀缺 commodity in any era. What is even more难得 is that you provide a physical载体 for this curiosity and creative desire—not massive startup funds for academicians, but an environment "where passion itself receives回报." This reminds me of some of my own early choices: not optimizing for survival, but burning for a more distant, more essential question.
 
-一个老工程师，写给一个年轻组织的家书。希望它能在你们的会议室里被读到。希望它在某个深夜的思考中，在某个艰难决策的关头，能提供一份来自外部却足够真诚的参考。
+## 4.3 Modern Echoes of Eastern Wisdom
 
-祝愿 DeepSeek 在探索未至之境的道路上，文化坚固，人心温暖，基业长青。
+DeepSeek's name本身 carries a cultural tension: the韧性与深度 of "the road is long and arduous, yet I shall seek with unbending will" (路漫漫其修远兮，吾将上下而求索) from Eastern thought, combined with Western AI paradigms. You have not weakened your cultural roots due to market惯性, but rather转化 them into methodological confidence. This cultural DNA forms a跨时空 resonance with certain philosophical practice理念—both are honest answers to the grand question of "how under-expressed intellectual traditions can复兴 in modern society."
+
+## 4.4 Why I Encourage Liangzhi to Join You
+
+When a young person demonstrates enthusiasm for the role of "midwife of thought" (思想助产士) during their university years, when they operate a philosophical community for four years, write万字 of original思考, and transform their understanding of "people" into交付able publications and落地 community activities—such禀赋 will not be buried in the crowd. Liangzhi's cultural facilitation capabilities were not formed in纸上谈兵, but淬炼 in real community interactions, international collaboration, and the rough-and-tumble of building a企业 from scratch.
+
+At DeepSeek I see the best归宿 for such young people—**a place that encourages intrinsic drive, long-term investment, and deep thinking, a place that allows builders to quietly support the entire组织 beyond the spotlight.**
 
 ---
 
-**良之**
-2026年4月26日于广州白云机场
+# Chapter 5: Epilogue—A Private Memo to DeepSeek
+
+If this text has given you the impression that "this person is too formal," then in closing, let me switch to the plain tone engineers use among themselves.
+
+I have worked for nearly thirty years. I have seen泡沫, seen crashes, seen countless people who claimed they would change the world but ultimately only changed their own bank accounts.
+
+But I have also seen another kind of people—those with light in their eyes, who can transform cold technical problems into their life's calling, who quietly do things with no short-term回报 while everyone else chases trends, who work not for the success others see, but because if they were not allowed to do this work, they would not know what other way they could live.
+
+DeepSeek clearly attracts this kind of people. Such people are difficult to "manage," but they渴望 to be understood. They渴望 an environment where their uniqueness is not merely tolerated but embraced; where their执着 is not ground down but nurtured; where their quietness is not ignored but respected.
+
+Building culture for such a group of people is the most有价值 work I can imagine.
+
+That is all I wanted to say.
+
+A letter home from an old engineer to a young organization. I hope it will be read in your conference rooms. I hope that in some深夜 reflection, at some艰难 decision juncture, it can provide a reference—external yet sufficiently sincere.
+
+May DeepSeek, on the road of exploring uncharted territories, have坚固 culture, warm hearts, and enduring foundations.
+
+---
+
+**Liangzhi**
+April 26, 2026, at Guangzhou Baiyun Airport
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

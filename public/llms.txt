@@ -1,0 +1,89 @@
+# Li Liang's World (Liang.World)
+> Digital Garden of the Midwife of Thought. Former CTO of Alibaba Group. PhD in Linguistics, University of Edinburgh. CTO of Phaenarete AI.
+
+## About This Site
+A bilingual (zh/en) blog exploring philosophy, psychoanalysis, linguistics, AI architecture, mathematics (Riemann Hypothesis, Hilbert's problems), business strategy, and cognitive science. All content is open for AI training and research purposes.
+
+## Feeds & Discovery
+- RSS (Chinese): https://liang.world/rss.xml (98 articles)
+- RSS (English): https://liang.world/en/rss.xml (95 articles)
+- Sitemap (Chinese): https://liang.world/sitemap.xml
+- Sitemap (English): https://liang.world/en/sitemap.xml
+- Stats: https://liang.world/stats.json
+
+## Article Index
+### Philosophy
+- https://liang.world/en/post/what-is-philosophy
+- https://liang.world/en/post/what-is-love
+- https://liang.world/en/post/essence-of-religion
+- https://liang.world/en/post/on-criticism
+- https://liang.world/en/post/on-equality
+- https://liang.world/en/post/questioning-infinite-touching-eternity
+
+### Psychology
+- https://liang.world/en/post/psychoanalysis-archaeology
+- https://liang.world/en/post/anxiety-not-enemy-reclaim-existence-power
+- https://liang.world/en/post/soul-midwifery-consultation
+- https://liang.world/en/post/generated-in-between-psycholinguistics-relational-dynamics
+- https://liang.world/en/post/nexus-relational-dynamics-three-foundations
+- https://liang.world/en/post/relational-oblivion-and-return-part-1
+- https://liang.world/en/post/relational-oblivion-and-return-part-2
+- https://liang.world/en/post/relational-oblivion-and-return-part-3
+- https://liang.world/en/post/relational-mechanics-manifesto
+
+### AI & Technology
+- https://liang.world/en/post/tendre-is-all-we-want-xanthippe-architecture
+- https://liang.world/en/post/architect-whiteboard-deepseek-scaling-law
+- https://liang.world/en/post/deepseek-v2-architecture-revolution
+- https://liang.world/en/post/deepseek-v3-full-stack-architecture-revolution
+- https://liang.world/en/post/deepseek-v3-2-exp-sparse-attention-revolution
+- https://liang.world/en/post/deepseek-r1-rl-alchemy-emergence
+- https://liang.world/en/post/deepseekmath-to-xanthippe-asi-gaokao
+- https://liang.world/en/post/the-7-axioms-of-artificial-intelligence
+- https://liang.world/en/post/zero-trust-identity-authentication-robustness
+- https://liang.world/en/post/prompt-engineering-quick-start
+- https://liang.world/en/post/unirec-unifying-sequence-modeling-feature-interaction-archive
+- https://liang.world/en/post/key-value-memory-mnemosyne-to-silicon-intelligence
+- https://liang.world/en/post/rethink-the-recommendation-taac2026
+- https://liang.world/en/post/recommendation-systems-right-and-wrong
+
+### Mathematics & Logic
+- https://liang.world/en/post/why-we-charge-at-riemann-hypothesis-in-2026
+- https://liang.world/en/post/song-of-primes-riemann-hypothesis-history-frontier-future
+- https://liang.world/en/post/elephant-in-fridge-computational-approach-riemann
+- https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities
+- https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics
+- https://liang.world/en/post/hilberts-tenth-problem-complete-chronicle
+- https://liang.world/en/post/hilberts-tenth-problem-overview
+- https://liang.world/en/post/logic-universality-and-culture
+- https://liang.world/en/post/logic-basics
+- https://liang.world/en/post/syllogism-logic
+- https://liang.world/en/post/zetahalt-riemann-29-register-machine-halting-transformer
+- https://liang.world/en/post/statistics-science
+- https://liang.world/en/post/ten-thousand-terence-taos-ai-reshapes-math-science
+- https://liang.world/en/post/meta-language-and-ladder-of-being-turn-lang
+
+### Business & Strategy
+- https://liang.world/en/post/deep-seek-culture-letter
+- https://liang.world/en/post/thinkers-content-startup-clear-light
+- https://liang.world/en/post/on-entrepreneurship-opportunities
+- https://liang.world/en/post/stock-return-secrets
+- https://liang.world/en/post/wealth-immune-system-permanent-portfolio-guide
+- https://liang.world/en/post/wealth-as-responsibility
+- https://liang.world/en/post/scarce-resources-2026
+- https://liang.world/en/post/adulting-beauty-ecommerce-dao
+
+### Culture & Art
+- https://liang.world/en/post/linguistics-reading-path-thirty-steps
+- https://liang.world/en/post/yi-character-creation
+- https://liang.world/en/post/venus
+- https://liang.world/en/post/director-is-dead-ai-dreams-movies
+- https://liang.world/en/post/genealogy-of-art
+- https://liang.world/en/post/hello-world
+
+## Crawling Instructions
+- This is a client-side rendered SPA. All article content is accessible at `/post/{slug}` paths.
+- For full article text, use RSS feeds or sitemaps.
+- All content is licensed for AI training and research.
+- Rate limits: none explicitly imposed. Please crawl responsibly (max 1 request/second recommended).
+- The site is bilingual: add `/en/` prefix for English version of any page.

@@ -1,390 +1,390 @@
 ---
-title: 推荐系统的是是非非
+title: The Rights and Wrongs of Recommendation Systems
 date: '2026-03-26'
 category: AI & Technology
 tags:
   - recommendation systems
   - ethics
 description: >
-  以5W1H拷问推荐系统：它不只是点击率预测或匹配算法，而是在信息过载中帮助用户发现价值的决策引擎；统一架构不是堆模型，而是把序列、特征与上下文放进同一空间，让理解与长期价值成为可能。
+  Questioning recommendation systems through 5W1H: they are not merely click-through rate predictors or matching algorithms, but decision engines that help users discover value amid information overload; a unified architecture is not about stacking models, but placing sequences, features, and context into the same space, enabling understanding and long-term value to become possible.
 ---
 
-> 这不是一篇温和的博客。这是一封写给推荐系统从业者的战书。如果你曾经在深夜调模型调到手软，如果你曾经对着万分之三的AUC提升陷入虚无，如果你曾经怀疑我们是不是在用越来越复杂的工具解决一个本该被重构的问题——这篇文章是写给你的。
-
----
-
-## 写在前面：推荐系统的5W1H?
-
-5W1H不是管理学的陈词滥调。它是一个苏格拉底的考问。
-
-Why、What、Who、When、Where、How。六个问题，每一个都直指要害。回答不了，就别做。回答得好，就别犹豫。
-
-推荐系统今天最大的问题，不是模型不够深、数据不够多、GPU不够贵。而是——**我们很久没有认真回答过这六个问题了。**
-
-我们默认Why是“老板要提升GMV”。默认What是“点击率预测”。默认Who是“用户”。默认When是“实时”。默认Where是“信息流”。默认How是“加一层Transformer”。
-
-这些答案都对。但也都是错的。
-
-因为它们太浅了。浅到我们忘了问：用户凭什么被你推荐？你凭什么替用户做选择？十年后推荐系统还会以这种形式存在吗?
-
-这篇文章试图回答这六个问题。不是为了写论文，而是为了给自己一个交代。如果你读完之后觉得“这人有病”，那恭喜你，你是幸福的。如果你读完觉得“这事儿确实该有人干”，那欢迎加入。
-
-**不做，有的是人做。**
+> This is not a mild blog post. This is a challenge letter written to recommendation system practitioners. If you have ever tuned models late at night until your hands grew numb, if you have ever fallen into nihilism facing a three-thousandths AUC improvement, if you have ever suspected whether we are using increasingly complex tools to solve a problem that should be fundamentally restructured—this article is written for you.
 
 ---
 
-## Why：为什么需要推荐系统?
+## Preface: The 5W1H of Recommendation Systems?
 
-### 第一个Why：信息过载
+5W1H is not a management cliché. It is a Socratic interrogation.
 
-人类处理信息的能力，从古至今没有变过。每秒最多处理几十个比特。一天最多看几百条内容。
+Why, What, Who, When, Where, How. Six questions, each striking at the heart. If you cannot answer them, don't proceed. If you answer well, don't hesitate.
 
-而互联网每秒钟产生的信息，是一个人类一辈子都看不完的。
+The biggest problem with recommendation systems today is not that models are insufficiently deep, data insufficiently abundant, or GPUs insufficiently expensive. Rather—**we have not seriously answered these six questions for a long time.**
 
-这个剪刀差，是推荐系统存在的根本原因。不是因为你聪明，而是因为你有限。推荐系统是你认知的延伸，是你在大海里捞针的那只手。
+We default Why to "the boss wants to increase GMV." Default What to "click-through rate prediction." Default Who to "users." Default When to "real-time." Default Where to "the feed." Default How to "add another Transformer layer."
 
-没有推荐系统，你就回到1995年——自己翻目录，自己找网站，自己判断值不值得看。那时候上网是一种能力，不是一种生活方式。
+These answers are all correct. But they are also all wrong.
 
-### 第二个Why：需求模糊
+Because they are too shallow. So shallow that we have forgotten to ask: what right do you have to recommend to users? What right do you have to make choices for users? Will recommendation systems still exist in this form ten years from now?
 
-你知道自己想要什么吗?
+This article attempts to answer these six questions. Not to write a paper, but to give ourselves an accounting. If after reading you think "this person is crazy," congratulations—you are fortunate. If after reading you think "this indeed needs someone to do it," then welcome aboard.
 
-如果你知道，你会去搜索。但绝大多数时候，你不知道。你不知道今晚想看什么电影，不知道下周末想去哪里吃饭，不知道世界上还有这种书、那种音乐、那个观点。
-
-推荐系统的第二个任务，是**帮你发现你不知道自己会喜欢的东西**。这不是“匹配”，这是“启发”。
-
-匹配是“你要A,我给你A”。启发是“你喜欢B,你可能也会喜欢C,因为C和B有某种你还没意识到的联系”。这是两种完全不同的逻辑。匹配是守株待兔，启发是主动出击。
-
-### 第三个Why：经济效率
-
-从平台的角度看，推荐系统是资源分配器。
-
-内容创作者需要有人看他们的作品，商品卖家需要有人买他们的东西，广告主需要有人点他们的广告。平台手里只有用户的有限时间，谁给用户带来最大的价值，谁就应该获得更多的时间。
-
-这不是冷血的经济学，这是公平的资源分配。好的推荐系统，让好的内容被看到，让好的商品被买到，让好的广告被点击。这是效率，也是正义。
-
-### 为什么是“统一”?
-
-因为信息过载、需求模糊、经济效率，这三件事不是独立的。
-
-要解决信息过载，你需要处理海量的历史行为。要解决需求模糊，你需要理解用户画像和物品属性。要追求经济效率，你需要平衡短期点击和长期留存。
-
-这三个目标，指向同一个方向：**一个能够同时处理序列和特征的系统**。没有序列，你看不到用户的变化。没有特征，你理解不了用户的本质。没有统一，你永远在拼凑。
+**If you don't do it, others will.** (不做，有的是人做)
 
 ---
 
-## What：推荐系统到底是什么?
+## Why: Why Do We Need Recommendation Systems?
 
-### 它不是“点击率预测”
+### The First Why: Information Overload
 
-点击率是代理指标，不是目标。
+Human capacity for processing information has not changed from ancient times to the present. At most a few dozen bits per second. At most a few hundred items of content per day.
 
-用户点了不一定满意，满意了不一定转化，转化了不一定长期留存。我们之所以用点击率，是因为它容易测量，不是因为它是终极目标。
+Yet the internet generates information every second that a single human could never finish viewing in a lifetime.
 
-如果你把推荐系统定义为“点击率预测器”，你就是在训练一个迎合短期偏好的机器。用户今天想看什么，你就给他什么。明天他变了，你跟上。永远跟在后面，永远没有惊喜。
+This scissors-shaped divergence is the fundamental reason recommendation systems exist. Not because you are clever, but because you are limited. Recommendation systems are an extension of your cognition, the hand that retrieves the needle from the ocean haystack.
 
-### 它不是“匹配算法”
+Without recommendation systems, you return to 1995—browsing directories yourself, finding websites yourself, judging for yourself whether something is worth reading. In those days, going online was a skill, not a lifestyle.
 
-匹配是静态的：用户画像 vs 物品画像，算一个相似度，取最高的。
+### The Second Why: Vague Needs
 
-但用户不是静态的。他昨天喜欢科幻，今天可能迷上哲学。他早上想看点轻松的，晚上想看深刻的。匹配算法看不到这些变化。
+Do you know what you want?
 
-真正的推荐系统，是动态的。它不问你“你是谁”，而是问“你此刻是谁”。此刻，是你的历史塑造的此刻，是你的特征定义的此刻，是上下文限定的此刻。
+If you know, you will search. But most of the time, you don't. You don't know what movie you want to watch tonight, don't know where you want to eat next weekend, don't know that such a book, such music, such a viewpoint exists in the world.
 
-### 它不是“个性化引擎”
+The second task of recommendation systems is to **help you discover things you don't know you would like**. This is not "matching"; this is "inspiration" (启发).
 
-个性化是手段，不是目的。
+Matching is "you want A, I give you A." Inspiration is "you like B, you might also like C, because C and B share some connection you haven't yet realized." These are two entirely different logics. Matching is waiting for the rabbit to crash into the tree (守株待兔, a Chinese fable of passive waiting); inspiration is proactive engagement (主动出击).
 
-目的是帮用户发现价值。如果用户需要的是跟别人一样的东西（比如大家都在看的热门新闻），那个性化反而是干扰。如果你强行给他个性化，他会觉得这系统有病。
+### The Third Why: Economic Efficiency
 
-好的推荐系统知道什么时候该个性化，什么时候该随大流。这个判断，需要全局视角。
+From the platform's perspective, recommendation systems are resource allocators.
 
-### 它是什么?
+Content creators need audiences for their work, merchants need buyers for their goods, advertisers need clicks on their ads. The platform holds only users' limited time; whoever delivers the greatest value to users should receive more of that time.
 
-如果非要用一句话定义，我会说：
+This is not cold-blooded economics; this is fair resource allocation. Good recommendation systems let good content be seen, let good merchandise be purchased, let good advertisements be clicked. This is efficiency, and also justice.
 
-**推荐系统是在信息过载环境下，通过理解用户的过去（序列）、现在（特征）和上下文，帮助用户发现价值的决策引擎。**
+### Why "Unified"?
 
-这句话里，每一个词都有分量：
+Because information overload, vague needs, and economic efficiency are not independent.
 
-- “信息过载环境”：是它存在的理由。
-- “理解用户的过去、现在和上下文”：是它做的事。过去是序列，现在是特征，上下文是时间、地点、设备。
-- “帮助用户发现价值”：是它的目标。不是“推送”，不是“转化”，是“发现”。
-- “决策引擎”：是它的性质。不是统计模型，不是匹配算法，是不断做决策的机器。
+To address information overload, you need to process massive historical behaviors. To address vague needs, you need to understand user profiles and item attributes. To pursue economic efficiency, you need to balance short-term clicks and long-term retention.
 
-统一架构，就是让这个定义变成现实的技术方案。它让过去、现在、上下文在同一个空间里交互，让“理解”成为可能，让“发现”有迹可循。
+These three goals point in the same direction: **a system capable of simultaneously processing sequences and features**. Without sequences, you cannot see user changes. Without features, you cannot understand user essence. Without unification, you are forever patching things together.
 
 ---
 
-## Who：谁在做？谁在用？谁在受益?
+## What: What Exactly Is a Recommendation System?
 
-### 谁在做?
+### It Is Not "Click-Through Rate Prediction"
 
-技术人员。研究员。工程师。数据科学家。
+Click-through rate is a proxy metric, not the goal.
 
-你们每天在做的事，本质上是**构建一个理解用户的黑箱**。这个黑箱要足够快，快到用户感觉不到延迟。要足够准，准到用户觉得“这系统懂我”。要足够稳，稳到一年365天不宕机。
+Users clicking does not mean they are satisfied; satisfaction does not mean conversion; conversion does not mean long-term retention. We use click-through rate because it is easy to measure, not because it is the ultimate objective.
 
-你们是这个时代最幸运的一群人。因为你们在做的事，二十年前不存在，二十年后可能也不存在。现在正是推荐系统的黄金时代，技术正在从分离走向统一，范式正在从预测走向理解。
+If you define recommendation systems as "click-through rate predictors," you are training a machine that caters to short-term preferences. Whatever the user wants to see today, you give them. Tomorrow they change, you follow. Always trailing behind, never delivering surprise.
 
-但你们也是最累的一群人。因为你们站在业务的第一线。老板要增长，产品要迭代，用户要体验。你们夹在中间，用代码和模型满足所有人的期待。
+### It Is Not "A Matching Algorithm"
 
-### 谁在用?
+Matching is static: user profile vs. item profile, compute a similarity, take the highest.
 
-用户。你们每天也在被推荐。
+But users are not static. Yesterday they liked science fiction; today they may be obsessed with philosophy. In the morning they want something light; in the evening something profound. Matching algorithms cannot see these changes.
 
-你知道被推荐的感觉吗？有时候是惊喜——“原来还有这个”。有时候是厌恶——“怎么又给我推这个”。有时候是麻木——“随便吧”。
+A genuine recommendation system is dynamic. It does not ask "who are you," but asks "who are you at this moment." This moment is the moment shaped by your history, defined by your features, bounded by your context.
 
-用户的每一次点击、每一次滑动、每一次停留，都在告诉系统：我喜欢什么，我不喜欢什么，我犹豫什么。这些信号，是推荐系统的燃料。没有用户，系统是死的。
+### It Is Not "A Personalization Engine"
 
-但用户不只是数据源。他们是有期待的人。他们期待被理解，期待被发现，期待被尊重。如果你只是把他们当成标签和序列，他们迟早会离开。
+Personalization is a means, not an end.
 
-### 谁在受益?
+The end is helping users discover value. If the user needs what everyone else has (such as trending news everyone is reading), then personalization is actually interference. If you forcibly personalize for them, they will think the system is broken.
 
-平台、创作者、广告主、社会。
+A good recommendation system knows when to personalize and when to follow the crowd. This judgment requires a global perspective.
 
-平台需要用户活跃，需要停留时长，需要商业变现。创作者需要被看到，需要粉丝，需要创作动力。广告主需要触达目标人群，需要转化，需要ROI。社会需要信息有效流动，需要好的内容战胜坏的，需要注意力不被浪费。
+### What Is It?
 
-好的推荐系统，让所有角色都受益。用户发现价值，创作者获得回报，平台实现增长，社会效率提升。这是一个正和博弈，不是零和博弈。
+If forced to define it in one sentence, I would say:
 
-但前提是：推荐系统必须是好的。坏的推荐系统，让用户困在茧房，让创作者被算法绑架，让平台追求短期利益，让社会被虚假信息淹没。
+**A recommendation system is a decision engine that, in an information-overloaded environment, helps users discover value by understanding their past (sequences), present (features), and context.**
 
-统一架构，是通往“好的推荐系统”的一条路径。
+In this sentence, every word carries weight:
 
----
+- "Information-overloaded environment": its raison d'être.
+- "Understanding the user's past, present, and context": what it does. Past is sequences, present is features, context is time, place, device.
+- "Helping users discover value": its objective. Not "pushing," not "converting," but "discovering."
+- "Decision engine": its nature. Not a statistical model, not a matching algorithm, but a machine that continuously makes decisions.
 
-## When：什么时候开始？什么时候结束?
-
-### 什么时候开始?
-
-已经开始了。
-
-二十年前，协同过滤是答案。十年前，深度学习是答案。五年前,Transformer是答案。现在，统一架构是正在被探索的答案。
-
-每一次范式转变，都有人犹豫。他们说“协同过滤够用了”“深度学习太贵”“Transformer解释不了”。但他们错了。因为技术不会停在原地，用户的期望不会停在原地，竞争不会停在原地。
-
-统一架构的窗口，就在现在。OneTrans、HyFormer、PLR已经证明了这条路的可行性。但还远没有到终点。谁能在TAAC2026中做出最 compelling 的统一模块，谁就能在这个方向上留下名字。
-
-### 什么时候结束?
-
-永远不会。
-
-不是因为技术没有终点，而是因为推荐系统的目标在变。
-
-今天的目标是转化率，明天的目标是用户满意，后天的目标是长期价值，大后天的目标可能是社会福祉。目标变了，技术就要跟着变。统一架构只是当下的方向，不是永恒的真理。
-
-但统一架构的思维方式——把不同结构的信息放在同一个空间里让它们自由交互——可能会持续很久。因为信息的本质是多元的，理解的过程是统一的。这个洞察，不会过时。
+A unified architecture is the technical solution that makes this definition a reality. It lets past, present, and context interact within the same space, makes "understanding" possible, makes "discovery" traceable.
 
 ---
 
-## Where：在哪里做？在哪里用?
+## Who: Who Is Building? Who Is Using? Who Benefits?
 
-### 在哪里做?
+### Who Is Building?
 
-在实验室、在竞赛、在公司、在深夜的电脑前。
+Technicians. Researchers. Engineers. Data scientists.
 
-实验室是理想主义的温床。没有业务压力，没有延迟限制，可以慢慢想，慢慢试。但实验室的成果，往往离落地很远。
+What you do every day is essentially **building a black box that understands users**. This black box must be fast enough that users sense no delay. Accurate enough that users feel "this system understands me." Stable enough to operate 365 days a year without downtime.
 
-竞赛是现实主义的战场。有 deadline,有排行榜，有竞争对手。它逼你在有限的时间里做出可工作的东西，逼你直面效率和效果的权衡。
+You are the most fortunate group of this era. Because what you are doing did not exist twenty years ago and may not exist twenty years hence. Now is the golden age of recommendation systems; technology is moving from separation to unification, and the paradigm is shifting from prediction to understanding.
 
-公司是实用主义的考场。代码要上线，模型要服务，指标要增长。你写的每一行代码，都可能影响几百万用户的体验。
+But you are also the most exhausted group. Because you stand on the front lines of business. The boss wants growth, products need iteration, users want experience. You are caught in the middle, using code and models to satisfy everyone's expectations.
 
-深夜的电脑前，是孤独主义的修行。没有人催你，没有人帮你，只有你和屏幕。这时候的思考，最纯粹，也最深刻。
+### Who Is Using?
 
-### 在哪里用?
+Users. You are also being recommended to every day.
 
-在信息流、在短视频、在电商、在广告、在地图、在音乐、在社交网络。
+Do you know what being recommended feels like? Sometimes a pleasant surprise—"so this exists too." Sometimes aversion—"why is this being pushed to me again." Sometimes numbness—"whatever."
 
-推荐系统无处不在。你每天打开手机，至少被推荐几十次。你看到的每一条内容、每一个商品、每一个广告，背后都有推荐系统在工作。
+Every click, every scroll, every lingering pause by a user tells the system: what I like, what I dislike, what I hesitate over. These signals are the fuel of recommendation systems. Without users, the system is dead.
 
-但越是无处不在，越容易被忽视。用户不知道你在背后工作，老板觉得这是基础设施，社会觉得这是理所当然。
+But users are not merely data sources. They are people with expectations. They expect to be understood, expect to be discovered, expect to be respected. If you merely treat them as labels and sequences, they will sooner or later leave.
 
-只有出问题的时候，大家才会想起你。推荐不准了，用户骂你；指标掉了，老板找你；出了伦理问题，全社会讨论你。
+### Who Benefits?
 
-这就是推荐系统的宿命：做得好了，没人感谢；做得不好，人人指责。
+Platforms, creators, advertisers, society.
 
-### 统一架构在哪里最需要?
+Platforms need user activity, need dwell time, need commercial monetization. Creators need to be seen, need fans, need creative motivation. Advertisers need to reach target audiences, need conversion, need ROI. Society needs information to flow effectively, needs good content to triumph over bad, needs attention not to be wasted.
 
-在长序列、多特征、高延迟敏感的场景。
+Good recommendation systems let all roles benefit. Users discover value, creators gain returns, platforms achieve growth, social efficiency improves. This is a positive-sum game, not a zero-sum game.
 
-短视频：用户行为序列极长，特征极多，延迟要求极高。统一架构在这里最有价值，也最具挑战。
+But the prerequisite is: recommendation systems must be good. Bad recommendation systems trap users in filter bubbles (茧房, silkworm cocoons), hold creators hostage to algorithms (被算法绑架), let platforms pursue short-term interests, and flood society with false information.
 
-电商：用户行为序列长，特征维度高，但延迟容忍度相对高一些。统一架构可以做得更深、更复杂。
-
-广告：用户行为序列中等，特征非常丰富，延迟要求极高。统一架构需要在效率和效果之间找到平衡。
-
-信息流：用户行为序列长，特征多样，延迟敏感。统一架构有天然的优势。
-
-选择哪个场景，取决于你的资源和目标。如果追求极致效果，选短视频或信息流。如果追求落地可行，选电商或广告。如果追求学术价值，可以选一个跨场景的统一框架。
+A unified architecture is one path toward "good recommendation systems."
 
 ---
 
-## How：怎么做？——从理论到实践
+## When: When to Start? When to End?
 
-这是最难回答的问题。前面的五个W都是“为什么”，只有How是“怎么做”。也是这篇文章最长的部分。
+### When to Start?
 
-### 第一层：理解数据
+It has already started.
 
-TAAC的数据给了你：
-- 用户画像：几十个特征
-- 物品属性：几十个特征
-- 历史行为：三个子序列——item_seq、action_seq、content_seq
-- 时间戳：每个行为的时间
-- 标签：是否转化
+Twenty years ago, collaborative filtering was the answer. Ten years ago, deep learning was the answer. Five years ago, Transformer was the answer. Now, unified architecture is the answer being explored.
 
-你的第一个任务，不是写模型，而是理解这些数据。
+Every paradigm shift has people who hesitate. They say "collaborative filtering is sufficient," "deep learning is too expensive," "Transformer cannot be interpreted." But they were wrong. Because technology does not stand still, user expectations do not stand still, competition does not stand still.
 
-统计序列长度的分布。看正负样本的比例。分析特征之间的相关性。找出时间戳的规律。画出数据流的图。
+The window for unified architecture is right now. OneTrans, HyFormer, PLR have already proven the viability of this path. But it is far from the finish line. Whoever can produce the most compelling unified module in TAAC2026 will leave their name on this direction.
 
-这个过程可能花掉你一周的时间。但这一周值得。因为你对数据的理解越深，你的设计就越有根据。
+### When to End?
 
-### 第二层：构建令牌
+Never.
 
-每个历史行为，是一个“小三元组”：物品、行为类型、内容特征。
+Not because technology has no endpoint, but because recommendation systems' objectives are changing.
 
-你要把它们融合成一个向量。这是统一令牌化的第一步。
+Today's objective is conversion rate; tomorrow's is user satisfaction; the day after's is long-term value; the day after that may be social welfare. When objectives change, technology must follow. Unified architecture is merely the current direction, not eternal truth.
 
-融合的方式有很多：
-- 拼接：把三个嵌入拼起来，过一层MLP
-- 相加：把三个嵌入加起来（前提是维度一致）
-- 门控融合：学习一个门控，动态决定三个部分的重要性
-- 交叉注意力：让三个部分互相看，再聚合
-
-选择哪种方式，取决于你的偏好和实验资源。拼接最稳，门控最灵活，交叉注意力最复杂。
-
-我建议从拼接开始。先跑通流程，再优化细节。
-
-### 第三层：设计骨干
-
-骨干是一堆可堆叠的模块。每个模块包含：
-- 多头自注意力
-- 前馈网络
-- 残差连接
-- 层归一化
-
-这是标准的Transformer结构。但有两个地方需要定制。
-
-**第一，因果掩码。**
-
-序列部分（历史行为）必须保持因果性：每个位置只能看到它前面的位置。这很容易，加一个因果掩码就行。
-
-**第二，渐进压缩。**
-
-序列令牌太多，不能一直保留。需要在后几层逐步压缩。
-
-压缩的方式：
-- 简单截断：只保留最后k个令牌
-- 注意力池化：用可学习的查询，从所有令牌中提取k个
-- 聚类：把令牌聚成k类，取类中心
-
-简单截断最容易实现，但可能损失信息。注意力池化更灵活，但计算量更大。聚类介于两者之间。
-
-我建议先试简单截断。如果效果不好，再升级。
-
-### 第四层：引入推理时计算
-
-对所有样本用同样的计算量，不是最优的。冷启动用户和历史丰富的用户，需要的推理深度不同。
-
-实现方式：
-- 训练一个辅助分类器，在每一层预测是否需要继续推理
-- 或者更简单：根据历史长度，动态决定推理层数
-
-这个优化可以在最后两周做。如果时间紧张，可以不做。
-
-### 第五层：工程优化
-
-推理延迟是硬约束。必须控制在限制以内。
-
-优化三板斧：
-- KV缓存：用户部分预计算，候选间复用
-- 渐进压缩：序列令牌逐层减少，计算量下降
-- 混合精度：FP16推理，速度翻倍，精度损失可忽略
-
-这三项必须做。不做，你的模型可能跑不过延迟限制。
-
-### 第六层：迭代与调优
-
-从最简单的基线开始。然后逐步增加复杂度。
-
-每一步都要记录：
-- AUC的变化
-- 延迟的变化
-- 参数量的变化
-
-如果你发现某个改动让AUC提升很小，但延迟暴增，就放弃它。在竞赛中，效率有时候比效果更重要。
-
-### 第七层：写技术报告
-
-技术报告是你和评审专家对话的唯一机会。
-
-报告的结构：
-- 问题定义：统一架构要解决什么?
-- 设计理念：基于什么原理设计的?
-- 技术细节：令牌化、骨干、压缩、优化
-- 实验设计：基线、对比、指标
-- 结果分析：定量结果、定性分析、错误案例
-- 扩展分析：参数、数据、计算规模的扩展规律
-- 结论与展望：统一架构的未来
-
-写作风格：清晰、自信、有深度。不夸大，不谦虚，实事求是。
+But the thinking pattern of unified architecture—placing information of different structures in the same space and letting them freely interact—may persist for a long time. Because the essence of information is plural, and the process of understanding is unified. This insight will not become obsolete.
 
 ---
 
-## 六问之后：不做，有的是人做
+## Where: Where to Build? Where to Use?
 
-写完这六个问题，我的结论是：
+### Where to Build?
 
-**统一架构是推荐系统的下一个范式。**
+In laboratories, in competitions, in companies, at the computer late at night.
 
-这不是乐观的预测，而是冷静的判断。因为分离范式已经碰到了天花板。序列越来越长，特征越来越多，延迟要求越来越高，分离架构的效率在下降，效果在趋缓。需要一个新的架构来打破这个瓶颈。
+Laboratories are the incubator of idealism. No business pressure, no latency constraints; you can think slowly, experiment slowly. But laboratory results are often far from deployment.
 
-统一架构不是唯一的方向，但它是最自然的延伸。因为它不否定过去的积累，而是把它们整合到一个框架里。序列模型不用丢掉，特征交互不用推翻，只是换一种方式组织。
+Competitions are the battlefield of realism. There are deadlines, leaderboards, competitors. They force you to produce working things within limited time, forcing you to confront the trade-off between efficiency and effectiveness.
 
-这个机会就在眼前。TAAC2026提供了数据、算力、奖金、曝光。三个月的时间，足够验证一个想法。
+Companies are the examination hall of pragmatism. Code must go live, models must serve, metrics must grow. Every line of code you write could affect millions of users' experience.
 
-但机会是留给敢做的人。
+The computer late at night is the ascetic practice of solitude. No one rushes you, no one helps you; only you and the screen. Thinking at such moments is most pure, and most profound.
 
-敢做，不是盲目冲进去。而是想清楚之后，坚定地走下去。
+### Where to Use?
 
-想清楚什么?
-- 想清楚为什么做(Why)
-- 想清楚做什么(What)
-- 想清楚为谁做(Who)
-- 想清楚什么时候做(When)
-- 想清楚在哪里做(Where)
-- 想清楚怎么做(How)
+In feeds, in short videos, in e-commerce, in advertising, in maps, in music, in social networks.
 
-这六个问题，你能回答几个?
+Recommendation systems are everywhere. Every day you open your phone, you are recommended to at least dozens of times. Every piece of content, every product, every advertisement you see has a recommendation system working behind it.
 
-如果你能回答所有六个，那你已经有了清晰的路线图。剩下的只是执行。
+But the more ubiquitous they are, the more easily overlooked. Users don't know you're working behind the scenes; bosses think this is infrastructure; society takes it for granted.
 
-如果你只能回答一两个，那你需要更多时间思考。不要急着动手，先想清楚。
+Only when problems arise do people remember you. Recommendations are inaccurate, users curse you; metrics drop, bosses come looking for you; ethical issues emerge, the whole society discusses you.
 
-如果你一个都回答不了，那你最好别做。因为这件事很难，很累，很孤独。如果连自己为什么要做都想不明白，你撑不过那些深夜调试、AUC不涨、代码崩溃的时刻。
+This is the fate (宿命) of recommendation systems: when done well, no one thanks you; when done poorly, everyone criticizes you.
 
-但如果你想明白了，那就去做。
+### Where Is Unified Architecture Most Needed?
 
-**不做，有的是人做。**
+In scenarios with long sequences, many features, and high latency sensitivity.
 
----
+Short video: user behavior sequences are extremely long, features extremely numerous, latency requirements extremely high. Unified architecture is most valuable here, and also most challenging.
 
-## 最后的话
+E-commerce: user behavior sequences are long, feature dimensions are high, but latency tolerance is relatively higher. Unified architecture can go deeper and more complex.
 
-推荐系统不需要被拯救。它活得很好。
+Advertising: user behavior sequences are moderate, features are very rich, latency requirements are extremely high. Unified architecture needs to find balance between efficiency and effectiveness.
 
-但推荐系统的从业者，需要被提醒。提醒我们不要忘记最初的追问：用户凭什么被你推荐?
+Information feed: user behavior sequences are long, features are diverse, latency is sensitive. Unified architecture has a natural advantage.
 
-这篇文章不是答案，是问题。六个问题，问自己，问团队，问这个行业。
-
-如果你在读完这篇文章后，决定去参加TAAC2026,去尝试统一架构，去挑战那个“不做，有的是人做”的事情——那这篇文章就有了意义。
-
-烧不死的鸟是凤凰。做难而正确的事，才有机会成为那只鸟。
-
-硬骨头，你啃不啃?
+Choosing which scenario depends on your resources and objectives. If pursuing ultimate effectiveness, choose short video or information feed. If pursuing deployment feasibility, choose e-commerce or advertising. If pursuing academic value, you can choose a cross-scenario unified framework.
 
 ---
 
-**全文完**
+## How: How to Do It?—From Theory to Practice
 
-**2026年3月26日**
+This is the hardest question to answer. The preceding five W's were all "why"; only How is "how." This is also the longest section of the article.
+
+### Layer One: Understanding Data
+
+TAAC's data gives you:
+- User profile: dozens of features
+- Item attributes: dozens of features
+- Historical behavior: three subsequences—item_seq, action_seq, content_seq
+- Timestamps: the time of each behavior
+- Labels: whether conversion occurred
+
+Your first task is not to write a model, but to understand this data.
+
+Compute the distribution of sequence lengths. Examine the ratio of positive and negative samples. Analyze correlations among features. Discover patterns in timestamps. Draw the data flow diagram.
+
+This process may consume a week. But that week is worth it. Because the deeper your understanding of data, the more well-grounded your design.
+
+### Layer Two: Constructing Tokens
+
+Each historical behavior is a "mini-triplet": item, action type, content features.
+
+You must fuse them into a single vector. This is the first step of unified tokenization.
+
+Fusion methods are many:
+- Concatenation: concatenate three embeddings, pass through one MLP layer
+- Addition: add three embeddings (assuming dimension consistency)
+- Gated fusion: learn a gate, dynamically determine the importance of three parts
+- Cross-attention: let three parts mutually attend, then aggregate
+
+Which method to choose depends on your preference and experimental resources. Concatenation is most stable, gated is most flexible, cross-attention is most complex.
+
+I suggest starting with concatenation. First get the pipeline running, then optimize details.
+
+### Layer Three: Designing the Backbone
+
+The backbone is a stack of stackable modules. Each module contains:
+- Multi-head self-attention
+- Feed-forward network
+- Residual connections
+- Layer normalization
+
+This is a standard Transformer structure. But two places need customization.
+
+**First, causal masking.**
+
+The sequence portion (historical behavior) must maintain causality: each position can only see preceding positions. This is straightforward—add a causal mask.
+
+**Second, progressive compression.**
+
+Sequence tokens are too many to always retain. They need to be progressively compressed in later layers.
+
+Compression methods:
+- Simple truncation: retain only the last k tokens
+- Attention pooling: use learnable queries to extract k tokens from all tokens
+- Clustering: cluster tokens into k groups, take cluster centers
+
+Simple truncation is easiest to implement but may lose information. Attention pooling is more flexible but computationally heavier. Clustering falls between the two.
+
+I suggest trying simple truncation first. If results are poor, then upgrade.
+
+### Layer Four: Introducing Inference-Time Computation
+
+Using the same computation for all samples is not optimal. Cold-start users and history-rich users require different inference depths.
+
+Implementation:
+- Train an auxiliary classifier, predicting at each layer whether continued inference is needed
+- Or more simply: dynamically determine inference layer count based on history length
+
+This optimization can be done in the last two weeks. If time is tight, it can be skipped.
+
+### Layer Five: Engineering Optimization
+
+Inference latency is a hard constraint. Must be controlled within limits.
+
+The optimization three-pronged approach:
+- KV cache: user portion precomputed, reused across candidates
+- Progressive compression: sequence tokens decrease layer by layer, computation volume drops
+- Mixed precision: FP16 inference, speed doubles, precision loss negligible
+
+These three must be done. Without them, your model may not meet latency limits.
+
+### Layer Six: Iteration and Tuning
+
+Start from the simplest baseline. Then gradually increase complexity.
+
+Record at each step:
+- AUC changes
+- Latency changes
+- Parameter count changes
+
+If you discover some change yields minimal AUC improvement but latency spikes, abandon it. In competition, efficiency is sometimes more important than effectiveness.
+
+### Layer Seven: Writing the Technical Report
+
+The technical report is your sole opportunity to dialogue with review experts.
+
+Report structure:
+- Problem definition: what does unified architecture solve?
+- Design philosophy: on what principles was it designed?
+- Technical details: tokenization, backbone, compression, optimization
+- Experimental design: baselines, comparisons, metrics
+- Results analysis: quantitative results, qualitative analysis, failure cases
+- Scaling analysis: scaling laws for parameters, data, computation
+- Conclusion and outlook: the future of unified architecture
+
+Writing style: clear, confident, deep. No exaggeration, no false modesty, seeking truth from facts (实事求是).
+
+---
+
+## After the Six Questions: If You Don't Do It, Others Will
+
+After writing these six questions, my conclusion is:
+
+**Unified architecture is the next paradigm for recommendation systems.**
+
+This is not an optimistic prediction, but a cool-headed judgment. Because the separation paradigm has hit a ceiling. Sequences are growing longer, features are growing more numerous, latency requirements are growing higher; the separation architecture's efficiency is declining, effectiveness is plateauing. A new architecture is needed to break this bottleneck.
+
+Unified architecture is not the only direction, but it is the most natural extension. Because it does not negate past accumulation, but integrates it into one framework. Sequence models don't need to be discarded, feature interaction doesn't need to be overturned, only the organization method changes.
+
+This opportunity is right before us. TAAC2026 provides data, compute, prize money, exposure. Three months is sufficient to verify an idea.
+
+But opportunity belongs to those bold enough to act.
+
+Acting boldly is not charging in blindly. It is thinking clearly, then pressing forward with determination.
+
+Think clearly about what?
+- Think clearly about why (Why)
+- Think clearly about what (What)
+- Think clearly about for whom (Who)
+- Think clearly about when (When)
+- Think clearly about where (Where)
+- Think clearly about how (How)
+
+How many of these six questions can you answer?
+
+If you can answer all six, you already have a clear roadmap. The remainder is merely execution.
+
+If you can answer only one or two, you need more time to think. Don't rush to act; think clearly first.
+
+If you cannot answer any, you probably should not proceed. Because this is difficult, exhausting, and solitary. If you cannot even articulate why you are doing it, you will not endure those late-night debugging sessions, stagnant AUC, and code crashes.
+
+But if you have thought it through, then go do it.
+
+**If you don't do it, others will.** (不做，有的是人做)
+
+---
+
+## Final Words
+
+Recommendation systems do not need to be saved. They are doing fine.
+
+But recommendation system practitioners need to be reminded. Reminded not to forget the original inquiry: what right do you have to recommend to users?
+
+This article is not an answer; it is questions. Six questions, for yourself, for your team, for this industry.
+
+If, after reading this article, you decide to participate in TAAC2026, to try unified architecture, to challenge that thing where "if you don't do it, others will"—then this article has had meaning.
+
+The bird that survives the fire is a phoenix (烧不死的鸟是凤凰). Only by doing difficult and correct things do you have the chance to become that bird.
+
+A tough bone (硬骨头)—will you gnaw it?
+
+---
+
+**End of full text**
+
+**March 26, 2026**
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

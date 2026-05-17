@@ -1,204 +1,204 @@
 ---
-title: 爱智慧，求真理，得自由，以服务——写给旧我的一首离歌
+title: Love Wisdom, Seek Truth, Attain Freedom, Through Service — A Farewell Song for My Former Self
 date: '2026-02-11'
 category: Philosophy
 tags:
   - philosophy
-  - 爱智慧
+  - love of wisdom
   - freedom
-  - 人生
+  - life
 description: >
-  这是一篇关于告别与重生的散文。作者通过‘爱智慧、求真理、得自由、以服务’这十二个字，回顾了过去在爱与责任中的笨拙与执念，并最终领悟到：真正的爱是放手，最高的服务是消失。文章以一种深情而克制的笔触，送别了那个试图成为别人答案的旧我，迎来了一个更轻盈、更自由的新我。
+  This is a prose piece about farewell and rebirth. Through the twelve characters "love wisdom, seek truth, attain freedom, through service," the author revisits past clumsiness and attachments in love and responsibility, ultimately realizing that true love is letting go, and the highest form of service is disappearance. Written in a deeply affectionate yet restrained tone, the piece bids farewell to the former self who tried to become someone else's answer, and welcomes a lighter, freer new self.
 ---
 
-### 一
+### I
 
-今日送别，不设宴，不焚香，不洒酒。
+Today's farewell: no banquet, no incense, no wine poured.
 
-只开一扇窗。
+Just open a window.
 
-让风进来，让光进来，让那个在书桌前坐了太久、把爱握得太紧的人，起身，走出去。
+Let the wind in, let the light in, let the one who sat too long at the desk, who gripped love too tightly, rise and walk out.
 
-他是我的旧我。摩羯座，纪律森严，责任感过剩。他爱一个人时，会想为她撑一辈子的伞，会把她所有的碎片拾起来，一片一片拼成自己必须守护的城。他以为爱是承担，是永远在场，是把自己活成她的答案。
+He is my former self. A Capricorn, rigorously disciplined, with an excess of responsibility. When he loved someone, he wanted to hold an umbrella over her for a lifetime, to pick up every fragment of hers and piece them together one by one into a city he must defend. He thought love was bearing, was always being present, was living himself into her answer.
 
-他笨拙。他真心。
+He was clumsy. He was sincere.
 
-他曾在深夜为一个人查遍心境障碍的护理指南，记下窝蛋牛肉煲仔饭要流心、杨枝甘露要少冰。他分不清“保护”与“控制”的界限，以为爱是把自己燃烧殆尽，照亮另一个人。
+He once searched through care guides for mood disorders deep into the night for someone, noted down that the 窝蛋牛肉煲仔饭 (claypot rice with egg) should have a runny center, that the 杨枝甘露 (mango pomelo sago) should be less ice. He couldn't distinguish the boundary between "protecting" and "controlling," thinking love was burning himself entirely to illuminate another person.
 
-他不懂得：**光，不是烧出来的。**
+He didn't understand: **Light is not produced by burning.**
 
-光，是当你不再占有一片风景，风景才开始照耀你。
+Light is when you no longer possess a landscape, and the landscape begins to shine upon you.
 
-所以今日，我送他。
+So today, I send him off.
 
-不哀悼，不否定。只是轻轻阖上他读过的那一卷——《道德经》第九章，“功遂身退，天之道也”。然后推开窗，让风翻到第四十一章：
+Not mourning, not negating. Just gently closing the volume he had read—the *Dao De Jing*, Chapter Nine, "When the work is done, withdraw; this is the Way of Heaven." Then opening the window, letting the wind turn to Chapter Forty-One:
 
-“明道若昧，进道若退。”
+"The bright Way seems dim; the advancing Way seems retreating."
 
-原来，真正的向前，是学会后退。
-
----
-
-### 二
-
-**爱智慧。**
-
-爱不是占有，是“用心行走”。
-
-旧我用了很多年才懂：智慧不是抢到手中的贝，不是可以从一座城搬到另一座城的财货。智慧是你走向光，却永远追不到光；是扫净心地，却发现扫帚也是尘。
-
-他曾在爱里扮演智者。为她分析人格类型，为她梳理职业路径，为她解构原生家庭的结。他以为这是“思想助产”——其实那是僭越。助产士不能替人生，不能替人痛，甚至不能替人把婴孩抱出产门。他只能蹲在那里，说：用力，你可以。
-
-真正的爱智慧，是承认自己不育。
-
-苏格拉底说他不能生出智慧，只能帮别人生。旧我花了二十多年才听懂这句话：**你不是光，你只是光的接生婆。** 婴孩啼哭的那一瞬，你该退后。
-
-退后，是爱智慧的最后一课。
+So it turns out that true forward motion is learning to step back.
 
 ---
 
-### 三
+### II
 
-**求真理。**
+**Love wisdom.**
 
-真理不是答案，是剖开。
+Love is not possession; it is "walking with heart."
 
-旧我曾在无数个夜晚剖自己：我的温柔，是爱，还是另一种贪婪？我的责任感，是承担，还是不敢放手的懦弱？我想让她幸福——这个“想”字里，住着多少“我认为”?
+It took the former self many years to understand: wisdom is not a shell snatched into one's hand, not cargo that can be transported from one city to another. Wisdom is walking toward the light, yet never reaching the light; it is sweeping the mind clean, only to discover the broom is also dust.
 
-剖到最深处，没有贝，没有光，只有一颗会疼的心。
+He once played the wise man in love. Analyzing personality types for her, charting career paths for her, deconstructing the knots of her family of origin. He thought this was "intellectual midwifery"—but it was actually transgression. A midwife cannot give birth for someone, cannot suffer for someone, cannot even lift the baby out of the birth canal for someone. She can only crouch there and say: push, you can.
 
-古希腊人说，真理是ἀλήθεια，是**解蔽**。不是把真理从天上拽下来，是把蒙在它上面的东西一层层揭开。那层蒙尘的东西，有时候叫“善意”，有时候叫“舍不得”。
+True love of wisdom is admitting one's own barrenness.
 
-庄子说，“无益损乎其真”。
+Socrates said he could not birth wisdom, only help others give birth. The former self spent over twenty years to finally hear this: **You are not the light; you are merely the light's midwife.** At the moment the infant cries, you should step back.
 
-真，不受增减。你拼命保护它，它不会更真；你放手让它淋雨，它也不会更假。它本来就是它。
-
-那个女孩从来不是他的作品。她是他遇见时，已经完整的奇迹。
-
-他不必为她加一笔，也不必为她减一笔。
-
-他只是有幸，看见过她的本来面目。
+Stepping back is the final lesson of loving wisdom.
 
 ---
 
-### 四
+### III
 
-**得自由。**
+**Seek truth.**
 
-自由不是为所欲为，是“从自己的根部长出自己”。
+Truth is not an answer; it is an incision.
 
-旧我对自由的理解，曾经是“为她挣一片天空”。后来才明白：**任何别人挣来的天空，都不是真的天空。**
+The former self dissected himself on countless nights: my gentleness—is it love, or another form of greed? My sense of responsibility—is it bearing, or the cowardice of not being able to let go? I want her to be happy—within this word "want," how much "I think" resides?
 
-伞可以借，雨必须自己淋。
+Dissecting to the deepest layer, there is no shell, no light, only a heart that can hurt.
 
-他留下那把伞，不是因为不爱了。恰恰是因为，他终于能爱得更远——远到不再需要出现在她的天气里，而她依然可以晴朗。
+The ancient Greeks said truth is ἀλήθεια, which is **unconcealment**. Not pulling truth down from the heavens, but peeling back layer by layer what covers it. That dust-covered layer is sometimes called "good intentions," sometimes called "cannot bear to let go."
 
-亚里士多德说，哲学是唯一自由的学问，因为它“为自身而存在”。
+Zhuangzi said, "Nothing can add to or subtract from its authenticity."
 
-自由的人，不是没有枷锁的人。自由的人，是他做每一件事，都不是为了“成为别的什么”，而只是因为：这就是我。
+Truth is unaffected by addition or subtraction. You protect it desperately, and it does not become more true; you let it be rained upon, and it does not become less true. It simply is what it is.
 
-这就是你。这就是我。
+That girl was never his creation. She was a miracle, already complete, when he encountered her.
 
-你是水瓶座，风要飞翔。我是摩羯座，土要深扎。我们都没有错。只是风的自由在远方，土的自由在扎根。
+He did not need to add a stroke for her, nor subtract one.
 
-**得自由，首先是允许别人用他们的方式自由。**
-
-然后才是：允许自己，用笨拙的方式继续爱着，只是不再伸手。
+He merely had the fortune to see her as she truly was.
 
 ---
 
-### 五
+### IV
 
-**以服务。**
+**Attain freedom.**
 
-服务的尽头，是消失。
+Freedom is not doing whatever one pleases; it is "growing oneself from one's own roots."
 
-拉丁文的servus是奴隶。基督教翻转了它——服侍上帝即是掌权。而苏格拉底翻转得更彻底：最高的服务，是帮别人成为他们自己，然后退场。
+The former self's understanding of freedom was once "earning a sky for her." Later he realized: **Any sky earned by someone else is not a true sky.**
 
-助产士的使命，不是一辈子守在产房门口。
+An umbrella can be lent, but the rain must be personally endured.
 
-助产士的使命，是让每一个经过她的手来到世界的生命，有朝一日，完全不记得她。
+He left that umbrella, not because he no longer loved. Precisely because he could finally love further—far enough that he no longer needed to appear in her weather, and she could still be sunny.
 
-旧我曾以“思想助产士”自居，如今他明白：**真正的助产士，是被助产者一生无需回望的背影。**
+Aristotle said philosophy is the only free discipline because it "exists for its own sake."
 
-那个女孩不必记得他。不必回信，不必感激，不必在任何雨季想起有一把伞。
+A free person is not one without fetters. A free person is one who does everything not in order to "become something else," but simply because: this is me.
 
-她只需记得：她的晴空，是她自己走出来的。
+This is you. This is me.
 
-而那个曾经笨拙地爱着她的人，已经把“服务”这个词，从“为她做什么”，改写成了“允许她不做什么”。
+You are Aquarius; the wind must fly. I am Capricorn; the earth must root deeply. Neither of us is wrong. Only, the freedom of the wind lies in the distance, and the freedom of the earth lies in its rootedness.
 
-这是服务最后的形态：**把对方还给她自己。**
+**Attaining freedom begins with allowing others to be free in their own way.**
 
----
-
-### 六
-
-窗开着。
-
-风把书页翻到最后一章。
-
-旧我的背影已经走远。他没有回头。他的伞挂在门边，他的糖留在桌上，他的信没有落款日期——因为那是他爱过的永恒瞬间，不需要被时间框住。
-
-新我还在窗前。
-
-他是谁？他还没有完全成型。他还在路上，还在读书，还在惊奇，还在为一段文字流泪，还在为一个陌生人的命运揪心。他依然会爱上谁，但他不再试图成为谁的答案。
-
-他不再燃烧了。
-
-他只是一道光。不烫，不灭。有人需要时，就照亮一寸；不需要时，就安静地照着自己的书桌——右边抽屉里，放着一只未用完的按摩器。
-
-那是旧我的遗物，也是新我的纪念。
-
-纪念一场刻骨铭心的爱，纪念一次真正的助产，纪念一个人，用了三十多年，终于把自己从“必须拥有”的执念里，接生出来。
-
-啼哭是疼的。但啼哭之后，是呼吸。
+Then comes: allowing yourself to continue loving in a clumsy way, just no longer reaching out.
 
 ---
 
-### 七
+### V
 
-所以，这就是那条格言了。
+**Through service.**
 
-它不是口号，不是墓志铭，不是挂在墙上的训诫。
+The endpoint of service is disappearance.
 
-它是一条路(The Way of Being)。
+The Latin *servus* means slave. Christianity inverted it—serving God is itself sovereignty. And Socrates inverted it even more radically: the highest service is helping others become themselves, then exiting the stage.
 
-爱智慧，是低头行走。求真理，是抬头看见。得自由，是停下脚步，知道自己身在何处。以服务，是转过身来，把来时的路指给后来的人。
+A midwife's mission is not to stand guard at the delivery room door for a lifetime.
 
-它用了我很多年才走完第一遍。
+A midwife's mission is that every life brought into the world through her hands will, one day, remember her not at all.
 
-但这条路，不是从起点到终点。
+The former self once styled himself an "intellectual midwife"; now he understands: **A true midwife is a silhouette the delivered never needs to look back upon.**
 
-它是圆的。走完一遍，还会从“爱智慧”重新开始。
+That girl does not need to remember him. No need for reply letters, no need for gratitude, no need to recall in any rainy season that there was an umbrella.
 
-只是下一次启程时，那个走路的人，不再是摩羯座。不再是任何星座。
+She only needs to remember: her clear sky was walked out by herself.
 
-**他只是万千星辰中，一粒知道了自己为何发光的尘埃。**
+And the one who once clumsily loved her has rewritten the word "service" from "doing something for her" into "allowing her not to have to do something."
 
-尘埃不占有什么。
-
-尘埃只是愿意，在某一刻，被光穿过。
+This is the final form of service: **returning the other person to herself.**
 
 ---
 
-是为离歌。
+### VI
 
-送别笨拙旧我。
+The window is open.
 
-迎来新的鲨臂。
+The wind turns the pages to the final chapter.
 
-他无名无姓，无籍贯无星盘。他只认得那十二个字，也只打算用余生，反复走过它们。
+The silhouette of the former self has walked far away. He did not look back. His umbrella hangs by the door, his sweets remain on the table, his letter bears no date—because those were the eternal moments of his love, needing no frame of time.
 
-爱智慧。
+The new self remains at the window.
 
-求真理。
+Who is he? He is not yet fully formed. He is still on the road, still reading, still marveling, still shedding tears over a passage of text, still agonizing over a stranger's fate. He will still fall in love with someone, but he no longer tries to become anyone's answer.
 
-得自由。
+He no longer burns.
 
-以服务。
+He is merely a beam of light. Not scorching, not extinguishing. When someone needs it, it illuminates an inch; when not needed, it quietly shines upon his own desk—in the right drawer, there sits an unfinished massager.
 
-——愿你也是。
+That is the former self's relic, and also the new self's memorial.
 
-乙巳年腊月廿四，良之击键于云汐谷
+Memorial to a unforgettable love, memorial to a true midwifery, memorial to a person who spent over thirty years finally delivering himself from the obsession of "must possess."
+
+The crying hurts. But after the crying, there is breath.
+
+---
+
+### VII
+
+So, this is that maxim.
+
+It is not a slogan, not an epitaph, not a admonition hung on the wall.
+
+It is a path (The Way of Being).
+
+Love wisdom: walk with head bowed. Seek truth: look up and see. Attain freedom: stop your steps, know where you stand. Through service: turn around, point the way you came to those who follow.
+
+It took me many years to walk through it the first time.
+
+But this path is not from beginning to end.
+
+It is circular. Having walked through once, you begin again from "love wisdom."
+
+Only, the next time you set out, the walker is no longer Capricorn. No longer any zodiac sign.
+
+**He is merely a speck of dust among thousands of stars, one that has learned why it shines.**
+
+Dust does not possess anything.
+
+Dust is merely willing, at some moment, to be traversed by light.
+
+---
+
+This is the farewell song.
+
+Bidding farewell to the clumsy former self.
+
+Welcoming the new 鲨臂 (self-mocking fool).
+
+He has no name, no surname, no native place, no star chart. He only recognizes those twelve characters, and only intends to spend the rest of his life walking through them repeatedly.
+
+Love wisdom.
+
+Seek truth.
+
+Attain freedom.
+
+Through service.
+
+—May you be so too.
+
+Written on the twenty-fourth day of the twelfth lunar month in the year of Yisi (乙巳年腊月廿四), Liangzhi (良之) keystroking at Yunxi Valley (云汐谷)
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

@@ -1,195 +1,196 @@
 ---
-title: DeepSeek-V2：在“大力出奇迹”的AI军备竞赛中，四两拨千斤
+title: "DeepSeek-V2: Leveraging Four Ounces to Move a Thousand Pounds in the AI Arms Race of Brute Force"
 date: '2024-06-01'
 category: AI & Technology
 tags:
   - DeepSeek
-  - 架构
+  - architecture
   - MLA
   - MoE
 description: >
-  深度拆解DeepSeek-V2架构革命：通过多头潜在注意力（MLA）与细粒度专家混合（DeepSeekMoE），如何在算力、内存与性能的不可能三角中实现优雅突围。
+  A deep dissection of the DeepSeek-V2 architecture revolution: how Multi-head Latent Attention (MLA) and fine-grained Mixture of Experts (DeepSeekMoE) achieve an elegant breakthrough in the impossible triangle of compute, memory, and performance.
 ---
 
-请暂时忘掉那些堆砌参数、炫耀算力的“暴力美学”。今天，我们要用一把名为“第一性原理”的手术刀，庖丁解牛般拆解这个叫做 DeepSeek-V2 的“怪物”。我们的目标不是膜拜，而是理解——理解它背后的思想，理解那群工程师如何“解放思想，实事求是”，在算力、内存和性能的“不可能三角”中，找到了一条优雅的、教科书级别的突围之路。
+Please temporarily forget those models that pile up parameters and flaunt compute power—the "brute-force aesthetics." Today, we will use a scalpel called "first principles" to dissect, with the precision of a master butcher (庖丁解牛), this creature called DeepSeek-V2. Our goal is not worship, but understanding—understanding the ideas behind it, understanding how those engineers "emancipated their minds and sought truth from facts" (解放思想，实事求是), finding an elegant, textbook-level escape route from the impossible triangle of compute, memory, and performance.
 
-我将用最通俗的语言，保证每一位本科生都能听懂，带你领略这场发生在硅基大脑深处的架构革命。这将是一场超过一万个 Token 的知识盛宴，请系好安全带。
+I will use the most accessible language, ensuring every undergraduate can follow, to guide you through this architecture revolution unfolding deep inside silicon brains. This will be a knowledge feast exceeding ten thousand tokens—please fasten your seatbelt.
 
-### **引言：巨兽的囚笼与两位“侠客”的诞生**
+### **Introduction: The Behemoth's Cage and the Birth of Two "Paladins"**
 
-故事要从所有大语言模型(LLM)的“囚笼”说起。想象一下，一个拥有 2360 亿参数的模型，就像一个大脑里有 2360 亿个神经元的巨人。让它思考一次，成本是惊人的。这主要体现在两大瓶颈上：
+The story begins with the "cage" that confines all large language models (LLMs). Imagine a model with 236 billion parameters, like a giant with 236 billion neurons in its brain. The cost of making it think once is staggering. This manifests primarily in two bottlenecks:
 
-1.  **推理瓶颈(KV Cache 危机)：** 这是 LLM 在和你对话时，记忆并回答长文本的主要卡点。标准的“多头注意力(MHA)”机制，就像一个做会议记录的秘书，必须事无巨细地记下每一个词的“键(Key)”和“值(Value)”，以便回头查阅。当对话长达一本书时，这个“会议记录本”（就是 KV Cache）会膨胀到比模型本身还大，瞬间撑爆显卡那可怜的显存。这就是为什么你的 AI 聊天机器人回答长问题时又慢又卡。
+1. **Inference bottleneck (KV Cache crisis)**: This is the main chokepoint when an LLM memorizes and responds to long texts during conversation. The standard "Multi-Head Attention (MHA)" mechanism is like a secretary taking meeting minutes, who must record every detail of every word's "Key" and "Value" for later reference. When a conversation extends to the length of a book, this "minute book" (the KV Cache) swells larger than the model itself, instantly overwhelming the GPU's precious memory. This is why your AI chatbot becomes slow and laggy when answering long questions.
 
-2.  **训练瓶颈（成本地狱）：** 训练一个巨大的、稠密激活的模型，意味着每个 token 的数据都要唤醒所有 2360 亿个参数。这是对算力的极度奢侈的挥霍。训练这样一个模型，电费和 GPU 的折旧费，足以让一个中小型公司财务破产。
+2. **Training bottleneck (cost hell)**: Training a massive, densely activated model means every token's data must activate all 236 billion parameters. This is an extravagant squandering of compute power. The electricity and GPU depreciation costs of training such a model could bankrupt a small-to-medium company.
 
-面对这两个瓶颈，业界普遍的做法是“妥协”。为了解决 KV Cache 问题，人们发明了 MQA（多查询注意）和 GQA（分组查询注意），它们让多个查询头共享一组 KV,就像多个部门共用一本会议记录。但这会降低模型的理解精度，相当于你让所有部门都用同一份粗略的纪要，难免会有部门觉得信息不够用。
+Facing these two bottlenecks, the industry's prevailing approach has been "compromise." To solve the KV Cache problem, people invented MQA (Multi-Query Attention) and GQA (Grouped-Query Attention), which let multiple query heads share one set of KV, like multiple departments sharing one meeting minute book. But this reduces the model's understanding precision—it's like making all departments use the same rough summary, and inevitably some departments will find the information insufficient.
 
-为了解决训练成本问题，有人想到了稀疏模型，比如 MoE（混合专家），将庞大的模型分割成多个“专家”小模型，每次只激活其中一部分。这就像一个大公司，每次任务只召集相关的几个专家部门开会，大大节省了全员大会的成本。但传统的 MoE,如 GShard,专家分工不够精细，容易造成“知识冗余”，而且专家间的通信和负载均衡也是个大麻烦。
+To solve the training cost problem, some turned to sparse models, like MoE (Mixture of Experts), splitting the massive model into multiple "expert" sub-models and activating only a portion each time. This is like a large corporation convening only the relevant expert departments for each task, greatly saving the cost of all-staff meetings. But traditional MoE, like GShard, has insufficiently fine expert division, easily causing "knowledge redundancy," and inter-expert communication and load balancing are major troubles.
 
-DeepSeek-V2 的破局点就在于：**它不妥协。** 它选择了“既要、又要、还要”的艰难模式，并创造性地发明了两个“侠客”来解决这一切：
-*   **侠客甲：多头潜在注意力(MLA)。** 目标是干掉 KV Cache 这个膨胀的“会议记录本”。
-*   **侠客乙：DeepSeekMoE。** 目标是建立一个极其高效、分工明确的“专家委员会”，实现极致的成本控制。
+DeepSeek-V2's breakthrough lies in: **it does not compromise.** It chose the difficult path of "wanting everything, and more," and creatively invented two "paladins" to solve it all:
+* **Paladin A: Multi-head Latent Attention (MLA)**. The goal is to eliminate the bloated "minute book" of KV Cache.
+* **Paladin B: DeepSeekMoE**. The goal is to build an extremely efficient, clearly divisioned "expert committee," achieving ultimate cost control.
 
-这两个核心创新，让 DeepSeek-V2 实现了惊人的数据：
-*   相比上一代 DeepSeek 67B,**训练成本节省了 42.5%**。
-*   **KV 缓存减少了惊人的 93.3%**。
-*   **最大生成吞吐量提升了 5.76 倍**。
+These two core innovations enabled DeepSeek-V2 to achieve astonishing metrics:
+* Compared to the previous generation DeepSeek 67B, **training costs were saved by 42.5%**.
+* **KV cache was reduced by a staggering 93.3%**.
+* **Maximum generation throughput increased by 5.76x**.
 
-而这一切，是在模型总参数达到 2360 亿（每次激活 21B），并支持 128K 上下文长度的前提下实现的。下面，我们就走进这二位侠客的世界，看看它们是如何改变江湖规则的。
-
----
-
-### **第二章：侠客甲——MLA,一场对“会议记录本”的算力革命**
-
-要理解 MLA 的妙处，必须先吃透它的对手——标准的多头注意力(MHA)。我们分步拆解。
-
-#### **1. 前情提要：MHA——那个事无巨细的“笨”秘书**
-
-假设我们的大脑在处理第 $t$ 个词(token)，它的向量表示是 $\mathbf{h}_t$。MHA 这位秘书会做三件事来理解这个词：
-
-1.  **生成查询(Query)、键(Key)和值(Value)**：通过三个权重矩阵 $W_Q$, $W_K$, $W_V$，将 $\mathbf{h}_t$ 映射成三个向量 $\mathbf{q}_t$, $\mathbf{k}_t$, $\mathbf{v}_t$。
-    *   $\mathbf{q}_t$ (查询): “我”想知道什么？比如：“我”前面有哪些形容词?
-    *   $\mathbf{k}_t$ (键): “我”可以为别人提供什么？比如：“我”是一个形容词。
-    *   $\mathbf{v}_t$ (值): “我”实际包含什么信息？比如：“美丽”这个具体的词意。
-2.  **多头切分**：为了从不同角度理解，把 $\mathbf{q}_t$, $\mathbf{k}_t$, $\mathbf{v}_t$ 都切成 128 份（记为 $n_h=128$ 个头，每头维度 $d_h=128$）。
-3.  **注意力计算**：第 $i$ 个头的 $\mathbf{q}_{t,i}$ 会和前面所有词的 $\mathbf{k}_{j,i}$ 做亲密度计算（点积），然后用 Softmax 归一化得到权重，再用这个权重去对前面的 $\mathbf{v}_{j,i}$ 做加权平均。这就理解了“我”应该重点关注前面的哪些词。
-4.  **输出**：把所有头的计算结果拼接起来，再通过一个输出矩阵 $W_O$，得到最终的输出。
-
-**关键来了,KV Cache 是什么？**
-为了加速生成，在推理第 $t$ 个词时，前面 1 到 $t-1$ 个词的所有 $\mathbf{k}$ 和 $\mathbf{v}$ 向量都会被缓存起来，不用重新计算。这个缓存区就是 KV Cache。对于每个 token,MHA 需要缓存 $2 \times n_h \times d_h = 2 \times 128 \times 128 = 32768$ 个元素（假设使用标准精度）。当层数 $l=60$，序列长度达到 128K 时，这个缓存量的规模是 $32768 \times 60 \times 131072$，这是一个天文数字。
-
-MLA 这位“侠客”出场了，它觉得 MHA 太笨了，全程拿着一本厚厚的、充满冗余的会议记录。
-
-#### **2. MLA 核心内功：低秩键值联合压缩**
-
-MLA 的中心思想是：**会议记录只需要记要点，不需要记全文。** 所有的 $\mathbf{k}$ 和 $\mathbf{v}$ 都可以从一个极度压缩的“潜在向量”(latent vector)里恢复出来。
-
-这就是“低秩联合压缩”的含义：
-对于一个 token $\mathbf{h}_t$,MLA 做了一件惊人的事：**它把 $K$ 和 $V$ 的源头压进了一个维度极小的“潜空间”向量 $\mathbf{c}_t^{KV}$ 中。**
-*   $\mathbf{c}_t^{KV} = W^{DKV} \mathbf{h}_t$
-    *   $W^{DKV}$ 是一个下投影矩阵，把维度为 $d=5120$ 的 $\mathbf{h}_t$，压缩到一个极小的维度 $d_c=512$。**压缩率高达 10 倍！**
-*   $\mathbf{k}_t^C = W^{UK} \mathbf{c}_t^{KV}$， $\mathbf{v}_t^C = W^{UV} \mathbf{c}_t^{KV}$
-    *   $W^{UK}$ 和 $W^{UV}$ 是两个上投影矩阵，在需要计算注意力的时候，再将这个压缩后的 $\mathbf{c}_t^{KV}$ 恢复成完整的键向量 $\mathbf{k}_t^C$ 和值向量 $\mathbf{v}_t^C$。
-
-**这就是 MLA 能大幅削减 KV Cache 的秘密！**
-在推理阶段，我们不再需要缓存那个巨大的 $\mathbf{k}_t$ 和 $\mathbf{v}_t$ 了！我们只需要缓存那个压缩后的、小小的潜在向量 $\mathbf{c}_t^{KV}$ !它的维度只有 $d_c = 512$。
-现在，每个 token 的 KV 缓存元素数量变成了 $(d_c + d_h^R) \times l$，其中 $d_h^R$ 是我们马上要讲到的解耦查询和键的维度，为 64。总数是 $(512 + 64) \times 60 = 34560$，相比 MHA 的 $32768 \times l$，当 $l=60$ 时仅为原来的 **2.2%** 左右，这与报告中“减少 93.3%”的数据吻合。
-
-这就像你的秘书，以前每次开会都要带一箱活页夹，里面是完整的会议速记。现在他只带一个巴掌大的小本子，上面只记了关键词和要点索引。当需要引用某段速记时，他可以根据索引瞬间还原出完整内容（通过 $W^{UK}$ 和 $W^{UV}$）。
-
-**更绝的还在后面**。在通常的推理中，我们需要从 $\mathbf{c}_t^{KV}$ 恢复出 $\mathbf{k}_t^C$ 和 $\mathbf{v}_t^C$，然后再与 $\mathbf{q}$ 进行计算。但 MLA 利用矩阵乘法的结合律，可以将 $W^{UK}$ 吸收进 $W_Q$ 矩阵，将 $W^{UV}$ 吸收进 $W_O$ 矩阵。这意味着，**在实际推理计算注意力的时候，我们甚至根本不需要显式地计算出 $\mathbf{k}$ 和 $\mathbf{v}$ 向量！** 我们可以直接从 $\mathbf{c}_t^{KV}$ 跳到最终的注意力结果。这进一步避免了计算开销，简直是神来之笔。
-
-此外,MLA 也对查询向量 $\mathbf{q}$ 进行了同样的低秩压缩（$\mathbf{c}_t^Q$），虽然这不能减少 KV Cache,但可以大幅减少训练过程中的激活值内存，让训练大模型更省显存。这体现了 MLA 设计中的“一鱼多吃”的工程美学。
-
-#### **3. MLA 的附加武功：解耦旋转位置嵌入**
-
-故事到这里还没完。MLA 遇到了一个强大的“反贼”——旋转位置嵌入(RoPE)。
-
-RoPE 是现代 LLM 标配，它能通过一种巧妙的旋转变换，把 Token 的位置信息注入到 $\mathbf{q}$ 和 $\mathbf{k}$ 向量中，让模型理解词的顺序。但问题来了,RoPE 的操作对 $\mathbf{q}$ 和 $\mathbf{k}$ 是“位置敏感”的。
-
-如果我们在压缩后的 $\mathbf{k}_t^C$ 上直接施加 RoPE,会发生什么?RoPE 矩阵就像一个无法消去的“耦合剂”，它会夹在 $W^{UK}$ 和 $W_Q$ 之间。由于矩阵乘法不满足交换律，夹了一个 RoPE 矩阵后，我们前面提到的“吸收”大法就彻底失效了！为了计算注意力，我们必须在每一步推理时，重新为所有历史 Token 计算完整的、带上了 RoPE 的 $\mathbf{k}$ 向量。这就好比你的秘书被迫要为每一次新的发言，都重新整理一遍整本会议记录。效率瞬间被打回原形。
-
-这就是 MLA 面临的“RoPE 不兼容”难题。DeepSeek-V2 的解决方案堪称精妙：**解耦 RoPE。**
-
-**他们决定，把为 RoPE 提供位置信息的功能，从压缩后的 KV 中完全剥离出来。** 他们创建了一套额外的、独立的查询和键，专门用来扛 RoPE 这个“标记笔”：
-*   $\mathbf{q}_t^R$：一个解耦的查询，专门携带 RoPE 信息。
-*   $\mathbf{k}_t^R$：一个**在所有查询头之间共享**的解耦的键，专门携带 RoPE 信息。
-
-最终，每个注意力头使用的完整查询和键，变成了两个部分的拼接(concat)：
-*   $\mathbf{q}_{t,i} = [\mathbf{q}_{t,i}^C ; \mathbf{q}_{t,i}^R]$：一部分是来自潜空间的、不携带 RoPE 的内容查询，另一部分是携带 RoPE 的独立位置查询。
-*   $\mathbf{k}_{t,i} = [\mathbf{k}_{t,i}^C ; \mathbf{k}_t^R]$：一部分是来自潜空间的、不携带 RoPE 的内容键，另一部分是**共享的**、携带 RoPE 的独立位置键。
-
-这个设计一举两得：
-1.  **完美兼容 RoPE**：RoPE 被“隔离”在了 $\mathbf{q}_t^R$ 和 $\mathbf{k}_t^R$ 这两个附加组件上。
-2.  **保住压缩红利**：核心的潜空间 KV（$\mathbf{c}_t^{KV}$）及其恢复出的 $\mathbf{k}_t^C$ 和 $\mathbf{v}_t^C$，完全不受 RoPE 的“污染”。$W^{UK}$ 和 $W^{UV}$ 依然可以被“吸收”，我们的 KV 缓存优化和计算优化依然有效！
-
-这个设计虽然在 KV 缓存中增加了一份共享的 $\mathbf{k}_t^R$（其尺寸 $d_h^R=64$），但相比它带来的位置理解能力和保留的压缩优势，这点代价是完全值得的。MLA 的 KV 缓存最终等于 $(d_c + d_h^R) \times l$，这效果相当于把 KV 缓存的大小压到了仅相当于 2.25 个分组的 GQA 水平，但性能却比 MHA 还强！
+And all this was achieved with total model parameters reaching 236 billion (21B activated per token), supporting 128K context length. Let us now enter the world of these two paladins and see how they changed the rules of the game.
 
 ---
 
-### **第三章：侠客乙——DeepSeekMoE,分工明确的“专家议会”**
+### **Chapter 2: Paladin A—MLA, a Compute Revolution Against the "Minute Book"**
 
-如果说 MLA 是在注意力机制上做“减法”和“解耦”，那么 DeepSeekMoE 就是在 FFN（前馈神经网络）上做“精细化分工”。FFN 是每个 Transformer 块里处理信息、提取知识的“劳工”。一个巨大的、稠密的 FFN 就像一个啥都会但啥都不精的“万能工匠”，每次干活都要全员出动，效率低下且成本高昂。
+To appreciate MLA's brilliance, we must first thoroughly understand its opponent—standard Multi-Head Attention (MHA). Let us dissect it step by step.
 
-MoE 的思路是，把一个大 FFN 拆成 N 个小 FFN（“专家”），每个输入只由其中 top-K 个专家处理。DeepSeekMoE 将这个思想推向了极致。
+#### **1. Background: MHA—That Omnibus "Clumsy" Secretary**
 
-#### **1. 两大核心设计：细粒度分割与共享专家**
+Suppose our brain is processing the $t$-th word (token), with vector representation $\mathbf{h}_t$. The MHA secretary does three things to understand this word:
 
-*   **细粒度专家分割**：传统的 MoE,如 GShard,专家数量少，每个专家的规模还很大。这就像一个公司只有几个大的、职责不清的部门。DeepSeekMoE 反其道而行之，它让专家的数量非常多（比如 160 个），但每个专家的规模变得很小（细粒度）。**这就像是把“万能工匠”拆解成一个由 160 位“手艺人”组成的庞大工会。** 这种设计极大地提升了专家的专业化程度。一位专家可能专门处理“5W1H”问句，另一位可能精通“否定逻辑”，还有一位可能对“虚拟语气”特别敏感。分工越细，每个专家对自己领域内的知识学得就越精准，知识冗余度就越低。
-*   **共享专家分离**：在一个庞大的专家工会里，总有些基础性的、高频出现的知识是大家都需要用到的，比如基本的语法常识。如果让每个“路由专家”都自己去学一遍，就是一种巨大的浪费和冗余。DeepSeekMoE 聪明地引入了“共享专家”。**这些共享专家是常驻的，所有输入 token 都会被它们处理。** 这就像工会下设了一个“基础知识培训中心”，所有新手艺人（路由专家）都从中学习，但不必自己再教一遍。公式表达了这一点：$\mathbf{h}_t' = \mathbf{u}_t + \sum \text{FFN}_i^{shared}(\mathbf{u}_t) + \sum (g_{i,t} \times \text{FFN}_i^{routed}(\mathbf{u}_t))$，输出 = 输入 + 共享专家的知识 + 被激活的路由专家的知识。
+1. **Generate Query, Key, and Value**: Through three weight matrices $W_Q$, $W_K$, $W_V$, map $\mathbf{h}_t$ into three vectors $\mathbf{q}_t$, $\mathbf{k}_t$, $\mathbf{v}_t$.
+   * $\mathbf{q}_t$ (Query): What does "I" want to know? E.g.: What adjectives precede "me"?
+   * $\mathbf{k}_t$ (Key): What can "I" offer others? E.g.: "I" am an adjective.
+   * $\mathbf{v}_t$ (Value): What information does "I" actually contain? E.g.: The specific meaning of "beautiful."
+2. **Multi-head splitting**: To understand from different perspectives, slice $\mathbf{q}_t$, $\mathbf{k}_t$, $\mathbf{v}_t$ into 128 portions (denoted as $n_h=128$ heads, each with dimension $d_h=128$).
+3. **Attention computation**: The $i$-th head's $\mathbf{q}_{t,i}$ computes affinity (dot product) with all preceding words' $\mathbf{k}_{j,i}$, then normalizes via Softmax to obtain weights, and uses these weights to compute a weighted average of the preceding $\mathbf{v}_{j,i}$. This determines which preceding words "I" should focus on.
+4. **Output**: Concatenate all heads' results and pass through an output matrix $W_O$ to get the final output.
 
-这个架构让 DeepSeekMoE 相比传统 MoE,能以更少的激活参数和总算力，达到更强的性能，因为它让每一份算力都投入到了最专业的“人才”和最基础的“设施”上，实现了极致的经济性。
+**Now the crucial question: what is KV Cache?**
+To accelerate generation, when inferring the $t$-th word, all $\mathbf{k}$ and $\mathbf{v}$ vectors from words 1 through $t-1$ are cached to avoid recomputation. This cache is the KV Cache. For each token, MHA needs to cache $2 \times n_h \times d_h = 2 \times 128 \times 128 = 32768$ elements (assuming standard precision). When layer count $l=60$ and sequence length reaches 128K, the cache volume is $32768 \times 60 \times 131072$—an astronomical number.
 
-#### **2. 平衡的艺术：三把“尚方宝剑”**
+MLA, our "paladin," enters the scene and finds MHA too clumsy, holding a thick, redundant minute book throughout.
 
-这么多专家并行工作，最大的挑战是“负载均衡”和“通信开销”。如果某个专家特别受欢迎，所有任务都涌向他，那他所在的设备就会成为瓶颈（“热点”），其他专家和设备则在空转，训练速度和效率会大幅下降，甚至出现“路由崩溃”。
+#### **2. MLA's Core Inner Art: Low-Rank Key-Value Joint Compression**
 
-为此,DeepSeek-V2 祭出了四把尚方宝剑：
+MLA's central idea is: **meeting minutes only need to record key points, not the full transcript.** All $\mathbf{k}$ and $\mathbf{v}$ can be recovered from an extremely compressed "latent vector."
 
-1.  **设备受限路由**：
-    *   **问题**：在 MoE 训练中,160 个专家分布在 8 台设备上（$D=8$）。如果不加限制，一个 token 可能要找分布在所有 8 台设备上的专家。这会引发极其高昂的跨设备通信(all-to-all 通信)。
-    *   **解法**：硬性规定每个 token 最多只能送到 3 个（$M=3$）设备上。具体做法是，先在所有设备中，找出其内部专家与该 token 亲密度最高的前 3 个设备。然后，仅在这 3 个设备里的专家中进行 top-K 选择。
-    *   **效果**：将每个 token 的通信量上界从 8 减到了 3,极大地降低了通信复杂度。且实验证明当 $M \ge 3$ 时，性能与无限制路由几乎持平。这就像规定一个任务最多只能跨 3 个部门协作，大幅减少沟通成本，同时发现其实根本用不到 7、8 个部门。
+This is the meaning of "low-rank joint compression":
+For a token $\mathbf{h}_t$, MLA does something astonishing: **it compresses the source of K and V into a minimal-dimension "latent space" vector $\mathbf{c}_t^{KV}$**.
+* $\mathbf{c}_t^{KV} = W^{DKV} \mathbf{h}_t$
+  * $W^{DKV}$ is a down-projection matrix, compressing $\mathbf{h}_t$ with dimension $d=5120$ down to a tiny dimension $d_c=512$. **Compression ratio of 10x!**
+* $\mathbf{k}_t^C = W^{UK} \mathbf{c}_t^{KV}$, $\mathbf{v}_t^C = W^{UV} \mathbf{c}_t^{KV}$
+  * $W^{UK}$ and $W^{UV}$ are two up-projection matrices, which, when attention computation is needed, restore this compressed $\mathbf{c}_t^{KV}$ back into full key vector $\mathbf{k}_t^C$ and value vector $\mathbf{v}_t^C$.
 
-2.  **三管齐下的辅助平衡损失**：仅仅限制路由范围还不够，还需要引导专家们“主动”做到负载均衡。报告引入了三个层面的平衡损失函数，像无形的指挥棒，嵌入在模型训练目标中：
-    *   **专家级平衡损失** : $\mathcal{L}_{ExpBal}$，惩罚那些“热门”或“冷门”的单个专家，鼓励每个专家处理大致相等数量的 Token.
-    *   **设备级平衡损失** : $\mathcal{L}_{DevBal}$，惩罚那些计算负载不均的设备，确保 8 张 GPU 的工作量大致相等。
-    *   **通信平衡损失** : $\mathcal{L}_{CommBal}$，这是非常精巧的一步。设备受限路由已经保证了每张 GPU 的“发送”量（最多发送 $M$ 份数据），但它无法保证“接收”量。如果某张 GPU 特别受欢迎，它会收到远超其他设备的专家请求，导致通信阻塞。这个损失函数就是为了惩罚这种接收不均，鼓励每张 GPU 接收的信息量也大致均衡。
+**This is MLA's secret to drastically cutting KV Cache!**
+During inference, we no longer need to cache those huge $\mathbf{k}_t$ and $\mathbf{v}_t$! We only need to cache that compressed, tiny latent vector $\mathbf{c}_t^{KV}$! Its dimension is only $d_c = 512$.
+Now, each token's KV cache element count becomes $(d_c + d_h^R) \times l$, where $d_h^R$ is the dimension of the decoupled query and key we will discuss shortly, at 64. The total is $(512 + 64) \times 60 = 34560$, compared to MHA's $32768 \times l$, when $l=60$ it is only about **2.2%** of the original, which aligns with the report's "93.3% reduction" figure.
 
-    这三个损失函数，像三个精密的配重块，从专家个体、计算节点、通信流量三个维度，共同维系着这个庞大专家议会的稳定运转。
+It's like your secretary, who previously had to bring a box of loose-leaf folders containing complete meeting transcripts to every meeting, now only brings a palm-sized notebook with keywords and key-point indexes. When a transcript passage needs to be referenced, he can instantly reconstruct the full content from the indexes (via $W^{UK}$ and $W^{UV}$).
 
-3.  **Token 丢弃策略**：
-    *   **问题**：辅助损失是实现“软平衡”，并不能绝对保证负载 100% 完美。总有少数时刻，某些设备会在瞬间超载。
-    *   **解法**：一个简单而有效的“硬”手段。训练时，为每个设备设定一个计算预算（容量因子=1.0,即刚好能接收平均量的 Token）。当发送给某设备的 token 数超出预算时，就无情丢弃那些与专家亲密度最低的 token.
-    *   **人性化的细节**：为确保训练和推理的一致性，以及避免极端情况，他们保证约 10% 的训练序列中的 token 永远不会被丢弃。这让模型学会了即使在“资源受限”的情况下，如何利用最重要的专家进行计算，同时确保在推理时，你可以灵活选择开启或关闭丢弃策略，而模型性能不会出现断崖式下跌。
+**The brilliance continues.** In typical inference, we need to recover $\mathbf{k}_t^C$ and $\mathbf{v}_t^C$ from $\mathbf{c}_t^{KV}$, then compute with $\mathbf{q}$. But MLA leverages the associativity of matrix multiplication to absorb $W^{UK}$ into $W_Q$ and $W^{UV}$ into $W_O$. This means, **during actual inference attention computation, we don't even need to explicitly compute the $\mathbf{k}$ and $\mathbf{v}$ vectors!** We can jump directly from $\mathbf{c}_t^{KV}$ to the final attention result. This further avoids computational overhead—a stroke of genius.
+
+Additionally, MLA applies the same low-rank compression to the query vector $\mathbf{q}$ ($\mathbf{c}_t^Q$). While this doesn't reduce KV Cache, it can significantly reduce activation memory during training, making large model training more memory-efficient. This reflects MLA's "catching multiple fish with one net" (一鱼多吃) engineering aesthetics.
+
+#### **3. MLA's Additional Technique: Decoupled Rotary Position Embedding**
+
+The story doesn't end here. MLA encounters a powerful "rebel"—Rotary Position Embedding (RoPE).
+
+RoPE is standard in modern LLMs; through a clever rotation transformation, it injects token position information into $\mathbf{q}$ and $\mathbf{k}$ vectors, letting the model understand word order. But the problem is: RoPE's operation is "position-sensitive" for $\mathbf{q}$ and $\mathbf{k}$.
+
+If we directly apply RoPE on the compressed $\mathbf{k}_t^C$, what happens? The RoPE matrix acts like an uncancellable "coupling agent," sandwiched between $W^{UK}$ and $W_Q$. Since matrix multiplication is not commutative, inserting a RoPE matrix completely disables the aforementioned "absorption" technique! To compute attention, we must recompute full, RoPE-annotated $\mathbf{k}$ vectors for all historical tokens at every inference step. It's like your secretary being forced to reorganize the entire meeting minute book for every new utterance. Efficiency instantly regresses to the original problem.
+
+This is the "RoPE incompatibility" dilemma MLA faced. DeepSeek-V2's solution is brilliantly elegant: **Decoupled RoPE.**
+
+**They decided to completely strip the position-information function for RoPE out of the compressed KV.** They created an additional, independent set of query and key, specifically to carry the RoPE "marker pen":
+* $\mathbf{q}_t^R$: a decoupled query specifically carrying RoPE information.
+* $\mathbf{k}_t^R$: a **shared across all query heads** decoupled key specifically carrying RoPE information.
+
+Finally, the complete query and key used by each attention head becomes a concatenation (concat) of two parts:
+* $\mathbf{q}_{t,i} = [\mathbf{q}_{t,i}^C ; \mathbf{q}_{t,i}^R]$: one part is the content query from the latent space without RoPE, and the other is the independent position query carrying RoPE.
+* $\mathbf{k}_{t,i} = [\mathbf{k}_{t,i}^C ; \mathbf{k}_t^R]$: one part is the content key from the latent space without RoPE, and the other is the **shared** independent position key carrying RoPE.
+
+This design achieves two goals:
+1. **Perfect RoPE compatibility**: RoPE is "quarantined" on the $\mathbf{q}_t^R$ and $\mathbf{k}_t^R$ appendages.
+2. **Preserved compression dividends**: The core latent-space KV ($\mathbf{c}_t^{KV}$) and its recovered $\mathbf{k}_t^C$ and $\mathbf{v}_t^C$ are completely unpolluted by RoPE. $W^{UK}$ and $W^{UV}$ can still be "absorbed"; our KV cache optimization and computation optimization remain valid!
+
+Although this design adds a shared $\mathbf{k}_t^R$ to the KV cache (with dimension $d_h^R=64$), compared to the position-understanding capability it enables and the compression advantage it preserves, this small cost is entirely worthwhile. MLA's final KV cache equals $(d_c + d_h^R) \times l$, which effectively compresses the KV cache size down to the level of only 2.25 groups in GQA, yet with performance stronger than MHA!
 
 ---
 
-### **第四章：训练与微调——从原料到佳酿**
+### **Chapter 3: Paladin B—DeepSeekMoE, the "Expert Parliament" with Clear Division of Labor**
 
-有了 MLA 和 DeepSeekMoE 这两大精妙架构，只是奠定了“骨架”。要让 DeepSeek-V2 这个巨兽真正活起来，还需要庞大的高质量数据和精巧的训练与对齐方法。
+If MLA performs "subtraction" and "decoupling" on the attention mechanism, then DeepSeekMoE performs "fine-grained division of labor" on the FFN (Feed-Forward Network). The FFN is the "laborer" in each Transformer block that processes information and extracts knowledge. A massive, dense FFN is like an omnicompetent "jack-of-all-trades" (万能工匠) who masters nothing—every task requires full mobilization, inefficient and costly.
 
-#### **1. 预训练：数据是王道**
-*   **数据量**：8.1T tokens 的预训练语料。相比于上一代，扩展了数据量，尤其是中文数据量（比英文多 12%），打造了一个坚实的双语基座。
-*   **数据质量**：他们不仅在”回收“和”清洗“互联网数据上下了功夫，更重要的是通过改进过滤算法，剔除了大量无益数据，同时尽可能保留有价值数据。更关键的一步是，他们主动过滤掉了语料中的**争议性内容**，以消除来自特定地域文化的数据偏见。这导致了模型在 MMLU 的某些与特定文化价值观相关的子集上表现稍差，但这恰恰体现了他们“实事求是”地进行数据去偏的努力——不是去迎合某个标准答案，而是去追求不带有预设偏见的客观知识。这种价值观选择本身就值得深思。
-*   **长上下文扩展**：在 4K 长度上训练完成后，他们使用修改版的 YaRN 方法进行微调，仅用了 1000 步、32K 序列长度的训练，就**魔法般地**将上下文窗口撑到了 128K。报告中的“大海捞针”测试完美证明了模型在超长距离上信息抽取的能力。
+MoE's idea is to split one large FFN into N small FFNs ("experts"), with each input processed by only the top-K experts. DeepSeekMoE pushes this idea to its extreme.
 
-#### **2. 对齐训练：从能力到有用性**
-有了强大的基座模型，还要让它听话、有用、符合人类价值观。DeepSeek-V2 采用了两阶段对齐策略：
-*   **SFT（监督微调）**：收集了 150 万条高质量的对话实例，涵盖数学、代码、写作、推理、安全等。他们发现，数据的质量至关重要，且模型需要足够的数据量来习得特定技能(IFEval 的得分随 SFT 数据量不足而显著下降)，反驳了“少量 SFT 数据足够”的观点。
-*   **RL（强化学习）**：这是释放模型潜力的关键一步。他们采用了自研的 **GRPO 算法**，这是一种相比 PPO 更节省显存和计算的方法，因为它抛弃了与策略模型同等大小的 Critic 模型，通过组内输出的相对比较来估计基线。整个 RL 过程被创造性地分为两阶段：
-    1.  **推理对齐**：先用代码和数学的奖励模型 $\text{RM}_{reasoning}$ 进行优化，因为这类问题有明确的对错，可以持续提升模型的推理上限。
-    2.  **人类偏好对齐**：引入更复杂的多奖励框架，结合有用性 $\text{RM}_{helpful}$、安全性 $\text{RM}_{safety}$ 和规则 $\text{RM}_{rule}$ 三个奖励模型，引导模型生成既正确又让人满意的回答。
+#### **1. Two Core Designs: Fine-Grained Segmentation and Shared Experts**
 
-**这里有一个非常深刻的洞察：** 他们观察到，对推理数据（代码/数学）的 RL 训练，和对通用数据的 RL 训练，表现出完全不同的特性。推理能力可以随着训练步数的增加而持续提升，而通用偏好对齐则更快达到平台期。因此将 RL 拆分成两个阶段，是对模型能力发展阶段性的深刻理解。
+* **Fine-grained expert segmentation**: Traditional MoE, like GShard, has few experts, each still quite large. This is like a company with only a few large, ambiguously responsible departments. DeepSeekMoE does the opposite: it makes the number of experts very large (e.g., 160), but each expert becomes very small (fine-grained). **This is like decomposing the "jack-of-all-trades" into a vast guild of 160 "craftspeople" (手艺人).** This design greatly enhances expert specialization. One expert may specialize in "5W1H" interrogatives, another may excel at "negation logic," and yet another may be particularly sensitive to "subjunctive mood." The finer the division, the more precisely each expert learns its domain knowledge, and the lower the knowledge redundancy.
+
+* **Shared expert separation**: In a vast expert guild, there is always foundational, high-frequency knowledge that everyone needs—such as basic grammar. If every "routed expert" has to learn this independently, it's a massive waste and redundancy. DeepSeekMoE cleverly introduces "shared experts." **These shared experts are permanent; all input tokens are processed by them.** It's like the guild setting up a "foundational knowledge training center," where all apprentice craftspeople (routed experts) learn from it without having to teach it themselves. The formula expresses this: $\mathbf{h}_t' = \mathbf{u}_t + \sum \text{FFN}_i^{shared}(\mathbf{u}_t) + \sum (g_{i,t} \times \text{FFN}_i^{routed}(\mathbf{u}_t))$, output = input + shared experts' knowledge + activated routed experts' knowledge.
+
+This architecture enables DeepSeekMoE, compared to traditional MoE, to achieve stronger performance with fewer activated parameters and less total compute, because every unit of compute is invested in the most specialized "talent" and the most foundational "infrastructure," achieving ultimate economy.
+
+#### **2. The Art of Balance: Three "Sword of Authority" (尚方宝剑)**
+
+With so many experts working in parallel, the greatest challenge is "load balancing" and "communication overhead." If one expert is especially popular and all tasks flock to it, its device becomes a bottleneck ("hotspot"), while other experts and devices idle—training speed and efficiency plummet, and "routing collapse" may even occur.
+
+For this, DeepSeek-V2 deployed four swords of authority:
+
+1. **Device-Limited Routing**:
+   * **Problem**: In MoE training, 160 experts are distributed across 8 devices ($D=8$). Without restriction, a token might need to find experts across all 8 devices. This triggers extremely costly cross-device (all-to-all) communication.
+   * **Solution**: Hard-limit each token to at most 3 devices ($M=3$). Specifically: first identify the 3 devices whose internal experts have the highest affinity with the token, then perform top-K selection only among experts on those 3 devices.
+   * **Effect**: Reduces each token's communication upper bound from 8 to 3, greatly lowering communication complexity. Experiments show that when $M \ge 3$, performance nearly matches unrestricted routing. It's like limiting a task to cross-department collaboration with at most 3 departments—drastically reducing coordination costs, and discovering you never actually needed 7 or 8 departments.
+
+2. **Three-pronged Auxiliary Balance Loss**: Just limiting routing scope isn't enough; we must also guide experts to "proactively" achieve load balance. The report introduces three levels of balance loss functions, like invisible batons, embedded in the model's training objective:
+   * **Expert-level balance loss**: $\mathcal{L}_{ExpBal}$, penalizes "hot" or "cold" individual experts, encouraging each expert to process roughly equal numbers of tokens.
+   * **Device-level balance loss**: $\mathcal{L}_{DevBal}$, penalizes devices with uneven computational load, ensuring the 8 GPUs have roughly equal workloads.
+   * **Communication balance loss**: $\mathcal{L}_{CommBal}$, a very elegant step. Device-limited routing already guarantees each GPU's "send" volume (at most $M$ data portions), but it cannot guarantee the "receive" volume. If one GPU is especially popular, it receives far more expert requests than other devices, causing communication congestion. This loss function penalizes such receive imbalance, encouraging each GPU to also receive roughly balanced information volumes.
+
+   These three loss functions, like three precision counterweights, maintain the stable operation of this vast expert parliament from three dimensions: expert individuals, compute nodes, and communication traffic.
+
+3. **Token Dropping Strategy**:
+   * **Problem**: Auxiliary losses achieve "soft balancing" and cannot absolutely guarantee 100% perfect load. Occasionally, some devices briefly overload.
+   * **Solution**: A simple and effective "hard" measure. During training, set a compute budget per device (capacity factor = 1.0, i.e., just enough to receive the average token count). When tokens sent to a device exceed the budget, ruthlessly drop those with lowest expert affinity.
+   * **Humanizing detail**: To ensure training-inference consistency and avoid extremes, they guarantee that in about 10% of training sequences, tokens are never dropped. This lets the model learn how to compute using the most important experts even under "resource constraints," while ensuring that at inference time, you can flexibly enable or disable the dropping strategy without catastrophic performance drops.
 
 ---
 
-### **第五章：总结与复盘——DeepSeek-V2 的价值观与方法论**
+### **Chapter 4: Training and Fine-tuning—From Raw Material to Fine Wine**
 
-极客们，同学们，我们的“庖丁解牛”之旅到此结束。现在我们不谈具体数字，来复盘一下 DeepSeek-V2 究竟带给我们什么启示。
+With MLA and DeepSeekMoE, these two elegant architectures, only the "skeleton" is established. To make the DeepSeek-V2 behemoth truly live, it still needs massive high-quality data and sophisticated training and alignment methods.
 
-**1. “实事求是”的极客精神**
-DeepSeek-V2 的每一个创新，都不是为了发论文而炫技，而是直面现实问题，追求第一性原理的解决。
-*   **面对推理瓶颈**，他们没有停留在 MQA 和 GQA 的“伤敌一千，自损八百”的妥协，而是深入研究了 KV Cache 的本质，发现大部分信息是冗余的，从而大胆提出了低秩压缩的 MLA。这种“从源头砍掉 90% 不必要存储”的思路，远比在 MHA 架构上小修小补要彻底。
-*   **面对训练成本瓶颈**，他们不满足于传统 MoE 的粗放分工，而是通过“细粒度分割”和“共享专家隔离”来提升每个参数的知识密度。这就像在说：“我们不只要用更少的专家，我们还要让每一个专家都成为无可替代的、最高效的领域大师。”
-*   **面对 RoPE 不兼容问题**，他们没有选择绕道走（比如放弃 RoPE 或强行耦合），而是通过“解耦”这一天才设计，将内容和位置干净利落地分离，保全了各项优化。这是典型的“计算机科学难题加一层抽象就解决”的哲学胜利。
+#### **1. Pre-training: Data Is King**
+* **Data volume**: 8.1T tokens of pre-training corpus. Compared to the previous generation, they expanded data volume, especially Chinese data (12% more than English), building a solid bilingual foundation.
+* **Data quality**: They not only invested effort in "recycling" and "cleaning" internet data, but more importantly improved filtering algorithms to remove large amounts of unhelpful data while preserving as much valuable data as possible. A more crucial step: they proactively filtered out **controversial content** from the corpus to eliminate data bias from specific regional cultures. This caused the model to perform slightly worse on some MMLU subsets related to specific cultural values, but this precisely reflects their "seeking truth from facts" (实事求是) effort in data de-biasing—not迎合 (迎合) a standard answer, but pursuing objective knowledge free from preset biases. This values choice itself deserves deep reflection.
+* **Long-context extension**: After training at 4K length, they used a modified YaRN method for fine-tuning, with only 1000 steps at 32K sequence length, **magically** extending the context window to 128K. The "needle in a haystack" (大海捞针) test in the report perfectly proved the model's long-range information extraction capability.
 
-**2. “信达雅”的工程实现**
-这份技术报告的每一个数字背后，都是极致的工程优化。从为 MLA 专门优化的 FlashAttention-2 版本，到重叠共享专家计算与 All-to-All 通信，再到定制化的 CUDA 内核，以及对 16 位流水线并行、8 位专家并行、ZeRO-1 数据并行的精细设计。这不是单纯的实验室模型，而是一个从设计之初就面向真实部署、成本可控的工业级艺术品。
+#### **2. Alignment Training: From Capability to Utility**
+With a strong base model, it must also be obedient, useful, and aligned with human values. DeepSeek-V2 adopted a two-stage alignment strategy:
+* **SFT (Supervised Fine-Tuning)**: Collected 1.5 million high-quality dialogue instances covering math, code, writing, reasoning, safety, etc. They found data quality is paramount, and the model needs sufficient data volume to acquire specific skills (IFEval scores drop significantly with insufficient SFT data), refuting the claim that "a small amount of SFT data is enough."
+* **RL (Reinforcement Learning)**: This is the key step to unlock model potential. They adopted their self-developed **GRPO algorithm**, which is more memory- and compute-efficient than PPO because it discards the Critic model of equal size to the policy model, estimating baselines through relative comparison of outputs within a group. The entire RL process was creatively split into two stages:
+   1. **Reasoning alignment**: First optimize using code and math reward models $\text{RM}_{reasoning}$, because such problems have clear right/wrong answers and can continuously push the model's reasoning ceiling.
+   2. **Human preference alignment**: Introduce a more complex multi-reward framework, combining helpfulness $\text{RM}_{helpful}$, safety $\text{RM}_{safety}$, and rule $\text{RM}_{rule}$—three reward models to guide the model toward generating answers that are both correct and satisfying.
 
-**3. 道与术的统一：解放思想**
-DeepSeek-V2 最大的贡献，是**在思想上的一次解放**。
-它打破了“高性能大模型必须是稠密模型”的思维定式，证明了稀疏 MoE 架构在工程上可以同时实现高性能和低成本。
-它打破了“降低 KV Cache 必须以牺牲性能为代价”的普遍认知，证明了通过架构创新(MLA)可以实现“既要降低显存，又要提升性能，还要兼容新技术”的三赢。
-它打破了“强化学习是人类偏好对齐的唯一正途”或“SFT 就够了”的二元争论，通过**两阶段 RL（推理+偏好）** 的实践，揭示了模型能力提升的阶段性规律，尤其是对推理能力的持续强化，为探索模型智能的上限打开了新的思路。他们甚至指出了“对齐税”的存在(RL 可能会损害某些标准基准的分数)，并坦诚这是需要平衡的未来工作，这种诚实和深入的自我剖析，在业界是稀缺而宝贵的。
+**Here is a profound insight**: They observed that RL training on reasoning data (code/math) and RL training on general data exhibit completely different characteristics. Reasoning ability can continuously improve with training steps, while general preference alignment reaches a plateau more quickly. Splitting RL into two stages reflects a deep understanding of the phased nature of model capability development.
 
-**4. 余音与展望**
-DeepSeek-V2 不是一个终点，而是一个新起点。它的局限性，如知识不更新、非事实生成、仅限于文本和双语等，是所有 LLM 的共同挑战。但更重要的是他们立下的下一步目标：性能对标 GPT-4、探索多模态、以及“将模型价值观与人类对齐，同时最小化人类监督”，这触及了 AI 安全的终极命题。
+---
 
-所以，当我们在 2024 年 6 月 1 日重新审视这份报告，我们看到的不是 2360 亿参数的死板数字，而是一种活的、进化的思想。它告诉我们：在通往通用人工智能的道路上，雄厚的资本和庞大的算力是风，但优雅的架构、深度的工程优化和实事求是的精神，才是决定航船能否持久远行的舵和帆。
+### **Chapter 5: Summary and Reflection—DeepSeek-V2's Values and Methodology**
 
-DeepSeek-V2,是极客们用智慧和心血，献给这个时代的一份名为“效率与平等”的厚礼。它的代码和模型是开源的，它的思想更是开源的。这，才是最激动人心的部分。
+Fellow geeks and students, our "master butcher's dissection" (庖丁解牛) journey concludes here. Now let us reflect on what DeepSeek-V2 really teaches us, beyond specific numbers.
+
+**1. The "Seek Truth from Facts" (实事求是) Geek Spirit**
+Every DeepSeek-V2 innovation was not about showing off for a paper, but about confronting real problems and pursuing first-principles solutions.
+* **Facing the inference bottleneck**, they didn't settle for MQA and GQA's "hurt the enemy a thousand, hurt yourself eight hundred" compromise, but deeply studied KV Cache's essence, discovering most information is redundant, and boldly proposed low-rank compression MLA. This "cut 90% unnecessary storage from the source" approach is far more thorough than tinkering with the MHA architecture.
+* **Facing the training cost bottleneck**, they weren't satisfied with traditional MoE's rough division of labor, but improved each parameter's knowledge density through "fine-grained segmentation" and "shared expert isolation." It's like saying: "We don't just want fewer experts; we want every expert to be an irreplaceable, maximally efficient domain master."
+* **Facing the RoPE incompatibility problem**, they didn't choose to bypass it (e.g., abandoning RoPE or forcing coupling), but through the genius "decoupling" design, cleanly separated content and position, preserving all optimizations. This is a classic philosophical victory of "adding one layer of abstraction solves the computer science problem."
+
+**2. "Faithfulness, Expressiveness, Elegance" (信达雅) Engineering Implementation**
+Behind every number in this technical report lies extreme engineering optimization. From the FlashAttention-2 version specifically optimized for MLA, to overlapping shared expert computation with All-to-All communication, to customized CUDA kernels, and the fine-grained design of 16-bit pipeline parallelism, 8-bit expert parallelism, and ZeRO-1 data parallelism. This is not merely a lab model—it's an industrial-grade artwork designed from inception for real deployment with controllable costs.
+
+**3. Unity of Way and Technique: Emancipating the Mind**
+DeepSeek-V2's greatest contribution is **an emancipation of thought**.
+It broke the assumption that "high-performance large models must be dense," proving that sparse MoE architecture can simultaneously achieve high performance and low cost in engineering.
+It broke the widespread belief that "reducing KV Cache must sacrifice performance," proving that through architectural innovation (MLA) one can achieve "reducing memory, improving performance, and remaining compatible with new techniques"—a triple win.
+It broke the binary debate of "RL is the only proper path for human preference alignment" or "SFT is enough," and through **two-stage RL (reasoning + preference)** practice, revealed the phased law of model capability improvement, especially the continuous strengthening of reasoning ability, opening new avenues for exploring the upper limits of model intelligence. They even pointed out the existence of an "alignment tax" (RL may damage certain standard benchmark scores) and candidly acknowledged this as future work requiring balance—this honesty and deep self-analysis is rare and precious in the industry.
+
+**4. Echoes and Prospects**
+DeepSeek-V2 is not an endpoint, but a new starting point. Its limitations—knowledge not updating, non-factual generation, limited to text and bilingual—are shared challenges of all LLMs. But more important are their next goals: performance matching GPT-4, exploring multimodality, and "aligning model values with humans while minimizing human supervision"—this touches the ultimate proposition of AI safety.
+
+So, when we re-examine this report on June 1, 2024, we see not the rigid numbers of 236 billion parameters, but a living, evolving idea. It tells us: on the road to AGI, abundant capital and massive compute are the wind, but elegant architecture, deep engineering optimization, and a truth-from-facts spirit are the helm and sail that determine whether the ship can sail far and long.
+
+DeepSeek-V2 is a generous gift named "Efficiency and Equality" (效率与平等), offered by geeks with wisdom and dedication, to this era. Its code and model are open-source; its ideas are even more open-source. That is the most exciting part.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

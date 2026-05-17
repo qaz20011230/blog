@@ -1,496 +1,496 @@
 ---
-title: 光能聚合，智造未来——菲娜睿特企业使命白皮书
-date: 'Wed May 06 2026 08:00:00 GMT+0800 (中国标准时间)'
+title: "Light-Energy Convergence, Wisdom Creating the Future — Phaenarete Corporate Mission White Paper"
+date: 'Wed May 06 2026 08:00:00 GMT+0800 (China Standard Time)'
 category: Business & Strategy
 tags:
   - Phaenarete
-  - 核聚变
+  - nuclear fusion
   - AI
-  - 企业使命
-  - 白皮书
+  - corporate mission
+  - white paper
 description: >
-  广州菲娜睿特人工智能科技有限责任公司企业使命白皮书——以聚变之火点亮千家万户，以认知之光照亮每一个求知的心灵。
+  Guangzhou Phaenarete AI Technology Co., Ltd. Corporate Mission White Paper — Illuminating every household with the fire of fusion, illuminating every seeking mind with the light of cognition.
 ---
 
-# 光能聚合，智造未来
+# Light-Energy Convergence, Wisdom Creating the Future
 
 ## AI4Fusion & Fusion4AI
 
-**广州菲娜睿特人工智能科技有限责任公司**
+**Guangzhou Phaenarete AI Technology Co., Ltd.**
 
-*2026年5月 · 广州*
+*May 2026 · Guangzhou*
 
 ---
 
-> 广度 · 深度 · 刚性
+> Breadth · Depth · Rigidity
 > *Tendre is All We Want*
 
-*Tendre 取自拉丁语 *tendere*（拉伸 / 趋向），蕴含广度、深度、刚性三重维度。*
+*Tendre derives from the Latin *tendere* (stretch / tend toward), encompassing the three dimensions of breadth, depth, and rigidity.*
 
 ---
 
-## 第零章 · 给正在读这份文件的你
+## Chapter Zero · For You Who Are Reading This Document
 
-如果你是在深夜打开这份文件的——也许刚改完第 N 版简历，也许刚退出一个让你觉得"哪里不对"的面试，也许只是被"光能聚合"四个字勾起了好奇心——那么，这一章是专门写给你的。
+If you opened this document late at night—perhaps after revising the Nth version of your résumé, perhaps after exiting an interview that felt "something wasn't right," perhaps simply drawn by curiosity about the four characters "光能聚合" (light-energy convergence)—then this chapter is written specifically for you.
 
-我们不会用"改变世界"来劝你加入。我们也不会说"这是你唯一的机会"。我们只做一件事：把真相告诉你——我们是谁，我们要做什么，我们准备如何成功，以及如果失败了如何收场——然后，你自己判断。
+We will not use "changing the world" to persuade you to join. We will not say "this is your only chance." We will do only one thing: tell you the truth—who we are, what we intend to do, how we plan to succeed, and how we will close out if we fail—then, you judge for yourself.
 
-如果看完之后，你觉得这不适合你，我们祝你在别处前程似锦。
+If after reading, you feel this is not for you, we wish you a brilliant future elsewhere.
 
-如果看完之后，你心里有什么东西被点亮了，你想问"我能做什么"——翻到第九章。那里有加入我们的方式。
+If after reading, something within you has been kindled, and you want to ask "what can I do"—turn to Chapter Nine. There you will find how to join us.
 
-**这份文件不是用来装帧存档的。它是用来找到你的。**
-
----
-
-## 第一章 · 卷首语
-
-**我将无我，不负人民。**
-
-这八个字，是习近平总书记 2019 年在罗马会见意大利众议长菲科时作出的庄严承诺。这八个字，也是广州菲娜睿特人工智能科技有限责任公司全体同仁的精神坐标。
-
-我们深知：一家企业，若只追求商业回报，终将被历史遗忘；若心怀人民福祉，方能与时代同行。
-
-谨以此白皮书，呈递于党和人民面前。
-
-呈递它的初心，是一份深沉的爱——对真理之爱，催使我们追求逻辑的必然性而非运气的正确；对人民之爱，驱使我们以聚变之火温暖千家万户而非制造壁垒；对国家之爱，召使我们以科技创新服务国之大者而非逐利忘义。
-
-我们不是"一家人工智能公司"。我们是党领导下的人民企业，是中国人民在科技自立自强道路上的一名战士，是中国式现代化进程中的一个兵卒，是人类命运共同体建设中的一块砖石。
-
-这份白皮书，是我们写给党和人民的答卷。
-
-**能源何以永续？智能何以至真？文明何以向善？**
-
-答案，始于人民。终于人民。
+**This document is not meant to be framed and archived. It is meant to find you.**
 
 ---
 
-## 第二章 · 时代呼唤
+## Chapter One · Opening Words
 
-### 全球能源变局中的中国担当
+**I shall have no self, and shall not fail the people.** (我将无我，不负人民)
 
-世界正站在能源革命的十字路口。
+These eight characters were the solemn pledge made by General Secretary Xi Jinping in 2019 when meeting with Italian Chamber of Deputies President Fico in Rome. These eight characters are also the spiritual compass of all colleagues at Guangzhou Phaenarete AI Technology Co., Ltd.
 
-国际能源署(IEA)*World Energy Outlook 2025* 报告显示，全球数据中心电力需求正以前所未有的速度增长,2030 年将达到约 945 太瓦时，略超日本当前全国用电量。高盛公司(Goldman Sachs, 2024)预测，到 2030 年，人工智能数据中心的快速崛起将使全球电力需求比 2023 年水平增长 165%。
+We deeply understand: a enterprise that pursues only commercial returns will ultimately be forgotten by history; an enterprise that holds the well-being of the people in its heart can walk alongside the times.
 
-在此背景下，中国共产党以高度的历史自觉和战略远见，将核聚变能列为国家未来产业的核心方向。《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》明确，推动量子科技、生物制造、氢能和核聚变能等成为新的经济增长点。2025 年，国务院国资委将核聚变纳入"未来产业十大工程",2030 年前计划投入超 3000 亿元。
+We respectfully present this white paper before the Party and the people.
 
-### 人工智能的中国道路
+The original intention behind its presentation is a deep love—a love for truth, compelling us to pursue the necessity of logic rather than correctness by luck; a love for the people, driving us to warm every household with the fire of fusion rather than erecting barriers; a love for the nation, summoning us to serve the great priorities of the country through technological innovation rather than chasing profit at the expense of righteousness.
 
-2025 年，习近平总书记向世界智能产业博览会致贺信指出："人工智能应该是造福全人类的国际公共产品。"这一重要论断，为人工智能的发展指明了方向。
+We are not "an AI company." We are a people's enterprise under the leadership of the Party, a soldier of the Chinese people on the path of technological self-reliance and self-strengthening, a foot soldier in the process of Chinese-style modernization, a brick in the construction of the community of shared future for mankind.
 
-工信部预计，到 2030 年我国 AI 相关市场规模将达 1.4 万亿美元。与此同时，习近平总书记强调要坚持"四个面向"的战略导向——面向世界科技前沿、面向经济主战场、面向国家重大需求、面向人民生命健康。这正是菲娜睿特一切技术研发的根本遵循。
+This white paper is our answer paper to the Party and the people.
 
-### 历史性的汇流点
+**How can energy be sustained forever? How can intelligence attain truth? How can civilization tend toward goodness?**
 
-国家发展改革委、国家能源局于 2025 年 9 月发布《关于推进"人工智能+"能源高质量发展的实施意见》，明确提出"结合可控核聚变装置多物理场耦合特征，基于人工智能技术开展可控核聚变智能控制系统研究"。这标志着 AI + 核聚变已经上升为国家战略。
-
-能源革命与智能革命，正在 2026 年的中国交汇。菲娜睿特不是在追逐潮流，而是在响应时代的召唤、国家的需要、人民的期盼。
+The answer begins with the people. Ends with the people.
 
 ---
 
-## 第三章 · 东方欲晓——中国聚变事业的壮丽征程
+## Chapter Two · The Call of the Times
 
-### 辉煌成就
+### China's Responsibility Amid the Global Energy Transformation
 
-几十年来，从中国环流一号到东方超环(EAST)，从参与国际热核聚变实验堆(ITER)计划到自主设计中国聚变工程实验堆(CFETR)，中国聚变人走出了一条自主创新之路。
+The world stands at a crossroads of energy revolution.
 
-**东方超环屡创世界纪录。** 2025 年，全超导托卡马克装置 EAST 实现 1 亿摄氏度等离子体稳态运行 1066 秒，刷新世界纪录。中国科学院合肥物质科学研究院副院长、等离子体物理研究所所长宋云涛表示,EAST 正在进行新一轮升级，"在提高原始创新能力上持续用力"。
+The International Energy Agency (IEA) *World Energy Outlook 2025* report shows that global data center electricity demand is growing at an unprecedented rate, reaching approximately 945 terawatt-hours by 2030, slightly exceeding Japan's current national electricity consumption. Goldman Sachs (2024) predicts that by 2030, the rapid rise of AI data centers will increase global electricity demand by 165% compared to 2023 levels.
 
-**中国环流三号再攀高峰。** 核工业西南物理研究院自主研发的中国环流三号面向全球开放，包揽全国 18 个 ITER 关键部件研制任务中的 9 项，在第一壁、磁体支撑、产氚包层等领域保持国际领先。
+Against this backdrop, the Communist Party of China, with a high degree of historical consciousness and strategic foresight, has designated nuclear fusion energy as a core direction for national future industries. The *Proposal of the Central Committee of the Communist Party of China on Formulating the Fifteenth Five-Year Plan for National Economic and Social Development* explicitly calls for promoting quantum technology, biomanufacturing, hydrogen energy, and nuclear fusion energy as new economic growth points. In 2025, the State Council's国有资产 Supervision and Administration Commission included nuclear fusion in the "Ten Major Future Industry Projects," with planned investment exceeding 300 billion yuan before 2030.
 
-**中国环流四号布局未来。** 中国聚变公司将在上海新建高温超导聚变实验装置，暂命名为"中国环流四号(HL-4)"，用以验证高温超导磁体技术。
+### The Chinese Path for Artificial Intelligence
 
-**ITER 贡献彰显中国力量。** 2026 年中关村论坛年会首次设立聚变能源专题论坛，由科学技术部主办、中国国际核聚变能源计划执行中心承办，展示了中国在全球聚变事业中的大国担当。
+In 2025, General Secretary Xi Jinping stated in his congratulatory letter to the World Intelligence Industry Expo: "Artificial intelligence should be an international public good that benefits all humanity." This important assertion pointed the direction for AI development.
 
-### 党的领导是根本保证
+The Ministry of Industry and Information Technology estimates that by 2030, China's AI-related market size will reach 1.4 trillion USD. Meanwhile, General Secretary Xi Jinping has emphasized adherence to the "Four Orientations" strategic guidance—oriented toward the world's scientific and technological frontier, oriented toward the main economic battlefield, oriented toward the country's major needs, oriented toward the people's life and health. This is precisely the fundamental guideline for all of Phaenarete's technological research and development.
 
-习近平总书记深刻指出："科技创新和产业创新，是发展新质生产力的基本路径。"
+### A Historic Convergence Point
 
-可控核聚变创新联合体 2025 年度工作会明确提出：推进核心技术攻关，聚力突破高温超导磁体等关键技术；强化协同配合，用 AI 赋能聚变诊断与控制技术；深入推进科技创新与产业创新深度融合。
+The National Development and Reform Commission and the National Energy Administration released in September 2025 the *Implementation Opinions on Promoting the High-Quality Development of "AI+" Energy*, explicitly proposing "combining the multi-physics-field coupling characteristics of controlled nuclear fusion devices, and conducting research on intelligent control systems for controlled nuclear fusion based on AI technology." This marks AI + nuclear fusion having risen to a national strategy.
 
-正是在党的集中统一领导下，中国的聚变事业才能汇集全国之力、凝聚全民之智。菲娜睿特深深明白：没有党的领导和国家的战略布局，就没有我们施展才华的舞台。
-
-### 从"国家队"到"人民战争"
-
-2025 年被称为中国可控核聚变商业化的元年。中国聚变能源有限公司于 2025 年 7 月在上海挂牌成立，完成 115 亿元战略融资。民营企业与社会资本争相进入核聚变领域，与央企"国家队"优势互补，给中国核聚变研发持续注入新活力。
-
-菲娜睿特，正是在这一历史洪流中应运而生。我们是民营企业，但我们更是党领导下的人民企业。我们发挥民营企业的创新活力，在 AI 控制等离子体这一细分领域形成突破，为中国聚变事业的全局贡献力量。
+The energy revolution and the intelligence revolution are converging in China in 2026. Phaenarete is not chasing a trend, but responding to the call of the times, the needs of the nation, and the expectations of the people.
 
 ---
 
-## 第四章 · 菲娜睿特的解决方案——光能聚合
+## Chapter Three · Dawn in the East — The Magnificent Journey of China's Fusion Enterprise
 
-### 技术路径：夸父聚变堆方案
+### Brilliant Achievements
 
-基于中国聚变事业的整体布局和全球技术发展趋势，菲娜睿特提出"夸父"聚变堆方案，采用磁-惯性混合约束技术路线。本方案充分参考了美国桑迪亚国家实验室 Z 机器(Sandia Z Machine)在 Z 箍缩领域数十年的实验数据，以及麻省理工学院 CFS 团队在 SPARC 托卡马克上对 REBCO 高温超导磁体的工程验证结果。
+Over decades, from China's HL-1 (环流一号) to EAST (Experimental Advanced Superconducting Tokamak, 东方超环), from participation in the ITER program to the independent design of CFETR (China Fusion Engineering Test Reactor), China's fusion community has walked a path of independent innovation.
 
-**夸父聚变堆核心参数表**
+**EAST repeatedly sets world records.** In 2025, the fully superconducting tokamak device EAST achieved steady-state operation of 100-million-degree plasma for 1066 seconds,刷新 the world record. Song Yuntao, Deputy Director of the Hefei Institutes of Physical Science at the Chinese Academy of Sciences and Director of the Institute of Plasma Physics, stated that EAST is undergoing a new round of upgrades, "continuing to exert effort in enhancing original innovation capacity."
 
-| 参数项 | 设计值 | 备注 |
+**HL-3 (China's环流三号) scales new heights.** The HL-3 independently developed by the Southwest Institute of Physics of the Nuclear Industry is open to the world globally, undertaking 9 of the 18 ITER key component manufacturing tasks assigned nationwide, maintaining international leadership in first wall, magnet support, and tritium breeding blanket areas.
+
+**HL-4 (China's环流四号) plans for the future.** China Fusion Energy Company will build a new high-temperature superconducting fusion experimental device in Shanghai, tentatively named "China环流四号 (HL-4)," for验证 high-temperature superconducting magnet technology.
+
+**ITER contributions demonstrate China's power.** The 2026 Zhongguancun Forum Annual Conference for the first time established a fusion energy专题 forum, hosted by the Ministry of Science and Technology and organized by the China International Nuclear Fusion Energy Program Execution Center, showcasing China's responsibility as a major country in the global fusion enterprise.
+
+### Party Leadership Is the Fundamental Guarantee
+
+General Secretary Xi Jinping profoundly指出: "Technological innovation and industrial innovation are the fundamental paths for developing new productive forces."
+
+The 2025 annual working meeting of the Controlled Nuclear Fusion Innovation Consortium explicitly提出: advance core technology breakthroughs, concentrating on overcoming key technologies such as high-temperature superconducting magnets; strengthen协同 coordination, using AI to赋能 fusion diagnostics and control technology; deeply advance the integration of technological innovation and industrial innovation.
+
+It is precisely under the Party's集中 unified leadership that China's fusion enterprise can汇聚 national strength and凝聚 the wisdom of all people. Phaenarete deeply understands: without the Party's leadership and the nation's strategic布局, there would be no stage for us to发挥 our talents.
+
+### From "National Team" to "People's War"
+
+2025 is called the inaugural year of China's controlled nuclear fusion commercialization. China Fusion Energy Company Limited was officially established in Shanghai in July 2025, completing 115 billion yuan in strategic financing. Private enterprises and social capital are争先 entering the nuclear fusion field, complementing the "national team" of central enterprises with synergistic advantages, continuously注入 new vitality into China's nuclear fusion research and development.
+
+Phaenarete was born precisely in this historical tide. We are a private enterprise, but we are even more a people's enterprise under the Party's leadership. We发挥 the innovative vitality of a private enterprise, achieving breakthroughs in the细分领域 of AI-controlled plasma, contributing to the overall大局 of China's fusion enterprise.
+
+---
+
+## Chapter Four · Phaenarete's Solution — Light-Energy Convergence
+
+### Technical Path: The Kuafu (夸父) Fusion Reactor Proposal
+
+Based on the overall布局 of China's fusion enterprise and global technology development trends, Phaenarete proposes the "Kuafu" (夸父) fusion reactor proposal, adopting a magnet-inertial hybrid confinement technical路线. This proposal充分 references decades of experimental data from the US Sandia National Laboratory's Z Machine in the Z-pinch domain, as well as the engineering验证 results of REBCO high-temperature superconducting magnets by the MIT CFS team on the SPARC tokamak.
+
+**Kuafu Fusion Reactor Core Parameters Table**
+
+| Parameter | Design Value | Remarks |
 |--------|--------|------|
-| 聚变热功率 | 2000 MWth | 净电功率约 800 MWe |
-| 聚变增益 Q | ≥ 30 | 目标 ≥ 50 |
-| 燃料模式 | D-T | 长期过渡至 D-D |
-| 约束构型 | 球形环 + Z 箍缩辅助 | 长宽比 1.5 |
-| 环向磁场强度 | 3 T | REBCO 高温超导线圈 |
-| 等离子体电流 | 15 MA | 含自举电流分量 |
-| Z 箍缩脉冲峰值电流 | 60 MA | 上升时间 250 ns |
-| 激光辅助能量 | 200 kJ/脉冲 | 三倍频 Nd:玻璃激光器 |
-| 重复频率 | 0.5 Hz | 初期 0.2 Hz,逐步提升 |
-| 年上网电量 | ≥ 6 TWh | 按年运行 8000 小时计 |
+| Fusion thermal power | 2000 MWth | Net electrical power approximately 800 MWe |
+| Fusion gain Q | ≥ 30 | Target ≥ 50 |
+| Fuel mode | D-T | Long-term transition to D-D |
+| Confinement configuration | Spherical tokamak + Z-pinch辅助 | Aspect ratio 1.5 |
+| Toroidal magnetic field strength | 3 T | REBCO high-temperature superconducting coils |
+| Plasma current | 15 MA | Including bootstrap current component |
+| Z-pinch pulse peak current | 60 MA | Rise time 250 ns |
+| Laser辅助 energy | 200 kJ/pulse | Frequency-tripled Nd:glass laser |
+| Repetition rate | 0.5 Hz | Initially 0.2 Hz,逐步提升 |
+| Annual grid electricity | ≥ 6 TWh | Based on 8000 annual operating hours |
 
-### 控制系统内核：Tendre 认知闭环
+### Control System Core: The Tendre Cognitive Closed Loop
 
-Tendre 架构是菲娜睿特的核心技术贡献，由**广度(Attention)、深度(Intention)、刚性(Tension)**三个维度构成。这一架构直接响应了国家关于"研发等离子体位形实时预测-磁约束参数自适应调控智能模型"的政策要求。
+The Tendre architecture is Phaenarete's core technological contribution, composed of three dimensions: **Breadth (Attention), Depth (Intention), Rigidity (Tension)**. This architecture directly responds to the national policy requirement for "developing real-time prediction of plasma configuration—adaptive adjustment intelligent models for magnetic confinement parameters."
 
-Tendre 的理论基础已在 *Tendre is All We Want* 一书中严格证明：任何未内建广度-深度-刚性完整三维的 AI 系统，都无法在数学推理的严格意义上稳定产出知识。这是逻辑上的必然，而非经验上的大概。
+The theoretical foundation of Tendre has been rigorously proven in the book *Tendre is All We Want*: any AI system that does not内建 the complete three dimensions of breadth-depth-rigidity cannot stably produce knowledge in the strict sense of mathematical reasoning. This is a logical necessity, not an empirical大概.
 
-- **广度层**：融合数百路传感器数据（磁探针、干涉仪、汤姆逊散射仪、软 X 射线阵列、辐射热计、偏滤器朗缪尔探针），构建全局等离子体状态空间。
-- **深度层**：根据控制场景（等离子体爬升、平顶燃烧、平稳下降、紧急停机）定向输出控制意图。
-- **刚性层**：执行不可逾越的物理约束——MHD 稳定性边界(Troyon 极限)、密度极限(Greenwald 极限)、壁面热流极限(10 MW/m²)。任何违背物理定律的操作都会被刚性阻断，确保装置绝对安全。
+- **Breadth Layer**: Fuses hundreds of channels of sensor data (magnetic probes, interferometers, Thomson scattering instruments, soft X-ray arrays, radiometers, divertor Langmuir probes), constructing a global plasma state space.
+- **Depth Layer**: Based on control scenarios (plasma ramp-up, flat-top burn, steady ramp-down, emergency shutdown), outputs定向 control intentions.
+- **Rigidity Layer**: Enforces不可逾越 physical constraints—MHD stability boundaries (Troyon limit), density limits (Greenwald limit), wall heat flux limits (10 MW/m²). Any operation violating physical laws is刚性 blocked, ensuring absolute safety of the device.
 
-Tendre 架构的独特性在于：刚性层的约束规则是**不可学习的**——它们不由梯度下降调整，而是作为硬性规则嵌入计算图。这从根本上消除了"统计运气"在安全关键场景中的风险。Google DeepMind 与 CFS 在 2025 年宣布的合作项目，利用深度强化学习控制 SPARC 托卡马克等离子体形态，其技术路线正是 Tendre 架构致力于超越的对象——前者依赖统计逼近，后者内建刚性约束。
+The uniqueness of the Tendre architecture lies in: the constraint rules in the Rigidity layer are **unlearnable**—they are not adjusted by gradient descent but embedded as hard rules into the computational graph. This fundamentally eliminates the risk of "statistical luck" in safety-critical scenarios. The collaboration project announced by Google DeepMind and CFS in 2025, using deep reinforcement learning to control SPARC tokamak plasma shape, adopts a technical路线 that is precisely what the Tendre architecture aims to超越—the former relies on statistical approximation, the latter内建刚性 constraints.
 
-### 双引擎闭环：Fusion4AI 与 AI4Fusion
+### Dual-Engine Closed Loop: Fusion4AI and AI4Fusion
 
-**Fusion4AI——以恒星之火点亮认知之光。** 聚变产生的清洁电力，驱动 AI 为全人类服务——从教育公平到医疗普惠，从科学发现到文化传承。
+**Fusion4AI — Illuminating the light of cognition with the fire of a star.** The clean electricity generated by fusion drives AI to serve all humanity—from educational equity to medical普惠, from scientific discovery to cultural传承.
 
-**AI4Fusion——以认知语法破解聚变之道。** Tendre 架构致力于在中国聚变事业的宏伟征程中提供 AI 赋能，与"国家队"并肩作战，共同推进中国聚变电站的建设进程。
-
----
-
-## 第五章 · 万亿估值路线图
-
-> 服务人民的商业化道路。
-
-### 阶段一(2028 — 2035)：原理验证与生态构建
-
-**目标**：建造"夸父-0"原理验证器，实现聚变增益 Q ≥ 1。部署第一代 Tendre 等离子体控制系统。启动"支点计划"，建立以中国高校师生和科研人员为主体的知识共同体。
-
-**财务与估值**：研发投入约 180 亿元人民币。估值目标(2035 年)：100—150 亿美元。估值依据：Q = 1 的实现将彻底改变聚变能的投资叙事，使其从"高风险前沿科学研究"跃升为"可预见的工程实现"。
-
-**服务人民的承诺**：本阶段产出的所有科研成果（涉及国家安全的除外），以开源或合理许可的方式向国内科研界开放。
-
-### 阶段二(2035 — 2045)：工程示范与商业化试水
-
-**目标**：建造"夸父-DEMO"工程演示堆，实现 Q ≥ 10。首次闭合氚增殖循环。成为中国聚变工程实验堆(CFETR/CFEDR)建设的核心技术支持方之一。
-
-**财务与估值**：研发投入约 1200 亿元人民币。估值目标(2045 年)：1500—2000 亿美元。菲娜睿特将成为全球聚变 AI 控制系统的标准制定者。
-
-**服务人民的承诺**：启动"聚变之光"教育计划，每年资助 100 名欠发达地区学生进入核科学和 AI 领域深造。聚变 AI 控制系统以合理价格向国内核工业单位开放授权。
-
-### 阶段三(2045 — 2055)：原型电站并网发电
-
-**目标**：建造"夸父-PROTO"原型电站，实现 Q ≥ 30,向电网输送 800 MWe 净电力。累计发电超过 10 TWh,验证商用级可靠性。
-
-**财务与估值**：研发投入约 2800 亿元人民币。**估值目标(2055 年)：正式突破 1 万亿美元。** 估值锚点：全球电力市场年规模超过 3 万亿美元；中国 AI 核心产业规模预计 2035 年达 29.6 万亿元，聚变驱动的 AI 算力将成为这一产业的底层能源基石。
-
-**服务人民的承诺**：首座原型电站选址优先考虑中西部地区。电站周边 100 公里范围内居民享受优惠电价。每年从利润中提取固定比例注入"菲娜睿特共同富裕基金"。
-
-### 阶段四(2055 — )：成为人民的基础设施
-
-届时，菲娜睿特将不再是单纯的能源或 AI 公司，而是中国人民和全人类的"光和智能"基础设施。公司的最终股权结构将向全民所有方向演进，确保这一文明级的公共品真正属于人民。
+**AI4Fusion — Decoding the path of fusion with the grammar of cognition.** The Tendre architecture致力于 providing AI赋能 in the magnificent journey of China's fusion enterprise, fighting alongside the "national team," jointly advancing the construction process of China's fusion power stations.
 
 ---
 
-## 第六章 · 2027 年满分承诺
+## Chapter Five · Trillion-Dollar Valuation Roadmap
 
-> Tendre 架构的首次公开验证。
+> A commercialization path that serves the people.
 
-### 承诺内容
+### Phase One (2028 — 2035): Proof of Principle and Ecosystem Building
 
-菲娜睿特郑重承诺：至 2027 年全国高考，基于 Tendre 架构的 AI 系统将在**全国卷高考数学试卷**上取得满分成绩。
+**Objective**: Build the "Kuafu-0" proof-of-principle demonstrator, achieving fusion gain Q ≥ 1. Deploy the first-generation Tendre plasma control system. Launch the "Fulcrum Plan" (支点计划), establishing a knowledge community composed primarily of Chinese university students and researchers.
 
-这不是营销噱头。这是 Tendre 必要性定理(Ineluctability Theorem)的首次大规模公开验证——任何一道数学题，无论命题者如何变化出题角度，只要该题目在逻辑上存在确定的答案,Tendre 架构就将给出正确的推理过程。
+**Finance and Valuation**: R&D investment approximately 18 billion RMB. Valuation target (2035): 10–15 billion USD. Valuation rationale: achieving Q = 1 will彻底 transform the investment narrative of fusion energy, elevating it from "high-risk frontier scientific research" to "foreseeable engineering realization."
 
-### 技术标准
+**Commitment to Serve the People**: All scientific research成果 produced in this phase (except those涉及 national security) will be made available to the domestic research community through open-source or reasonable licensing.
 
-| 指标 | 要求 |
+### Phase Two (2035 — 2045): Engineering Demonstration and Commercialization Trial
+
+**Objective**: Build the "Kuafu-DEMO" engineering demonstration reactor, achieving Q ≥ 10. First closure of the tritium breeding cycle. Become one of the core technology support parties for the construction of China's Fusion Engineering Test Reactor (CFETR/CFEDR).
+
+**Finance and Valuation**: R&D investment approximately 120 billion RMB. Valuation target (2045): 150–200 billion USD. Phaenarete will become the global standard-setter for fusion AI control systems.
+
+**Commitment to Serve the People**: Launch the "Light of Fusion" (聚变之光) education plan, annually资助 100 students from underdeveloped regions to pursue advanced study in nuclear science and AI fields. The fusion AI control system will be licensed to domestic nuclear industry units at reasonable prices.
+
+### Phase Three (2045 — 2055): Prototype Power Station Grid Connection
+
+**Objective**: Build the "Kuafu-PROTO" prototype power station, achieving Q ≥ 30, delivering 800 MWe net electrical power to the grid. Cumulative generation exceeding 10 TWh,验证 commercial-grade reliability.
+
+**Finance and Valuation**: R&D investment approximately 280 billion RMB. **Valuation target (2055): formally exceeding 1 trillion USD.** Valuation anchor: the global electricity market annual规模 exceeds 3 trillion USD; China's AI core industry规模 is projected to reach 29.6 trillion yuan by 2035, and fusion-driven AI computing power will become the underlying energy foundation of this industry.
+
+**Commitment to Serve the People**: The first prototype power station site selection will优先 consider central and western regions. Residents within 100 km of the power station will enjoy优惠 electricity prices. A fixed比例 of annual profits will be注入 into the "Phaenarete Common Prosperity Fund" (共同富裕基金).
+
+### Phase Four (2055 — ): Becoming the People's Infrastructure
+
+By then, Phaenarete will no longer be a单纯 energy or AI company, but the "light and intelligence" infrastructure of the Chinese people and all humanity. The company's最终 equity structure will evolve toward全民所有, ensuring that this civilization-level public good truly belongs to the people.
+
+---
+
+## Chapter Six · 2027 Perfect Score Commitment
+
+> The first public verification of the Tendre architecture.
+
+### Commitment Content
+
+Phaenarete solemnly commits: by the 2027 National College Entrance Examination (高考), an AI system based on the Tendre architecture will achieve a perfect score on the **National卷 College Entrance Examination Mathematics Paper**.
+
+This is not a marketing gimmick. This is the first large-scale public verification of the Tendre Ineluctability Theorem—for any mathematics problem, no matter how the question setters vary their approach, as long as the problem has a logically确定 answer, the Tendre architecture will produce the correct reasoning process.
+
+### Technical Standards
+
+| Indicator | Requirement |
 |------|------|
-| 试卷范围 | 2027 年全国卷高考数学（全部版本） |
-| 评分标准 | 按教育部考试中心评分细则逐题打分 |
-| 推理完整性 | 每一分均需产生完整的、可追溯的逻辑链路 |
-| 可复现性 | 第三方评审专家可独立复现全部结果 |
-| 透明度 | 全部推理过程公开，接受全国数学教师审阅 |
+| Examination scope | 2027 National卷 College Entrance Examination Mathematics (all versions) |
+| Grading standard | Graded逐题 according to Ministry of Education Examination Center scoring细则 |
+| Reasoning completeness | Every point must produce a complete, traceable logical chain |
+| Reproducibility | Third-party评审 experts can independently reproduce all results |
+| Transparency | All reasoning processes公开,接受 review by mathematics teachers nationwide |
 
-### 如果没做到
+### If Not Achieved
 
-我们将公开发布《2027 年未完成事项报告》，逐题分析失败原因，说明哪些逻辑约束需要补充。这份报告不会找借口。至诚是北辰七德之一——知之为知之，不知为不知。
-
----
-
-## 第七章 · 核心竞争力——不可替代的护城河
-
-### 技术护城河
-
-**Tendre 的不可绕过性(Ineluctability Theorem)**：菲娜睿特团队在 *Tendre is All We Want* 一书中严格证明了 Tendre 必要性定理——任何未内建广度-深度-刚性完整三维的 AI 系统，都无法在数学推理的严格意义上稳定产出知识。这一理论突破，使菲娜睿特成为全球唯一一家拥有"逻辑必然性"架构的 AI 企业。这是定理层面的排他性，不是工程层面的优化。
-
-**AI4Fusion 的政策独占窗口**：国家发展改革委、国家能源局《关于推进"人工智能+"能源高质量发展的实施意见》明确提出了 AI 控制聚变的技术方向。菲娜睿特力求将 Tendre 架构打造为中国聚变装置的标准 AI 控制系统。
-
-### 人才护城河
-
-**支点计划**：以阿基米德"给我一个支点，我能撬起整个地球"命名的知识共同体，分三级汇聚全国优秀学生与科研人员。他们不是被雇佣的标注者，而是以自身逻辑严谨性直接雕塑 AI 灵魂的共建者。
-
-**北辰七德的凝聚力量**：以七德为精神旗帜，吸引那些既追求技术卓越、又坚守道德底线的优秀人才。在物质激励之外，提供一种"完整地做自己"的职业可能性——你不需要在工作场合收起你的较真、好奇和理想，这里恰好是它们最被需要的地方。
-
-### 伦理护城河
-
-在技术同质化竞争日益激烈的时代，伦理是最深的护城河。当一家企业不仅拥有先进的技术，还拥有被社会广泛认可的伦理品质时，它将获得任何竞争对手都无法复制的社会信任。北辰七德，正是菲娜睿特伦理护城河的制度化表达。
+We will公开发布 the *2027 Unfulfilled Items Report*, analyzing failure reasons逐题, indicating which logical constraints need补充. This report will not寻找借口. Supreme sincerity (至诚) is one of the Polaris Seven Virtues—to know what you know, and to know what you don't know.
 
 ---
 
-## 第八章 · 风险与挑战——清醒的自我认知
+## Chapter Seven · Core Competitiveness — An Irreplaceable Moat
 
-菲娜睿特对其面临的挑战有极其清醒的认知。我们不自大，但我们对克服挑战有清晰的路径。
+### Technical Moat
 
-### 风险与应对策略
+**Tendre's Ineluctability (Ineluctability Theorem)**: The Phaenarete team rigorously proved the Tendre Ineluctability Theorem in the book *Tendre is All We Want*—any AI system that does not内建 the complete three dimensions of breadth-depth-rigidity cannot stably produce knowledge in the strict sense of mathematical reasoning. This theoretical breakthrough makes Phaenarete the only AI enterprise globally that possesses an architecture of "logical necessity." This is theorem-level排他性, not engineering-level optimization.
 
-| 风险类别 | 菲娜睿特的应对策略 |
+**AI4Fusion's Policy-Exclusive Window**: The National Development and Reform Commission and National Energy Administration's *Implementation Opinions on Promoting the High-Quality Development of "AI+" Energy* explicitly提出了 the technical direction of AI-controlled fusion. Phaenarete力求 to establish the Tendre architecture as the standard AI control system for China's fusion devices.
+
+### Talent Moat
+
+**Fulcrum Plan (支点计划)**: A knowledge community named after Archimedes' "Give me a fulcrum, and I can move the entire earth,"汇聚 excellent students and researchers nationwide across three tiers. They are not hired labelers, but co-builders who directly sculpt the soul of AI with their own logical rigor.
+
+**The Cohesive Power of the Polaris Seven Virtues**: Using the seven virtues as a spiritual banner, attracting outstanding talents who pursue both technological excellence and坚守 moral底线. Beyond material incentives, providing a professional possibility of "being yourself completely"—you do not need to收敛 your exactitude, curiosity, and idealism at work; here is precisely where they are most needed.
+
+### Ethical Moat
+
+In an era of increasingly homogeneous technology competition, ethics is the deepest moat. When an enterprise not only possesses advanced technology but also has socially广泛认可的 ethical品质, it will acquire social trust that no competitor can复制. The Polaris Seven Virtues are precisely the institutionalized expression of Phaenarete's ethical moat.
+
+---
+
+## Chapter Eight · Risks and Challenges — Clear Self-Awareness
+
+Phaenarete has an extremely清醒 awareness of the challenges it faces. We are not自大, but we have a clear path for overcoming challenges.
+
+### Risks and Response Strategies
+
+| Risk Category | Phaenarete's Response Strategy |
 |----------|-------------------|
-| 技术风险 | 深度结合 Tendre 架构刚性层，实现破裂快速预测和主动规避。关键材料(REBCO 带材、RAFM 钢)的加速寿命测试已纳入第一阶段研发计划。 |
-| 工程风险 | 借鉴中国航天"三步走"战略，分阶段验证、螺旋式开发，严格控制每一阶段成本。不盲目铺摊子，不搞大跃进。 |
-| 市场风险 | 聚变能是基荷能源，与可再生能源互补。目标是提供市场上最稳定、最清洁的基荷选项。前期的技术授权和 AI 控制系统销售可在聚变电站商业化之前提供现金流。 |
-| 监管风险 | 主动拥抱监管，积极参与《原子能法》实施条例的制定。设立独立的"聚变安全与伦理委员会"，以最高标准进行自我监督。 |
-| 人才风险 | 依托"支点计划"和"聚变之光"教育计划，建立自主人才培养管道。聚变 + AI 复合型人才的培养周期约为 3—5 年，我们愿意为此投入。 |
-| 伦理风险 | 以透明化运营和科普教育主动沟通。做到信息公开、数据公开、安全记录公开。每年发布《菲娜睿特透明度报告》，接受公众监督。 |
+| Technical risk | Deeply结合 Tendre architecture Rigidity layer, achieving disruption快速 prediction and主动 avoidance. Accelerated lifetime testing of key materials (REBCO tape, RAFS steel) is纳入 in Phase One R&D planning. |
+| Engineering risk | Borrowing from China's space program "three-step" strategy, phased验证, spiral development, strictly controlling each phase's cost. Not盲目 expanding, not pursuing大跃进. |
+| Market risk | Fusion energy is baseload energy, complementary with renewable energy. The goal is to provide the most stable, cleanest baseload option on the market. Early-stage technology licensing and AI control system sales can provide cash flow before fusion power station commercialization. |
+| Regulatory risk | Proactively embracing regulation, actively participating in the formulation of implementing regulations for the *Atomic Energy Law*. Establishing an independent "Fusion Safety and Ethics Committee," conducting self-supervision at the highest standards. |
+| Talent risk | Leveraging the "Fulcrum Plan" and "Light of Fusion" education plan, establishing an自主 talent cultivation pipeline. The cultivation cycle for fusion + AI composite talents is approximately 3–5 years; we are willing to invest in this. |
+| Ethical risk | Proactively communicating through transparent operations and science popularization education. Achieving information公开, data公开, safety records公开. Annually发布 the *Phaenarete Transparency Report*,接受 public监督. |
 
-### 失败誓言
+### Failure Oath
 
-如果最坏的情况发生——技术验证全面受挫，我们承诺：
+If the worst occurs—comprehensive挫折 in technology verification—we commit:
 
-1. 保存所有技术数据和工程日志，公开归档，供后来者继续攻关。
-2. 诚实告知每一位参与支点计划的人发生了什么、为什么发生，以及他们过往的贡献依然有意义。
-3. 不接受"技术路线没有问题，是外部环境问题"这类回避责任的叙事。
+1. Preserve all technical data and engineering logs,公开 archive them,供 later researchers to继续攻关.
+2. Honestly inform every participant in the Fulcrum Plan of what happened, why it happened, and that their past contributions仍然有意义.
+3. We will not accept narratives that回避 responsibility such as "the technical路线 had no problems; it was external environment issues."
 
-我们不害怕失败。我们害怕的是失去面对失败的诚实。
-
----
-
-## 第九章 · 组织灵魂——北辰七德
-
-### 德者，本也
-
-《大学》云："德者，本也；财者，末也。"
-
-拥有改变文明命运的力量，却缺乏驾驭这一力量的品德修为，是一切伟业崩塌的根本原因。菲娜睿特所追求的事业——驯服聚变之火、构筑至真之智——在为人类带来无尽福祉的同时，也内含足以撼动文明根基的巨大力量。若缺乏与之相配的品德修为，一切技术与资本的堆砌都将危如累卵。
-
-正是出于这一清醒认知，菲娜睿特将"北辰七德"确立为组织的伦理基石。
-
-### 七德精义
-
-- **明智**：洞察真知，明辨是非。子曰："知者不惑。"（《论语·子罕》）以科学精神审视每一个假设，以严谨逻辑验证每一个结论。
-- **良心**：深怀恻隐，操持良知。孟子曰："恻隐之心，仁之端也。"（《孟子·公孙丑上》）绝不以牺牲安全为代价换取利润，绝不将未经刚性约束验证的技术投放市场。
-- **勇毅**：勇担大任，直面真难。敢于挑战最困难的技术瓶颈，敢于在失败面前站起来继续前进。
-- **节制**：克己慎行，不为物役。《中庸》云："发而皆中节，谓之和。"不盲目扩张、不急功近利、不为资本追捧而迷失方向。
-- **正义**：秉持公义，不偏不倚。公平对待每一位员工、合作伙伴和客户，不让技术成为加剧社会不公的工具。
-- **至诚**：至真至纯，知行合一。《中庸》云："诚者，天之道也。"如实报告技术进展，知之为知之，不知为不知。
-- **弘仁**：立人达人，心系天下。子曰："己欲立而立人，己欲达而达人。"（《论语·雍也》）确保聚变能源与超级智能的福祉普惠全人类。
-
-### 七德三层结构
-
-**基础层**（认知-情感根基）：明智与良心——前者提供概念清晰性，后者提供情感调谐力。
-
-**动力层**（行动驱动与调节）：勇毅、节制、正义、至诚——激发行动、调适行动、公平分配行动、确保行动的真诚性。
-
-**方向层**（终极目标指向）：弘仁——一切技术创新，最终指向人的全面发展与社会的共同繁荣。
-
-### 每日校准七问
-
-品德不是想出来的，是问出来的。每一位菲娜睿特成员，无论职位高低，都可以用这七个问题每日自检。没有上级在场监督，只有自己对自己的诚实。
-
-1. **明智之问**：我今天是否被表面现象蒙蔽了判断？我是否在用"差不多"替代"为什么"?
-2. **良心之问**：我今天是否对他人的痛苦无动于衷？我是否在明知有风险的情况下选择了沉默?
-3. **勇毅之问**：我今天是否回避了应该面对的矛盾？我是否在困难面前选择了绕行而非迎战?
-4. **节制之问**：我今天是否让贪欲或恐惧支配了决策？我是否在不需要说话的时候说了太多话?
-5. **正义之问**：我今天是否对某些人或事带有不自觉的偏私？我是否公平对待了每一位同事和伙伴?
-6. **至诚之问**：我今天说出口的话，是否全部真实，毫无粉饰？我是否在某个场合选择了"好听的话"而非"真话"?
-7. **弘仁之问**：我今天所做的一切，最终让谁受益了？是少数人，还是全体人民?
-
-### 北辰之义
-
-北辰，即北极星。居其所而不移，众星环拱而共向。
-
-孔子曰："为政以德，譬如北辰，居其所而众星共之。"（《论语·为政》）菲娜睿特不求以喧嚣张扬声名，而求以品德持守赢得信赖。当我们真正做到"以德润身"，优秀的伙伴、忠实的客户、人民的信任便会如群星般聚拢。
-
-这七颗德行之星，将永远高悬于菲娜睿特的精神穹顶。
+We are not afraid of failure. We are afraid of losing the honesty to face failure.
 
 ---
 
-## 第十章 · 加入我们——招募令
+## Chapter Nine · Organizational Soul — The Polaris Seven Virtues
 
-### 我们正在寻找这样的人
+### Virtue Is the Root
 
-- 你在入党志愿书上写过"为人民服务"，你想找到把这五个字变成每日工作的具体路径。
-- 你有逻辑洁癖——你不能容忍"差不多就行了"，你会追着一个问题直到它彻底清楚。
-- 你骨子里是个理想主义者——不是挂在嘴上的那种，是敢在没人看的时候依然较真的那种。
-- 你恰好学过数学、物理、计算机、哲学、中文、新闻，或者任何让你学会了"如何思考"的专业。
-- 你愿意把毕业后的第一个三年，投入一场横跨三十年的长跑。
+*The Great Learning* (大学) states: "Virtue is the root; wealth is the branch." (德者，本也；财者，末也。)
 
-### 我们提供什么
+Possessing the power to change the fate of civilization, yet lacking the moral cultivation to驾驭 this power, is the fundamental cause of all great enterprises' collapse. The enterprise Phaenarete pursues—taming the fire of fusion, constructing intelligence of supreme truth—while bringing endless福祉 to humanity, also contains within it power sufficient to shake the foundations of civilization. Without moral cultivation commensurate with this power, all accumulation of technology and capital will be as precarious as a pile of eggs.
 
-- **薪酬**：七险一金、带薪休假、学习补贴等。
-- **回报**：L1 级标注者获"赞希佩学者"称号,L2 级专家获直通技术终面资格。持续优异者在项目学术论文中列为致谢贡献者，获区域性职业发展推荐信。
-- **成长**：与国内外一流聚变和 AI 团队协作的机会，接触前沿技术的真实工程场景。
-- **一个不说谎的团队**：我们不允许向员工画饼。做不到的事，我们一开始就会告诉你。
+Out of this清醒 recognition, Phaenarete has established the "Polaris Seven Virtues" (北辰七德) as the ethical基石 of the organization.
 
-### 我们没有的
+### The Essence of the Seven Virtues
 
-- 形式主义的早会、周报、PPT 大赛。
-- 模糊的晋升通道和含糊其辞的承诺。
-- 对"不一样的声音"的软性压制。
+- **Sagacity (明智)**: Discerning true knowledge, distinguishing right from wrong. Confucius said: "The wise are not perplexed." (*Analerta*, 论语·子罕) Examining every hypothesis with the spirit of science, verifying every conclusion with rigorous logic.
+- **Conscience (良心)**: Deeply harboring compassion, uphold moral良知. Mencius said: "The heart of compassion is the beginning of benevolence." (*Mencius*, 孟子·公孙丑上) Never sacrificing safety for profit, never releasing technology未经 Rigidity constraint verification to the market.
+- **Fortitude (勇毅)**: Courageously承担 great responsibilities, directly confronting true difficulties. Daring to challenge the most difficult technical bottlenecks, daring to stand up again after failure and continue advancing.
+- **Temperance (节制)**: Exercising self-restraint, not being enslaved by material things. *The Doctrine of the Mean* (中庸) states: "When emotions are expressed but all in due measure, this is called harmony." Not盲目 expanding, not急功近利, not迷失方向 due to capital追捧.
+- **Justice (正义)**: Upholding public正义, impartial and unbiased. Fairly treating every employee, partner, and customer, not allowing technology to成为 a tool that加剧 social injustice.
+- **Supreme Sincerity (至诚)**: Utmost truth and purity, unity of knowledge and action. *The Doctrine of the Mean* states: "Sincerity is the Way of Heaven." (诚者，天之道也。) Truthfully reporting technological progress; knowing what you know, and acknowledging what you don't know.
+- **Magnanimous Benevolence (弘仁)**: Establishing others and enabling others to reach their goals, with one's heart set on the world. Confucius said: "I wish to stand, and so I enable others to stand; I wish to reach my goals, and so I enable others to reach theirs." (*Analerta*, 论语·雍也) Ensuring that the福祉 of fusion energy and super-intelligence 普惠 all humanity.
 
-### 如何申请
+### The Three-Tier Structure of the Seven Virtues
 
-请在 2026 年 7 月 31 日前，将简历和一份 200 字以内的自述发送至：
+**Foundation Tier** (cognitive-affective roots): Sagacity and Conscience—the former provides conceptual clarity, the latter provides emotional调谐 capacity.
+
+**Drive Tier** (action驱动 and regulation): Fortitude, Temperance, Justice, Supreme Sincerity—stimulating action, adjusting action, fairly分配 action, ensuring the sincerity of action.
+
+**Direction Tier** (ultimate goal指向): Magnanimous Benevolence—all technological innovation ultimately指向 the comprehensive development of human beings and the common prosperity of society.
+
+### The Seven Daily Calibration Questions
+
+Virtue is not thought out; it is questioned out. Every member of Phaenarete, regardless of position, can use these seven questions for daily self-examination. No supervisor is present监督; only one's own honesty with oneself.
+
+1. **Question of Sagacity**: Was I today misled by surface phenomena in my judgment? Was I substituting "roughly" for "why"?
+2. **Question of Conscience**: Was I today indifferent to others' suffering? Did I choose silence when I明知 there was risk?
+3. **Question of Fortitude**: Did I today avoid contradictions I should have faced? Did I choose detour rather than confrontation before difficulties?
+4. **Question of Temperance**: Did I today let贪欲 or fear dominate my decisions? Did I say too much when there was no need to speak?
+5. **Question of Justice**: Did I today have unconscious bias toward certain people or matters? Did I fairly treat every colleague and partner?
+6. **Question of Supreme Sincerity**: Were all the words I spoke today entirely true, without embellishment? Did I in some situation choose "pleasant words" rather than "true words"?
+7. **Question of Magnanimous Benevolence**: Whom did everything I did today ultimately benefit? A few, or all the people?
+
+### The Meaning of Polaris (北辰)
+
+Polaris (北辰) is the North Star. It remains固定 in its position, with all other stars环绕 and converging toward it.
+
+Confucius said: "He who governs by virtue is like the North Star; it remains in its place and all stars turn toward it." (*Analerta*, 论语·为政) Phaenarete does not seek reputation through clamor and display, but seeks to earn trust through virtuous持守. When we truly achieve "cultivating oneself through virtue" (以德润身), excellent partners, faithful customers, and the people's trust will聚集 like stars.
+
+These seven stars of virtue will forever be suspended in the spiritual穹顶 of Phaenarete.
+
+---
+
+## Chapter Ten · Join Us — A Call for Recruitment
+
+### We Are Looking for People Like This
+
+- You wrote "serve the people" (为人民服务) on your Party membership application, and you want to find a concrete path to turn these five characters into daily work.
+- You have a logical fastidiousness—you cannot tolerate "roughly is fine enough"; you will pursue a question until it is彻底 clear.
+- You are at core an idealist—not the kind who hangs it on their lips, but the kind who dares to be exacting even when no one is watching.
+- You恰好 studied mathematics, physics, computer science, philosophy, Chinese language, journalism, or any major that taught you "how to think."
+- You are willing to invest the first three years after graduation into a long race spanning thirty years.
+
+### What We Offer
+
+- **Compensation**: Seven insurances + one housing fund, paid vacation, study subsidies, etc.
+- **Rewards**: L1-level labelers receive the "Zanchipe Scholar" (赞希佩学者) title; L2-level experts receive直通 qualification for final technical interviews. Continuously outstanding performers are列为 acknowledgment contributors in project academic papers and receive regional career development recommendation letters.
+- **Growth**: Opportunities to collaborate with leading fusion and AI teams domestically and internationally,接触 real engineering scenarios of frontier technology.
+- **A team that does not lie**: We do not允许 painting rosy pictures for employees. Things we cannot do, we will tell you from the start.
+
+### What We Do Not Have
+
+- Formalistic morning meetings, weekly reports, PPT competitions.
+- Vague promotion channels and ambiguous承诺.
+- Soft suppression of "different voices."
+
+### How to Apply
+
+Before July 31, 2026, please send your résumé and a self-statement of no more than 200 characters to:
 
 **[contact@liang.world](mailto:contact@liang.world)**
 
-邮件标题格式：**支点计划 - [姓名] - [学校] - [党员/预备党员]**
+Email subject format: **Fulcrum Plan - [Name] - [University] - [Party member/Probationary Party member]**
 
-自述请围绕一个问题：**你如何看待"实事求是"？**
+The self-statement should围绕 one question: **How do you view "seeking truth from facts" (实事求是)?**
 
-我们不设笔试，不考行测。面试可能是一道逻辑题，也可能是你和你未来的组长喝一杯茶。考察期三个月，主要看你是否较真、是否诚实、是否能在困难面前沉得住气。
+We do not设 written examinations, nor test administrative aptitude. The interview may be a logic problem, or it may be you and your future team leader drinking a cup of tea. The observation period is three months, primarily looking at whether you are exacting, whether you are honest, and whether you can stay composed before difficulties.
 
-### 我们同样欢迎
+### We Also Welcome
 
-- **非党员同志**：我们以党的精神为指引，但不以党员身份为门槛。只要认同这份白皮书的价值观，我们都欢迎。
-- **非理工科背景的同学**：支点计划需要逻辑标注、内容传播、社区运营等多元角色。哲学、中文、新闻、教育等专业的同学同样大有可为。
-- **已有工作经验的人**：我们的招募不仅针对应届生。如果你在别处积累了经验但感到方向迷失，这里可能是你重新找到方向的地方。
+- **Non-Party comrades**: We are guided by the Party's spirit, but Party membership is not a门槛. As long as you认同 the values written in this white paper, we welcome you.
+- **Students without STEM backgrounds**: The Fulcrum Plan needs diverse roles: logical labeling, content传播, community operations, policy research. Students from philosophy, Chinese language, journalism, education, and other majors同样 have much to contribute.
+- **People with existing work experience**: Our recruitment is not only directed at new graduates. If you have accumulated experience elsewhere but feel迷失 in direction, this may be where you重新 find your direction.
 
 ---
 
 ## FAQ
 
-**Q: 我不是党员，可以加入吗？**
+**Q: I am not a Party member. Can I join?**
 
-**A:** 可以。我们以党的精神为指引，但不以党员身份为门槛。判断一个人能否加入的核心标准，不是组织身份，而是是否认同这份白皮书里写的价值观——特别是"实事求是"和"至诚"。
+**A:** Yes. We are guided by the Party's spirit, but Party membership is not a门槛. The core criterion for判断 whether someone can join is not organizational identity, but whether they认同 the values written in this white paper—especially "seeking truth from facts" (实事求是) and "supreme sincerity" (至诚).
 
-**Q: 我数学不好，可以加入吗？**
+**Q: I am not good at mathematics. Can I join?**
 
-**A:** 取决于岗位。支点计划需要多元角色：逻辑标注需要扎实的高考数学基础；内容传播、社区运营、政策研究等岗位更看重你的写作、沟通和组织能力。我们相信"专业的事交给专业的人"，你不需要什么都懂。
+**A:** It depends on the position. The Fulcrum Plan needs diverse roles: logical labeling requires a solid foundation in college entrance examination mathematics; content传播, community operations, and policy research positions weigh your writing, communication, and organizational abilities more heavily. We believe "let professionals handle professional matters"; you don't need to know everything.
 
-**Q: 聚变失败了怎么办？**
+**Q: What if fusion fails?**
 
-**A:** 我们坦诚地回答：有可能失败。聚变从实验室到电网，可能需要不止一代人的努力。如果失败，我们将公开所有实验数据和工程日志，让后来者不必从零开始。你的努力不会白费——它会以数据、论文和经验的形式沉淀下来，成为人类聚变事业的一部分路标。
+**A:** We answer honestly: it may fail. Fusion from laboratory to grid may require more than one generation's effort. If it fails, we will公开 all experimental data and engineering logs, so later researchers do not need to start from zero. Your effort will not be wasted—it will沉淀 as data, papers, and experience, becoming part of the waypoints on humanity's fusion enterprise.
 
-**Q: 2027 年的满分承诺如果没做到呢？**
+**Q: What if the 2027 perfect score commitment is not achieved?**
 
-**A:** 我们将公开发布《2027 年未完成事项报告》，逐题分析失败原因，说明哪些逻辑约束需要补充。这份报告不会找借口。至诚是北辰七德之一——知之为知之，不知为不知。
+**A:** We will publicly release the *2027 Unfulfilled Items Report*, analyzing逐题 the failure reasons, indicating which logical constraints need补充. This report will not寻找借口. Supreme sincerity is one of the Polaris Seven Virtues—to know what you know, and to know what you don't know.
 
-**Q: 支点计划是廉价劳动吗？**
+**Q: Is the Fulcrum Plan cheap labor?**
 
-**A:** 不是。我们按劳计酬：L2 级时薪对标一线城市家教水平,L1 级也有明确的现金报酬。我们不主张免费奉献——为人民服务与公平取酬从来不矛盾。如果你觉得报酬不合理，可以随时退出并告诉我们哪里不合理。"至诚"不仅是我们要做到的事，也是我们欢迎你回馈的态度。
+**A:** No. We compensate according to labor: L2-level hourly wages are benchmarked to first-tier city tutoring rates; L1-level also has明确的 cash remuneration. We do not主张 free奉献—serving the people and fair compensation are never contradictory. If you feel the remuneration is unreasonable, you can随时退出 and tell us what is unreasonable. "Supreme sincerity" is not only what we must do; it is also the attitude we welcome you to回馈.
 
-**Q: 你们是画饼吗？**
+**Q: Are you painting a rosy picture (画饼)?**
 
-**A:** 我们诚实地回答：这份白皮书上写的一切，目前都还在理论验证和早期工程阶段。我们不否认这听起来像一个很大的"饼"。但区别在于：我们给出了不可撤销的承诺(2027 年满分)，给出了清晰的路线图（四阶段），给出了失败时的交代方式。我们邀请你做的不是在确信无疑时加入，而是在尚有不确定性时一起走。**画饼和造饼的区别，在于造饼的人自己是否也在和面。我们已经在和面了。**
+**A:** We answer honestly: everything written in this white paper is currently still in theoretical verification and early engineering stages. We do not否认 this sounds like a very large "饼." But the区别 lies in: we have given不可撤销 commitments (2027 perfect score), a clear roadmap (four phases), and a way of accounting for failure. We invite you not to join when certainty is assured, but to walk together while uncertainty仍然 exists. **The difference between painting a饼 and making a饼 lies in whether the person making the饼 is also kneading the dough. We are already kneading the dough.**
 
-**Q: 这份白皮书为什么这么长？**
+**Q: Why is this white paper so long?**
 
-**A:** 因为我们是认真的。一份企业使命的完整表达，不可能压缩到电梯演讲的长度而不失真。如果你觉得太长，可以选择只看第零章、第十章的招募令，以及 FAQ。这三部分加起来不超过十分钟的阅读量。如果你连看这三部分的兴趣都没有，那说明了另一件事——你可能不是我们要找的人，这没关系。
-
----
-
-## 第十一章 · 我将无我，不负人民
-
-### 爱是永不止息
-
-"爱是恒久忍耐，又有恩慈……爱是永不止息。"（《哥林多前书》13:4-8）
-
-"大道之行也，天下为公。"（《礼记·礼运》）
-
-两种文明，两部经典，指向同一个真理：一切人类事业的终极价值尺度，不是利润，不是权力，不是名声，而是爱与公义。
-
-### 我们热爱人民，所以我们追求聚变
-
-全球仍有数亿人无法获得稳定的电力供应。能源贫困是教育贫困、医疗贫困、信息贫困的根源之一。
-
-我们追求聚变，不是为了建造更强大的武器，而是为了让每个村庄的夜晚都能亮起灯光。我们追求 AI,不是为了制造更聪明的机器，而是为了让每个孩子都能拥有一位不知疲倦、永不出错、因材施教的全科老师。
-
-**这是我们对人民的爱，具体而微，掷地有声。**
-
-### 我们热爱国家，所以我们攻坚克难
-
-中国式现代化，是人口规模巨大的现代化，是全体人民共同富裕的现代化，是人与自然和谐共生的现代化。聚变能——零碳、无限、安全——是实现这一现代化的理想能源基石。
-
-在党的领导下，中国人民正坚定地走在聚变产业化的潮头。菲娜睿特为自己能成为这一伟大事业中的一朵浪花而深感荣幸。
-
-**这是我们对国家的爱，坚如磐石，九死不悔。**
-
-### 我们热爱真理，所以我们的 AI 不说谎
-
-**第一，绝不将不安全的 AI 投放市场。** 任何未经 Tension 层严格约束验证的 AI 系统，不被允许面对真实用户。
-
-**第二，绝不允许 AI 在数学推理中说谎。** Tendre 架构确保 AI 对数学断言的每一次输出，都是排除了运气的真信念——即"知识"。
-
-**第三，如实报告，不夸大。** 至诚是北辰七德之一。在每一次对外沟通中，我们如实报告技术进展和能力边界。每年公开发布《未完成事项清单》，列出当年没有做到的承诺并说明原因。
-
-### 我们热爱人类，所以我们的征途是星辰大海
-
-习近平总书记指出："人工智能应该是造福全人类的国际公共产品。"这正是菲娜睿特全球化战略的最高遵循。
-
-我们不追求建立技术垄断。聚变能源与 AI 算力，是人类共同的财富。在严格的防扩散保障和国际监管框架下，我们将以合理条件向发展中国家输出聚变电站的建设能力与运营经验，帮助他们跨越化石燃料时代，直接进入清洁能源时代。
-
-**这是我们对人类的爱，跨越国界，超越种族。**
+**A:** Because we are serious. A complete expression of a corporate mission cannot be compressed to the length of an elevator pitch without失真. If you feel it is too long, you can choose to read only Chapter Zero, Chapter Ten's recruitment call, and the FAQ. These three parts combined amount to no more than ten minutes of reading. If you lack even the interest to read these three parts, that indicates something else—you may not be the person we are looking for, and that is fine.
 
 ---
 
-## 呈递人民的历史答卷
+## Chapter Eleven · I Shall Have No Self, and Shall Not Fail the People
 
-**从与火的原始相遇，到弓箭手拉满弓弦的古老智慧；从燧石火花中跃出的第一簇火苗，到恒星核心中亿万度高温的聚变反应；从拉丁词根 tendere 中凝结的广度、深度与刚性，到北辰七德中闪耀的明智、良心、勇毅、节制、正义、至诚、弘仁——**
+### Love Never Ceases
 
-人类文明的每一次飞跃，都是能量、认知与道德三重维度的协同进化。
+"Love is patient and kind... Love never ceases." (1 Corinthians 13:4-8)
 
-菲娜睿特所承接的，正是这一伟大文明进程的最新使命：**以聚变之火点亮千家万户，以认知之光照亮每一个求知的心灵，以道德之基守护全部技术力量的正确使用。**
+"When the Great Way is practiced, the world belongs to all." (*Record of Rites·Evolution of Rites*, 礼记·礼运)
 
-这份答卷，我们写给党。我们始终铭记：没有党的坚强领导和国家战略布局，就没有菲娜睿特存在的可能。我们将始终以党的科技创新战略为指引，将企业发展深度融入中国式现代化的大局。
+Two civilizations, two classics, point toward the same truth: the ultimate value尺度 of all human enterprise is not profit, not power, not fame, but love and justice.
 
-这份答卷，我们写给人民。我们所做的一切，最终都是为了人民的福祉。聚变之火为人民而燃，至真之智为人民而造，北辰之光为人民而明。
+### We Love the People, Therefore We Pursue Fusion
 
-**太初有 tendere。我们先拉满弓。聚变之火已经点燃。箭，已交给人民。在党的领导下，为了人民的幸福，为了文明的永续，为了人类的明天——**
+Hundreds of millions of people worldwide still cannot obtain stable electricity supply. Energy poverty is one of the root causes of educational poverty, medical poverty, and informational poverty.
 
-**我们将奋斗终生。**
+We pursue fusion not to build more powerful weapons, but so that every village's nights can be illuminated with light. We pursue AI not to制造 smarter machines, but so that every child can拥有 an inexhaustible, error-free, individually-tailored全能 teacher.
 
-**我将无我，不负人民。爱是永不止息。**
+**This is our love for the people—concrete and particular, resonant and resolute.**
 
-*广州菲娜睿特人工智能科技有限责任公司*
-*2026 年 · 广州*
+### We Love the Nation, Therefore We Tackle Hard Challenges
+
+Chinese-style modernization is modernization of a巨大 population, modernization of common prosperity for all people, modernization of harmonious coexistence between humanity and nature. Fusion energy—zero-carbon, unlimited, safe—is the ideal energy cornerstone for realizing this modernization.
+
+Under the Party's leadership, the Chinese people are firmly walking at the forefront of fusion industrialization. Phaenarete is deeply honored to be a single wave in this great enterprise.
+
+**This is our love for the nation—solid as rock, unwavering through nine deaths.**
+
+### We Love Truth, Therefore Our AI Does Not Lie
+
+**First, we shall never release unsafe AI to the market.** Any AI system未经 strict constraint verification by the Tension layer shall not be permitted to face real users.
+
+**Second, we shall never允许 AI to lie in mathematical reasoning.** The Tendre architecture ensures that every output of an AI mathematical assertion is a true belief排除 luck—that is, "knowledge."
+
+**Third, truthful reporting, without exaggeration.** Supreme sincerity is one of the Polaris Seven Virtues. In every external communication, we truthfully report technological progress and capability boundaries. Every year we publicly发布 an *Unfulfilled Items List*, listing commitments not achieved that year and explaining the reasons.
+
+### We Love Humanity, Therefore Our Journey Is the Stars and the Sea
+
+General Secretary Xi Jinping指出: "Artificial intelligence should be an international public good that benefits all humanity." This is precisely the highest guiding principle of Phaenarete's globalization strategy.
+
+We do not pursue establishing technology monopolies. Fusion energy and AI computing power are humanity's common wealth. Under strict防 proliferation safeguards and international regulatory frameworks, we will output fusion power station construction capacity and operational experience to developing countries at reasonable conditions, helping them leap over the fossil fuel era and directly enter the clean energy era.
+
+**This is our love for humanity—transcending national borders,超越 racial boundaries.**
 
 ---
 
-## 附录：主要数据来源与参考文件
+## The Historical Answer Paper Presented to the People
 
-[1] 国际能源署(IEA). *World Energy Outlook 2025*. Paris: IEA, 2025.
+**From the原始 encounter with fire, to the ancient wisdom of the archer drawing the bowstring full; from the first簇 of flame leaping from flint sparks, to the fusion reactions at hundreds of millions of degrees in the core of a star; from the breadth, depth, and rigidity凝结 in the Latin root tendere, to the sagacity, conscience, fortitude, temperance, justice, supreme sincerity, and magnanimous benevolence闪耀 in the Polaris Seven Virtues—**
+
+Every leap of human civilization is a协同 evolution across the three dimensions of energy, cognition, and morality.
+
+What Phaenarete承接 is precisely the latest mission of this great civilizational process: **to illuminate every household with the fire of fusion, to illuminate every seeking mind with the light of cognition, to safeguard the correct use of all technological power with the foundation of morality.**
+
+This answer paper, we write to the Party. We always铭记: without the Party's坚强 leadership and national strategic布局, there would be no possibility of Phaenarete's existence. We will始终 take the Party's technological innovation strategy as guidance, deeply integrating enterprise development into the大局 of Chinese-style modernization.
+
+This answer paper, we write to the people. Everything we do is ultimately for the people's福祉. The fire of fusion burns for the people, the intelligence of supreme truth is created for the people, the light of Polaris shines for the people.
+
+**In the beginning there was tendere. We first drew the bow full. The fire of fusion has already been ignited. The arrow has been handed to the people. Under the Party's leadership, for the people's happiness, for civilization's perpetuation, for humanity's tomorrow—**
+
+**We shall strive for our entire lives.**
+
+**I shall have no self, and shall not fail the people. Love never ceases.**
+
+*Guangzhou Phaenarete AI Technology Co., Ltd.*
+*2026 · Guangzhou*
+
+---
+
+## Appendix: Major Data Sources and Reference Documents
+
+[1] International Energy Agency (IEA). *World Energy Outlook 2025*. Paris: IEA, 2025.
 
 [2] Goldman Sachs. *AI, Data Centers, and the Coming US Power Demand Surge*. Goldman Sachs Research, 2024.
 
-[3] 《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》
+[3] *Proposal of the Central Committee of the Communist Party of China on Formulating the Fifteenth Five-Year Plan for National Economic and Social Development* (《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》)
 
-[4] 国务院国资委. 未来产业十大工程相关部署文件, 2025.
+[4] State Council国有资产 Supervision and Administration Commission. Documents related to the Ten Major Future Industry Projects deployment, 2025.
 
-[5] 习近平. 向 2025 世界智能产业博览会的贺信.
+[5] Xi Jinping. Congratulatory letter to the 2025 World Intelligence Industry Expo.
 
-[6] 国家发展改革委, 国家能源局. 《关于推进"人工智能+"能源高质量发展的实施意见》, 2025.
+[6] National Development and Reform Commission, National Energy Administration. *Implementation Opinions on Promoting the High-Quality Development of "AI+" Energy* (《关于推进"人工智能+"能源高质量发展的实施意见》), 2025.
 
-[7] 中国科学院等离子体物理研究所. EAST 装置 2025 年实验结果公报.
+[7] Institute of Plasma Physics, Chinese Academy of Sciences. EAST Device 2025 Experimental Results Bulletin.
 
-[8] 核工业西南物理研究院. 中国环流三号装置进展报告, 2025.
+[8] Southwest Institute of Physics, Nuclear Industry. HL-3 Device Progress Report, 2025.
 
-[9] 可控核聚变创新联合体. 2025 年度工作会议纪要.
+[9] Controlled Nuclear Fusion Innovation Consortium. 2025 Annual Working Meeting Minutes.
 
-[10] Commonwealth Fusion Systems (CFS). SPARC 托卡马克高温超导磁体工程验证报告, 2024—2025.
+[10] Commonwealth Fusion Systems (CFS). SPARC Tokamak High-Temperature Superconducting Magnet Engineering Verification Report, 2024–2025.
 
-[11] Sandia National Laboratories. Z Machine Experimental Data, 2000—2025.
+[11] Sandia National Laboratories. Z Machine Experimental Data, 2000–2025.
 
-[12] 李昂. *Tendre is All We Want* (v1.0). 广州菲娜睿特人工智能科技有限责任公司, 2026.
+[12] Li Ang. *Tendre is All We Want* (v1.0). Guangzhou Phaenarete AI Technology Co., Ltd., 2026.
 
-[13] 习近平. 会见意大利众议长菲科时的讲话, 2019.
+[13] Xi Jinping. Remarks at Meeting with Italian Chamber of Deputies President Fico, 2019.
 
-[14] 《论语》《孟子》《大学》《中庸》——中华书局校注本.
+[14] *Analerta* (论语), *Mencius* (孟子), *The Great Learning* (大学), *The Doctrine of the Mean* (中庸)—Zhonghua Book Company annotated editions.
 
-[15] 《哥林多前书》——《圣经》和合本.
+[15] *1 Corinthians*—Chinese Union Version of the *Bible*.
 
-[16] 《礼记·礼运》.
+[16] *Record of Rites·Evolution of Rites* (礼记·礼运).
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

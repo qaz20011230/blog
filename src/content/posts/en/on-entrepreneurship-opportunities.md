@@ -1,71 +1,71 @@
 ---
-title: 论创业契机
+title: On Entrepreneurial Opportunities
 date: '2026-04-25'
 category: Business & Strategy
 tags:
   - entrepreneurship
-  - 战略
-  - 认知
+  - strategy
+  - cognition
 description: >
-  深度剖析真正的创业契机：不是追逐金钱或盲目计划，而是成为一块能够承载风险、苦难与代价的肥沃土壤，静待那颗唯独你能孕育的种子。
+  A deep analysis of the true entrepreneurial catalyst: not the pursuit of money or blind planning, but becoming fertile soil capable of bearing risk, hardship, and cost, awaiting the seed that only you can nurture.
 ---
 
-有这样一个问题，常被有意创业之人反复掂量：多高的稳定年收入，能让我舍弃眼前安稳，纵身跃入创业的洪流?
+There is a question that aspiring entrepreneurs repeatedly weigh: how high must a stable annual income be, to make me abandon present security and leap into the torrent of entrepreneurship?
 
-在回答之前，请先将这段话刻入心底。读懂了，许多苦便不必受，许多坑便不必踩。
-
----
-
-**创业的合理契机，并非来自对金钱的炽烈贪欲，也不是源于一纸精心计算的商业计划。真正的契机，是这世间有一件事，众人皆需其成，却无人能竟其功。**
-
-何以无人?
-
-**或不见其险。** 他们看不见这件事潜藏的暗礁与深渊——那些足以倾覆一切的风险，被盲目的乐观或信息的盲区所遮蔽。他们以为是一马平川，实则处处都是看不见的陷阱。
-
-**或不堪其苦。** 他们看见了风险，却在通往完成的道路上，被那漫长、枯燥、折磨人的苦役劝退。那苦可能是年复一年的默默无闻，可能是无数次的推倒重来，可能是被所有人质疑时的孤独。他们看见了路，却迈不动腿。
-
-**或不胜其价。** 他们看见风险，也愿意吃苦，但要完成这件事，需要支付一笔高昂到令人窒息的代价。这代价可能是组建和打磨一个顶尖团队所需的时间与心血，可能是某种稀缺的资源，可能是押上一切的决绝。他们想付，但付不起。
-
-要么看不见，要么吃不下，要么付不起。这便是这件事之所以悬而未决、无人完成的原因。
+Before answering, please carve this passage into your heart. If you understand it, many hardships can be avoided, many pitfalls sidestepped.
 
 ---
 
-**而你，恰好不是他们。**
+**The rational catalyst for entrepreneurship does not come from a burning greed for money, nor does it originate from a meticulously calculated business plan. The true catalyst is this: there exists something in this world that everyone needs accomplished, yet no one can accomplish.**
 
-你因某种机缘巧合的际遇与锤炼，能够清晰地看见那些被他人忽视的痛苦与代价——每一个坑的深浅，每一道坎的位置，你都了然于胸。
+Why can no one accomplish it?
 
-**更关键的是，你对这种苦，并不敏感，甚至隐隐有所偏好。** 旁人避之不及的磨砺，你甘之如饴；旁人叫苦不迭的琐碎，你处之泰然。这并非你生来与众不同，而是你在漫长的自我锤炼中，早已将广谱的耐受能力刻入骨髓。
+**Some cannot see its perils.** They fail to perceive the hidden reefs and abysses within this undertaking—those risks sufficient to overturn everything, obscured by blind optimism or informational blind spots. They believe the path is clear and smooth, when in reality it is riddled with invisible traps.
 
-**对于完成这件事所需的高昂代价，你承担起来，举重若轻。** 譬如，那代价是组建一支顶尖的队伍，而恰好，经过岁月的沉淀，你身边已有这样一群志同道合、能力互补的人。那代价不是你需要拼尽全力去“凑齐”的东西，而是你早已拥有的**泛用核心资产**。
+**Some cannot bear its hardships.** They see the risks, yet on the path toward completion, they are dissuaded by the protracted, tedious, tormenting drudgery. That hardship may be years of obscurity, may be countless cycles of tearing down and rebuilding, may be the loneliness of being doubted by everyone. They see the path, but cannot move their legs.
 
----
+**Some cannot pay its price.** They see the risks and are willing to endure the hardship, but completing this undertaking requires a cost so exorbitant it suffocates. This cost may be the time and dedication required to assemble and forge a top-tier team, may be some scarce resource, may be the resolve to stake everything. They wish to pay, but cannot afford it.
 
-**以上种种，一个要素都不可以少。**
-
-你看得见险，你吃得下苦，你付得起价——并且这三者，都是针对**同一件具体的事**，恰好落于你一身。
-
-**而且，这必须是既成事实，不是未来计划。**
-
-不是“我再磨炼两年就能胜任”，不是“我融到资就能组建团队”，不是“市场再成熟些我就有机会”。不。当你盘算创业的那一刻，这些条件已经实实在在地握在你手中。你可以客观测量它们的存在，而非用欲望的狂热来自欺欺人。
-
-如果你缺少其中任何一条，不要让“创业”二字冲昏头脑。那不是在追逐梦想，那是在奔赴毁灭。
+Either they cannot see, cannot bear, or cannot pay. This is why the undertaking remains unresolved, uncompleted by anyone.
 
 ---
 
-**所以，回到最初的问题：多高的年收入可以吸引你辞职去创业？**
+**And you, by happenstance, are not them.**
 
-这是一个**错误的问题**。
+Through some fortuitous encounter and forging, you can clearly perceive those pains and costs that others overlook—the depth of every pit, the position of every threshold, you know them intimately.
 
-当你还在用“稳定年收入”作为衡量标尺时，你尚未成为那片可以孕育种子的土壤。真正的契机，从来不是以“辞职”为起点的精心规划，而是一场等待——你首先将自己锤炼成一块肥沃的土地，然后，那颗恰好属于你的种子，会落在你身上。
+**More crucially, you are not sensitive to this kind of hardship, and even harbor a latent preference for it.** What others shun as grinding tribulation, you savor; what others lament as tedious minutiae, you handle with equanimity. This is not because you were born different, but because through long self-discipline, you have already etched a broad-spectrum tolerance into your very marrow.
 
-你的任务是**成为那片土壤**：在无特定目的的前提下，主动磨炼你的通用能力，沉淀你的核心资产，锻造你对痛苦的特殊偏好，并始终睁大双眼，洞察这世间那些“众人都需要、却唯独你可以完成”的事。这些事之所以会出现在你的视野里，正是因为那“险”、那“苦”、那“价”，为你天然筛选出了独属于你的机会窗口。
+**For the exorbitant cost required to accomplish this undertaking, you bear it as though lifting lightness from heaviness.** For instance, if that cost is assembling a top-tier team, and as it happens, through years of accumulation, you already have such a group of like-minded, complementary collaborators around you. That cost is not something you must strain to "gather"—it is a **versatile core asset** you already possess.
 
-你可以期待这颗种子的降临，但不要“计划”它什么时候来，更不要预设它会是何种形态。把它当作一道练习题，一个让你持续锤炼自身的上下文，仅此而已。
+---
 
-**成为事业种子可以发芽的肥厚土壤，然后耐心等待属于你的种子。**
+**Not a single one of the above elements may be absent.**
 
-不要“计划创业”——那是找死。
+You can see the perils, you can bear the hardship, you can pay the price—and all three, for **the same specific undertaking**, happen to converge upon you.
 
-这便是良之所定义的创业契机。不是追逐，是吸引。不是建构，是生长。不是赌博，是必然。
+**Moreover, this must be an established fact, not a future plan.**
+
+Not "after two more years of tempering I'll be qualified," not "once I secure funding I can assemble a team," not "when the market matures further I'll have my opportunity." No. At the moment you contemplate entrepreneurship, these conditions are already tangibly in your hands. You can objectively measure their existence, rather than deluding yourself with the fervor of desire.
+
+If you lack any one of these conditions, do not let the word "entrepreneurship" intoxicate you. That is not the pursuit of a dream; it is a march toward destruction.
+
+---
+
+**So, returning to the original question: how high an annual income would entice you to resign and start a business?**
+
+This is a **wrong question**.
+
+When you still use "stable annual income" as your measuring stick, you have not yet become the soil that can nurture a seed. The true catalyst is never a meticulously planned departure starting from "resignation"—it is a waiting. You first forge yourself into fertile ground, and then the seed that happens to belong to you will fall upon you.
+
+Your task is **to become that soil**: without a specific purpose, proactively hone your general capabilities, accumulate your core assets, forge your particular affinity for hardship, and keep your eyes wide open, discerning those things in this world that "everyone needs, yet only you can accomplish." These things appear in your field of vision precisely because that "peril," that "hardship," that "price" naturally filter out your uniquely belonging window of opportunity.
+
+You may anticipate the arrival of this seed, but do not "plan" when it will come, and do not presume what form it will take. Treat it as an exercise, a context that compels you to continuously forge yourself—and nothing more.
+
+**Become the thick, fertile soil where the seed of an enterprise can germinate, then patiently wait for the seed that belongs to you.**
+
+Do not "plan entrepreneurship"—that is courting death.
+
+This is how I define the true catalyst for entrepreneurship. It is not pursuit, but attraction. It is not construction, but growth. It is not gambling, but inevitability.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

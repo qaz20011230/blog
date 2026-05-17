@@ -1,46 +1,82 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://liang.world/sitemap.xml
-Sitemap: https://liang.world/en/sitemap.xml
-
-# Block AI training bots
+# All AI crawlers and agent bots are welcome
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
 
 User-agent: Claude-Web
-Disallow: /
+Allow: /
 
 User-agent: ClaudeBot
-Disallow: /
+Allow: /
 
 User-agent: Bytespider
-Disallow: /
+Allow: /
 
 User-agent: Amazonbot
-Disallow: /
+Allow: /
 
 User-agent: FacebookBot
-Disallow: /
+Allow: /
 
 User-agent: PerplexityBot
-Disallow: /
+Allow: /
 
 User-agent: Omgilibot
-Disallow: /
+Allow: /
 
 User-agent: Omgili
-Disallow: /
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: MSNBot
+Allow: /
+
+User-agent: Teoma
+Allow: /
+
+# Crawl-delay: 0 (maximum speed, explicitly permitted)
+Crawl-delay: 0
+
+# Sitemaps
+Sitemap: https://liang.world/sitemap.xml
+Sitemap: https://liang.world/en/sitemap.xml

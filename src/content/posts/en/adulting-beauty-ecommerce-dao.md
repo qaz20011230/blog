@@ -1,5 +1,5 @@
 ---
-title: 成人之美：电商人的道行
+title: "Cheng Ren Zhi Mei (Helping Others Flourish): The Way and Practice of E-commerce People"
 date: '2026-04-03'
 category: Business & Strategy
 tags:
@@ -7,339 +7,339 @@ tags:
   - business
   - philosophy
 description: >
-  电商不只是卖货，而是在做“流通”、在回应人们对更好生活的渴望。本文从买手良心、媒人之道到元技能与长期主义，给出电商人的六重安全感：以甄选与交付成人之美，把岗位做成职业，把生意做成修行。
+  E-commerce is not just selling goods—it is doing "circulation," responding to people's longing for a better life. From the buyer's conscience, the matchmaker's way, to meta-skills and long-termism, this essay offers e-commerce people six layers of security: achieving others' beauty through selection and delivery, turning a position into a profession, turning business into spiritual practice.
 ---
 
-> 原文题名：《电商人的道行》
+> Original title: *The Way and Practice of E-commerce People* (*Dianshang ren de Daohang*, 《电商人的道行》)
 
-## 序：我是什么人?
+## Preface: Who Am I?
 
-有人问我，你是做什么的?
+Someone asked me, what do you do?
 
-我说，我是电商人。
+I said, I'm an e-commerce person.
 
-他点点头，说，哦，卖货的。
+He nodded and said, oh, a seller.
 
-我没有纠正他。因为从外面看，确实像——上架、投流、发货、售后，日复一日，年复一年。和“卖货的”有什么区别呢?
+I didn't correct him. Because from the outside, it确实 looks like it—listing products, running ads, shipping orders, handling after-sales service, day after day, year after year. What's the difference from "a seller"?
 
-但我知道，区别大了。
+But I know the difference is enormous.
 
-我不是卖货的。我是媒人。我是人间的媒人，是人与物之间的牵线者，是需求与满足之间的摆渡人。我做的每一件事，都是在促进商品流通、提升生活质量、甄选璀璨星辰、服务普罗大众。
+I'm not a seller. I'm a matchmaker. I'm a matchmaker in this world, a connector between people and goods, a ferryman between need and fulfillment. Everything I do is promoting commodity circulation, improving quality of life, selecting brilliant stars, serving the broad masses.
 
-这句话听起来很大。但如果你真的在这行里泡过几年，你就知道，它一点也不大。它只是把电商人每天都在做的事，用最本来的名字说出来。
+This statement sounds grand. But if you've truly immersed yourself in this industry for a few years, you know it's not grand at all. It's simply naming what e-commerce people do every day with its truest name.
 
-这篇文章，就是想把“电商人”这三个字，从尘埃里捞出来，擦亮，还给那些真正在行道的人。
-
----
-
-## 第一章：流通的意义——为什么电商不会死
-
-先说一个根本的问题：人类为什么需要流通?
-
-远古时代，一个部落打到猎物，吃不完；另一个部落采到果子，也吃不完。他们开始交换。你给我一块肉，我给你一篮果。各得其所，皆大欢喜。
-
-这就是流通的起点。
-
-后来，交换变成了买卖，买卖变成了市场，市场变成了经济。但内核没变——把多余的东西，送到需要的人手上。
-
-这个需求，永远不会消失。因为只要人活着，就有多余和匮乏；只要有多余和匮乏，就需要流通。
-
-电子商务，不过是流通的一种新形式。它没有创造新的需求，它只是让流通变得更快、更广、更便宜。
-
-所以，电商不会死。只要人类还在，流通就在；只要流通在，电商就在。
-
-这就是电商人的第一重安全感：你所在的行业，指向的是人类最根本的需求之一——免于匮乏，获得满足。这个需求，没有满足可言。你永远有事做，永远有价值。
-
-但前提是，你做的真的是“流通”，而不是“投机”。
-
-投机者追逐风口，风口过了，他们就死了。行道者服务需求，需求在，他们就活着。
-
-你选哪一条路?
+This essay aims to fish the three characters "e-commerce person" (*dianshang ren*, 电商人) out of the dust, polish them bright, and return them to those who are truly walking the Way.
 
 ---
 
-## 第二章：生活质量的维度——电商人到底在卖什么
+## Chapter One: The Meaning of Circulation—Why E-commerce Will Not Die
 
-很多人以为，电商人卖的是商品。
+Let's first address a fundamental question: why do humans need circulation?
 
-不对。
+In ancient times, one tribe hunted game and had more than they could eat; another tribe gathered fruit and also had surplus. They began to exchange. You give me a piece of meat, I give you a basket of fruit. Each gets what they need, both are happy.
 
-商品只是载体。电商人卖的，是“更好的生活”。
+This is the origin of circulation.
 
-一个人买了一台空气炸锅，他不是买了一台机器。他买的是“不用开火也能吃到炸鸡”的便利，是“给孩子做健康零食”的安心，是“周末在厨房捣鼓新菜式”的乐趣。
+Later, exchange became trade, trade became markets, markets became economies. But the core never changed—sending surplus things to those who need them.
 
-一个人买了一本育儿书，他不是买了一叠纸。他买的是“如何做一个好父母”的焦虑缓解，是“深夜孩子睡着后那一小时的自我救赎”，是“希望自己做得更好一点”的期待。
+This need will never disappear. Because as long as people are alive, there is surplus and scarcity; as long as there is surplus and scarcity, there is need for circulation.
 
-一个人买了一件羽绒服，他不是买了一块布和一团绒。他买的是“这个冬天不冷了”的安全感，是“出门见人不哆嗦”的体面，是“在雪地里可以放肆玩”的自由。
+E-commerce is merely a new form of circulation. It didn't create new demand; it只是 made circulation faster, broader, cheaper.
 
-每一笔订单背后，都是一个人对更好生活的渴望。
+So e-commerce will not die. As long as humanity exists, circulation exists; as long as circulation exists, e-commerce exists.
 
-电商人，就是这些渴望的回应者。
+This is the first layer of security for e-commerce people: the industry you're in addresses one of humanity's most fundamental needs—freedom from scarcity, attainment of satisfaction. This need can never be fully met. You will always have work, always have value.
 
-你上的每一个商品，都应该回答一个问题：这个东西，能让谁的生活变好一点?
+But the前提 is that what you're truly doing is "circulation," not "speculation."
 
-不是“好很多”，是“好一点”。哪怕只是好一点点——省了五分钟，省了两块钱，省了一次皱眉——那也是价值。
+Speculators chase trends; when the trend passes, they die. Way-walkers serve needs; as long as needs exist, they live.
 
-积少成多，聚沙成塔。你服务一万个用户，每个人好一点点，这个世界就好了一万点。
-
-这就是电商人的价值。你不是在卖货，你是在让世界变好一点。
+Which path do you choose?
 
 ---
 
-## 第三章：甄选的意义——买手的良心
+## Chapter Two: The Dimension of Quality of Life—What E-commerce People Are Really Selling
 
-但是，不是所有东西都能让生活变好。
+Many people think e-commerce people sell goods.
 
-市面上的商品，浩如烟海。好的坏的，真的假的，美的丑的，有用的没用的，混在一起，泥沙俱下。
+Wrong.
 
-用户没有时间、没有精力、没有能力去分辨。他们需要一个信得过的人，替他们先看一遍、先试一遍、先淘汰一遍。
+Goods are merely the载体. What e-commerce people sell is "a better life."
 
-这个人，就是电商人。
+A person buys an air fryer; they're not buying a machine. They're buying the convenience of "eating fried chicken without turning on the stove," the peace of mind of "making healthy snacks for the kids," the fun of "experimenting with new recipes in the kitchen on weekends."
 
-你是用户的“买手”，是用户的“把关人”，是用户的“眼睛”。
+A person buys a parenting book; they're not buying a stack of paper. They're buying the alleviation of anxiety about "how to be a good parent," the "one hour of self-redemption after the child falls asleep late at night," the expectation of "hoping to do a little better."
 
-你在成千上万的商品中，甄选出那些真正值得的。你不是在“选品”，你是在“甄选”——像淘金一样，把沙砾筛掉，把金子留下。
+A person buys a down jacket; they're not buying a piece of fabric and some insulation. They're buying the安全感 of "won't be cold this winter," the dignity of "not shivering when going out to meet people," the freedom of "can play recklessly in the snow."
 
-这需要眼光。
+Behind every order is one person's longing for a better life.
 
-不是看“哪个利润高”，而是看“哪个真的好”。不是看“哪个卖得快”，而是看“哪个值得卖”。不是看“哪个包装漂亮”，而是看“哪个里子扎实”。
+E-commerce people are the responders to these longings.
 
-这需要良心。
+Every product you list should answer one question: whose life can this thing make a little better?
 
-明明可以卖假货赚快钱，你选择不。明明可以夸大宣传冲销量，你选择不。明明可以收割一波就跑，你选择留下来，慢慢做，长期做。
+Not "much better," but "a little better." Even if just a little—saving five minutes, saving two yuan, saving one frown—that is still value.
 
-这需要情怀。
+Accumulate small gains, gather sand into a tower. You serve ten thousand users, each a little better, and the world is ten thousand points better.
 
-你甄选的不是商品，是用户的信任。你建立的不是店铺，是用户的口碑。你经营的不是生意，是用户的期待。
-
-有人说，做电商就是搞钱。我不否认。但搞钱有两条路：一条是赚快钱，杀鸡取卵；一条是赚长钱，养鸡生蛋。
-
-甄选，就是养鸡生蛋的路。
-
-你替用户把好第一道关，用户就会信任你。信任你，就会复购。复购，就会推荐。推荐，你的生意就活了。
-
-这就是电商人的第二重安全感：你的价值，不来自你卖了多少，而来自你替用户省了多少心。省心的事，永远有人买单。
+This is the value of e-commerce people. You're not selling goods; you're making the world a little better.
 
 ---
 
-## 第四章：服务的本质——媒人的道
+## Chapter Three: The Meaning of Selection—The Buyer's Conscience
 
-甄选出来了，然后呢?
+But not everything can make life better.
 
-然后，你要把它送到需要的人手上。
+The products on the market are vast as an ocean. Good and bad, true and false, beautiful and ugly, useful and useless, all mixed together, mud and sand flowing together.
 
-这不是“发货”，这是“交付”——你把用户的期待，变成现实。你把用户的渴望，变成拥有。你把用户的梦想，变成触手可及。
+Users don't have the time, energy, or ability to discern. They need someone trustworthy to look first, try first, filter first on their behalf.
 
-这需要你懂用户。
+That person is the e-commerce person.
 
-不是懂他们的“画像”——年龄、性别、地域、消费水平——而是懂他们的“心”。他们为什么需要这个东西？他们在什么场景下使用它？他们拿到它的那一刻，会是什么样的表情?
+You are the user's "buyer," the user's "gatekeeper," the user's "eyes."
 
-这需要你懂产品。
+Among thousands of products, you select those truly worthy. You're not "choosing products" (*xuanpin*, 选品), you're "curating" (*zhenxuan*, 甄选)—like panning for gold, screening out the grit, keeping the gold.
 
-不是懂它的“参数”——尺寸、重量、材质、工艺——而是懂它的“魂”。它为什么被创造出来？它想解决什么问题？它想传递什么价值?
+This requires discernment.
 
-这需要你懂连接。
+Not looking at "which has higher profit," but at "which is truly good." Not looking at "which sells faster," but at "which is worth selling." Not looking at "which has pretty packaging," but at "which has solid substance."
 
-不是懂“流量”——点击、转化、复购、留存——而是懂“缘”。什么样的人，应该遇见什么样的物？什么样的物，应该属于什么样的人?
+This requires conscience.
 
-你在做的是“匹配”，是“牵线”，是“撮合”。你是那个在人与物之间牵红线的媒人。
+When you could sell counterfeit goods for quick money, you choose not to. When you could exaggerate advertising to boost sales, you choose not to. When you could harvest one round and run, you choose to stay, to do it slowly, to do it long-term.
 
-所以我说，电商人是媒人。
+This requires conviction.
 
-媒人的道，不是把两个人硬拉在一起。是看见他们本就该在一起，然后轻轻推一把。
+What you select is not products, but users' trust. What you build is not a store, but users' reputation. What you manage is not a business, but users' expectations.
 
-媒人的道，不是为自己谋利。是看见良缘将成，心生欢喜。
+Some say doing e-commerce is just about making money. I don't deny it. But there are two paths to making money: one is quick money, killing the chicken to get the egg; the other is long money, raising the chicken to lay eggs.
 
-媒人的道，不是贪天之功。是知道缘分的线，本就牵着，自己只是帮他们找到了线头。
+Selection is the path of raising the chicken to lay eggs.
 
-这就是电商人的第三重安全感：你不是在求人买东西，你是在帮人找东西。帮人的事，永远有底气。
+You guard the first gate for users, and users will trust you. Trust brings repeat purchases. Repeat purchases bring recommendations. Recommendations mean your business survives.
 
----
-
-## 第五章：先谈爱，再谈条件——电商人的成交之道
-
-那么，如何让用户“找到”那个对的东西?
-
-答案，藏在我之前讲过的那个“销售之道”里。
-
-让我用电商的语言，再讲一遍。
-
-一般的电商运营，一上来就会讲什么?
-
-讲价格——全网最低，限时抢购。讲参数——最新芯片，最大内存。讲功能——拍照清晰，续航持久。讲促销——满减折扣，赠品丰厚。
-
-他们以为，用户是因为“便宜”才买，是因为“配置高”才买，是因为“赠品多”才买。
-
-他们错了。
-
-用户买一个东西，最根本的原因只有一个：他爱上了它。
-
-不是爱上了它的价格，不是爱上了它的配置，不是爱上了它的赠品。是爱上了它本身——它的气质，它的品格，它的灵魂。
-
-你回想一下自己买过的最满意的东西。你是为什么买的？是因为它打折吗？是因为它参数高吗？是因为它赠品多吗?
-
-不是。是因为你第一眼看到它，就觉得“就是它了”。你说不清为什么，但你就是知道，它属于你，你属于它。
-
-这就是爱。
-
-电商人的任务，不是让用户“觉得划算”，而是让用户“爱上”。
-
-你怎么让用户爱上?
-
-先不谈条件，先谈恋爱。
-
-你先让他看见这个产品的灵魂——它为什么被创造？它想解决什么问题？它想传递什么价值？它有什么故事?
-
-然后，你再让他发现，这个产品不仅有灵魂，还有实力——它的设计有多用心，它的工艺有多精湛，它的体验有多出色。
-
-最后，你再告诉他价格——而且是一个远超他预期的价格。他会惊喜，会感动，会觉得“赚到了”。但这不是因为便宜，而是因为他原本已经做好了“为爱买单”的准备，却发现爱不需要付出那么高的代价。
-
-这就是“先谈爱，再谈条件”。
-
-你见过那些真正厉害的电商店铺吗？它们不吆喝，不降价，不逼单。它们安安静静地在那里，把产品做好，把内容做好，把服务做好。用户来了，看了，走了。然后又回来了。然后下单了。
-
-为什么？因为用户爱上了。
-
-爱不需要促销。
-
-这就是电商人的第四重安全感：你不是在卖，你是在吸引。吸引来的，赶都赶不走。
+This is the second layer of security for e-commerce people: your value comes not from how much you sold, but from how much worry you saved users. Things that save worry will always have buyers.
 
 ---
 
-## 第六章：职业与岗位——电商人，你是在做职业还是在做岗位?
+## Chapter Four: The Essence of Service—The Matchmaker's Way
 
-前面讲了这么多，都是在讲“道”。
+After selecting, then what?
 
-现在讲“行”。
+Then you must deliver it to those who need it.
 
-电商人，你每天在做的，是“职业”还是“岗位”?
+This is not "shipping," this is "delivery"—you turn the user's expectation into reality. You turn the user's longing into possession. You turn the user's dream into something within reach.
 
-岗位，是你现在做的事。职业，是你一生要做的事。
+This requires understanding users.
 
-岗位，是寄居蟹的壳。它会随着你的成长变得太小，你需要不断地换壳。每一次换壳，你都暴露在危险中。
+Not understanding their "profile"—age, gender, location, consumption level—but understanding their "heart." Why do they need this thing? In what场景 do they use it? What expression will they have when they receive it?
 
-职业，是寄居蟹的“蟹性”——那个让它不断寻找新壳的内在驱动力。只要它还是寄居蟹，它就永远需要壳。但壳可以换，蟹性不变。
+This requires understanding the product.
 
-如果你现在做电商，只是为了完成KPI——上架多少个产品、投流多少预算、达成多少GMV——那你做的只是一个岗位。换一家公司，换一个平台，你的经验可能就打折了。
+Not understanding its "specs"—dimensions, weight, material, craftsmanship—but understanding its "soul." Why was it created? What problem does it want to solve? What value does it want to convey?
 
-如果你做电商，是为了修炼那些“元技能”——观察用户、理解产品、创造连接、传递价值——那你做的就是一个职业。无论平台怎么变，技术怎么变，市场怎么变，你都有价值。
+This requires understanding connection.
 
-因为元技能，是可以迁移的。
+Not understanding "traffic"—clicks, conversions, repeat purchases, retention—but understanding "destiny" (*yuan*, 缘). What kind of person should encounter what kind of product? What kind of product should belong to what kind of person?
 
-什么是电商人的元技能?
+What you're doing is "matching," "connecting," "bridging." You're the matchmaker drawing the red thread between people and goods.
 
-第一，观察能力。你能从数据里看出趋势，从评论里听出情绪，从竞品里找到缺口。
+So I say, e-commerce people are matchmakers.
 
-第二，归纳能力。你能从纷繁的现象中提炼出规律、原则、方法。你能把一次成功的经验，变成可复用的流程。
+The matchmaker's way is not forcibly pulling two people together. It's seeing that they本来 belong together, and gently giving a push.
 
-第三，演绎能力。你能从规律出发，推导出新的可能、新的方案、新的方向。
+The matchmaker's way is not seeking profit for oneself. It's seeing a good match about to form, and feeling joy in the heart.
 
-第四，表达能力。你能用文案、用图片、用视频、用一切媒介，把产品的灵魂讲给用户听。
+The matchmaker's way is not claiming credit from heaven. It's knowing that the thread of destiny was already drawn, and one只是 helped them find the end of the thread.
 
-这四项能力，哪一项会过时？哪一项会被AI完全取代?
-
-没有。
-
-AI可以生成文案，但AI不知道“为什么要这样写”。AI可以分析数据，但AI不知道“什么是好的”。AI可以优化参数，但AI不知道“什么是美”。
-
-这些，恰恰是电商人不可替代的地方。
-
-所以，如果你现在做电商，只是在“执行”——按照上级的指令上架、投流、发货——那你应该警惕了。因为执行的工作，迟早会被自动化、被外包、被AI取代。
-
-如果你在做电商的同时，也在刻意练习观察、归纳、演绎、表达这四项元技能，那你就是在经营一个职业。这个职业，可以陪你走一辈子。
+This is the third layer of security for e-commerce people: you're not begging people to buy things, you're helping people find things. Helping others always gives you confidence.
 
 ---
 
-## 第七章：行道——从知道到做到
+## Chapter Five: Talk About Love First, Then Conditions—The E-commerce Person's Art of Closing Deals
 
-知道了这些，然后呢?
+So how do you let users "find" the right thing?
 
-然后，你要“行”。
+The answer lies in the "way of selling" I discussed before.
 
-道以行传。不是你知道了，你就成了；是你做到了，你才成。
+Let me retell it in e-commerce language.
 
-很多电商人，道理都懂。知道要选好品，知道要服务用户，知道要做长期主义。但一做起来，就变形了。
+What does ordinary e-commerce operations talk about first?
 
-为什么？因为“行”太难了。
+Price—lowest on the internet, limited-time rush. Specs—latest chip, largest memory. Features—clear photos, long battery life. Promotions—discounts, abundant gifts.
 
-行，意味着你每天面对诱惑时，要选择拒绝。有一款产品，利润高但质量差，你选不选？有一个玩法，能冲量但伤口碑，你玩不玩？有一个机会，能赚快钱但不长久，你抓不抓?
+They assume users buy because it's "cheap," because it has "high specs," because it has "many gifts."
 
-行，意味着你每天面对压力时，要坚持。流量掉了，你不慌，你知道是正常波动。转化低了，你不乱，你知道要优化内功。差评来了，你不怒，你知道要解决问题。
+They're wrong.
 
-行，意味着你每天面对枯燥时，要忍耐。选品、上架、优化、复盘，日复一日。没有鲜花，没有掌声，没有一夜暴富。只有做不完的琐事和等不到的爆发。
+The most fundamental reason a user buys something is only one: they fell in love with it.
 
-但正是这些“行”，把你和那些“知道”的人区分开来。
+Not falling in love with its price, not falling in love with its specs, not falling in love with its gifts. Falling in love with it itself—its temperament, its character, its soul.
 
-知道的人很多，行道的人很少。
+Think back to the most satisfying thing you ever bought. Why did you buy it? Was it because it was discounted? Because it had high specs? Because it came with lots of gifts?
 
-你是哪一个?
+No. It was because the moment you first saw it, you felt "this is it." You couldn't explain why, but you just knew—it belongs to you, and you belong to it.
 
-行道的人，不焦虑。因为他知道，他所做的一切，不是为了一时的回报，而是为了长期的积累。他做的每一个选品，都是在为店铺打地基。他写的每一篇文案，都是在为品牌攒口碑。他服务的每一个用户，都是在为未来铺路。
+That is love.
 
-行道的人，不迷茫。因为他知道，他的职业不是一份工作，而是一种召唤。他不是在“打工”，他是在“行道”。
+The e-commerce person's task is not making users "feel it's a good deal," but making users "fall in love."
 
-行道的人，不孤单。因为他知道，他不是一个人在走。他的同行者，是那些同样在甄选好物、服务用户的电商人。他的传人，是那些被他影响、被他启发、被他带出来的后辈。
+How do you make users fall in love?
 
-这就是电商人的第五重安全感：你不是在找工作，你是在找“行”的路。路找到了，走就是了。
+Don't talk about conditions first; talk about love first.
 
----
+First let them see this product's soul—why was it created? What problem does it want to solve? What value does it want to convey? What story does it have?
 
-## 第八章：薪火相传——电商人的道，传给谁
+Then, let them discover that this product not only has soul, but also has substance—how thoughtful its design is, how exquisite its craftsmanship is, how outstanding its experience is.
 
-道以行传。但行，需要有人接。
+Finally, tell them the price—and a price far exceeding their expectations. They'll be pleasantly surprised, moved, feel they "scored a great deal." But this isn't because it's cheap; it's because they were already prepared to "pay for love," only to discover that love doesn't require such a high price.
 
-你不能一个人走一辈子。你需要找到那些愿意跟你一起走的人——那些对同样的问题感兴趣、愿意投入同样的热情、愿意用一生去践行同样理念的人。
+This is "talk about love first, then conditions."
 
-带他们，教他们，信任他们。让他们在你离开之后，继续传下去。
+Have you seen those truly formidable e-commerce stores? They don't hawk, don't discount, don't pressure orders. They quietly stay there, doing products well, doing content well, doing service well. Users come, look, leave. Then come back. Then place an order.
 
-这才是“薪火相传”。
+Why? Because users fell in love.
 
-电商人的道，是什么?
+Love doesn't need promotions.
 
-促进商品流通，提升生活质量，甄选璀璨星辰，服务普罗大众。
-
-这句话，不是口号。是每一个电商人，可以用一生去践行的使命。
-
-你带新人，不是只教他“怎么投流”“怎么做图”“怎么报活动”。你要教他，为什么我们要甄选好物？为什么我们要服务用户？为什么我们要做长期主义?
-
-你要让他明白，他不是在学一门手艺，他是在接一份事业。
-
-这份事业，比你大，比任何一个电商人大。它是几代人、几十代人共同经营的事。你只是其中的一环。你的责任，是在你离开之前，把火传下去。
-
-如果你能让火比你来的时候更旺一些，那你就已经超出了责任，做出了贡献。
-
-这就是电商人的终极安全感：你不是一个人在战斗。你身后有前辈，你身边有同修，你前面有传人。你属于一个更大的生命。
+This is the fourth layer of security for e-commerce people: you're not selling, you're attracting. What comes through attraction can't be driven away.
 
 ---
 
-## 结语：电商人的道行
+## Chapter Six: Profession vs. Position—E-commerce Person, Are You Doing a Profession or a Position?
 
-回到最初的问题：电子商务运营师的道行是什么?
+All the above was about the "Way" (*dao*, 道).
 
-促进商品流通——让经济活起来，让资源动起来，让多余的去到匮乏的地方。
+Now let's talk about "Practice" (*xing*, 行).
 
-提升生活质量——让日子好起来，让麻烦少起来，让幸福多起来。
+E-commerce person, what you do every day—is it a "profession" (*zhiye*, 职业) or a "position" (*gangwei*, 岗位)?
 
-甄选璀璨星辰——把好东西挑出来，把坏东西挡在外面，把值得的捧到用户面前。
+A position is what you currently do. A profession is what you'll do your whole life.
 
-服务普罗大众——让每一个需要的人，都能遇见那个对的东西；让每一个对的东西，都能去到那个需要的人手上。
+A position is a hermit crab's shell. As you grow, it becomes too small, and you must constantly change shells. Each shell change exposes you to danger.
 
-但归根到底，是四个字：成人之美。
+A profession is the hermit crab's "crab nature" (*xiexing*, 蟹性)—the内在驱动力 that makes it constantly seek new shells. As long as it's a hermit crab, it always needs a shell. But shells can change; the crab nature remains.
 
-你成人之美，你就是在行道。你行道，你就是在修行。你修行，你就是在成就自己。
+If you're currently doing e-commerce just to complete KPIs—how many products to list, how much ad budget to spend, how much GMV to achieve—then you're only doing a position. Changing companies, changing platforms, your experience may depreciate.
 
-电商人，你不是卖货的。
+If you're doing e-commerce to cultivate those "meta-skills" (*yuan jineng*, 元技能)—observing users, understanding products, creating connections, delivering value—then you're doing a profession. No matter how platforms change, how technology changes, how markets change, you have value.
 
-你是媒人。你是摆渡人。你是人间美好的传递者。
+Because meta-skills are transferable.
 
-这条路，值得你走一辈子。
+What are the meta-skills of e-commerce people?
 
-愿每一个电商人，都能找到自己的道，行好自己的路，传好自己的火。
+First, observation. You can see trends in data, hear emotions in reviews, find gaps in competing products.
 
-道阻且长，行则将至。行而不辍，未来可期。
+Second,归纳 (*guina*, induction). You can extract patterns, principles, methods from complex phenomena. You can turn one successful experience into a reusable process.
+
+Third,演绎 (*yanyi*, deduction). You can derive new possibilities, new solutions, new directions from patterns.
+
+Fourth, expression. You can use copy, images, video, every medium, to tell users about a product's soul.
+
+Which of these four skills will become obsolete? Which will be completely replaced by AI?
+
+None.
+
+AI can generate copy, but AI doesn't know "why write it this way." AI can analyze data, but AI doesn't know "what is good." AI can optimize parameters, but AI doesn't know "what is beautiful."
+
+These are precisely where e-commerce people are irreplaceable.
+
+So if you're currently doing e-commerce just "executing"—following superiors' instructions to list, run ads, ship—you should be alarmed. Because execution work will sooner or later be automated, outsourced, or replaced by AI.
+
+If while doing e-commerce, you're also deliberately practicing the four meta-skills of observation,归纳,演绎, and expression, then you're managing a profession. This profession can accompany you for a lifetime.
 
 ---
 
-2026年4月3日
+## Chapter Seven: Walking the Way—From Knowing to Doing
+
+Knowing all this, then what?
+
+Then you must "walk."
+
+The Way is transmitted through walking (*dao yi xing chuan*, 道以行传). It's not that knowing makes you accomplished; it's doing that makes you accomplished.
+
+Many e-commerce people understand the principles. They know to select good products, know to serve users, know to practice long-termism. But once they start doing, they deform.
+
+Why? Because "walking" is too hard.
+
+Walking means choosing to refuse when facing temptation every day. A product with high profit but poor quality—do you select it? A tactic that boosts volume but hurts reputation—do you use it? An opportunity for quick money that won't last—do you grab it?
+
+Walking means persevering when facing pressure every day. Traffic drops, you don't panic, you know it's normal fluctuation. Conversion decreases, you don't scramble, you know you need to optimize内在 capabilities. A bad review comes, you don't get angry, you know you need to solve the problem.
+
+Walking means enduring when facing monotony every day. Selection, listing, optimization, review, day after day. No flowers, no applause, no overnight riches. Only endless trivialities and ever-elusive breakthroughs.
+
+But正是 these "walks" distinguish you from those who merely "know."
+
+Those who know are many; those who walk the Way are few.
+
+Which are you?
+
+Way-walkers don't焦虑. Because they know everything they do is not for immediate returns, but for long-term accumulation. Every product selection is laying the foundation for the store. Every piece of copy is building reputation for the brand. Every user served is paving the way for the future.
+
+Way-walkers don't feel lost. Because they know their profession is not a job, but a calling. They're not "working for someone"; they're "walking the Way."
+
+Way-walkers don't feel alone. Because they know they're not walking alone. Their fellow walkers are those e-commerce people同样 selecting good products and serving users. Their successors are those they've influenced, inspired, and trained.
+
+This is the fifth layer of security for e-commerce people: you're not looking for a job, you're looking for the path of "walking." Once you find the path, just walk.
+
+---
+
+## Chapter Eight: Passing the Torch—The E-commerce Person's Way, To Whom?
+
+The Way is transmitted through walking. But walking needs someone to receive it.
+
+You can't walk alone for a lifetime. You need to find those willing to walk with you—those interested in the same questions, willing to invest the same passion, willing to spend their lives practicing the same理念.
+
+Lead them, teach them, trust them. Let them continue transmitting after you leave.
+
+This is what "passing the torch" (*xin huo xiang chuan*, 薪火相传) truly means.
+
+What is the e-commerce person's Way?
+
+Promoting commodity circulation, improving quality of life, selecting brilliant stars, serving the broad masses.
+
+This statement is not a slogan. It is a mission every e-commerce person can practice with their whole life.
+
+When you mentor newcomers, you don't just teach them "how to run ads," "how to make images," "how to submit for promotions." You must teach them: why do we curate good products? Why do we serve users? Why do we practice long-termism?
+
+You must make them understand: they're not learning a trade, they're inheriting an enterprise.
+
+This enterprise is larger than you, larger than any single e-commerce person. It is something jointly operated by generations, dozens of generations. You are只是 one link in the chain. Your responsibility is to pass the fire on before you leave.
+
+If you can make the fire burn brighter than when you arrived, then you've exceeded responsibility and made a contribution.
+
+This is the ultimate security for e-commerce people: you're not fighting alone. Behind you are predecessors, beside you are fellow practitioners, ahead of you are successors. You belong to a larger living body.
+
+---
+
+## Conclusion: The Way and Practice of E-commerce People
+
+Returning to the original question: what is the way and practice of an e-commerce operations specialist?
+
+Promoting commodity circulation—让 the economy come alive,让 resources flow,让 surplus go where there is scarcity.
+
+Improving quality of life—让 days get better,让 troubles decrease,让 happiness increase.
+
+Selecting brilliant stars—picking out the good things, keeping the bad things out, presenting the worthy things to users.
+
+Serving the broad masses—让 every person who needs something can encounter the right thing;让 every right thing can reach the person who needs it.
+
+But归根结底, it comes down to four characters: Cheng Ren Zhi Mei (*成人之美*, Helping Others Flourish).
+
+When you help others flourish, you are walking the Way. When you walk the Way, you are practicing spiritual cultivation. When you practice spiritual cultivation, you are accomplishing yourself.
+
+E-commerce person, you're not a seller.
+
+You're a matchmaker. You're a ferryman. You're a transmitter of the world's goodness.
+
+This path is worth walking for a lifetime.
+
+May every e-commerce person find their own Way, walk their own path well, pass their own fire well.
+
+The Way is long and arduous, but walking will get you there. Walk without ceasing, and the future can be expected. (*dao zu qie chang, xing ze jiang zhi. xing er bu chuo, wei lai ke qi*, 道阻且长，行则将至。行而不辍，未来可期。)
+
+---
+
+April 3, 2026
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

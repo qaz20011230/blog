@@ -1,353 +1,353 @@
 ---
-title: 推荐归一：Rethink the Recommendation —— TAAC2026 深度思考
+title: "From Fragments to Wholeness: Rethink the Recommendation — Deep Reflections on TAAC2026"
 date: '2026-03-27'
 category: AI & Technology
 tags:
   - recommendation systems
   - TAAC2026
 description: >
-  工业推荐系统二十年，“序列建模 + 特征交互”的分离范式在长序列与高维特征下暴露三大隐含假设。本文从第一性原理提出统一架构：结构保持映射、统一注意力算子、渐进压缩与混合掩码，并给出竞赛推进与工业落地路径。
+  After twenty years of industrial recommendation systems, the separation paradigm of "sequence modeling + feature interaction" has exposed three hidden assumptions under long sequences and high-dimensional features. This article proposes a unified architecture from first principles: structure-preserving mapping, unified attention operator, progressive compression and hybrid masking, along with competition advancement and industrial deployment paths.
 ---
 
-> **写在前面**
-> 本文是我在 TAAC2026 竞赛期间对赛题“Towards Unifying Sequence Modeling and Feature Interaction for Large-scale Recommendation”的系统性思考。
+> **Preface**
+> This article is my systematic reflections on the competition topic "Towards Unifying Sequence Modeling and Feature Interaction for Large-scale Recommendation" during the TAAC2026 competition.
 >
-> 文章**不写一行代码**，只回答三个问题：为什么要统一、统一什么、以及怎么统一。它是一份理论推演与架构设计，不是最终的技术报告。
+> The article **contains no code**; it answers only three questions: why unify, what to unify, and how to unify. It is a theoretical derivation and architectural design, not a final technical report.
 >
-> 之所以选择在竞赛中期发布，是希望将这些思考尽早公开存档，与同行交流讨论。后续我会结合竞赛中的实验结果对本文进行迭代，届时将发布完整的技术报告。
+> The reason for publishing during the mid-competition period is to archive these reflections early and exchange ideas with peers. Subsequently, I will iterate on this article based on experimental results from the competition, and publish a complete technical report.
 >
-> 欢迎批评、讨论与指正。
+> Criticism, discussion, and corrections are welcome.
 
 ---
 
-## 文章摘要（可用于社交媒体转发）
+## Article Summary (Suitable for Social Media Sharing)
 
-> 工业推荐系统二十年，我们习惯了“序列建模 + 特征交互”的分离范式。但当序列从几十变成几千、特征从几十变成几百，这个范式背后的三个隐含假设正在逐一瓦解。
+> After twenty years of industrial recommendation systems, we've grown accustomed to the separation paradigm of "sequence modeling + feature interaction." But when sequences grow from dozens to thousands and features from dozens to hundreds, the three hidden assumptions behind this paradigm are crumbling one by one.
 >
-> 本文从第一性原理出发，提出**统一架构**的设计理念：
-> - 将序列、集合、标量三类异构数据统一到同一向量空间
-> - 用**结构保持映射**保留原始数据的序关系与置换不变性
-> - 通过**统一注意力算子**补全传统范式缺失的序列–特征直接交互
-> - 引入**渐进压缩**与**混合掩码**，在信息完整性与计算效率之间取得平衡
+> Starting from first principles, this article proposes a **unified architecture** design philosophy:
+> - Unifying three heterogeneous data types — sequences, sets, and scalars — into the same vector space
+> - Using **structure-preserving mapping** to preserve original data's order relations and permutation invariance
+> - Completing the sequence-feature direct interaction missing from the traditional paradigm through a **unified attention operator**
+> - Introducing **progressive compression** and **hybrid masking** to balance information completeness and computational efficiency
 >
-> 文章还给出了完整的竞赛推进策略、风险分析、以及统一架构的工业落地路径。
+> The article also provides complete competition advancement strategy, risk analysis, and industrial deployment paths for the unified architecture.
 >
-> 这是一份“零代码、全思考”的技术白皮书。无论你是否参加 TAAC2026,如果你对推荐系统的本质感兴趣，这篇文章或许值得一读。
+> This is a "zero-code, full-thinking" technical white paper. Whether or not you're participating in TAAC2026, if you're interested in the essence of recommendation systems, this article may be worth reading.
 
 ---
 
-> 本文是 TAAC2026 赛题"Towards Unifying Sequence Modeling and Feature Interaction for Large-scale Recommendation"的深度思考。不写一行代码，只回答三个问题：**为什么要统一、统一什么、以及怎么统一。**
+> This article offers deep reflections on the TAAC2026 competition topic "Towards Unifying Sequence Modeling and Feature Interaction for Large-scale Recommendation." No code is written; only three questions are answered: **why unify, what to unify, and how to unify.**
 
 ---
 
-## 写在前面：一个牛马的困惑
+## Preface: A Worker's Confusion
 
-我一直在做推荐系统。从协同过滤写到 Transformer,从 CPU 排到 GPU,从几百万参数堆到几百亿。但最近两年，我越来越困惑。
+I've been working on recommendation systems. From collaborative filtering to Transformer, from CPU to GPU, from millions of parameters to billions. But in the last two years, I've become increasingly confused.
 
-困惑的不是技术本身——技术一直在进步，模型越来越大，指标越来越好。我困惑的是：**我们到底在优化什么？**
+The confusion isn't about the technology itself — technology keeps advancing, models keep growing, metrics keep improving. My confusion is: **what exactly are we optimizing?**
 
-每当我看到大厂们把序列模型的深度从 12 层加到 24 层,AUC 涨了万分之三，而延迟翻了一倍的时候，我都在想：这条路还能走多久?
+Every time I see big companies increase sequence model depth from 12 to 24 layers, AUC rises by three ten-thousandths, and latency doubles, I wonder: how long can this path continue?
 
-每当我看到特征交互模块从 FM 变成 DeepFM,从 DCN 变成 DCN V2,从 Wukong 变成 RankMixer,而核心的"先压缩后交互"的流水线二十年没变的时候，我都在想：我们是不是在用越来越复杂的工具，解决一个本该被重构的问题?
+Every time I see feature interaction modules evolve from FM to DeepFM, from DCN to DCN V2, from Wukong to RankMixer, while the core "compress first, then interact" pipeline hasn't changed in twenty years, I wonder: are we using increasingly complex tools to solve a problem that should have been restructured?
 
-TAAC2026 的赛题"统一序列建模与特征交互"让我看到了一个可能：也许问题不在于序列模型不够深，也不在于交互模块不够强，而在于**我们一开始就把推荐系统切错了**。
+The TAAC2026 competition topic "Unifying Sequence Modeling and Feature Interaction" showed me a possibility: perhaps the problem isn't that sequence models aren't deep enough, or that interaction modules aren't strong enough, but that **we split the recommendation system wrong from the beginning**.
 
-这就是这篇文章的起点。我想从第一性原理出发，重新问一个最基本的问题：推荐系统到底在做什么?
-
----
-
-## 一、一个样本，两种结构
-
-打开 TAAC2026 的数据集，每一行是一个训练样本。它长这样：
-
-> 一个用户，在某个时刻，面对一个物品。系统要判断：用户会不会对这个物品发生转化。
-
-这个样本里包含了什么?
-
-- **user_id**：用户是谁
-- **item_id**：物品是什么
-- **seq_feature**：用户的历史行为序列（点击、转化、曝光）
-- **user_feature**：用户的画像（年龄、性别、消费能力）
-- **item_feature**：物品的属性（品类、品牌、价格）
-- **timestamp**：发生的时间
-
-这就是一个完整的推荐决策场景。所有信息都在这里了。
-
-现在的问题是：这些信息有**两种完全不同的结构**。
-
-**第一种结构：序列结构。**
-
-历史行为是一连串的事件，按时间排列。每个事件有先后顺序，有因果依赖。你不能随意打乱它们——把用户最近买的书放到三年前，意义就变了。序列结构的本质是**时间性**。
-
-**第二种结构：集合结构。**
-
-用户画像里的特征没有顺序。"年龄=25"和"性别=男"可以互换位置，不影响含义。物品属性同理。集合结构的本质是**无序性**。
-
-一个推荐系统要同时处理序列和集合。这就好比一个人既要理解时间线上的故事，又要理解一堆标签的语义。两种认知方式完全不同，却要在同一个大脑里完成。
-
-这就是问题的起点。
+This is the starting point of this article. I want to start from first principles and re-ask the most basic question: what exactly is a recommendation system doing?
 
 ---
 
-## 二、历史的答案：分离，然后拼接
+## One: One Sample, Two Structures
 
-面对这个问题，过去二十年工业界给出的答案是：**分开处理，最后拼接**。
+Open the TAAC2026 dataset, and each row is a training sample. It looks like this:
 
-具体来说，就是两条技术路线并行发展。
+> A user, at a certain time, facing an item. The system must determine: will the user convert on this item?
 
-**路线一：序列建模。**
+What does this sample contain?
 
-输入历史行为序列，输出一个"兴趣向量"。这条路线从 LSTM 走到 Transformer,从 SASRec 走到 LONGER。它的核心假设是：序列可以被压缩成一个固定长度的向量，而这个向量保留了所有重要信息。
+- **user_id**: who the user is
+- **item_id**: what the item is
+- **seq_feature**: the user's historical behavior sequence (clicks, conversions, impressions)
+- **user_feature**: the user's profile (age, gender, spending capacity)
+- **item_feature**: the item's attributes (category, brand, price)
+- **timestamp**: when it happened
 
-**路线二：特征交互。**
+This is a complete recommendation decision scenario. All information is here.
 
-输入用户画像、物品属性、上下文信号，输出一个"特征向量"。这条路线从 FM 走到 DeepFM,从 DCN 走到 RankMixer。它的核心假设是：特征之间的高阶交互可以被自动学习。
+The problem now is: this information has **two completely different structures**.
 
-最后，两个向量拼在一起，过一个 MLP,输出预测。
+**The first structure: sequence structure.**
 
-这就是今天工业推荐系统的标准范式。它有一个好听的名字，叫"编码-交互流水线"(encode-then-interaction pipeline)。
+Historical behaviors are a series of events, arranged by time. Each event has a temporal order and causal dependencies. You can't arbitrarily rearrange them — moving a book the user recently purchased to three years ago changes its meaning. The essence of sequence structure is **temporality**.
 
-这个范式在很长一段时间里是成功的。因为序列不长，特征不多，分开处理简单高效。但当序列从几十变成几百再变成几千，特征从几十变成几百再变成上千，这个范式的裂缝开始显现。
+**The second structure: set structure.**
 
----
+Features in the user profile have no order. "Age=25" and "Gender=Male" can swap positions without changing the meaning. The same applies to item attributes. The essence of set structure is **unorderedness**.
 
-## 三、裂缝在哪里：三个被忽略的假设
+A recommendation system must handle both sequences and sets simultaneously. This is like a person who must understand both the storyline on a timeline and the semantics of a pile of tags. Two completely different cognitive modes must be accomplished in the same brain.
 
-分离范式能工作，是因为它背后有三个隐含假设。这些假设在数据量小的时候成立，但在今天正在被逐一打破。
-
-**假设一：序列可以被压缩成向量而不丢失关键信息。**
-
-一个用户的历史行为可能有几千条。把这几千条行为压成一个几百维的向量，相当于说：这几千个事件的所有重要信息，可以被装进一个瓶子里。
-
-但这是真的吗?
-
-想想一个真实的用户：他可能上个月在追科幻小说，这个月突然迷上了哲学。他的兴趣轨迹不是一条直线，而是一个折线。压缩成单个向量，这个转折点就消失了。他可能在某次购买后彻底改变了自己的兴趣偏好，这个"转折点"本身可能就是最重要的信息。压缩成向量，它就没了。
-
-这就是为什么最近的研究发现，增加序列模型深度带来的收益越来越小——不是模型不行，是**压缩这个操作本身**就是信息损失的过程。
-
-**假设二：特征交互可以放在序列压缩之后。**
-
-在分离范式里，序列模块先输出结果，特征模块再开始工作。这意味着特征模块只能看到压缩后的序列，而看不到原始序列。
-
-这就像两个人对话：一个人先说完，另一个人再回应。这不是真正的对话。真正的对话是：你说一句，我回一句，你的下一句会因为我这一句而改变。序列和特征的关系也应该是这样。特征在解读历史行为时，应该知道用户是谁；历史行为在被压缩时，应该知道当前候选物品是什么。
-
-但现在，这个"对话"被切成了两段。第一段没有特征参与，第二段没有原始序列参与。
-
-**假设三：两个模块可以独立优化。**
-
-在工业实践中，序列模块和特征模块往往是两个团队、两套代码、两种优化策略。序列团队优化自己的损失，特征团队优化自己的损失，最后拼在一起调一调。
-
-但真实的优化目标只有一个：预测准不准。序列模块的参数调整，应该服务于特征模块"使用得好不好"；特征模块的参数调整，应该服务于序列模块"压缩得对不对"。这种相互依赖在分离架构里很难实现。
-
-这三个假设，在数据量小的时候，是合理的近似。但当序列越来越长、特征越来越多，近似变成了扭曲，扭曲变成了瓶颈。
+This is where the problem begins.
 
 ---
 
-## 四、如果从头设计，会怎么做?
+## Two: History's Answer — Separate, Then Concatenate
 
-现在，让我们做一个思想实验。
+Faced with this problem, the industry's answer over the past twenty years has been: **process separately, then concatenate**.
 
-抛开所有历史包袱，不背"先序列后特征"的成见。我们手里只有 TAAC2026 的数据集：用户画像、物品属性、行为序列、时间戳。我们要从零设计一个推荐系统。
+Specifically, two technical routes developed in parallel.
 
-我们会怎么做?
+**Route One: Sequence Modeling.**
 
-我会这样想：**所有信息都是"信号"，只是形态不同。我的任务是把这些不同形态的信号，放在同一个空间里，让它们自由地相互作用。**
+Input the historical behavior sequence, output an "interest vector." This route went from LSTM to Transformer, from SASRec to LONGER. Its core assumption: the sequence can be compressed into a fixed-length vector that preserves all important information.
 
-这个想法不是凭空而来的。它来自一个更根本的问题：**推荐系统到底在做什么？**
+**Route Two: Feature Interaction.**
 
-如果只看表面，推荐系统在做"预测"：输入信息，输出分数。但如果追问一句：为什么预测需要这么多信息？答案就变成了：因为我们要**理解**用户。
+Input user profile, item attributes, and contextual signals, output a "feature vector." This route went from FM to DeepFM, from DCN to RankMixer. Its core assumption: high-order interactions between features can be automatically learned.
 
-预测是目的，但理解是手段。一个真正理解用户的系统，推荐只是副产品。而不理解用户的系统，预测只是统计。
+Finally, the two vectors are concatenated, passed through an MLP, and a prediction is output.
 
-所以，统一架构的核心不是"统一"，而是"理解"。它要模拟的是这样一个过程：当你面对一个用户的所有信息时，你不是先把它们分开处理，再合起来。而是让它们互相解释、互相修正，最终形成一个关于用户的完整理解。
+This is the standard paradigm of today's industrial recommendation systems. It has a nice name: "encode-then-interaction pipeline."
 
-让我用一个例子说明。
-
-假设一个用户，他的信息是这样的：
-- 画像：25岁，男性，喜欢科技
-- 历史行为：最近一周看了5个哲学视频，买了2本逻辑书
-- 上下文：深夜，手机，在通勤路上
-
-如果只看画像，我们会觉得他应该喜欢科技产品。如果只看历史行为，我们会觉得他正在进入一个哲学兴趣期。如果只看上下文，我们会觉得他更适合碎片化内容。
-
-但把这些信息放在一起，一个更完整的理解浮现出来：这个用户可能正在从科技兴趣转向哲学兴趣，深夜通勤时他需要的是轻松、碎片化的内容，而不是长篇大论。所以，如果候选物品是一本哲学入门书，应该给高分；如果是一篇科技深度文章，应该给低分。
-
-这个"理解"的过程，就是统一架构要模拟的。它不是把信息压缩成向量再拼接，而是让信息在同一个空间里相互解释、相互修正。
+This paradigm was successful for a long time, because sequences were short and features were few — separate processing was simple and efficient. But when sequences grow from dozens to hundreds to thousands, and features from dozens to hundreds to over a thousand, this paradigm's cracks began to appear.
 
 ---
 
-## 五、统一架构的数学本质：结构保持映射
+## Three: Where the Cracks Lie — Three Overlooked Assumptions
 
-如果要将"理解"这个感性词汇转化为可计算的架构，我们需要回到代数与算子的底层逻辑。统一架构在数学上不是简单的特征拼接，而是一个**结构保持映射(Structure-Preserving Mapping)**。
+The separation paradigm works because it rests on three hidden assumptions. These assumptions hold when data volumes are small, but today they're being broken one by one.
 
-### 5.1 异构输入空间的定义
+**Assumption One: Sequences can be compressed into vectors without losing critical information.**
 
-在 TAAC2026 的场景下，我们将样本输入定义为一个异构元组 $\mathcal{X}$：
+A user's historical behaviors may number in the thousands. Compressing these thousands of behaviors into a vector of a few hundred dimensions is like saying: all the important information from these thousands of events can fit into a single bottle.
+
+But is this true?
+
+Consider a real user: they might have been following science fiction novels last month, and suddenly became obsessed with philosophy this month. Their interest trajectory isn't a straight line but a zigzag. Compressing this into a single vector, the turning point disappears. They may have彻底 changed their interest preferences after a certain purchase, and this "turning point" itself may be the most important information. Compressing into a vector, it's gone.
+
+This is why recent research finds that increasing sequence model depth yields diminishing returns — it's not that the model is inadequate, but that **compression itself** is an information-losing process.
+
+**Assumption Two: Feature interaction can be placed after sequence compression.**
+
+In the separation paradigm, the sequence module outputs first, then the feature module begins working. This means the feature module can only see the compressed sequence, not the original sequence.
+
+This is like two people conversing: one person finishes speaking first, then the other responds. This isn't genuine dialogue. Genuine dialogue is: you say something, I reply, your next statement changes because of my reply. The relationship between sequence and features should be like this. Features should know who the user is when interpreting historical behaviors; historical behaviors should know what the current candidate item is when being compressed.
+
+But now, this "dialogue" has been cut into two segments. The first segment has no feature participation; the second segment has no original sequence participation.
+
+**Assumption Three: The two modules can be independently optimized.**
+
+In industrial practice, the sequence module and feature module are often two teams, two codebases, two optimization strategies. The sequence team optimizes its own loss, the feature team optimizes its own loss, and finally they're concatenated and tuned together.
+
+But the real optimization target is only one: prediction accuracy. The sequence module's parameter adjustments should serve whether the feature module "uses them well"; the feature module's parameter adjustments should serve whether the sequence module "compresses correctly." This mutual dependence is hard to achieve in a separated architecture.
+
+These three assumptions were reasonable approximations when data volumes were small. But as sequences grow longer and features proliferate, approximation becomes distortion, and distortion becomes bottleneck.
+
+---
+
+## Four: If We Designed from Scratch, What Would We Do?
+
+Now, let's conduct a thought experiment.
+
+Discard all historical baggage, leave behind the prejudice of "sequence first, then features." We only have the TAAC2026 dataset in hand: user profiles, item attributes, behavior sequences, timestamps. We must design a recommendation system from scratch.
+
+What would we do?
+
+I would think this way: **all information is "signal," just in different forms. My task is to place these differently-formed signals in the same space and let them freely interact.**
+
+This idea isn't arbitrary. It comes from a more fundamental question: **what exactly is a recommendation system doing?**
+
+Looking at the surface, a recommendation system is "predicting": input information, output scores. But if we ask further: why does prediction require so much information? The answer becomes: because we need to **understand** the user.
+
+Prediction is the goal, but understanding is the means. A system that truly understands the user, recommendation is merely a byproduct. A system that doesn't understand the user, prediction is merely statistics.
+
+So, the core of a unified architecture isn't "unification," but "understanding." It simulates this process: when facing all of a user's information, you don't first process them separately and then combine them. Instead, you let them mutually explain, mutually correct, and ultimately form a complete understanding of the user.
+
+Let me illustrate with an example.
+
+Suppose a user with the following information:
+- Profile: 25 years old, male, likes technology
+- Historical behavior: watched 5 philosophy videos and bought 2 logic books in the past week
+- Context: late night, phone, commuting
+
+If we only look at the profile, we'd think they should like tech products. If we only look at historical behavior, we'd think they're entering a philosophy interest phase. If we only look at context, we'd think they're better suited for fragmented content.
+
+But putting all this information together, a more complete understanding emerges: this user may be transitioning from tech interests to philosophy interests, and during late-night commuting they need light, fragmented content, not lengthy discourse. So, if the candidate item is a philosophy introductory book, it should score high; if it's a deep tech article, it should score low.
+
+This "understanding" process is what the unified architecture aims to simulate. It doesn't compress information into vectors and concatenate them, but lets information mutually explain and mutually correct within the same space.
+
+---
+
+## Five: The Mathematical Essence of Unified Architecture — Structure-Preserving Mapping
+
+If we want to transform the感性 term "understanding" into a computable architecture, we need to return to the underlying logic of algebra and operators. The unified architecture is mathematically not a simple feature concatenation, but a **Structure-Preserving Mapping**.
+
+### 5.1 Definition of Heterogeneous Input Space
+
+In the TAAC2026 scenario, we define the sample input as a heterogeneous tuple $\mathcal{X}$:
 
 $$\mathcal{X} = (\mathcal{S}, \mathcal{F}, \mathcal{C})$$
 
-其中：
+Where:
 
-- $\mathcal{S}$(Sequence)：一个有序集，元素按时间戳排列，满足全序关系 $s_1 \prec s_2 \prec \dots \prec s_n$。
-- $\mathcal{F}$(Field-wise Set)：一个有限集 $\{f_1, f_2, \dots, f_m\}$，元素之间无序。对 $\mathcal{F}$ 的任何处理函数 $g$ 应满足置换不变性：对任意置换 $\pi$，$g(f_1, \dots, f_m) = g(f_{\pi(1)}, \dots, f_{\pi(m)})$。
-- $\mathcal{C}$(Contextual Scalars)：$\mathbb{R}^k$ 的子集，具有度量结构（数值之间的距离有意义）。
+- $\mathcal{S}$ (Sequence): an ordered set with elements arranged by timestamp, satisfying a total order relation $s_1 \prec s_2 \prec \dots \prec s_n$.
+- $\mathcal{F}$ (Field-wise Set): a finite set $\{f_1, f_2, \dots, f_m\}$ with unordered elements. Any processing function $g$ applied to $\mathcal{F}$ should satisfy permutation invariance: for any permutation $\pi$, $g(f_1, \dots, f_m) = g(f_{\pi(1)}, \dots, f_{\pi(m)})$.
+- $\mathcal{C}$ (Contextual Scalars): a subset of $\mathbb{R}^k$ with metric structure (distances between numerical values are meaningful).
 
-### 5.2 结构保持映射 $\Phi$
+### 5.2 Structure-Preserving Mapping $\Phi$
 
-统一架构的第一步，是寻找一组映射函数 $\Phi = (\Phi_S, \Phi_F, \Phi_C)$，将这三类对象投影到同一个向量空间 $\mathbb{R}^d$ 中。关键约束是：映射必须保持原始数据的内在结构。
+The first step of unified architecture is finding a set of mapping functions $\Phi = (\Phi_S, \Phi_F, \Phi_C)$ that project these three types of objects into the same vector space $\mathbb{R}^d$. The key constraint: mappings must preserve the intrinsic structure of the original data.
 
-**序列结构保持**：对于 $\mathcal{S}$，映射需编码时间顺序。通过叠加位置编码 $P$，使得映射后的令牌包含序关系信息：
+**Sequence structure preservation**: For $\mathcal{S}$, the mapping must encode temporal order. By叠加 position encoding $P$, mapped tokens contain order-relation information:
 
 $$\Phi_S(s_i) = \text{Embed}(s_i) + P(i)$$
 
-其中 $P$ 是单调函数（如 RoPE 或正弦编码），保证 $i < j \Rightarrow P(i) \neq P(j)$，从而在向量空间中保留了原始有序集的序关系。
+Where $P$ is a monotonic function (such as RoPE or sinusoidal encoding), ensuring $i < j \Rightarrow P(i) \neq P(j)$, thereby preserving the original ordered set's order relations in vector space.
 
-**集合结构保持**：对于 $\mathcal{F}$，映射需保证特征间的语义独立性。每个特征被独立编码为令牌：
+**Set structure preservation**: For $\mathcal{F}$, the mapping must ensure semantic independence among features. Each feature is independently encoded as a token:
 
 $$\Phi_F(f_j) = \text{Embed}(f_j, \text{field}_j)$$
 
-由于每个特征独立映射，后续对这些令牌的处理只要使用对称函数（如自注意力），就自然满足置换不变性。
+Since each feature is independently mapped, subsequent processing of these tokens only needs to use symmetric functions (such as self-attention) to naturally satisfy permutation invariance.
 
-**标量性质保持**：对于 $\mathcal{C}$，利用连续函数保持数值的度量关系——相近的数值映射到相近的向量：
+**Scalar property preservation**: For $\mathcal{C}$, a continuous function preserves the metric relation of numerical values — similar values map to similar vectors:
 
 $$\Phi_C(c) = \sigma(\mathbf{W} \cdot c + \mathbf{b})$$
 
-### 5.3 统一注意力算子
+### 5.3 Unified Attention Operator
 
-当所有信号都被映射到 $\mathbb{R}^d$ 后，我们定义统一表示 $\mathbf{Z}$ 为所有令牌的拼接：
+After all signals are mapped to $\mathbb{R}^d$, we define the unified representation $\mathbf{Z}$ as the concatenation of all tokens:
 
 $$\mathbf{Z} = [\Phi_S(s_1), \dots, \Phi_S(s_n),\ \Phi_F(f_1), \dots, \Phi_F(f_m),\ \Phi_C(c)]$$
 
-统一架构的核心算子是对 $\mathbf{Z}$ 进行多层自注意力运算。在第 $l$ 层：
+The core operator of unified architecture performs multi-layer self-attention on $\mathbf{Z}$. At layer $l$:
 
 $$\mathbf{Z}^{(l+1)} = \text{Softmax}\left( \frac{(\mathbf{Z}^{(l)}\mathbf{W}_Q)(\mathbf{Z}^{(l)}\mathbf{W}_K)^\top}{\sqrt{d}} \odot \mathbf{M} \right) (\mathbf{Z}^{(l)}\mathbf{W}_V)$$
 
-其中 $\mathbf{M}$ 是混合掩码矩阵。这个注意力矩阵可以按令牌类型分解为四个子矩阵：
+Where $\mathbf{M}$ is the hybrid masking matrix. This attention matrix can be decomposed into four sub-matrices by token type:
 
 $$\mathbf{A} = \begin{pmatrix} \mathbf{A}_{SS} & \mathbf{A}_{SF} \\ \mathbf{A}_{FS} & \mathbf{A}_{FF} \end{pmatrix}$$
 
-- $\mathbf{A}_{SS}$（左上）：序列内部的自注意力，施加因果掩码，等价于传统的 Transformer 序列建模。
-- $\mathbf{A}_{FF}$（右下）：特征之间的全连接注意力，等价于 DCN/DeepFM 的隐式高阶交叉。
-- $\mathbf{A}_{FS}$（左下）：特征对序列的注意力——特征令牌可以回看整个历史序列。
-- $\mathbf{A}_{SF}$（右上）：序列对特征的注意力——历史行为可以参考用户画像和物品属性。
+- $\mathbf{A}_{SS}$ (upper left): self-attention within the sequence, applying causal masking, equivalent to traditional Transformer sequence modeling.
+- $\mathbf{A}_{FF}$ (lower right): fully-connected attention among features, equivalent to DCN/DeepFM's implicit high-order crossing.
+- $\mathbf{A}_{FS}$ (lower left): features' attention to sequence — feature tokens can回顾 the entire historical sequence.
+- $\mathbf{A}_{SF}$ (upper right): sequence's attention to features — historical behaviors can参考 user profiles and item attributes.
 
-**这就是"统一"的数学含义**：分离范式只有 $\mathbf{A}_{SS}$ 和 $\mathbf{A}_{FF}$，非对角线子矩阵 $\mathbf{A}_{FS}$ 和 $\mathbf{A}_{SF}$ 是缺失的。统一架构补全了这个矩阵，让序列和特征之间产生直接的信息流动。
+**This is the mathematical meaning of "unification"**: the separation paradigm only has $\mathbf{A}_{SS}$ and $\mathbf{A}_{FF}$; the off-diagonal sub-matrices $\mathbf{A}_{FS}$ and $\mathbf{A}_{SF}$ are missing. Unified architecture completes this matrix, enabling direct information flow between sequence and features.
 
-### 5.4 从压缩到演化
+### 5.4 From Compression to Evolution
 
-最终，预测函数变成了关于全量信息交互后的全局映射：
+Ultimately, the prediction function becomes a global mapping over all information interactions:
 
 $$P(\text{Conversion}) = \sigma(\text{Readout}(\mathbf{Z}^{(L)}))$$
 
-这里的 $\text{Readout}$ 算子可以是对候选物品令牌的提取，也可以是专门的查询向量。
+Here the $\text{Readout}$ operator can be extraction of the candidate item token, or a dedicated query vector.
 
-统一架构的数学本质，是利用注意力矩阵的完备性，去取代人工设计的"序列压缩 + 特征交叉"组合。它不再人为规定谁先计算，而是让所有令牌在同一张注意力矩阵中，通过反向传播自发寻找最有效的交互路径。
-
----
-
-## 六、三条技术路径，三个层次
-
-过去两年，学术界和工业界已经开始探索统一架构。OneTrans、HyFormer、PLR 是其中的代表。它们看起来不同，但用"结构保持映射"这个框架来看，它们是统一架构的三个不同层次。
-
-**第一层：序列化的统一(OneTrans)**
-
-OneTrans 的做法是：把所有信息都变成序列。历史行为是序列，用户特征、物品特征、上下文也被变成序列（每个特征变成一个令牌）。然后把这些序列拼成一个大序列，用因果 Transformer 处理。
-
-这个思路很直接：既然序列模型最成熟，那就把所有东西都序列化。它的优点是简单、统一、可以复用 LLM 的优化技术。挑战是：把无序的集合变成有序的序列，会引入一个"顺序选择"的问题——用户特征应该排在第几个？这个选择可能影响结果。
-
-在第五章的框架下,OneTrans 补全了注意力矩阵的非对角线部分，但对 $\mathbf{A}_{FF}$ 施加了因果掩码——这对无序的特征集合来说是一个不必要的约束。
-
-**第二层：交替优化的统一(HyFormer)**
-
-HyFormer 的做法是：不把所有信息压成一个序列，而是引入一组"全局令牌"，让它们在序列解码和特征增强之间交替。
-
-具体来说，每一层做两件事：先用全局令牌去"读"历史行为序列（从序列中提取信息），再用用户特征、物品特征去"增强"这些全局令牌（让特征修正序列的理解）。然后重复这个过程。
-
-这个思路解决了 OneTrans 的一个问题：序列和特征的性质不同，放在一起处理时，很难让它们平等对话。通过全局令牌作为中介,HyFormer 实现了双向信息流动——序列可以影响特征，特征也可以影响序列。
-
-在第五章的框架下,HyFormer 通过全局令牌间接实现了 $\mathbf{A}_{FS}$ 和 $\mathbf{A}_{SF}$，同时避免了对特征施加因果掩码。代价是引入了额外的架构复杂度。
-
-**第三层：推理的统一(PLR)**
-
-PLR 的思路是：统一架构不是最终目的，让模型学会"思考"才是。
-
-它把推荐过程分成两步：先快速编码得到初步表示（快思考），再通过多步推理精炼这个表示（慢思考）。同时引入多路并行推理，避免单一推理路径的偏差。
-
-这个思路回答了一个更深层的问题：不同用户的复杂度不同，为什么用同样的计算量？一个冷启动用户，历史行为只有几条，不需要太多推理；一个老用户，历史行为上千条，值得花更多计算去理解。PLR 的多步推理允许模型在测试时动态分配计算资源。
-
-**三个层次的关系**
-
-- 序列化的统一，解决的是"信息放在哪里"的问题。
-- 交替优化的统一，解决的是"信息如何流动"的问题。
-- 推理的统一，解决的是"计算如何分配"的问题。
-
-它们是三个层次，可以叠加。你可以在 OneTrans 的序列化框架里，引入 HyFormer 的交替思想，再加上 PLR 的多步推理。这就是统一架构的完整图景。
+The mathematical essence of unified architecture is using attention matrix completeness to replace the artificially designed "sequence compression + feature crossing" combination. It no longer人为 prescribes who computes first, but lets all tokens within the same attention matrix spontaneously find the most effective interaction paths through backpropagation.
 
 ---
 
-## 七、从 TAAC 数据看统一架构的设计
+## Six: Three Technical Paths, Three Levels
 
-理论说完了，回到 TAAC2026 的数据集。如果我们真的要设计一个统一架构，具体该怎么做?
+Over the past two years, academia and industry have begun exploring unified architectures. OneTrans, HyFormer, and PLR are representatives. They appear different, but viewed through the "structure-preserving mapping" framework, they are three different levels of unified architecture.
 
-### 7.1 构建令牌
+**First Level: Serialized Unification (OneTrans)**
 
-TAAC 的数据给得很丰富。历史行为有三个子序列：item_seq（物品ID）、action_seq（行为类型）、content_seq（内容特征）。这三个子序列对应同一个时间轴，所以每个时间点上的行为，应该被编码成同一个令牌。
+OneTrans's approach: turn all information into sequences. Historical behaviors are sequences; user features, item features, and context are also turned into sequences (each feature becomes a token). Then concatenate these sequences into a large sequence and process with causal Transformer.
 
-这个令牌包含三部分信息：物品ID的嵌入、行为类型的嵌入、内容特征的聚合。这样，每个历史行为令牌就携带了"用户在什么时刻、对什么物品、做了什么"的完整信息。这个令牌的生成过程，本身就是一次小型的"统一"——把同一个时间点上的不同信息融合成一个向量。
+This approach is straightforward: since sequence models are the most mature, serialize everything. Its advantages are simplicity, unification, and the ability to reuse LLM optimization techniques. The challenge: turning unordered sets into ordered sequences introduces a "order selection" problem — where should user features be ranked? This choice may affect results.
 
-用户画像和物品属性，每个特征单独变成一个令牌。比如"年龄=25"是一个令牌，"性别=男"是另一个令牌。上下文也是同样。
+Under Chapter Five's framework, OneTrans completes the off-diagonal portion of the attention matrix, but applies causal masking to $\mathbf{A}_{FF}$ — an unnecessary constraint for an unordered feature set.
 
-### 7.2 排序列
+**Second Level: Alternating Optimization Unification (HyFormer)**
 
-令牌有了，需要决定顺序。一个自然的顺序是：
-1. 历史行为令牌（按时间顺序）
-2. 用户特征令牌
-3. 物品特征令牌
-4. 上下文令牌
+HyFormer's approach: don't compress all information into one sequence, but introduce a set of "global tokens" that alternate between sequence decoding and feature enhancement.
 
-这样，后面的令牌（特征）能看到前面的令牌（历史行为），但历史行为看不到特征（符合因果性）。在后续的模块里，特征可以"回头看"历史行为，但历史行为不会因为特征而改变——这符合直觉：用户的过去不会因为现在要推荐的物品而改变，但我们对过去的理解会因为当前物品而不同。
+Specifically, each layer does two things: first, use global tokens to "read" the historical behavior sequence (extracting information from the sequence), then use user features and item features to "enhance" these global tokens (letting features修正 the sequence's understanding). Then repeat this process.
 
-### 7.3 混合掩码
+This approach solves OneTrans's problem: sequence and features have different properties; when processed together, it's hard to让 them converse equally. Through global tokens as intermediaries, HyFormer实现了 bidirectional information flow — sequences can influence features, and features can influence sequences.
 
-这是统一架构区别于简单拼接的关键设计。注意力掩码需要同时满足两个约束：
+Under Chapter Five's framework, HyFormer indirectly实现了 $\mathbf{A}_{FS}$ and $\mathbf{A}_{SF}$ through global tokens, while avoiding applying causal masking to features. The cost is introducing additional architectural complexity.
 
-- 序列内部：因果掩码。每个历史行为令牌只能看到它之前的令牌，不能看到未来的。
-- 特征部分：全连接掩码。特征令牌之间自由交互，同时可以回看整个历史序列。
+**Third Level: Reasoning Unification (PLR)**
 
-这个混合掩码的边界由令牌类型决定——序列令牌和特征令牌的分界点需要在每一层中被明确追踪，特别是在引入渐进压缩之后，这个边界是动态变化的。
+PLR's idea: unified architecture is not the ultimate goal; enabling the model to "think" is what matters.
 
-### 7.4 渐进压缩
+It divides recommendation into two steps: first, rapid encoding yields an initial representation (fast thinking), then multi-step reasoning refines this representation (slow thinking). Meanwhile, multi-path parallel reasoning is introduced to avoid bias from a single reasoning path.
 
-模块堆叠多层。在后几层，可以逐步压缩历史行为令牌的数量。比如从100个压到50个，再压到20个，直到只剩几个"精华令牌"。
+This approach answers a deeper question: different users have different complexity, why use the same computation? A cold-start user with only a few historical behaviors doesn't need much reasoning; an established user with thousands of behaviors deserves more computation to understand. PLR's multi-step reasoning allows the model to dynamically allocate computational resources at test time.
 
-压缩策略有几种选择：
-- 基于注意力权重的选择：保留被其他令牌关注最多的序列令牌。
-- 基于学习的池化：用可训练的查询向量从序列令牌中提取固定数量的精华。
-- 基于时间衰减的截断：优先保留近期的行为令牌。
+**The relationship among the three levels**
 
-每种策略有不同的归纳偏置。基于注意力权重的选择让模型自己决定什么重要；基于时间衰减的截断引入了"近期行为更重要"的先验。在实践中，可能需要组合使用。
+- Serialized unification solves the problem of "where information is placed."
+- Alternating optimization unification solves the problem of "how information flows."
+- Reasoning unification solves the problem of "how computation is allocated."
 
-需要注意的是：被压缩掉的令牌不再参与后续计算，但它们的信息已经通过前几层的注意力传递给了保留下来的令牌。这是渐进压缩和简单截断的本质区别——不是丢弃信息，而是蒸馏信息。
+They are three levels that can be stacked. You can introduce HyFormer's alternating ideas within OneTrans's serialization framework, plus PLR's multi-step reasoning. This is the complete picture of unified architecture.
 
-特征令牌不压缩，始终保持独立。因为每个特征都有独立的语义，压缩会破坏集合结构。
+---
 
-### 7.5 预测
+## Seven: Unified Architecture Design from TAAC Data
 
-最后一层，所有令牌的输出被送入一个简单的预测层。历史行为的精华令牌、用户特征令牌、物品特征令牌、上下文令牌，它们的最终表示共同决定了转化概率。
+Theory is done; let's return to the TAAC2026 dataset. If we truly want to design a unified architecture, how specifically should we proceed?
 
-这就是一个完整的统一架构设计方案。它没有"先序列后特征"的阶段划分，所有信息从第一层就开始交互，直到最后一层才输出结果。
+### 7.1 Constructing Tokens
 
-用第五章的语言说：这个设计补全了注意力矩阵的四个子矩阵，同时通过混合掩码保持了序列的因果性和特征的置换不变性。渐进压缩控制了计算复杂度，让统一架构在工业延迟约束下可行。
+TAAC provides rich data. Historical behaviors have three sub-sequences: item_seq (item IDs), action_seq (action types), and content_seq (content features). These three sub-sequences correspond to the same timeline, so each time point's behavior should be encoded as the same token.
 
-### 7.6 伪代码
+This token contains three types of information: item ID embedding, action type embedding, and content feature aggregation. Thus, each historical behavior token carries complete information about "what the user did, to which item, at what time." The token generation process is itself a miniature "unification" — merging different information at the same time point into one vector.
 
-为了让上述设计更具体，这里给出统一架构的伪代码。它展示的是数据如何从形态各异的"碎片"，变成整齐划一的"令牌流"，最后在同一个注意力矩阵中完成跨域交互。
+User profiles and item attributes each become separate tokens per feature. For example, "Age=25" is one token, "Gender=Male" is another. Context is similarly handled.
+
+### 7.2 Ordering Sequence
+
+Tokens exist; order must be decided. A natural ordering is:
+1. Historical behavior tokens (by time order)
+2. User feature tokens
+3. Item feature tokens
+4. Context tokens
+
+Thus, later tokens (features) can see earlier tokens (historical behaviors), but historical behaviors cannot see features (consistent with causality). In subsequent modules, features can "look back" at historical behaviors, but historical behaviors won't change due to features — this aligns with intuition: a user's past doesn't change because of the item currently being recommended, but our understanding of the past differs depending on the current item.
+
+### 7.3 Hybrid Masking
+
+This is the key design distinguishing unified architecture from simple concatenation. The attention mask must simultaneously satisfy two constraints:
+
+- Within the sequence: causal masking. Each historical behavior token can only see tokens before it, not future ones.
+- Feature section: fully-connected masking. Feature tokens freely interact among themselves and can回顾 the entire historical sequence.
+
+The boundary of this hybrid mask is determined by token type — the dividing line between sequence tokens and feature tokens must be explicitly tracked in each layer, especially after introducing progressive compression, as this boundary dynamically changes.
+
+### 7.4 Progressive Compression
+
+Stack multiple layers. In later layers, progressively compress the number of historical behavior tokens. For example, from 100 down to 50, then down to 20, until only a few "essence tokens" remain.
+
+Compression strategies include several choices:
+- Attention-weight-based selection: retain sequence tokens receiving the most attention from other tokens.
+- Learned pooling: use trainable query vectors to extract a fixed number of精华 from sequence tokens.
+- Time-decay-based truncation:优先 preserve recent behavior tokens.
+
+Each strategy has different inductive biases. Attention-weight-based selection lets the model自己 decide what's important; time-decay-based truncation introduces the prior that "recent behaviors are more important." In practice, combinations may be needed.
+
+Note: compressed-out tokens no longer participate in subsequent computation, but their information has already been transferred to preserved tokens through attention in earlier layers. This is the essential difference between progressive compression and simple truncation — not discarding information, but distilling it.
+
+Feature tokens are not compressed, always remaining independent. Because each feature has independent semantics; compression would破坏 set structure.
+
+### 7.5 Prediction
+
+In the final layer, all tokens' outputs are fed into a simple prediction layer. The essence tokens of historical behaviors, user feature tokens, item feature tokens, and context tokens — their final representations jointly determine conversion probability.
+
+This is a complete unified architecture design. It has no "sequence first, then features" stage划分; all information interacts from the first layer until the final layer outputs.
+
+Using Chapter Five's language: this design completes all four sub-matrices of the attention matrix while maintaining sequence causality and feature permutation invariance through hybrid masking. Progressive compression controls computational complexity, making unified architecture feasible under industrial latency constraints.
+
+### 7.6 Pseudocode
+
+To make the above design more concrete, here is the pseudocode for unified architecture. It shows how data transforms from heterogeneous "fragments" into uniform "token flow," finally completing cross-domain interaction within the same attention matrix.
 
 ```
 class UnifiedRecommender:
     """
-    TAAC2026 统一架构示意伪代码
-    核心思想：一切皆 Token,交互即 Attention
+    TAAC2026 Unified Architecture Illustrative Pseudocode
+    Core idea: Everything is a Token; Interaction is Attention
     """
     def __init__(self, config):
         self.embed_dim = config.dim
@@ -355,9 +355,9 @@ class UnifiedRecommender:
         self.output_head = MLP([config.dim, 1])
 
     def forward(self, behavior_seq, user_features, item_features, context):
-        # --- 步骤 1: 结构保持的令牌化 Φ_S, Φ_F, Φ_C ---
+        # --- Step 1: Structure-preserving tokenization Φ_S, Φ_F, Φ_C ---
 
-        # Φ_S: 序列令牌，融合 ID、行为类型和内容语义，叠加位置编码
+        # Φ_S: Sequence tokens, fusing ID, action type, and content semantics,叠加 position encoding
         seq_tokens = self.encode_sequence(
             behavior_seq.item_ids,
             behavior_seq.actions,
@@ -365,47 +365,47 @@ class UnifiedRecommender:
         )
         seq_tokens += self.position_encoding(behavior_seq.timestamps)
 
-        # Φ_F: 特征令牌，每个特征独立映射
+        # Φ_F: Feature tokens, each feature independently mapped
         user_tokens = self.encode_features(user_features)
         item_tokens = self.encode_features(item_features)
 
-        # Φ_C: 上下文令牌，连续标量编码
+        # Φ_C: Context tokens, continuous scalar encoding
         ctx_tokens = self.encode_context(context)
 
-        # --- 步骤 2: 拼装统一输入序列 Z ---
+        # --- Step 2: Assemble unified input sequence Z ---
         # Z = [Φ_S(s_1), ..., Φ_S(s_n), Φ_F(f_1), ..., Φ_F(f_m), Φ_C(c)]
         seq_len = seq_tokens.shape[1]
         feat_len = user_tokens.shape[1] + item_tokens.shape[1] + ctx_tokens.shape[1]
         unified_stream = concat([seq_tokens, user_tokens, item_tokens, ctx_tokens], dim=1)
 
-        # --- 步骤 3: 统一骨干计算 ---
-        # 序列与特征令牌的边界需要被追踪，因为渐进压缩会改变它
+        # --- Step 3: Unified backbone computation ---
+        # Boundary between sequence and feature tokens must be tracked, as progressive compression changes it
         seq_boundary = seq_len
 
         for layer_idx, block in enumerate(self.transformer_blocks):
-            # 构造混合掩码：
-            #   A_SS: 因果掩码（序列内部，过去不能看未来）
-            #   A_FF: 全连接掩码（特征之间自由交互）
-            #   A_FS: 全连接掩码（特征可以回看整个序列）
-            #   A_SF: 可选（序列是否能看到特征，取决于设计选择）
+            # Construct hybrid mask:
+            #   A_SS: Causal mask (within sequence, past cannot see future)
+            #   A_FF: Fully-connected mask (features freely interact)
+            #   A_FS: Fully-connected mask (features can回顾 entire sequence)
+            #   A_SF: Optional (whether sequence can see features, depends on design choice)
             mask = build_hybrid_mask(seq_boundary, total_len=unified_stream.shape[1])
 
             unified_stream = block(unified_stream, mask=mask)
 
-            # 渐进压缩：在指定层之后，减少序列令牌数量
+            # Progressive compression: after specified layers, reduce sequence token count
             if layer_idx in self.compression_layers:
                 seq_part = unified_stream[:, :seq_boundary, :]
                 feat_part = unified_stream[:, seq_boundary:, :]
 
-                # 压缩序列令牌（保留 top-k 或学习式池化）
+                # Compress sequence tokens (retain top-k or learned pooling)
                 seq_part = self.compress(seq_part, target_len=seq_boundary // 2)
                 seq_boundary = seq_part.shape[1]
 
-                # 特征令牌不压缩，重新拼接
+                # Feature tokens not compressed, re-concatenate
                 unified_stream = concat([seq_part, feat_part], dim=1)
 
-        # --- 步骤 4: 读出与预测 ---
-        # 提取候选物品令牌的最终表示（或全局池化）
+        # --- Step 4: Readout and prediction ---
+        # Extract final representation of candidate item token (or global pooling)
         final_representation = self.readout(unified_stream, seq_boundary)
 
         return self.output_head(final_representation)
@@ -413,426 +413,426 @@ class UnifiedRecommender:
 
 ---
 
-## 八、为什么要这样做：三个务实的理由
+## Eight: Why Do This — Three Pragmatic Reasons
 
-一个技术路线，不仅要说得清、做得到，还要经得起追问。统一架构在工业场景有三个核心价值，但每一个都需要诚实地讨论它的边界。
+A technical route must not only be explainable and achievable, but also withstand追问. Unified architecture has three core values in industrial scenarios, but each needs honest discussion of its boundaries.
 
-**第一，结构性地减少信息损失。**
+**First, Structurally reducing information loss.**
 
-分离范式的信息损失发生在两个地方：序列被压缩成向量时，以及特征交互滞后于序列编码时。统一架构从设计上消除了这两个损失源——所有信息保留到最后一刻，所有交互在第一时间发生。
+Information loss in the separation paradigm occurs at two points: when the sequence is compressed into a vector, and when feature interaction lags behind sequence encoding. Unified architecture eliminates both loss sources by design — all information is preserved until the last moment, all interactions occur at the first opportunity.
 
-但需要诚实地说：信息损失更少，不一定意味着效果更好。更多的信息也意味着更多的噪声。统一架构能否有效地从噪声中提取信号，取决于注意力机制的学习质量和训练数据的充分性。这是一个需要实验验证的问题，不是理论上能保证的。
+But to be honest: less information loss doesn't necessarily mean better performance. More information also means more noise. Whether unified architecture can effectively extract signal from noise depends on attention mechanisms' learning quality and training data sufficiency. This is an experimentally verifiable question, not one theoretically guaranteed.
 
-统一架构提供的是更高的天花板，而不是更高的地板。
+Unified architecture provides a higher ceiling, not a higher floor.
 
-**第二，推理效率可以做到可控。**
+**Second, Inference efficiency can be controlled.**
 
-表面上看，统一架构的计算量更大——序列和特征在一起算，注意力矩阵更大。但有两个机制让它的实际推理成本可控：
+On the surface, unified architecture has larger computation — sequence and features are computed together, the attention matrix is larger. But two mechanisms make its actual inference cost controllable:
 
-渐进压缩让序列令牌数量逐层递减，后几层的计算量远小于前几层。KV 缓存让用户的历史行为表示在同一个 session 的多个候选物品间复用——用户部分只算一次，每个候选物品只需要增量计算。
+Progressive compression lets sequence token count逐层递减; later layers' computation is far less than earlier layers. KV caching lets the user's historical behavior representation be reused across multiple candidate items within the same session — the user-side computation is done once; each candidate item only needs incremental computation.
 
-需要指出的是，这两个优化技术在分离范式中同样可以使用。分离范式的序列模块也可以做 KV 缓存。统一架构的效率优势不在于这些技术本身，而在于它把序列和特征的计算合并到了同一个前向传播中，减少了模块间的数据传输和重复计算。
+It should be noted that these two optimization techniques can also be used in the separation paradigm. The separation paradigm's sequence module can also do KV caching. Unified architecture's efficiency advantage lies not in these techniques themselves, but in merging sequence and feature computation into the same forward pass, reducing inter-module data transfer and redundant computation.
 
-OneTrans 的实验已经表明，在同等参数规模下，统一架构的推理延迟和分离范式相当。这说明效率不是统一架构的瓶颈。
+OneTrans's experiments have already shown that under equivalent parameter scale, unified architecture's inference latency is comparable to the separation paradigm. This indicates efficiency is not unified architecture's bottleneck.
 
-**第三，工程复杂度显著降低。**
+**Third, Significantly reduced engineering complexity.**
 
-这是统一架构最容易被低估的优势。
+This is unified architecture's most easily underestimated advantage.
 
-分离范式有两套代码：序列模型和特征交互模型。每套代码有自己的超参数、自己的优化策略、自己的调优方式。在工业实践中，这意味着两个团队、两套上线流程、两种故障模式。当序列模块更新时，特征模块可能需要重新调优；当特征模块出 bug 时，很难判断是自身的问题还是序列模块输出变化导致的。
+The separation paradigm has two sets of code: the sequence model and the feature interaction model. Each has its own hyperparameters, optimization strategies, and tuning methods. In industrial practice, this means two teams, two deployment processes, two failure modes. When the sequence module is updated, the feature module may need re-tuning; when the feature module has a bug, it's hard to determine whether it's its own problem or a consequence of the sequence module's output changes.
 
-统一架构只有一套可堆叠的模块。增加深度就是加层，增加宽度就是扩维度，增加新特征就是加令牌。一个团队维护一套代码，一套上线流程，一种故障模式。
+Unified architecture has only one set of stackable modules. Increasing depth means adding layers; increasing width means expanding dimensions; adding new features means adding tokens. One team maintains one codebase, one deployment process, one failure mode.
 
-对于任何一家靠推荐系统吃饭的公司，维护成本的降低是真金白银。
-
----
-
-## 九、还没完：统一架构内部的未解问题
-
-统一架构不是终点，它只是把问题从"如何分开处理"变成了"如何统一处理"。这带来了几个新的、值得深入探索的问题。
-
-**问题一：不同令牌类型的最优比例是什么？**
-
-在统一序列中，序列令牌和特征令牌的数量比例会影响注意力的分配。如果序列令牌远多于特征令牌（比如 500:50），特征令牌的信号可能被淹没；反过来，如果特征令牌过多，序列的时间动态可能被稀释。
-
-这个比例是否存在最优值？它是否随任务、数据集、模型规模而变化？这是一个需要系统性实验的问题。
-
-**问题二：渐进压缩的理论最优策略是什么？**
-
-第七章讨论了三种压缩策略（注意力权重、学习式池化、时间衰减），但没有回答：在什么条件下，哪种策略最优？压缩比例应该如何随层数变化？是否存在一个信息论的下界——压缩到什么程度，关键信息一定会丢失?
-
-这些问题的回答，可能需要借助信息瓶颈理论(Information Bottleneck)或率失真理论(Rate-Distortion Theory)。
-
-**问题三：统一架构的 scaling 行为是什么？**
-
-语言模型有清晰的 scaling law：性能随参数、数据、计算量的增长呈幂律关系。统一推荐架构是否也有类似的规律?
-
-如果有，它的 scaling 效率是否比分离范式更高？也就是说，同样增加一倍参数，统一架构的 AUC 增益是否更大？这个问题的回答，对于工业界决定是否投入资源迁移到统一架构，至关重要。
-
-**问题四：统一之后，输出也能统一吗？**
-
-目前统一架构解决的是"输入的统一"——把不同结构的信息放在同一个空间里处理。但输出仍然是一个标量分数。如果把推荐看作生成问题，让模型直接"生成"下一个物品的 ID 或语义表示，就像语言模型生成下一个 token 一样，会怎样?TAAC 的 seq_feature 天然适合这种生成式建模。这是从判别式推荐到生成式推荐的跃迁，也是统一架构的自然延伸。
+For any company relying on recommendation systems, maintenance cost reduction is real money.
 
 ---
 
-## 十、回到第一性原理
+## Nine: Not Finished Yet — Unsolved Problems within Unified Architecture
 
-写到这里，我想回到最初的问题：推荐系统到底在做什么?
+Unified architecture is not the endpoint; it merely transforms the problem from "how to process separately" to "how to process together." This brings several new,值得 deep exploration questions.
 
-如果只看表面，它在预测转化概率。如果看深一层，它在做模式匹配。如果再看深一层，它在试图理解用户。
+**Question One: What is the optimal ratio of different token types?**
 
-一个真正理解用户的系统，不是把用户的信息拆成序列和特征，分开处理，再拼起来。而是把这些信息放在同一个空间里，让它们自由地相互作用，形成关于用户的完整认知。
+In the unified sequence, the quantity ratio of sequence tokens to feature tokens affects attention allocation. If sequence tokens vastly outnumber feature tokens (e.g., 500:50), feature token signals may be淹没; conversely, if feature tokens are too many, sequence temporal dynamics may be稀释.
 
-分离范式是历史的产物，不是逻辑的必然。序列和特征的分离，本质上是两种建模传统的分离。当我们回到第一性原理，这个分离就不存在了——用户的信息就是用户的信息，不分序列和特征。
+Does an optimal ratio exist? Does it vary with task, dataset, and model scale? This requires systematic experimentation.
 
-统一架构的意义，不在于它比分离范式好多少个百分点。而在于它让推荐系统回到它本该在的地方：一个真正理解用户的系统，而不是两个模型拼凑出来的机器。
+**Question Two: What is the theoretically optimal progressive compression strategy?**
 
-这是上半部分的结论。下半部分，我们谈怎么把这个想法变成现实——从竞赛策略到工程落地。
+Chapter Seven discussed three compression strategies (attention weights, learned pooling, time decay), but didn't answer: under what conditions is which strategy optimal? How should compression ratios change across layers? Is there an information-theoretic lower bound — at what compression level must critical information be lost?
 
----
+Answering these questions may require Information Bottleneck theory or Rate-Distortion Theory.
 
-# 下半部分：从想法到现实
+**Question Three: What are the scaling behaviors of unified architecture?**
 
-> 上半部分回答了"为什么要统一"和"统一什么"。下半部分回答最后一个问题：**怎么统一**——不是写代码，而是写战略。如何在 TAAC2026 这样一个国际竞赛中，把统一架构从想法变成现实。
+Language models have clear scaling laws: performance grows as a power-law relation with parameters, data, and computation. Does unified recommendation architecture have similar regularities?
 
----
+If so, is its scaling efficiency higher than the separation paradigm? That is, doubling parameters, does unified architecture's AUC gain exceed the separation paradigm's? The answer is crucial for industry deciding whether to invest resources in migrating to unified architecture.
 
-## 十一、竞赛的本质：用最短的时间验证一个方向
+**Question Four: After input unification, can output also be unified?**
 
-TAAC2026 不是一个普通的 Kaggle 竞赛。它有独立的创新奖，评审标准是"新颖性和洞察力"，而不是 AUC 绝对值。
-
-这意味着我们可以做一件很多竞赛里不敢做的事：**不追排行榜，只做正确的事。**
-
-这不是说放弃 AUC。而是说，我们追求 AUC 的方式不是调参、堆模型、过拟合验证集，而是通过架构创新，从根本上提升模型对序列和特征的统一理解能力。如果这个方向是对的,AUC 自然会上来；如果 AUC 没有上来，那说明我们的理解还不够深，需要回去修正假设。
-
-竞赛的本质是：**用最短的时间，验证一个方向的价值。**
-
-那么，我们要验证的方向是什么?
-
-回顾上半部分的结论：统一架构通过补全注意力矩阵的非对角线子矩阵，让序列和特征产生直接的信息流动，从而在结构上消除分离范式的信息损失。这个结论是理论推导，不是实验事实。竞赛就是把它变成实验事实的机会。
+Currently, unified architecture solves "input unification" — placing differently structured information in the same space. But the output remains a scalar score. If we view recommendation as a generative problem, letting the model directly "generate" the next item's ID or semantic representation, like language models generating the next token, what would happen? TAAC's seq_feature naturally suits this generative modeling. This is a leap from discriminative recommendation to generative recommendation, and a natural extension of unified architecture.
 
 ---
 
-## 十二、竞赛定位与差异化
+## Ten: Returning to First Principles
 
-在动手之前，需要先想清楚三个定位问题。
+Writing到这里, I want to return to the initial question: what exactly is a recommendation system doing?
 
-**我们和其他参赛队伍的差异化在哪里？**
+On the surface, it predicts conversion probability. Looking deeper, it's doing pattern matching. Looking even deeper, it's trying to understand the user.
 
-大多数队伍会走两条路：一是用成熟的分离范式(SASRec + DCN V2)调到极致；二是用现成的统一架构（比如直接复现 OneTrans）跑一个结果。
+A system that truly understands the user doesn't拆分 the user's information into sequences and features, process them separately, then拼凑 them together. It places all information in the same space and lets it freely interact, forming a complete understanding of the user.
 
-我们的差异化不在于用了什么模型，而在于**对问题的理解深度**。上半部分的分析——三个被忽略的假设、结构保持映射、注意力矩阵的子矩阵分解——这些不是装饰，而是设计决策的依据。每一个架构选择，都能追溯到一个明确的原理。这种"有理有据"的设计风格，正是创新奖评审最看重的。
+The separation paradigm is a product of history, not a logical necessity. The separation of sequences and features is essentially the separation of two modeling traditions. When we return to first principles, this separation no longer exists — the user's information is the user's information,不分 sequences and features.
 
-**我们的资源约束是什么？**
+The significance of unified architecture lies not in how many percentage points it improves over the separation paradigm, but in returning recommendation systems to where they should be: a system that truly understands the user, rather than a machine拼凑 from two models.
 
-竞赛时间约三个月。假设团队 2-3 人，每人每天有效工作 4-6 小时。GPU 资源有限，可能只有几张消费级显卡或云上的按需实例。这意味着我们不能做大规模的超参搜索，每一次实验都要有明确的假设和预期。
-
-**我们的风险偏好是什么？**
-
-统一架构是一个新方向，失败的概率不低。如果第一次提交 AUC 比基线还低，我们是否有勇气继续？答案应该是：是的，但前提是我们能诊断出原因。所以，每一步都要设计好对照实验，确保失败时能定位问题。
+This is the conclusion of the first half. The second half discusses how to turn this idea into reality — from competition strategy to engineering deployment.
 
 ---
 
-## 十三、五个阶段，十周推进
+# Second Half: From Idea to Reality
 
-基于上述定位，我们把竞赛分为五个阶段。每个阶段有明确的目标、具体的工作和清晰的验收标准。
-
-### 阶段一：吃透数据，建立基线（第 1-2 周）
-
-**目标**：确保对数据的理解没有偏差，建立一个可靠的比较基准。
-
-具体工作：
-
-1. 解析 TAAC 数据的每个字段。特别关注 seq_feature 的三个子序列(item_seq、action_seq、content_seq)的长度分布、缺失率、值域。
-2. 统计正负样本比例、用户活跃度分布、物品热度分布。这些统计量会影响后续的采样策略和损失函数设计。
-3. 实现最简单的基线：对历史行为做平均池化，与用户特征、物品特征拼接，过一个三层 MLP。记录 AUC 和推理延迟。
-4. 实现一个稍强的基线：用 SASRec 编码历史行为，用 DCN V2 做特征交互，最后拼接预测。这是分离范式的标准实现。
-
-验收标准：两个基线都能跑通,AUC 合理（不是随机的 0.5），推理延迟在限制范围内。
-
-这一阶段的核心原则是**不冒进**。基线不是浪费时间，它是后续所有实验的锚点。没有可靠的基线，任何改进都无法被准确衡量。
-
-### 阶段二：构建统一令牌化模块（第 3-4 周）
-
-**目标**：实现上半部分第七章描述的令牌化方案，验证令牌质量。
-
-具体工作：
-
-1. 实现序列令牌的编码。关键决策：item_id 嵌入、action_type 嵌入、content_vector 聚合，三者如何融合?
-
-   三种候选方案：
-   - 拼接后过线性层：$\mathbf{h} = \mathbf{W}[\mathbf{e}_{item}; \mathbf{e}_{action}; \mathbf{v}_{content}] + \mathbf{b}$
-   - 逐元素相加：$\mathbf{h} = \mathbf{e}_{item} + \mathbf{e}_{action} + \mathbf{v}_{content}$
-   - 门控融合：用一个门控机制动态决定三者的权重
-
-   拼接后过线性层是最稳妥的选择，因为它不假设三种信息的维度相同，也不假设它们的重要性相等。门控融合理论上更灵活，但引入了额外的参数和调优复杂度。建议先用拼接方案，如果效果不够再尝试门控。
-
-2. 实现特征令牌的编码。每个离散特征用 field-aware embedding：同一个特征值在不同 field 下有不同的嵌入。这是 FFM 的经典思想，在统一架构中依然适用。
-
-3. 实现位置编码。TAAC 的时间戳是真实时间，不是简单的序号。建议使用时间感知的位置编码（如 Time2Vec 或对数时间间隔编码），而不是标准的正弦位置编码。因为用户行为的时间间隔是不均匀的——两天前的行为和两个月前的行为，时间距离差异巨大，标准位置编码无法捕捉这种差异。
-
-4. 验证令牌质量。用一个简单的自注意力模型(2 层 Transformer)处理统一令牌序列，对比阶段一的基线。如果 AUC 有提升，说明令牌化方案是有效的；如果没有提升，需要诊断是令牌编码的问题还是模型容量的问题。
-
-验收标准：统一令牌化 + 简单 Transformer 的 AUC 不低于分离范式基线。
-
-### 阶段三：实现统一骨干与混合掩码（第 5-6 周）
-
-**目标**：搭建完整的统一架构，包括混合掩码和渐进压缩。
-
-具体工作：
-
-1. 实现混合掩码。这是统一架构区别于普通 Transformer 的核心。掩码矩阵需要根据令牌类型动态生成：
-
-   - 序列×序列区域：下三角因果掩码
-   - 特征×特征区域：全 1（全连接）
-   - 特征×序列区域：全 1（特征可以看到所有历史行为）
-   - 序列×特征区域：这里有一个设计选择——是否允许历史行为令牌看到用户特征和物品特征?
-
-   允许的理由：用户画像可以帮助序列模型更好地理解行为的含义（同一个点击行为，对不同年龄段的用户意义不同）。不允许的理由：保持严格的因果性，避免信息泄露。建议先允许序列看到用户特征（因为用户画像在行为发生时已经存在），但不允许序列看到候选物品特征（因为候选物品是"未来"的信息）。
-
-2. 实现渐进压缩。从上半部分讨论的三种策略中选择一种作为起点。建议先用最简单的：基于学习的池化。具体做法是在指定层之后，用 $k$ 个可训练的查询向量对序列令牌做交叉注意力，输出 $k$ 个压缩后的令牌。
-
-   压缩时间表的设计：假设模型有 8 层，序列初始长度 200。可以在第 3 层压缩到 100,第 6 层压缩到 50。最终进入预测层的序列令牌只有 50 个，加上特征令牌（假设 50 个），总共 100 个令牌。这个规模的注意力计算在工业延迟约束下是可行的。
-
-3. 对照实验。将统一架构与阶段一的分离范式基线对比。同时做一个消融实验：去掉混合掩码中的非对角线部分（即 $\mathbf{A}_{FS}$ 和 $\mathbf{A}_{SF}$ 置零），看 AUC 下降多少。如果下降显著，说明序列-特征的直接交互确实有价值；如果下降不大，说明我们的理论假设可能需要修正。
-
-验收标准：统一架构的 AUC 超过分离范式基线，且消融实验证明非对角线交互有贡献。
-
-### 阶段四：诊断、优化与扩展分析（第 7-8 周）
-
-**目标**：诊断模型的弱点，针对性优化，同时收集扩展规律的数据。
-
-具体工作：
-
-1. 错误分析。找出模型预测最不准的样本，分析它们的共性。常见的模式包括：
-   - 冷启动用户（历史行为极短）：统一架构是否比分离范式更能利用特征信息来弥补序列信息的不足?
-   - 兴趣漂移用户（近期行为与历史行为矛盾）：渐进压缩是否保留了近期的转折信号?
-   - 长尾物品（候选物品很少出现在训练集中）：物品特征令牌是否提供了足够的泛化能力?
-
-   针对每种模式，设计对应的改进方案。比如，对冷启动用户，可以在特征令牌中增加一个"历史长度"的标量令牌，让模型显式感知信息的充分程度。
-
-2. 推理优化。实现 KV 缓存：对同一个用户的多个候选物品，预计算用户侧（历史行为 + 用户特征）的 K 和 V,只对候选物品侧做增量计算。测量优化后的推理延迟，确保在限制范围内。
-
-3. 扩展分析。这是为扩展规律创新奖准备的数据。设计以下实验：
-   - 固定数据量，模型参数从 1M 增长到 100M（通过调整层数和宽度），记录每个规模下的 AUC.
-   - 固定模型规模，训练数据从 10% 增长到 100%，记录每个比例下的 AUC.
-   - 对分离范式基线做同样的实验，作为对照。
-
-   如果统一架构的 AUC-参数曲线斜率更大（即单位参数带来的 AUC 增益更高），就能证明统一架构的扩展效率更优。这是一个强有力的论据。
-
-验收标准：错误分析完成，至少一项针对性优化带来了 AUC 提升，扩展分析数据收集完毕。
-
-### 阶段五：收尾与提交（第 9-10 周）
-
-**目标**：稳定模型，撰写技术报告，准备最终提交。
-
-具体工作：
-
-1. 最终调优。在前四个阶段的基础上，做最后一轮超参数调整。重点调整：学习率衰减策略、dropout 比例、压缩时间表。不做大的架构改动，只做微调。
-
-2. 稳定性验证。用不同的随机种子跑 3-5 次，确认 AUC 的方差在可接受范围内。如果方差过大，说明模型对初始化敏感，需要排查原因。
-
-3. 撰写技术报告。这是创新奖评审的核心材料。报告的结构建议如下：
-
-   - 问题定义：分离范式的三个隐含假设及其局限性（对应上半部分第三章）
-   - 方法设计：结构保持映射、统一注意力算子、混合掩码、渐进压缩（对应上半部分第五、七章）
-   - 实验设计：基线选择、消融实验、错误分析、扩展分析
-   - 结果与讨论：定量结果、注意力可视化、扩展曲线
-   - 结论与局限：统一架构的价值和当前方案的不足
-
-   技术报告的写作原则：**清晰、自信、诚实**。不夸大效果，不回避失败。如果某个消融实验的结果不符合预期，如实报告并分析原因——这比只展示正面结果更有说服力。
-
-4. 代码整理。模块化设计，详细注释，配置化管理。评审专家会看代码，干净的代码本身就是专业能力的证明。
-
-验收标准：技术报告完成，代码整理完毕，最终结果提交。
+> The first half answered "why unify" and "what to unify." The second half answers the final question: **how to unify** — not writing code, but writing strategy. How to transform unified architecture from an idea into reality in an international competition like TAAC2026.
 
 ---
 
-## 十四、风险分析：如果统一架构失败了怎么办
+## Eleven: The Essence of Competition — Verifying a Direction in the Shortest Time
 
-任何诚实的战略都必须包含一个 Plan B。统一架构可能失败，而且失败的原因可能不止一种。
+TAAC2026 is not an ordinary Kaggle competition. It has an independent innovation award; the evaluation criterion is "novelty and insight," not absolute AUC.
 
-**失败模式一：AUC 不如分离范式基线。**
+This means we can do something many competitions discourage: **don't chase the leaderboard, only do what's right.**
 
-可能的原因：
-- 令牌化方案不合理，不同类型的信息在同一个向量空间里互相干扰。
-- 混合掩码的设计有问题，序列和特征的交互方式不对。
-- 模型容量不足，统一架构需要更多参数才能发挥优势，但资源限制了模型规模。
+This isn't abandoning AUC. It means we pursue AUC not by tuning parameters, stacking models, or overfitting the validation set, but through architectural innovation, fundamentally improving the model's unified understanding of sequences and features. If this direction is right, AUC will naturally rise; if ACU doesn't rise, it means our understanding isn't deep enough, and we need to go back and修正 assumptions.
 
-应对策略：回到阶段三的消融实验。如果去掉非对角线交互后 AUC 反而上升，说明当前的交互方式是有害的，需要重新设计掩码。如果增加模型规模后 AUC 显著提升，说明问题在于容量不足，可以通过更激进的压缩策略来换取更大的模型宽度。
+The essence of competition: **use the shortest time to verify the value of a direction.**
 
-**失败模式二：推理延迟超标。**
+So, what direction are we verifying?
 
-可能的原因：
-- 序列太长，即使有渐进压缩，前几层的计算量仍然过大。
-- KV 缓存的实现有 bug,没有真正复用。
-
-应对策略：在第一层就做一次激进的序列截断（只保留最近 N 个行为），然后在后续层做渐进压缩。这牺牲了一些信息完整性，但能显著降低延迟。同时仔细检查 KV 缓存的实现。
-
-**失败模式三：训练不稳定,loss 震荡或发散。**
-
-可能的原因：
-- 不同类型令牌的嵌入尺度不一致，导致注意力分数失衡。
-- 渐进压缩引入了梯度断裂。
-
-应对策略：对每种类型的令牌做独立的层归一化（而不是全局层归一化）。检查压缩操作是否可微，确保梯度能正常回传。
-
-**最坏情况的 Plan B**：如果统一架构在所有调整之后仍然不如分离范式，我们仍然可以提交一个有价值的技术报告——详细记录统一架构失败的原因和我们的诊断过程。在学术界，一个严谨的负面结果同样有价值。它告诉后来者：这条路走不通的原因是什么，下一步应该往哪里走。
+Reviewing the first half's conclusion: unified architecture, by completing the off-diagonal sub-matrices of the attention matrix, enables direct information flow between sequences and features, thereby structurally eliminating the separation paradigm's information loss. This conclusion is theoretical derivation, not experimental fact. The competition is the opportunity to turn it into experimental fact.
 
 ---
 
-## 十五、工程细节：在有限资源下做到极致
+## Twelve: Competition Positioning and Differentiation
 
-### 15.1 推理优化的三个层次
+Before动手, three positioning questions must be clearly thought through.
 
-**第一层：KV 缓存复用。**
+**What's our differentiation from other competing teams?**
 
-在推荐场景中，同一个用户在同一次请求中会面对多个候选物品。用户的历史行为和画像对所有候选物品是共享的。如果我们能预计算用户侧的 Key 和 Value,然后在每个候选物品的推理中复用，就能把用户侧的计算从 O(候选数) 降到 O(1)。
+Most teams will走 two paths: one is pushing mature separation paradigm (SASRec + DCN V2) to极致; the other is running results with existing unified architectures (e.g., directly reproducing OneTrans).
 
-具体实现：把统一序列分成两部分——用户侧（历史行为令牌 + 用户特征令牌）和物品侧（物品特征令牌 + 上下文令牌）。先对用户侧做前向传播，缓存每一层的 K 和 V。然后对每个候选物品，只需要计算物品侧的 Q,与缓存的 K、V 做注意力运算。
+Our differentiation lies not in what model we use, but in **the depth of our understanding of the problem.** The first half's analysis — three overlooked assumptions, structure-preserving mapping, sub-matrix decomposition of the attention matrix — these aren't装饰 but the basis for design decisions. Every architectural choice can be traced to a clear principle. This "well-grounded" design style is exactly what the innovation award评审 most values.
 
-**第二层：渐进压缩。**
+**What are our resource constraints?**
 
-如阶段三所述，序列令牌在指定层之后被压缩。这不仅减少了后续层的计算量，也减少了 KV 缓存的大小。压缩和缓存是协同的——压缩越激进，缓存越小，推理越快。
+Competition duration approximately three months. Assume a 2-3 person team, each effectively working 4-6 hours daily. GPU resources are limited, perhaps only a few consumer-grade cards or on-demand cloud instances. This means we can't do large-scale hyperparameter search; every experiment must have a clear hypothesis and expectation.
 
-**第三层：提前退出（可选）。**
+**What is our risk appetite?**
 
-对于简单样本（比如历史行为很短、特征很明确的用户），前几层的输出可能已经足够置信。可以在每一层之后加一个轻量级的置信度判断器，如果置信度超过阈值就提前输出。
+Unified architecture is a new direction; failure probability is not low. If the first submission's AUC is below baseline, do we have the courage to continue? The answer should be: yes, provided we can diagnose the cause. So, each step must设计 controlled experiments, ensuring we can定位 problems when failure occurs.
 
-提前退出的实现需要注意：训练时所有层都要参与梯度计算，不能因为提前退出而跳过后面的层。一种做法是在每一层都加一个辅助损失，让每一层的输出都能独立预测。
+---
 
-### 15.2 代码质量标准
+## Thirteen: Five Stages, Ten Weeks of Advancement
 
-竞赛提交的代码会被评审。以下是建议的代码组织方式：
+Based on the above positioning, we divide the competition into five stages. Each stage has clear objectives, specific work, and clear acceptance criteria.
+
+### Stage One: Understand the Data, Establish Baselines (Weeks 1-2)
+
+**Objective**: Ensure no偏差 in understanding the data; establish a reliable comparison基准.
+
+Specific work:
+
+1. Parse every field of TAAC data. Pay special attention to the three sub-sequences of seq_feature (item_seq, action_seq, content_seq) — their length distribution, missing rate, and value range.
+2.统计 positive-negative sample ratio, user activity distribution, and item popularity distribution. These statistics affect subsequent sampling strategy and loss function design.
+3. Implement the simplest baseline: average pooling of historical behaviors, concatenated with user features and item features, passed through a three-layer MLP. Record AUC and inference latency.
+4. Implement a stronger baseline: use SASRec to encode historical behaviors, DCN V2 for feature interaction, then concatenate for prediction. This is the separation paradigm's standard implementation.
+
+Acceptance criteria: Both baselines run成功, AUC is reasonable (not random 0.5), inference latency is within limits.
+
+The core principle of this stage is **don't rush forward.** Baselines aren't wasting time; they're the anchor for all subsequent experiments. Without reliable baselines, no improvement can be accurately measured.
+
+### Stage Two: Build Unified Tokenization Module (Weeks 3-4)
+
+**Objective**: Implement the tokenization scheme described in Chapter Seven of the first half; verify token quality.
+
+Specific work:
+
+1. Implement sequence token encoding. Key decision: how to fuse item_id embedding, action_type embedding, and content_vector aggregation?
+
+   Three candidate approaches:
+   - Concatenation followed by linear layer: $\mathbf{h} = \mathbf{W}[\mathbf{e}_{item}; \mathbf{e}_{action}; \mathbf{v}_{content}] + \mathbf{b}$
+   - Element-wise addition: $\mathbf{h} = \mathbf{e}_{item} + \mathbf{e}_{action} + \mathbf{v}_{content}$
+   - Gated fusion: use a gating mechanism to dynamically determine the weights of the three
+
+   Concatenation followed by linear layer is the most稳妥 choice, because it doesn't假设 the three types of information have identical dimensions or equal importance. Gated fusion is theoretically more flexible, but introduces additional parameters and tuning complexity. Recommend starting with concatenation; if performance is insufficient, try gated.
+
+2. Implement feature token encoding. Each discrete feature uses field-aware embedding: the same feature value has different embeddings under different fields. This is FFM's classic idea, still applicable in unified architecture.
+
+3. Implement position encoding. TAAC's timestamps are real time, not simple sequence numbers. Recommend time-aware position encoding (such as Time2Vec or logarithmic time interval encoding) rather than standard sinusoidal position encoding. Because user behavior time intervals are uneven — the temporal distance between a behavior two days ago and one two months ago is vastly different; standard position encoding cannot capture this difference.
+
+4. Verify token quality. Use a simple self-attention model (2-layer Transformer) to process the unified token sequence, compare against Stage One baselines. If AUC improves, the tokenization scheme is effective; if not, diagnose whether the issue is token encoding or model capacity.
+
+Acceptance criteria: Unified tokenization + simple Transformer's AUC不低于 separation paradigm baseline.
+
+### Stage Three: Implement Unified Backbone and Hybrid Masking (Weeks 5-6)
+
+**Objective**: Build the complete unified architecture, including hybrid masking and progressive compression.
+
+Specific work:
+
+1. Implement hybrid masking. This is the core distinguishing unified architecture from ordinary Transformer. The mask matrix must be dynamically generated based on token type:
+
+   - Sequence×Sequence region: lower-triangular causal mask
+   - Feature×Feature region: all 1s (fully connected)
+   - Feature×Sequence region: all 1s (features can see all historical behaviors)
+   - Sequence×Feature region: here is a design choice — should historical behavior tokens be allowed to see user features and item features?
+
+   Reason for allowing: User profiles can help the sequence model better understand behavior meanings (the same click behavior means different things for users of different age groups). Reason for not allowing: Maintain strict causality, avoid information leakage. Recommend first allowing sequence to see user features (because user profiles existed when behaviors occurred), but not allowing sequence to see candidate item features (because the candidate item is "future" information).
+
+2. Implement progressive compression. Choose one of the three strategies discussed in the first half as the starting point. Recommend starting with the simplest: learned pooling. Specifically, after specified layers, use $k$ trainable query vectors to perform cross-attention on sequence tokens, outputting $k$ compressed tokens.
+
+   Compression schedule design: Assume model has 8 layers, initial sequence length 200. At layer 3, compress to 100; at layer 6, compress to 50. Final sequence tokens entering the prediction layer are only 50, plus feature tokens (assume 50), totaling 100 tokens. Attention computation at this scale is feasible under industrial latency constraints.
+
+3. Controlled experiments. Compare unified architecture against Stage One separation paradigm baseline. Simultaneously run an ablation: remove the off-diagonal parts of hybrid masking (set $\mathbf{A}_{FS}$ and $\mathbf{A}_{SF}$ to zero), see how much AUC drops. If the drop is significant, sequence-feature direct interaction indeed has value; if the drop is small, our theoretical assumptions may need修正.
+
+Acceptance criteria: Unified architecture's AUC exceeds separation paradigm baseline, and ablation proves off-diagonal interaction has contribution.
+
+### Stage Four: Diagnosis, Optimization, and Scaling Analysis (Weeks 7-8)
+
+**Objective**: Diagnose model weaknesses, optimize针对性的, while collecting scaling law data.
+
+Specific work:
+
+1. Error analysis. Find samples where the model predicts most inaccurately, analyze their commonalities. Common patterns include:
+   - Cold-start users (extremely short history): Can unified architecture better utilize feature information to弥补 insufficient sequence information?
+   - Interest-drift users (recent behaviors contradict historical behaviors): Does progressive compression preserve recent turning signals?
+   - Long-tail items (candidate items rarely appear in training set): Do item feature tokens provide sufficient generalization capability?
+
+   For each pattern,设计 corresponding improvement方案. For example, for cold-start users, add a "history length" scalar token in feature tokens,让 the model explicitly感知 information sufficiency.
+
+2. Inference optimization. Implement KV caching: for the same user's multiple candidate items, pre-compute user-side (historical behaviors + user features) K and V, only computing candidate item-side incrementally. Measure optimized inference latency, ensure within limits.
+
+3. Scaling analysis. This prepares data for the scaling law innovation award. Design the following experiments:
+   - Fix data volume, model parameters from 1M growing to 100M (by adjusting layer count and width), record AUC at each scale.
+   - Fix model scale, training data from 10% growing to 100%, record ACU at each ratio.
+   - Run the same experiments for the separation paradigm baseline as control.
+
+   If unified architecture's AUC-parameter curve slope is larger (i.e., per-unit parameter AUC gain is higher), this proves unified architecture's scaling efficiency is superior. This is a powerful argument.
+
+Acceptance criteria: Error analysis completed, at least one针对性 optimization带来 AUC improvement, scaling analysis data collected.
+
+### Stage Five: Wrap-up and Submission (Weeks 9-10)
+
+**Objective**: Stabilize the model, write technical report, prepare final submission.
+
+Specific work:
+
+1. Final tuning. On the foundation of the first four stages, do one last round of hyperparameter adjustment. Focus on: learning rate decay strategy, dropout ratio, compression schedule. No major architectural changes; only微调.
+
+2. Stability verification. Run 3-5 times with different random seeds, confirm AUC variance is within acceptable range. If variance is too large, the model is sensitive to initialization; investigate causes.
+
+3. Write technical report. This is the core material for innovation award评审. Recommended report structure:
+
+   - Problem definition: Three hidden assumptions of the separation paradigm and their limitations (corresponding to Chapter Three of the first half)
+   - Method design: Structure-preserving mapping, unified attention operator, hybrid masking, progressive compression (corresponding to Chapters Five and Seven of the first half)
+   - Experimental design: Baseline selection, ablation experiments, error analysis, scaling analysis
+   - Results and discussion: Quantitative results, attention visualization, scaling curves
+   - Conclusions and limitations: Unified architecture's value and current方案's不足
+
+   Technical report writing principles: **clear, confident, honest.** Don't exaggerate results, don't回避 failures. If an ablation result doesn't match expectations, report it honestly and analyze原因 — this is more persuasive than only showing positive results.
+
+4. Code整理. Modular design, detailed comments, configuration management.评审 experts will read code; clean code is itself proof of professional capability.
+
+Acceptance criteria: Technical report completed, code整理完毕, final results submitted.
+
+---
+
+## Fourteen: Risk Analysis — What If Unified Architecture Fails?
+
+Any honest strategy must include a Plan B. Unified architecture may fail, and the reasons for failure may vary.
+
+**Failure Mode One: AUC worse than separation paradigm baseline.**
+
+Possible causes:
+- Tokenization scheme不合理; different information types interfere in the same vector space.
+- Hybrid masking design有问题; sequence-feature interaction mode is incorrect.
+- Model capacity insufficient; unified architecture needs more parameters to发挥 advantages, but resources limit model scale.
+
+Response: Return to Stage Three's ablation experiments. If removing off-diagonal interaction反而 raises AUC, the current interaction mode is有害; redesign masking. If increasing model scale显著 improves AUC, the problem is insufficient capacity;可以通过 more aggressive compression strategy to换取 larger model width.
+
+**Failure Mode Two: Inference latency exceeds limits.**
+
+Possible causes:
+- Sequence too long; even with progressive compression, earlier layers' computation is too large.
+- KV caching implementation has bugs; not truly reused.
+
+Response: Do one aggressive sequence truncation at the first layer (only保留 most recent N behaviors), then progressive compression in subsequent layers. This sacrifices some information completeness but significantly reduces latency. Also carefully check KV caching implementation.
+
+**Failure Mode Three: Training instability, loss震荡 or divergence.**
+
+Possible causes:
+- Inconsistent embedding scales for different token types,导致 attention score imbalance.
+- Progressive compression introduces gradient断裂.
+
+Response: Apply independent layer normalization per token type (rather than global layer normalization). Check whether compression operations are differentiable, ensuring gradients can properly backpropagate.
+
+**Worst-case Plan B**: If unified architecture after all adjustments still不如 separation paradigm, we can still submit a valuable technical report — detailed recording of why unified architecture failed and our diagnostic process. In academia, a rigorous negative result同样 has value. It tells future researchers: why this path doesn't work, and where to go next.
+
+---
+
+## Fifteen: Engineering Details — Achieving极致 Under Limited Resources
+
+### 15.1 Three Levels of Inference Optimization
+
+**First Level: KV Cache Reuse.**
+
+In recommendation scenarios, the same user faces multiple candidate items within the same request. The user's historical behaviors and profile are shared across all candidates. If we can pre-compute the user-side Key and Value, then reuse them in each candidate item's inference, we can reduce user-side computation from O(number of candidates) to O(1).
+
+Specific implementation: Divide the unified sequence into two parts — user-side (historical behavior tokens + user feature tokens) and item-side (item feature tokens + context tokens). First, forward pass on the user side, caching each layer's K and V. Then for each candidate item, only compute item-side Q, performing attention with cached K and V.
+
+**Second Level: Progressive Compression.**
+
+As described in Stage Three, sequence tokens are compressed after specified layers. This not only reduces subsequent layers' computation but also reduces KV cache size. Compression and caching are协同 — more aggressive compression means smaller cache and faster inference.
+
+**Third Level: Early Exit (Optional).**
+
+For simple samples (e.g., users with very short histories and clear features), earlier layers' outputs may already be sufficiently confident. Add a lightweight confidence判断器 after each layer; if confidence exceeds threshold, exit early.
+
+Early exit implementation must注意: during training, all layers participate in gradient computation; early exit shouldn't skip later layers. One approach: add an auxiliary loss at each layer,让 each layer's output can independently predict.
+
+### 15.2 Code Quality Standards
+
+Competition-submitted code will be评审. Recommended code organization:
 
 ```
 project/
-├── config/           # 超参数配置文件
-├── data/             # 数据加载与预处理
+├── config/           # Hyperparameter configuration files
+├── data/             # Data loading and preprocessing
 ├── model/
-│   ├── tokenizer.py  # 令牌化模块 (Φ_S, Φ_F, Φ_C)
-│   ├── backbone.py   # 统一骨干 (混合掩码 + 自注意力)
-│   ├── compress.py   # 渐进压缩模块
-│   └── head.py       # 预测头
-├── train.py          # 训练脚本
-├── evaluate.py       # 评估脚本
-└── README.md         # 项目说明
+│   ├── tokenizer.py  # Tokenization module (Φ_S, Φ_F, Φ_C)
+│   ├── backbone.py   # Unified backbone (hybrid masking + self-attention)
+│   ├── compress.py   # Progressive compression module
+│   └── head.py       # Prediction head
+├── train.py          # Training script
+├── evaluate.py       # Evaluation script
+└── README.md         # Project description
 ```
 
-每个模块职责单一，接口清晰。`tokenizer.py` 只负责把原始数据变成令牌，`backbone.py` 只负责注意力计算，`compress.py` 只负责序列压缩。这种分离让每个模块可以独立测试、独立替换。
+Each module has单一 responsibility and clear interfaces. `tokenizer.py` only负责 transforming raw data into tokens; `backbone.py` only负责 attention computation; `compress.py` only负责 sequence compression. This separation lets each module be independently tested and replaced.
 
 ---
 
-## 十六、创新奖：证明方向的价值
+## Sixteen: Innovation Award — Proving the Direction's Value
 
-TAAC 设了两个创新奖：统一模块创新奖和扩展规律创新奖。它们独立于排行榜，评审标准是新颖性和洞察力。
+TAAC has two innovation awards: unified module innovation award and scaling law innovation award. They're independent of the leaderboard;评审 criteria are novelty and insight.
 
-### 16.1 统一模块创新奖
+### 16.1 Unified Module Innovation Award
 
-这个奖项看的是"最有说服力的统一、可堆叠建模模块"。
+This award looks for "the most compelling unified, stackable modeling module."
 
-什么样的模块是有说服力的？四个标准：
+What makes a module compelling? Four criteria:
 
-1. 设计有原理支撑。不是拼凑，而是能追溯到明确的数学原理。我们的混合掩码设计直接来源于注意力矩阵的子矩阵分解，渐进压缩来源于信息蒸馏的思想。每一个设计选择都有理由。
+1. Design grounded in principles. Not拼凑, but traceable to clear mathematical principles. Our hybrid masking design directly derives from attention matrix sub-matrix decomposition; progressive compression derives from information distillation concepts. Every design choice has理由.
 
-2. 实现高效。在延迟限制内可以运行，不是一个只能在论文里存在的理论模型。
+2. Efficient implementation. Can run within latency limits, not merely a theoretical model that only exists in papers.
 
-3. 效果可验证。通过消融实验，能够证明模块的每个组件都有贡献。特别是非对角线交互（$\mathbf{A}_{FS}$ 和 $\mathbf{A}_{SF}$）的贡献，需要用实验数据说话。
+3. Verifiable effects. Through ablation experiments, prove every component of the module has contribution. Especially the contribution of off-diagonal interactions ($\mathbf{A}_{FS}$ and $\mathbf{A}_{SF}$), must be demonstrated with experimental data.
 
-4. 可解释。能够通过注意力热图展示序列令牌和特征令牌之间的交互模式。比如，展示当候选物品是"哲学书"时，模型对用户历史中"哲学视频"的注意力权重显著高于"科技文章"——这种可视化比 AUC 数字更有说服力。
+4. Interpretable. Through attention heat maps, show interaction patterns between sequence tokens and feature tokens. For example, when the candidate item is "a philosophy book," show the model's attention weight on the user's history's "philosophy videos" is significantly higher than "tech articles" — this kind of visualization is more persuasive than AUC numbers.
 
-### 16.2 扩展规律创新奖
+### 16.2 Scaling Law Innovation Award
 
-这个奖项看的是对扩展规律的探索。
+This award looks for exploration of scaling laws.
 
-在竞赛资源下，我们不可能做 GPT-4 级别的 scaling 实验。但我们可以做小规模的、有对照的扩展分析：
+Under competition resources, we can't do GPT-4-level scaling experiments. But we can do small-scale, controlled scaling analysis:
 
-1. 参数扩展：模型从 1M 到 100M,记录 AUC 变化。同时对分离范式基线做同样的实验。画出两条曲线，比较斜率。
-2. 数据扩展：训练数据从 10% 到 100%，记录 AUC 变化。观察统一架构是否比分离范式更"数据饥渴"（需要更多数据才能发挥优势）或更"数据高效"（少量数据就能超过分离范式）。
-3. 序列长度扩展：固定模型和数据，把输入序列长度从 50 增长到 500,记录 AUC 变化。这个实验直接检验统一架构处理长序列的能力。
+1. Parameter scaling: Model from 1M to 100M, record AUC变化. Simultaneously run same experiments for separation paradigm baseline. Draw two curves, compare slopes.
+2. Data scaling: Training data from 10% to 100%, record AUC变化. Observe whether unified architecture is more "data-hungry" (needs more data to发挥 advantages) or more "data-efficient" (exceeds separation paradigm with less data).
+3. Sequence length scaling: Fix model and data, input sequence length from 50 to 500, record AUC变化. This experiment directly tests unified architecture's ability to handle long sequences.
 
-如果这些实验能揭示一个清晰的规律——比如"统一架构的 AUC 随参数量呈对数增长，斜率是分离范式的 1.5 倍"——那就是一个有价值的发现，值得写进技术报告的核心位置。
-
----
-
-## 十七、从竞赛到工业：一段话说清楚
-
-统一架构的工业落地是竞赛之后的事，这里只说核心观点：最自然的切入点是精排阶段的模型替换。统一架构替换分离范式的精排模型，召回和粗排保持不变，风险可控。如果离线指标正向，线上 A/B 测试验证，就可以逐步推广。更远的未来，统一架构可能成为多场景共享的基础模型——不同推荐场景共享同一个骨干，只微调场景特定的令牌和预测头。但这些都是后话，先把竞赛做好。
+If these experiments reveal a clear regularity — such as "unified architecture's AUC grows logarithmically with parameter count, with a slope 1.5 times that of the separation paradigm" — that's a valuable finding值得 writing into the technical report's core position.
 
 ---
 
-## 十八、最后的话
+## Seventeen: From Competition to Industry — One Paragraph to Explain
 
-做难而正确的事，意味着这条路不会平坦。
-
-在竞赛中，我们可能会遇到第一次提交 AUC 比基线还低，调了一周参数纹丝不动，代码训练到一半崩溃。这些都是常态。重要的不是避免失败，而是从每次失败中提取信息。AUC 比基线低，说明统一架构在某些方面还不如简单的池化——那就分析：是令牌化出了问题，还是骨干结构不合理，还是压缩策略太激进？每一步诊断都是对问题理解的加深。
-
-如果你正在准备参加 TAAC2026,我想说三件事。
-
-第一，不要为了获奖而参赛，要为了验证一个想法而参赛。获奖是结果，不是目的。如果你有一个关于统一架构的独特想法，哪怕最后 AUC 不高，只要你能证明这个想法有价值，创新奖就可能属于你。
-
-第二，技术报告比排行榜更重要。排行榜只记录一个数字，技术报告记录的是你的思考过程。在评审专家的眼里，一个清晰、深刻、诚实的技术报告，远比一个虚高的 AUC 有价值。
-
-第三，享受过程。竞赛只有三个月，但竞赛中对问题的理解、对架构的直觉、对工程的打磨，会跟你很久。
+Unified architecture's industrial deployment is post-competition business; here I'll only state the core viewpoint: the most natural entry point is model replacement at the精排 stage. Unified architecture replaces the separation paradigm's精排 model; recall and粗排 remain unchanged, risk is controllable. If offline metrics are positive, online A/B testing verifies, then gradually推广. Further ahead, unified architecture may become a multi-scenario shared foundation model — different recommendation scenarios share the same backbone, only微调 scenario-specific tokens and prediction head. But these are later matters; first do the competition well.
 
 ---
 
-## 尾声
+## Eighteen: Final Words
 
-这篇文章的标题是"从碎片到整体"。碎片，指的是分离范式下被割裂的序列和特征；整体，指的是统一架构下被重新整合的用户理解。
+Doing hard but right things means the path won't be smooth.
 
-这个转变要求我们放下对"模块化"的执念，接受"整体大于部分之和"的复杂性。不再问"序列模型好还是特征模型好"，而是问"如何让所有信息协同工作"。
+In the competition, we may encounter first submission AUC below baseline, tuning parameters for a week with no change, code crashing mid-training. These are常态. What matters isn't avoiding failure but extracting information from each failure. AUC below baseline means unified architecture在某些方面 is still不如 simple pooling — analyze: is it tokenization problems, backbone structure issues, or too aggressive compression strategy? Each diagnostic step deepens understanding of the problem.
 
-统一架构可能不是推荐系统的终点，但它是下一个阶段的起点。TAAC2026 的赛题，就是在这个起点上插下的一面旗帜。
+If you're preparing for TAAC2026, I want to say three things.
 
-解放思想，实事求是。
+First, don't participate to win awards; participate to verify an idea. Awards are results, not purposes. If you have a unique idea about unified architecture, even if final AUC isn't high, as long as you can prove the idea has value, the innovation award may be yours.
+
+Second, the technical report matters more than the leaderboard. The leaderboard records one number; the technical report records your thinking process. In评审 experts' eyes, a clear, profound, honest technical report is far more valuable than an inflated AUC.
+
+Third, enjoy the process. The competition is only three months, but the understanding of problems, architectural intuition, and engineering polish gained will stay with you for a long time.
 
 ---
 
-## 读者引导（建议放在文章末尾、评论区置顶）
+## Epilogue
 
-> **阅读建议**
+This article's title is "From Fragments to Wholeness." Fragments refer to sequences and features割裂 under the separation paradigm; wholeness refers to user understanding重新整合 under unified architecture.
+
+This transformation要求 we放下 the obsession with "modularity" and accept the complexity of "the whole is greater than the sum of parts." No longer asking "is the sequence model better or the feature model better," but asking "how to让 all information work协同."
+
+Unified architecture may not be recommendation systems' endpoint, but it's the next stage's starting point. TAAC2026's competition topic is a flag planted at this starting point.
+
+解放思想,实事求是.
+
+---
+
+## Reader Guide (Recommended at article end, pinned in comments)
+
+> **Reading Suggestions**
 >
-> 本文篇幅较长（约 1.2 万字），分为三个部分：
-> 1. **为什么要统一**（第 1-4 章）：从工业困惑出发，揭示分离范式的三个隐含假设
-> 2. **统一什么**（第 5-9 章）：结构保持映射、统一注意力算子、渐进压缩的理论框架
-> 3. **怎么统一**（第 10-18 章）：竞赛阶段规划、风险分析、创新奖策略、工程细节
+> This article is lengthy (approximately 12,000 words), divided into three parts:
+> 1. **Why unify** (Chapters 1-4): Starting from industrial confusion, revealing three hidden assumptions of the separation paradigm
+> 2. **What to unify** (Chapters 5-9): Theoretical framework of structure-preserving mapping, unified attention operator, progressive compression
+> 3. **How to unify** (Chapters 10-18): Competition stage planning, risk analysis, innovation award strategy, engineering details
 >
-> 如果你是：
-> - **参赛选手**：可直接跳至第 10 章“竞赛的本质”，里面有完整的五阶段推进方案
-> - **推荐系统从业者**：推荐阅读第 5 章“数学本质”和第 8 章“三个务实的理由”
-> - **学术研究者**：第 5-7 章的理论框架可供参考或批判
+> If you are:
+> - **A competition participant**: Jump directly to Chapter 10 "The Essence of Competition" for the complete five-stage advancement plan
+> - **A recommendation system practitioner**: Recommended reading Chapter 5 "Mathematical Essence" and Chapter 8 "Three Pragmatic Reasons"
+> - **An academic researcher**: Chapters 5-7 theoretical framework可供 reference or critique
 >
-> 欢迎在评论区留言讨论。如果对文中的某个设计有不同看法，或在实际实现中遇到了问题，非常期待与你交流。
+> Comments and discussion are welcome. If you disagree with any design or encounter problems in implementation, I very much期待 exchanging with you.
 
 ---
 
-## 后续预告
+## Follow-up Preview
 
-> **后续计划**
+> **Follow-up Plans**
 >
-> 本文是理论先行。竞赛结束后，我将基于实际实验验证（包括与 SOTA 分离范式的对比、消融实验、效率分析、扩展规律探索）对本文进行迭代，并撰写正式技术报告。
+> This article is theory-first. After the competition concludes, I will iterate based on actual experimental verification (including comparison with SOTA separation paradigm, ablation experiments, efficiency analysis, scaling law exploration) and write a formal technical report.
 >
-> 如果你对这个方向感兴趣，欢迎关注后续更新。也欢迎通过评论区或私信交流讨论。
+> If you're interested in this direction, follow subsequent updates. Discussion via comments or private messages is also welcome.
 
 ---
 
-## 标签建议
+## Tag Suggestions
 
-推荐系统、TAAC2026、KDD Cup、序列建模、特征交互、Transformer、注意力机制、统一架构、技术思考
-
----
-
-## 可选：封面图/配图建议
-
-- **对比图**：分离范式（序列→压缩→拼接） vs 统一架构（令牌流→统一注意力）
-- **注意力矩阵分解图**：展示 \(A_{SS}, A_{FF}, A_{FS}, A_{SF}\) 四个子矩阵
-- **简洁的架构流程图**：从输入到令牌化到统一骨干到预测
-
-风格建议：简洁、技术感强，避免过度花哨。
+Recommendation systems, TAAC2026, KDD Cup, sequence modeling, feature interaction, Transformer, attention mechanism, unified architecture, technical reflections
 
 ---
 
-2026年3月27日于广东工业大学
+## Optional: Cover Image/Illustration Suggestions
+
+- **Comparison diagram**: Separation paradigm (sequence → compression → concatenation) vs. unified architecture (token flow → unified attention)
+- **Attention matrix decomposition diagram**: Showing $\mathbf{A}_{SS}, \mathbf{A}_{FF}, \mathbf{A}_{FS}, \mathbf{A}_{SF}$ four sub-matrices
+- **Simplified architecture flow diagram**: From input to tokenization to unified backbone to prediction
+
+Style suggestion:简洁, tech-focused, avoid过度花哨.
+
+---
+
+March 27, 2026, at Guangdong University of Technology
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

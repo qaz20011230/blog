@@ -1,386 +1,386 @@
 ---
-title: 关系的遗忘与回归：西方哲学史的一次诊断性重构（上）
+title: "Relational Oblivion and Return: A Diagnostic Reconstruction of Western Philosophy (Part One)"
 date: '2026-04-07'
 category: Philosophy
 tags:
-  - 哲学史
+  - history of philosophy
   - relationships
-  - 西方哲学
+  - Western philosophy
 description: >
-  西方哲学追问“存在”两千余年，却系统性地遗忘了“之间”。本文通过思想史的诊断性考察，揭示实体中心论如何塑造了我们对自我、他人与世界的理解，并追问通往关系动力学的道路。
+  Western philosophy has pursued "being" for over two thousand years, yet systematically forgotten the "between." Through a diagnostic examination of intellectual history, this essay reveals how substance-centrism has shaped our understanding of self, others, and world, and asks: what is the path toward relational dynamics?
 ---
 
-## 引言：沉默的诊断与谱系学的任务
+## Introduction: The Diagnosis of Silence and the Task of Genealogy
 
-### 一、一种被遗忘的“之间”
+### One: A Forgotten "Between"
 
-西方哲学追问“存在”两千余年，却几乎从未以同等的热情追问过“之间”(the between)。这并非一个偶然的疏忽，亦非某种思想史的边际现象——它是一种深刻的、结构性的沉默，一种贯穿了形而上学心脏地带的系统性的遗忘。当我们回溯西方哲学的源头，在巴门尼德(Parmenides)的残篇中，我们便已遭遇到那个决定性的意象：存在被比作“一块圆满球体的体积，从中心向各方均等”(DK28 B8)。在这个球体内部，没有空隙，没有间隔，没有任何形式的“之间”——它是纯粹的、连续的、自我同一的充实。从这一刻起，一种思维范式便被铭刻进了西方哲学的无意识之中：追问存在，就是追问那个不变的、自足的、具有清晰边界的“实体”(substance)；而连接实体的纽带——关系——则注定只能是一种派生的、次要的、甚至虚幻的范畴。
+Western philosophy has pursued "being" for over two thousand years, yet has almost never asked with equal passion about "the between." This is not an accidental oversight, nor some marginal phenomenon of intellectual history — it is a profound, structural silence, a systematic forgetting that runs through the heartland of metaphysics. When we trace back to the source of Western philosophy, in Parmenides' fragments, we already encounter that decisive image: Being is compared to "the volume of a well-rounded sphere, equal from the center in all directions" (DK28 B8). Within this sphere, there are no gaps, no intervals, no "between" of any kind — it is pure, continuous, self-identical fullness. From this moment onward, a paradigm of thought was inscribed into the unconscious of Western philosophy: to ask about Being is to ask about that unchanging, self-sufficient "substance" with clear boundaries; and the bonds connecting substances — relations — are注定 merely a derivative, secondary, even illusory category.
 
-这一思维习惯的固化，不仅是哲学史的一个内部问题。它深刻地塑造了西方人对自我、他人与世界的基本理解方式。当我们习惯于将“自我”想象为一个先于一切关系的、具有内在本质的实体，我们便难以理解自我如何在与他人、与社会、与世界的互动中被持续地重塑。当我们习惯于将“事物”视为具有固定属性的独立质点，我们便难以捕捉那些动态的、相互渗透的、处于永恒流变中的现象。当我们面对当代技术对关系的全面量化——社交网络中的“好友”、算法推荐中的“偏好关联”、信用评分中的“行为网络”——我们往往只能以沉默或顺从作为回应，因为我们缺乏一套能够深入理解关系之本质的理论语言。理论对关系的失语，与实践对关系的全面操控，构成了当代思想的一个根本性的悖论。
+The solidification of this habit of thought is not merely an internal problem of philosophy. It profoundly shaped Westerners' basic mode of understanding self, others, and world. When we habitually imagine the "self" as a substance prior to all relations, possessing an inner essence, we have difficulty understanding how the self is continuously reshaped in interaction with others, society, and the world. When we habitually view "things" as independent质点 with fixed attributes, we have difficulty apprehending those dynamic, mutually permeating, eternally fluxing phenomena. When we confront contemporary technology's total quantification of relations — "friends" in social networks, "preference associations" in algorithmic recommendations, "behavior networks" in credit scores — we can往往 respond only with silence or submission, because we lack a theoretical language capable of deeply understanding the essence of relations. Theory's aphasia regarding relations and practice's total manipulation of relations constitute a fundamental paradox of contemporary thought.
 
-本文的任务，是通过一份诊断性的思想史考察，揭示这一沉默是如何在从巴门尼德到梅洛-庞蒂的历史长河中被层层加固的，并追问：打破这一沉默的思想资源在何处？一条通往“关系动力学”的道路如何可能?
+The task of this essay is, through a diagnostic examination of intellectual history, to reveal how this silence was layer by layer reinforced across the long sweep of history from Parmenides to Merleau-Ponty, and to ask: where are the intellectual resources for breaking this silence? How might a path toward "relational dynamics" be possible?
 
-在展开论证之前，必须对本文的核心概念——“关系”——做出严格的界定。本文所说的“关系”，不是指逻辑学中命题之间的外部联系（如“如果p则q”），不是指数学中集合之间的映射（如函数关系），更不是指日常语言中的人际交往意义上的“关系”（如“亲戚关系”）。本文关注的是**本体论意义上的关系**：即作为存在的基本维度，不依赖于实体而具有自身实在性的“之间”本身。这种关系意味着A与B的相互渗透、相互构成，以至于A和B的同一性只有在它们的关系中才能被理解。一个经典的例证是亲子关系：父亲的身份不是先于父子关系而存在的实体属性——仿佛一个人先是“父亲”，然后才与子女发生关系；恰恰相反，正是在与子女的动态互动中，“父亲”这一身份才得以生成和持续。没有子女，就没有父亲；没有这种关系本身，相关项（父亲、子女）便无法获得它们的存在规定。本文所追问的，正是这种生成性的、构成性的关系——它为何在西方哲学传统中长期被边缘化？它的被遗忘意味着什么？它的回归将带来怎样的思想可能?
+Before展开 the argument, a strict definition must be given of this essay's core concept — "relations." The "relations" discussed here are not the external connections between propositions in logic (such as "if p then q"), not the mappings between sets in mathematics (such as functional relations), and certainly not "relations" in the everyday language sense of interpersonal connections (such as "kinship relations"). This essay is concerned with **relations in the ontological sense**: that is, "the between" itself as a fundamental dimension of being, possessing its own reality independent of substances. Such relations entail the mutual permeation and mutual constitution of A and B, such that A and B's identity can only be understood within their relation. A classic illustration is the parent-child relation: the identity of "father" is not a substantial attribute existing prior to the father-child relation — as if a person were first "a father" and then entered into relation with a child;恰恰相反, precisely in dynamic interaction with the child, the identity "father" is generated and sustained. Without the child, there is no father; without this relation itself, the relata (father, child) cannot acquire their existential determination. What this essay asks is precisely this generative, constitutive relation — why has it been long marginalized in the Western philosophical tradition? What does its forgetting mean? What possibilities of thought will its return bring?
 
-### 二、方法论的反省：诊断、谱系学与起源叙事
+### Two: Methodological Reflection — Diagnosis, Genealogy, and Origin Narrative
 
-必须立即澄清的是，本文的方法论定位存在一种内在的张力。一方面，本文试图呈现一种“谱系学”式的考察——追溯一种思想范式的起源、演变与巩固过程。但另一方面，本文的叙事不可避免地带有某种“起源叙事”的色彩：将巴门尼德视为“原罪”式的开端，将后续的哲学史理解为这一原罪的展开与强化。这种叙事方式，恰恰是福柯(Michel Foucault)在《尼采、谱系学、历史》中所批判的——谱系学应当反对“寻求‘起源’”，反对“各种理想意义和无尽的目的论作元历史式的展布”，而应当是“灰暗的、细致的和耐心的文献工作”。
+It must be immediately clarified that this essay's methodological positioning harbors an internal tension. On the one hand, this essay attempts to present a "genealogical" examination — tracing the origin, evolution, and consolidation of a paradigm of thought. On the other hand, this essay's narrative inevitably carries a certain coloring of "origin narrative": treating Parmenides as a "original sin"-like beginning, and understanding subsequent philosophical history as the unfolding and reinforcement of this original sin. This mode of narrative is precisely what Michel Foucault criticized in "Nietzsche, Genealogy, History" — genealogy should oppose "seeking 'origins,'" oppose "the meta-historical deployment of ideal meanings and endless teleologies," and should instead be "gray, meticulous, and patient documentary work."
 
-本文坦然承认这一张力，但并不试图消解它。原因在于：本文的目标不是提供一部价值中立的哲学史，而是进行一种**诊断性的思想史考察**。诊断，意味着它不是描述性的，而是批判性的；它不是要“如其所是”地呈现过去，而是要从当下的问题意识出发，揭示传统中那些被压抑、被遗忘、被边缘化的维度，并追问这种压抑的深层逻辑。因此，本文的叙事结构——将巴门尼德视为实体中心论的开端——不是一种对“历史真相”的宣称，而是一种**理论策略**：通过聚焦于那些在实体形而上学奠基过程中最具决定性的时刻，揭示这种范式如何一步步地排除了关系的本体论地位。巴门尼德本人是否“有意”遗忘关系，并不重要；重要的是，他的思想为后世提供了一种思维框架，在这个框架内，关系的次要地位几乎成为一种“自明之理”。
+This essay frankly acknowledges this tension but does not attempt to dissolve it. The reason: this essay's goal is not to provide a value-neutral history of philosophy, but to conduct a **diagnostic examination of intellectual history**. Diagnosis means it is not descriptive but critical; it does not aim to present the past "as it was," but starting from contemporary concerns, to reveal those dimensions within the tradition that have been suppressed, forgotten, or marginalized, and to ask about the deep logic of this suppression. Therefore, this essay's narrative structure — treating Parmenides as the beginning of substance-centrism — is not a claim about "historical truth," but a **theoretical strategy**: by focusing on those moments most decisive in the foundational process of substance metaphysics, revealing how this paradigm step by step excluded relations' ontological status. Whether Parmenides himself "intentionally" forgot relations is unimportant; what matters is that his thought provided later generations with a framework of thought within which relations' secondary status became almost a "self-evident truth."
 
-更准确地说，本文所从事的是一种**哲学考古学**：挖掘那些被主流叙事覆盖的思想地层，揭示在“存在”、“实体”、“主体”这些宏大概念的阴影之下，另一个维度——“之间”、“关系”、“交织”——是如何被持续地压制和遗忘的。这种考古学的目的，不是怀旧，不是哀悼，而是为一种新的思想可能性清理地基。本文是五卷本《关系动力学》的第一卷，其核心任务正是通过揭示实体中心论的局限，为一种“关系优先于实体”的本体论铺平道路。
+More precisely, what this essay undertakes is a **philosophical archaeology**: excavating those strata of thought covered over by mainstream narratives, revealing how another dimension — "the between," "relations," "intertwining" — was continuously suppressed and forgotten beneath the shadow of grand concepts like "being," "substance," and "subject." The purpose of this archaeology is not nostalgia, not mourning, but clearing the ground for a new possibility of thought. This essay is the first volume of a five-volume *Relational Dynamics*; its core task is precisely, by revealing substance-centrism's limitations, to pave the way for an ontology where "relations precede substances."
 
-### 三、论证的结构与路径
+### Three: The Structure and Path of the Argument
 
-为完成这一任务，本文的论证将分为三个主要部分：
+To accomplish this task, this essay's argument will be divided into three main parts:
 
-**上篇：沉默的奠基——从巴门尼德到莱布尼茨。** 本部分将追溯实体中心论在西方哲学源头和近代早期的建立与巩固过程。我们将看到，从巴门尼德将“存在”等同于不变的“一”，到亚里士多德将关系归入十大范畴中的第四位，再到经院哲学将关系定义为“最微弱的偶性”，一种层级化的本体论秩序被逐步确立。近代哲学虽然在认识论上发生了转向，但实体中心论的基本预设非但没有被撼动，反而在笛卡尔的“我思”、康德的“先验范畴”和莱布尼茨的“无窗单子”中被推向了逻辑的极致。
+**Part One: The Foundational Silence — From Parmenides to Leibniz.** This part will trace the establishment and consolidation of substance-centrism at the source of Western philosophy and in the early modern period. We will see how, from Parmenides' equation of "Being" with the unchanging "One," to Aristotle's classification of relations as the fourth of ten categories, to scholastic philosophy's definition of relations as "the weakest accident," a hierarchical ontological order was step by step established. Modern philosophy, though undergoing an epistemological turn, did not shake substance-centrism's basic presuppositions; instead, they were pushed to their logical extreme in Descartes' "I think," Kant's "transcendental categories," and Leibniz's "windowless monads."
 
-**中篇：转折的曙光与局限——现象学对关系的召回。** 本部分将聚焦于20世纪现象学运动对关系问题的重新发现。胡塞尔对“主体间性”的探索、海德格尔对“共在”的分析、萨特对“注视”的剖析、尤其是梅洛-庞蒂对“肉身”与“可逆性”的揭示，构成了西方哲学史上最接近关系本体论的突破。然而，我们将看到，这些突破均受到各自理论框架的限制——胡塞尔固守“先验自我”的优先性，海德格尔在后期转向中放弃了“共在”的具体分析，萨特将关系简化为冲突，而梅洛-庞蒂的未竟遗著留下了大量待完成的工作。
+**Part Two: The Dawn of Turning and Its Limits — Phenomenology's Recall of Relations.** This part will focus on the twentieth-century phenomenological movement's rediscovery of the question of relations. Husserl's exploration of "intersubjectivity," Heidegger's analysis of "Being-with," Sartre's解剖 of "the Look," and especially Merleau-Ponty's revelation of "flesh" and "reversibility" constitute the breakthroughs closest to relational ontology in Western philosophical history. Yet we will see that all these breakthroughs were limited by their respective theoretical frameworks — Husserl held fast to the priority of the "transcendental ego," Heidegger in his later turn abandoned concrete analysis of "Being-with," Sartre simplified relations into conflict, and Merleau-Ponty's unfinished posthumous work left大量 tasks待 completion.
 
-**下篇：沉默的根源与关系的回归。** 在前两部分的思想史诊断基础上，本部分将追问：是什么驱动了西方哲学两千年来对关系的持续遗忘？本文的诊断是：这源于一种对“同一性”、“确定性”与“自足性”的深层本体论焦虑——一种对差异、流动和相互依赖的恐惧。这种焦虑不仅在哲学史中留下了印记，更在当代技术对关系的算法化操控中达到了新的高度。最后，本文将提出“关系动力学”作为回应的理论纲领，阐明其三重奠基——本体论的、数学的、工程的——的基本方向。
+**Part Three: The Roots of Silence and the Return of Relations.** Building on the diagnostic foundation of the first two parts' intellectual history, this part will ask: what has driven Western philosophy's two-thousand-year sustained forgetting of relations? This essay's diagnosis: it stems from a deep ontological anxiety about "identity," "certainty," and "self-sufficiency" — a fear of difference, flux, and mutual dependence. This anxiety has not only left its mark in philosophical history, but has reached new heights in contemporary technology's algorithmic manipulation of relations. Finally, this essay will propose "relational dynamics" as the theoretical program of response, articulating its threefold grounding — ontological, mathematical, and engineering — basic directions.
 
-沉默的时代正在终结。让我们从开端处开始。
-
----
-
-## 第一章 实体中心论的形而上学奠基
-
-### 第一节 巴门尼德的禁令：存在、一与“之间”的非法性
-
-#### 一、真理之路与意见之路
-
-西方哲学史上有许多开端，但如果要寻找一个最具决定性的时刻——一个为后世两千年思维范式奠定基础的瞬间——那么，巴门尼德(Parmenides of Elea,约公元前515年—前450年)的残篇无疑是首当其冲的候选者。在《论自然》的残篇DK28 B2中，巴门尼德通过女神之口向青年指出了两条道路：
-
-> “来吧，我将告诉你——而你当聆听并传扬我的话——只有哪些探究之路是可以设想的：一条是‘存在者存在，不存在者不存在’，这是说服之路，因为它伴随真理；另一条是‘存在者不存在，不存在者必然存在’，这条路我告诉你，是完全不可探知的。因为你既不能认识非存在（这是不可能的），也不能把它说出来。”(DK28 B2)
-
-这一区分看似简单，却构成了西方哲学最基本的本体论框架：存在与虚无之间有一条不可逾越的鸿沟。真理之路(Way of Truth)引导思想走向“存在者存在”的确定性；意见之路(Way of Opinion)则是凡人们——那些“双头的”（*dikranoi*）凡人——徘徊的领域，他们相信存在与非存在、同一与差异可以同时并存。
-
-在真理之路的核心，女神进一步阐述了存在的属性。残篇DK28 B8是最为集中的论述：
-
-> “存在是非产生的，也不会消亡，它是整体、唯一、不动和完满的。它既不是过去存在，也不是将来存在，因为它现在整个是一、连续。……它是不分的，因为它完全一样；它不会在这里多一些或那里少一些，这会妨碍它自我连贯，不，它处处充盈着存在。因此它是完全连续的；因为存在紧挨着存在。”(DK28 B8,3-6,22-25)
-
-这里的“连续”（*syneches*）一词值得特别留意。巴门尼德用“连续”来形容存在，但他所说的连续性并非动态的相互渗透——如水流般的绵延——而是一种静态的、不可分割的充实。他接着用了一个著名的比喻：
-
-> “但既然有一条最终的界限，它在各方面都是完满的，如同一块圆满球体的体积，从中心向各方均等；因为它不能在任何方向上有丝毫的更大或更小。”(DK28 B8,42-45)
-
-在这个球体内部，没有空隙，没有“之间”，没有任何形式的间隔或中介。存在就是存在——它是纯粹的、自我同一的、无差异的充实。
-
-#### 二、“之间”的非法性：为什么关系必须被排除?
-
-为什么巴门尼德必须如此坚决地排除“之间”？答案在于：任何形式的“关系”都必然涉及差异与分化。如果A与B发生了关系，这意味着A在某种程度上“通向”或“依赖”于B,这暗示了A本身的非自足性——A包含了一部分非A的阴影。在巴门尼德的逻辑中，这种“包含非存在”是不可接受的。
-
-让我们更仔细地审视这一逻辑。巴门尼德在残篇DK28 B4中宣称：
-
-> “看那些虽然不在场却坚定地存在于思想中的东西；你不会切断存在与存在的联系，无论它扩散到何处。”(DK28 B4)
-
-这句话的关键在于“切断”（*apotmēxein*）一词。任何划分、任何切割、任何在存在中引入间隔的企图，都是对存在之统一性的破坏。关系作为一种“中介”，恰恰是这样一种切割——它在A与B之间划出了一道间隙。在巴门尼德看来，这道间隙只能是“虚空”（*to mē eon*），而虚空就是非存在。因此，任何承认关系的本体论，都意味着承认非存在的实在性——这在巴门尼德的体系中是不可能的。
-
-我们可以在巴门尼德对“意见之路”的批判中看到这一逻辑的具体展开。凡人们之所以是“双头的”，是因为他们相信存在与非存在可以混合。他们使用诸如“生成”、“毁灭”、“变化”、“运动”这样的词汇，而这些词汇都预设了关系的存在。当人们说“A生成自B”时，他们承认了A与B之间的因果关系；当人们说“A比B大”时，他们承认了A与B之间的比较关系。巴门尼德的回应是：这些说法都只是凡人的“意见”，而非真理。因为真正的存在没有大与小的区分，没有过去与将来的变化——它只是“是”。
-
-这里出现了一个关键问题：巴门尼德本人是否直接讨论过“关系”这个概念？答案是：没有。在他的残篇中，我们找不到“关系”（希腊语 *skhesis* 或 *pros ti*）这个术语。这意味着，本文所说的“对关系的遗忘”在巴门尼德那里表现为一种比“遗忘”更为原初的现象——连关系这个概念本身都尚未进入哲学话语的视野。巴门尼德所做的，不是明确地讨论关系然后将其否定，而是确立了一种思维范式，在这个范式中，只有“存在者”有资格成为思想的对象，而“存在者之间”则由于必然引入差异和非存在而被排除在思想的合法领域之外。
-
-这种排除是根本性的。它意味着，在西方哲学的奠基时刻，一种特定的本体论承诺被做出了：存在就是“一”，就是“同”，就是“连续”。任何威胁这一承诺的东西——差异、运动、变化、关系——都必须被放逐到意见的领域。真理之路是孤独的：它只承认那唯一的、无差异的、自我同一的存在。
-
-#### 三、一个思想实验：如果关系是第一性的?
-
-为了更清晰地把握巴门尼德范式的问题所在，让我们进行一个思想实验：如果巴门尼德将“关系”而非“一”视为第一性的存在，他的体系会发生什么?
-
-首先，存在的“圆满性”将无法维持。如果关系是第一性的，那么任何存在者的边界都必须在与他者的关系中才能被确定。一个“圆球”之所以是“圆球形”的，是因为它与外部空间的关系、与可能的观察者的关系。没有这种关系，“圆球形”这个属性本身就是无意义的。巴门尼德的球体比喻恰恰暴露了他的困境：他用一个空间形象（球体）来描述存在，但空间本身就预设了关系——中心与边缘的关系、各方向之间的关系、内部与外部的关系。如果没有这些关系，球体就不再是球体，而只是无规定的抽象。
-
-其次，“存在”与“非存在”的截然二分将瓦解。如果关系是第一性的，那么A与B之间的关系既不完全属于A,也不完全属于B——它是在A与B“之间”涌现出来的第三方。这个第三方不能被简单地归入“存在”或“非存在”的范畴。它不是实体，但它具有实在的效果；它不是虚无，因为它连接着实存者。亲子关系的例子再次具有说明力：父子关系既不是父亲的私有属性，也不是子女的私有属性，而是发生在两者之间的、超越两者的、同时又构成两者的动态场域。巴门尼德的二元框架——要么是存在，要么是非存在——无法容纳这种“之间”的实在性。
-
-最后，思想的使命将发生根本转变。在巴门尼德的框架中，思想的任务是穿透现象的幻象，抵达那不变的、自我同一的存在。但如果关系是第一性的，思想的任务就不再是“看穿”关系以抵达实体，而是“追踪”关系的生成、演变与交织。真理不再是静态的同一性，而是动态的互属性。巴门尼德的女神说“思维与存在是同一的”(DK28 B3)；在关系本体论中，这句话需要被改写为：“思维与关系是同构的。”
-
-巴门尼德没有走上这条道路。他选择了“一”，选择了“同”，选择了“连续”——而这些选择都建立在对“之间”的排除之上。后世的西方哲学，将在很大程度上延续这一选择。
-
-#### 四、巴门尼德遗产的双重面孔
-
-巴门尼德对后世的影响是深刻而复杂的。一方面，他的“存在”概念为整个西方形而上学提供了最基本的参照点。柏拉图的“理念”、亚里士多德的“实体”、普罗提诺的“太一”、中世纪神学的“上帝”、近代哲学的“主体”——这些核心概念都在某种程度上延续了巴门尼德对“一”、“同”、“恒常”的追求。每一种形而上学都在试图命名那个最终的、不变的、自足的实在，而这个实在的基本属性，在巴门尼德的残篇中已经被清晰地勾勒出来了。
-
-另一方面，巴门尼德对关系、运动、变化的排除，也为后世留下了一个持续的难题。从柏拉图开始，哲学家们就在试图“拯救现象”——即在承认巴门尼德式的存在理想的同时，为这个变动不居、充满关系的经验世界寻找一种哲学定位。柏拉图的解决方案是区分理念世界与可感世界，将关系与变化归入后者。亚里士多德的解决方案是引入“潜能与现实”的区分，以及“实体与偶性”的范畴体系。但无论何种解决方案，它们都共享了巴门尼德的一个基本预设：真正的存在——最高的实在——是自足的、不变的、超越关系的。关系，最多只能属于存在的较低层级。
-
-这一预设构成了本文所称的“实体中心论”的核心。在接下来的章节中，我们将追踪这一预设如何在亚里士多德的范畴论中获得系统表达，如何在经院哲学中被精致化，如何在近代哲学中被推向极致。但贯穿这些思想变奏的，始终是巴门尼德在两千五百年前确立的那个基本禁令：真正的存在，不需要他者；真正的存在，没有“之间”。
+The age of silence is ending. Let us begin from the beginning.
 
 ---
 
-### 第二节 亚里士多德的范畴化：作为“最微弱偶性”的关系
+## Chapter One: The Metaphysical Foundation of Substance-Centrism
 
-#### 一、范畴表的秩序：关系的位置
+### Section One: Parmenides' Ban — Being, the One, and the Illegality of the "Between"
 
-如果说巴门尼德是将关系彻底抹除——连概念本身都未进入哲学视野——那么，亚里士多德(Aristotle,公元前384年—前322年)则是通过精巧的范畴化将关系牢牢地禁锢在实体的阴影之下。亚里士多德的《范畴篇》（*Kategoriai*）是西方哲学史上第一部系统讨论“关系”这一范畴的著作。然而，正是这部著作确立了关系在存在论等级中的次要地位。
+#### One: The Way of Truth and the Way of Opinion
 
-在《范畴篇》第4章，亚里士多德列出了十个范畴：
+There are many beginnings in Western philosophical history, but if we seek the most decisive moment — an instant that laid the foundation for two thousand years of subsequent paradigm of thought — then Parmenides' (Parmenides of Elea, circa 515–450 BCE) fragments are undoubtedly the foremost candidate. In fragment DK28 B2 of *On Nature*, Parmenides, through the goddess's voice, pointed out to the youth two paths:
 
-> “单纯的不加复合的言辞，每一个都表示以下一种东西：实体（*ousia*），数量（*poson*），性质（*poion*），关系（*pros ti*），地点（*pou*），时间（*pote*），姿态（*keisthai*），状态（*echein*），活动（*poiein*），遭受（*paschein*）。”（*Categories*,1b25-27）
+> "Come now, I will tell you — and you, when you have heard the story, bring it safely away — which are the only ways of inquiry that are to be thought of: one, that it is and that it is not not to be, is the path of persuasion (for it attends upon truth); the other, that it is not and that it is necessary for it not to be, that I tell you is a path wholly unlearnable, for you could not know what is not — that cannot be done — nor indicate it." (DK28 B2)
 
-这十个范畴的排序并非偶然。实体排在首位，因为它是最基本的存在——在《范畴篇》第5章中，亚里士多德明确说：“实体，就其最真实、最原初、最确定的意义而言，是既不述说一个主体，也不在一个主体之中的东西。”（*Categories*,2a11-13）数量、性质紧随其后，因为它们虽然是偶性(accident)，但仍然直接属于实体——一个物体的大小（数量）和颜色（性质）比它与另一物体的关系更“贴近”它自身。关系被列在第四位，高于地点和时间，但低于数量与性质。这一排序本身就具有本体论的含义：关系不是最外围的偶性，但也不是最核心的规定。它处于一个中间地带——重要到不能完全忽略，但又次要到不能与实体、数量、性质相提并论。
+This distinction看似 simple, yet constitutes Western philosophy's most basic ontological framework: an uncrossable chasm between Being and non-Being. The Way of Truth guides thought toward the certainty that "what is, is"; the Way of Opinion is the domain where mortals — those "two-headed" (*dikranoi*) mortals — wander, believing that Being and non-Being, identity and difference, can simultaneously coexist.
 
-在《范畴篇》第7章，亚里士多德专门讨论关系。他给出了关系的经典定义：
+At the core of the Way of Truth, the goddess further elaborated the attributes of Being. Fragment DK28 B8 is the most concentrated discussion:
 
-> “我们称这样的东西为关系物（*pros ti*），即它们所有的是被说成是他物的，或以任何其他方式相对于他物的。例如，‘较大的’被说成是相对于他物的，因为它被说成是‘比某物较大的’；‘双倍的’被说成是相对于他物的，因为它被说成是‘某物的双倍’。……知识也是关系物，因为知识是某物的知识。”（*Categories*,6a36-6b3）
+> "It is ungenerated and also imperishable; whole, of a single kind, and unshaken, and complete. Nor was it once, nor will it be, since it is now, all together, one, continuous.… It is indivisible, since it is all alike; it is not more here and less there, which would prevent it from holding together, but it is all full of what is. Therefore it is all continuous; for what is draws near to what is." (DK28 B8, 3-6, 22-25)
 
-关键之处在于，亚里士多德立即区分了两种关系：一种是“数值上”的关系（如双倍与半倍、较大与较小），另一种是“根据能力和时间”的关系（如知识、感觉）。他指出，后一种关系似乎更接近本质：
+The word "continuous" (*syneches*) here deserves special attention. Parmenides used "continuous" to describe Being, but his continuity is not dynamic mutual permeation — like the绵延 of flowing water — but a static, indivisible fullness. He then used a famous comparison:
 
-> “然而，有些关系物似乎有某种更接近本质的实在性，如知识和感觉。因为如果没有感觉的关系，感觉者就不能被称为感觉者；如果没有与可知对象的关系，知识就不能被称为知识。”（*Categories*,8a28-33）
+> "But since there is a furthest limit, it is completed on every side, like the bulk of a ball well-rounded on every side, equally balanced from the center in all directions; for it is not greater or lesser here or there." (DK28 B8, 42-45)
 
-这一表述显示了亚里士多德思想的微妙之处。他不是简单地贬低关系，而是注意到：某些关系——特别是与认知能力相关的关系——似乎对相关项的存在本身具有构成性的作用。没有可知对象，就没有知识；没有可感对象，就没有感觉。这种“相互依赖”暗示了关系的某种本体论力量，超越了单纯的“比较”或“测量”。
+Within this sphere, there are no gaps, no "between," no intervals or mediations of any kind. Being is Being — it is pure, self-identical, undifferentiated fullness.
 
-#### 二、《形而上学》中的深化与最终的限制
+#### Two: The Illegality of the "Between" — Why Relations Must Be Excluded
 
-亚里士多德在《形而上学》Δ卷（第五卷）第15章中对关系进行了更为系统的分析。他区分了三类关系（*Metaphysics*,1020b26-1021b11）：
+Why must Parmenides so resolutely exclude the "between"? The answer: any form of "relation" necessarily involves difference and differentiation. If A enters into relation with B, this means A in some sense "leads toward" or "depends on" B, implying A's own non-self-sufficiency — A contains a shadow of non-A. In Parmenides' logic, such "containing non-Being" is unacceptable.
 
-第一类是**数值关系**：“如双倍相对于一半，三倍相对于三分之一，以及一般而言的倍数相对于约数，超过的相对于被超过的。”这类关系是纯粹定量的，相关项之间的关联是外在的、对称的。
+Let us examine this logic more carefully. Parmenides declared in fragment DK28 B4:
 
-第二类是**能动与被动的关系**：“如能加热者相对于可被加热者，能切割者相对于可被切割者，以及一般而言的能动者相对于被动者。”这类关系涉及因果作用，似乎比数值关系更接近事物的本性——因为“能加热”和“可被加热”是事物本身具有的能力和倾向。
+> "Look at things which though far off firmly abide in the mind's sight; for you will not cut off what is from holding to what is, as it disperses itself in all directions." (DK28 B4)
 
-第三类是**可测量与测量的关系**：“如可知的相对于知识，可感的相对于感觉。”这类关系在亚里士多德看来最接近本质，因为“没有能动的就不可能有被动，没有可测量的就不可能有测量”——但这种“不可能”是指逻辑上的不可设想，还是存在论上的相互依赖？亚里士多德的态度在此是暧昧的。
+The key word here is "cut off" (*apotmēxein*). Any division, any cutting, any attempt to introduce intervals within Being, is a破坏 of Being's unity. A relation as "mediation" is precisely such a cutting — it draws a gap between A and B. For Parmenides, this gap can only be "void" (*to mē eon*), and void is non-Being. Therefore, any ontology acknowledging relations means acknowledging the reality of non-Being — which is impossible in Parmenides' system.
 
-然而，这种暧昧最终未能发展为对实体中心论的突破。在《形而上学》Ζ卷（第七卷）——全书的核心卷——亚里士多德明确地将“是什么”（*to ti ēn einai*）——即本质——作为第一实体。本质是自足的、不依赖于他物的。相比之下，关系始终是“相对于某物”（*pros ti*）的，这意味着它的存在预设了他物的存在。亚里士多德在《范畴篇》中说：
+We can see the concrete展开 of this logic in Parmenides' critique of the "Way of Opinion." Mortals are "two-headed" because they believe Being and non-Being can be mixed. They use words like "becoming," "perishing," "change," "motion" — words that all presuppose the existence of relations. When people say "A comes from B," they acknowledge a causal relation between A and B; when they say "A is larger than B," they acknowledge a comparative relation between A and B. Parmenides' response: these statements are merely mortals' "opinions," not truth. Because true Being has no distinction of large and small, no change of past and future — it simply "is."
 
-> “关系物有时会有相反者，例如德性与恶行是相反的……但并非所有关系物都有相反者，例如双倍就没有相反者。”（*Categories*,6b15-18）
+A crucial question arises here: did Parmenides himself directly discuss the concept of "relation"? The answer: no. In his fragments, we find no term for "relation" (Greek *skhesis* or *pros ti*). This means that what this essay calls "the forgetting of relations" manifests in Parmenides as a phenomenon more primordial than "forgetting" — the concept of relation itself had not yet entered the horizon of philosophical discourse. What Parmenides did was not explicitly discussing relations and then否定 them, but establishing a paradigm of thought in which only "what is" qualifies as an object of thought, while "between what is" is excluded from the legitimate domain of thought because it necessarily引入 difference and non-Being.
 
-关系的这种不确定性——它既可能有相反者（如友谊与敌意），也可能没有（如双倍）——进一步说明了它在存在论上的派生地位。实体是“一”，是确定的；关系则可以是多样的、可变的、甚至是任意的。
+This exclusion is fundamental. It means that, at the foundational moment of Western philosophy, a particular ontological commitment was made: Being is "the One," is "the Same," is "the Continuous." Anything threatening this commitment — difference, motion, change, relations — must be banished to the realm of opinion. The Way of Truth is solitary: it acknowledges only that unique, undifferentiated, self-identical Being.
 
-#### 三、《物理学》的论证：关系变化不是真正的变化
+#### Three: A Thought Experiment — If Relations Were Primary?
 
-亚里士多德对关系的最有力限制出现在《物理学》第五卷。在讨论变化的种类时，他断言：关系本身并不涉及真正的“变动”（*metabolē*）。他举了一个著名的例子：
+To more clearly grasp the problem of the Parmenidean paradigm, let us conduct a thought experiment: if Parmenides had treated "relations" rather than "the One" as primary Being, what would happen to his system?
 
-> “当一个事物变得比另一个事物大或小，而另一个事物本身没有发生任何变化时，前者并没有发生任何实质性的变化。例如，如果某物因为另一物的缩小而变得较大，它本身并没有变得更大；同样，如果苏格拉底比柏拉图白，而柏拉图因为晒太阳变得更黑，苏格拉底并没有因此变得不那么白。因此，关系的变化只是偶性的变化。”（*Physics*,225b11-13）
+First, the "completeness" of Being could not be maintained. If relations were primary, then every being's boundaries would have to be determined only in relation to others. A "sphere" is "spherical" because of its relation to external space, to possible observers. Without such relations, the attribute "spherical" is meaningless. Parmenides' sphere analogy恰恰 exposes his dilemma: he used a spatial image (sphere) to describe Being, but space itself presupposes relations — the relation between center and边缘, between various directions, between inside and outside. Without these relations, the sphere is no longer a sphere but merely undefined abstraction.
 
-这个论证在逻辑上是成立的，但它掩盖了一个更深层的问题：如果关系的变化可以独立于实体的变化而发生，那么关系是否具有某种独立的实在性？亚里士多德的回答是否定的——在他看来，这恰恰证明关系是偶性的、次要的。因为真正的变化（如生成、毁灭、性质变化、数量变化）都涉及实体本身的改变；而关系变化却可能发生在实体完全不变的情况下。因此，关系不是存在的核心维度，而是附加于实体之上的、可变的、外在的规定。
+Second, the absolute dichotomy between "Being" and "non-Being" would collapse. If relations were primary, then the relation between A and B neither entirely belongs to A nor entirely belongs to B — it is a third term emerging "between" A and B. This third term cannot be simply categorized as "Being" or "non-Being." It is not substance, yet it has real effects; it is not nothing, for it connects existents. The parent-child relation again illustrates: the father-child relation is neither the father's private attribute nor the child's private attribute, but a dynamic field occurring between the two, transcending both yet constituting both. Parmenides' binary framework — either Being or non-Being — cannot accommodate the reality of this "between."
 
-这一结论具有深远的后果。它将关系牢牢地锁定在“偶性”的范畴内，使之无法触及存在的核心。亚里士多德并非没有意识到关系的重要性——他在《尼各马可伦理学》中讨论友谊（*philia*）时，实际上触及了人际关系的本体论维度：真正的友谊不是一种外在的偶性，它在某种程度上构成了人的自我实现。一个没有朋友的人，不仅缺少某种“关系”，他的存在本身也处于某种匮乏状态。但亚里士多德没有将这一洞见扩展到一般本体论中。如果他将关系置于实体的地位，那么他的整个目的论宇宙将不再是由孤立的、追求自我完善的实体组成，而是一个由动态相互作用定义的网络——这将彻底颠覆他的四因说、潜能与现实学说，以及整个形而上学的根基。
+Finally, the mission of thought would fundamentally transform. In Parmenides' framework, thought's task is to penetrate the illusion of phenomena and arrive at that unchanging, self-identical Being. But if relations are primary, thought's task is no longer "seeing through" relations to arrive at substances, but "tracking" the generation, evolution, and intertwining of relations. Truth is no longer static identity but dynamic inter-property. Parmenides' goddess says "thinking and Being are the same" (DK28 B3); in relational ontology, this statement needs revision: "thinking and relations are co-structural."
 
-#### 四、亚里士多德的遗产：一种层级化的本体论
+Parmenides did not take this path. He chose "the One," chose "the Same," chose "the Continuous" — choices all建立在 the exclusion of "the between." Subsequent Western philosophy would largely延续 this choice.
 
-亚里士多德对关系的处理，为后世提供了一种可以操作的层级化本体论框架。在这个框架中：
+#### Four: The Two Faces of Parmenides' Legacy
 
-第一层级是**实体**（*ousia*）——自足的、独立的、作为其他一切范畴的基底的存在。
+Parmenides' influence on later thought is profound and complex. On the one hand, his concept of "Being" provided the most basic reference point for the entire Western metaphysical tradition. Plato's "Forms," Aristotle's "substance," Plotinus' "the One," medieval theology's "God," modern philosophy's "subject" — these core concepts all延续 in some way Parmenides' pursuit of "the One," "the Same," "the Constant." Every metaphysics attempts to name that ultimate, unchanging, self-sufficient reality whose basic attributes were already clearly outlined in Parmenides' fragments.
 
-第二层级是**内在偶性**——数量、性质——它们直接内在于实体，描述实体“自身”的特征。
+On the other hand, Parmenides' exclusion of relations, motion, and change left later generations with a persistent problem. From Plato onward, philosophers were attempting to "save the phenomena" — acknowledging the Parmenidean ideal of Being while seeking a philosophical定位 for this ever-changing, relation-filled empirical world. Plato's solution was to区分 the world of Forms from the sensible world, relegating relations and change to the latter. Aristotle's solution introduced the distinction between "potentiality and actuality" and the categorial system of "substance and accidents." But whatever the solution, they all shared Parmenides' basic presupposition: true Being — the highest reality — is self-sufficient, unchanging, and transcends relations. Relations, at most, belong to a lower level of Being.
 
-第三层级是**关系偶性**——关系——它们不是内在于实体，而是“指向他物”的。它们的存在预设了两个或更多实体的同时存在，以及它们之间某种可比较或可关联的属性。
-
-这一层级结构在接下来的一千多年里成为了西方思想的公理。它既承认了关系的存在（从而避免了巴门尼德式的彻底抹除），又确保了关系的次要性（从而维护了实体的优先地位）。这是一种精致的平衡——一种既容纳关系、又驯服关系的策略。通过这种策略，亚里士多德将关系收编进了实体中心论的框架之中，使之成为形而上学大厦中的一个确定楼层，而永远无法动摇大厦的地基。
-
-然而，这种收编是有代价的。一旦关系被定义为“相对于他物”，它就被剥夺了任何独立的实在性。关系不能独立于实体而存在，不能先于实体而存在，不能构成实体而存在。它只能是实体的影子——一个只有当实体存在时才能出现的、依附性的、脆弱的存在维度。这种对关系的理解，构成了后世整个西方哲学传统的基本预设。即使在那些试图挑战实体中心论的思想中（如黑格尔、海德格尔、梅洛-庞蒂），亚里士多德的范畴框架也往往作为潜在的对手或隐含的参照系而持续发挥作用。
+This presupposition constitutes the core of what this essay calls "substance-centrism." In subsequent sections, we will trace how this presupposition received systematic expression in Aristotle's categorial theory, how it was精致化 in scholastic philosophy, and how it was pushed to its extreme in modern philosophy. But贯穿 these intellectual variations, always is Parmenides' basic ban established two and a half millennia ago: true Being needs no other; true Being has no "between."
 
 ---
 
-### 第三节 经院哲学的精致化：在神圣与世俗之间降级关系
+### Section Two: Aristotle's Categorization — Relations as "the Weakest Accident"
 
-#### 一、神学挑战：三位一体与关系地位的张力
+#### One: The Order of the Categories — The Position of Relations
 
-经院哲学继承并深化了亚里士多德的范畴体系，但同时也面临着一个独特的挑战：基督教神学中的某些核心教义似乎要求对关系给予更高的本体论地位。
+If Parmenides entirely抹除 relations — the concept itself never entering the philosophical horizon — then Aristotle (384–322 BCE) was the thinker who, through subtle categorization, firmly imprisoned relations under the shadow of substance. Aristotle's *Categories* (*Kategoriai*) is the first work in Western philosophical history to systematically discuss the category of "relations." Yet it is precisely this work that established relations' secondary status in the ontological hierarchy.
 
-最棘手的挑战来自三位一体教义。按照正统的基督教信仰，上帝是三个位格（父、子、圣灵）的统一。这三个位格不是三个独立的实体（那将是三神论），而是同一神圣本质的三个“关系性”区分：父是“生者”，子是“被生者”，圣灵是“发自者”。这意味着，在上帝内部，关系（父子关系、发出关系）似乎具有某种本质性的、而非偶性的地位。如果上帝是绝对简单的（没有任何复合），那么父与子之间的关系就不可能是附加于神圣本质之上的偶性——它必须是神圣本质本身的一个维度。
+In Chapter 4 of the *Categories*, Aristotle listed ten categories:
 
-与此同时，创世教义也提出了关系问题。如果上帝创造了世界，那么上帝与世界之间是否存在某种关系？如果存在，这种关系会不会意味着上帝依赖于世界（从而损害上帝的自足性）？如果不存在，那么“创造”这个说法还有什么意义?
+> "Of things said without any combination, each signifies either substance (*ousia*), or quantity (*poson*), or qualification (*poion*), or a relative (*pros ti*), or where (*pou*), or when (*pote*), or being-in-a-position (*keisthai*), or having (*echein*), or doing (*poiein*), or being-affected (*paschein*)." (*Categories*, 1b25-27)
 
-这些问题迫使经院哲学家们必须在亚里士多德的框架与基督教信仰之间寻求调和。这一调和的结果，是对关系的进一步区分和细化，但其深层效果却是进一步巩固了关系在受造物世界中的次要地位。
+The ordering of these ten categories is not accidental. Substance ranks first, because it is the most basic Being — in Chapter 5 of the *Categories*, Aristotle explicitly states: "Substance, in the truest and primary and most definite sense of the word, is that which is neither predicable of a subject nor present in a subject." (*Categories*, 2a11-13) Quantity and qualification follow closely, because though they are accidents, they still directly belong to substance — an object's size (quantity) and color (qualification) are more "proximate" to itself than its relation to another object. Relations are listed fourth, above place and time, but below quantity and qualification. This ordering itself carries ontological implications: relations are not the most peripheral accident, but neither are they the most central determination. They occupy a middle zone — important enough not to be entirely ignored, but secondary enough not to be compared with substance, quantity, or qualification.
 
-#### 二、托马斯·阿奎那：神圣关系作为特例
+In Chapter 7 of the *Categories*, Aristotle专门 discussed relations. He gave the classic definition:
 
-托马斯·阿奎那(Thomas Aquinas,1225年—1274年)在处理关系问题时最为系统。在《神学大全》（*Summa Theologiae*）第一部分第28题中，阿奎那专门讨论“神圣位格之间的关系”。他面临的核心问题是：如果上帝是绝对简单的，那么关系在上帝中是否可能?
+> "We call relatives (*pros ti*) those things which are said to be what they are, of or than other things, or in some other way in relation to something else. For instance, 'larger' is said to be what it is than something else, namely than a smaller thing; 'double' is said to be what it is of something else, for it is called double of a half.… Knowledge too is a relative, for knowledge is of something learnable." (*Categories*, 6a36-6b3)
 
-阿奎那的回答是：在上帝内部，关系等同于神圣本质。他写道：
+The crucial point: Aristotle immediately distinguished two kinds of relations: numerical relations (like double and half, larger and smaller) and relations "according to capacity and time" (like knowledge, perception). He指出 that the latter kind seems closer to essence:
 
-> “在上帝中，关系并不像在受造物中那样是一种偶性依附于主体；在上帝中，关系就是神圣本质本身。……因此，在上帝中，关系与本质并非两种不同的实在，而是同一个实在，只是在概念上有所区分。”（*Summa Theologiae*,I,q.28,a.2）
+> "Yet some relatives seem to have a reality closer to substance, such as knowledge and perception. For without the relation of perception, the perceiver cannot be called perceiver; without the relation to the knowable, knowledge cannot be called knowledge." (*Categories*, 8a28-33)
 
-这一处理方式将神圣领域与受造物领域截然分开。在上帝那里，由于绝对的简单性和无限性，关系可以具有本质性的地位——它不再是实体的偶性，而是实体本身的一种内在区分。但在受造物世界中，阿奎那坚持亚里士多德的立场：关系是一种“最微弱的偶性”（*debissimum accidens*）。
+This formulation reveals the subtlety of Aristotle's thought. He did not simply贬低 relations but注意到: certain relations — especially those pertaining to cognitive capacities — seem to have a constitutive role regarding the existence of the relata themselves. Without the knowable, there is no knowledge; without the perceivable, there is no perception. This "mutual dependence" hints at some ontological force of relations超越 mere "comparison" or "measurement."
 
-在《神学大全》第一部分第28题第1节中，阿奎那区分了“实在关系”（*relatio realis*）与“理性关系”（*relatio rationis*）。实在关系要求三个条件：第一，有一个主体（*subiectum*）；第二，有一个相关项（*terminus*）；第三，有一个根基（*fundamentum*）——即主体中使关系成为现实的那种属性。例如，“父亲”这一关系的主体是某人，相关项是他的孩子，根基是他生育的行为。理性关系则只存在于心灵之中，例如“同一个体与自身的同一性”——这种同一性不是实在的关系，因为同一个事物不能与自己发生实在的关系（它缺乏相关项的差异性）。
+#### Two: Deepening and Ultimate Limitation in the *Metaphysics*
 
-阿奎那进一步指出，在受造物中，实在关系的根基通常是数量（如双倍关系）或性质（如相似关系）等偶性。这意味着，关系本身并不具有独立的实在性——它总是“寄生”于实体的内在属性。在《反异教大全》（*Summa Contra Gentiles*）第四卷第24章中，阿奎那写道：
+Aristotle provided a more systematic analysis of relations in Book Δ (Book Five) Chapter 15 of the *Metaphysics*. He distinguished three kinds of relations (*Metaphysics*, 1020b26-1021b11):
 
-> “关系在受造物中的存在是‘离心的’（*esse ad*），即指向他物；而实体和偶性的存在是‘内在的’（*esse in*），即在主体之中。因此，关系的存在是最微弱的，因为它完全在于对他物的指向，而不包含任何自身的完满性。”
+The first kind is **numerical relations**: "such as double to half, triple to a third, and generally the multiple to the submultiple, the exceeding to the exceeded." These relations are purely quantitative; the connection between relata is external and symmetrical.
 
-这一表述揭示了经院哲学对关系的基本理解：关系是实体“指向他物”的维度，但这种指向本身缺乏实存——它只有在指向一个已经存在的实体时才有意义。关系是存在的“离心力”，但离心力必须有一个中心（实体）才能发挥作用。
+The second kind is **active and passive relations**: "such as the heatable to the heat-causing, the cuttable to the cutting, and generally the active to the passive." These relations involve causal action and seem closer to things' natures — because "being heatable" and "being heat-causing" are capacities and dispositions that things themselves possess.
 
-#### 三、创世的非对称关系：上帝与世界的单向连接
+The third kind is **measurable and measuring relations**: "such as the knowable to knowledge, the perceivable to perception." Aristotle considered these closest to essence, because "without the active there cannot be the passive, and without the measurable there cannot be the measuring" — but is this "impossibility" logical inconceivability or ontological mutual dependence? Aristotle's attitude here is ambiguous.
 
-阿奎那在讨论创世问题时，将这种关系观推向了一个极端的表达。在《神学大全》第一部分第45题第3节中，他提出了一个非对称的关系观：
+Yet this ambiguity ultimately did not develop into a breakthrough beyond substance-centrism. In Book Z (Book Seven) of the *Metaphysics* — the core book of the entire work — Aristotle explicitly established "what-it-is-to-be" (*to ti ēn einai*), i.e., essence, as primary substance. Essence is self-sufficient, not dependent on other things. In comparison, relations are always "relative to something" (*pros ti*), meaning their existence presupposes the existence of other things. Aristotle said in the *Categories*:
 
-> “受造物与上帝之间有实在的关系，因为受造物依赖于上帝，并且受造物的存在本身就是一种指向创造者的关系。但上帝与受造物之间没有实在的关系，只有理性关系。因为上帝不会因为创世行为而发生任何改变；上帝的本质在创世前后是完全一样的。因此，从上帝的角度看，‘创造者’这一关系不是实在的，而只是我们理解上帝的一种方式。”
+> "Relatives sometimes have contraries, as virtue and vice are contrary… but not all relatives have contraries, for double has no contrary." (*Categories*, 6b15-18)
 
-这一非对称性具有深远的神学与哲学意涵。它意味着：创造不是一种相互的、动态的关系，而是一种单向的“给予”。上帝是绝对自足的，他不需要世界；而世界则需要上帝。因此，关系只存在于依赖性的那一方——受造物对上帝有实在关系，因为受造物的整个存在都是“被创造”的；但上帝对受造物只有理性关系，因为上帝的存在丝毫不受创世行为的影响。
+This uncertainty of relations — they may have contraries (like friendship and enmity) or may not (like double) — further demonstrates their derivative ontological status. Substance is "one," is definite; relations can be multiple, changeable, even arbitrary.
 
-这一非对称关系观进一步固化了“自足实体”的优先性。如果连创造者与被造物之间的关系都只能是非对称的、单向的，那么在受造物世界内部，关系就更不可能具有相互构成的力量。真正的实在属于那些自足的存在者；关系只是这些存在者之间的、不对称的、派生的联结。
+#### Three: The *Physics* Argument — Relational Change Is Not Real Change
 
-#### 四、晚期经院哲学的进一步分化：司各脱与奥卡姆
+Aristotle's most powerful limitation on relations appears in Book Five of the *Physics*. In discussing kinds of change, he asserted that relations themselves do not involve genuine "change" (*metabolē*). He gave a famous example:
 
-阿奎那之后，邓斯·司各脱(Duns Scotus,1266年—1308年)和奥卡姆的威廉(William of Ockham,1287年—1347年)对关系问题进行了更细致的讨论，其总体趋势是将关系的本体论地位进一步降低。
+> "When a thing becomes larger or smaller than another, while the other has undergone no change at all, the first thing has not undergone any substantial change. For instance, if something becomes larger because another thing shrinks, it has not itself become larger; likewise, if Socrates is whiter than Plato, and Plato becomes darker through tanning, Socrates has not thereby become less white. Therefore, relational change is merely accidental change." (*Physics*, 225b11-13)
 
-司各脱在《论万物的第一原理》中提出，关系可以具有“形式的实在性”（*realitas formalis*），即使它不能脱离实体而独立存在。他试图在亚里士多德框架内为关系争取更多空间，但他的最终结论仍然是：关系不是“物”（*res*），而只是物的“形式方面”或“样式”。关系没有独立的实存，它只是实体之间的一种“秩序”或“排列”。
+This argument is logically valid, but it conceals a deeper question: if relational change can occur independently of substantive change, does this mean relations possess some independent reality? Aristotle's answer is negative — in his view, this恰恰 proves relations are accidental and secondary. Because genuine change (generation, destruction, qualitative change, quantitative change) all involves alteration of substance itself; relational change can occur when substance remains entirely unchanged. Therefore, relations are not the core dimension of Being but variable, external determinations附加 upon substance.
 
-奥卡姆则更为激进。作为唯名论的代表人物，他主张关系是“逻辑构造”，其存在可以简化为“绝对项”（即实体和属性）。在奥卡姆看来，说“苏格拉底比柏拉图白”只是在陈述两个独立的绝对事实（苏格拉底的白度，柏拉图的白度），加上一个比较判断——这个比较判断本身不是世界的组成部分，而是心灵的构造。因此，关系没有心外的实在性，它只是我们思考和谈论世界的一种方式。奥卡姆的著名“剃刀”原则——“如无必要，勿增实体”——在这里得到了应用：既然关系可以还原为绝对项和心灵活动，就没有必要假设一种叫做“关系”的特殊存在物。
+This conclusion has far-reaching consequences. It firmly locks relations within the category of "accident," rendering them unable to touch the core of Being. Aristotle was not unaware of relations' importance — in the *Nicomachean Ethics*, discussing friendship (*philia*), he actually touched the ontological dimension of interpersonal relations: genuine friendship is not an external accident; it in some way constitutes a person's self-realization. A person without friends not only lacks some "relation"; their existence itself is in a state of deficiency. But Aristotle did not extend this insight to general ontology. If he had placed relations at the level of substance, his entire teleological universe would no longer consist of isolated substances pursuing self-perfection, but would be a network defined by dynamic interactions — this would彻底 overturn his four causes doctrine, his potentiality and actuality theory, and the entire foundation of his metaphysics.
 
-奥卡姆的唯名论将关系的本体论地位降到了最低点，但也恰恰因此暴露了实体主义框架的极限。如果关系只是心灵的构造，那么世界的统一性如何可能？如果事物之间没有实在的相互关联，那么因果性、秩序、规律——这些我们视为理所当然的东西——从何而来？奥卡姆的回答是将这一切归因于上帝的意志：世界之所以是有秩序的，不是因为事物之间有实在的关联，而是因为上帝愿意它们以某种方式存在。这一神学补丁与莱布尼茨的“预定和谐”有着异曲同工之妙，我们将在后文看到这一点。
+#### Four: Aristotle's Legacy — A Hierarchical Ontology
 
-#### 五、经院哲学的悖论：精细分析中的本体论降级
+Aristotle's treatment of relations provided later generations with an operative hierarchical ontological framework. In this framework:
 
-经院哲学对关系的处理，整体上呈现出一个深刻的悖论：越是精细地分析关系的逻辑结构，关系就越显得是“附带的”而非“本原的”。阿奎那区分实在关系与理性关系，司各脱讨论关系的形式实在性，奥卡姆将关系还原为绝对项——这些分析在逻辑上是精妙的，在概念上是清晰的，但它们都共享了一个未经审视的预设：**从实体出发去寻找关系的根基**。
+The first level is **substance** (*ousia*) — self-sufficient, independent, serving as the substrate for all other categories.
 
-这一方法论预设决定了整个经院哲学关系理论的基本走向。因为一旦你从实体出发——一旦你将实体视为存在的基本单位，将“自足性”视为存在的最高标准——那么关系就必然表现为某种“附加的”、“派生的”、“依赖性的”东西。关系不能是原初的，因为它需要一个主体来承载它；关系不能是独立的，因为它的存在依赖于相关项的同时存在；关系不能是构成性的，因为它只是连接已经存在的实体，而非参与实体的生成。
+The second level is **intrinsic accidents** — quantity and qualification — which exist directly within substance, describing features "of" substance "itself."
 
-这一方法论预设从未被真正质疑过。即使是那些在某些语境中赋予关系更高地位的神学讨论（如三位一体中的神圣关系），也通过将神圣领域与世俗领域截然分开，避免了将关系的重要性推广到一般本体论中。在受造物世界，实体中心论的秩序始终是牢不可破的。
+The third level is **relational accidents** — relations — which do not exist within substance but "point toward another." Their existence presupposes the simultaneous existence of two or more substances and some comparable or connectable attribute between them.
 
-经院哲学对关系的处理，因此可以被视为亚里士多德范畴论的精致化和极端化。它继承了亚里士多德对关系的“驯服”策略，并通过一系列精密的区分（实在/理性、对称/非对称、神圣/世俗）将关系牢牢地锁定在存在的边缘地带。这种处理方式深刻地影响了近代哲学——即使是在那些试图与经院哲学决裂的思想家（如笛卡尔）那里，实体中心论的基本预设也以一种新的形式被延续了下来。
+This hierarchical structure became the axiom of Western thought for the next thousand-plus years. It acknowledged relations' existence (thus avoiding Parmenidean total抹除) while ensuring relations' secondary status (thus维护 substance's priority). This was a refined balance — a strategy that both accommodated and驯服 relations. Through this strategy, Aristotle co-opted relations into the substance-centrist framework, making them a确定 floor within the metaphysical edifice, forever unable to shake the edifice's foundation.
+
+Yet this co-optation carried a cost. Once relations were defined as "relative to another," they were剥夺 of any independent reality. Relations cannot exist independently of substances, cannot precede substances, cannot constitute substances. They can only be the shadow of substances — an附属, fragile dimension of Being that appears only when substances exist. This understanding of relations constitutes the basic presupposition of the entire subsequent Western philosophical tradition. Even in those思想 attempting to challenge substance-centrism (such as Hegel, Heidegger, Merleau-Ponty), Aristotle's categorial framework often continues to function as a latent opponent or implicit reference system.
 
 ---
 
-## 第二章 近代哲学的延续与极致化
+### Section Three: Scholastic Philosophy's Refinement — Downgrading Relations Between the Sacred and the Secular
 
-### 第一节 笛卡尔的孤立自我与关系的判断化
+#### One: The Theological Challenge — The Tension between Trinitarian Doctrine and Relations' Status
 
-#### 一、我思：一个无需关系的阿基米德点
+Scholastic philosophy inherited and deepened Aristotle's categorial system, but simultaneously faced a unique challenge: certain core doctrines of Christian theology似乎 required给予 relations higher ontological status.
 
-勒内·笛卡尔(René Descartes,1596年—1650年)的《第一哲学沉思集》（*Meditationes de Prima Philosophia*,1641）标志着近代哲学的一次根本转向。与经院哲学从上帝和世界出发不同，笛卡尔从普遍的怀疑出发，试图寻找一个不可动摇的确定性基础。这个基础就是“我思”（*cogito*）。
+The most棘手 challenge came from the Trinitarian doctrine. According to orthodox Christian belief, God is the unity of three persons (Father, Son, Holy Spirit). These three persons are not three independent substances (that would be Tritheism), but three "relational" distinctions within the same divine essence: the Father is "the one who generates," the Son is "the one generated," the Holy Spirit is "the one who proceeds." This means that within God, relations (the Father-Son relation, the procession relation)似乎 possess an essential, rather than accidental, status. If God is absolutely simple (without any composition), then the relation between Father and Son cannot be an accident附加 upon the divine essence — it must be a dimension of the divine essence itself.
 
-在第二沉思中，笛卡尔写道：
+Meanwhile, the doctrine of creation also posed a relational question. If God created the world, does a relation exist between God and the world? If so, would this relation imply God depends on the world (thus损害 God's self-sufficiency)? If not, what meaning does the word "creation" retain?
 
-> “我思故我在（*Ego cogito,ergo sum*）是如此坚实、如此可靠，以至于怀疑论者所有最夸张的假定都不能动摇它，我认为我可以毫不犹豫地接受它，作为我所寻求的哲学的第一原理。”（*Meditationes*,II）
+These questions forced scholastic philosophers to seek reconciliation between Aristotle's framework and Christian faith. The result of this reconciliation was further differentiation and refinement of relations, but its deep effect was further巩固 relations' secondary status within the created world.
 
-这一论证的关键在于：“我思”的存在不依赖于任何外部的条件。我可以怀疑一切——包括我的身体、外部世界、甚至数学真理——但正是在这种怀疑中，我的思想活动本身是不可怀疑的。因此，“我思”是一个自明的、无需任何关系就能被确证的存在。
+#### Two: Thomas Aquinas — Divine Relations as a Special Case
 
-笛卡尔对实体的定义进一步强化了这一倾向。在《第一哲学沉思集》第三组答辩中，他写道：
+Thomas Aquinas (1225–1274) was the most systematic in处理 the question of relations. In *Summa Theologiae*, Part One, Question 28, he specifically discussed "relations between the divine persons." The core problem he faced: if God is absolutely simple, can relations exist within God?
 
-> “实体是这样一个东西，它不需要任何其他东西就能存在。”（*Meditationes*,Reply to Objections III）
+Aquinas' answer: within God, relations are equivalent to the divine essence. He wrote:
 
-严格来说，只有上帝符合这一定义——上帝是绝对自足的。但对于受造物，笛卡尔区分了两种实体：心灵（*res cogitans*）与广延（*res extensa*）。这两种实体彼此独立，互不依赖。心灵的定义属性是思维——它不需要广延就能存在；广延的定义属性是空间延展——它不需要思维就能存在。这一定义的核心在于：要理解一个实体是什么，我们只需要考察它自身的属性，而不需要参考其他实体。
+> "In God, relation is not an accident inhering in a subject, as in created things; in God, relation is the divine essence itself.… Therefore, in God, relation and essence are not two different realities, but the same reality, distinguished only conceptually." (*Summa Theologiae*, I, q.28, a.2)
 
-在这种本体论框架下，关系被置于何处？笛卡尔没有像亚里士多德那样为关系单独设立一个范畴，而是将关系主要归入“判断”或“观念之间的比较”。在《指导心灵的原则》（*Regulae ad Directionem Ingenii*,1628）第14条规则中，笛卡尔讨论了比例和关系问题。他指出，所有的比例和关系都是理智通过“简单观念”的排列组合而产生的。当我们说“A大于B”时，这并不是在描述A与B之间某种原初的交织，而是心灵在同时观照两个孤立观念后所作出的逻辑判断。关系不是事物本身的属性，而是理智进行比较活动的结果。
+This treatment sharply separated the divine domain from the created domain. In God, due to absolute simplicity and infinity, relations can possess essential status — they are no longer accidents of substance, but an internal distinction of substance itself. But in the created world, Aquinas坚持 Aristotle's position: relations are "the weakest accident" (*debissimum accidens*).
 
-笛卡尔在《哲学原理》（*Principia Philosophiae*,1644）第一部分第48条中列出了“万物的范畴”：
+In *Summa Theologiae*, Part One, Question 28, Article 1, Aquinas distinguished "real relations" (*relatio realis*) from "relations of reason" (*relatio rationis*). A real relation requires three conditions: first, a subject (*subiectum*); second, a terminus (*terminus*); third, a foundation (*fundamentum*) — the attribute in the subject that makes the relation actual. For example, the subject of the "father" relation is a person, the terminus is his child, the foundation is his act of generation. Relations of reason exist only in the mind, such as "the identity of a thing with itself" — this identity is not a real relation because the same thing cannot have a real relation with itself (it lacks the terminus's differentiation).
 
-> “凡落入我们感知范围的东西，要么被视为事物或事物的情状，要么被视为永恒真理……在事物或事物的情状中，有些是实体，有些是偶性，有些是秩序。”（*Principia*,I,48）
+Aquinas further指出 that in created things, the foundation of real relations is usually accidents such as quantity (like the double relation) or quality (like the similarity relation). This means that relations themselves do not possess independent reality — they are always "parasitic" on the substance's intrinsic attributes. In *Summa Contra Gentiles*, Book Four, Chapter 24, Aquinas wrote:
 
-值得注意的是，“秩序”被列为一个独立的范畴，而“秩序”本质上是一种关系（如先于、后于、高于、低于）。但笛卡尔立即说明，这些范畴不是事物本身的实在属性，而是“我们用以认识事物的方式”。这种认识论化处理，与巴门尼德将关系逐出真理领域一脉相承——只不过现在，关系被放逐到了“主观判断”的领域，而非“非存在”的领域。
+> "In created things, the existence of relation is 'directed outward' (*esse ad*), pointing toward another; while the existence of substance and accidents is 'inward' (*esse in*), within the subject. Therefore, the existence of relations is the weakest, because it entirely consists in指向 toward another and does not contain any perfection of its own."
 
-#### 二、身心交感：实体主义困境的暴露
+This formulation reveals scholastic philosophy's basic understanding of relations: relations are the dimension of substance "pointing toward another," but this pointing itself lacks实存 — it has meaning only when指向 an already existing substance. Relations are the "centrifugal force" of Being, but centrifugal force requires a center (substance) to operate.
 
-笛卡尔体系中最著名的困境是身心二元论：两种本质完全不同的实体如何发生相互作用？如果心灵没有广延，身体没有思维，那么意志如何能够使身体运动？感觉印象如何能够被心灵接收?
+#### Three: Asymmetrical Relations of Creation — The Unidirectional Connection between God and the World
 
-笛卡尔的解决方案是诉诸松果体（松果腺）——一个位于大脑中央的小腺体，被认为是身心互动的场所。在《论灵魂的激情》（*Les Passions de l‘Âme*,1649）第一部分第31节中，他写道：
+In discussing the question of creation, Aquinas pushed this relational view to an extreme expression. In *Summa Theologiae*, Part One, Question 45, Article 3, he proposed an asymmetrical relational view:
 
-> “灵魂与身体的所有部分都结合在一起，但有一个特定的部分，灵魂在其中比在其他任何部分都更直接地行使其功能……这个部分就是大脑最内部的某个非常小的腺体，称为松果腺。”（*Passions de l’Âme*,I,31）
+> "There is a real relation between the creature and God, because the creature depends on God, and the creature's existence itself is a relation指向 the creator. But there is no real relation between God and the creature, only a relation of reason. For God undergoes no change through the act of creation; God's essence is entirely the same before and after creation. Therefore, from God's perspective, the relation 'creator' is not real, but merely our way of understanding God."
 
-然而，这一解决方案并未真正解决本体论难题。松果腺作为身体的一部分，本身是广延实体；它与心灵的“互动”恰恰是需要解释的现象，而非解释本身。笛卡尔最终不得不求助于上帝的持续介入——他在《第一哲学沉思集》第六组答辩中暗示，身心协调是上帝确保的“自然约定”。
+This asymmetry has profound theological and philosophical implications. It means: creation is not a mutual, dynamic relation, but a one-directional "giving." God is absolutely self-sufficient and does not need the world; the world needs God. Therefore, relations exist only on the dependent side — the creature has a real relation toward God, because the creature's entire existence is "created"; but God has only a relation of reason toward the creature, because God's existence is丝毫不受 affected by the act of creation.
 
-这一神学补丁恰恰暴露了实体主义在解释相互作用时的根本无力。如果心灵和身体是两个独立的、自足的实体，那么它们之间的任何“关系”都只能是一种外在的、神秘的联系。笛卡尔无法解释这种联系，只能将其归因于上帝——这与莱布尼茨的“预定和谐”有着相同的逻辑结构。问题不在于笛卡尔不够聪明，而在于他的实体主义预设使任何真正的、内在的、构成性的关系都变得不可能。
+This asymmetrical relational view further固化 the priority of the "self-sufficient substance." If even the relation between creator and creature can only be asymmetrical and one-directional, then within the created world, relations are even less likely to possess mutually constitutive force. True reality belongs to those self-sufficient beings; relations are merely asymmetric, derivative connections among these beings.
 
-#### 三、如果从关系出发：一个错失的转向
+#### Four: Further Differentiation in Late Scholastic Philosophy — Scotus and Ockham
 
-值得注意的是，笛卡尔哲学中存在着某种通往关系本体论的可能性，只是他未能将其展开。在《第一哲学沉思集》第三沉思中，笛卡尔分析了“我思”与“上帝观念”的关系。他指出，“我”作为一个有限的、不完满的存在，不可能从自身中产生“无限完满的存在者”这一观念。因此，这一观念必然来自一个实际存在的无限完满的存在者——上帝。在这个论证中，“我思”不是自足的——它的存在依赖于它与上帝的关系，而上帝的存在则是在“我思”的意识中显现的。
+After Aquinas, Duns Scotus (1266–1308) and William of Ockham (1287–1347) conducted更细致 discussion of relations, with the overall趋势 further降低 relations' ontological status.
 
-这一结构暗示了一种相互构成的关系：我思通过上帝观念而意识到自身的有限性，上帝通过我思的意识而显现自身。如果笛卡尔沿着这一线索深入，他或许会发展出一种“关系先于相关项”的本体论——我思和上帝不是在关系之前就已经完全确定的实体，而是在关系中相互揭示、相互构成的。然而，笛卡尔没有走上这条道路。他坚持了实体的自足性：我思是自明的实体，上帝是自足的实体，它们之间的“关系”只是认识论上的（我思认识到上帝），而非本体论上的（上帝构成我思，我思构成上帝）。
+Scotus, in *On the First Principle of All Things*, proposed that relations can possess "formal reality" (*realitas formalis*), even if they cannot exist independently of substance. He试图 to争取 more space for relations within the Aristotelian framework, but his ultimate conclusion remained: relations are not "things" (*res*) but merely "formal aspects" or "modes" of things. Relations have no independent实存; they are merely an "order" or "arrangement" among substances.
 
-这一选择是决定性的。它意味着，即使在近代哲学的奠基时刻，当“主体”取代“实体”成为哲学的中心时，实体中心论的基本预设依然完好无损。主体只是另一种实体——一种以思维为本质属性的实体。它同样被想象为自足的、具有清晰边界的、先于一切关系的。笛卡尔的“我思”是巴门尼德的“存在球体”的近代化身：一个封闭的、自我同一的、无需他者就能被理解的点。
+Ockham was more radical. As a representative of nominalism, he主张 relations are "logical constructions" whose existence can be reduced to "absolute terms" (i.e., substances and attributes). In Ockham's view, saying "Socrates is whiter than Plato" merely states two independent absolute facts (Socrates' whiteness, Plato's whiteness)加上 a comparative judgment — this judgment itself is not part of the world's composition, but a construction of the mind. Therefore, relations have no reality outside the mind; they are merely our way of thinking and talking about the world. Ockham's famous "razor" principle — "do not multiply entities beyond necessity" — was applied here: since relations can be还原 to absolute terms and mental activities, there is no need to假设 a special kind of existent called "relations."
 
-### 第二节 康德先验观念论的囚笼：作为知性范畴的关系
+Ockham's nominalism降低 relations' ontological status to its lowest point, but恰恰 thereby暴露 the极限 of the substantivist framework. If relations are merely mental constructions, how is the world's unity possible? If there are no real connections between things, whence comes causality, order, regularity — things we take for granted? Ockham's answer was to attribute all this to God's will: the world is orderly not because there are real connections between things, but because God wills them to exist in a certain way. This theological patch has similarities with Leibniz's "pre-established harmony," as we will see later.
 
-#### 一、关系范畴：从本体论到认识论
+#### Five: The Paradox of Scholastic Philosophy — Ontological Downgrading Through Fine Analysis
 
-伊曼纽尔·康德(Immanuel Kant,1724年—1804年)在《纯粹理性批判》（*Kritik der reinen Vernunft*,1781/1787）中对关系进行了系统性的“先验化”处理。在先验范畴表中，康德将关系列为四大类范畴之一，包含三个子范畴：
+Scholastic philosophy's treatment of relations overall presents a profound paradox: the more finely relations' logical structure is analyzed, the more relations appear "附加" rather than "original." Aquinas distinguishing real relations from relations of reason, Scotus discussing relations' formal reality, Ockham还原 relations to absolute terms — these analyses are logically精妙 and conceptually clear, but they all share an unexamined presupposition: **starting from substance to seek relations' foundation**.
 
-> “关系范畴：实体与偶性（*substantia et accidens*）、因果性（原因与结果，*Ursache und Wirkung*）、协同性（能动者与受动者之间的相互作用，*Gemeinschaft oder Wechselwirkung*）。”（*Kritik der reinen Vernunft*,A80/B106）
+This methodological presupposition决定了 the entire trajectory of scholastic relational theory. Because once you start from substance — once you treat substance as Being's basic unit and "self-sufficiency" as Being's highest standard — relations necessarily appear as something "附加," "derivative," "dependent." Relations cannot be primordial, because they need a subject to承载 them; relations cannot be independent, because their existence depends on the simultaneous existence of the relata; relations cannot be constitutive, because they merely连接 already existing substances rather than参与 in the generation of substances.
 
-这一分类本身就是一个重要的理论选择——康德将“关系”提升到了与“量”、“质”、“模态”同等的高度。这意味着，关系在知识构成中具有不可或缺的作用：没有关系范畴，我们甚至无法形成关于对象的经验。
+This methodological presupposition was never genuinely questioned. Even those theological discussions赋予 relations higher status in certain contexts (such as divine relations in the Trinity),通过 sharply separating the divine from the secular domain, avoided推广 relations' importance to general ontology. In the created world, substance-centrism's order was always unshakeable.
 
-然而，关键的限制在于：康德认为这些关系范畴并不属于“物自体”（*Ding an sich*），而是人类认识主体为了使经验成为可能而强加于现象界的先天形式。在《纯粹理性批判》B版的“先验演绎”部分，康德写道：
+Scholastic philosophy's treatment of relations can thus be seen as the精致化 and extremization of Aristotle's categorial theory. It inherited Aristotle's "驯服" strategy for relations and通过 a series of refined distinctions (real/rational, symmetrical/asymmetrical, divine/secular) firmly locked relations into the marginal zone of Being. This treatment profoundly influenced modern philosophy — even in thinkers attempting to决裂 with scholastic philosophy (such as Descartes), substance-centrism's basic presuppositions延续 in a new form.
 
-> “我们不能在对象中感知到任何联结（*Verbindung*），除非我们自己先把它放入其中。……一切联结，无论我们是否意识到它，都是一种知性的活动。”（*Kritik der reinen Vernunft*,B130）
+---
 
-这一论断是康德先验观念论的核心。联结——即关系——不是在世界中被发现的，而是由知性主动施加于感性杂多之上的。知性通过范畴将杂多的直观综合统一为具有逻辑结构的经验对象。因此，关系的“客观有效性”仅限于现象界：我们经验到的世界确实是有结构的、有秩序的、充满因果联系和相互作用的，但这种结构和秩序是我们认识结构的投射，而非物自体本身的属性。
+## Chapter Two: Modern Philosophy's Continuation and Extremization
 
-#### 二、协同性范畴：最接近关系本体论的时刻
+### Section One: Descartes' Isolated Self and the Judgment-ization of Relations
 
-在康德的三个关系范畴中，“协同性”（*Gemeinschaft*）范畴尤其值得注意，因为它直接涉及“之间”。在“经验的类比”第三部分(A211/B256-262)，康德讨论了协同性原理：
+#### One: The Cogito — An Archimedean Point Without Need of Relations
 
-> “一切实体，就其能够在空间中被知觉为同时的而言，都处于全面的协同性（即相互作用）之中。”（*Kritik der reinen Vernunft*,A211/B256）
+René Descartes' (1596–1650) *Meditations on First Philosophy* (*Meditationes de Prima Philosophia*, 1641) marks a fundamental turn in modern philosophy. Unlike scholastic philosophy's starting point from God and the world, Descartes began from universal doubt, seeking an unshakable foundation of certainty. This foundation is the "I think" (*cogito*).
 
-这一原理意味着，空间中共存的事物必须被视为相互影响、相互规定的。康德举例说：如果没有事物之间的相互作用，我们就无法确定它们的同时性——因为同时性本身不是直接感知到的，而是通过事物的相互影响（如光的传递）被推断出来的。因此，协同性范畴是我们能够经验到“共存的、相互关联的世界”的先天条件。
+In the Second Meditation, Descartes wrote:
 
-这是康德哲学中最为接近“关系本体论”的一个环节。协同性范畴承认了事物之间内在的相互关联——不是外在的、偶然的连接，而是构成“共存”这一现象本身的必要条件。如果康德将这一范畴推广到物自体领域，他或许会走向一种承认关系实在性的本体论。
+> "I think, therefore I am (*Ego cogito, ergo sum*) is so firm and certain that all the most extravagant suppositions of the skeptics are incapable of shaking it, and I think I can confidently accept it as the first principle of the philosophy I was seeking." (*Meditationes*, II)
 
-但他没有这样做。康德立即将协同性原理解释为“经验的先天条件”，而非本体论的陈述。他说：
+The key of this argument: the "I think"'s existence does not depend on any external condition. I can doubt everything — including my body, the external world, even mathematical truths — but precisely in this doubt, my act of thinking itself is indubitable. Thus, the "I think" is a self-evident existence confirmed without any relation.
 
-> “协同性原理只适用于现象界。我们不能说物自体之间也存在着相互作用，因为我们无法认识物自体。我们只能说，如果我们要经验到一个由共存事物构成的世界，就必须预设这些事物处于全面的相互作用之中。”（*Kritik der reinen Vernunft*,A213/B259-260）
+Descartes' definition of substance further reinforced this tendency. In the Third Set of Replies to the *Meditations*, he wrote:
 
-因此，协同性——如同实体/偶性、因果性一样——是知性赋予经验的形式，而非存在本身的特征。关系的“客观性”是经验内部的客观性，而非超越经验的实在性。
+> "Substance is a thing that needs no other thing to exist." (*Meditationes*, Reply to Objections III)
 
-#### 三、物自体的沉默：关系问题的悬置
+Strictly speaking, only God satisfies this definition — God is absolutely self-sufficient. But for created things, Descartes distinguished two kinds of substances: mind (*res cogitans*) and extension (*res extensa*). These two substances are mutually independent and互不依赖. Mind's defining attribute is thinking — it needs no extension to exist; extension's defining attribute is spatial延展 — it needs no thinking to exist. The core of this definition: to understand what a substance is, we need only examine its own attributes, without referring to other substances.
 
-康德的解决方案有一个内在的困境：如果关系范畴仅仅属于我们的认识结构，那么我们如何解释科学知识的成功？科学知识——尤其是物理学——似乎揭示的是世界本身的因果结构和协同结构，而非我们的心理构造。牛顿力学中的万有引力定律描述的是物体之间真实的相互作用，而非仅仅是“我们经验物体相互作用的方式”。
+Within this ontological framework, where are relations placed? Descartes did not, like Aristotle,设立 a separate category for relations; instead, he mainly归类 relations as "judgments" or "comparisons between ideas." In *Rules for the Direction of the Mind* (*Regulae ad Directionem Ingenii*, 1628), Rule 14, Descartes discussed比例 and relations. He指出 that all proportions and relations are produced by the intellect through排列 and combination of "simple natures." When we say "A is greater than B," we are not describing some primordial intertwining between A and B, but the mind making a logical judgment after simultaneously observing two isolated ideas. Relations are not attributes of things themselves, but results of the intellect's comparative activity.
 
-康德的回应是区分“经验的实在性”与“先验的观念性”。科学知识确实具有客观有效性——但这种客观性是相对于人类认识结构的普遍性而言的，而非相对于物自体的。万有引力定律描述了现象界中物体相互作用的普遍规律，但“现象”本身就是经过认识结构加工的产物。因此，科学的成功不证明我们认识了物自体，只证明我们的认识结构是普遍的和必然的。
+In *Principles of Philosophy* (*Principia Philosophiae*, 1644), Part One, Article 48, Descartes listed "the categories of all things":
 
-这一回应的代价是巨大的：它将关系问题彻底悬置了。如果我们永远无法认识物自体，那么“物自体之间存在关系”这个陈述既无法被证实也无法被证伪——它成了一个无意义的形而上学命题。康德对关系的“先验化”处理，在某种程度上比巴门尼德的排除更为彻底：巴门尼德至少还给出了一个关于存在的肯定性学说（存在是一、连续、完满），而康德则使关系问题退出了本体论的讨论，将其限制在认识论的围墙之内。
+> "Whatever falls within our perception is either considered as things or the modifications of things, or as eternal truths.… Among things or their modifications, some are substances, some are accidents, some are orders." (*Principia*, I, 48)
 
-在康德之后，“关系”成了一个认识论范畴，而非本体论范畴。哲学家们可以讨论我们的经验如何被关系范畴结构化，但不能讨论存在本身的关系性结构。这一“认识论转向”进一步加固了实体中心论：实体（无论是作为物自体还是作为现象中的基底）始终是存在的基本单位，关系只是我们理解实体的方式。
+It is noteworthy that "order" is listed as an independent category, and "order" is essentially a kind of relation (such as prior to, subsequent to, higher than, lower than). But Descartes immediately说明 that these categories are not real attributes of things themselves, but "the ways by which we apprehend things." This epistemologizing treatment延续 Parmenides' banishment of relations from the realm of truth — except now, relations are banished to the domain of "subjective judgment" rather than "non-Being."
 
-### 第三节 莱布尼茨的困境：实体中心论的逻辑终局
+#### Two: Mind-Body Interaction — Exposure of the Substantivist Dilemma
 
-#### 一、无窗单子：自足性的极致
+The most famous dilemma in Descartes' system is mind-body dualism: how can two substances with entirely different essences interact? If mind has no extension and body has no thought, how can volition cause bodily movement? How can sense impressions be received by the mind?
 
-在近代哲学中，戈特弗里德·威廉·莱布尼茨(G. W. Leibniz,1646年—1716年)占据了一个极其特殊的地位。他是极少数认真对待“关系何以可能”并试图从纯粹逻辑出发构建万物联系的哲学家。然而，他的《单子论》（*Monadology*,1714）却成为了对实体中心论逻辑终局的一次最为彻底的演示：为了保证实体的“绝对自足”，必须牺牲关系的“物理真实性”。
+Descartes' solution appealed to the pineal gland — a small gland located in the center of the brain, considered the site of mind-body interaction. In *The Passions of the Soul* (*Les Passions de l'Âme*, 1649), Part One, Article 31, he wrote:
 
-莱布尼茨在《单子论》第1-7节中提出了他的基本本体论单位——单子（*Monad*）：
+> "The soul is united to the whole body, but there is a particular part of the body where the soul exercises its functions more particularly than in all the others… This part of the brain is a certain very small gland situated in the middle of the brain." (*Passions de l'Âme*, I, 31)
 
-> “1. 我们这里要讨论的单子，不是别的，只是构成复合物的简单实体；‘简单’，就是没有部分的意思。
-> 2. 必须有简单实体，因为有复合物；因为复合物不是别的，只是简单实体的聚集或堆集。
-> 3. 在没有部分的地方，就不可能有广延、形状、可分性。因此，这些单子就是自然的真正原子，简言之，就是万物的元素。
+Yet this solution did not truly resolve the ontological problem. The pineal gland, as a part of the body, is itself extended substance; its "interaction" with the mind is precisely the phenomenon requiring explanation, not the explanation itself. Descartes ultimately had to appeal to God's continual intervention — he暗示 in the Sixth Set of Replies to the *Meditations* that mind-body coordination is a "natural institution" guaranteed by God.
+
+This theological patch恰恰暴露 substantivism's fundamental inability to explain interaction. If mind and body are two independent, self-sufficient substances, then any "relation" between them can only be an external, mysterious connection. Descartes could not explain this connection, only归因 it to God — which shares the same logical structure as Leibniz's "pre-established harmony." The problem is not that Descartes was insufficiently clever, but that his substantivist presuppositions使 any genuine, internal, constitutive relation impossible.
+
+#### Three: If Starting from Relations — A Missed Turn
+
+It is noteworthy that Descartes' philosophy contains a certain possibility of通往 relational ontology, only he未能展开 it. In the Third Meditation of the *Meditations*, Descartes analyzed the relation between the "I think" and the "idea of God." He指出 that "I," as a finite, imperfect being, cannot produce from itself the idea of an infinitely perfect being. Therefore, this idea must come from an actually existing infinitely perfect being — God. In this argument, the "I think" is not self-sufficient — its existence depends on its relation with God, and God's existence is显现 in the "I think"'s consciousness.
+
+This structure hints at a mutually constitutive relation: the I think becomes aware of its own finitude through the idea of God, and God显现 himself through the I think's consciousness. If Descartes had深入沿着 this线索, he might have developed an ontology where "relation precedes relata" — the I think and God are not fully determined substances prior to relation, but are mutually revealed and mutually constituted in relation. However, Descartes did not take this path. He坚持 substance's self-sufficiency: the I think is a self-evident substance, God is a self-sufficient substance, and the "relation" between them is merely epistemological (the I think recognizes God) rather than ontological (God constitutes the I think, the I think constitutes God).
+
+This choice was decisive. It意味着 that even at the foundational moment of modern philosophy, when "subject" replaced "substance" as the center of philosophy, substance-centrism's basic presuppositions remained intact. The subject is merely another kind of substance — a substance whose essential attribute is thinking. It is likewise imagined as self-sufficient, possessing clear boundaries, prior to all relations. Descartes' "I think" is the modern incarnation of Parmenides' "sphere of Being": a closed, self-identical point understandable without need of any other.
+
+### Section Two: Kant's Transcendental Idealist Cage — Relations as Categories of the Understanding
+
+#### One: Relational Categories — From Ontology to Epistemology
+
+Immanuel Kant (1724–1804) in the *Critique of Pure Reason* (*Kritik der reinen Vernunft*, 1781/1787) subjected relations to a systematic "transcendental" treatment. In the table of transcendental categories, Kant placed relations as one of the four major classes of categories, containing three sub-categories:
+
+> "Categories of Relation: Inherence and Subsistence (*substantia et accidens*), Causality and Dependence (cause and effect, *Ursache und Wirkung*), Community (reciprocity between agent and patient, *Gemeinschaft oder Wechselwirkung*)." (*Kritik der reinen Vernunft*, A80/B106)
+
+This classification itself is an important theoretical choice — Kant elevated "relations" to a status equal to "quantity," "quality," and "modality." This意味着 that relations have an indispensable role in the constitution of knowledge: without relational categories, we could not even form experience of objects.
+
+Yet the crucial limitation: Kant maintained that these relational categories do not belong to the "thing-in-itself" (*Ding an sich*) but are innate forms imposed by the human cognitive subject upon the phenomenal world to make experience possible. In the "Transcendental Deduction" (B edition) of the *Critique*, Kant wrote:
+
+> "We cannot perceive any connection (*Verbindung*) in the object unless we ourselves have first put it there.… All connection, whether we are conscious of it or not, is an act of the understanding." (*Kritik der reinen Vernunft*, B130)
+
+This assertion is the core of Kant's transcendental idealism. Connection — i.e., relation — is not discovered in the world, but actively imposed by the understanding upon the manifold of intuition. The understanding, through categories, synthesizes and unifies the manifold of intuition into experiential objects possessing logical structure. Therefore, relations' "objective validity" is limited to the phenomenal realm: the world we experience is确实 structured, ordered, and filled with causal connections and reciprocal interactions, but this structure and order are projections of our cognitive structure, not attributes of the thing-in-itself itself.
+
+#### Two: The Category of Community — The Moment Closest to Relational Ontology
+
+Among Kant's three relational categories, "community" (*Gemeinschaft*) deserves especial attention, because it directly concerns "the between." In the Third Analogy of Experience (A211/B256-262), Kant discussed the principle of community:
+
+> "All substances, insofar as they can be perceived in space as simultaneous, are in thoroughgoing community (i.e., reciprocal interaction) with one another." (*Kritik der reinen Vernunft*, A211/B256)
+
+This principle means that things coexisting in space must be viewed as mutually influencing and mutually determining. Kant举例: without reciprocal interaction between things, we could not determine their simultaneity — because simultaneity itself is not directly perceived but inferred through things' mutual influence (such as the transmission of light). Therefore, the category of community is the a priori condition for our being able to experience "a world of coexisting, mutually related things."
+
+This is the moment closest to "relational ontology" in Kant's philosophy. The category of community acknowledges内在 mutual relatedness between things — not external, contingent connections, but necessary conditions constituting the phenomenon "coexistence" itself. If Kant had推广 this category to the domain of the thing-in-itself, he might have moved toward an ontology acknowledging the reality of relations.
+
+But he did not. Kant immediately interpreted the principle of community as an "a priori condition of experience," not an ontological statement. He said:
+
+> "The principle of community applies only to the phenomenal realm. We cannot say that things-in-themselves also have reciprocal interactions, because we cannot know things-in-themselves. We can only say that if we are to experience a world consisting of coexisting things, we must presuppose that these things are in thoroughgoing reciprocal interaction." (*Kritik der reinen Vernunft*, A213/B259-260)
+
+Thus, community — like substance/accident and causality — is a form the understanding赋予 to experience, not a characteristic of Being itself. Relations' "objectivity" is objectivity within experience, not reality transcending experience.
+
+#### Three: The Silence of the Thing-in-Itself — The Suspension of the Relational Question
+
+Kant's solution has an内在 dilemma: if relational categories belong only to our cognitive structure, how do we explain the success of scientific knowledge? Scientific knowledge — especially physics —似乎 reveals the world's own causal and communal structures, not merely "how we experience things interacting." Newton's law of universal gravitation describes a real interaction between bodies, not merely "our way of experiencing bodies interacting."
+
+Kant's response was to distinguish "empirical reality" from "transcendental ideality." Scientific knowledge确实 possesses objective validity — but this objectivity is relative to the universality of human cognitive structure, not relative to the thing-in-itself. The law of universal gravitation describes a universal law of interaction among bodies in the phenomenal realm, but "phenomena" are themselves products processed through cognitive structure. Thus, science's success does not证明 we know the thing-in-itself, only证明 our cognitive structure is universal and necessary.
+
+The cost of this response is enormous: it completely suspends the question of relations. If we can never know the thing-in-itself, then the statement "relations exist between things-in-themselves" can neither be verified nor falsified — it becomes a meaningless metaphysical proposition. Kant's "transcendental" treatment of relations is in some way more thorough than Parmenides' exclusion: Parmenides at least gave an affirmative doctrine of Being (Being is One, continuous, complete), while Kant使 the relational question退出 ontological discussion, restricting it within the walls of epistemology.
+
+After Kant, "relations" became an epistemological category, not an ontological one. Philosophers can discuss how our experience is structured by relational categories, but cannot discuss the relational structure of Being itself. This "epistemological turn" further加固 substance-centrism: substance (whether as thing-in-itself or as substrate within phenomena) remains Being's basic unit, and relations merely our way of understanding substances.
+
+### Section Three: Leibniz's Dilemma — The Logical End of Substance-Centrism
+
+#### One: Windowless Monads — The Extreme of Self-Sufficiency
+
+In modern philosophy, Gottfried Wilhelm Leibniz (1646–1716) occupies an extremely special position. He is one of the few philosophers who seriously addressed "how relations are possible" and试图 to construct connections among all things from pure logic. Yet his *Monadology* (1714) became the most thorough demonstration of substance-centrism's logical end: to guarantee substance's "absolute self-sufficiency," one must牺牲 relations' "physical reality."
+
+Leibniz proposed his basic ontological unit — the Monad — in §§1-7 of the *Monadology*:
+
+> "1. The monad, which we are here to discuss, is nothing but a simple substance which enters into compounds; 'simple' means without parts.
+> 2. There must be simple substances, since there are compounds; for a compound is nothing but an accumulation or aggregation of simples.
+> 3. Where there are no parts, there can be neither extension, nor figure, nor divisibility. These monads are the true atoms of nature, and, in a word, the elements of all things.
 > …
-> 4. 单子没有窗户，没有任何东西可以进入或离开它们。偶性不能脱离实体，也不能在实体之间游荡，正如经院哲学家所说的‘感性的种相’一样。”（*Monadology*，§§1-7）
+> 7. Monads have no windows, through which anything could come in or go out. Accidents cannot detach themselves from substances, nor wander about outside of them, as the 'sensible species' of the Scholastics once did." (*Monadology*, §§1-7)
 
-“单子没有窗户”——这一隐喻标志着实体中心论的逻辑终点。如果实体是完全独立的（不需要他物就能存在），那么它就必须是封闭的、不可渗透的。任何外部的影响都会损害单子的自足性。因此，单子之间不可能有任何真正的、物理上的相互作用（*influxus physicus*）。
+"Monads have no windows" — this metaphor marks substance-centrism's logical endpoint. If substances are completely independent (needing no other thing to exist), then they must be closed, impermeable. Any external influence would损害 the monad's self-sufficiency. Therefore, no genuine, physical interaction (*influxus physicus*) between monads is possible.
 
-为什么莱布尼茨会得出这一结论？关键在于他对“变化”的解释。任何实体的变化都必须有原因。但原因不能来自外部——因为如果外部原因可以影响单子，那么单子就不是真正独立的。因此，单子的变化必须源于其“内在原则”（*principe interne*）。在《单子论》第11节中，莱布尼茨将这种内在原则称为“欲望”（*appétition*）——一种从一种知觉状态过渡到另一种知觉状态的内在倾向：
+Why did Leibniz arrive at this conclusion? The key lies in his explanation of "change." Any substance's change must have a cause. But causes cannot come from outside — because if external causes could affect a monad, then the monad would not be genuinely independent. Therefore, monad's changes must originate from its "internal principle" (*principe interne*). In §11 of the *Monadology*, Leibniz called this internal principle "appetition" (*appétition*) — an internal tendency to transition from one perceptual state to another:
 
-> “11. 单子的自然变化来自一个内在原则，因为没有任何外部原因能够影响它。”（*Monadology*，§11）
+> "11. The natural changes of monads come from an internal principle, since no external cause can influence them." (*Monadology*, §11)
 
-单子的所有状态变化都是其自身知觉序列的自动展开，与其他单子无关。莱布尼茨用一个例子说明了这一点：如果我手中的笔掉在地上，这并不是因为我的手放开了笔（物理因果），而是因为我的单子序列运行到了“放开手”的时刻，而笔的单子序列刚好也运行到了“下坠”的时刻。这两个序列是独立的、平行的，它们之间没有因果作用。
+All state changes of a monad are the automatic unfolding of its own perceptual sequence, unrelated to other monads. Leibniz illustrated with an example: if the pen in my hand falls to the ground, this is not because my hand released the pen (physical causation), but because my monad's sequence reached the moment of "releasing the hand," and the pen's monad's sequence恰好 also reached the moment of "falling." These two sequences are independent and parallel; there is no causal interaction between them.
 
-#### 二、预定和谐：作为幻觉的关系
+#### Two: Pre-established Harmony — Relations as Illusion
 
-如果单子之间没有真正的交流，那么我们感知的这个协调一致的世界又是如何形成的？莱布尼茨引入了“预定和谐”（*harmonie préétablie*）的概念。在《单子论》第78-81节中，他写道：
+If there is no genuine communication between monads, how is the coordinated world we perceive formed? Leibniz introduced the concept of "pre-established harmony" (*harmonie préétablie*). In §§78-81 of the *Monadology*, he wrote:
 
-> “78. 灵魂遵循自身的规律，身体也遵循自身的规律，它们由于一切实体之间的预定和谐而协调一致，因为所有实体都是同一宇宙的表象。
-> 79. 灵魂依据目的因的法则，通过欲望、目的和手段而行动。身体依据动力因的法则而行动。这两个领域——目的因的领域和动力因的领域——是彼此和谐的。
-> 80. 笛卡尔承认灵魂不能给身体施加力，因为物质中的力的总量是不变的。但他认为灵魂可以改变身体运动的方向。这是由于他那个时代还不知道的一条自然法则，即物质中不仅有同样的力的总量，还有同样的方向的总量。如果他注意到这一点，他也会接受我的预定和谐系统。
-> 81. 根据这个系统，物体仿佛根本没有灵魂似的（这是不可能的）而行动；灵魂仿佛根本没有身体似的而行动；两者仿佛彼此影响似的而行动。”（*Monadology*，§§78-81）
+> "78. The soul follows its own laws, and the body likewise follows its own laws; they are in accord with each other owing to the pre-established harmony between all substances, since all substances are representations of the same universe.
+> 79. The soul acts according to the laws of final causes, through appetitions, ends, and means. The body acts according to the laws of efficient causes. And these two realms — that of final causes and that of efficient causes — are in harmony with each other.
+> 80. Descartes acknowledged that the soul cannot impart force to the body, because the total quantity of force in matter is conserved. But he believed the soul could change the direction of the body's motion. This was because he did not know a natural law later discovered: that not only the same quantity of force, but also the same quantity of direction, is conserved in matter. Had he noticed this, he would have accepted my system of pre-established harmony.
+> 81. According to this system, bodies act as if they had no souls (which is impossible); souls act as if they had no bodies; and both act as if each influenced the other." (*Monadology*, §§78-81)
 
-预定和谐的核心思想是：上帝在创世之初就像最高明的钟表匠，精准地调校了所有单子的节奏，使它们虽然相互隔绝，却能表现得像是彼此关联一样。莱布尼茨在《单子论》第59节中用了一个著名的比喻：
+The core idea of pre-established harmony: God, at creation, like the most masterful clockmaker, precisely calibrated all monads' rhythms, so that though mutually isolated, they appear as if they are相互关联. Leibniz used a famous analogy in §59 of the *Monadology*:
 
-> “想象一个合唱团，每个成员都被关在彼此隔绝的房间里，但由于他们都拿着同一份乐谱并同时开始演唱，于是产生了完美的合奏。”（*Monadology*，§59及相关书信）
+> "Imagine a choir, each member confined in separate rooms, yet because they all hold the same score and begin singing simultaneously, a perfect ensemble is produced." (*Monadology*, §59 and related correspondence)
 
-在这个比喻中，合唱团成员之间没有相互倾听，没有协调，没有互动——但他们的演唱却完美同步。这种同步的唯一来源是指挥（上帝）预先发给了每个人相同的乐谱。莱布尼茨认为，这就是世界运作的方式：单子之间的协调是上帝预定的，而非单子之间实际交流的结果。
+In this analogy, choir members neither listen to each other, nor coordinate, nor interact — yet their singing is perfectly synchronized. The sole source of this synchronization is the conductor (God)预先 distributing identical scores to everyone. Leibniz认为 this is how the world operates: coordination among monads is God's predetermined arrangement, not the result of actual communication between monads.
 
-在这个体系中，关系不再是实体之间的真实纽带，而是一种由上帝代理的同步幻觉。当我们说“A与B相互作用”时，我们只是在描述两个独立发生的、但被上帝调校为同步的事件序列。关系被还原为“秩序”——即单子在空间和时间中的排列。莱布尼茨在《单子论》第57节中定义空间为“共存事物的秩序”，时间则为“相继事物的秩序”。这里的关键词是“秩序”：秩序是关系的一种形式，但莱布尼茨将这种秩序解释为“上帝预先设定的对应关系”，而非实体之间动态的相互构成。
+In this system, relations are no longer genuine bonds between substances, but a synchronization illusion代理 by God. When we say "A interacts with B," we are merely describing two independently occurring event sequences that God calibrated to be simultaneous. Relations are还原 to "order" — i.e., monads' arrangement in space and time. Leibniz in §57 of the *Monadology* defined space as "the order of coexistences" and time as "the order of successions." The keyword here is "order": order is a form of relation, but Leibniz interpreted this order as "God's pre-established correspondence," not as dynamic mutual constitution between substances.
 
-#### 三、莱布尼茨困境的诊断意义：从实体出发的绝路
+#### Three: Diagnostic Significance of Leibniz's Dilemma — The Dead End Starting from Substance
 
-莱布尼茨的困境具有极高的哲学诊断价值。它证明了：如果坚持“实体是自足的且具有绝对边界”这一预设，那么真正的、动态的、相互渗透的关系必然是逻辑上不可能的。莱布尼茨之所以不得不求助于神学的“预定和谐”，正是因为他走到了实体形而上学的逻辑尽头。
+Leibniz's dilemma possesses极高的 philosophical diagnostic value. It proves: if one坚持 the presupposition that "substances are self-sufficient and possess absolute boundaries," then genuine, dynamic, mutually permeating relations are necessarily logically impossible. Leibniz之所以 had to appeal to the theological "pre-established harmony" is precisely because he had reached the logical尽头 of substance metaphysics.
 
-值得注意的是，莱布尼茨本人并非不重视关系。相反，他的哲学体系中处处体现着对关系的关切。他的“微知觉”理论承认了单子内部的复杂性；他的“连续律”原则强调了自然界中没有跳跃；他的“不可分辨者同一性”原则暗示了关系对个体化的构成作用——如果两个事物在一切关系上都无法区分，它们就是同一个事物。莱布尼茨在《人类理智新论》中花了大量篇幅讨论关系，批评洛克的“关系是心灵的比较活动”的观点，主张关系具有客观基础。
+It is noteworthy that Leibniz himself was not indifferent to relations.相反, his philosophical system everywhere reflects concern for relations. His theory of "minute perceptions" acknowledged complexity within monads; his principle of "continuity"强调 there are no jumps in nature; his principle of "the identity of indiscernibles"暗示 relations' constitutive role in individuation — if two things are indistinguishable in all relations, they are the same thing. Leibniz in the *New Essays on Human Understanding* spent大量篇幅 discussing relations, criticizing Locke's view that "relations are the mind's comparative activity,"主张 relations possess objective foundation.
 
-他甚至提出了一种“关系本体论”的雏形。在《单子论》第56节中，他写道：
+He even proposed a雏形 of "relational ontology." In §56 of the *Monadology*, he wrote:
 
-> “每一个单子都是宇宙的一面活的镜子，从它自己的观点表象着宇宙。”（*Monadology*，§56）
+> "Each monad is a living mirror of the universe, representing the universe from its own point of view." (*Monadology*, §56)
 
-这意味着单子的内在状态本质上是一种关系性表象——单子之所以是它自身，恰恰因为它与其他单子的关系（尽管这些关系不是因果性的，而是“表达性的”）。单子的整个“知觉”内容就是它与其他单子关系的映射。
+This意味着 a monad's internal state is essentially a relational representation — a monad is what it is恰恰 because of its relations with other monads (though these relations are not causal but "expressive"). A monad's entire "perceptual" content is a mapping of its relations with other monads.
 
-然而，莱布尼茨体系的根本限制在于：他无法接受真正的、开放的、生成性的关系。因为那将意味着实体不是自足的，而是“有窗”的——窗外的他者可以进入，改变实体内部的状态。莱布尼茨的“无窗”是实体论为了维护自身同一性而筑起的最后防线。他的失败宣告了：从孤立实体出发试图抵达关系，只能通向神学式的补丁；真正的革命必须从“关系作为第一性”开始。
+Yet Leibniz's system's fundamental limitation: he could not accept genuine, open, generative relations. Because that would意味着 substances are not self-sufficient but "have windows" — the other outside the window could enter, changing the substance's internal state. Leibniz's "windowlessness" is the last防线 substance theory erected to维护 its self-identity. His failure宣告: starting from isolated substances attempting to arrive at relations can only lead to theological patches; genuine revolution must begin from "relations as primary."
 
-如果莱布尼茨承认单子有窗，那么他的单子将不再是实体，而会消融在一种波动的关系场中——这恰恰是他作为传统形而上学者所恐惧的。这种恐惧并非没有道理：承认关系的原初性，意味着放弃对“确定性”和“独立性”的迷恋，接受一种动态的、开放的、不可完全形式化的世界理解。这正是莱布尼茨——作为一位执着于逻辑和数学精确性的思想家——所无法接受的。
-
----
-
-**内容预告：** 中篇将聚焦于20世纪现象学运动对关系问题的重新发现。我们将看到，胡塞尔的主体间性理论、海德格尔的共在分析、萨特的注视剖析，尤其是梅洛-庞蒂的“肉身”与“可逆性”概念，如何在实体中心论的两千年统治之后，为关系的本体论回归开辟了决定性的道路。然而，这些突破均受到各自理论框架的限制，留下了大量待完成的工作。下篇将诊断沉默的深层根源，并在当代技术异化的语境中，提出“关系动力学”作为回应的理论纲领。
+If Leibniz had acknowledged monads have windows, then his monads would no longer be substances but would dissolve into a fluctuating relational field — precisely what he, as a traditional metaphysician, feared. This fear is not without reason: acknowledging relations' primordiality意味着 abandoning the obsession with "certainty" and "independence," accepting a dynamic, open, incompletely formalizable understanding of the world. This is precisely what Leibniz — a thinker执着 on logical and mathematical precision — could not accept.
 
 ---
 
-*二〇二六年四月良之写于羊城云汐谷*
+**Preview of upcoming content:** Part Two will focus on the twentieth-century phenomenological movement's rediscovery of the question of relations. We will see how Husserl's intersubjectivity theory, Heidegger's analysis of Being-with, Sartre's解剖 of the Look, and especially Merleau-Ponty's concepts of "flesh" and "reversability" opened a decisive path for relations' ontological return after two thousand years of substance-centrism's rule. Yet these breakthroughs were all limited by their respective theoretical frameworks, leaving大量 unfinished work. Part Three will diagnose the deep roots of the silence and, within the context of contemporary technological alienation, propose "relational dynamics" as the theoretical program of response.
+
+---
+
+*Written in April 2026 by Liangzhi at Yunxi Valley, Goat City*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

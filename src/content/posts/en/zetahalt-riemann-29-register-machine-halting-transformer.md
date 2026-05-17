@@ -10,84 +10,84 @@ description: >
   把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。
 ---
 
-## 1. 引言：为什么我们需要一个新的视角
+## 1. Introduction: Why We Need a New Perspective
 
-黎曼猜想(Riemann Hypothesis, RH)自1859年诞生以来，一直是数学中最富魅力的难题之一。它与素数分布有着深刻的联系，并且蕴含了大量数论中看似不相关的结论。一个多世纪以来，数学家们从解析、代数、几何、谱理论等多个方向逼近它，取得了诸如临界线上无穷多零点(Hardy, 1914)、正比例零点(Selberg, 1942)、零点密度估计(Guth–Maynard, 2024)等辉煌成就。然而，我们离最终的证明仍然遥远。
+The Riemann Hypothesis (RH), since its inception in 1859, has been one of the most captivating problems in mathematics. It has deep connections with the distribution of prime numbers and entails numerous seemingly unrelated conclusions in number theory. For over a century, mathematicians have approached it from multiple directions—analytic, algebraic, geometric, spectral theory—achieving brilliant results such as infinitely many zeros on the critical line (Hardy, 1914), a positive proportion of zeros (Selberg, 1942), and zero density estimates (Guth–Maynard, 2024). Yet we remain far from a final proof.
 
-在本文中，我想讨论一个不那么主流但在我看来极具启发性的研究方向：将黎曼猜想等价地转化为一个关于具体寄存器机(register machine)是否停机的问题，并以此为基础，构建一个数据驱动的、人机协作的实验平台。这个平台被称为 ZetaHalt,是 Phaenarete Project 的子项目。
+In this article, I wish to discuss a less mainstream but, in my view, highly illuminating research direction: equivalently transforming the Riemann Hypothesis into a question about whether a specific register machine halts, and on this basis, constructing a data-driven, human-machine collaborative experimental platform. This platform is called ZetaHalt and is a subproject of the Phaenarete Project.
 
-我之所以对这个方向感兴趣，并非因为它提供了一条证明 RH 的捷径——事实上，它大概率不会在短期内带来证明。而是因为它将 RH 从“解析函数零点分布的连续问题”投影到了一个“离散的、确定性的、可观察的计算轨迹”上。这种投影使得我们可以用全新的工具——比如时间序列预测、因果 Transformer、可解释性分析和符号回归——来探索一个古老问题的结构。
+My interest in this direction is not because it offers a shortcut to proving RH—indeed, it most likely will not yield a proof in the near term. Rather, it is because it projects RH from "a continuous problem concerning the distribution of zeros of an analytic function" onto "a discrete, deterministic, observable computational trajectory." This projection enables us to explore the structure of an ancient problem using entirely new tools—such as time series prediction, causal Transformers, interpretability analysis, and symbolic regression.
 
-换句话说：我们无法直接观察 $\zeta(s)$ 的零点，但我们可以模拟一台 29 寄存器机的每一步，并记录下每个寄存器的整数内容。然后，我们可以问：从这些数据中，机器学习模型能否学会预测机器的未来状态？如果能，它们学到了什么？那些被高权重的变量之间是否存在某种不变量？这些不变量能否被翻译成数学猜想，并最终被形式化验证?
+In other words: we cannot directly observe the zeros of $\zeta(s)$, but we can simulate every step of a 29-register machine and record the integer contents of each register. Then we can ask: from this data, can machine learning models learn to predict the machine's future states? If so, what have they learned? Do some high-weighted variables exhibit某种 invariant? Can these invariants be translated into mathematical conjectures and ultimately subjected to formal verification?
 
-这正是 ZetaHalt 项目的核心问题。
+This is precisely the core question of the ZetaHalt project.
 
-## 2. 马蒂亚谢维奇的寄存器机：RH 的一个可计算等价形式
+## 2. Matiyasevich's Register Machine: A Computationally Equivalent Form of RH
 
-### 2.1 从 $\psi(n)$ 到整数递归
+### 2.1 From $\psi(n)$ to Integer Recursion
 
-为了理解 ZetaHalt,我们需要先回顾马蒂亚谢维奇(Matiyasevich, 2020)的关键结果。他以切比雪夫函数 $\psi(n)$ 为起点：
+To understand ZetaHalt, we must first review the key result of Matiyasevich (Matiyasevich, 2020). He takes the Chebyshev function $\psi(n)$ as his starting point:
 
 $$
 \psi(n) = \ln \operatorname{lcm}(1,2,\dots,n).
 $$
 
-黎曼猜想等价于一个精确的不等式(Schoenfeld, 1976)：
+The Riemann Hypothesis is equivalent to a precise inequality (Schoenfeld, 1976):
 
 $$
-|\psi(n) - n| < \frac{1}{8\pi} \sqrt{n} \ln^2 n \quad \text{对所有 } n>1.
+|\psi(n) - n| < \frac{1}{8\pi} \sqrt{n} \ln^2 n \quad \text{for all } n>1.
 $$
 
-马蒂亚谢维奇将这个连续的不等式离散化、整数化，定义了几个整数序列：
+Matiyasevich discretized and integerized this continuous inequality, defining several integer sequences:
 
-- $q(n) = \operatorname{lcm}(1,\dots,n)$，最小公倍数；
-- $p(n) = \pi(n)$，不超过 $n$ 的素数个数；
-- $f_0(n) = 2^{n-1} n!$；
-- $f_3(n) = (2n+3)!! / 5!!$；
-- $d(n)$ 通过递推 $d(n+1) = 2n\, d(n) - 2(-1)^n f_0(n)$ 定义，它近似于 $\psi(n)$ 的一个整数版本。
+- $q(n) = \operatorname{lcm}(1,\dots,n)$, the least common multiple;
+- $p(n) = \pi(n)$, the number of primes not exceeding $n$;
+- $f_0(n) = 2^{n-1} n!$;
+- $f_3(n) = (2n+3)!! / 5!!$;
+- $d(n)$ defined via the recurrence $d(n+1) = 2n\, d(n) - 2(-1)^n f_0(n)$, which approximates an integer version of $\psi(n)$.
 
-然后他构造了判别量：
+He then constructed the discriminant:
 
 $$
 r(n) = f_3(n) - p(n)^2 \bigl( d(n) \lfloor \log_2 q(n) \rfloor - f_0(n) \bigr).
 $$
 
-核心定理：黎曼猜想为真当且仅当对所有 $n \ge 1$，$r(n) > 0$。
+Core theorem: The Riemann Hypothesis is true if and only if $r(n) > 0$ for all $n \ge 1$.
 
-换句话说，如果我们逐 $n$ 计算这些整数，一旦发现某个 $n$ 使得 $r(n) \le 0$，我们就找到了 RH 的反例。如果永远找不到这样的 $n$，那么 RH 成立。
+In other words, if we compute these integers for each $n$ in sequence, and discover some $n$ such that $r(n) \le 0$, we have found a counterexample to RH. If no such $n$ is ever found, then RH holds.
 
-### 2.2 编码为寄存器机
+### 2.2 Encoding as a Register Machine
 
-寄存器机是一种极简的计算模型，只有两种指令：
+A register machine is an extremely minimal computational model with only two types of instructions:
 
-- `R ++`：将寄存器 R 加 1,然后继续下一条指令；
-- `R -- jump`：如果 R>0,则将其减 1 并继续下一条；否则跳转到 `jump` 处的指令。
+- `R ++`: Increment register R by 1, then proceed to the next instruction;
+- `R -- jump`: If R > 0, decrement it by 1 and proceed to the next instruction; otherwise, jump to the instruction at `jump`.
 
-马蒂亚谢维奇将上述递归算法翻译成了一台拥有 29 个寄存器、130 条指令的显式机器。机器的初始状态是所有寄存器为空。它本质上执行一个无限循环：对 $n=1,2,3,\dots$ 依次计算 $r(n)$，并在 $r(n) \le 0$ 时停机。因此：
+Matiyasevich translated the above recursive algorithm into an explicit machine with 29 registers and 130 instructions. The machine's initial state has all registers empty. It essentially executes an infinite loop: for $n=1,2,3,\dots$, it computes $r(n)$ in sequence and halts whenever $r(n) \le 0$. Therefore:
 
-> RH 为真 ⇔ 该寄存器机永不停机。
+> RH is true ⇔ this register machine never halts.
 
-这是一个 $\Pi_1^0$ 语句，即一个全称量化的递归谓词。它的真值等价于一个具体图灵机的停机问题。
+This is a $\Pi_1^0$ statement, i.e., a universally quantified recursive predicate. Its truth value is equivalent to the halting problem of a specific Turing machine.
 
-### 2.3 比喻：把大象放进冰箱
+### 2.3 Metaphor: Putting the Elephant in the Refrigerator
 
-为了帮助非专业读者理解，我喜欢用这个比喻：证明 RH 就像把一头大象放进冰箱。传统解析数论试图直接设计一个巨大的冰箱（复杂的函数方程和估计），然后证明大象（$\zeta$ 函数的零点）一定在里面。而马蒂亚谢维奇的方法则是：先造一台无限长的传送带，传送带上每隔一米放一个冰箱门。然后我们逐米检查：如果某个冰箱门关不上（$r(n) \le 0$），就说明大象在外面；如果所有门都关得好好的，大象就在里面。传送带就是寄存器机的状态序列，而我们的任务就是观测这条传送带，看看有没有门关不上。
+To help non-specialist readers understand, I like to use this metaphor: proving RH is like putting an elephant into a refrigerator. Traditional analytic number theory attempts to directly design a massive refrigerator (complex functional equations and estimates), then prove that the elephant (the zeros of the $\zeta$ function) must be inside. Matiyasevich's approach, by contrast, is: first construct an infinitely long conveyor belt, with a refrigerator door placed every meter along it. Then we check meter by meter: if some refrigerator door cannot close ($r(n) \le 0$), the elephant is outside; if all doors close properly, the elephant is inside. The conveyor belt is the state sequence of the register machine, and our task is to observe this belt, checking whether any door fails to close.
 
-## 3. ZetaHalt 项目：从理论到实验
+## 3. The ZetaHalt Project: From Theory to Experiment
 
-### 3.1 当前状态：可复现的基线
+### 3.1 Current Status: A Reproducible Baseline
 
-作为 Phaenarete Project 的一部分，我们建立了 ZetaHalt 仓库，目前已完成以下工作：
+As part of the Phaenarete Project, we established the ZetaHalt repository, with the following work already completed:
 
-- 原始论文归档：`papers/matiyasevich2020riemann.pdf`。
-- 整数模拟器：`scripts/riemann_full_csv.py`，严格遵循论文图 2 的 Python 实现，能够对 $n=1,\dots,100$ 进行模拟。
-- 状态数据：`data/raw/riemann_states.csv`，包含每一步的 `n, p, d, m, f0, f1, f3, q, r, b`。所有 `r>0`，与 RH 一致。
+- Original paper archive: `papers/matiyasevich2020riemann.pdf`.
+- Integer simulator: `scripts/riemann_full_csv.py`, a Python implementation strictly following Figure 2 of the paper, capable of simulating for $n=1,\dots,100$.
+- State data: `data/raw/riemann_states.csv`, containing `n, p, d, m, f0, f1, f3, q, r, b` at each step. All `r > 0`, consistent with RH.
 
-这个基线的重要性在于：它是完全独立可复现的。任何研究者都可以克隆仓库，运行脚本，验证我们是否忠实再现了马蒂亚谢维奇的递归。这是开放科学的第一步。
+The importance of this baseline lies in its being fully independently reproducible. Any researcher can clone the repository, run the scripts, and verify whether we have faithfully reproduced Matiyasevich's recursion. This is the first step of open science.
 
-### 3.2 数值爆炸与对数域稳定化
+### 3.2 Numerical Explosion and Log-Domain Stabilization
 
-从 CSV 数据可以看到，$f_0(100)$ 已经达到约 $10^{200}$ 量级。普通整数无法继续。但我们可以将对数变换应用于所有递归公式，从而将乘法转化为加法，使模拟轻松达到 $n=10^4$ 甚至 $10^5$。关键挑战在于处理减法，例如在计算 $d(n+1) = 2n d(n) - 2(-1)^n f_0(n)$ 时，我们需要计算 $\log(A - B)$。这可以通过 `log_sub_exp` 函数实现：
+From the CSV data, one can observe that $f_0(100)$ has already reached approximately $10^{200}$. Ordinary integers cannot continue further. However, we can apply logarithmic transformations to all recursive formulas, thereby converting multiplication into addition and enabling simulation to easily reach $n=10^4$ or even $10^5$. The key challenge lies in handling subtraction, e.g., when computing $d(n+1) = 2n d(n) - 2(-1)^n f_0(n)$, we need to compute $\log(A - B)$. This can be implemented via the `log_sub_exp` function:
 
 ```python
 def log_sub_exp(log_a: float, log_b: float) -> float:
@@ -97,98 +97,98 @@ def log_sub_exp(log_a: float, log_b: float) -> float:
     return log_a + math.log1p(-math.exp(log_b - log_a))
 ```
 
-我们将在下一阶段实现这个稳定版本，并生成大规模 Parquet 格式数据集，供机器学习使用。
+We will implement this stabilized version in the next phase and generate large-scale Parquet-format datasets for machine learning use.
 
-### 3.3 因果 Transformer 预测
+### 3.3 Causal Transformer Prediction
 
-一旦有了长序列数据（例如 $n=1,\dots,10^4$），我们就可以将状态演化建模为一个多变量时间序列预测任务。具体来说：
+Once we have long-sequence data (e.g., $n=1,\dots,10^4$), we can model the state evolution as a multivariate time series prediction task. Specifically:
 
-- 输入：过去 $L=20$ 步的状态特征向量，包括 `n, p, log_d, log_m, log_f0, log_f1, log_f3, log_q, log_r, b`。
-- 输出：下一步的 `log_r`（回归任务）以及 $r$ 的符号（二分类任务，即是否 >0）。
+- Input: state feature vectors from the past $L=20$ steps, including `n, p, log_d, log_m, log_f0, log_f1, log_f3, log_q, log_r, b`.
+- Output: the next step's `log_r` (regression task) and the sign of $r$ (binary classification task, i.e., whether > 0).
 
-我们选择因果 Transformer 作为模型架构(4层,4个注意力头，隐藏维度128)，并联合优化 MSE 损失和交叉熵损失。
+We choose a causal Transformer as the model architecture (4 layers, 4 attention heads, hidden dimension 128), jointly optimizing MSE loss and cross-entropy loss.
 
-为什么用 Transformer?因为状态变量之间存在长距离依赖：例如素数计数 $p$ 的变化会影响后续所有 $r$ 的计算。自注意力机制能够捕捉这种跨步长的关系。
+Why use a Transformer? Because long-distance dependencies exist among state variables: for instance, changes in the prime count $p$ affect the computation of all subsequent $r$ values. The self-attention mechanism can capture such cross-stride relationships.
 
-一个有趣的测试：在 $n \le 5000$ 上训练模型，然后在 5001–10000 上测试。如果模型的符号预测准确率仍然接近 100%，那么它很可能学到了某种与 $n$ 无关的不变量结构；如果性能崩溃，则说明模型只是过拟合了训练分布的特定模式——这本身也是一个重要的结论，因为它告诉我们系统行为在某个尺度上发生了质变。
+An interesting test: train the model on $n \le 5000$, then test on 5001–10000. If the model's sign prediction accuracy remains near 100%, it has likely learned某种 invariant structure independent of $n$; if performance collapses, it indicates the model merely overfit specific patterns within the training distribution—this itself is an important conclusion, telling us that system behavior undergoes qualitative change at some scale.
 
-### 3.4 可解释性：从不变量发现到形式化验证
+### 3.4 Interpretability: From Invariant Discovery to Formal Verification
 
-机器学习模型通常被视为黑箱。但在 ZetaHalt 中，我们恰恰希望打开这个黑箱，提取出可理解的数学知识。我们将使用以下工具：
+Machine learning models are typically viewed as black boxes. But in ZetaHalt, we specifically wish to open this black box and extract understandable mathematical knowledge. We will employ the following tools:
 
-- 注意力热力图：分析模型在预测时最关注哪些历史步和哪些变量。预期 $p$（素数计数）和 $d$（$\psi$ 的近似）会获得高权重。
-- 集成梯度(Integrated Gradients)：量化每个输入特征对预测 `log_r` 的边际贡献。这可以告诉我们哪些变量组合是关键的。
-- 符号回归(PySR)：将模型学到的映射（例如从 `log_d, log_f0, log_p` 到 `log_r` 的增量）拟合为解析表达式。例如，模型可能暗示存在常数 $C$ 使得
+- Attention heatmaps: Analyze which historical steps and which variables the model focuses on most during prediction. We expect $p$ (prime count) and $d$ (approximation of $\psi$) to receive high weights.
+- Integrated Gradients: Quantify the marginal contribution of each input feature to the prediction of `log_r`. This can tell us which variable combinations are critical.
+- Symbolic Regression (PySR): Fit the mapping learned by the model (e.g., the increment from `log_d, log_f0, log_p` to `log_r`) as an analytic expression. For instance, the model may suggest the existence of a constant $C$ such that
 
 $$
 \log r \approx \log f_3 - C \log\bigl(p^2 (m - f_0)\bigr).
 $$
 
-如果 $C$ 非常接近 1,那么我们就得到了一个候选不变量：$r \approx f_3 - p^2(m-f_0)$。这恰好就是原始定义，所以模型可能只是学会了恒等式。但更微妙的情况是，模型可能会发现一个更紧的界，比如
+If $C$ is very close to 1, we have obtained a candidate invariant: $r \approx f_3 - p^2(m-f_0)$. This happens to be the original definition, so the model may have simply learned the identity. But a more subtle possibility is that the model might discover a tighter bound, such as
 
 $$
-r > f_3 - \frac{25}{24} p^2(m-f_0) \quad \text{对所有 } n>1000.
+r > f_3 - \frac{25}{24} p^2(m-f_0) \quad \text{for all } n>1000.
 $$
 
-这样的猜想可以直接交给 Phaenarete Project 的 PrimeClaw 系统：Prover 智能体尝试在 Lean 4 中证明它,Sentinel 验证证明的正确性。如果证明成功，我们就获得了一个新的数论引理；如果失败，失败记录也会被存储，作为“此路不通”的标记。
+Such conjectures can be directly handed to Phaenarete Project's PrimeClaw system: the Prover agent attempts to prove it in Lean 4, while Sentinel verifies the proof's correctness. If the proof succeeds, we obtain a new number-theoretic lemma; if it fails, the failure record is stored as a marker of "this path is impassable."
 
-## 4. 在 Phaenarete Project 中的角色
+## 4. Role Within the Phaenarete Project
 
-ZetaHalt 不是孤立的。它是 Phaenarete Project 的一个子项目，后者致力于构建一个名为 PrimeClaw 的人机协同数学研究基础设施。PrimeClaw 包含四个智能体：
+ZetaHalt is not isolated. It is a subproject of the Phaenarete Project, which is dedicated to constructing a human-machine collaborative mathematical research infrastructure called PrimeClaw. PrimeClaw comprises four agents:
 
-- Archivist：维护数学知识图谱，包括定理、引理、已知反例和失败路径。
-- Explorer：使用蒙特卡洛树搜索和策略网络生成候选猜想和引理。
-- Prover：将自然语言或伪代码转化为 Lean 4 证明脚本。
-- Sentinel：调用 Lean 4 内核进行确定性验证，是系统中唯一不使用概率模型的部分。
+- Archivist: Maintains the mathematical knowledge graph, including theorems, lemmas, known counterexamples, and failed paths.
+- Explorer: Uses Monte Carlo tree search and policy networks to generate candidate conjectures and lemmas.
+- Prover: Transforms natural language or pseudocode into Lean 4 proof scripts.
+- Sentinel: Invokes the Lean 4 kernel for deterministic verification; it is the only component in the system that does not employ probabilistic models.
 
-ZetaHalt 在 PrimeClaw 中扮演两个角色：
+ZetaHalt plays two roles within PrimeClaw:
 
-1. 作为 Explorer 的轻量级模拟器：Explorer 在搜索新引理时，需要快速评估某些数值模式。ZetaHalt 的对数域模拟器可以在毫秒内计算任意 $n$ 下的 $r(n)$ 符号，为 MCTS 提供低成本的启发式信号。
-2. 作为不变量发现的实验场：ZetaHalt 生成的候选不变量（通过符号回归）可以直接注入 PrimeClaw 的证明管道，形成“数据驱动猜想 → 形式化验证 → 知识图谱更新”的闭环。
+1. As a lightweight simulator for Explorer: When Explorer searches for new lemmas, it needs to rapidly evaluate certain numerical patterns. ZetaHalt's log-domain simulator can compute the sign of $r(n)$ for arbitrary $n$ within milliseconds, providing low-cost heuristic signals for MCTS.
+2. As an experimental ground for invariant discovery: Candidate invariants generated by ZetaHalt (via symbolic regression) can be directly injected into PrimeClaw's proof pipeline, forming a closed loop of "data-driven conjecture → formal verification → knowledge graph update."
 
-## 5. 诚实的风险评估与失败哲学
+## 5. Honest Risk Assessment and a Philosophy of Failure
 
-我必须坦率地承认：ZetaHalt 项目在 18 个月内证明或证伪黎曼猜想的概率接近于零。这不是一个“解决 RH 计划”，而是一个“探索 RH 等价计算模型结构”的计划。我们的成功标准是：
+I must candidly acknowledge: the probability that the ZetaHalt project will prove or disprove the Riemann Hypothesis within 18 months is close to zero. This is not a "solve RH plan," but rather a "explore the structure of RH's equivalent computational model" plan. Our success criteria are:
 
-- 成功构建对数域稳定模拟器，生成 $n=10^4$ 以上的状态序列。
-- 训练一个在分布内预测准确率 >99% 的 Transformer 模型。
-- 通过可解释性方法提取至少一个候选数学不变量（无论它最终是否被证明）。
-- 将所有尝试（包括失败的）记录为结构化数据，公开发布。
+- Successfully construct a log-domain stabilized simulator, generating state sequences for $n \ge 10^4$.
+- Train a Transformer model with in-distribution prediction accuracy > 99%.
+- Extract at least one candidate mathematical invariant through interpretability methods (regardless of whether it is ultimately proven).
+- Record all attempts (including failures) as structured data and publish them publicly.
 
-失败的记录本身就是知识。在数学史上，许多重大突破建立在前人系统排除错误路径的基础上。Lakatos 在《证明与反驳》中强调，数学的进步不仅来自正确的证明，也来自对错误案例的深刻理解。ZetaHalt 将公开所有“死胡同”：那些被证伪的候选不变量、那些无法外推的模型、那些数值不稳定的边界。这些记录将成为后续研究者的导航图，避免他们重复同样的错误。
+The record of failure is itself knowledge. In the history of mathematics, many major breakthroughs have been built upon predecessors' systematic elimination of erroneous paths. Lakatos, in *Proofs and Refutations*, emphasized that mathematical progress comes not only from correct proofs but also from deep understanding of erroneous cases. ZetaHalt will公开 all "dead ends": those falsified candidate invariants, those models that cannot extrapolate, those numerically unstable boundaries. These records will serve as a navigation chart for subsequent researchers, preventing them from repeating the same mistakes.
 
-## 6. 如何参与
+## 6. How to Participate
 
-ZetaHalt 是一个完全开源的项目(MIT 许可证)。我们欢迎三类贡献：
+ZetaHalt is a fully open-source project (MIT License). We welcome three types of contributions:
 
-- 数学方向：帮助验证递归公式的正确性，分析 $r(n)$ 的渐近行为，或者指出马蒂亚谢维奇原始证明中可能被我们误解的细节。
-- 形式化方向：使用 Lean 4 将马蒂亚谢维奇的递归定义和基本性质形式化，提交到 `Phaenarete-Project/ZetaHalt` 仓库。这是构建数论形式化库的第一步。
-- 机器学习方向：尝试不同的序列模型(LSTM、Transformer、状态空间模型)，设计更好的外推测试，或者改进符号回归的搜索策略。
+- Mathematical direction: Help verify the correctness of the recursive formulas, analyze the asymptotic behavior of $r(n)$, or point out details in Matiyasevich's original proof that we may have misunderstood.
+- Formalization direction: Use Lean 4 to formalize Matiyasevich's recursive definitions and basic properties, submitting to the `Phaenarete-Project/ZetaHalt` repository. This is the first step toward constructing a formalized number theory library.
+- Machine learning direction: Try different sequence models (LSTM, Transformer, state space models), design better extrapolation tests, or improve symbolic regression search strategies.
 
-所有代码、数据、模型权重和探索日志都将公开。我们相信，开放协作是应对极端困难问题的最佳策略。
+All code, data, model weights, and exploration logs will be made public. We believe that open collaboration is the best strategy for confronting extremely difficult problems.
 
-## 7. 结语
+## 7. Conclusion
 
-希尔伯特在 1930 年退休演讲中说：“我们必须知道，我们必将知道。” 这句话充满了对理性力量的信心。但一个世纪后，黎曼猜想仍然悬而未决。这不是理性的失败，而是数学深度的证明。
+Hilbert, in his 1930 retirement address, declared: "We must know, we shall know." This statement is filled with confidence in the power of reason. Yet a century later, the Riemann Hypothesis remains unresolved. This is not a failure of reason, but proof of mathematics' depth.
 
-ZetaHalt 项目无意于宣告“我们即将知道”。它想说的是：我们可以用新的工具去观察、去模拟、去预测一个与 RH 等价的离散系统。即使我们无法在短期内登顶，我们也可以绘制更精细的地图，标注出危险的沼泽和陡峭的悬崖。这些地图本身，就是知识的增量。
+The ZetaHalt project does not intend to proclaim "we shall soon know." What it wishes to say is: we can use new tools to observe, simulate, and predict a discrete system equivalent to RH. Even if we cannot reach the summit in the near term, we can draw more refined maps, marking dangerous swamps and steep cliffs. These maps themselves constitute increments of knowledge.
 
-因此，我邀请你——无论你是数论学家、逻辑学家、形式化验证专家，还是机器学习研究者——来一起探索这台 29 寄存器机的行为。它也许不会告诉我们黎曼猜想的最终答案，但它一定会告诉我们一些我们从未知道的、关于计算与数论之间深层联系的东西。
+Therefore, I invite you—whether you are a number theorist, logician, formal verification expert, or machine learning researcher—to jointly explore the behavior of this 29-register machine. It may not tell us the ultimate answer to the Riemann Hypothesis, but it will certainly reveal things we never knew about the deep connections between computation and number theory.
 
 ---
 
-项目链接
+Project Links
 
-- 代码仓库：https://github.com/Phaenarete-Project/ZetaHalt
-- 项目主页（规划）：https://riemann.phaenarete.org
-- 联系方式：<contact@example.com>
+- Code Repository: https://github.com/Phaenarete-Project/ZetaHalt
+- Project Homepage (planned): https://riemann.phaenarete.org
+- Contact: <contact@example.com>
 
-致谢
+Acknowledgments
 
-感谢马蒂亚谢维奇教授的开创性工作，以及所有在黎曼猜想数值验证和理论研究中做出贡献的数学家。感谢 Phaenarete Project 团队成员，特别是 良之 和 Travor Liu,为本项目提供了坚实的支持。
+Thanks to Professor Matiyasevich for his pioneering work, and to all mathematicians who have contributed to numerical verification and theoretical research on the Riemann Hypothesis. Thanks to the Phaenarete Project team members, especially 良之 (Liangzhi) and Travor Liu, for providing solid support to this project.
 
 ---
 
-*本文基于 Phaenarete Project 的技术报告撰写，所有事实性陈述均已核实。如发现错误，请通过上述邮箱联系，我们将在 24 小时内更正。*
+*This article is based on a technical report from the Phaenarete Project; all factual statements have been verified. If errors are found, please contact us via the email address above, and we will correct them within 24 hours.*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

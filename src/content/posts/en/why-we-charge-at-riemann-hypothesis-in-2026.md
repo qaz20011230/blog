@@ -1,324 +1,324 @@
 ---
-title: 我们为何在2026年向黎曼猜想发起冲锋
+title: Why We Charge at the Riemann Hypothesis in 2026
 date: '2026-03-19'
 category: Mathematics & Logic
 tags:
   - Riemann Hypothesis
   - mathematics
-  - 数论
+  - number theory
 description: >
-  “We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are har…
+  "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are har…
 ---
 
-> “We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills.” —— John F. Kennedy, 1962
+> "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills." —— John F. Kennedy, 1962
 >
-> “我们选择在这个十年登月并开启其他征程，不是因为它们容易，而是因为它们困难；因为这个目标将汇聚并衡量我们最优秀的能量与技艺。” —— 约翰·肯尼迪,1962年
+> "We choose to go to the moon in this decade and launch other endeavors, not because they are easy, but because they are hard; because this goal will gather and measure our finest energies and skills." —— John F. Kennedy, 1962
 >
-> “Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.” —— Matthew 7:7
+> "Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you." —— Matthew 7:7
 >
-> “你们祈求，就给你们；寻找，就寻见；叩门，就给你们开门。” —— 《马太福音》 7:7
+> "Ask, and it will be given to you; seek, and you will find; knock, and the door will be opened to you." —— Matthew 7:7
 
 ---
 
-## 引言：历史的奇点
+## Introduction: A Singularity in History
 
-1859年，伯恩哈德·黎曼发表了一篇只有八页的论文，《论小于给定数的素数个数》。在这篇论文中，他轻描淡写地提及了一个命题，随后补充道：“对此命题当然需要严格的证明，经过一番短暂而徒劳的尝试后，我暂时将其搁置。”
+In 1859, Bernhard Riemann published a paper of only eight pages, *On the Number of Primes Less Than a Given Quantity* (《论小于给定数的素数个数》). In this paper, he casually mentioned a proposition, then added: "Certainly one would wish for a strict proof here; I have after some fleeting futile attempts provisionally set aside the search for this."
 
-这一搁置，便是一百六十六年。
+That setting aside has lasted one hundred and sixty-six years.
 
-在这一百六十六年里，无数天才为之倾倒。哈代证明了临界线上有无穷多个零点，但“无穷多”不是“全部”；塞尔伯格证明了正比例零点位于线上，但“比例”不是“必然”；计算机验证了前十万亿个零点都在线上，但“验证”不是“证明”。黎曼猜想依然矗立，如一座冰雪覆盖的绝顶，俯瞰着所有试图攀登者。
+During those one hundred and sixty-six years, countless geniuses were captivated. Hardy proved there are infinitely many zeros on the critical line, but "infinitely many" is not "all"; Selberg proved a positive proportion of zeros lie on the line, but "proportion" is not "certainty"; computers verified the first ten trillion zeros all lie on the line, but "verification" is not "proof." The Riemann Hypothesis still stands, like an ice-covered summit, surveying all who attempt to climb it.
 
-然而今天,2026年3月，我们站在一个前所未有的历史奇点。不是因为人类突然变得更聪明，而是因为我们拥有了**思想的无限算力**——一种能够以token为基本单位，在形式与直觉、逻辑与想象之间无限穿梭的认知新范式。
+Yet today, March 2026, we stand at an unprecedented historical singularity. Not because humanity has suddenly become smarter, but because we possess **infinite computational power for thought**—a new cognitive paradigm capable of shuttling infinitely between form and intuition, logic and imagination, at the granularity of tokens.
 
-2026年开年，数学界已然暗流涌动。菲尔兹奖得主陶哲轩预言,AI将自主攻克1%到2%的埃尔德什难题。谷歌DeepMind的Gemini模型在代数几何领域给出了连斯坦福教授都惊叹的“优雅洞察”。埃隆·马斯克的Grok 4.20仅用五分钟，便在Bellman函数问题上实现了平方根级别的跃升。这些不是科幻，是正在发生的现实。
+At the start of 2026, the mathematical world was already experiencing undercurrents. Fields Medalist Terry Tao预言 that AI will autonomously conquer 1% to 2% of Erdős problems. Google DeepMind's Gemini model produced "elegant insights" in algebraic geometry that even Stanford professors marveled at. Elon Musk's Grok 4.20 achieved a square-root-level leap on the Bellman function problem in just five minutes. These are not science fiction; they are reality正在发生.
 
-本文将系统阐述，为何此时此刻，是向黎曼猜想发起冲锋的最佳窗口期。我们将从理论突破、AI能力跃迁、形式化基础设施、方法论创新、团队配置五个维度展开。但在开始之前，我必须先做一个诚实的声明：
+This article will systematically阐述 why this particular moment is the optimal window for charging at the Riemann Hypothesis. We will展开 from five dimensions: theoretical breakthroughs, AI capability leaps, formalization infrastructure, methodological innovation, and team configuration. But before beginning, I must make an honest declaration:
 
-**本文不承诺在18个月内证明黎曼猜想。**
+**This article does not promise to prove the Riemann Hypothesis within 18 months.**
 
-我们承诺的是：在这18个月里，我们将建立一个可重复、可扩展、可传承的“人机协同数学研究基础设施”。无论最终是否登顶，这套系统留下的海量Lean 4形式化库、探索失败的完备数据集，以及Turn-Lang元语言架构，都将成为人类智识的永久资产。这也是 [Phaenarete Project](https://phaenarete-project.github.io/Maieutica/) 宏大计划的一部分。
+What we promise is: during these 18 months, we will build a reproducible, scalable, inheritable "human-machine collaborative mathematical research infrastructure." Whether or not we ultimately reach the summit, the massive Lean 4 formalization library, the complete dataset of exploration failures, and the Turn-Lang meta-language architecture left behind by this system will all成为 permanent assets of human intellect. This is also part of the grand plan of the [Phaenarete Project](https://phaenarete-project.github.io/Maieutica/).
 
-这并非一场关于“结果”的投机，而是对“认知边界拓荒过程”的战略投资。
+This is not a speculation on "results," but a strategic investment in the "process of pushing the boundaries of cognition."
 
-## 第一章 历史的坐标：黎曼猜想的一百六十六年
+## Chapter One Historical Coordinates: One Hundred and Sixty-Six Years of the Riemann Hypothesis
 
-在深入分析窗口期之前，我们需要先校准自己的历史坐标。
+Before deeply analyzing the window, we must first calibrate our historical coordinates.
 
-1737年，欧拉发现素数乘积公式，开启了素数分布的分析研究。1859年，黎曼将$\zeta$函数解析延拓至整个复平面，提出关于非平凡零点实部的猜想。1885年，斯蒂尔杰斯宣称证明了黎曼猜想，但未获承认。1896年，阿达马和德·拉·瓦莱·普桑独立证明素数定理，这是黎曼猜想的弱形式，却已耗费四十年。1914年，哈代证明无穷多零点位于临界线。1942年，塞尔伯格证明正比例零点在线。1972年，蒙哥马利与戴森的偶然相遇，揭示了零点统计与随机矩阵理论的惊人联系。1974年，德利涅证明韦伊猜想，为黎曼猜想的几何形式铺路。2000年，克莱数学研究所将其列为千禧年七大难题之一。2020年，罗杰斯和陶哲轩证明德·布鲁因–纽曼常数非负，将黎曼猜想等价于一个数值等式。2022年，张益唐在Landau–Siegel零点问题上取得多项式量级的突破。2024年，梅纳德和古斯用decoupling技术改进了八十年来未变的零密度估计。
+In 1737, Euler discovered the prime product formula, opening analytic research on prime distribution. In 1859, Riemann analytically continued the $\zeta$ function to the entire complex plane, proposing the conjecture concerning the real parts of non-trivial zeros. In 1885, Stieltjes claimed to have proven the Riemann Hypothesis, but this was not recognized. In 1896, Hadamard and de la Vallée Poussin independently proved the Prime Number Theorem, a weak form of the Riemann Hypothesis, yet it already consumed forty years. In 1914, Hardy proved infinitely many zeros lie on the critical line. In 1942, Selberg proved a positive proportion of zeros lie on the line. In 1972, the chance encounter between Montgomery and Dyson revealed the astonishing connection between zero statistics and random matrix theory. In 1974, Deligne proved the Weil conjectures, paving the way for a geometric form of the Riemann Hypothesis. In 2000, the Clay Mathematics Institute listed it as one of the seven Millennium Prize Problems. In 2020, Rodgers and Tao proved the de Bruijn–Newman constant is non-negative, making the Riemann Hypothesis equivalent to a numerical equality. In 2022, Yitang Zhang (张益唐) achieved a polynomial-scale breakthrough on the Landau–Siegel zero problem. In 2024, Maynard and Guth used decoupling techniques to improve the zero density estimate that had stood unchanged for eighty years.
 
-每一步，都耗费数十年光阴；每一步，都让这座冰山融化些许。但直至2025年，我们依然没有看到全貌。
+Every step consumed decades; every step melted a portion of this iceberg. But as of 2025, we still have not seen the full picture.
 
-为什么？因为黎曼猜想触碰的是数学最深层的结构——它连接着素数的离散分布与$\zeta$函数的连续分析，连接着随机矩阵的统计规律与量子混沌的谱分布，连接着非交换几何的迹公式与朗兰兹纲领的函子性。这是一个多维度、跨领域的巨型拼图，仅凭单个头脑、单一工具，绝无可能完成。
+Why? Because the Riemann Hypothesis touches the deepest structures of mathematics—it connects the discrete distribution of primes with the continuous analysis of the $\zeta$ function, connects the statistical regularities of random matrices with the spectral distributions of quantum chaos, connects the trace formulas of noncommutative geometry with the functoriality of the Langlands program. This is a multi-dimensional, cross-domain giant puzzle that cannot possibly be completed by a single mind with a single tool.
 
-所以，我们需要的不是另一个天才，而是一种全新的认知范式。
+Therefore, what we need is not another genius, but an entirely new cognitive paradigm.
 
-## 第二章 理论窗口：旧工具与新视角
+## Chapter Two Theoretical Window: Old Tools and New Perspectives
 
-### 2.1 古斯–梅纳德：decoupling技术的威力
+### 2.1 Guth–Maynard: The Power of Decoupling Techniques
 
-2024年，詹姆斯·梅纳德和拉里·古斯合作，将调和分析中的decoupling技术引入Dirichlet和的研究。他们实现了对长Dirichlet多项式频率的精细分解，将零密度估计的关键指数从$3/5$推进到$13/25$。
+In 2024, James Maynard and Larry Guth collaborated to introduce decoupling techniques from harmonic analysis into the study of Dirichlet sums. They achieved a fine decomposition of the frequencies of long Dirichlet polynomials, advancing the key exponent in zero density estimates from $3/5$ to $13/25$.
 
-这个进步的意义，不在于具体数值的改善，而在于方法论的示范：一个八十年来无人能够撼动的经典问题，被一套原本不用于此领域的工具重新打开了。梅纳德和古斯没有发明新数学，他们只是用新视角审视了旧工具。
+The significance of this advance lies not in the specific numerical improvement, but in the methodological demonstration: a classical problem that no one could shake for eighty years was reopened by a set of tools originally not intended for this field. Maynard and Guth did not invent new mathematics; they merely examined old tools from a new perspective.
 
-**但我们需要诚实面对：从$13/25$到$1/2$，依然横亘着一道理论鸿沟。** 解析数论中，逼近临界线往往不是一个线性的参数优化过程，而是存在本质的理论屏障。我们深知decoupling技术在临界线附近的贡献存在边际效用递减，因此我们的重点不在于堆砌算力进行盲目尝试，而在于通过AI寻找该工具在特定权函数下的“非线性突变点”。
+**But we must honestly confront: from $13/25$ to $1/2$, a theoretical chasm still横亘.** In analytic number theory, approaching the critical line is often not a linear parameter optimization process, but involves essential theoretical barriers. We深知 that the contribution of decoupling techniques near the critical line exhibits diminishing marginal returns; therefore our focus is not on stacking compute for blind attempts, but on using AI to search for "nonlinear突变 points" of this tool under specific weight functions.
 
-- **阶段性目标(18个月)：** 在形式化系统中，利用PrimeClaw的搜索能力，探索能否将零密度界从$13/25$推进到$13/25 - \varepsilon$。哪怕只是微小的改进，也将是80年来第二次突破，并将为后续研究提供宝贵的数据资产。
+- **Phase goal (18 months):** In a formalized system, leveraging PrimeClaw's search capability, explore whether the zero density bound can be advanced from $13/25$ to $13/25 - \varepsilon$. Even a marginal improvement would be the second breakthrough in 80 years and would provide valuable data assets for subsequent research.
 
-### 2.2 张益唐：Landau–Siegel的第二次奇迹
+### 2.2 Yitang Zhang: The Second Miracle of Landau–Siegel
 
-2022年，张益唐发表了111页的长文，证明Dirichlet L-函数在$1$附近不存在Landau–Siegel零点，其界值是$(\log \Delta)^{-2024}$量级。这是自1930年代以来，该问题首次从指数级推进到多项式级。
+In 2022, Yitang Zhang (张益唐) published a 111-page paper proving that Dirichlet L-functions have no Landau–Siegel zero near $1$, with a bound of $(\log \Delta)^{-2024}$ magnitude. This was the first advancement from exponential to polynomial scale on this problem since the 1930s.
 
-张益唐的故事本身就是一个隐喻。从博士毕业后，他长期默默无闻，在新罕布什尔大学教书，甚至在赛百味打过工。2013年,58岁的他证明了孪生素数猜想的弱形式，震惊世界。2022年,67岁的他又攻克了Landau–Siegel零点问题。他的存在本身，就是一种精神锚点。
+Zhang's story is itself a metaphor. After completing his doctorate, he长期 remained obscure, teaching at the University of New Hampshire and even working at Subway. In 2013, at age 58, he proved a weak form of the Twin Prime Conjecture, shocking the world. In 2022, at age 67, he conquered the Landau–Siegel zero problem. His existence itself serves as a spiritual anchor.
 
-但我们同样需要诚实：将Landau–Siegel技术推广到复零点，目前看来是一个“原理问题”，而非“工程问题”。张益唐的证明强烈依赖于实零点（$L(1,\chi)$的下界）的特殊代数性质，将其直接平移到复零点分布在现有框架下几乎是“范畴错误”。
+But we must likewise be honest: extending Landau–Siegel techniques to complex zeros is目前看来 a "principle problem," not an "engineering problem." Zhang's proof strongly depends on the special algebraic properties of real zeros (the lower bound on $L(1,\chi)$); directly移植 this to complex zero distribution is几乎 a "category error" under existing frameworks.
 
-那么，我们为什么还要提它？因为探索“此路不通”本身，就是有价值的数学。我们的目标不是强行推广，而是：
+So why do we still mention it? Because exploring "this path is impassable" itself constitutes valuable mathematics. Our goal is not to强行推广, but:
 
-1. 用Lean 4完整形式化张益唐论文的核心部分，将其转化为机器可操作的形式化资产。
-2. 用AI探索“推广受阻”的具体数学结构，精确刻画实零点技术与复零点之间的本质障碍。
-3. 将这些障碍作为知识图谱中的“禁区”标记，告诉未来的探索者：这些路前人试过，别去了。
+1. Use Lean 4 to completely formalize the core portions of Zhang's paper, converting it into machine-operable formalized assets.
+2. Use AI to explore the specific mathematical structures where "extension is blocked," precisely刻画 the essential障碍 between real-zero techniques and complex zeros.
+3. Mark these obstacles as "restricted zones" in the knowledge graph, informing future explorers: these paths have been tried; do not go there.
 
-### 2.3 几何朗兰兹：大一统的曙光
+### 2.3 Geometric Langlands: The Dawn of Grand Unification
 
-2026年2月，萨姆·拉斯金、丹尼斯·盖茨戈里、尼克·罗森布鲁姆等数学家发布了长达800多页的几何朗兰兹猜想证明。这一工作打通了从D-模到叠层的深层逻辑，揭示了算术几何与调和分析的统一框架。黎曼猜想作为朗兰兹纲领的核心特例，将直接受益于这一全新工具库。
+In February 2026, Sam Raskin, Dennis Gaitsgory, Nick Rozenblyum, and other mathematicians released an 800+ page proof of the geometric Langlands conjecture. This work打通 the deep logic from D-modules to stacks, revealing a unified framework of arithmetic geometry and harmonic analysis. The Riemann Hypothesis, as a core special case of the Langlands program, will directly benefit from this entirely new toolkit.
 
-### 2.4 谱嵌入猜想：绕过密度问题的新思路
+### 2.4 Spectral Embedding Conjecture: A New Approach Circumventing the Density Problem
 
-2026年初，一个国际团队提出了“谱嵌入”猜想。传统的Hilbert–Pólya思路受阻于“密度问题”：$\zeta$函数零点的密度远高于任何已知量子系统的能级密度。谱嵌入的思路是：将零点视为嵌入在一个更密集的谱中的子集，由某种机制选择出来。
+In early 2026, an international team proposed the "spectral embedding" conjecture. The traditional Hilbert–Pólya approach is受阻 by the "density problem": the density of $\zeta$ function zeros is far higher than the energy level density of any known quantum system. The spectral embedding approach treats zeros as a subset embedded within a denser spectrum, selected by some mechanism.
 
-研究者构造了一族超对称量子力学哈密顿量，通过变分分析发现，前几个黎曼零点可以作为近似特征值被高精度恢复，相对误差低于$8.5 \times 10^{-5}\%$。这一发现绕过了密度问题，并提供了可数值验证的预测。
+The researchers constructed a family of supersymmetric quantum mechanical Hamiltonians, and through variational analysis found that the first several Riemann zeros can be recovered as approximate eigenvalues with high precision, with relative error below $8.5 \times 10^{-5}\%$. This discovery circumvents the density problem and provides numerically verifiable predictions.
 
-将问题转化为谱嵌入，往往只是将难度等价转移到了“证明该特定算子族的存在性与完备性”上。我们的目标：用探索智能体生成这类猜想的变体，并用Lean进行部分形式化验证——即使不能完全证明，也能发现其逻辑一致性和潜在价值。
+Transforming the problem into spectral embedding往往 only equivalently shifts the difficulty to "proving the existence and completeness of that specific operator family." Our goal: use exploration agents to generate variants of such conjectures, and use Lean for partial formalization verification—even if full proof is impossible, we can discover their logical consistency and potential value.
 
-## 第三章 AI窗口：从工具到伙伴
+## Chapter Three The AI Window: From Tool to Partner
 
-如果说理论窗口是“硬件”升级，那么AI窗口就是“操作系统”革命。2025–2026年,AI数学推理能力的飞跃，使“人机协同”从科幻变为现实。
+If the theoretical window is a "hardware" upgrade, then the AI window is an "operating system" revolution. In 2025–2026, the leap in AI mathematical reasoning capability has made "human-machine collaboration" transition from science fiction to reality.
 
-### 3.1 Aletheia与FirstProof挑战
+### 3.1 Aletheia and the FirstProof Challenge
 
-2026年2月,Google DeepMind的数学研究智能体Aletheia,在首届FirstProof挑战中自主解决了10个科研级问题中的6个。这些问题的提出者包括菲尔兹奖得主、顶尖大学正教授，其中问题7此前被列为开放问题。
+In February 2026, Google DeepMind's mathematical research agent Aletheia autonomously solved 6 out of 10 research-grade problems in the inaugural FirstProof challenge. The proposers of these problems included Fields Medalists and full professors at top universities; Problem 7 had previously been listed as an open problem.
 
-Aletheia的表现，核心在于其“生成-验证解耦”架构和“不胡说八道”的设计原则。遇到无法解决的问题，它直接输出“No solution found”或在时限内保持沉默——以牺牲解题率为代价，换取输出的可靠性。这种设计，使AI从“竞赛选手”进化为“科研合作者”。
+Aletheia's performance rests核心 on its "generate-verify decoupling" architecture and its "no bullshitting" design principle. When encountering problems it cannot solve, it directly outputs "No solution found" or remains silent within the time limit—sacrificing solving rate to换取 reliability of output. This design enables AI to evolve from a "competition contestant" to a "research collaborator."
 
-陶哲轩评论：“AI已经成为我的初级合著者。”这句话的深意在于：AI不再是工具，而是认知伙伴。
+Terry Tao commented: "AI has already become my junior co-author." The deep implication of this statement is: AI is no longer a tool, but a cognitive partner.
 
-### 3.2 Lemmanaid：神经符号引理猜想
+### 3.2 Lemmanaid: Neural-Symbolic Lemma Conjecture
 
-2026年1月发布的Lemmanaid工具，是首个神经符号引理猜想系统。它利用微调的大模型生成引理模板，再用符号方法填充细节，在Isabelle的HOL库和形式化证明档案上，发现了50%和28%的黄金标准参考引理，比纯神经网络方法高出8-13个百分点。
+Released in January 2026, the Lemmanaid tool is the first neural-symbolic lemma conjecture system. It uses fine-tuned large models to generate lemma templates, then employs symbolic methods to fill in details, discovering 50% and 28% of gold-standard reference lemmas on Isabelle's HOL library and the formal proof archive, outperforming pure neural network methods by 8-13 percentage points.
 
-这一进展证明：AI已经能够“猜想”出数学家认为有价值的引理。这正是我们PrimeClaw系统中“探索智能体”所需要的核心能力。
+This progress proves: AI can already "conjecture" lemmas that mathematicians consider valuable. This is precisely the core capability needed by the "exploration agent" in our PrimeClaw system.
 
-### 3.3 Aristotle与AEG：人机协同的第一次实战胜利
+### 3.3 Aristotle and AEG: The First Practical Victory of Human-Machine Collaboration
 
-就在几天前，我们收到了令人振奋的消息：Mingli Yuan博士的论文《Arithmetic Expression Geometry I: Foundations》已被Harmonic公司的Aristotle数学超脑系统完整形式化验证。包含6个文件、37个定理，涵盖从算术流方程、算术挠率到接触结构的全部核心内容。所有定理均完全证明，零`sorry`，仅使用标准公理。
+Just days ago, we received令人振奋 news: Dr. Mingli Yuan's paper *Arithmetic Expression Geometry I: Foundations* has been completely formally verified by Harmonic's Aristotle mathematical hyperbrain system. It comprises 6 files and 37 theorems, covering all core content from arithmetic flow equations, arithmetic torsion, to contact structures. All theorems are fully proven, zero `sorry`, using only standard axioms.
 
-这意味着：
+This means:
 
-- **AEG已成为可执行的基础设施。** 它不再是纸上的几何直觉，而是可以被Lean 4调用的形式化库。AEG提供的不是一个简单的解法，而是一套全新的度量衡。
-- **为三支柱提供了新工具。** AEG的算子包（如$\bar{\partial}_{\text{AEG}}$和$\Delta_H + i\mu\lambda\partial_a$）可嵌入PrimeClaw,用于探索谱问题。
-- **人机协同范式得到实战验证。** Yuan博士提供几何直觉（尽管他并未参与合作）,Aristotle完成形式化苦工，醒来时真理已降生——这正是我们承诺的“苏格拉底助产术”的完美预演。
+- **AEG has become executable infrastructure.** It is no longer geometric intuition on paper, but a formalized library callable by Lean 4. AEG provides not a simple solution, but an entirely new system of measures.
+- **New tools for the three pillars.** AEG's operator package (such as $\bar{\partial}_{\text{AEG}}$ and $\Delta_H + i\mu\lambda\partial_a$) can be embedded into PrimeClaw for exploring spectral problems.
+- **The human-machine collaboration paradigm has been validated in practice.** Dr. Yuan provided geometric intuition (though he did not participate in the collaboration), Aristotle completed the formalization labor—truth was born while he slept. This is the perfect预演 of the "Socratic midwifery" we承诺.
 
-### 3.4 从“解题”到“探索”：务实的课程学习路径
+### 3.4 From "Problem Solving" to "Exploration": A Pragmatic Curriculum Learning Path
 
-尽管AI能力突飞猛进，我们必须清醒认识到：Lean 4在“验证已知定理”与“探索性补全”之间存在巨大差距。期待它在RH级别的问题上自主收敛出完整证明，是过度乐观的。因此，我们设计了一套课程学习路径：
+Despite AI's rapid capability advances, we must清醒 recognize: there is a巨大的 gap between Lean 4's "verification of known theorems" and "exploratory completion." Expecting it to autonomously收敛 a complete proof on RH-level problems is过度乐观. Therefore, we have designed a curriculum learning path:
 
-- **前6个月（热身期）**：吃透并形式化解析数论的基础工具（圆法、筛法、Dirichlet多项式估计）。建立包含500+核心引理的Lean 4库。AEG形式化库将作为起点和范本。
-- **中间6个月（攻坚期）**：针对Guth–Maynard论文中的关键技术，用AI进行参数优化，目标是将零密度界推进到$13/25 - \varepsilon$。
-- **后6个月（拓展期）**：扩展到谱嵌入猜想、非交换几何路径，生成可验证的猜想变体。
+- **First 6 months (warm-up period)**: Thoroughly understand and formalize the foundational tools of analytic number theory (circle method, sieve methods, Dirichlet polynomial estimates). Build a Lean 4 library containing 500+ core lemmas. The AEG formalization library will serve as a starting point and model.
+- **Middle 6 months (assault period)**: Target the key techniques in the Guth–Maynard paper, using AI for parameter optimization, with the goal of advancing the zero density bound to $13/25 - \varepsilon$.
+- **Last 6 months (expansion period)**: Extend to the spectral embedding conjecture and noncommutative geometry paths, generating verifiable conjecture variants.
 
-## 第四章 基础设施窗口：Turn-Lang与形式化的未来
+## Chapter Four Infrastructure Window: Turn-Lang and the Future of Formalization
 
-### 4.1 跨越“证明孤岛”
+### 4.1 Crossing "Proof Islands"
 
-当前形式化工具之间存在基础逻辑不兼容的根本缺陷。在ZFC中证明的定理，到了HoTT中可能需要重新证明。这造成了数学知识的“孤岛化”。
+Current formalization tools suffer from a fundamental flaw of incompatibility in foundational logic. A theorem proved in ZFC may need to be reproved in HoTT. This causes "islandization" of mathematical knowledge.
 
-Turn-Lang被设计为一种“独立于基础的类型论”，将数学基础本身视为代数结构。当需要将抽象逻辑编译到ZFC时，一个函子将元逻辑范畴映射到ZFC范畴；当需要编译到HoTT时，另一个函子映射到HoTT范畴。函子必须保持结构：命题映射到命题，证明映射到证明，复合保持复合。
+Turn-Lang is designed as a "foundation-independent type theory," treating mathematical foundations themselves as algebraic structures. When abstract logic needs to be compiled to ZFC, a functor maps the meta-logical category to the ZFC category; when compiling to HoTT, another functor maps to the HoTT category. Functors must preserve structure: propositions map to propositions, proofs map to proofs, composition preserves composition.
 
-函子解释系统自动生成从一个解释到另一个解释的迁移证明。这解决了形式验证中最棘手的“证明孤岛”问题。
+The functorial interpretation system automatically generates migration proofs from one interpretation to another. This resolves the most棘手 "proof island" problem in formal verification.
 
-### 4.2 置信度有界类型：为不确定性划定边界
+### 4.2 Confidence-Bounded Types: Demarcating Boundaries for Uncertainty
 
-大语言模型的概率性输出无法被传统类型系统处理。Turn-Lang引入了置信度有界类型：
+The probabilistic output of large language models cannot be processed by traditional type systems. Turn-Lang introduces confidence-bounded types:
 
-| **级别** | **类型** | **置信度** | **验证方法** |
+| **Level** | **Type** | **Confidence** | **Verification Method** |
 |----------|----------|------------|--------------|
-| 1 | 已证类型 | 1.0 | 静态类型检查+形式证明 |
-| 2 | 模糊类型 | [c1, c2] | 运行时预言机验证 |
-| 3 | 实验类型 | 无 | 启发式/未验证 |
+| 1 | Proven type | 1.0 | Static type checking + formal proof |
+| 2 | Fuzzy type | [c1, c2] | Runtime oracle verification |
+| 3 | Experimental type | None | Heuristic/unverified |
 
-对于“模糊类型”，在Lean 4中的语义映射方式尤为关键。我们将利用Lean的`tactic`框架来挂载运行时预言机。编译器根据目标类型生成JSON Schema,预言机校验LLM输出。这保证了**认知类型安全**：即使来自概率模型的值，其结构正确性也由类型系统兜底。
+For "fuzzy types," the semantic mapping method in Lean 4 is尤为关键. We will leverage Lean's `tactic` framework to挂载 runtime oracles. The compiler generates JSON Schema based on the target type, and the oracle校验 the LLM output. This ensures **cognitive type safety**: even values from probabilistic models have their structural correctness guaranteed by the type system.
 
-### 4.3 Lean4Lean：元理论的形式化
+### 4.3 Lean4Lean: Formalization of Metatheory
 
-2026年1月,Chalmers理工大学的Mario Carneiro在POPL会议上报告了Lean4Lean项目——用Lean自身形式化Lean的元理论。该项目提供了首个除C++参考实现外的完整类型检查器，运行速度仅慢20%-50%，足以验证全部Mathlib库。
+In January 2026, Mario Carneiro of Chalmers University of Technology reported on the Lean4Lean project at the POPL conference—formalizing Lean's metatheory using Lean itself. The project provides the first complete type checker beyond the C++ reference implementation, running only 20%-50% slower, sufficient to verify the entire Mathlib library.
 
-这一进展的意义在于：**形式化系统自身的可靠性正在被形式化验证**。Turn-Lang将借鉴Lean4Lean的经验，确保其函子解释系统的元理论同样经得起推敲。
+The significance of this progress is: **the reliability of the formalization system itself is being formally verified.** Turn-Lang will借鉴 Lean4Lean's experience, ensuring its functorial interpretation system's metatheory also withstands scrutiny.
 
-### 4.4 Turn-Lang的交付承诺
+### 4.4 Turn-Lang's Delivery Commitments
 
-Turn-Lang不是Phaenarete Project的附属品，它是我们留给未来数学的永久基础设施。我们承诺：
+Turn-Lang is not an appendage of the Phaenarete Project; it is the permanent infrastructure we leave for the future of mathematics. We承诺:
 
-- **12个月内**：发布Turn-Lang核心编译器原型，支持从元语言到ZFC和CIC的函子映射。
-- **18个月内**：完成置信度有界类型的运行时预言机实现，并开源全部代码。
+- **Within 12 months**: Release the Turn-Lang core compiler prototype, supporting functorial mapping from the meta-language to ZFC and CIC.
+- **Within 18 months**: Complete the runtime oracle implementation for confidence-bounded types, and open-source all code.
 
-## 第五章 方法论创新：苏格拉底助产术
+## Chapter Five Methodological Innovation: Socratic Midwifery (苏格拉底助产术)
 
-### 5.1 从“机器解题”到“人机共育”
+### 5.1 From "Machine Problem Solving" to "Human-Machine Co-Nurturing"
 
-Phaenarete Project拒绝将AI视为“解题机器”，而是提出“苏格拉底助产术”范式。这一模型的核心是：人类数学家提供高维直觉，定义问题边界，评估证明的“优雅”与“意义”；AI系统则在约束内进行大规模类比、引理生成、逻辑搜索和实时验证。
+The Phaenarete Project拒绝 treating AI as a "problem-solving machine," instead proposing the "Socratic midwifery" paradigm. The core of this model is: human mathematicians provide high-dimensional intuition, define problem boundaries, and evaluate the "elegance" and "significance" of proofs; AI systems则 perform large-scale analogy, lemma generation, logical search, and real-time verification within constraints.
 
-Phaenarete,苏格拉底之母，就是助产士。苏格拉底说他做的也是同样的事——帮助人们“生出”自己的真理，而不是灌输现成答案。Phaenarete Project以此为名，也以此为基：**我们不生产真理，我们只是助产它。**
+Phaenarete (法埃娜蕾特), Socrates' mother, was a midwife. Socrates said he did the same—helping people "bring forth" their own truth, rather than灌输 ready-made answers. The Phaenarete Project takes this as its name and as its foundation: **we do not produce truth; we merely midwife it.**
 
-### 5.2 PrimeClaw：四智能体协同系统
+### 5.2 PrimeClaw: A Four-Agent Collaborative System
 
-为实现这一范式，我们开发了核心技术平台——**PrimeClaw**。该系统协调四个专门化的AI智能体：
+To realize this paradigm, we have developed the core technology platform—**PrimeClaw**. This system coordinates four specialized AI agents:
 
-- **知识智能体**：利用语义图技术，实时跟踪并索引海量文献，为系统提供最新的“战场地图”。
-- **探索智能体**：基于蒙特卡洛树搜索和策略网络，尝试不同的证明路径，生成大胆的猜想和模拟。
-- **证明智能体**：将探索路径转化为严格的数学逻辑，在Lean 4环境中尝试生成证明脚本。
-- **验证智能体**：作为最终哨兵，使用形式化验证内核进行逐行检查，确保“零缺陷”逻辑。
+- **Knowledge Agent**: Utilizing semantic graph technology to实时 track and index海量 literature, providing the system with the latest "battlefield map."
+- **Exploration Agent**: Based on Monte Carlo tree search and policy networks, attempting different proof paths, generating大胆 conjectures and simulations.
+- **Proof Agent**: Converting exploration paths into strict mathematical logic, attempting to generate proof scripts in the Lean 4 environment.
+- **Verification Agent**: As the final sentinel, using the formal verification kernel for line-by-line checking, ensuring "zero-defect" logic.
 
-### 5.3 填补“语义鸿沟”：自动形式化中介层
+### 5.3 Bridging the "Semantic Gap": The Auto-Formalization Intermediary Layer
 
-这是PrimeClaw架构中最关键的环节。Explorer智能体基于MCTS发现的高维直觉通常是非形式化的，如果直接交给Prover,极易在Lean 4中陷入报错死循环。
+This is the most关键环节 in the PrimeClaw architecture. The high-dimensional intuition discovered by the Explorer agent via MCTS is typically non-formalized; if directly handed to the Prover, it极易陷入 error feedback loops in Lean 4.
 
-我们的解决方案是引入一个专门的**自动形式化中介层**。它旨在跨越非形式化直觉与形式化逻辑之间的“语义奇点”，防止证明路径在Lean 4的严格类型检查中陷入组合爆炸或无效搜索。该中介层（微调后的模型底座）的唯一职责是将伪代码翻译为合法的Lean 4 Tactic。这构成了`猜想 → 翻译 → 验证 → 反馈`的闭环。
+Our solution is to introduce a dedicated **auto-formalization intermediary layer**. It aims to跨 the "semantic singularity" between non-formalized intuition and formalized logic, preventing proof paths from陷入 combinatorial explosion or invalid search under Lean 4's strict type checking. This intermediary layer (a fine-tuned model base) has the sole responsibility of translating pseudocode into valid Lean 4 Tactics. This forms the closed loop of `conjecture → translation → verification → feedback`.
 
-### 5.4 三大支柱：一份诚实的进度表
+### 5.4 Three Pillars: An Honest Progress Schedule
 
-基于当前进展，我们勾勒了一个由三大支柱组成的可能证明蓝图。但更重要的是，我们为每个支柱设定了可交付的阶段性目标：
+Based on current progress, we have sketched a possible proof blueprint composed of three pillars. But more importantly, we have set deliverable phase goals for each pillar:
 
-**支柱一：算术谱约束(Connes路径)**
-- **理论风险**：高。Connes的非交换几何框架与经典解析数论之间的桥梁尚未完全建立。
-- **18个月目标**：完成Connes早期论文中关键引理的Lean 4形式化，构建“算术谱约束”的知识图谱，明确该路径的理论障碍。AEG的算术挠率与接触结构可能为此提供新的几何语言。
+**Pillar One: Arithmetic Spectral Constraint (Connes Path)**
+- **Theoretical risk**: High. The bridge between Connes's noncommutative geometry framework and classical analytic number theory has尚未 been fully established.
+- **18-month goal**: Complete Lean 4 formalization of key lemmas in Connes's early papers, construct a knowledge graph of "arithmetic spectral constraint," and明确 the theoretical障碍 on this path. AEG's arithmetic torsion and contact structures may为此 provide new geometric language.
 
-**支柱二：密度界耦合(Guth–Maynard + 张益唐路径)**
-- **理论风险**：中高。将Landau–Siegel技术推广到复零点是原理性问题，不可强行突破。
-- **18个月目标**：① 完整形式化Guth–Maynard论文的核心估计；② 探索能否将零密度界从$13/25$推进到$13/25 - \varepsilon$；③ 形式化张益唐Landau–Siegel论文的关键部分，精确刻画推广受阻的数学结构。AEG的“累积交换空间”与加权面积积分可能为理解这些估计提供新视角。
+**Pillar Two: Density Bound Coupling (Guth–Maynard + Yitang Zhang Path)**
+- **Theoretical risk**: Medium-high. Extending Landau–Siegel techniques to complex zeros is a principle-level problem that cannot be强行突破.
+- **18-month goal**: ① Complete formalization of the core estimates in the Guth–Maynard paper; ② Explore whether the zero density bound can be advanced from $13/25$ to $13/25 - \varepsilon$; ③ Formalize key portions of Zhang's Landau–Siegel paper, precisely刻画 the mathematical structures where extension is blocked. AEG's "cumulative exchange space" and weighted area integrals may为 understanding these estimates提供 new perspectives.
 
-**支柱三：统计普适性（随机矩阵路径）**
-- **理论风险**：中。GUE统计与RH之间的等价性尚未严格证明。
-- **18个月目标**：① 构建$\zeta$函数零点分布的大规模数据集；② 用可解释性工具分析零点统计的异常模式；③ 尝试证明“GUE ⇒ RH”的弱形式。AEG的水平全纯场与扭曲调和性可能与随机矩阵的谱统计存在深层联系。
+**Pillar Three: Statistical Universality (Random Matrix Path)**
+- **Theoretical risk**: Medium. The equivalence between GUE statistics and RH has尚未 been rigorously proven.
+- **18-month goal**: ① Construct a large-scale dataset of $\zeta$ function zero distributions; ② Use interpretability tools to analyze anomalous patterns in zero statistics; ③ Attempt to prove a weak form of "GUE ⇒ RH." AEG's horizontal holomorphic fields and twisted harmonicity may与 the spectral statistics of random matrices存在 deep connections.
 
-每个支柱的进展将**每季度公开报告**，包括成功的路径和失败的尝试。这是我们对“开放科学”的最高诚意。
+Progress for each pillar will be **publicly reported every quarter**, including successful paths and failed attempts. This is our highest诚意 toward "open science."
 
-## 第六章 团队、资源与开放科学
+## Chapter Six Team, Resources, and Open Science
 
-### 6.1 跨代际的智力汇聚
+### 6.1 Cross-Generational Convergence of Intellect
 
-我们的团队涵盖了从经典解析数论到前沿AI架构的完整闭环：
+Our team covers the complete闭环 from classical analytic number theory to frontier AI architecture:
 
-| 角色 | 成员 | 背景与贡献 |
+| Role | Member | Background and Contribution |
 |------|------|------------|
-| 项目负责人 | 良之 | 项目创始人,Turn-Lang联合创始人与助产术框架的建构者 |
-| 首席数学家 | Travor Liu | 斯坦福大学博士生，独立arXiv论文作者 |
-| 战略顾问 | 刘建亚 院士 | 中科院院士，国家重点研发计划黎曼猜想项目首席 |
-| 特别顾问 | Yuri Matiyasevich 教授 | 俄罗斯科学院院士，希尔伯特第十问题解决者 |
-| 数学顾问 | 孙斌勇 院士 | 中科院院士,L-函数与表示论专家 |
-| 荣誉顾问 | 张益唐 教授 | 孪生素数猜想先驱,Landau–Siegel零点问题解决者 |
+| Project Lead | Liangzhi (良之) | Project founder, Turn-Lang co-founder and architect of the midwifery framework |
+| Chief Mathematician | Travor Liu | Stanford University doctoral student, independent arXiv paper author |
+| Strategic Advisor | Academician Jianya Liu (刘建亚) | CAS academician, chief of the national key R&D program on the Riemann Hypothesis |
+| Special Advisor | Professor Yuri Matiyasevich | Russian Academy of Sciences academician, solver of Hilbert's Tenth Problem |
+| Mathematics Advisor | Academician Binyong Sun (孙斌勇) | CAS academician, L-function and representation theory expert |
+| Honorary Advisor | Professor Yitang Zhang (张益唐) | Pioneer of the Twin Prime Conjecture, solver of the Landau–Siegel zero problem |
 
-*(注：此处特此引述并感谢Mingli Yuan博士。他是AEG理论创始人，其工作已由Aristotle完整形式化，我们在此项目中深受其理论启发。)*
+*(Note: We hereby cite and thank Dr. Mingli Yuan. He is the founder of AEG theory, whose work has been completely formalized by Aristotle, and we are deeply inspired by his theory in this project.)*
 
-这是历史上第一次——一位希尔伯特问题解决者、两位院士、一位少年天才、一位跨界架构师、一位几何学家——共同聚焦于另一个希尔伯特问题。
+This is the first time in history—a solver of a Hilbert problem, two academicians, a young genius, a cross-disciplinary architect, and a geometer—have collectively focused on another Hilbert problem.
 
-### 6.2 团队治理：重构专家反馈机制
+### 6.2 Team Governance: Reconstructing Expert Feedback Mechanisms
 
-针对“院士周度评估”不切实际的质疑，我们设计了**分层审查机制**：
+Addressing the criticism that "academician weekly evaluation" is impractical, we have designed a **layered review mechanism**:
 
-- **日常**：Turn-Lang的置信度类型系统自动筛除90%的无效探索路径。
-- **周度**：设立“青年验证官”职位，对AI筛选出的高价值路径进行初步人工review.
-- **月度**：只有当系统打通了具备重大突破潜力的链路，才提交给院士团队进行战略把关。
-- **季度**：全体顾问团队复盘进展，调整下一阶段探索重心。
+- **Daily**: Turn-Lang's confidence type system automatically筛选 out 90% of invalid exploration paths.
+- **Weekly**: Establish "young verifier" positions for preliminary manual review of high-value paths筛选 by AI.
+- **Monthly**: Only when the system打通 links with potential for重大突破 are they提交 to the academician team for strategic oversight.
+- **Quarterly**: Full advisory team reviews progress and调整 the next phase's exploration focus.
 
-### 6.3 人力扩张：Lean 4工程师团队
+### 6.3 Personnel Expansion: Lean 4 Engineer Team
 
-Travor Liu的角色定位为“首席数论架构师”，负责数学直觉的输入和关键路径的判断。但他不能同时兼任Lean 4代码实现的主力。
+Travor Liu's role is定位 as "chief number theory architect," responsible for inputting mathematical intuition and判断 key paths. But he cannot simultaneously serve as the main force for Lean 4 code implementation.
 
-因此，我们将在预算中拨出专项，招聘**2-3名全职的Lean 4高级形式化工程师**，他们的职责是：
+Therefore, we will allocate专项 from the budget to hire **2-3 full-time senior Lean 4 formalization engineers**, whose responsibilities are:
 
-- 将Travor、刘建亚院士团队、Yuan博士的数学洞察，高效转化为高质量的Lean 4代码。
-- 维护和优化PrimeClaw的证明智能体与验证智能体。
-- 培训社区贡献者，扩大形式化数学的人才储备。
+- Efficiently converting the mathematical insights of Travor, Academician Liu's team, and Dr. Yuan into high-quality Lean 4 code.
+- Maintaining and optimizing PrimeClaw's proof agent and verification agent.
+- Training community contributors, expanding the talent pool for formalized mathematics.
 
-### 6.4 资金保障与开放科学承诺
+### 6.4 Funding Guarantees and Open Science Commitments
 
-**项目资金：**
-- Turn-Lang项目资金：1500万人民币
-- AI for Math Fund 2026:100万美元
-- 算力资源：充足
+**Project funding:**
+- Turn-Lang project funding: 15 million RMB
+- AI for Math Fund 2026: 1 million USD
+- Compute resources: sufficient
 
-**18个月资金分配表：**
+**18-month funding allocation table:**
 
-| 支出类别 | 占比 | 用途说明 |
+| Expenditure Category | Proportion | Purpose Description |
 |----------|------|----------|
-| 算力成本 | 45% | MCTS推理集群，云计算资源 |
-| 人力成本 | 35% | 3名全职Lean 4工程师 + 2名青年验证官薪酬 |
-| 社区与赏金池 | 15% | 悬赏全球极客形式化小型引理 |
-| 运营与差旅 | 5% | 学术交流、顾问会议 |
+| Compute costs | 45% | MCTS inference cluster, cloud computing resources |
+| Personnel costs | 35% | 3 full-time Lean 4 engineers + 2 young verifiers' salaries |
+| Community and bounty pool | 15% | Bounty for global hackers to formalize small lemmas |
+| Operations and travel | 5% | Academic exchanges, advisory meetings |
 
-**开放科学承诺：**
-- 无论基金审批结果如何，核心研究如期推进。
-- 所有代码将以MIT许可证开源。
-- 所有数据集公开访问。
-- 所有研究产出通过预印本共享。
-- **所有失败的路径也将记录在案，定期发布《我们走过的死胡同》报告。**
-- **AEG的形式化库将作为项目首个开源模块，立即向社区开放。**
+**Open science commitments:**
+- Regardless of fund approval outcomes, core research proceeds如期.
+- All code will be open-sourced under the MIT license.
+- All datasets will be publicly accessible.
+- All research outputs will be shared via preprints.
+- **All failed paths will also be记录 on record, with periodic release of *The Dead Ends We Walked* reports.**
+- **AEG's formalization library will serve as the project's first open-source module, immediately open to the community.**
 
-这不是赌“成功”，而是赌“过程”。因为即使黎曼猜想最终未在此时限内证明，这一路建立的工具、方法、人才和社群，都将成为人类智识的永久资产。
+This is not betting on "success," but betting on "process." Because even if the Riemann Hypothesis is ultimately not proven within this timeframe, the tools, methods, talents, and communities built along the way will all成为 permanent assets of human intellect.
 
-## 第七章 风险与第四次数学危机
+## Chapter Seven Risks and the Fourth Mathematical Crisis
 
-### 7.1 三大核心挑战与应对
+### 7.1 Three Core Challenges and Responses
 
-**第一，残余幻觉与语义鸿沟。**
-- 应对：置信度有界类型 + 自动形式化中介层 + 青年验证官周度筛选。三层过滤，将幻觉风险降至最低。Aristotle成功形式化AEG的案例证明，自动形式化中介层在成熟理论上的可行性已得到验证。
+**First, residual hallucination and the semantic gap.**
+- Response: Confidence-bounded types + auto-formalization intermediary layer + young verifier weekly screening. Three layers of filtering reduce hallucination risk to the minimum. Aristotle's successful formalization of AEG proves the feasibility of the auto-formalization intermediary layer on成熟 theories has been验证.
 
-**第二，计算经济性。**
-- 应对：用置信度控制精准引导资源向最有希望的方向投入；预算中明确45%算力占比，确保18个月持续运行。
+**Second, computational economics.**
+- Response: Use confidence control to precisely引导 resources toward the most promising directions; the budget明确 allocates 45% to compute, ensuring 18 months of continuous operation.
 
-**第三，理论路径未知性。**
-- 应对：如果RH的最终证明需要全新的数学分支，我们的策略是：保持探索智能体的探索自由度，允许它在未探索数学领域“迷路”；依赖人类数学家的直觉，判断哪些“迷途”值得继续。同时，**我们的交付目标已经与“证明RH”解耦**——即使18个月后理论无根本突破，形式化库、失败数据集、Turn-Lang基础设施依然构成成功交付。
+**Third, theoretical path uncertainty.**
+- Response: If RH's final proof requires an entirely new branch of mathematics, our strategy is: maintain the exploration agent's freedom of exploration, allowing it to "get lost" in unexplored mathematical territory; rely on human mathematicians' intuition to判断 which "lost paths" are worth continuing. Meanwhile, **our delivery targets have already been解耦 from "proving RH"**—even if there is no fundamental theoretical breakthrough after 18 months, the formalization library, failure datasets, and Turn-Lang infrastructure still constitute a successful delivery.
 
-### 7.2 第四次数学危机中的定位
+### 7.2 Positioning Within the Fourth Mathematical Crisis
 
-随着机器生成的证明逐渐超出人类理解范畴，数学界正在面临“无理解的真理”这一第四次危机。2026年1月,Gemini在代数几何领域给出的证明，被斯坦福教授评价为“如果是我自己想出来的，我会吹一辈子”。
+As machine-generated proofs逐渐 exceed the scope of human understanding, the mathematical community is facing the fourth crisis of "truth without understanding" (无理解的真理). In January 2026, Gemini produced a proof in algebraic geometry that a Stanford professor评价 as: "If I had come up with this myself, I would brag about it for the rest of my life."
 
-Phaenarete Project对此的回应是：置信度有界类型与助产术范式。我们既不对抗机器证明的“不可理解性”，也不盲从。我们通过类型系统为不确定性划界，通过人机对话保留人类的理解空间。
+The Phaenarete Project's response is: confidence-bounded types and the midwifery paradigm. We neither对抗 the "incomprehensibility" of machine proofs, nor盲目 follow them. We demarcate boundaries for uncertainty through the type system, and preserve human understanding space through human-machine dialogue.
 
-**Aristotle形式化AEG的过程，就是一次成功的“可理解协同”示范：** Yuan博士的几何直觉被完整保留在证明的结构中，而形式化过程本身没有产生任何人类无法追踪的黑箱步骤。
+**Aristotle's formalization of AEG is precisely a successful demonstration of "comprehensible collaboration":** Dr. Yuan's geometric intuition was完整保留 within the proof structure, and the formalization process itself produced no black-box steps that humans cannot追踪.
 
-## 结语：伟大，无需多言
+## Conclusion: Greatness Speaks for Itself (伟大，无需多言)
 
-站在2026年的历史门槛上,Phaenarete Project不仅是对希尔伯特1900年挑战的一份迟到回应，更是人类智能演进的一次巨大飞跃。
+Standing at the historical threshold of 2026, the Phaenarete Project is not only a belated response to Hilbert's 1900 challenge, but also a巨大飞跃 in the evolution of human intelligence.
 
-2026年数学界的赌局已然开赛：黎曼猜想与P vs NP,谁将先被人类拿下？多数观察者认为，黎曼猜想胜率约70%，因为它是“封顶工程”，而P vs NP是“创世工程”。人类更擅长把建好的楼盖完，不擅长凭空造一个世界。
+The 2026 mathematical community's wager has already begun: the Riemann Hypothesis versus P vs NP, which will humanity conquer first? Most observers believe the Riemann Hypothesis has approximately a 70% probability, because it is a "capping工程," while P vs NP is a "creation工程." Humans are better at finishing a building already constructed than at conjuring a world from nothing.
 
-但我们必须再次强调：
+But we must再次 emphasize:
 
-**我们不承诺在18个月内证明黎曼猜想。**
+**We do not promise to prove the Riemann Hypothesis within 18 months.**
 
-我们承诺的是：
+What we promise is:
 
-- 一个包含**500+核心引理**的解析数论Lean 4形式化库
-- 一套开源、可扩展的**PrimeClaw多智能体协同系统**
-- 一个能够跨基础迁移证明的**Turn-Lang元语言编译器原型**
-- 一份详细记录**成功与失败路径**的季度报告
-- 一支经过实战锻炼的**人机协同数学研究团队**
-- 一个活跃的**开源形式化数学社区**
-- **AEG等前沿理论的形式化资产**，已由Aristotle验证并集成
+- An analytic number theory Lean 4 formalization library containing **500+ core lemmas**
+- An open-source, scalable **PrimeClaw multi-agent collaborative system**
+- A **Turn-Lang meta-language compiler prototype** capable of跨-foundation proof migration
+- Quarterly reports详细记录 **successful and failed paths**
+- A battle-tested **human-machine collaborative mathematical research team**
+- An active **open-source formalized mathematics community**
+- **Formalized assets of frontier theories such as AEG**, already验证 and integrated by Aristotle
 
-数学的高峰依然隐没在云雾之中，但我们不再是赤手空拳的攀登者。我们手持思想的无限算力，怀揣对真理的忠诚与对未知的敬畏，正如苏格拉底以对话助产灵魂中的真理，我们将以PrimeClaw的智能协同，助产这个世纪最深邃的数学之谜。
+The mathematical summit still隐没 in clouds and mist, but we are no longer climbers with bare hands. We wield infinite computational power of thought, carrying loyalty to truth and reverence for the unknown, just as Socrates midwifed truth within souls through dialogue, we will use PrimeClaw's intelligent collaboration to midwife this century's most profound mathematical mystery.
 
-**Phaenarete**——助产之名，亦是美德之名：洞察本质的敏锐，忠诚真理的纯粹，勇敢探索的无畏，审慎边界的谦卑，包容多元的开放，关怀社群的温暖，超越个体的远见。这些辉耀的美德，将指引我们在迷雾中前行，让每一次叩门都离光明更近。
+**Phaenarete (法埃娜蕾特)**—the name of midwifery, also the name of virtue: the acuity that penetrates to essence, the purity loyal to truth, the fearlessness of courageous exploration, the humility of审慎 boundaries, the openness包容 pluralism, the warmth关怀 community, the vision超越 the individual. These radiant virtues will guide us forward through the mist, making every knock on the door closer to the light.
 
-无论黎曼猜想最终是否被征服，我们已在路上，并将在路上留下永久的资产——形式化的知识库、失败的数据集、开源的基础设施，以及一代代后继者可以接续攀登的阶梯。
+Whether the Riemann Hypothesis is ultimately conquered or not, we are already on the road, and we will leave permanent assets on the road—formalized knowledge libraries, failure datasets, open-source infrastructure, and a ladder that successive generations can继续 to climb.
 
 *Per aspera ad astra.*
-历经艰辛，终抵星空。而星空，不在远方，就在每一次思想助产的过程中。
+Through hardships, to the stars. And the stars are not far away—they reside in every process of intellectual midwifery.
 
-## 附录：Phaenarete Project的北极星命题
+## Appendix: The Phaenarete Project's North Star Proposition
 
-为确保PrimeClaw系统的各个智能体拥有统一的形式化目标，我们将黎曼猜想的强形式在Lean 4中进行了底层公理化声明。这段代码象征着项目的工程起点——即便Zeta函数在当下对系统是个黑盒，我们的逻辑架构亦是完全透明的。
+To ensure that each agent in the PrimeClaw system possesses a unified formalization target, we have made a底层 axiomatic declaration of the strong form of the Riemann Hypothesis in Lean 4. This code symbolizes the engineering starting point of the project—even though the Zeta function is目前 a black box to the system, our logical architecture is entirely transparent.
 
 ```lean
 import Mathlib.Analysis.Complex.Basic
@@ -340,7 +340,7 @@ def RiemannHypothesis : Prop :=
 #check RiemannHypothesis
 ```
 
-> **2026年3月19日 于云汐谷**
-> **个人观点，欢迎批评**
+> **March 19, 2026, at Yunxi Valley (云汐谷)**
+> **Personal views; criticism welcome**
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

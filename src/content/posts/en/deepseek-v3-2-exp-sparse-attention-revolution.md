@@ -7,154 +7,154 @@ tags:
   - 稀疏注意力
   - 架构
 description: >
-  深度拆解 DeepSeek-V3.2-Exp 的 DSA 技术：如何用“闪电索引器”打破大模型长上下文的 O(L²) 二次复杂度魔咒，实现性能无损下的效率跃升。
+  深度拆解 DeepSeek-V3.2-Exp 的 DSA 技术：如何用"闪电索引器"打破大模型长上下文的 O(L²) 二次复杂度魔咒，实现性能无损下的效率跃升。
 ---
 
-当历史翻过 2025 年的篇章，大型语言模型领域的竞争已进入一个全新的维度。在这个时代，模型的智能不再仅仅取决于参数规模或推理深度，更取决于一个更为根本的能力——**如何在浩瀚如海的信息中，精准地捕捉到那一滴关乎真相的知识。** 这便是长上下文理解的核心命题，也是通向通用人工智能之路上必须跨越的鸿沟。
+As history turns the page on 2025, competition in the large language model field has entered a fundamentally new dimension. In this era, a model's intelligence no longer depends solely on parameter scale or inference depth, but on a more essential capability—**how to precisely capture, from an ocean of information, that one droplet of knowledge pertaining to truth.** This is the core proposition of long-context understanding, and the chasm that must be bridged on the path toward artificial general intelligence.
 
-DeepSeek-AI 团队发布的 DeepSeek-V3.2-Exp,正是对这一命题的最新回应。作为 DeepSeek-V3.1-Terminus 的进化版本，它引入了一项名为 **DeepSeek Sparse Attention(DSA)** 的革命性技术。这份看似简短的技术报告，实则蕴含着一场关于注意力机制本质的深刻反思：我们是否真的需要让每一个词都“看见”历史中的每一个词？如果答案是否定的，那么，我们该如何教会模型拥有一种“目光如炬”的能力——在每一次思考时，都能迅速锁定上下文中那最关键的一小部分信息?
+DeepSeek-V3.2-Exp, released by the DeepSeek-AI team, is the latest response to this proposition. As an evolved version of DeepSeek-V3.1-Terminus, it introduces a revolutionary technology called **DeepSeek Sparse Attention (DSA)**. This seemingly brief technical report actually蕴含 a profound reflection on the essence of the attention mechanism: do we truly need every word to "see" every word in history? If the answer is no, then how should we teach the model to possess a "torch-like gaze" (目光如炬)—the ability to swiftly lock onto that most critical small portion of information in the context at each moment of thought?
 
-这不仅是 DeepSeek-V3.1-Terminus 的延续，更是对 DeepSeek-V3 以来整个技术路线的关键补充和哲学升维。从 V2 到 V3,从 R1 到 V3.1-Terminus,我们见证了 MLA（多头潜在注意力）如何通过极致压缩 KV Cache 来提升推理效率，见证了 DeepSeekMoE 如何通过细粒度专家分工来降低训练成本，见证了强化学习如何激发模型的推理潜能。现在,V3.2-Exp 将目光投向了注意力机制本身的计算复杂度，试图从根本上打破制约超长上下文处理的 **二次复杂度魔咒**。
+This is not merely a continuation of DeepSeek-V3.1-Terminus, but a critical补充 and philosophical升维 to the entire technical lineage since DeepSeek-V3. From V2 to V3, from R1 to V3.1-Terminus, we witnessed how MLA (Multi-head Latent Attention) enhanced inference efficiency through极致 compression of the KV Cache, how DeepSeekMoE reduced training costs through fine-grained expert分工, and how reinforcement learning激发 the model's reasoning potential. Now, V3.2-Exp turns its gaze toward the computational complexity of the attention mechanism itself, attempting to从根本上 break the **quadratic complexity curse** that constrains ultra-long context processing.
 
-今天，我们将以极客之眼，庖丁解牛般拆解这篇技术报告。我们将深入 DSA 的每一处设计细节，从“闪电索引器”的数学原理，到“细粒度 Token 选择”的工程实现，再到分阶段训练的精妙策略。我们将看到,DeepSeek 团队是如何再次践行“实事求是”的极客精神，以精巧的设计而非粗暴的堆砌，在性能无损的前提下，实现了长上下文推理效率的质的飞跃。这将是中文世界对 DeepSeek-V3.2-Exp 最深刻、最彻底的解读。
-
----
-
-### **第一章：长上下文之困——二次复杂度魔咒与稀疏化的召唤**
-
-在深入 DSA 的技术细节之前，我们必须首先理解它所试图解决的根本问题——那个如幽灵般盘旋在所有 Transformer 模型上空的二次复杂度魔咒。
-
-#### **1.1 注意力机制的甜蜜与负担**
-
-自 2017 年《Attention Is All You Need》发表以来，缩放点积注意力机制便成为 Transformer 架构的核心支柱。它的优雅之处在于，每个 token 都能与历史中的所有 token 进行“交流”，动态地分配注意力权重，从而捕获长程依赖关系。
-
-然而，这种“全体对全体”的交流模式伴随着一个巨大的代价：对于长度为 $L$ 的序列，标准注意力的计算复杂度和显存复杂度均为 $\mathcal{O}(L^2)$。这意味着，当上下文长度从 1K 扩展到 128K 时，计算量并非线性增长 128 倍，而是以平方级爆炸性地增长惊人的 **16,384 倍**。
-
-在推理阶段，这表现为生成速度的断崖式下降。特别是在输出第一个 token 的“预填充”(Prefilling)阶段，模型需要对输入的数十万字符执行全量自注意力计算。这不仅是时间的流逝，更是金钱的燃烧——每一秒 GPU 的计算都在消耗真实的成本。技术报告清晰地展示了，预填充成本随 token 位置飙升的曲线：越往后，成本越高，宛如一条陡峭的登山路，直到耗尽所有的算力预算。
-
-#### **1.2 稀疏化的召唤：从“大海捞针”到“按图索骥”**
-
-DeepSeek 团队在报告中指出了一个关键的观察：**并非每个查询 token 都需要关注所有历史 token。** 事实上，对于绝大多数查询来说，只有一小部分历史 token 携带了相关的信息。例如，在阅读一篇长篇小说时，当前段落的情节可能只与前面某几个关键章节紧密相关，而与大部分描写、对话关系不大。
-
-因此，注意力稀疏化成为打破二次复杂度魔咒的必然方向。其核心思想是：在计算注意力时，有选择性地忽略那些不相关的 token,只保留最关键的 $k$ 个 token 进行交互。这样，计算复杂度便从 $\mathcal{O}(L^2)$ 降至 $\mathcal{O}(Lk)$，其中 $k$ 远小于 $L$。当 DeepSeek-V3.2-Exp 选择 $k=2048$ 时，对于 128K 的序列长度，这意味着每个查询 token 只需关注不足 2% 的历史 token,理论加速比可达数十倍。
-
-然而，稀疏化的核心挑战在于：**如何在极低的计算开销下，精准地选出那关键的 $k$ 个 token?** 这个问题，正是 DSA 所要解决的核心。
-
-这便是 DeepSeek-V3.2-Exp 出场的历史背景。它不是孤立的改动，而是对效率追求的又一次极致实践。如果说 DeepSeek-V2 的 MLA 是将 KV Cache 这本“会议记录”从精装百科全书压缩成了口袋索引卡，那么 V3.2-Exp 的 DSA,则是为这个索引卡配备了一位目光锐利的“闪电索引官”。前者解决了“记录”本身的冗余，而后者解决了“查阅”过程的冗余。它们共同构成了一个完整的、关于效率的宏大叙事。
+Today, with a geek's eye, we will dissect this technical report like 解牛 (skillfully carving an ox). We will delve into every design detail of DSA, from the mathematical principles of the "Lightning Indexer" (闪电索引器), to the engineering implementation of "Fine-grained Token Selection" (细粒度 Token 选择), to the subtle strategy of phased training. We will see how the DeepSeek team once again embodies the "seeking truth from facts" (实事求是) geek spirit, using ingenious design rather than brute-force stacking to achieve, without any performance loss, a qualitative飞跃 in long-context inference efficiency. This will be the deepest, most thorough解读 of DeepSeek-V3.2-Exp in the English-speaking world.
 
 ---
 
-### **第二章：DSA 的架构——闪电索引器与细粒度选择的协同**
+### **Chapter One: The困境 of Long Context—The Quadratic Complexity Curse and the Call for Sparsification**
 
-DSA 的原型由两个协同工作的核心组件构成：**闪电索引器(Lightning Indexer)** 和 **细粒度 Token 选择机制(Fine-grained Token Selection Mechanism)**。前者负责快速评估每个历史 token 与当前查询的相关性，后者则基于评估结果精准地筛选出需要参与注意力计算的 token。两者配合，实现了从“全量目光”到“精准聚焦”的优雅蜕变。
+Before delving into DSA's technical details, we must first understand the fundamental problem it seeks to solve—that quadratic complexity curse hovering like a phantom over all Transformer models.
 
-#### **2.1 闪电索引器：极速相关度评估**
+#### **1.1 The Sweetness and Burden of the Attention Mechanism**
 
-闪电索引器是 DSA 的核心引擎，其设计目标是：**以极低的计算成本，快速计算出查询 token 与所有历史 token 之间的“索引分数” $I_{t,s}$。** 这个分数衡量的是历史 token $s$ 对于当前查询 token $t$ 的重要程度。其数学定义如下：
+Since the publication of *Attention Is All You Need* in 2017, the scaled dot-product attention mechanism has become the core pillar of the Transformer architecture. Its elegance lies in the fact that each token can "communicate" with all tokens in history, dynamically allocating attention weights to capture long-range dependencies.
+
+However, this "all-to-all" communication模式 comes with a enormous cost: for a sequence of length $L$, the computational complexity and memory complexity of standard attention are both $\mathcal{O}(L^2)$. This means that when context length extends from 1K to 128K, computation does not grow linearly by 128 times, but explodes quadratically by a staggering **16,384 times**.
+
+During inference, this manifests as a precipitous decline in generation speed. Especially in the "Prefilling" (预填充) phase for the first output token, the model must execute full self-attention computation across hundreds of thousands of input characters. This is not merely the passage of time, but the burning of money—every second of GPU computation consumes real costs. The technical report clearly demonstrates the curve of prefilling cost soaring with token position: the further along, the higher the cost, like a steep mountain path until all compute budgets are exhausted.
+
+#### **1.2 The Call for Sparsification: From "Finding a Needle in a Haystack" (大海捞针) to "Following a Map to Find the Needle" (按图索骥)**
+
+The DeepSeek team noted a key observation in the report: **not every query token needs to attend to all historical tokens.** In fact, for the vast majority of queries, only a small portion of historical tokens carry relevant information. For example, when reading a long novel, the current chapter's plot may be closely related to only a few key preceding chapters, while largely irrelevant to most descriptions and dialogue.
+
+Therefore, attention sparsification became the inevitable direction for breaking the quadratic complexity curse. Its core idea is: when computing attention, selectively ignore those irrelevant tokens, retaining only the most critical $k$ tokens for interaction. This reduces computational complexity from $\mathcal{O}(L^2)$ to $\mathcal{O}(Lk)$, where $k$ is far smaller than $L$. When DeepSeek-V3.2-Exp selects $k=2048$, for a 128K sequence length, this means each query token only needs to attend to less than 2% of historical tokens, with a theoretical speedup ratio reaching tens of times.
+
+However, the core challenge of sparsification is: **how to precisely select those critical $k$ tokens at extremely low computational cost?** This question is precisely what DSA aims to solve at its core.
+
+This is the historical backdrop for DeepSeek-V3.2-Exp's emergence. It is not an isolated modification, but another极致 practice in the pursuit of efficiency. If DeepSeek-V2's MLA compressed the KV Cache "meeting minutes" (会议记录) from a leather-bound encyclopedia into a pocket index card, then V3.2-Exp's DSA equips that index card with a sharp-eyed "Lightning Indexing Officer" (闪电索引官). The former resolved the redundancy of "recording" itself, while the latter resolves the redundancy of the "lookup" process. Together they constitute a complete,宏大 narrative about efficiency.
+
+---
+
+### **Chapter Two: DSA's Architecture—The Synergy of the Lightning Indexer and Fine-Grained Selection**
+
+DSA's prototype consists of two synergistic core components: the **Lightning Indexer** (闪电索引器) and the **Fine-grained Token Selection Mechanism** (细粒度 Token 选择机制). The former is responsible for rapidly evaluating the relevance of each historical token to the current query, while the latter precisely filters the tokens requiring participation in attention computation based on the evaluation results. Together, they achieve an elegant蜕变 from "full gaze" to "precise focus."
+
+#### **2.1 Lightning Indexer: Ultra-Fast Relevance Assessment**
+
+The Lightning Indexer is DSA's core engine. Its design objective is: **at extremely low computational cost, rapidly compute the "index score" $I_{t,s}$ between a query token and all historical tokens.** This score measures the importance of historical token $s$ for the current query token $t$. Its mathematical definition is as follows:
 
 $$
 I_{t,s} = \sum_{j=1}^{H_I} w^{I}_{t,j} \cdot \text{ReLU}(\mathbf{q}^{I}_{t,j} \cdot \mathbf{k}^{I}_s)
 $$
 
-让我们逐层拆解这个公式，理解其背后的设计哲学：
+Let us逐层 dissect this formula to understand the design philosophy behind it:
 
-*   **极简的架构**：索引器拥有独立的、数量极少的注意力头 $H_I$。虽然报告未明确具体数字，但强调“少量”，意味着其计算量远小于主模型的注意力头数量（通常为 128 个）。每个头 $j$ 会为查询 token $t$ 生成一个低维的查询向量 $\mathbf{q}^{I}_{t,j} \in \mathbb{R}^{d_I}$ 和一个标量权重 $w^{I}_{t,j}$，为历史 token $s$ 生成一个低维的键向量 $\mathbf{k}^{I}_s \in \mathbb{R}^{d_I}$。这里的维度 $d_I$ 远小于主模型的隐藏维度 $d=7168$，进一步压缩了计算和存储开销。
-*   **ReLU 的妙用**：与标准注意力中使用的 Softmax 不同,DSA 在计算索引分数时使用了 ReLU 激活函数。报告明确指出，这是“出于吞吐量考虑”。ReLU 是非线性函数中最简单高效的一种，其计算速度远快于涉及指数运算的 Softmax.ReLU 的另一层含义是稀疏性的天然诱导：由于 ReLU 会将所有负值截断为 0,它天然地倾向于产生稀疏的索引分数，这与 DSA 的稀疏化目标高度一致。
-*   **标量权重的意义**：权重 $w^{I}_{t,j}$ 是一个标量，它赋予了不同索引头以不同的重要性。这类似于在聚合多头信息时，每个头都可以拥有自己的“话语权”，能够更灵活地捕捉不同类型的相关性模式。
-*   **极致的计算效率**：报告特别指出，闪电索引器“可以在 FP8 下实现”。FP8 格式相比 BF16 或 FP32,内存带宽需求和计算延迟都大幅降低。这使得索引器即使仍保持 $\mathcal{O}(L^2)$ 的理论复杂度，其实际运行开销也远低于主模型的 MLA 注意力计算。
+*   **Minimalist architecture**: The indexer possesses independent, extremely few attention heads $H_I$. Although the report does not specify exact numbers, it emphasizes "a small number," meaning its computation is far less than the main model's attention head count (typically 128). Each head $j$ generates a low-dimensional query vector $\mathbf{q}^{I}_{t,j} \in \mathbb{R}^{d_I}$ and a scalar weight $w^{I}_{t,j}$ for query token $t$, and a low-dimensional key vector $\mathbf{k}^{I}_s \in \mathbb{R}^{d_I}$ for historical token $s$. The dimension $d_I$ here is far smaller than the main model's hidden dimension $d=7168$, further compressing computation and storage overhead.
+*   **The妙用 of ReLU**: Unlike the Softmax used in standard attention, DSA employs the ReLU activation function when computing index scores. The report explicitly states this is "出于吞吐量考虑" (for throughput considerations). ReLU is the simplest and most efficient among nonlinear functions, with computation speed far exceeding Softmax, which involves exponential operations. ReLU's further implication is the natural induction of sparsity: since ReLU truncates all negative values to 0, it inherently tends to produce sparse index scores,高度一致 with DSA's sparsification goal.
+*   **The significance of scalar weights**: The weight $w^{I}_{t,j}$ is a scalar that confers varying importance to different indexer heads. This resembles each head having its own "voice" when aggregating multi-head information, enabling more flexible capture of different types of relevance patterns.
+*   **Extreme computational efficiency**: The report specifically notes that the Lightning Indexer "can be implemented in FP8." Compared to BF16 or FP32, the FP8 format substantially reduces memory bandwidth requirements and computational latency. This means that even though the indexer theoretically retains $\mathcal{O}(L^2)$ complexity, its actual runtime overhead is far lower than the main model's MLA attention computation.
 
-综上，闪电索引器就像一个高效的“搜索引擎爬虫”，以极快的速度扫描整个文档，为每个段落打上一个“与查询相关性”的分数。这个分数不求绝对精准，但求**快速且能捕捉到最关键的相关性信号**。
+In summary, the Lightning Indexer resembles an efficient "search engine crawler," rapidly scanning the entire document at极速 to assign a "relevance to query" score to each paragraph. This score does not追求 absolute precision, but力求 **speed and the ability to capture the most critical relevance signals**.
 
-#### **2.2 细粒度 Token 选择：从分数到行动**
+#### **2.2 Fine-Grained Token Selection: From Scores to Action**
 
-有了索引分数 $I_{t,s}$ 之后，下一步便是将这些分数转化为实际的行动——选择哪些 token 需要进入核心注意力计算。
+Having obtained the index scores $I_{t,s}$, the next step is to translate these scores into concrete action—selecting which tokens should enter the core attention computation.
 
-DSA 的 Token 选择机制是高度**细粒度**的。这意味着，对于每一个查询 token $t$，它都会独立地从所有历史 token 中，选出**属于它自己的** Top-k 个 token:
+DSA's Token Selection mechanism is highly **fine-grained**. This means that for each query token $t$, it independently selects its **own** Top-k tokens from all historical tokens:
 
 $$
 \mathbf{u}_t = \text{Attn}(\mathbf{h}_t, \{\mathbf{c}_s \mid I_{t,s} \in \text{Top-k}(I_{t,:})\})
 $$
 
-其中 $\mathbf{c}_s$ 是 MLA 中对应历史 token $s$ 的压缩 KV 向量（即潜向量）。
+Where $\mathbf{c}_s$ is the compressed KV vector (i.e., the latent vector) corresponding to historical token $s$ in MLA.
 
-这种**查询感知的、完全动态的细粒度选择**，是 DSA 区别于其他稀疏注意力方法（如滑动窗口、固定步长的 dilated attention）的核心优势。它意味着每一刻的“目光”，都因当前要解决的下一个 token 而完美适配。这种动态锁定与主动忽视，构成了高级理解能力的神经基础。
+This **query-aware, fully dynamic fine-grained selection** is DSA's core advantage distinguishing it from other sparse attention methods (such as sliding windows, fixed-stride dilated attention). It means that the "gaze" at each moment is perfectly适配 for the next token to be resolved. This dynamic锁定 and主动忽视 constitute the neural basis of advanced comprehension capability.
 
-#### **2.3 在 MLA 中的实例化：MQA 模式的巧用**
+#### **2.3 Instantiation within MLA: The Ingenious Use of MQA Mode**
 
-为了从 DeepSeek-V3.1-Terminus 平滑过渡,DSA 被巧妙地实例化在现有的 MLA 架构之上。MLA 架构在推理时天然存在两种模式：
-*   **MHA 模式**：每个查询头拥有独立的 KV 向量，这是训练和预填充时使用的标准模式。
-*   **MQA 模式**：所有查询头共享同一个 KV 向量（即潜向量 $\mathbf{c}_t^{KV}$ 和解耦的 $\mathbf{k}_t^R$），这是解码时用于加速的模式。
+For smooth transition from DeepSeek-V3.1-Terminus, DSA was巧妙 instantiated upon the existing MLA architecture. MLA inherently has two modes during inference:
+*   **MHA mode**: Each query head possesses independent KV vectors; this is the standard mode used during training and prefilling.
+*   **MQA mode**: All query heads share the same KV vector (i.e., the latent vector $\mathbf{c}_t^{KV}$ and the decoupled $\mathbf{k}_t^R$); this is the mode used for acceleration during decoding.
 
-DSA 的关键决策是：**在 MQA 模式下实现稀疏化。** 这是因为，在内核层面，为了最大化计算吞吐量，每个 KV 条目必须被多个查询共享。而 MQA 模式天然地满足这一要求——每个 token 只有一个 KV 条目，所有查询头都与之共享。
+DSA's key decision is: **implement sparsification in MQA mode.** This is because, at the kernel level, to maximize computational throughput, each KV entry must be shared by multiple queries. MQA mode inherently satisfies this requirement—each token has only one KV entry, shared by all query heads.
 
-因此,DSA 的 Token 选择机制直接在 MQA 模式下运行：它为每个查询 token $t$ 选出其 Top-k 个历史 KV 条目，然后这些条目被该 token 的所有查询头共用，执行核心注意力计算。
+Therefore, DSA's Token Selection mechanism operates directly in MQA mode: it selects the Top-k historical KV entries for each query token $t$, and these entries are then共用 by all query heads of that token for executing core attention computation.
 
-#### **2.4 闪电索引器的数学一致性：对 NSA 等前辈的超越**
+#### **2.4 Mathematical Consistency of the Lightning Indexer: Transcending NSA and Other Predecessors**
 
-对于熟悉稀疏注意力领域的读者来说,DSA 的闪电索引器可能让人联想到近期提出的 NSA(Native Sparse Attention)，并在其基础上做出了关键的简化与改进。
+For readers familiar with the sparse attention field, DSA's Lightning Indexer may唤 recall of the recently proposed NSA (Native Sparse Attention), while making key simplifications and improvements upon it.
 
-在 NSA 中,token 重要性分数的计算通常是一个包含 MLP 非线性变换的三步过程。而 DSA 的闪电索引器，可以看作是对这个过程的一次“解构”和“扁平化”。通过这种精简,DSA 的核心语义得以更加清晰地暴露：**相关性由查询和键的相似度度量，重要性由通道权重进行加权，稀疏性由 ReLU 和 Top-k 截断共同保证。** 这种设计不仅减少了参数量和计算量，更使得整个索引器的行为更加可解释、更易于训练。
-
----
-
-### **第三章：训练炼金术——从模仿到自主的两阶段演进**
-
-拥有一个精妙的架构只是第一步。DeepSeek 团队设计了一套精巧的两阶段训练流程：**稠密暖启动阶段**和**稀疏训练阶段**。
-
-#### **3.1 稠密暖启动阶段：教会索引器认识“重要”**
-
-这一阶段的设计极为巧妙。其核心思想是：**先教会索引器什么是“重要的” token,再让整个模型适应稀疏化。**
-
-具体方法如下：
-1.  **冻结主模型，保持稠密注意力**：在这个阶段，只有闪电索引器的参数是可训练的。
-2.  **定义“重要”标准**：对于每一个查询 token $t$，将其在主模型所有注意力头(MHA 模式)上的注意力分数按头求和并进行 L1 归一化，得到一个“目标分布” $\mathbf{p}_{t,:}$。这个分布反映了当前主模型认为哪些历史 token 是重要的。
-3.  **训练目标**：使用 KL 散度作为损失函数，让索引器输出的分数分布与这个目标分布尽可能接近。
-
-这个阶段通过一种**模仿学习**的方式，将一个预训练的、强大的稠密注意力模型的知识，“蒸馏”到了轻量级的索引器中。
-
-#### **3.2 稀疏训练阶段：让模型在稀疏的世界中重生**
-
-在这一阶段，模型被正式切换到**稀疏模式**：每个查询 token 不再能看到所有历史，只能看到由索引器选出的 Top-2048 个 token。此时，所有模型参数都被解冻，但训练信号的来源被精心地分离：
-
-1.  **主模型**：仅由标准的**语言建模损失**驱动。它不再关心注意力是否与稠密版本一致，只关心在信息受限（仅 2048 个 token）的情况下，是否能准确预测下一个词。
-2.  **索引器**：仍然由 KL 散度损失 $\mathcal{L}^I$ 驱动，但这次，只考虑被它选中的 Token 集合 $S_t$。其输入被**从计算图中分离(detach)**，意味着主模型的梯度不会反向传播到索引器。
-
-这种**分离式优化**策略避免了两个训练信号的相互干扰，使得主模型可以在不受索引器 KL 损失干扰的情况下自由适应稀疏化，而索引器也可以在不受语言建模损失干扰的情况下专注于提升选择精度。
+In NSA, the computation of token importance scores is typically a three-step process involving MLP nonlinear transformations. DSA's Lightning Indexer can be viewed as a "deconstruction" and "flattening" of this process. Through this精简, DSA's core semantics are更清晰地 exposed: **relevance is measured by query-key similarity, importance is weighted by channel weights, and sparsity is jointly guaranteed by ReLU and Top-k truncation.** This design not only reduces parameter count and computation, but makes the entire indexer's behavior more interpretable and easier to train.
 
 ---
 
-### **第四章：评估与洞察——效率的跃升与能力的坚守**
+### **Chapter Three: Training炼金术—A Two-Stage Evolution from Imitation to Autonomy**
 
-DeepSeek 团队对 V3.2-Exp 进行了全面的评估，结果令人振奋：**它在实现显著长上下文效率提升的同时，几乎未付出任何性能代价。**
+Possessing an ingenious architecture is only the first step. The DeepSeek team designed an elaborate two-stage training pipeline: the **Dense Warm-Start Phase** (稠密暖启动阶段) and the **Sparse Training Phase** (稀疏训练阶段).
 
-#### **4.1 性能无损与训练稳定**
+#### **3.1 Dense Warm-Start Phase: Teaching the Indexer to Recognize "Importance"**
 
-在数学(AIME 2025)、代码(LiveCodeBench)、搜索代理(BrowseComp)，到通用知识(MMLU-Pro)等各类基准上，**V3.2-Exp 的综合性能与原模型持平，差异在统计误差范围之内。** 训练曲线也展示了在长期任务上,DSA 的训练高度平稳。这是衡量一项新技术是否成熟的关键指标。
+This phase's design is极为巧妙. Its core idea is: **first teach the indexer what "important" tokens are, then let the entire model adapt to sparsification.**
 
-#### **4.2 效率跃升：击穿二次复杂度之壁**
+The具体 method is as follows:
+1.  **Freeze the main model, maintaining dense attention**: In this phase, only the Lightning Indexer's parameters are trainable.
+2.  **Define the "importance" standard**: For each query token $t$, sum its attention scores across all attention heads of the main model (MHA mode) and perform L1 normalization, yielding a "target distribution" $\mathbf{p}_{t,:}$. This distribution reflects which historical tokens the current main model considers important.
+3.  **Training objective**: Use KL divergence as the loss function, making the indexer's output score distribution尽可能接近 this target distribution.
 
-DSA 的价值在于将成本曲线显著地“压平”了。随着上下文长度从 0K 增长到 128K,V3.2-Exp 每百万 token 的成本增长远小于原始模型。理论上,DSA 将核心注意力的计算复杂度从 $\mathcal{O}(L^2)$ 降至 $\mathcal{O}(Lk)$，使得处理超长上下文从一个“紧急状态”变为“常规操作”。
+This phase, through a form of **imitation learning** (模仿学习), "distills" the knowledge of a pretrained, powerful dense attention model into the lightweight indexer.
 
-#### **4.3 与 V3.1-Terminus 的对称性**
+#### **3.2 Sparse Training Phase: Rebirth in a Sparse World**
 
-为了确保评估的严谨性,DeepSeek 团队为 V3.2-Exp 采用了与 V3.1-Terminus **完全相同的后训练管道、算法和数据**。这种对称性设计使得任何性能差异都可以被唯一地归因于 DSA 架构的引入。
+In this phase, the model is officially switched to **sparse mode**: each query token can no longer see all history, but only the Top-2048 tokens selected by the indexer. At this point, all model parameters are unfrozen, but the sources of training signals are精心 separated:
+
+1.  **Main model**: Driven solely by the standard **language modeling loss**. It no longer concerns itself with whether attention aligns with the dense version, caring only about whether it can accurately predict the next word under information restriction (only 2048 tokens).
+2.  **Indexer**: Still driven by KL divergence loss $\mathcal{L}^I$, but this time considering only the selected token set $S_t$. Its input is **detached from the computation graph**, meaning the main model's gradients do not backpropagate to the indexer.
+
+This **separated optimization** strategy prevents mutual interference between the two training signals, enabling the main model to freely适应 sparsification without indexer KL loss干扰, while the indexer can focus on improving selection accuracy without语言建模 loss干扰.
 
 ---
 
-### **第五章：更深远的意义——系统哲学的演进**
+### **Chapter Four: Evaluation and Insights—Efficiency飞跃 and Capability Preservation**
 
-当我们将 DeepSeek-V3.2-Exp 置于 DeepSeek 系列模型的发展脉络中，一种清晰的系统哲学便浮现出来。
+The DeepSeek team conducted comprehensive evaluations of V3.2-Exp, with results that are令人振奋: **it achieved significant long-context efficiency improvements while paying virtually no performance代价.**
 
-*   **从 V2 到 V3**，核心是 **MLA + DeepSeekMoE**。这是一场**模型显存和参数效率的革命**。
-*   **从 V3 到 R1**，核心是 **强化学习**。这是一场**推理策略和智能涌现的革命**。
-*   **现在，从 V3.1 到 V3.2**，核心是 **DSA**。模型不仅能在需要时“思考更多”(R1 的贡献)，更能在“思考之前”就精准地锁定思考所需的材料，极大地节约了“注意力”这一最根本的资源。
+#### **4.1 Performance Preservation and Training Stability**
 
-这三部曲对应着一条清晰的主线：**从“存储效率”到“计算策略”，再到“注意力本身的效率”。**
+On benchmarks ranging from mathematics (AIME 2025), coding (LiveCodeBench), search agents (BrowseComp), to general knowledge (MMLU-Pro), **V3.2-Exp's综合 performance matches the original model, with differences within statistical error margins.** Training curves also demonstrate that on long-horizon tasks, DSA training is highly平稳. This is the key indicator for measuring whether a new technology is mature.
 
-### **尾声：稀疏化的黎明与通往无限上下文的未来**
+#### **4.2 Efficiency Leap: Piercing the Wall of Quadratic Complexity**
 
-DeepSeek-V3.2-Exp 的发布标志着**长上下文处理技术正从“力大砖飞”的暴力计算时代，进入“巧如天工”的稀疏化新时代**。它证明了：我们无需让模型“看见”一切，只需教会它“看对”关键。
+DSA's value lies in significantly "flattening" the cost curve. As context length grows from 0K to 128K, V3.2-Exp's cost per million tokens grows far less than the original model. Theoretically, DSA reduces core attention computational complexity from $\mathcal{O}(L^2)$ to $\mathcal{O}(Lk)$, making processing ultra-long contexts transition from an "emergency state" to a "routine operation."
 
-在那条通往通用人工智能的未竟之路上，每一次这样的探索，都是点燃智慧之火的珍贵火花。
+#### **4.3 Symmetry with V3.1-Terminus**
+
+To ensure evaluation rigor, the DeepSeek team adopted for V3.2-Exp **the完全相同 post-training pipeline, algorithms, and data** as V3.1-Terminus. This对称性 design ensures that any performance differences can be uniquely attributed to the introduction of the DSA architecture.
+
+---
+
+### **Chapter Five: Deeper Significance—The Evolution of System Philosophy**
+
+When we situate DeepSeek-V3.2-Exp within the developmental脉络 of the DeepSeek model series, a clear system philosophy浮现.
+
+*   **From V2 to V3**, the core was **MLA + DeepSeekMoE**. This was a **revolution in model memory and parameter efficiency**.
+*   **From V3 to R1**, the core was **reinforcement learning**. This was a **revolution in reasoning strategy and intelligence emergence**.
+*   **Now, from V3.1 to V3.2**, the core is **DSA**. The model can not only "think more" when needed (R1's contribution), but can precisely锁定 the materials required for thinking even "before thinking begins,"极大地 conserving "attention"—the most fundamental resource.
+
+This三部曲 corresponds to a clear主线: **from "storage efficiency" to "computational strategy," to "the efficiency of attention itself."**
+
+### **Epilogue: The Dawn of Sparsification and the Future Toward Infinite Context**
+
+The release of DeepSeek-V3.2-Exp marks **the transition of long-context processing technology from the brute-force computation era of "力大砖飞" (brute force lifting heavy stones) into the new era of "巧如天工" (ingenious as nature's craft) sparsification**. It proves: we need not make the model "see" everything; we only need to teach it to "see correctly" the关键 points.
+
+On that unfinished path toward artificial general intelligence, every such exploration is a precious spark igniting the flame of intelligence.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

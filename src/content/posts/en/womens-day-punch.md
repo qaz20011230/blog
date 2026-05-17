@@ -1,309 +1,309 @@
 ---
-title: 三八妇女节，我选择“打拳”：一个男人在北辰七德下重读密尔与沃斯通克拉夫特
+title: "On International Women's Day, I Choose to 'Punch': A Man Rereading Mill and Wollstonecraft under the Seven Virtues of the North Star"
 date: '2026-03-08'
 category: Philosophy
 tags:
-  - 女性主义
+  - feminism
   - philosophy
-  - 密尔
+  - Mill
 description: >
-  写在2026年三八节，献给还在追问“男人能不能谈女性主义”的你。以北辰七德为坐标，重读《女权辩护》与《论妇女的屈从地位》，探讨一个男人在今天谈论女性主义的责任与边界。
+  Written on the 2026 International Women's Day, dedicated to those still asking "can men talk about feminism?" Using the Seven Virtues of the North Star as coordinates, rereading *A Vindication of the Rights of Woman* and *The Subjection of Women*, exploring a man's responsibility and boundaries in discussing feminism today.
 ---
 
-> 写在2026年三八节，献给还在追问“男人能不能谈女性主义”的你。
-
----
-
-## 引子：为什么要“打拳”?
-
-2026年3月8日，国际妇女节。
-
-社交网络上铺天盖地的是“女神节快乐”“女王节快乐”的商业营销。商家们乐此不疲地将妇女节包装成消费盛宴，仿佛女性的价值只在于“被宠爱”“被犒劳”。而真正关乎性别平等的讨论，往往只在这一天短暂浮现，随后便淹没在信息的洪流中。
-
-这一天，我选择做一件可能让很多人不解的事：我，一个男人，要公开谈论女权。我要“打拳”。
-
-有人会问：“你一个男人，有什么资格谈女权？你是不是在蹭热点？你是不是想讨好女性？”
-
-还有人会警惕：“你是不是想搞对立？你是不是要挑起性别战争？”
-
-面对这些疑问，我需要诚实地回答：我谈女权，不是因为我有资格，而是因为我有责任。我谈女权，不是因为我想讨好谁，而是因为我关心正义。我谈女权，不是要挑起对立，而是要澄清一个被长期混淆的根本问题——
-
-**什么是真正的女权运动？什么又是被滥用的“女权主义”？**
-
-为了回答这个问题，我重读了两本两百多年前的著作：玛丽·沃斯通克拉夫特的《女权辩护》(1792)和约翰·斯图尔特·密尔的《论妇女的屈从地位》(1869)。我也借用了三个月前为自己设定的精神坐标——“北辰七德”：智慧、仁爱、勇敢、节制、公正、诚信、超越。
-
-我希望用这七颗星照亮思考，也邀请你一起，回到历史深处，看清女权的真面目。
+> Written on the 2026 International Women's Day, dedicated to those still asking "can men talk about feminism?"
 
 ---
 
-## 第一章 · 从古代战争到现代竞争：女权崛起的真正原因
+## Prologue: Why "Punch"?
 
-### 1.1 古代社会的动员局限
+March 8, 2026, International Women's Day.
 
-要理解女权的本质，必须先理解女权为什么会崛起。
+Social media is flooded with "Happy Goddess Day" and "Happy Queen's Day" commercial marketing. Merchants tirelessly package Women's Day as a consumption extravaganza, as if women's value lies only in "being pampered" and "being rewarded." Meanwhile, discussions truly about gender equality often briefly surface only on this day, then submerge back into the flood of information.
 
-很多人以为，女权运动是思想家启蒙的结果，是“社会进步”的自然产物，是女性意识觉醒的必然。这些说法都有道理，但它们忽略了一个更根本的驱动力——**生存压力**。
+On this day, I choose to do something that may puzzle many: I, a man, will publicly discuss women's rights. I will "punch" (*daquan*, 打拳).
 
-让我们回到古代。
+Some will ask: "As a man, what right do you have to discuss women's rights? Are you just riding the trending topic? Are you trying to flatter women?"
 
-古代社会战争频仍，但战争的烈度与广度与现代不可同日而语。古代战争只能在特定季节（农闲时节）进行，只能依赖特定阶层（贵族与职业军人），只能发生在特定地域（边境或要冲）。一场战役动员的人数，相对于总人口而言比例极低。一个古代国家，哪怕连年征战，真正被卷入战争的人口往往不足十分之一。绝大多数平民，尤其是妇女和儿童，依然过着相对平静的生活，只需要缴纳赋税、提供粮草，而不必直接参战。
+Others will be wary: "Are you trying to create division? Are you trying to start a gender war?"
 
-这种动员模式决定了：古代社会没有必要、也没有能力动员女性。女性的力量被闲置，不是因为她们不重要，而是因为动员成本太高、收益太低。于是，社会将女性限定在家庭领域，形成了一套完整的“男主外、女主内”的性别分工，并通过法律、习俗、宗教将其固化。
+Facing these doubts, I need to answer honestly: I discuss women's rights not because I have the right to, but because I have the responsibility. I discuss women's rights not because I want to please anyone, but because I care about justice. I discuss women's rights not to create division, but to clarify a fundamental question that has long been confused—
 
-### 1.2 现代总体战的必然要求
+**What is the true women's rights movement? What is the abused "feminism"?**
 
-进入近代，一切变了。
+To answer this question, I reread two works from over two hundred years ago: Mary Wollstonecraft's *A Vindication of the Rights of Woman* (1792) and John Stuart Mill's *The Subjection of Women* (1869). I also borrowed the spiritual coordinates I set for myself three months ago—the "Seven Virtues of the North Star" (*Beichen Qide*, 北辰七德): wisdom, benevolence, courage, temperance, justice, integrity, transcendence.
 
-两次世界大战的本质是“总体战”。国家不再是动员一小部分职业军人，而是动员整个民族的全部力量。地无分南北，人无分长幼，每一个成年人都必须为国家的存亡贡献力量。工厂需要女工，农田需要女劳力，后方需要女性承担一切维持社会运转的职能。
-
-在这种压力下，再也不可能将占人口一半的女性排除在社会生产之外。女性必须走出家庭，进入职场，进入工厂，进入一切曾经被视为“男性领域”的空间。
-
-女权，不是思想家恩赐的，不是政治家开明的产物，而是人类在生死存亡的竞争中被迫做出的选择。如果一个国家继续将女性束缚在家庭中，它就会被那些动员了全部人口的国家打败、征服、甚至消灭。
-
-**女权运动的本质，是人类竞争从低烈度转向高烈度的必然结果。**
-
-### 1.3 当代国际竞争与女权的持续
-
-二战之后，虽然大规模热战暂时平息，但国际竞争从未停止。冷战、科技竞赛、经济全球化、人工智能革命——每一个时代都在呼唤更多的人才、更多的创造力、更多的劳动参与。任何将一半人口排除在外的国家，都将在竞争中居于劣势。
-
-所以，女权运动不会消失，它只会不断深化。它不是“女性对男性的战争”，而是全人类面对残酷竞争时的共同选择。
+I hope to illuminate my thinking with these seven stars, and invite you to return together to the depths of history, to see the true face of women's rights.
 
 ---
 
-## 第二章 · 女权运动 vs 女权主义：一个根本的区别
+## Chapter One · From Ancient Warfare to Modern Competition: The True Reason for the Rise of Women's Rights
 
-### 2.1 女权运动：争取平等法律地位与机会
+### 1.1 The Mobilization Limits of Ancient Societies
 
-让我们给“女权运动”下一个定义：
+To understand the essence of women's rights, one must first understand why women's rights arose.
 
-**女权运动，是指女性为争取与男性平等的法律地位、平等的发展机会、平等的尊严而进行的集体努力。**
+Many people think the women's rights movement was the result of enlightenment by thinkers, the natural product of "social progress," the inevitable outcome of women's consciousness awakening. These claims all have merit, but they overlook a more fundamental driving force—**survival pressure**.
 
-它的核心是“平权”——平等的权利。它不要求特权，不要求女性凌驾于男性之上，不要求用性别取代能力作为分配资源的依据。它只要求一件事：**制度不再偏向任何一方，让每个人都能用自己的力量去争取自己想要的生活。**
+Let us return to ancient times.
 
-在这个意义上，女权运动的第一阶段——争取法律平等——已经在绝大多数国家基本完成。宪法承认男女平等，法律禁止性别歧视，女性拥有选举权、受教育权、财产权、职业选择权。
+Ancient societies were warlike, but the intensity and scope of warfare were incomparable to modern times. Ancient warfare could only be conducted in specific seasons (during agricultural off-seasons), could only rely on specific classes (nobles and professional soldiers), and could only occur in specific locations (borders or strategic points). The number of people mobilized for a single campaign, relative to the total population, was extremely low. Even an ancient state warring year after year might have less than one-tenth of its population actually involved in war. The vast majority of common people, especially women and children, still lived relatively peaceful lives, only needing to pay taxes and provide supplies, without directly participating in combat.
 
-但法律平等不等于事实平等。女权运动的第二阶段正在展开：争取对已经成立的平等法律地位的充分享有。这意味着：
-- 消除职场中的隐性歧视（如同工不同酬、晋升天花板）
-- 消除教育中的隐性偏见（如教材中的性别刻板印象）
-- 消除文化中的隐性压迫（如荡妇羞辱、容貌焦虑）
-- 消除家庭中的隐性不公（如无偿劳动分配不均）
+This mobilization pattern determined that ancient societies had neither the need nor the capacity to mobilize women. Women's strength was left idle, not because they were unimportant, but because the mobilization cost was too high and the returns too low. Thus, society confined women to the domestic sphere, forming a complete "men outside, women inside" (*nan zhu wai, nv zhu nei*, 男主外、女主内) gender division, and solidified it through law, custom, and religion.
 
-这一阶段的任务将永远持续，因为社会结构总会不断产生新的不平等形式。女权运动需要不断调整策略、更新议题，但它的灵魂始终是“平权”。
+### 1.2 The Inevitable Requirement of Modern Total War
 
-### 2.2 女权主义：概念滥用的产物
+Entering the modern era, everything changed.
 
-与“女权运动”不同，“女权主义”是一个被严重滥用的概念。
+The essence of the two World Wars was "total war." The state no longer mobilized a small portion of professional soldiers, but mobilized the entire strength of the whole nation. Regardless of north or south, regardless of age, every adult had to contribute to the nation's survival. Factories needed female workers, farms needed female labor, the rear needed women to perform all functions maintaining social operations.
 
-“女权主义”往往被理解为一种意识形态，一种主张“女性位格高于男性”的思潮。它拒绝承认男权运动的合法性，敌视任何为男性争取权益的努力，甚至将“男性”本身视为压迫的根源。
+Under this pressure, it was no longer possible to exclude the half of the population that was women from social production. Women had to step out of the home, enter the workplace, enter factories, enter all spaces once deemed "male domains."
 
-这种思潮有一个致命的逻辑缺陷：**如果女权主义要求女性特权，那它就不再是“平权”，而是“特权”。而特权，无论属于哪个性别，都与正义背道而驰。**
+Women's rights were not bestowed by thinkers, not the product of enlightened politicians, but the forced choice humanity made in the competition of life and death. If a nation continued to bind women to the home, it would be defeated, conquered, or even annihilated by nations that had mobilized their entire population.
 
-更重要的是，这种思潮在理论上是苍白的。它无法解释为什么女权运动争取到的成果（如教育平等、职场开放）会自动惠及男性（男性也可以选择传统女性职业，也可以享受更宽松的性别角色）。它也无法回应一个简单的问题：如果女性应该拥有特权，那男性是否也应该拥有某种特权？如果答案是否定的，那这种诉求本身就违反了平等的原则。
+**The essence of the women's rights movement is the inevitable result of human competition shifting from low intensity to high intensity.**
 
-所谓的“女权主义”，其实是一种幻觉——一些知识精英和投机者站在女权运动的浪潮上，误以为自己是浪潮的制造者。他们发明了一套话语，试图定义“什么是真正的女权”，试图垄断对女权的解释权。但他们忘了：**浪潮不是他们掀起的，他们只是在冲浪。**
+### 1.3 Contemporary International Competition and the Continuation of Women's Rights
 
-### 2.3 女权运动与男权运动：天然的盟友
+After World War II, although large-scale hot wars temporarily subsided, international competition never stopped. The Cold War, technological races, economic globalization, the AI revolution—each era called for more talent, more creativity, more labor participation. Any nation that excluded half its population would be at a disadvantage in competition.
 
-女权运动与男权运动是什么关系?
-
-很多人以为它们是敌人，是零和博弈的两端。但事实恰恰相反：**它们是天然的盟友。**
-
-为什么？因为男权运动追求的目标——男性摆脱“坚强”“赚钱养家”“不能流泪”的刻板印象，男性获得与女性同等的家庭权利（如育儿假、陪产假），男性免受不公平的兵役义务，男性在离婚、抚养权纠纷中获得公正对待——这些诉求与女权运动的目标高度一致。
-
-每一点女权运动的成果，都会自动转化为男权运动的成果。当女性获得教育平等，男性也获得了更多元的选择；当女性进入职场，男性也可以选择回归家庭；当社会开始反思性别刻板印象，男性也获得了表达脆弱、追求非传统职业的自由。
-
-同样，每一点男权运动的成果，也会自动转化为女权运动的成果。当男性争取到育儿假，女性就能从无偿劳动中解放一部分；当男性争取到情感表达的自由，女性就不再是唯一的情感劳动者。
-
-女权运动与男权运动，本质上是同一场战争——反对性别刻板印象、反对制度性歧视、反对一切将人按性别分类对待的不公——的两个战场。它们互相支持，互相成就，缺一不可。
-
-而“女权主义”之所以有害，正是因为它拒绝承认这种盟友关系。它将男性视为敌人，将男权运动视为威胁，从而制造了本不该存在的性别对立。这种对立不仅无助于解决问题，反而让真正的平权事业陷入内耗。
+Therefore, the women's rights movement will not disappear; it will only deepen continuously. It is not "women's war against men," but humanity's collective choice when facing brutal competition.
 
 ---
 
-## 第三章 · 北辰七德照亮女权之路
+## Chapter Two · Women's Rights Movement vs. Feminism: A Fundamental Distinction
 
-三个月前，我为自己选择了七颗星——智慧、仁爱、勇敢、节制、公正、诚信、超越。我称之为“北辰七德”，因为我想活得像北极星一样稳定，不追逐世界，却让世界因我而找到秩序。
+### 2.1 The Women's Rights Movement: Pursuing Equal Legal Status and Opportunities
 
-现在，我用这七颗星来审视女权议题。
+Let us define the "women's rights movement":
 
-### 3.1 智慧：看清历史真相
+**The women's rights movement refers to the collective efforts of women to pursue legal status equal to men, equal developmental opportunities, and equal dignity.**
 
-智慧的第一要义，是洞察本质。
+Its core is "equal rights"—equal rights. It does not demand privilege, does not demand that women stand above men, does not demand that gender replace ability as the basis for resource allocation. It demands only one thing: **that institutions no longer favor either side, allowing everyone to use their own strength to pursue the life they want.**
 
-用智慧看女权，我们必须看清：女权运动的根源不是思想启蒙，不是社会进步，而是人类竞争的残酷现实。这不是贬低女权，而是让它扎根于更坚实的土壤。当女权不再依赖“觉悟”或“恩赐”，而是成为国家竞争力的必然要求，它就获得了不可动摇的基础。
+In this sense, the first phase of the women's rights movement—pursuing legal equality—has been largely completed in most countries. Constitutions recognize gender equality, laws prohibit gender discrimination, women possess voting rights, education rights, property rights, and career choice rights.
 
-用智慧看女权，我们还必须分清“女权运动”与“女权主义”。前者是平权，后者是特权；前者是盟友，后者是敌人。混淆这两者，就会陷入无谓的争吵。
+But legal equality does not equal factual equality. The second phase of the women's rights movement is unfolding: pursuing full enjoyment of the equal legal status already established. This means:
+- Eliminating implicit discrimination in the workplace (such as unequal pay for equal work, promotion glass ceilings)
+- Eliminating implicit bias in education (such as gender stereotypes in textbooks)
+- Eliminating implicit oppression in culture (such as slut-shaming, appearance anxiety)
+- Eliminating implicit unfairness in families (such as unequal distribution of unpaid labor)
 
-### 3.2 仁爱：同情所有受压迫者
+This phase's tasks will continue forever, because social structures will always generate new forms of inequality. The women's rights movement needs to constantly adjust strategies and update issues, but its soul remains "equal rights."
 
-仁爱要求我们关心他人的痛苦。
+### 2.2 Feminism: The Product of Conceptual Abuse
 
-用仁爱看女权，我们必须看到：女性承受的压迫是真实的。无偿劳动的超额负担、职场晋升的隐形天花板、荡妇羞辱的文化暴力、网络暴力的无差别攻击——这些都是真实存在的痛苦。任何一个有仁爱之心的人，都不可能对此无动于衷。
+Unlike the "women's rights movement," "feminism" is a severely abused concept.
 
-但仁爱也要求我们看到：男性同样承受着压迫。他们被要求坚强、不能流泪、必须赚钱养家、不能选择非传统职业。他们在兵役面前没有选择权，在离婚时往往失去孩子，在遭受家暴时求助无门。这些痛苦同样是真实的。
+"Feminism" is often understood as an ideology, a current of thought advocating that "women's status is superior to men's." It refuses to recognize the legitimacy of men's rights movements, is hostile to any effort to advocate for men's interests, and even treats "men" itself as the root of oppression.
 
-仁爱不偏袒任何一方。仁爱是看见所有人的痛苦，并希望所有人都获得解放。
+This current of thought has a fatal logical flaw: **if feminism demands female privilege, then it is no longer "equal rights," but "privilege." And privilege, regardless of which gender it belongs to, runs counter to justice.**
 
-### 3.3 勇敢：敢于发声，也敢于倾听
+More importantly, this current of thought is theoretically pale. It cannot explain why the achievements won by the women's rights movement (such as educational equality, workplace openness) automatically benefit men as well (men can also choose traditionally female professions, can also enjoy more relaxed gender roles). It also cannot respond to a simple question: if women should have privilege, should men also have some privilege? If the answer is no, then this demand itself violates the principle of equality.
 
-勇敢不是没有恐惧，而是明知有畏仍然前行。
+So-called "feminism" is actually an illusion—some intellectual elites and opportunists standing on the wave of the women's rights movement, mistakenly believing themselves to be the wave's creators. They invented a discourse, attempting to define "what true women's rights are," attempting to monopolize the interpretive power over women's rights. But they forgot: **they didn't create the wave; they're just surfing on it.**
 
-作为男人，公开谈论女权需要勇气。我会被嘲笑、被质疑、被攻击。有人会说“你凭什么”，有人会说“你装的”，有人会说“你搞对立”。但正因为需要勇气，所以才值得去做。
+### 2.3 The Women's Rights Movement and Men's Rights Movement: Natural Allies
 
-同样，面对女性对男权的批评，我也需要勇敢——勇敢地倾听，勇敢地接受批评，勇敢地承认自己可能错了。辩解很容易，防卫很容易，反击很容易。但真正的勇敢，是放下防卫，张开耳朵。
+What is the relationship between the women's rights movement and the men's rights movement?
 
-### 3.4 节制：不滥用概念，不抢占话筒
+Many people think they are enemies, two ends of a zero-sum game. But the truth is precisely the opposite: **they are natural allies.**
 
-节制要求自我约束。
+Why? Because the goals pursued by the men's rights movement—men breaking free from the stereotypes of "being strong," "earning money to support the family," "not being allowed to cry"; men obtaining family rights equal to women's (such as parental leave, paternity leave); men being exempt from unfair military service obligations; men receiving fair treatment in divorce and custody disputes—these demands are highly consistent with the goals of the women's rights movement.
 
-在女权议题上，节制意味着：不滥用“女权主义”这个已经被污染的概念，不让它掩盖真正的女权运动。节制意味着：不抢占女性的话语权，不替女性定义“什么是女性应有的权利”。节制意味着：在发声的同时，知道自己应该何时闭嘴，何时让女性自己说话。
+Every achievement of the women's rights movement automatically converts into an achievement of the men's rights movement. When women obtain educational equality, men also gain more diverse choices; when women enter the workplace, men can also choose to return to the home; when society begins reflecting on gender stereotypes, men also gain the freedom to express vulnerability and pursue non-traditional careers.
 
-节制不是软弱，而是智慧。因为只有节制，才能让真正的平权之声被听见。
+Similarly, every achievement of the men's rights movement automatically converts into an achievement of the women's rights movement. When men win parental leave, women can be partially liberated from unpaid labor; when men gain freedom of emotional expression, women are no longer the sole emotional laborers.
 
-### 3.5 公正：给予每个人应得的对待
+The women's rights movement and the men's rights movement are essentially the same war—against gender stereotypes, against institutional discrimination, against all injustice that treats people differently based on gender—waged on two battlefields. They support each other, fulfill each other, and are indispensable to each other.
 
-公正是一切平权运动的灵魂。
-
-用公正看女权，我们必须承认：公正不是“女性得到什么，男性就必须得到什么”，也不是“女性不要求什么，男性就不能要求什么”。公正是机会平等，是制度中立，是让每个人都能用自己的力量争取自己想要的生活。
-
-公正要求我们支持女权运动，也支持男权运动。因为只有两翼齐飞，才能真正实现性别的解放。
-
-### 3.6 诚信：言行一致
-
-诚信是说到做到。
-
-如果我相信女权，我就要在日常生活中践行。看见职场歧视，我要说话；看见朋友开性别玩笑，我要制止；看见家务分配不公，我要分担；看见女性被骚扰，我要站在她身边。
-
-诚信也意味着：当女性指出我的错误时，我不辩解。因为辩解就是推卸责任，就是把自己的面子看得比对方的感受更重要。
-
-### 3.7 超越：超越性别，成为完整的人
-
-超越是北辰七德的最后一颗星，也是最高的追求。
-
-超越意味着：不满足于现状，不囿于成见，不断突破自己的局限。在性别议题上，超越意味着：不再将自己局限于“男人”或“女人”的角色，而是成为一个人——一个有理性、有情感、有能力、有尊严的人。
-
-超越不是消除性别，而是超越性别带来的桎梏。当男人可以哭泣，女人可以刚强；当男人可以选择成为全职父亲，女人可以选择成为职场精英；当所有人都能自由选择自己想要的生活——那时，我们才真正实现了超越。
+And "feminism" is harmful precisely because it refuses to recognize this alliance. It treats men as enemies, treats the men's rights movement as a threat, thereby manufacturing gender division that should not exist. This division not only fails to help solve problems, but instead causes the true equal-rights cause to fall into internal attrition.
 
 ---
 
-## 第四章 · 重读密尔与沃斯通克拉夫特
+## Chapter Three · The Seven Virtues of the North Star Illuminate the Path of Women's Rights
 
-### 4.1 沃斯通克拉夫特：教育的剥夺即自由的剥夺
+Three months ago, I chose seven stars for myself—wisdom, benevolence, courage, temperance, justice, integrity, transcendence. I call them the "Seven Virtues of the North Star" (*Beichen Qide*, 北辰七德), because I want to live as steadily as the North Star—not chasing the world, yet letting the world find order through me.
 
-1792年，玛丽·沃斯通克拉夫特写下《女权辩护》。她的核心论点简洁有力：
+Now, I use these seven stars to examine the issue of women's rights.
 
-**女性之所以显得不如男性，不是因为她天生如此，而是因为她被剥夺了成为更好的自己的机会。**
+### 3.1 Wisdom: Seeing the Historical Truth
 
-在18世纪的英国，女性教育的目标是培养“讨人喜欢的妻子”——学一点音乐、舞蹈、打扮，学一点取悦丈夫的技巧。至于逻辑、哲学、科学、政治，那些是“男人的领域”。
+The first imperative of wisdom is insight into essence.
 
-沃斯通克拉夫特愤怒地指出：这不是教育，这是驯化。它不是培养完整的人，而是培养漂亮的附属品。
+Viewing women's rights through wisdom, we must see clearly: the root of the women's rights movement is not intellectual enlightenment, not social progress, but the brutal reality of human competition. This is not diminishing women's rights, but grounding it in more solid soil. When women's rights no longer depend on "awakening" or "bestowal," but become an inevitable requirement of national competitiveness, it gains an unshakable foundation.
 
-“教女人学会服从，就是教她们学会欺骗。”她说。当一个社会告诉女性“你的价值取决于你是否讨人喜欢”，女性自然会发展出一套讨好、伪装、操纵的生存策略。这不是女性的天性，这是被压迫者的智慧。
+Viewing women's rights through wisdom, we must also distinguish between the "women's rights movement" and "feminism." The former is equal rights, the latter is privilege; the former is an ally, the latter is an enemy. Confusing the two leads to pointless quarrels.
 
-更深刻的是，沃斯通克拉夫特预见了这种教育剥夺的后果：女性会内化对自己的贬低。当社会反复说“你不适合理性”，女性会逐渐相信这些话，自我审查，自我限制，自我矮化。
+### 3.2 Benevolence: Compassion for All the Oppressed
 
-**最成功的压迫，是让被压迫者主动接受自己的被压迫地位。**
+Benevolence requires us to care about others' suffering.
 
-### 4.2 密尔：婚姻即奴隶制的残余
+Viewing women's rights through benevolence, we must see: the oppression women endure is real. The excessive burden of unpaid labor, the invisible glass ceiling in career advancement, slut-shaming as cultural violence, indiscriminate cyberattacks—these are all genuinely existing suffering. Anyone with benevolence cannot remain indifferent to this.
 
-1869年，约翰·斯图尔特·密尔出版《论妇女的屈从地位》。他有一个震撼性的论断：
+But benevolence also requires us to see: men also suffer oppression. They are required to be strong, not allowed to cry, must earn money to support the family, cannot choose non-traditional careers. They have no choice regarding military service, often lose their children in divorce, have nowhere to turn when suffering domestic violence. These sufferings are equally real.
 
-**婚姻法将女性置于与奴隶同等的法律地位。**
+Benevolence does not favor either side. Benevolence is seeing all people's suffering, and hoping all people achieve liberation.
 
-在19世纪的英国，已婚女性没有独立的法律人格。她不能拥有财产，不能签订合同，不能提起诉讼，不能拥有自己的收入。她的一切都属于丈夫——包括她自己。如果丈夫虐待她，她几乎没有任何法律救济。
+### 3.3 Courage: Daring to Speak, and Daring to Listen
 
-密尔愤怒地指出：这是奴隶制的残余。社会已经废除了奴隶制，却保留着对女性的奴役。更讽刺的是，这种奴役被美化为“保护”，被神圣化为“天职”。
+Courage is not the absence of fear, but proceeding despite knowing fear.
 
-但密尔的洞见不止于此。他更深刻地指出：**即使法律层面的不平等被废除，社会习俗层面的不平等也会持续存在。**
+As a man, publicly discussing women's rights requires courage. I will be mocked, questioned, attacked. Some will say "what right do you have," some will say "you're pretending," some will say "you're creating division." But precisely because it requires courage, it is worth doing.
 
-法律可以规定“男女平等”，但无法规定“人们如何看待男女”。那些根深蒂固的偏见——女性应该温柔、顺从、以家庭为重——会持续塑造女性的选择，限制女性的发展。
+Similarly, facing women's criticism of male privilege, I also need courage—courage to listen, courage to accept criticism, courage to admit I might be wrong. Defending is easy, guarding is easy, counterattacking is easy. But true courage is放下 guarding, opening one's ears.
 
-密尔举了一个精彩的类比：长期关在笼子里的鸟，人们说它“天生不会飞”。但问题是，你怎么知道它不会飞？你从来没有让它飞过。女性也一样。社会从来没有给女性同等的机会去发展自己的能力，却用“女性天生不如男性”来解释结果。
+### 3.4 Temperance: Not Abusing Concepts, Not Seizing the Microphone
 
-### 4.3 他们也会反对今天的“女权主义”
+Temperance requires self-restraint.
 
-如果沃斯通克拉夫特和密尔活到今天，他们会支持什么?
+On the issue of women's rights, temperance means: not abusing the already-contaminated concept of "feminism," not letting it obscure the true women's rights movement. Temperance means: not seizing women's discursive power, not defining for women "what women's rights should be." Temperance means: while speaking out, knowing when one should be quiet, when to let women speak for themselves.
 
-他们会支持女权运动——争取教育平等、职场平等、法律平等。他们会支持男权运动——争取男性摆脱刻板印象、获得家庭权利、免受不公义务。他们会支持一切为打破性别桎梏而努力的集体行动。
+Temperance is not weakness, but wisdom. Because only through temperance can the true voice of equal rights be heard.
 
-但他们一定会反对今天的“女权主义”——那种主张女性特权、敌视男性、制造性别对立的思潮。因为这种思潮违背了他们追求的核心价值：**自由与平等。**
+### 3.5 Justice: Giving Each Person Their Due Treatment
 
-密尔在《论自由》中写道：“人类之所以有理由干涉任何一个人的行动自由，唯一的目的只能是自我防卫。”这句话同样适用于性别关系。当女性主张特权时，她们就在侵犯男性的自由；当“女权主义”成为压迫男性的工具时，它就不再是女权，而是另一种形式的专制。
+Justice is the soul of all equal-rights movements.
 
-沃斯通克拉夫特在《女权辩护》中也写道：“我并非要求女性拥有对男性的权力，而是要求她们拥有对自己的权力。”她追求的是女性的自主，而不是女性的霸权。这两者有本质的区别。
+Viewing women's rights through justice, we must acknowledge: justice is not "whatever women get, men must also get," nor is it "whatever women don't demand, men cannot demand." Justice is equal opportunity, institutional neutrality, letting everyone use their own strength to pursue the life they want.
 
----
+Justice requires us to support the women's rights movement, and also the men's rights movement. Because only with both wings flying together can true gender liberation be achieved.
 
-## 第五章 · 今天，一个男人为什么必须“打拳”
+### 3.6 Integrity: Consistency Between Words and Actions
 
-### 5.1 男性的沉默，本身就是一种暴力
+Integrity is doing what one says.
 
-回到开头的问题：一个男人，为什么必须“打拳”?
+If I believe in women's rights, I must practice it in daily life. Seeing workplace discrimination, I must speak up; seeing friends making gender jokes, I must stop them; seeing unfair household chore distribution, I must share the load; seeing women being harassed, I must stand beside them.
 
-因为**特权者的沉默，就是对压迫的默许。**
+Integrity also means: when women point out my mistakes, I do not defend myself. Because defending is shifting responsibility, is placing one's own face above the other's feelings.
 
-当我看见女性承受不公平的待遇却一言不发，我就是在用沉默说“这很正常”。当我看见男性被刻板印象束缚却无动于衷，我就是在用沉默说“这应该的”。当我看见“女权主义”制造性别对立却不站出来澄清，我就是在用沉默说“这不关我的事”。
+### 3.7 Transcendence: Transcending Gender, Becoming a Complete Person
 
-但这是我的事。这是每一个人的事。性别平等不是“女人的事”，而是人类的事。如果只有女性在为平等奋斗，那平等永远不会真正实现。因为特权阶层——男性——如果不参与，不平等的结构就无法被彻底撼动。
+Transcendence is the last star of the Seven Virtues of the North Star, and the highest pursuit.
 
-### 5.2 女性主义解放的不仅是女性
+Transcendence means: not being satisfied with the status quo, not confined by prejudice, constantly breaking through one's own limitations. On gender issues, transcendence means: no longer confining oneself to the role of "man" or "woman," but becoming a person—a person with rationality, emotion, capability, and dignity.
 
-女性主义解放女性，也解放男性。
-
-当女性争取育儿假，男性也获得了陪伴孩子的机会。当女性争取情感表达的自由，男性也被允许流泪。当女性争取摆脱“贤妻良母”的刻板印象，男性也获得了选择非传统职业的自由。
-
-**性别平等不是零和游戏。它是正和游戏——所有人都赢。**
-
-所以，支持女权运动，不是“背叛男性”，而是解放自己。反对“女权主义”，也不是“反对女性”，而是捍卫平等本身。
-
-### 5.3 如何正确地“打拳”：一个男人的七条行动指南
-
-1. **听，而不是说**：把话筒递给女性，让她们自己说话。倾听她们的痛苦，倾听她们的需求，倾听她们的建议。
-2. **看见自己的特权**：意识到自己拥有哪些不必承受的负担（如走夜路不害怕、发言不被打断），并保持谦卑。
-3. **在日常中行动**：看见歧视就说话，看见不公就干预，看见分配不均就分担。
-4. **接受批评，不辩护**：当女性指出我的错误时，不辩解、不否认、不“我不是这个意思”。道歉，改正。
-5. **持续学习**：把理解性别平等当作终身课题，不是三八节那天的应景文章。
-6. **延续话题**：不让性别议题在节日后消失。在“不该”谈论的时候继续谈论。
-7. **影响其他男性**：用自己的行动示范——支持平等，承担责任，愿意倾听。
+Transcendence is not eliminating gender, but transcending the shackles imposed by gender. When men can cry, when women can be strong; when men can choose to be full-time fathers, when women can choose to be career elites; when everyone can freely choose the life they want—then we have truly achieved transcendence.
 
 ---
 
-## 结语 · Let the better one win
+## Chapter Four · Rereading Mill and Wollstonecraft
 
-写完这些字，天快亮了。
+### 4.1 Wollstonecraft: The Deprivation of Education Is the Deprivation of Freedom
 
-窗外，北斗七星正在隐退，曙光即将到来。我想起那句话：
+In 1792, Mary Wollstonecraft wrote *A Vindication of the Rights of Woman*. Her core argument is concise and powerful:
 
-**“譬如北辰，居其所而众星共之。”**
+**Women appear inferior to men not because they are naturally so, but because they have been deprived of the opportunity to become better versions of themselves.**
 
-北极星从不追逐，它只是稳定在那里。但因为它稳定，众星找到了方向。
+In 18th-century England, the goal of women's education was to cultivate "pleasing wives"—learning a little music, dancing, dressing up, learning a few techniques for pleasing husbands. As for logic, philosophy, science, politics—those were "men's domains."
 
-我希望自己能活成这样一颗星——在性别议题的迷雾中，保持稳定，不偏不倚。支持女权运动，因为那是平权；反对女权主义，因为那是特权。看见女性的痛苦，也看见男性的痛苦。追求所有人的解放，而不只是某一方的胜利。
+Wollstonecraft angrily pointed out: this is not education, this is domestication. It does not cultivate complete persons, but cultivates pretty appendages.
 
-最后，我想用沃斯通克拉夫特的话结尾。在《女权辩护》的最后，她写道：
+"Teaching women to obey is teaching them to deceive," she said. When a society tells women "your value depends on whether you are pleasing," women naturally develop a set of survival strategies of pleasing, disguising, and manipulating. This is not women's nature; this is the wisdom of the oppressed.
 
-> “我并非要求女性拥有对男性的权力，而是要求她们拥有对自己的权力。我希望女性获得力量，不是用来支配男性，而是用来支配自己。”
+More profoundly, Wollstonecraft foresaw the consequences of this educational deprivation: women would internalize their own devaluation. When society repeatedly says "you are unsuited for rationality," women gradually believe these words, self-censoring, self-limiting, self-diminishing.
 
-这才是女权的真谛。
+**The most successful oppression is making the oppressed actively accept their own oppressed status.**
 
-在争取这一切的过程中，我们必须记住：
+### 4.2 Mill: Marriage as a Relic of Slavery
+
+In 1869, John Stuart Mill published *The Subjection of Women*. He had a shocking assertion:
+
+**Marriage law placed women in the same legal status as slaves.**
+
+In 19th-century England, married women had no independent legal personality. She could not own property, could not sign contracts, could not file lawsuits, could not have her own income. Everything belonged to her husband—including herself. If her husband abused her, she had virtually no legal remedy.
+
+Mill angrily pointed out: this is a relic of slavery. Society had abolished slavery, yet retained the enslavement of women. More ironically, this enslavement was美化 as "protection," sanctified as "sacred duty."
+
+But Mill's insight went further. He more deeply pointed out: **even if legal-level inequality is abolished, social-custom-level inequality will persist.**
+
+Law can stipulate "gender equality," but cannot stipulate "how people view men and women." Those deeply rooted prejudices—that women should be gentle, obedient, family-oriented—will continue to shape women's choices and limit women's development.
+
+Mill offered a brilliant analogy: a bird long kept in a cage, people say it is "naturally unable to fly." But the question is, how do you know it cannot fly? You have never let it fly. Women are the same. Society has never given women equal opportunities to develop their abilities, yet uses "women are naturally inferior to men" to explain the results.
+
+### 4.3 They Would Also Oppose Today's "Feminism"
+
+If Wollstonecraft and Mill lived today, what would they support?
+
+They would support the women's rights movement—pursuing educational equality, workplace equality, legal equality. They would support the men's rights movement—pursuing men's liberation from stereotypes, obtaining family rights, exemption from unfair obligations. They would support all collective action aimed at breaking gender shackles.
+
+But they would definitely oppose today's "feminism"—that current of thought advocating female privilege, hostile to men, manufacturing gender division. Because this current of thought violates the core value they pursued: **freedom and equality.**
+
+Mill wrote in *On Liberty*: "The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others." This statement applies equally to gender relations. When women advocate privilege, they are infringing on men's freedom; when "feminism" becomes a tool for oppressing men, it is no longer women's rights, but another form of tyranny.
+
+Wollstonecraft also wrote in *A Vindication of the Rights of Woman*: "I do not wish them [women] to have power over men; but over themselves." She pursued women's autonomy, not women's hegemony. These two have a fundamental difference.
+
+---
+
+## Chapter Five · Today, Why a Man Must "Punch"
+
+### 5.1 Men's Silence Is Itself a Form of Violence
+
+Returning to the opening question: why must a man "punch"?
+
+Because **the silence of the privileged is acquiescence to oppression.**
+
+When I see women receiving unfair treatment yet say nothing, I am using silence to say "this is normal." When I see men bound by stereotypes yet remain indifferent, I am using silence to say "this is deserved." When I see "feminism" manufacturing gender division yet do not step forward to clarify, I am using silence to say "this is not my concern."
+
+But this is my concern. This is everyone's concern. Gender equality is not "women's business," but humanity's business. If only women are fighting for equality, equality will never truly be realized. Because the privileged class—men—if they do not participate, the structure of inequality cannot be thoroughly shaken.
+
+### 5.2 Feminism Liberates Not Only Women
+
+Feminism liberates women, and also liberates men.
+
+When women pursue parental leave, men also gain the opportunity to accompany their children. When women pursue freedom of emotional expression, men are also permitted to cry. When women pursue liberation from the "virtuous wife and good mother" (*xianqi liangmu*, 贤妻良母) stereotype, men also gain the freedom to choose non-traditional careers.
+
+**Gender equality is not a zero-sum game. It is a positive-sum game—everyone wins.**
+
+Therefore, supporting the women's rights movement is not "betraying men," but liberating oneself. Opposing "feminism" is not "opposing women," but defending equality itself.
+
+### 5.3 How to Correctly "Punch": A Man's Seven-Point Action Guide
+
+1. **Listen, not speak**: Pass the microphone to women, let them speak for themselves. Listen to their suffering, listen to their needs, listen to their suggestions.
+2. **See your own privilege**: Recognize which burdens you do not have to bear (such as not fearing walking at night, not being interrupted when speaking), and maintain humility.
+3. **Act in daily life**: When you see discrimination, speak up; when you see injustice, intervene; when you see unequal distribution, share the burden.
+4. **Accept criticism, do not defend**: When women point out my mistakes, do not解释, do not deny, do not say "I didn't mean that." Apologize, correct.
+5. **Continuously learn**: Treat understanding gender equality as a lifelong pursuit, not just a timely article on Women's Day.
+6. **Keep the conversation going**: Do not let gender issues disappear after the holiday. Continue discussing when it's "not the right time" to discuss.
+7. **Influence other men**: Demonstrate through your own actions—support equality, take responsibility, be willing to listen.
+
+---
+
+## Conclusion · Let the Better One Win
+
+After finishing these words, dawn is approaching.
+
+Outside the window, the Big Dipper is fading, the first light即将到来. I recall that saying:
+
+**"Like the North Star, dwelling in its place while all the stars revolve around it."** (*puru Beichen, ju qi suo er zhongxing gong zhi*, 譬如北辰，居其所而众星共之)
+
+The North Star never chases; it simply remains steady in its place. But because it is steady, the stars find their direction.
+
+I hope I can live as such a star—in the fog of gender issues, maintaining stability, unbiased. Supporting the women's rights movement, because that is equal rights; opposing feminism, because that is privilege. Seeing women's suffering, also seeing men's suffering. Pursuing everyone's liberation, not just one side's victory.
+
+Finally, I want to end with Wollstonecraft's words. At the conclusion of *A Vindication of the Rights of Woman*, she wrote:
+
+> "I do not wish them [women] to have power over men; but over themselves. I wish women to have power, not to dominate men, but to dominate themselves."
+
+This is the true essence of women's rights.
+
+In striving for all this, we must remember:
 
 **Let the better one win.**
 
-让更好的那个赢。不论性别，只论能力。不论出身，只论努力。不论标签，只论真实。
+Let the better one win. Regardless of gender, only regarding capability. Regardless of background, only regarding effort. Regardless of labels, only regarding truth.
 
-这才是我们应该追求的——一个让每一个人都能自由发展、公平竞争的世界。
+This is what we should pursue—a world where everyone can freely develop and fairly compete.
 
 ---
 
-**【全文约8100字】**
+**[Approximately 8,100 words]**
 
-*完稿于2026年3月8日黎明*
+*Completed at dawn on March 8, 2026*
 
-*谨以此文，献给玛丽·沃斯通克拉夫特和约翰·斯图尔特·密尔——两百年前为平等而战的先驱。*
+*Dedicated to Mary Wollstonecraft and John Stuart Mill—pioneers who fought for equality two hundred years ago.*
 
-*献给所有关心权利与平等的人类——无论你是男是女，无论你站在哪一边，只要你追求正义，你就是我的盟友。*
+*Dedicated to all humans who care about rights and equality—regardless of whether you are male or female, regardless of which side you stand on, as long as you pursue justice, you are my ally.*
 
-*也献给三个月前为自己选择北辰七德的自己——愿我配得上这七颗星的照耀。*
+*Also dedicated to myself three months ago when I chose the Seven Virtues of the North Star—may I be worthy of the illumination of these seven stars.*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

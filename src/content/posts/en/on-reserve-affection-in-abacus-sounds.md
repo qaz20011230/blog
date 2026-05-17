@@ -1,41 +1,41 @@
 ---
-title: 论“矜持”——算盘声里的情意
+title: On "Reserve" — Affection in the Clatter of Abacus Beads
 date: '2026-01-12'
 category: Culture & Art
 tags:
   - culture
-  - 情感
-  - 散文
+  - emotion
+  - essay
 description: >
-  当“爱情经济学”将矜持解构为“消极交易”，当我们将活生生的人熬成明码标价的“高汤”，我们究竟是在进步，还是在异化？本期周刊，借鲁迅笔意，聊聊算盘珠子声里的情意与尊严。
+  When "the economics of love" deconstructs reserve as a "passive transaction," when we boil living human beings into clearly priced "broth" (*gāo tāng*), are we progressing, or are we becoming alienated? In this piece, written in imitation of Lu Xun's style, let us discuss the affection and dignity that resonate in the clatter of abacus beads.
 ---
 
-近来听得一种新学问，叫作“爱情经济学”。其中有一桩妙论，道是“矜持乃消极交易”。初看颇觉新鲜，细想却令人哑然——原来这花前月下的事，也终究逃不开那“合同要约”与“风险仲裁”的算盘声了。
+Recently I have heard of a new discipline called "the economics of love." It contains a remarkable thesis: "reserve (*jīnchí*, 矜持) is a passive transaction." At first glance, this seems novel; upon reflection, it leaves one dumbfounded — so even the affairs of moonlit romance cannot, in the end, escape the clatter of "contract offers" and "risk arbitration" from the abacus.
 
-#### **一、**
+#### **I.**
 
-据说这矜持的法门，便是自家绝不开口，只等别人将合同拟好送来。条款须得尽合我意，倘有些许模糊，将来打起官司，也是起草人吃亏。自己稳坐钓鱼台，早赚了“设计成本”与“仲裁风险”两重利润。这算法，实在精妙得很。
+The method of this reserve, they say, is to never speak first oneself, but to wait for others to draft and deliver the contract. Every clause must suit me perfectly; if there is any ambiguity, when the dispute goes to court, the drafter bears the loss. One sits securely on the fishing platform, already earning double profit from "design costs" and "arbitration risk." This arithmetic is truly ingenious.
 
-然而我竟有些糊涂了。这“交易”二字，究竟交易的是甚么？若说是情意，情意原不是货架上的罐头，贴了标价便可银货两讫的。若说是终身，终身大事，倒成了买卖双方锱铢必较的生意经。昔日男女“授受不亲”，是礼法；今日男女“消极交易”，竟成了智慧。礼法吃人，算术莫非便不吃人么?
+Yet I find myself rather confused. What exactly is being "transacted" in this transaction? If it is affection, affection is not a tin can on a store shelf, labeled with a price and settled with cash on delivery. If it is a lifelong commitment, then the grand affair of one's whole life has become a ledger of haggling between buyer and seller. In former times, the rule that men and women "should not touch hands in passing" (*shòushǒu bù qīn*, 授受不亲) was enforced by ritual law; today, "passive transaction" has become wisdom. Ritual law devoured people — does arithmetic not devour people as well?
 
-#### **二、**
+#### **II.**
 
-持此论者又言，欲行此策，须得“自强不息”，将自家价值“广告”出去，好教人一眼便知是奇货可居。这话听来耳熟，细细一想，与那商铺门前高悬“金字招牌”、伙计高声吆喝“祖传秘制”，有何分别？原来所谓“高价值”，也不过是待价而沽的筹码。将活生生的人，熬成一锅明码标价的“高汤”，这“自强不息”，竟是为了在人市上卖个好价钱。呜呼，我不知这究竟是人的进步，还是人的异化。
+The proponents of this view further insist that to execute this strategy, one must "constantly strive for self-improvement" (*zìqiáng bùxī*, 自强不息), advertising one's value so that others can see at a glance that one is rare goods worth hoarding. This sounds familiar — upon closer thought, it resembles the shopkeeper who hangs a "golden signboard" above his door and has his clerk shout "ancestral secret recipe!" at the passersby. So-called "high value" turns out to be nothing but a bargaining chip held for the right price. Boiling a living person down to a pot of clearly priced "broth" (*gāo tāng*, 高汤) — and this "constant self-improvement" turns out to be for the sake of fetching a good price at the human marketplace. Alas, I do not know whether this constitutes human progress or human alienation.
 
-更妙的是，他们还庆幸于此法可“筛选”掉那些不识货的主顾。这逻辑，与囤积居奇的商人，望着买不起的穷人拂袖而去，抚掌笑道“此非我客”，简直同出一辙。交易范围愈窄，竟成了“福利”。于是，婚姻恋爱，不再讲求志趣相投、两心相悦，倒成了寻找那唯一肯出高价、且甘担风险的“诚意买家”。这诚意，是情的诚意，还是利的诚意？恐怕那算盘珠子一响，心里早有了答案。
+What is even more remarkable is that they congratulate themselves on this method's ability to "screen out" those customers who cannot appreciate fine goods. This logic is identical to that of the monopolistic merchant who watches the poor walk away unable to afford his wares, claps his hands, and declares "these are not my clientele." The narrower the transaction range, the more it is celebrated as a "benefit." Thus, marriage and romance are no longer about shared aspirations and mutual delight between two hearts, but about finding that sole buyer willing to pay the highest price and bear the greatest risk — a "sincere purchaser." Is this sincerity of the heart, or sincerity of the ledger? The moment the abacus beads clatter, the answer is already clear in one's mind.
 
-#### **三、**
+#### **III.**
 
-我并非反对人须自强，亦非鼓吹轻率。只是将人际的情谊与抉择，全然套入这冰冷算计的模子，颇有些可怕。人若成了彻底的“理性经济人”，那心动时的一抹慌乱，那相知时的会心一笑，那不计利害的倾心付出，又该在资产负债表上，记入哪个科目？莫非全是“非理性泡沫”，迟早要在现实的盘算中破灭?
+I am not opposed to people striving for self-improvement, nor do I advocate recklessness. But to compress all human affection and choice into this cold mold of calculation is rather terrifying. If a person becomes a thoroughgoing "rational economic agent," then that flutter of panic when one's heart stirs, that knowing smile when two minds meet, that wholehearted sacrifice made without reckoning of gain or loss — on which line of the balance sheet are these to be entered? Are they all "irrational bubbles," destined to burst under the reckoning of reality?
 
-昔有父母之命、媒妁之言，青年男女宛如提线木偶；今有“消极交易”、“风险管控”，自由恋爱的皮囊下，装的仍是精明的生意脑髓。挣脱了旧的枷锁，却又欣然套上新的算盘链子，还自以为得了自由的秘钥。这倒像极了“做稳了奴隶”的时代，换了个花样，便以为是“当家作主”了。
+In former days, there were parental commands and matchmakers' words, and young men and women were like puppets on strings. Today we have "passive transactions" and "risk management" — beneath the skin of free love, the brain matter remains that of shrewd business. Having escaped the old fetters, people gladly slip on the new chains of the abacus, believing they have found the secret key to freedom. This is very much like the era of "having stabilized slavery" (*zuò wěn le núlì*, 做稳了奴隶) — a change of costume, and one thinks oneself the master of the house.
 
-#### **四、**
+#### **IV.**
 
-真正的“矜持”，我以为，并非交易的策略，而是**主体的尊严**。是知道自己为谁而动心，为何而选择，故而不愿将就，不敢轻慢。这份“不轻许”，是对他人，更是对自己。它底子里是一股“真气”，而非一套“算法”。若失了这份真气，纵算得尽天下利害，筛选出最“优”的合同，签下的，也不过是一纸合伙经营的章程，与那两心相映的“姻缘”，早已南辕北辙。
+True reserve (*jīnchí*), I believe, is not a transactional strategy but the **dignity of the subject** (*zhǔtǐ de zūnyán*, 主体的尊严). It is knowing for whom one's heart stirs and why one chooses, and therefore refusing to settle, refusing to slight. This "refusal to make light commitments" is directed toward others, and even more so toward oneself. At its root, it is a current of authentic vitality (*zhēnqì*, 真气), not a set of algorithms. If one loses this authentic vitality, then even if one calculates every gain and loss in the world, screens out the most "optimal" contract, what one signs is merely a charter for a joint venture — something already far removed from that mutual resonance of two hearts that people call a marriage of true minds (*yīnyuán*, 姻缘).
 
-可怕的是，当这套学问成了“广泛认可”的智慧，人人都争做精明的“矜持方”。届时，市场上林立着待价而沽的“高价值”招牌，却再也无人愿做那“傻气”的起草人。人人持币待购，人人又都是奇货，这交易，还做得成么？怕只剩下无数精致的算盘，在寂静中空响，演算着一场永远无法成交的、人的孤独。
+What is frightening is that when this doctrine becomes "widely accepted" wisdom, everyone will scramble to be the shrewd "reserved party." The marketplace will bristle with "high-value" signboards hung for the right price, yet no one will be willing to play the "foolish" drafter. Everyone holds currency awaiting purchase, and everyone is also rare goods — can this transaction still be completed? What remains will be countless exquisite abacuses, clattering in the silence, computing an eternal loneliness of the human species — a transaction that can never be closed.
 
-(2026年2月2日仿鲁迅笔意于羊城云汐谷)
+(February 2, 2026, written in imitation of Lu Xun's style, at Yunxi Valley, Guangzhou)
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

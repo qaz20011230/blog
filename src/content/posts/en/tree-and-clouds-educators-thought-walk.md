@@ -7,343 +7,343 @@ tags:
   - philosophy
   - thought
 description: >
-  从一个六岁孩子的提问出发，重访“教育是一棵树摇动另一棵树”的原意：教育不是灌输而是唤醒；温柔与严厉同出于爱；纪律不是屈从而是自由的服从。最后回到当代语境，讨论教师如何以“知识剧”重建吸引与传承。
+  从一个六岁孩子的提问出发，重访"教育是一棵树摇动另一棵树"的原意：教育不是灌输而是唤醒；温柔与严厉同出于爱；纪律不是屈从而是自由的服从。最后回到当代语境，讨论教师如何以"知识剧"重建吸引与传承。
 ---
 
-## 一
+## I
 
-我至今记得那个问题。
+I still remember that question.
 
-去年冬天，朋友小文的女儿——一个六岁的、扎着两个羊角辫的小姑娘——忽然仰起脸，用那种只有孩子才有的、毫不设防的困惑问我：“为什么你对小猫那么温柔，对我却很严厉呢？”
+Last winter, my friend Xiaowen's (小文) daughter—a six-year-old girl with two little braids—suddenly looked up at me with that completely unguarded puzzlement only children possess: "Why are you so gentle with the little cat, but so strict with me?"
 
-她的眼睛很亮，像两颗刚从水里捞出来的葡萄。她不是质问，她只是真的不明白。
+Her eyes were bright, like two grapes freshly plucked from water. She wasn't质问 (interrogating); she simply truly didn't understand.
 
-当时我坐在旁边，端着茶杯，听见这个问题，心里忽然有什么东西被轻轻拨动了一下。一个六岁的孩子，已经在用她最原始的直觉追问教育的核心悖论：爱若温柔，为何严厉？爱若自由，为何纪律?
+I was sitting beside her, holding a teacup. Hearing that question, something inside me was轻轻拨动. A six-year-old child, using her most原始直觉, was already pursuing the core paradox of education: if love is gentle, why strict? If love means freedom, why discipline?
 
-后来我想了很久。我想起雅斯贝尔斯在《什么是教育》里写下的那句话。那句话我们都太熟悉了，熟悉到忘记了它的锋利——
+I thought about this for a long time afterward. I thought of the line Jaspers (雅斯贝尔斯) wrote in *What Is Education?* (《什么是教育》). That line—we are all too familiar with it, familiar enough to forget its sharpness—
 
-“教育是一棵树摇动另一棵树，一朵云推动另一朵云，一个灵魂唤醒另一个灵魂。”
+"Education is one tree shaking another tree, one cloud pushing another cloud, one soul awakening another soul."
 
-这句话的美妙之处，在于它不要求一棵树摇动整片森林，不要求一朵云推动整片天空，不要求一个灵魂唤醒整个世界。它只要求“另一棵”“另一朵”“另一个”。
+The beauty of this statement lies in the fact that it does not要求 one tree to shake an entire forest, one cloud to push an entire sky, one soul to awaken the entire world. It requires only "another tree," "another cloud," "another soul."
 
-这是教育最容易被遗忘的真相。我们总是被“桃李满天下”的宏大叙事所吸引，被“改变世界”的英雄梦想所激动，却忘了教育最初的模样，不过是两个人之间的事——一个愿意唤醒，一个愿意被唤醒。
+This is the most easily forgotten truth of education. We are always attracted by the grand narrative of "peaches and plums filling the world" (桃李满天下),激动的 by the heroic dream of "changing the world," yet forget that education's original form is simply a matter between two people—one willing to awaken, one willing to be awakened.
 
-我决定进入教培行业。不是因为我相信自己能改变多少人的命运，而是因为我渴望成为那“另一棵”树旁边的“另一棵”——被摇动过，然后试着去摇动。
-
----
-
-## 二
-
-要理解教育，我们得回到“教育”这个词的根上。
-
-在拉丁语中，教育是 *educare*，由“e”（出）和“ducere”（引导）组成，意为“引出”。古罗马人相信，每个孩子生来就带着一颗种子，教育不是把什么东西塞进去，而是把那颗种子引出来，让它自己生长。
-
-在希腊语中，有一个相近的词：*paideia*。它不只是教育，它意味着“文化的塑造”——用整个文明的力量，把一个自然的人，塑造成一个完整的人。
-
-而在我们东方的传统里，孔子说：“有教无类。”又说：“不愤不启，不悱不发。”教育的起点，不是教师的权威，而是学生的“愤”与“悱”——那种内心的渴望与困惑。只有当学生自己想不明白、说不清楚的时候，教育者才轻轻推一把。
-
-苏霍姆林斯基在帕夫雷什中学做了二十多年的校长，他每天早晨都站在校门口迎接学生。他说：“教育首先是人的教育。人是最高价值。”他相信，教育的核心不是知识，而是心灵。一个教师最重要的能力，不是把知识讲清楚，而是“看到人的内心世界”。
-
-这些古老的智慧，跨越时空，指向同一个方向：教育不是灌输，而是唤醒。
-
-但唤醒，从来不是一件温柔的事。
+I decided to enter the education and training industry (教培行业). Not because I believe I can change many people's destinies, but because I渴望 to become the "other tree" beside the "other tree"—having been shaken, and then trying to shake.
 
 ---
 
-## 三
+## II
 
-小文女儿的问题，答案其实就藏在“引出”这个词里。
+To understand education, we must return to the root of the word "education."
 
-引出，需要方向。方向，意味着边界。边界，意味着“不”。当我对你说“不”的时候，我不是在推开你，我是在为你划定安全区的界线。界线之内，你可以自由生长；界线之外，是我不能让你踏足的地方。
+In Latin, education is *educare*, composed of "e" (out) and "ducere" (to lead), meaning "to lead out" (引出). The ancient Romans believed every child is born with a seed inside; education is not about stuffing things in, but about引出 that seed and letting it grow on its own.
 
-温柔，是引出的姿态——我愿意等待，愿意倾听，愿意相信你内在的东西终会自己生长出来。严厉，是塑造的姿态——我必须在边界内为你提供安全的空间，必须在你迷路的时候拉你回来，必须在你想要放弃的时候推你一把。
+In Greek, there is a related word: *paideia*. It means more than education—it means "the shaping of culture" (文化的塑造)—using the power of an entire civilization to shape a natural person into a complete person.
 
-温柔和严厉，不是对立的。它们是同一枚硬币的两面。那枚硬币的名字，叫做爱。
+And in our Eastern tradition, Confucius said: "In teaching, there should be no distinction of classes" (有教无类). He also said: "I do not enlighten those who are not eager to learn, nor guide those who are not struggling to express themselves" (不愤不启，不悱不发). The starting point of education is not the teacher's authority, but the student's "eagerness" (愤) and "struggle to express" (悱)—that inner渴望 and困惑. Only when the student cannot figure it out themselves or cannot articulate it clearly does the educator gently give a push.
 
-苏霍姆林斯基说：“爱孩子，这是母鸡也会做的事。可是，要善于教育他们，这就是国家的一件大事了。”他区分了两种爱：一种是无条件的接纳，另一种是有方向的引导。前者是本能，后者是智慧。
+Sukhomlinsky (苏霍姆林斯基) served as principal at Pavlysh Secondary School for over twenty years. Every morning he stood at the school gate welcoming students. He said: "Education is first and foremost the education of the human person. The human being is the highest value." He believed the core of education is not knowledge, but the soul. A teacher's most important ability is not explaining knowledge clearly, but "seeing into the inner world of the human person."
 
-孔子说：“爱之，能勿劳乎？忠焉，能勿诲乎？”爱一个人，怎么能不让他劳苦？忠于一个人，怎么能不教诲他？这里的“劳”，不是折磨，而是磨砺；这里的“诲”，不是唠叨，而是指引。
+These ancient wisdoms,跨越 time and space, all point in the same direction: education is not灌输 (imposition), but awakening (唤醒).
 
-所以，我对猫温柔，因为猫是猫。猫不需要学会过马路，不需要完成作业，不需要在未来某一天独自面对世界。猫永远是个孩子。
-
-而你不是。
-
-你是我的学生，是我将要唤醒的灵魂。我对你严厉，不是因为我爱得少，而是因为我爱得深。
+But awakening has never been a gentle thing.
 
 ---
 
-## 四
+## III
 
-这引出一个更深的命题：真正的教育，究竟是让人服从，还是让人自由?
+The answer to Xiaowen's daughter's question actually隐藏 in the word "引出" (to lead out).
 
-在中国人的日常语境里，“听话”是一个极高的褒奖。家长希望孩子听话，老师希望学生听话。可是，当一个孩子“听话”的时候，他究竟出于什么动机?
+Leading out requires direction. Direction implies boundaries. Boundaries imply "no." When I say "no" to you, I am not pushing you away—I am marking the boundary of your safety zone. Within the boundary, you may grow freely; beyond it, there are places I cannot let you step into.
 
-有一种“听话”，叫屈从。屈从是因为恐惧——恐惧惩罚，恐惧失去爱，恐惧被抛弃。屈从的孩子闭上了嘴，低下了头，做了你要求的事，但她的心在流血。她的理性没有参与决策，她的意志没有认同指令。她只是在暴力的威慑下选择了安全。
+Gentleness is the posture of leading out—I am willing to wait, willing to listen, willing to trust that what is inside you will eventually grow on its own. Strictness is the posture of shaping—I must provide a safe space within boundaries for you, must pull you back when you lose your way, must push you forward when you want to give up.
 
-另一种“听话”，叫服从。服从是因为理解——她理解为什么要这样做，她信任发出指令的人，她愿意为更大的目标暂时放弃自己的偏好。服从是自由的产物：一个不自由的人无法服从，因为他没有选择的余地；只有自由人才能主动选择跟随。
+Gentleness and strictness are not对立. They are two sides of the same coin. The name of that coin is love.
 
-屈从，是理性的失败；服从，是理性的胜利。
+Sukhomlinsky said: "Loving children is something even a hen can do. But educating them well—that is a great matter for the nation." He distinguished two kinds of love: one is unconditional acceptance, the other is guided direction. The former is本能; the latter is wisdom.
 
-雅斯贝尔斯说：“权威不是压制，而是引导人走向他自己。”真正的权威，不是让人怕，而是让人信。怕，只能制造顺从的羔羊；信，才能培养主动的公民。
+Confucius said: "If you love them, can you refrain from making them work hard? If you are loyal to them, can you refrain from teaching them?" (爱之，能勿劳乎？忠焉，能勿诲乎？) To love someone—how can you not let them endure hardship? To be loyal to someone—how can you not instruct them? Here, "劳" (hardship) is not torture, but磨砺 (tempering); "诲" (instruction) is not nagging, but guidance.
 
-那么，那些发号施令的人——父母、老师、领袖——他们自己服从于什么?
+So, I am gentle with the cat because the cat is a cat. A cat doesn't need to learn to cross the street, doesn't need to complete homework, doesn't need to one day face the world alone. A cat is always a child.
 
-苏格拉底服从于真理。他可以选择逃跑，但他选择了留在雅典的监狱里喝下毒酒。他不是服从于雅典法庭的判决，他是服从于自己心中的那个信念：“未经审视的人生不值得过。”
+But you are not.
 
-母亲服从于爱。她的严厉，不是因为她想控制，而是因为她服从于“让孩子成为她自己”这个召唤。她的“不”，不是拒绝，而是保护。
-
-孔子说：“吾道一以贯之。”他的“道”，是对仁的服从，对礼的服从，对“己所不欲，勿施于人”的服从。他不是没有选择的自由，他是在无数选择中，主动选择了那条最难的路。
-
-领袖服从，所以他是自由的。一个从不服从的人，永远困在自己的欲望里；一个只服从恐惧的人，永远困在他人的意志里。只有那个主动选择服从于真理、爱、共同体和未来的人，才真正获得了自由——因为他不再是被动的执行者，而是意义的创造者。
-
-教育的终极目的，不是让学生一辈子听你的话，而是让他有一天不再需要听你的话——因为他已经学会了听自己的话，听真理的话，听爱的话。
+You are my student, the soul I shall awaken. My strictness toward you is not because I love less, but because I love more deeply.
 
 ---
 
-## 五
+## IV
 
-在这个意义上，我重新理解了“教育的神圣性”。
+This raises a deeper proposition: does true education make people服从 (obey), or make them free?
 
-有人问我：你选择进入教培行业，而不是考教师编制，是不是因为考不上？我笑了笑，没有回答。其实答案很简单：我相信教育发生的地方，从来不止于学校。
+In Chinese everyday discourse, "听话" (being obedient) is an extremely high praise. Parents希望 children are听话; teachers希望 students are听话. But when a child is "听话," what motive underlies it?
 
-在中国人的观念里，“教育”似乎天然与体制绑定。如果某件事不能在小学设为必修课，不能在中学列为必考科目，至不济也要在大学开个专业、设个硕士点，那它似乎就“不算教育”。这种认知，把教育窄化为“体制内的权威认证”。于是，性教育老师找不到学校编制，有人说“性教育遇阻”；传统文化无人传承，有人说“教育没落”。
+There is one kind of "听话" called屈从 (submission). Submission is出于恐惧—fear of punishment, fear of losing love, fear of being abandoned. The submissive child closes her mouth, lowers her head, does what you要求, but her heart is bleeding. Her reason did not participate in the decision; her will did not认同 the directive. She simply chose safety under the威慑 of force.
 
-这不过是一种误解。
+Another kind of "听话" is called服从 (obedience). Obedience is出于 understanding—she understands why this must be done; she trusts the person issuing the directive; she is willing to temporarily relinquish her own preferences for a larger goal. Obedience is the product of freedom: an unfree person cannot obey, because they have no room for choice; only a free person can actively choose to follow.
 
-教育的神圣性，从来不在于文凭的权威，而在于它是否真正改变了人的行为、拓展了人的自由。罗马尼亚有一句古老的谚语：“不是学校成就人，而是人成就学校。”当我们忘记这一点时，我们就开始用“体制内有没有位置”来评判教育的价值，用“能不能评职称”来衡量教育的成败。
+Submission is the failure of reason; obedience is the triumph of reason.
 
-苏霍姆林斯基的帕夫雷什中学，只是一所普通的乡村学校。它没有重点中学的头衔，没有省市重点的光环。可是，因为苏霍姆林斯基在那里，因为一群教师在那里坚守“人的教育”，那所学校成了世界教育史上的一座丰碑。
+Jaspers said: "Authority is not suppression, but guiding a person toward himself." True authority does not make people fear—it makes people trust. Fear can only produce compliant sheep; trust can培养 proactive citizens.
 
-孔子更是如此。他没有办过一所官学，没有编制，没有职称。他带着几个弟子，周游列国，在路边、在树下、在马车里，随时随地地讲学。他说：“自行束脩以上，吾未尝无诲焉。”只要你愿意学，我就愿意教。教育不是特权，是每个人都可以参与的事。
+Then, what do those who issue commands—parents, teachers, leaders—themselves obey?
 
-培训班可以是教育，只要它真正改变了学生；线上课可以是教育，只要它真正唤醒了灵魂；甚至一次对话、一篇文章、一个视频，都可以是教育——只要它做到了“一棵树摇动另一棵树”。
+Socrates obeyed truth. He could have fled, but he chose to remain in an Athens prison and drink the poison. He was not obeying the Athens court's verdict; he was obeying the conviction in his own heart: "The unexamined life is not worth living."
 
----
+A mother obeys love. Her strictness is not because she wants to control, but because she obeys the calling of "letting the child become herself." Her "no" is not rejection—it is protection.
 
-## 六
+Confucius said: "My way is bound together by one continuous thread" (吾道一以贯之). His "way" is obedience to仁 (benevolence), obedience to礼 (ritual), obedience to "do not impose on others what you yourself do not desire" (己所不欲，勿施于人). He did not lack the freedom to choose; among countless choices, he actively chose the hardest path.
 
-那么，教育的成功，究竟用什么来衡量?
+The leader obeys, and therefore he is free. A person who never obeys is永远困 within their own desires; a person who only obeys fear is永远困 within others' will. Only the person who actively chooses to obey truth, love, community, and the future truly attains freedom—because they are no longer passive executors, but creators of meaning.
 
-中国人常说：“桃李满天下。”这是对教育者的最高赞美。但我想，如果“桃李满天下”意味着“教了无数人，却没有一个人真正被改变”，那这满天下的桃李，不过是满天下的过客。
-
-真正衡量教育成败的，不是认同它的人数的多寡，而是愿意把它代代相传下去的人肯传承多久。是用“长度”来衡量，而不是用“宽度”。
-
-你的一句话，有一个人会形成应用的习惯，会再去教别人——他的子女、朋友也算——你就已经教育了人，而且成功了。哪怕这个人只教了一个人，那个人又教了一个人……只要这条链没有断，你就在人类文明的长河中留下了一道不灭的痕迹。
-
-永世不灭的思想传承，在无限未来的时局变换之中，迟早会抓住一个世代，发育成壮观的局面。这局面又会因为时过境迁而消散，但只要传承没有断，迟早又会迎来下一个春天。
-
-这，就是教育的神圣性。它不追求短暂的“影响力”，它追求永恒的“生命力”。它不害怕被遗忘，因为它相信：只要有一颗火种，终将燎原。
-
-雅斯贝尔斯所说的“一个灵魂唤醒另一个灵魂”，正是这种“长度逻辑”的最佳注脚——不是一棵树摇动整片森林，而是一棵摇动另一棵，那另一棵再去摇动下一棵。
-
-我不是要做一个“桃李满天下”的名师——那种追求会让我焦虑、疲惫、迷失。我要做的，是找到那“另一棵树”，那“另一朵云”，那“另一个灵魂”。然后，用我的全部心力，去摇动它、推动它、唤醒它。
-
-至于它之后会摇动多少棵树，那不是我的事，那是风的事，是时间的事，是命运的事。
+The ultimate目的 of education is not to make students obey you forever, but to enable them one day to no longer need to obey you—because they have already learned to obey their own reason, obey truth, obey love.
 
 ---
 
-## 七
+## V
 
-可是，这个时代的教育，正面临一个深刻的困境。
+In this sense, I重新理解 the "sacredness of education."
 
-很多人哀叹“教育没落”“教育艰难”。他们看到深度阅读被短视频取代，看到传统文化无人传承，看到年轻人越来越不愿思考。他们以为，教育的困境在于“没有平台”“没有资源”“没有体制支持”。
+Someone asked me: you chose to enter the education and training industry rather than take the teacher certification exam—was it because you couldn't pass? I smiled and didn't answer. Actually, the answer is simple: I believe the places where education occurs have never been limited to schools.
 
-但真正的困境，不在于此。
+In the Chinese conceptual world, "education"似乎 naturally binds to the institutional system. If something cannot be set as a required course in elementary school, listed as a必考 subject in middle school, or至少 established as a major or master's program at a university, it似乎 "doesn't count as education." This认知 narrows education to "authoritative认证 within the system." Thus, when sex education teachers can't find school positions, people say "sex education is受阻"; when traditional culture has no one to传承 it, people say "education has declined."
 
-苏霍姆林斯基说：“没有也不可能有抽象的学生。”每个学生都是具体的、活生生的人，带着他的渴望、他的困惑、他的挣扎。教育的困境，从来不是“没人教”，而是“没人愿学”。
+This is merely a误解.
 
-当学生准备好时，老师自会出现——这句古老的智慧不是宿命论，而是对人性的深刻洞察。如果一个人不憧憬、不渴望、不愿意为某种教育付出努力，那么再多的体制支持、再多的资源投入，也无法让教育发生。因为教育的本质不是“被动接受”，而是“主动参与”。
+The sacredness of education never lies in the authority of diplomas, but in whether it truly changes people's behavior and expands their freedom. Romania has an古老 proverb: "It is not the school that成就 the person, but the person that成就 the school." When we forget this, we begin judging education's value by "whether there are positions within the system" and measuring education's success by "whether one can earn professional titles."
 
-教育是你自己得益的事。教你的人固然也有收益，但这是第二位的。如果你自己不清楚、不憧憬、不渴望这份价值，在同样需要投入精力的前提下，教你的人很显然会宁可选择那些渴望这份价值、愿意配合努力的学生。
+Sukhomlinsky's Pavlysh Secondary School was just an ordinary乡村 school. It had no重点中学 designation, no provincial or municipal重点光环. Yet because Sukhomlinsky was there, because a group of teachers坚守 "education of the human person," that school became a monument in the history of world education.
 
-这不是冷酷，这是对教育神圣性的尊重。教育不是商品，不能强买强卖；教育不是任务，不能强制执行。教育是灵魂的呼唤，只有愿意倾听的人才能听见。
+Confucius was even more so. He never established an official school, had no编制 (institutional position), no职称 (professional title). He took a few disciples, traveled through various states, teaching by the roadside, under trees, in carriages—anywhere and everywhere. He said: "From the one who offers a modest gift upward, I have never denied instruction" (自行束脩以上，吾未尝无诲焉). As long as you are willing to learn, I am willing to teach. Education is not a privilege—it is something everyone can participate in.
 
-所以，我不需要去说服那些不愿意学习的人。我只需要找到那些“已经准备好”的学生——他们可能对数学有天然的兴趣，可能对严谨的逻辑推理有渴望，可能对“用代码写证明”这件事感到好奇。然后，用我的全部能力，为他们提供最好的“知识剧”。
-
----
-
-## 八
-
-说到“知识剧”，我想起一个正在发生的转变。
-
-传统社会里，教师是一个什么样的形象？是“知识的祭司”——掌握着凡人无法触及的神圣文本，只有通过他的解读，真理才能降临人间。是“人类灵魂工程师”——以绝对权威塑造学生的精神世界，如同工匠雕琢石料。是“文明宝库的钥匙保管者”——拥有决定谁可以进入、谁被拒之门外的权力。
-
-这是一个学富五车、道德方正的威严角色。你要尊敬他、服从他，以求他给你特殊的恩宠，让你先人一步、高人一等。
-
-这套模式，是在知识极度匮乏、知识被垄断的时代形成的。那时候，书本是奢侈品，识字是特权，教师是稀缺资源。学生求着老师教，而不是老师求着学生学。
-
-可是今天，这一切都已经改变。
-
-知识的垄断性已经被互联网击穿。你可以在B站上找到全世界最好的大学教授的课程，可以在知乎上搜到任何问题的深度解答，可以在知识付费平台上用一杯咖啡的钱听到行业顶尖专家的分享。教师的道德权威和社会赋权已经大大减退。学生的弱势地位已经有了根本性的改善。
-
-在这个时代，如果教师还固守着“我是权威，你得求我”的姿态，无异于一个守着已经敞开的宝库、却还在向路人索要进门费的门卫。不是门卫变坏了，是时代变了。
-
-那么，在这个知识泛滥、注意力稀缺的时代，教师的核心竞争力应该是什么?
-
-我的答案是：**知识表演**。
-
-所谓“知识表演”，不是哗众取宠，不是降低知识含量来迎合浅薄，而是把知识变成一出出引人入胜的“知识剧”——有前因后果，有前世今生，有悬念，有包袱，有情感，有画面。
-
-好的老师，实际上是一名“表演艺术家”，是化知识为体验、为记忆的人，而绝非仅仅是“高级读稿机”。
-
-李永乐老师为什么走红？因为他善于演出“知识剧”。一个知识点，他讲出它的来龙去脉：谁发现的？为什么发现？经历了怎样的曲折？解决了什么问题？带来了什么新问题？学生听的不是枯燥的公式，而是一个个有温度的故事。
-
-孔子是最好的“知识表演艺术家”。他从不板着脸说教，他带着弟子在河边散步，在树下聊天，用最日常的场景讲最深刻的道理。“岁寒，然后知松柏之后凋也。”——他不是在讲植物学，他是在讲人格。“逝者如斯夫，不舍昼夜。”——他不是在讲水文学，他是在讲时间。
-
-苏霍姆林斯基也是如此。他把学校变成了一座花园，带着孩子们种花、种树、观察小动物。知识不是在书本里，而是在生活里；教育不是在课堂上，而是在每一次与自然的相遇里。
-
-我渴望成为这样的教师。不是站在讲台上居高临下地宣读真理，而是蹲下来，和学生一起看这个世界，然后把看到的、想到的，变成一出出可以追的“剧”。
+A training class can be education, as long as it truly changes students; an online course can be education, as long as it truly唤醒 souls; even a single conversation, an article, a video can be education—as long as it achieves "one tree shaking another tree."
 
 ---
 
-## 九
+## VI
 
-备课，就是“攒节目”。
+Then, by what should education's success be measured?
 
-像相声演员一个曲目一个曲目地学唱念做打一样，去推敲、琢磨某一堂关键课的唱念做打、说学逗唱——包袱埋在哪？用什么道具？如何拿捏小剧场气氛？如何推高悬念？如何抖开包袱?
+Chinese people often say: "Peaches and plums fill the world" (桃李满天下). This is the highest praise for an educator. But I think: if "peaches and plips filling the world" means "teaching countless people without truly changing anyone," then those world-filling peaches and plums are merely world-filling passersby.
 
-好在知识点是固定的，青少年的基本心理特征也像观众的审美特性一样是相对固定的。一个开发好、验证好的经典节目，大概率可以一直有效。知识的表演艺术，几乎可以被理解为“攒几十个关键的绝活节目，然后通过不断的练习、打磨，把它变成经得起考验的经典”。
+What truly measures education's success or failure is not the number of people who认同 it, but how long those willing to传承 it generation after generation will continue传递 it. It is measured by "length," not by "width."
 
-课堂，就是“小剧场”。
+If one person forms the habit of applying something you said, and goes on to teach others—their children, their friends count too—you have already educated someone, and succeeded. Even if that person only teaches one other person, and that person teaches one more... as long as this chain hasn't broken, you have left an不灭 trace in the long river of human civilization.
 
-讲知识要把知识讲得生动、立体、形象，符合青少年的认知模式。要多做实验、打比喻，甚至配合上妙语连珠的笑话，把枯燥的“写板书、讲题目、宣布答案”的过程尽量做出一些剧情来。这样，学生头脑中会随着知识点本身同时记住当时的情感、画面。情感、画面会成为他们的青春回忆，而直接与这些鲜明的情感、画面相连接的知识，也会更牢固地嵌入在学生的脑海中。
+An永世不灭 lineage of thought传承, amid the infinite future's shifting circumstances, will sooner or later抓住 a generation and develop into a壮观局面. That局面 will又消散 as times change, but as long as the传承 hasn't broken, sooner or later another spring will arrive.
 
-最成功的知识剧，不是独角戏，而是让学生融入剧情中，成为大大小小的群演。让他们参与实验，让他们上台解题，让他们扮演历史人物，让他们在角色中体验知识的力量。
+This is the sacredness of education. It does not pursue短暂的 "influence"—it pursues eternal "vitality." It does not fear being forgotten, because it believes: as long as there is one spark, a prairie fire will eventually ignite.
 
-学生爱追你的剧，你讲为人处事、讲道德理想，他们才会乐于正面理解、深刻拥抱。学生爱追你的剧，热爱在你的连续剧中担任角色，你布置作业他们才爱做，做得才好，才会在发生种种问题时坚定地选择继续“追剧”，而不是稍有不如意就离开。
+Jaspers's statement that "one soul awakens another soul" is precisely the best annotation to this "logic of length"—not one tree shaking an entire forest, but one shaking another, and that other shaking the next.
 
-这是这个时代对“保持学习热情”的要求。这本身就是“传授知识”的实现逻辑，并没有矛盾。
+I do not aspire to be a famous teacher with "peaches and plums filling the world"—that追求 would make me焦虑, exhausted,迷失. What I want to do is find that "other tree," that "other cloud," that "other soul." Then, with all my heart's力量, shake it, push it, awaken it.
 
----
-
-## 十
-
-我选择教数学。
-
-不是因为数学好找工作，而是因为我热爱数学。我热爱它的清晰、它的严谨、它的不容置疑。在这个众声喧哗的时代，数学是少有的、可以让人安静下来的东西。
-
-但数学教育，在很长一段时间里，让我感到困惑。
-
-为什么那么多学生害怕数学？为什么那么多学生觉得数学就是刷题、就是背公式、就是“把x解出来”？为什么数学——这门最讲究逻辑的学科——在教学中却常常让学生失去逻辑?
-
-后来我意识到，问题出在“证明”上。
-
-数学证明，本应是数学的核心。它是人类理性最纯粹的表达。可是在中学数学教学中，证明往往被简化为“步骤”和“套路”。学生以为证明就是把老师讲过的东西默写出来，而不是一步步地从已知推出未知。
-
-于是，学生学会了跳步。不是因为粗心，而是因为他们从未真正理解“证明”意味着什么。
-
-就在这时，我遇见了Lean.
-
-Lean是一个定理证明器，是一个函数式编程语言，是一个让数学证明变得像写代码一样精确的工具。它不是为中学生设计的——它的用户主要是数学家和计算机科学家。但我看到了它在中学数学教育中的巨大潜力。
-
-Lean强制要求每一步都清晰。你不能跳步，不能想当然，不能“显然”。你必须告诉计算机：这一步是基于什么定理，用了什么推理规则。如果学生无法用Lean完成一个证明，那说明他还没有真正理解这个证明。
-
-这正是我需要的工具。它让我可以把“逻辑严谨性”这个抽象的概念，变成一个可操作、可检验、可游戏化的过程。
-
-我把Lean和中学数学的结合，设计成一系列“知识剧”：
-
-反证法与√2的无理性，不是枯燥的证明，而是一个侦探故事。学生扮演侦探，假设√2是有理数，一步步推导，最后发现矛盾。Lean会帮他检查每一步是否合法。当他在Lean中完成这个证明时，他不仅学会了一个数学定理，更重要的是，他体验了“反证法”的力量。
-
-数学归纳法与数列求和，不是公式的记忆，而是一场多米诺骨牌的表演。我摆下一排多米诺骨牌，推倒第一张，然后问学生：如果每一张倒下都会推倒下一张，会发生什么？这就是数学归纳法。
-
-函数单调性与导数，不是解题套路，而是一个“速度与激情”的故事。我告诉学生：想象你在开车，速度表显示的速度就是导数。如果速度一直是正的，你的位置就会一直增加——这就是“导数大于零，函数递增”的直观理解。
-
-每一堂课，都是一出知识剧。每一个知识点，都有一个故事。每一个学生，都是剧中的角色。
+As for how many trees it will subsequently shake—that is not my concern. That is the wind's concern, time's concern, fate's concern.
 
 ---
 
-## 十一
+## VII
 
-当我选择成为“知识表演艺术家”时，我与学生的关系也发生了根本性的变化。
+But the education of this era faces a profound困境.
 
-传统关系是“权威-服从”——教师因为体制赋予的权力而获得学生的服从。这种服从是被动的、勉强的、随时可能反叛的。
+Many lament "education's decline" or "education's difficulty." They see deep reading被 replaced by short videos, traditional culture with no one to传承 it, young people increasingly unwilling to think. They believe education's困境 lies in "no platform," "no resources," "no institutional support."
 
-新关系是“明星-粉丝”——教师因为自己的表演魅力而获得学生的追随。这种追随是主动的、愉悦的、发自内心的。
+But the true困境 is not this.
 
-两种关系的根本区别在于：前者依赖恐惧和利益，后者依赖吸引和认同。
+Sukhomlinsky said: "There is no and cannot be an abstract student." Every student is a concrete, living person, carrying their渴望, their困惑, their挣扎. Education's困境 has never been "no one to teach," but "no one willing to learn."
 
-教师的权威，其实首要的、核心的来自“知识明星”对“粉丝”的影响力，而并非来自所谓教育系统、监护人授予教师的制度性授权。前一种权威是出自自然法的，学生是没有抗拒的、自发地认同；而后者追根到底靠的是各个方面合力形成的暴力、强制优势，是依赖学生反抗、叛逆的失败来起作用的，运作起来实际上是有毒性的。
+When the student is ready, the teacher will appear—this古老 wisdom is not fatalism, but a profound洞察 into human nature. If a person does not憧憬, does not渴望, is unwilling to exert effort for a certain kind of education, then no amount of institutional support or resource investment can make education occur. Because the essence of education is not "passive reception," but "active participation."
 
-成为学生的“知识明星”，以明星身份来保持学生的热情、服从，才是身为教师的正道。
+Education is something that benefits yourself. The person teaching you certainly also derives benefit, but this is secondary. If you yourself are not clear, do not憧憬, do not渴望 this value, then given the same investment of effort required, the person teaching you will显然 prefer those students who渴望 this value and are willing to配合 with effort.
 
-孔子大概是最早的“知识明星”。他不需要任何体制的背书，他的弟子们从四面八方赶来，不是因为孔子的官职，而是因为孔子的智慧、他的魅力、他讲的那些让人听了就不想走的故事。颜回说：“仰之弥高，钻之弥坚。”这是粉丝对偶像的崇拜，不是学生对权威的屈服。
+This is not冷酷—it is respect for the sacredness of education. Education is not a commodity, subject to强买强卖; education is not a task, subject to forced execution. Education is the calling of souls, and only those willing to listen can hear it.
 
-苏霍姆林斯基也是。他不需要校长的头衔来让学生尊重他。他每天早晨站在校门口迎接学生，不是因为校规要求，而是因为孩子们期待看到他。他用他的行动、他的爱、他对每一个孩子的关注，赢得了他们的心。
-
-当然，这种“知识明星/观众”的关系并非没有挑战。它容易导致偶像崇拜，容易让学生因为喜欢老师而喜欢学科，也因为不喜欢老师而厌恶学科。但这是时代对教师身份的历史性要求。我只能在服从时代的命令的前提下去解决由此而来的问题，而不能为了回避这些问题而拒绝服从时代的命令。
+So I don't need to说服 those unwilling to learn. I only need to find those "already ready" students—they may have a natural兴趣 in mathematics, may渴望 rigorous logical reasoning, may feel好奇 about "writing proofs with code." Then, with all my ability, I provide them the finest "knowledge dramas" (知识剧).
 
 ---
 
-## 十二
+## VIII
 
-有人问我：你就不怕失败吗？如果招不到学生怎么办？如果家长不理解怎么办？如果学生学不会怎么办?
+Speaking of "knowledge dramas," I think of a转变 currently underway.
 
-我沉默了很久，然后说：我怕。我什么都怕。我怕没人来，我怕来了的人失望，我怕我辜负了那些信任我的人。
+In traditional society, what was the image of a teacher? A "priest of knowledge" (知识的祭司)—possessing sacred texts unreachable by ordinary mortals, through whose interpretation alone could truth descend to the human world. An "engineer of human souls" (人类灵魂工程师)—shaping students' spiritual worlds with absolute authority, like a craftsman雕琢 stone. A "custodian of the keys to civilization's treasure house" (文明宝库的钥匙保管者)—possessing the power to决定 who may enter and who is shut out.
 
-可是，如果因为害怕就不去做，那我一辈子都会后悔。
+This was a威严 role of profound learning and moral rectitude. You must尊敬 them,服从 them, to obtain their special favor, gaining advantage over others.
 
-苏霍姆林斯基在帕夫雷什中学刚开始的时候，条件极其艰苦。没有教材，没有教具，甚至没有足够的粉笔。他带着孩子们去田野里上课，用树枝在地上写字，用石头摆成几何图形。他失败了无数次，但他从未放弃。因为他相信，教育是值得的。
+This model was formed in an era when knowledge was极度匮乏 and monopolized. Books were luxuries; literacy was a privilege; teachers were scarce resources. Students begged teachers to teach them, not the reverse.
 
-孔子在陈蔡之间绝粮，从者病，莫能兴。子路愠见曰：“君子亦有穷乎？”子曰：“君子固穷，小人穷斯滥矣。”在最艰难的时刻，孔子没有怀疑自己的道路。他知道，教育不是一条容易的路，但它是一条值得走的路。
+But today, all this has already changed.
 
-我选择进入教培行业，不是因为它容易，而是因为它值得。我选择用Lean教数学，不是因为这条路已经有人走过，而是因为没有人走过，而我愿意成为第一个。
+Knowledge's垄断性 has been击穿 by the internet. You can find courses from the world's best university professors on Bilibili, search for in-depth answers to any question on Zhihu, and hear industry-leading experts' insights on knowledge付费 platforms for the price of a cup of coffee. Teachers' moral authority and social赋权 have greatly减退. Students'弱势地位 has seen fundamental improvement.
 
-我不会因为“没人学”而抱怨——我会去寻找那些“已经准备好”的人。我不会因为“学习难”而妥协——我会把那些硬骨头变成一出出知识剧。我不会因为“没编制”而焦虑——我知道教育的神圣性不来自体制的授权。
+In this era, if teachers still坚守 the posture of "I am the authority, you must beg me," it's akin to a gatekeeper guarding an already-opened treasure vault yet still collecting entrance fees from passersby. It's not that the gatekeeper has become worse—the times have changed.
 
-我是知识的文工团、宣传队。编剧、表演、把学生们融入我的剧情中成为大大小小的群演，这才是我最关键的技能。
+Then, in this era of knowledge泛滥 and attention scarcity, what should be a teacher's core competitiveness?
 
-我要让学生们爱上他们自己的这出戏。这才是这个时代对“保持学习热情”的要求。这本身就是“传授知识”的实现逻辑，并没有矛盾。
+My answer: **knowledge performance (知识表演).**
 
----
+所谓 "knowledge performance" is not哗众取宠, not reducing knowledge content to迎合浅薄, but transforming knowledge into engaging "knowledge dramas" (知识剧)—with cause and effect, with past and present, with suspense, with punchlines, with emotion, with imagery.
 
-## 十三
+A good teacher is, in reality, a "performance artist"—someone who transforms knowledge into experience and memory, absolutely not merely an "advanced script-reading machine."
 
-写到这里，窗外已是深夜。
+Why did Li Yongle (李永乐) become popular? Because he excels at performing "knowledge dramas." For a single knowledge point, he tells its entire history: who discovered it? Why was it discovered? What twists did it经历? What problem did it solve? What new problems did it bring? Students aren't listening to枯燥 formulas—they're hearing vivid stories with温度.
 
-我想起小文女儿的那个问题，想起她的眼睛。我想，如果有一天她长大了，成为别人的老师，她会不会也遇到一个孩子问她：“为什么你对别人那么温柔，对我却很严厉？”
+Confucius was the finest "knowledge performance artist." He never lectured with a stern face. He walked with disciples by the river, chatted under trees, using the most everyday scenes to convey the most profound道理. "Only when the year grows cold do we know that the pine and cypress are the last to fade" (岁寒，然后知松柏之后凋也)—he wasn't teaching botany; he was teaching character. "It passes like this, not ceasing day or night" (逝者如斯夫，不舍昼夜)—he wasn't teaching hydrology; he was teaching time.
 
-我希望她会回答：“因为爱。”
+Sukhomlinsky was likewise. He transformed the school into a garden, taking children to plant flowers, plant trees, observe small animals. Knowledge was not in books, but in life; education was not in classrooms, but in every encounter with nature.
 
-温柔是爱的一种形式，严厉是爱的另一种形式。它们不是对立的，它们在不同的时间、不同的场合，服务于同一个目的：让你成为你——一个自由的、能够为自己负责的人。
-
-而让你成为你，恰恰是我服从的东西。我服从于“你将成为谁”这个未来的召唤，所以我在今天对你严厉。这不是暴力的屈从，而是爱的纪律。
-
-雅斯贝尔斯说：“教育的界限，不是知识的边界，而是爱的边界。哪里有爱，哪里就有教育。”
-
-孔子说：“学而不厌，诲人不倦。”学习不厌倦，教诲不疲倦。这背后，是爱。
-
-苏霍姆林斯基说：“教育者的最高智慧，是相信人的力量。”相信那个站在你面前的孩子，相信他内在的种子终会发芽，相信他终会成为他自己。这背后，也是爱。
+I渴望 to become such a teacher. Not standing on a podium居高临下 proclaiming truth, but crouching down, looking at the world together with students, then transforming what we see and think into "dramas" worth following.
 
 ---
 
-## 尾声
+## IX
 
-雅斯贝尔斯的那句话，我反复读了很多遍。
+Lesson preparation is "accumulating repertoire" (攒节目).
 
-“教育是一棵树摇动另一棵树，一朵云推动另一朵云，一个灵魂唤醒另一个灵魂。”
+Like a crosstalk performer learning singing, reciting, acting, and martial arts piece by piece—推敲 and琢磨 the singing, reciting, acting, and martial arts of a crucial lesson: where to埋 the punchline? What道具 to use? How to gauge the小剧场 atmosphere? How to build悬念? How to deliver the punchline?
 
-它不要求一棵树摇动整片森林。它只要求“另一棵”。它不要求一朵云推动整片天空。它只要求“另一朵”。它不要求一个灵魂唤醒整个世界。它只要求“另一个”。
+Fortunately, knowledge points are固定, and adolescents' basic psychological characteristics are, like audience aesthetic preferences, relatively固定. A well-developed, well-verified经典 repertoire can大概率 remain有效 long-term. The performing art of knowledge can几乎 be understood as "accumulating dozens of key signature acts, then through continual practice and打磨, transforming them into time-tested classics."
 
-这是对教育者最温柔的安慰，也是最沉重的托付。
+The classroom is a "small theater" (小剧场).
 
-温柔在于：你不需要成为太阳。你只需要成为一盏灯，照亮身边一小片黑暗，然后让被照亮的人，也成为一盏灯。
+Teaching knowledge means rendering it vivid, three-dimensional, imagery-rich, aligned with adolescents'认知 patterns. More experiments, more analogies, even punctuated with rapid-fire jokes, transforming the枯燥 process of "writing on blackboard, explaining problems, announcing answers" into something with剧情. This way, students' minds will simultaneously remember the knowledge point itself along with the emotion and imagery of the moment. Emotion and imagery will become their青春回忆, and knowledge directly connected to these vivid emotions and imagery will embed more牢固 in students' minds.
 
-沉重在于：你必须真的亮着。不是靠体制给你的灯油，不是靠职称给你的灯罩，而是靠你对知识本身的热爱，对唤醒灵魂的渴望，对“薪火相传”的信念。
+The most successful knowledge drama is not a独角戏 but one that integrates students into the剧情, making them ensemble players of various sizes. Let them participate in experiments, let them come onstage to solve problems, let them扮演 historical figures, let them experience the power of knowledge through角色.
 
-在这个知识泛滥、注意力稀缺、权威瓦解的时代，教师不再是知识的垄断者，不再是道德的审判官，不再是体制的代言人。
+Students who love following your drama—when you speak of如何处事 and moral ideals, they will be乐于 to understand positively and embrace deeply. Students who love following your drama, who love playing roles in your ongoing series—when you assign homework, they'll love doing it, do it better, and when种种 problems arise, they'll firmly choose to keep "following the drama" rather than departing at the slightest不满.
 
-教师是“知识表演艺术家”——把知识变成一出出引人入胜的剧目，让学生像追剧一样追课。
+This is what this era要求 of "maintaining learning enthusiasm." This is itself the implementation logic of "transmitting knowledge"—there is no矛盾.
 
-教师是“薪火的传递者”——不追求教了多少人，而追求传了多久、传了多远。
+---
 
-教师是“灵魂的唤醒者”——用一棵树摇动另一棵树，用一盏灯点燃另一盏灯。
+## X
 
-是人使土地神圣，而非土地使人神圣。教育的神圣性，不是来自于它的规模、它的权威、它的普及。教育的神圣性，来自于它发生时，那个瞬间——一个人被另一个人唤醒，一个灵魂被另一个灵魂照亮。
+I chose to teach mathematics.
 
-这，就是教育最纯粹的样子。这，就是教育值得我们终生敬畏的原因。
+Not because math makes for easy job hunting, but because I love mathematics. I love its clarity, its rigor, its不容置疑. In this era of clamorous voices, mathematics is one of the few things that can make a person quiet down.
 
-愿每一个教育者，都能守住这盏灯。愿每一个学习者，都能成为那盏灯。
+But mathematics education, for a long time, left me feeling困惑.
 
-而我，就从今天开始，点亮我的第一盏灯。
+Why do so many students fear mathematics? Why do so many feel math is just刷题, just memorizing formulas, just "solve for x"? Why does mathematics—the discipline most讲究 logic—in teaching often make students lose logic?
+
+Later I realized the problem lay with "proof" (证明).
+
+Mathematical proof should be the core of mathematics. It is the purest expression of human rationality. Yet in secondary mathematics teaching, proof is often简化为 "steps" and "套路" (templates). Students think proof means默写 what the teacher previously explained, not deriving unknown conclusions step by step from known premises.
+
+Thus, students learned to跳步 (skip steps). Not because of carelessness, but because they never truly understood what "proof" means.
+
+At this moment, I encountered Lean.
+
+Lean is a theorem prover, a functional programming language, a tool that makes mathematical proof as precise as writing code. It wasn't designed for secondary school students—its primary users are mathematicians and computer scientists. But I saw its tremendous potential in secondary mathematics education.
+
+Lean强制 requires every step to be clear. You cannot skip steps, cannot take things for granted, cannot say "obviously" (显然). You must tell the computer: this step is based on what theorem, applying what推理规则. If a student cannot complete a proof in Lean, it means they haven't truly understood that proof.
+
+This is exactly the tool I needed. It lets me transform the abstract concept of "logical rigor" into an operable, verifiable, gamifiable process.
+
+I designed the integration of Lean and secondary mathematics as a series of "knowledge dramas":
+
+Proof by contradiction and the irrationality of √2—not a枯燥 proof, but a detective story. Students扮演 detectives, assuming √2 is rational, deriving step by step, ultimately discovering a矛盾. Lean helps them check whether each step is合法. When they complete this proof in Lean, they've not only learned a mathematical theorem—more importantly, they've experienced the power of "proof by contradiction."
+
+Mathematical induction and sequence summation—not formula memorization, but a domino performance. I set up a row of dominoes, push the first one, then ask students: if each falling domino topples the next, what happens? This is mathematical induction.
+
+Function monotonicity and derivatives—not解题套路, but a "speed and passion" story. I tell students: imagine you're driving—the speedometer shows your speed, which is the derivative. If speed is always positive, your position keeps increasing—this is the intuitive understanding of "derivative greater than zero means function increasing."
+
+Every class is a knowledge drama. Every knowledge point has a story. Every student is a character in the drama.
+
+---
+
+## XI
+
+When I chose to become a "knowledge performance artist," my relationship with students also underwent a fundamental change.
+
+The traditional relationship is "authority-obedience"—teachers obtain students'服从 through power granted by the institutional system. This服从 is passive, reluctant,随时可能反叛.
+
+The new relationship is "star-fan"—teachers earn students'追随 through their performance魅力. This追随 is active,愉悦,发自内心.
+
+The fundamental区别 between the two relationships: the former relies on fear and利益; the latter relies on attraction and认同.
+
+A teacher's authority actually首要 and核心 derives from the "knowledge star's" influence over "fans," not from所谓 institutional authorization granted by the education system or guardians. The former authority arises from natural law—students认同 spontaneously without抗拒; the latter ultimately relies on暴力 and coercive superiority formed by combined forces from various parties, depending on the failure of students'反抗 and rebellion to function, and is实际上有毒性 in operation.
+
+Becoming a "knowledge star" to students, maintaining their enthusiasm and服从 through star status, is the正道 of being a teacher.
+
+Confucius was大概 the earliest "knowledge star." He needed no institutional背书; his disciples came from all directions—not because of Confucius's official position, but because of his wisdom, his魅力, the stories he told that made people不想离开 once they started listening. Yan Hui said: "The more I look up, the higher it appears; the more I drill, the firmer it becomes" (仰之弥高，钻之弥坚). This is a fan's崇拜 for an idol, not a student's屈服 to authority.
+
+Sukhomlinsky likewise. He needed no principal's title to earn students'尊重. He stood at the school gate every morning welcoming students—not because school规章要求 it, but because the children期待 seeing him. Through his actions, his love, his attention to every child, he won their hearts.
+
+Of course, this "knowledge star/audience" relationship is并非 without challenges. It容易 leads to idol崇拜,容易 makes students like a subject because they like the teacher, and dislike it because they dislike the teacher. But this is the era's历史性要求 on teacher identity. I can only, under the前提 of obeying the era's command, address the problems arising thereby—not refuse the era's command in order to回避 these problems.
+
+---
+
+## XII
+
+Someone asked me: aren't you afraid of failure? What if you can't招募 students? What if parents don't understand? What if students can't learn?
+
+I was silent for a long time, then said: I'm afraid. I'm afraid of everything. I'm afraid no one will come, I'm afraid those who come will be失望, I'm afraid I'll辜负 those who trust me.
+
+But if I don't act because of fear, I'll regret it for the rest of my life.
+
+When Sukhomlinsky first started at Pavlysh Secondary School, conditions were极其艰苦. No textbooks, no teaching aids, even not enough chalk. He took children to the fields for lessons, writing with branches on the ground, arranging stones into geometric shapes. He failed无数次, but never放弃. Because he believed education was值得.
+
+Confucius, stranded between Chen and Cai with no food, his followers too ill to rise. Zilu angrily asked: "Does the gentleman also遭遇 such extremity?" Confucius said: "The gentleman remains steadfast in extremity; the petty person, in extremity, loses all restraint" (君子固穷，小人穷斯滥矣). In the most艰难 moment, Confucius never doubted his path. He knew education is not an easy road, but it is a road值得行走.
+
+I chose to enter the education and training industry not because it's easy, but because it's值得. I chose to teach math with Lean not because this path has already been walked, but because no one has walked it—and I'm愿意 to be the first.
+
+I won't抱怨 because "no one learns"—I'll go find those "already ready" people. I won't妥协 because "learning is hard"—I'll transform those hard nuts into knowledge dramas. I won't焦虑 because "no institutional position"—I know education's sacredness doesn't come from institutional授权.
+
+I am a knowledge文工团 (arts troupe), a宣传队 (propaganda team). Writing scripts, performing, integrating students into my剧情 as ensemble players of various sizes—this is my most关键 skill.
+
+I want students to fall in love with their own drama. This is what this era要求 of "maintaining learning enthusiasm." This is itself the implementation logic of "transmitting knowledge"—there is no矛盾.
+
+---
+
+## XIII
+
+Writing here, it's already深夜 outside the window.
+
+I recall Xiaowen's daughter's question, recall her eyes. I think: if one day she grows up and becomes someone else's teacher, will she also encounter a child asking her: "Why are you so gentle with others, but so strict with me?"
+
+I hope she would answer: "Because of love."
+
+Gentleness is one form of love; strictness is another form of love. They are not对立. At different times, in different contexts, they serve the same purpose: to let you become you—a free person, capable of being responsible for yourself.
+
+And letting you become you is precisely what I obey. I obey the召唤 of "who you will become" in the future, so I am strict with you today. This is not暴力屈从—it is the discipline of love.
+
+Jaspers said: "The boundaries of education are not the boundaries of knowledge, but the boundaries of love. Where there is love, there is education."
+
+Confucius said: "Learn without satiety, teach without weariness" (学而不厌，诲人不倦). Learning without厌倦, teaching without疲倦. Behind this is love.
+
+Sukhomlinsky said: "The highest wisdom of the educator is to believe in the power of the human person." To believe in the child standing before you, to believe the seed inside them will eventually发芽, to believe they will eventually become themselves. Behind this, too, is love.
+
+---
+
+## Epilogue
+
+Jaspers's statement—I read it over and over, many times.
+
+"Education is one tree shaking another tree, one cloud pushing another cloud, one soul awakening another soul."
+
+It does not要求 one tree to shake an entire forest. It requires only "another." It does not要求 one cloud to push an entire sky. It requires only "another." It does not要求 one soul to awaken the entire world. It requires only "another."
+
+This is the most温柔的 comfort for educators, and also the most沉重 entrustment.
+
+The gentleness lies in: you need not become the sun. You only need to become a lamp, illuminating a small patch of darkness beside you, then letting the illuminated also become a lamp.
+
+The heaviness lies in: you must truly be lit. Not by灯油 given by the system, not by灯罩 given by professional titles, but by your own热爱 for knowledge itself, your渴望 to awaken souls, your信念 in "passing the torch from hand to hand."
+
+In this era of knowledge泛滥, attention scarcity, and权威瓦解, teachers are no longer垄断者 of knowledge, no longer道德审判官, no longer institutional代言人.
+
+Teachers are "knowledge performance artists"—transforming knowledge into engaging dramas, making students follow classes like they follow dramas.
+
+Teachers are "torch传递者"—not pursuing how many they've taught, but pursuing how long and how far the transmission continues.
+
+Teachers are "awakeners of souls"—using one tree to shake another tree, using one lamp to ignite another lamp.
+
+It is people who make the land sacred, not the land that makes people sacred. Education's sacredness does not come from its规模, its authority, its普及. Education's sacredness comes from the moment when it occurs—the moment when one person is awakened by another, when one soul is illuminated by another.
+
+This is the purest form of education. This is why education deserves our lifelong敬畏.
+
+May every educator keep watch over this lamp. May every learner become that lamp.
+
+And I, starting today, will light my first lamp.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

@@ -1,650 +1,650 @@
 ---
-title: 追问无限，触摸永恒——与每一位寻找不朽的灵魂对话
+title: "Questioning Infinity, Touching Eternity — A Conversation with Every Soul Seeking Immortality"
 date: '2026-03-10'
 category: Philosophy
 tags:
   - philosophy
-  - 无限
-  - 永恒
+  - infinity
+  - eternity
 description: >
-  从黎曼猜想到马克思的职业选择，探讨如何在有限的生命中追问无限，通过智慧、仁爱、勇敢、节制、公正、诚信、超越七种品质，触摸永恒的意义。
+  From the Riemann Hypothesis to Marx's career choice, exploring how to question infinity within finite life, and through seven qualities—wisdom, benevolence, courage, temperance, justice, integrity, and transcendence—to touch the meaning of eternity.
 ---
 
-### 序曲：从有限出发
+### Prelude: Setting Out from Finitude
 
-我们都是有限的存在。
+We are all finite beings.
 
-我们的生命只有几十年，在宇宙的尺度上不过一瞬。我们的身体会衰老，记忆会模糊，最终归于尘土。我们所能做的事，所能爱的人，所能抵达的地方，都有限得可怜。
+Our lives span only a few decades, mere instants on the cosmic scale. Our bodies age, memories blur, and ultimately we return to dust. What we can do, whom we can love, where we can reach—all are pitifully limited.
 
-然而，我们偏偏渴望无限。
+Yet we persistently desire infinity.
 
-我们渴望爱情永恒，渴望事业不朽，渴望名字被记住，渴望生命有意义。这种渴望与生俱来，刻在我们的基因里，写在我们的灵魂中。
+We desire love to be eternal, work to be immortal, names to be remembered, life to have meaning. This desire is innate, encoded in our genes, inscribed in our souls.
 
-为什么有限的生命会渴望无限?
+Why does finite life desire infinity?
 
-因为我们是人。
+Because we are human.
 
-因为人有意识，能意识到自己的有限，所以向往无限。因为人有理性，能理解时间的长河，所以渴望永恒。因为人有精神，能超越肉体的局限，所以追求不朽。
+Because humans have consciousness, can recognize their own finitude, and thus yearn for infinity. Because humans have reason, can comprehend the long river of time, and thus crave eternity. Because humans have spirit, can transcend bodily limitations, and thus pursue immortality.
 
-这就是人类的处境：身在有限，心向无限。
+This is the human condition: dwelling in finitude, heart turning toward infinity.
 
-这个困境如何解决？这条出路在哪里?
+How to resolve this predicament? Where is the way out?
 
-古今中外的思想家给出了各自的答案。今天，让我们沿着一条特殊的路径——那些用一生追问“黎曼猜想”的数学家的路径——来探索这个问题。他们的生命或许能告诉我们：如何从有限出发，追问无限，最终触摸永恒。
+Thinkers across ages and cultures have offered their respective answers. Today, let us follow a special path—the path of mathematicians who devoted their lives to questioning the "Riemann Hypothesis"—to explore this question. Their lives may tell us: how to set out from finitude, question infinity, and ultimately touch eternity.
 
 ---
 
-## 第一卷：追问
+## Volume One: Questioning
 
-### 第一章 问题的诞生
+### Chapter One: The Birth of the Problem
 
-每一个伟大的追问，都始于一个问题。
+Every great inquiry begins with a question.
 
-公元前300年，欧几里得在《几何原本》中写下：素数有无穷多个。这是人类关于素数最早的深刻认识。但无穷多之后呢？它们如何分布？有没有规律?
+In 300 BCE, Euclid wrote in *Elements*: there are infinitely many primes. This was humanity's earliest profound understanding of primes. But what comes after infinity? How are they distributed? Are there patterns?
 
-这个问题，在欧几里得之后两千年，没有人能回答。
+This question, for two thousand years after Euclid, no one could answer.
 
-1737年，欧拉发现了一个公式：
+In 1737, Euler discovered a formula:
 
 $$
 \sum_{n=1}^{\infty}\frac{1}{n^s} = \prod_{p\text{ prime}}\left(1-\frac{1}{p^s}\right)^{-1}
 $$
 
-左边是自然数的和，右边是素数的积。这个公式第一次揭示了素数与全体自然数之间的深刻联系。但它仍然没有告诉我们素数的分布规律。
+The left side is a sum over natural numbers; the right side is a product over primes. This formula first revealed the profound connection between primes and all natural numbers. But it still did not tell us the distribution pattern of primes.
 
-1792年,15岁的高斯在餐桌上随手写下：不超过x的素数个数，大约等于x除以自然对数。这是他通过观察素数表得出的猜测。他没有证明，只是猜测。但这个猜测后来被称为“素数定理”，成为19世纪数学的核心问题。
+In 1792, the 15-year-old Gauss casually wrote at the dinner table: the number of primes not exceeding x is approximately equal to x divided by the natural logarithm. This was a conjecture from observing prime tables. He did not prove it; he only conjectured. But this conjecture later became known as the "Prime Number Theorem," becoming the central problem of 19th-century mathematics.
 
-1859年，黎曼当选为柏林科学院通讯院士。按照惯例，他提交了一份报告。这份报告只有八页，题目是《论小于给定值的素数个数》。
+In 1859, Riemann was elected as a corresponding member of the Berlin Academy of Sciences. By convention, he submitted a report. This report was only eight pages, titled "On the Number of Primes Less Than a Given Magnitude."
 
-在这八页中，黎曼做了三件事：
+In these eight pages, Riemann did three things:
 
-第一，他把欧拉的zeta函数解析延拓到整个复平面。原来只在实数轴上定义的函数，被他扩展到复数域。这一扩展，打开了全新的世界。
+First, he analytically continued Euler's zeta function to the entire complex plane. The function originally defined only on the real axis was extended to the complex domain. This extension opened up an entirely new world.
 
-第二，他发现这个函数有一个对称性：如果把s换成1-s,函数值满足某种关系。这个对称性迫使其零点对称地分布在一条直线——实部等于1/2的直线——两侧。
+Second, he discovered a symmetry in this function: if you replace s with 1-s, the function values satisfy a certain relation. This symmetry forces the zeros to be symmetrically distributed on both sides of a line—the line where the real part equals 1/2.
 
-第三，他计算了前几个零点，发现它们全都落在这条直线上。于是他写下了一句话：
+Third, he computed the first few zeros and found they all lay on this line. So he wrote a sentence:
 
-> “可以设想，这些根很可能都是实根。当然，人们会希望在这里有一个严格的证明；经过几次短暂的、徒劳的尝试，我暂时把对它的探索放在一边，因为它对于我接下来的研究目标似乎不是必要的。”
+> "It would seem plausible that these roots are probably all real. Of course, one would wish for a rigorous proof here; after a few brief, futile attempts, I have temporarily set aside the search for such a proof, as it appears unnecessary for the immediate objective of my investigation."
 
-这就是黎曼猜想：zeta函数的所有非平凡零点，实部都等于1/2.
+This is the Riemann Hypothesis: all non-trivial zeros of the zeta function have a real part equal to 1/2.
 
-167年过去了，这个问题仍然悬而未决。
+167 years have passed, and this question remains unresolved.
 
-这就是一个伟大问题的诞生过程：从欧几里得的素数无限，到欧拉的乘积公式，到高斯的观察，到黎曼的八页论文。它不是凭空出现的，而是人类两千年思想的结晶。一旦诞生，它就获得了独立的生命，开始召唤一代又一代的追随者。
+This is how a great question is born: from Euclid's infinity of primes, to Euler's product formula, to Gauss's observation, to Riemann's eight-page paper. It did not appear from nowhere, but was the crystallization of two thousand years of human thought. Once born, it acquired an independent life, beginning to summon generation after generation of followers.
 
-### 第二章 追问者的群像
+### Chapter Two: Portraits of the Questioners
 
-从1859年到今天，无数人被这个问题召唤。他们来自不同的国家，说着不同的语言，有着不同的性格，但都被同一个问题所吸引。
+From 1859 to today, countless people have been summoned by this question. They came from different countries, spoke different languages, had different personalities, but were all drawn by the same problem.
 
-让我们认识几位。
+Let us meet a few.
 
-**格拉姆**，丹麦数学家。1903年，他计算了15个零点。这是人类第一次看到黎曼猜想的具体证据。他的方法粗糙，结果有限，但他迈出了第一步。他的名字被永远记录在数学史上，不是因为解决了问题，而是因为开始了计算。
+**Gram**, Danish mathematician. In 1903, he computed 15 zeros. This was humanity's first glimpse of concrete evidence for the Riemann Hypothesis. His method was crude, his results limited, but he took the first step. His name was forever recorded in the history of mathematics, not because he solved the problem, but because he began the computation.
 
-**哈代**，英国数学家。1914年，他证明无穷多个零点位于临界线上。这不是最终答案，但它是第一个突破。哈代是一位纯粹的数学家，他曾说：“我从未做过任何有用的事情。”但他对黎曼猜想的贡献，使他成为不朽的传奇。他的故事告诉我们：追求“无用”的知识，本身就是最高级的“用”。
+**Hardy**, British mathematician. In 1914, he proved that infinitely many zeros lie on the critical line. This was not the final answer, but it was the first breakthrough. Hardy was a pure mathematician; he once said, "I have never done anything useful." But his contribution to the Riemann Hypothesis made him an immortal legend. His story tells us: pursuing "useless" knowledge is itself the highest form of "usefulness."
 
-**图灵**，英国数学家、计算机科学之父。1953年，他用自己设计的机器计算了1104个零点。图灵的一生充满传奇：破解恩尼格玛密码，奠定人工智能基础，因同性恋被迫接受化学阉割，最终自杀身亡。在他短暂而悲剧的一生中，计算黎曼零点是他众多贡献中的一小部分。但这一小部分告诉我们：即使是最伟大的头脑，也会被这个问题的魅力所吸引。
+**Turing**, British mathematician, father of computer science. In 1953, he used a machine he designed to compute 1,104 zeros. Turing's life was full of legend: cracking the Enigma code, laying the foundations of artificial intelligence, being forced to undergo chemical castration due to his homosexuality, ultimately taking his own life. In his brief and tragic life, computing Riemann zeros was a small part of his many contributions. But this small part tells us: even the greatest minds are drawn by the charm of this question.
 
-**莱默**，美国数学家。1956年，他计算了25000个零点。他发明了“莱默对”的概念，用来描述零点之间的特殊关系。这个概念后来被用于估计de Bruijn-Newman常数，成为证明该常数非负的关键工具。他不知道自己工作的最终用途，他只是尽自己所能，逼近那个终极问题。
+**Lehmer**, American mathematician. In 1956, he computed 25,000 zeros. He invented the concept of "Lehmer pairs," used to describe special relationships between zeros. This concept was later employed in estimating the de Bruijn-Newman constant, becoming a key tool in proving that constant non-negative. He did not know the ultimate purpose of his work; he simply did what he could, approaching that ultimate question.
 
-**古尔东和德米歇尔**，法国数学家。2004年，他们验证了前10^13个零点。这意味着他们检查了10万亿个案例，每一个都符合猜想。这项工作耗时数年，需要极大的耐心和细致。但他们做到了，因为他们信守对自己事业的承诺。
+**Gourdon and Demichel**, French mathematicians. In 2004, they verified the first 10^13 zeros. This means they checked 10 trillion cases, each conforming to the hypothesis. This work took years, requiring immense patience and meticulousness. But they did it, because they honored their commitment to their vocation.
 
-**古斯和梅纳德**，当代数学家。2024年5月，他们发布了新的零点密度估计，改进了1940年以来的记录。古斯是调和分析专家，梅纳德是数论专家。他们带来了各自领域的技术，并将其应用于数论问题。陶哲轩评论道：“前几步是标准的，许多解析数论家，包括我自己，都曾尝试突破Ingham界，会认出这些步骤。但从那里开始，梅纳德和古斯做了许多聪明而意想不到的机动。”
+**Guth and Maynard**, contemporary mathematicians. In May 2024, they released new zero-density estimates, improving records dating back to 1940. Guth is a harmonic analysis expert; Maynard is a number theory expert. They brought techniques from their respective fields and applied them to number theory problems. Terence Tao commented: "The first few steps are standard; many analytic number theorists, including myself, have tried to break through the Ingham bound and would recognize these steps. But from there onward, Maynard and Guth performed many clever and unexpected maneuvers."
 
-这些人的共同点是什么?
+What do these people share in common?
 
-他们都知道自己可能无法解决最终问题。他们都知道自己可能只是历史长河中的一朵浪花。但他们仍然选择追问，仍然选择贡献，仍然选择成为链条上的一环。
+They all knew they might not be able to solve the ultimate problem. They all knew they might be merely a wave in the long river of history. Yet they still chose to inquire, still chose to contribute, still chose to become one link in the chain.
 
-这就是追问者的精神：不求功成在我，但求功成有我。
+This is the spirit of the questioner: not seeking that success be mine, but seeking that I be part of success.
 
-### 第三章 为什么追问无法解决的问题?
+### Chapter Three: Why Question Unsolvable Problems?
 
-这是一个根本的问题：为什么有人愿意花一辈子，追问一个可能永远无法解决的问题?
+This is a fundamental question: why would someone spend their entire life questioning a problem that may never be solved?
 
-世俗的眼光无法理解：如果最终得不到答案，那么一切努力岂不是白费?
+Secular eyes cannot comprehend: if the ultimate answer is never obtained, isn't all effort wasted?
 
-但追问者有不同的看法。
+But questioners have a different view.
 
-**第一，追问本身就是意义。**
+**First, questioning itself is meaning.**
 
-数学家不知道黎曼猜想能否在自己有生之年被证明，但他们知道：每一次追问，都是对问题的一次更深入的理解；每一次尝试，都是对思维能力的一次提升；每一次失败，都是对后来者的一次警示。
+Mathematicians do not know whether the Riemann Hypothesis can be proven within their lifetimes, but they know: every inquiry deepens understanding of the problem; every attempt enhances thinking ability; every failure serves as a warning to later seekers.
 
-人生的意义，不在于抵达终点，而在于行走的过程。如果终点才是意义，那么抵达之后呢？如果解决了黎曼猜想，数学家接下来做什么？继续追问下一个问题。追问永远不会停止。所以，意义不在终点，而在路上。
+The meaning of life lies not in reaching the destination, but in the process of walking. If only the destination held meaning, then what comes after arrival? If the Riemann Hypothesis were solved, what would mathematicians do next? Continue questioning the next problem. Questioning never ceases. Therefore, meaning lies not in the destination, but on the road.
 
-**第二，问题越大，滋养越深。**
+**Second, the greater the problem, the deeper the nourishment.**
 
-黎曼猜想之所以伟大，不是因为它是可解的，而是因为它连接了看似无关的领域：数论、复分析、随机矩阵理论、量子混沌、统计物理。追问这个问题的人，被迫学习这些领域的知识，被迫建立这些领域的联系，被迫拓展自己的思维边界。
+The Riemann Hypothesis is great not because it is solvable, but because it connects seemingly unrelated domains: number theory, complex analysis, random matrix theory, quantum chaos, statistical physics. Those who pursue this question are compelled to learn the knowledge of these fields, compelled to build connections between these domains, compelled to expand the boundaries of their own thinking.
 
-一个问题能滋养你的程度，与它的大小成正比。小问题给你小收获，大问题给你大成长。黎曼猜想这样的问题，能够滋养一个人一生，因为它永远有新的角度、新的层面、新的联系等待发现。
+The degree to which a problem can nourish you is proportional to its magnitude. Small problems yield small gains; great problems yield great growth. A problem like the Riemann Hypothesis can nourish a person for a lifetime, because it always has new angles, new layers, new connections waiting to be discovered.
 
-**第三，个体有限，事业无限。**
+**Third, the individual is finite, the enterprise is infinite.**
 
-孔涅在2022年的演讲中展示了一个惊人的结果：只使用小于13的素数——一个极小的信息子集——就可以惊人准确地逼近前50个零点。第一个零点的近似误差约为10^-4,第50个约为10^-3。所有近似值都在临界线上。
+Connes, in his 2022 lecture, demonstrated a startling result: using only primes less than 13—an extremely small subset of information—one can approximate the first 50 zeros with astonishing accuracy. The approximation error for the first zero is about 10^-4, for the 50th about 10^-3. All approximations lie on the critical line.
 
-这意味着什么？意味着有限的信息已经编码了无限的真相。你不需要解决整个问题，才能触及问题的核心。
+What does this mean? It means that finite information already encodes infinite truth. You do not need to solve the entire problem to touch its core.
 
-同样，你不需要活到永远，才能留下永恒的东西。你的每一份贡献，都会成为后来者的阶梯；你的每一个思想，都会在别人的头脑中继续生长。个体有限，但事业无限。当你将自己的生命融入一项无限的事业，你就超越了有限。
+Similarly, you do not need to live forever to leave something eternal. Every contribution you make becomes a stepping-stone for later seekers; every thought of yours continues growing in others' minds. The individual is finite, but the enterprise is infinite. When you merge your life into an infinite enterprise, you transcend finitude.
 
-这就是追问者的答案：因为追问本身就是意义，因为问题滋养生命，因为事业超越个体。
-
----
-
-## 第二卷：智慧
-
-### 第四章 什么是智慧?
-
-在追问无限之前，我们需要先理解：什么是智慧?
-
-智慧不是知识。知识是知道事实，智慧是理解意义。知识是知道黎曼猜想是什么，智慧是理解为什么这个问题值得追问。知识是知道素数定理的内容，智慧是感受它背后的秩序之美。
-
-智慧也不是智力。智力是解决问题的能力，智慧是选择问题的能力。智力可以帮你解决任何问题，但只有智慧能告诉你：哪些问题值得解决，哪些问题不值得。
-
-研究黎曼猜想的数学家，展现了深刻的智慧。
-
-他们选择的不是一个能够快速解决的“小问题”，而是一个可能永远没有答案的“大问题”。他们知道，这个问题的价值不在于“可解”，而在于“值得解”。他们知道，即使自己无法解决，后人也会继续前进。他们知道，每一次逼近都是进步，每一次失败都是经验。
-
-这就是智慧：知道什么值得追求。
-
-### 第五章 如何寻找值得追问的问题?
-
-罗杰斯在给女儿的信中写道：“专注于你所爱。成功最快的方法是做你喜欢做的事，然后全力以赴。”
-
-这句话不是成功学的鸡汤，而是深刻的智慧。只有你真正热爱的东西，才能支撑你度过漫长的岁月。只有你真正关心的问题，才能让你在困难面前不轻言放弃。
-
-但热爱本身还不够。热爱需要与三个特征结合：
-
-**第一，问题要足够深。**
-
-深到让你需要不断学习、不断成长。如果问题太浅，几个月就能解决，那么解决之后呢？你会陷入空虚。只有足够深的问题，才能让你一辈子都有事做，一辈子都在成长。
-
-**第二，问题要足够大。**
-
-大到让你意识到自己的渺小，从而保持谦卑。如果问题太小，你会高估自己的能力；只有问题足够大，你才能体会到“学然后知不足”的境界。面对黎曼猜想，再聪明的数学家也会感到谦卑，这正是它滋养人的方式。
-
-**第三，问题要有“可逼近性”。**
-
-让你每天都能感受到一点进步。如果问题完全不可捉摸，没有阶段性成果，人就会在绝望中放弃。一个好的问题应该有无数个小问题环绕，让你每天都能有所收获。
-
-智慧，就是找到这样一个问题，然后用一生去追问。
-
-### 第六章 日常生活中的智慧
-
-你不需要成为数学家才能实践这种智慧。在日常生活中，你可以：
-
-**在职业中寻找深度**。无论做什么工作，都可以追问：如何做得更好？如何理解得更深？如何创新？这些问题没有终极答案，但每一天的追问，都会让你成为更好的专业人士。
-
-**在关系中寻找意义**。与家人、朋友、同事相处，可以追问：如何爱得更深？如何理解得更透？如何支持得更有效？这些问题没有完美答案，但每一次追问，都会让关系更深厚。
-
-**在自我中寻找真相**。面对自己的内心，可以追问：我真正想要什么？我害怕什么？我逃避什么？这些问题没有简单答案，但每一次直面，都会让你更了解自己。
-
-这就是日常生活中的智慧：把每一个普通的问题，变成值得追问的课题。
+This is the questioner's answer: because questioning itself is meaning, because problems nourish life, because enterprise transcends the individual.
 
 ---
 
-## 第三卷：仁爱
+## Volume Two: Wisdom
 
-### 第七章 孤独的追问与共同的事业
+### Chapter Four: What Is Wisdom?
 
-在一般人想象中，追问是孤独的：一个人面对未知，一个人面对困难，一个人面对失败。
+Before questioning infinity, we must first understand: what is wisdom?
 
-但研究黎曼猜想的数学家告诉我们：追问也可以是共同的。
+Wisdom is not knowledge. Knowledge is knowing facts; wisdom is understanding meaning. Knowledge is knowing what the Riemann Hypothesis is; wisdom is understanding why this question is worth pursuing. Knowledge is knowing the content of the Prime Number Theorem; wisdom is feeling the beauty of order behind it.
 
-1737年，欧拉写下乘积公式，为黎曼的工作奠定基础。
-1859年，黎曼提出猜想，开创一个世纪的研究方向。
-1896年，阿达马和瓦莱·普桑证明素数定理，迈出关键一步。
-1914年，哈代证明无穷零点位于临界线，取得重大突破。
-1940年，英厄姆给出零点密度估计，建立分析框架。
-1973年，蒙哥马利发现与随机矩阵的联系，打开新视野。
-2004年，古尔东验证前10^13个零点，提供强大证据。
-2024年，古斯和梅纳德改进密度估计，再次推进边界。
+Wisdom is not intelligence either. Intelligence is the ability to solve problems; wisdom is the ability to choose problems. Intelligence can help you solve any problem, but only wisdom can tell you: which problems are worth solving, which are not.
 
-这是一个跨越三个世纪的接力。每一个人都站在前人的肩膀上，每一个人都为后人铺路。他们不是孤独的个体，而是人类知识长河中的一环。
+The mathematicians studying the Riemann Hypothesis demonstrate profound wisdom.
 
-这就是仁爱：将自己的工作，融入人类共同的事业。
+They chose not a quickly solvable "small problem," but a "great problem" that may never have an answer. They know the value of this question lies not in being "solvable," but in being "worth solving." They know that even if they cannot solve it, later seekers will continue advancing. They know that every approach is progress, every failure is experience.
 
-### 第八章 马克思的教诲
+This is wisdom: knowing what is worth pursuing.
 
-马克思在十七岁时写下了一篇题为《青年在选择职业时的考虑》的文章。其中有一段话，堪称关于仁爱的最深刻的论述：
+### Chapter Five: How to Find a Question Worth Pursuing?
 
-> “人只有为同时代人的完美、为他们的幸福而工作，自己才能达到完美。如果一个人只为自己劳动，他也许能够成为著名的学者、伟大的哲人、卓越的诗人，然而他永远不能成为完美的、真正伟大的人物。历史把那些为共同目标工作因而自己变得高尚的人称为最伟大的人物；经验赞美那些为大多数人带来幸福的人是最幸福的人；宗教本身也教诲我们，人人敬仰的典范，就曾为人类而牺牲自己——有谁敢否定这类教诲呢？”
+Rogers, in his letter to his daughters, wrote: "Focus on what you love. The fastest way to succeed is to do what you love to do, and then give it everything you have."
 
-这段话揭示了仁爱的真谛：不是施舍，不是怜悯，而是将自己的生命与更大的事业连接起来。
+This statement is not motivational platitudes, but profound wisdom. Only what you truly love can sustain you through long years. Only questions you truly care about can keep you from lightly giving up when facing difficulties.
 
-数学家研究黎曼猜想，不是为了名利——纯数学研究收入有限，也鲜有公众关注。他们是为了什么?
+But love alone is not enough. Love must be combined with three characteristics:
 
-为了理解宇宙的秩序。
-为了满足人类的好奇。
-为了给后来者铺路。
-为了成为知识链条中的一环。
+**First, the question must be sufficiently deep.**
 
-这就是仁爱：将个人的追问，转化为人类的追问；将有限的生命，融入无限的事业。
+Deep enough to require constant learning, constant growth. If the question is too shallow, solvable in a few months, then what comes after resolution? You fall into emptiness. Only sufficiently deep questions can keep you occupied for a lifetime, growing for a lifetime.
 
-### 第九章 日常生活中的仁爱
+**Second, the question must be sufficiently large.**
 
-你不需要成为数学家才能践行仁爱。
+Large enough to make you aware of your own insignificance, thus maintaining humility. If the question is too small, you overestimate your abilities; only when the question is sufficiently large can you experience the state of "learning and then knowing what is still lacking." Facing the Riemann Hypothesis, even the most brilliant mathematicians feel humble—this is precisely how it nourishes people.
 
-当你认真完成工作，为同事分担压力，你在践行仁爱。
-当你耐心教导孩子，为下一代成长付出，你在践行仁爱。
-当你参与社区服务，让邻居生活更好，你在践行仁爱。
-当你分享知识和经验，帮助他人成长，你在践行仁爱。
+**Third, the question must have "approachability."**
 
-每一次这样的行动，都是将个人的生命与他人连接。每一次这样的连接，都让你超越自我的局限，成为更大事业的一部分。
+Allowing you to feel some progress every day. If the problem is completely elusive, with no interim results, people will give up in despair. A good question should have countless small questions orbiting it, so you can gain something every day.
 
-罗杰斯说：“将世界纳入你的眼界。走出去看看这个世界，保持开放的心，做个世界公民。”仁爱，就是从关注自我，转向关注他人和世界。
+Wisdom is finding such a question, then pursuing it for a lifetime.
 
----
+### Chapter Six: Wisdom in Daily Life
 
-## 第四卷：勇敢
+You need not be a mathematician to practice this wisdom. In daily life, you can:
 
-### 第十章 面对未知的勇气
+**Find depth in your profession**. Whatever work you do, you can question: how to do it better? How to understand it more deeply? How to innovate? These questions have no ultimate answers, but every day's questioning makes you a better professional.
 
-研究黎曼猜想需要多大的勇气?
+**Find meaning in relationships**. With family, friends, colleagues, you can question: how to love more deeply? How to understand more thoroughly? How to support more effectively? These questions have no perfect answers, but every questioning deepens the relationship.
 
-想一想：你投入一生精力，可能最终一无所获。你面对的是167年来最聪明的头脑都没能解决的问题。你随时可能失败，随时可能被证明方向错误。
+**Find truth within yourself**. Facing your own heart, you can question: what do I truly want? What do I fear? What do I avoid? These questions have no simple answers, but every direct confrontation makes you better understand yourself.
 
-但数学家们仍然选择前行。
-
-1903年，格拉姆计算了15个零点。他的方法粗糙，结果有限，但他迈出了第一步。他不知道自己能走多远，但他选择开始。
-
-1914年，哈代证明无穷多个零点位于临界线上。这不是最终答案，但它激励了后来者。他不知道自己能否解决，但他选择尝试。
-
-2024年，古斯和梅纳德改进零点密度估计。他们不知道这是否通往最终证明，但他们选择推进。
-
-他们不是不知道困难，而是明知困难仍然前行。这就是勇敢。
-
-### 第十一章 勇敢不是不害怕
-
-我们对勇敢常有误解：以为勇敢的人不会害怕。事实恰恰相反：勇敢的人也会害怕，但他们选择不被害怕控制。
-
-数学家也害怕失败。他们担心自己的证明有漏洞，担心研究方向错误，担心浪费多年光阴。但他们仍然选择尝试。
-
-罗杰斯说：“不要让别人影响你。你的生活是你自己的，不要让别人影响你的决定。与众人反向而行需要勇气，但成功往往属于那些敢于走自己路的人。”
-
-勇敢，就是走自己的路，即使这条路少有人走，即使这条路充满未知。
-
-研究黎曼猜想的数学家，走的正是这样一条路。他们不追逐热门领域，不追求短期成果，不迎合评审口味。他们只追随一个问题，只听从内心召唤。这需要极大的勇气。
-
-### 第十二章 日常生活中的勇敢
-
-勇敢不仅存在于数学家的书房里。它存在于每个人的日常生活中：
-
-- 选择自己热爱的职业，而不是父母期望的“稳定工作”
-- 说出自己的真实想法，即使可能不被认同
-- 承认自己的错误，并承担责任
-- 尝试新事物，即使可能失败
-- 坚持做对的事，即使面临压力
-
-每一次这样的选择，都是勇敢的练习。每一次练习，都会让勇敢成为习惯。
+This is wisdom in daily life: turning every ordinary question into a topic worth pursuing.
 
 ---
 
-## 第五卷：节制
+## Volume Three: Benevolence
 
-### 第十三章 接受有限
+### Chapter Seven: Solitary Questioning and Shared Enterprise
 
-黎曼猜想最迷人的地方在于：它可能是无法证明的。
+In the popular imagination, questioning is solitary: one person facing the unknown, one person facing difficulty, one person facing failure.
 
-数学家必须面对这种可能性：自己一生追问的问题，永远没有答案。这不是失败，而是问题的本质。
+But mathematicians studying the Riemann Hypothesis tell us: questioning can also be shared.
 
-这对我们有什么启示?
+1737: Euler wrote the product formula, laying the foundation for Riemann's work.
+1859: Riemann posed the conjecture, inaugurating a century of research direction.
+1896: Hadamard and de la Vallée Poussin proved the Prime Number Theorem, taking a crucial step.
+1914: Hardy proved infinitely many zeros lie on the critical line, achieving a major breakthrough.
+1940: Ingham gave zero-density estimates, establishing an analytical framework.
+1973: Montgomery discovered the connection with random matrices, opening new horizons.
+2004: Gourdon verified the first 10^13 zeros, providing powerful evidence.
+2024: Guth and Maynard improved density estimates, once again advancing the boundary.
 
-人生也是有限的。我们无法完成所有想做的事，无法达到所有想达到的高度。我们必须接受这种有限性。
+This is a relay spanning three centuries. Each person stood on the shoulders of predecessors; each person paved the way for successors. They are not solitary individuals, but one link in the long river of human knowledge.
 
-但接受有限，不等于放弃追求。相反，正是在认识到有限之后，我们才能更好地安排有限的生命。
+This is benevolence: merging one's work into humanity's shared enterprise.
 
-### 第十四章 节制的智慧
+### Chapter Eight: Marx's Teaching
 
-节制不是什么都不做，而是知道该做什么、不该做什么。
+At seventeen, Marx wrote an essay titled "Reflections of a Young Man on the Choice of a Profession." One passage stands as perhaps the most profound discourse on benevolence:
 
-研究黎曼猜想的数学家深谙此道。他们不会试图同时解决所有问题，而是专注于一个小方向。他们不会期待一夜突破，而是日复一日地积累。他们不会贪求名利，而是满足于每一个微小的进步。
+> "If a person works only for himself, he may perhaps become a famous scholar, a great sage, an excellent poet, but he can never be a perfect, truly great human being. History calls those who exalt themselves by working for a common goal the greatest of all people; experience praises those who bring happiness to the majority as the happiest of all people; religion itself teaches us that the ideal everyone admires has sacrificed himself for humanity—who would dare to deny such teachings?"
 
-这种节制，让他们能够持续数十年而不倦怠。
+This passage reveals the true meaning of benevolence: not charity, not pity, but connecting one's life to a greater enterprise.
 
-罗杰斯说：“幸运女神只眷顾持续努力的人。用功读书，学得越多你才知道你懂得越少。没有额外的努力与付出，成功是不会落在你身上的。”
+Mathematicians study the Riemann Hypothesis not for fame or fortune—pure mathematics research offers limited income and scarce public attention. What do they pursue?
 
-节制的反面不是懒惰，而是贪婪。贪婪地想要一切，最终什么都得不到。节制地专注于一点，反而可能抵达远方。
+To understand the order of the universe.
+To satisfy human curiosity.
+To pave the way for later seekers.
+To become one link in the chain of knowledge.
 
-### 第十五章 日常生活中的节制
+This is benevolence: transforming personal inquiry into human inquiry; merging finite life into infinite enterprise.
 
-如何在生活中实践节制?
+### Chapter Nine: Benevolence in Daily Life
 
-- **不贪多**：一次只做一件事，把它做好
-- **不求快**：接受进步需要时间，不急于求成
-- **不攀比**：走自己的路，不和别人比速度
-- **不浪费**：珍惜时间和精力，不投入无谓的消耗
-- **懂取舍**：知道什么重要，什么不重要
+You need not be a mathematician to practice benevolence.
 
-节制让你从“想要一切”的焦虑中解脱出来，专注于真正重要的事。
+When you earnestly complete your work and share the burden with colleagues, you practice benevolence.
+When you patiently teach children and invest in the next generation's growth, you practice benevolence.
+When you participate in community service, making neighbors' lives better, you practice benevolence.
+When you share knowledge and experience, helping others grow, you practice benevolence.
 
----
+Every such action connects your personal life with others. Every such connection transcends your self's limitations, making you part of something larger.
 
-## 第六卷：公正
-
-### 第十六章 对真理的忠诚
-
-数学界有一条铁律：你可以犯错，但不能造假。错误的证明可以被原谅，但故意欺骗会被逐出共同体。
-
-研究黎曼猜想的历史上，有许多失败的尝试：
-
-1885年，斯蒂尔杰斯声称证明了更强的结论，但从未公布证明，后来被认为错误。
-1945年，拉德马赫提交了证明，发现错误后主动撤回了论文。
-1980年代以来，德布朗斯多次宣布证明，但从未被接受。
-
-这些失败的尝试并没有被抹去。它们被记录下来，成为后来者的警示和经验。这就是对真理的忠诚：不掩饰失败，不夸大成就。
-
-### 第十七章 公正的真义
-
-公正不仅是对他人，也是对自己。
-
-数学家必须对自己诚实：这个证明真的成立吗？还有没有漏洞？是不是忽略了什么?
-
-也必须对他人诚实：承认前人的贡献，公开自己的方法，接受同行的检验。
-
-这种双重诚实，构成了学术共同体的基石。
-
-罗杰斯说：“普通常识并不是那么普通。大众社会相信的东西常常是错的。你必须为自己学会独立思考，亲自检视每一件事，不要盲目听信别人的话。”
-
-独立思考的前提，就是对自己诚实。只有承认自己不知道，才能开始学习；只有承认自己可能错，才能找到正确。
-
-### 第十八章 日常生活中的公正
-
-在日常生活中，公正如何体现?
-
-- **对自己诚实**：不欺骗自己，正视优点和缺点
-- **对他人诚实**：不说谎、不欺骗、不利用他人
-- **对工作负责**：完成承诺的事，不敷衍了事
-- **承认错误**：错了就认，不找借口
-- **尊重规则**：公平竞争，不投机取巧
-
-公正让我们的内心平静，因为没有什么需要隐藏。
+Rogers says: "Bring the world within your scope. Go out and see the world, keep an open mind, be a citizen of the world." Benevolence is shifting from self-focus to attending to others and the world.
 
 ---
 
-## 第七卷：诚信
+## Volume Four: Courage
 
-### 第十九章 坚持到底
+### Chapter Ten: Courage in Facing the Unknown
 
-研究黎曼猜想的数学家，需要什么样的诚信?
+How much courage does studying the Riemann Hypothesis require?
 
-他们需要对自己选择的道路保持忠诚。不是一天两天，不是一年两年，而是一生。
+Consider: you invest a lifetime of effort, possibly achieving nothing in the end. You face a problem that the most brilliant minds of 167 years could not solve. You may fail at any time, may be proven wrong in direction at any time.
 
-2004年，古尔东和德米歇尔验证了前10^13个零点。这意味着他们检查了10万亿个案例，每一个都符合猜想。这项工作耗时数年，需要极大的耐心和细致。但他们做到了，因为他们信守对自己事业的承诺。
+But mathematicians still choose to proceed.
 
-更感人的是那些没有留下名字的数学家。他们可能一生都没有重大突破，但他们仍然坚持研究，教书育人，传承知识。他们的名字没有出现在论文中，但他们的学生后来做出了贡献。他们的诚信，体现在日复一日的坚守中。
+In 1903, Gram computed 15 zeros. His method was crude, his results limited, but he took the first step. He did not know how far he could go, but he chose to begin.
 
-### 第二十章 诚信的本质
+In 1914, Hardy proved infinitely many zeros lie on the critical line. This was not the final answer, but it inspired later seekers. He did not know whether he could solve it, but he chose to try.
 
-诚信首先是和自己约定：我选择这条路，就坚持走下去。
+In 2024, Guth and Maynard improved zero-density estimates. They did not know whether this led to the ultimate proof, but they chose to advance.
 
-罗杰斯说：“专注于你所爱。成功最快的方法是做你喜欢做的事，然后全力以赴。”全力以赴，就是诚信的体现。既然选择热爱，就要对得起这份热爱。
+They did not fail to recognize the difficulty; they proceeded despite knowing it. This is courage.
 
-诚信不是不改变方向，而是在改变之前，先尽力尝试。如果尝试后确实发现方向错误，那可以调整。但如果没有尽力就放弃，那就是对自己不诚实。
+### Chapter Eleven: Courage Is Not the Absence of Fear
 
-### 第二十一章 日常生活中的诚信
+We often misunderstand courage: assuming courageous people do not feel fear. The truth is precisely the opposite: courageous people also feel fear, but they choose not to be controlled by it.
 
-诚信如何体现在日常生活中?
+Mathematicians also fear failure. They worry their proofs have flaws, worry their research direction is wrong, worry about wasting years of their lives. But they still choose to try.
 
-- **遵守承诺**：答应的事，尽力做到
-- **坚持原则**：不因困难而放弃
-- **持续努力**：不因短期无效而放弃
-- **对自己负责**：不找借口，不推卸责任
-- **信守约定**：即使不方便，也履行承诺
+Rogers says: "Do not let others influence you. Your life is your own; do not let others influence your decisions. Going against the crowd requires courage, but success often belongs to those who dare to walk their own path."
 
-诚信让我们成为可靠的人。别人可以依赖我们，我们也可以依赖自己。
+Courage is walking your own path, even if few walk it, even if it is full of unknowns.
 
----
+Mathematicians studying the Riemann Hypothesis walk precisely such a path. They do not chase trendy fields, do not pursue short-term results, do not cater to review panel tastes. They follow only one question, only the inner calling. This requires immense courage.
 
-## 第八卷：超越
+### Chapter Twelve: Courage in Daily Life
 
-### 第二十二章 从有限到无限
+Courage exists not only in mathematicians' studies. It exists in everyone's daily life:
 
-研究黎曼猜想的数学家，最终得到什么?
+- Choosing a profession you love, rather than the "stable job" your parents expect
+- Speaking your true thoughts, even if they may not be accepted
+- Admitting your mistakes and taking responsibility
+- Trying new things, even if you might fail
+- Persisting in doing what is right, even under pressure
 
-如果他们证明了猜想，他们将名垂青史。但如果他们没能证明呢？他们的生命是否就虚度了?
-
-不。
-
-因为他们已经超越了个人得失。他们的工作汇入了人类知识的海洋。即使他们没有解决最终问题，他们也成为链条上的一环。后人会在他们的基础上继续前进。
-
-论文附录中有一张长长的表格，记录了从1903年到2004年零点计算的进展：
-
-1903年，格拉姆：15个零点
-1914年，巴克伦德：79个零点
-1925年，哈钦森：138个零点
-1935年，蒂奇马什：1,041个零点
-1953年，图灵：1,104个零点
-1956年，莱默：25,000个零点
-1958年，梅勒：35,337个零点
-1966年，莱曼：250,000个零点
-1969年，罗瑟等人：3,500,000个零点
-1979年，布伦特：81,000,001个零点
-1982年，布伦特等人：200,000,001个零点
-1986年，范德吕恩等人：1,500,000,001个零点
-2004年，古尔东和德米歇尔：10,000,000,000,000个零点
-
-每一个名字，每一个数字，都是一份贡献。这些人中，绝大多数没有被大众记住，但他们共同推进了人类对数学的理解。
-
-这就是超越：将有限的生命，融入无限的事业。
-
-### 第二十三章 超越的路径
-
-超越不是个人的飞升，而是从“我”到“我们”的转变。
-
-当你意识到自己是一代代人接力中的一环，当你感受到自己的工作将为后人铺路，当你看到个人努力汇入集体事业——你就超越了个人局限。
-
-马克思写道：“历史把那些为共同目标工作因而自己变得高尚的人称为最伟大的人物；经验赞美那些为大多数人带来幸福的人是最幸福的人；宗教本身也教诲我们，人人敬仰的典范，就曾为人类而牺牲自己。”
-
-牺牲不是失去，而是超越。将个人融入集体，将短暂融入永恒。
-
-### 第二十四章 如何实现超越
-
-你不需要成为伟人才能实现超越。在日常生活中，你也可以：
-
-- **关心下一代**：将自己的经验传授给年轻人
-- **保护环境**：为未来世代留下更好的地球
-- **参与公益**：为不认识的人创造价值
-- **创造作品**：留下有意义的东西
-- **传承文化**：学习和传播有价值的传统
-
-每一次这样的行动，都是对个人局限的超越。
+Every such choice is a practice of courage. Every practice makes courage a habit.
 
 ---
 
-## 第九卷：永恒
+## Volume Five: Temperance
 
-### 第二十五章 什么是永恒?
+### Chapter Thirteen: Accepting Finitude
 
-永恒是什么?
+The most fascinating aspect of the Riemann Hypothesis is: it may be unprovable.
 
-对古人来说，永恒是不朽的灵魂，是神明的居所，是超越时间的国度。
+Mathematicians must face this possibility: the question they pursue for a lifetime may never have an answer. This is not failure, but the nature of the question.
 
-对现代人来说，永恒可能是留下名字，可能是被历史记住，可能是功业长存。
+What lesson does this offer us?
 
-但数学家的故事给我们另一种理解：永恒不是永远存在，而是曾经存在过的方式足以影响永远。
+Life too is finite. We cannot accomplish all we wish, cannot reach all heights we aspire to. We must accept this finitude.
 
-格拉姆只活了56岁，计算了15个零点。但他的名字被记录在数学史上，他的方法被后人改进，他的工作成为链条的一环。他的生命有限，但影响延伸到了永远。
+But accepting finitude does not mean abandoning pursuit. On the contrary, precisely after recognizing finitude, we can better arrange our finite lives.
 
-莱默活了84岁，计算了25000个零点，发明了“莱默对”的概念。这个概念后来被用于估计de Bruijn-Newman常数，成为证明该常数非负的关键工具。他不知道自己的工作会有这样的用途，但事实是：他的工作影响了后来的研究，直到永远。
+### Chapter Fourteen: The Wisdom of Temperance
 
-图灵只活了41岁，在短暂的一生中，他破解了恩尼格玛，奠定了人工智能，计算了1104个零点。他的生命戛然而止，但他的思想继续生长，直到今天，直到永远。
+Temperance is not doing nothing, but knowing what to do and what not to do.
 
-永恒，不是活得久，而是活的方式足以穿越时间。
+Mathematicians studying the Riemann Hypothesis understand this well. They do not attempt to solve all problems simultaneously, but focus on one small direction. They do not expect overnight breakthroughs, but accumulate day by day. They do not greedily seek fame and fortune, but take satisfaction in every small advance.
 
-### 第二十六章 触摸永恒的方式
+This temperance enables them to persist for decades without exhaustion.
 
-那么，我们如何触摸永恒?
+Rogers says: "Fortune only favors those who persist in effort. Study hard; the more you learn, the more you realize how little you know. Without extra effort and dedication, success will not fall upon you."
 
-数学家告诉我们：通过追问无限。
+The opposite of temperance is not laziness, but greed. Greedily wanting everything, ultimately gaining nothing. Temperately focusing on one point on the contrary may reach distant horizons.
 
-当你追问一个足够大的问题，当你将自己的生命与人类的事业连接，当你成为知识链条中的一环——你就触摸了永恒。
+### Chapter Fifteen: Temperance in Daily Life
 
-因为那个问题会继续存在，即使你不在了。因为那项事业会继续推进，即使你离开了。因为那条链条会继续延伸，即使你已经完成了自己的那一段。
+How to practice temperance in life?
 
-你不需要活到永远，你的工作会让你活到永远。
+- **Do not overindulge**: Do one thing at a time, do it well
+- **Do not rush**: Accept that progress requires time, do not seek quick results
+- **Do not compare**: Walk your own path, do not compare speed with others
+- **Do not waste**: Treasure time and energy, do not invest in pointless consumption
+- **Know priorities**: Know what is important, what is not
 
-你不需要被所有人记住，你的贡献会被需要的人记住。
-
-你不需要完成所有事，你完成的那一部分就足够了。
-
-这就是触摸永恒的方式：用有限的生命，做无限的事业。
-
-### 第二十七章 与永恒对话
-
-1859年，黎曼写下那个猜想。
-
-2022年，孔涅在法国科学院发表演讲，题为“黎曼猜想：给黎曼的一封信”。他告诉黎曼：167年后，我们还在追问你的问题。
-
-这不是比喻，这是真实的对话。孔涅在用数学语言，与一个半世纪前的黎曼对话。他说：你看，我们用你无法想象的方法逼近了你的猜想。你看，你的问题还在滋养我们。你看，你的事业还在继续。
-
-这就是与永恒对话。当你加入一个跨越时空的追问，当你回应一个来自过去的召唤，当你为未来的人留下继续追问的线索——你就在与永恒对话。
-
-罗杰斯说：“学习历史。你需要宏观的世界观，而研读历史能让你知道什么是驱动市场的力量。”历史让我们与过去对话。同样，追问让我们与未来对话。
+Temperance liberates you from the anxiety of "wanting everything," enabling focus on what truly matters.
 
 ---
 
-## 第十卷：回归
+## Volume Six: Justice
 
-### 第二十八章 回到最初的问题
+### Chapter Sixteen: Loyalty to Truth
 
-现在，让我们回到最初的问题：我们该如何度过一生?
+Mathematics has an iron rule: you may make mistakes, but you may not fabricate. Erroneous proofs can be forgiven; deliberate deception gets you expelled from the community.
 
-波伊曼写道：
+The history of studying the Riemann Hypothesis includes many failed attempts:
 
-> 信步至此
-> 彷徨疑惑
-> 何者为前
-> 何者为后
-> 无人能云
-> 无人能解
-> 何为真理！
-> 孰以致之?
+1885: Stieltjes claimed to have proved a stronger conclusion but never published the proof; it was later deemed erroneous.
+1945: Rademacher submitted a proof, discovered the error, and voluntarily withdrew the paper.
+Since the 1980s: de Branges has multiple times announced proofs, none accepted.
 
-无人能云，无人能解。真理不在别处，就在我们追问的过程中。致之之道，就是用一生去逼近那个值得我们追问的问题。
+These failed attempts were not erased. They were recorded, becoming warnings and experience for later seekers. This is loyalty to truth: not concealing failure, not exaggerating achievement.
 
-数学家的故事告诉我们：那个问题可以很大，大到用一生都无法完成；那个问题可以很小，小到每天都能感受到进步。关键在于，它必须是你的问题，是你真心热爱的问题，是你愿意用一生去逼近的问题。
+### Chapter Seventeen: The True Meaning of Justice
 
-### 第二十九章 七种品质的融合
+Justice applies not only to others, but also to oneself.
 
-智慧、仁爱、勇敢、节制、公正、诚信、超越——这七种品质不是孤立的，而是相互支撑的。
+Mathematicians must be honest with themselves: does this proof truly hold? Are there still gaps? Have I overlooked something?
 
-没有智慧，勇敢可能变成鲁莽。
-没有仁爱，公正可能变成冷漠。
-没有节制，超越可能变成贪婪。
-没有勇敢，智慧可能变成空想。
-没有公正，诚信可能变成盲从。
-没有诚信，仁爱可能变成表演。
-没有超越，一切都困在有限中。
+They must also be honest with others: acknowledge predecessors' contributions, make public one's own methods, accept peers' scrutiny.
 
-研究黎曼猜想的数学家，体现了这七种品质的融合：
+This double honesty constitutes the cornerstone of the academic community.
 
-- 他们用智慧选择值得追问的问题
-- 用仁爱将工作奉献给人类事业
-- 用勇敢面对未知和可能的失败
-- 用节制接受有限，专注于一点
-- 用公正对待真理和同行
-- 用诚信坚持一生的追求
-- 用超越将个人融入人类长河
+Rogers says: "Common sense is not so common. What the mass society believes is often wrong. You must learn to think independently for yourself, examine everything personally, and do not blindly trust what others say."
 
-这就是完整的生命图景。
+The prerequisite for independent thinking is honesty with oneself. Only by admitting you do not know can you begin learning; only by admitting you might be wrong can you find what is right.
 
-### 第三十章 给每个人的回答
+### Chapter Eighteen: Justice in Daily Life
 
-你不需要成为数学家才能实践这七种品质。
+How does justice manifest in daily life?
 
-你不需要研究黎曼猜想才能追问无限。
+- **Be honest with yourself**: Do not deceive yourself; face your strengths and weaknesses squarely
+- **Be honest with others**: Do not lie, do not deceive, do not exploit others
+- **Be responsible in work**: Fulfill your commitments, do not cut corners
+- **Admit mistakes**: When wrong, own it; do not make excuses
+- **Respect rules**: Compete fairly, do not take shortcuts
 
-你只需要找到你的问题——那个让你在深夜醒来仍然念念不忘的问题，那个让你愿意付出时间精力的问题，那个让你感到生命有意义的问题。
-
-然后，用智慧选择它，用仁爱滋养它，用勇敢面对它，用节制专注它，用公正对待它，用诚信坚持它，用超越升华它。
-
-然后，用一生去追问。
-
-即使没有最终答案，你的生命也已经有了方向。即使没有最终完成，你的努力也已经汇入人类的长河。
-
-马克思在十七岁时写道：
-
-> “如果我们选择了最能为人类而工作的职业，那么，重担就不能把我们压倒，因为这是为大家作出的牺牲；那时我们所享受的就不是可怜的、有限的、自私的乐趣，我们的幸福将属于千百万人，我们的事业将悄然无声地存在下去，但是它会永远发挥作用，而面对我们的骨灰，高尚的人们将洒下热泪。”
-
-这就是我们的回答。
+Justice grants us inner peace, because nothing needs to be hidden.
 
 ---
 
-### 终曲：向无限而生
+## Volume Seven: Integrity
 
-1859年，黎曼在八页论文中写下那个猜想。
+### Chapter Nineteen: Persistence to the End
 
-2026年，我们还在追问。
+What kind of integrity do mathematicians studying the Riemann Hypothesis need?
 
-这167年里，无数人来过，爱过，追问过。他们中没有多少人解决了最终问题，但他们都为追问贡献了力量。他们的一生，因为追问而充实；他们的名字，因为贡献而被记住。
+They need loyalty to the path they have chosen. Not for a day or two, not for a year or two, but for a lifetime.
 
-现在，轮到你我了。
+In 2004, Gourdon and Demichel verified the first 10^13 zeros. This means they checked 10 trillion cases, each conforming to the hypothesis. This work took years, requiring immense patience and meticulousness. But they did it, because they honored their commitment to their vocation.
 
-我们每个人都有自己的“黎曼猜想”——那个值得我们用一生追问的问题。它可能很大，也可能很小；可能关乎全人类，也可能只关乎一个小群体。但只要它值得追问，只要我们愿意用一生去逼近，它就能赋予生命方向。
+Even more touching are the mathematicians who left no names. They may have had no major breakthrough in their lifetimes, yet they persisted in research, taught and mentored, transmitted knowledge. Their names did not appear in papers, but their students later made contributions. Their integrity is manifested in day-after-day steadfastness.
 
-所以，找到你的问题。
+### Chapter Twenty: The Essence of Integrity
 
-然后用一生去追问。
+Integrity is first and foremost a covenant with oneself: having chosen this path, I shall persist in walking it.
 
-即使没有最终答案，你的生命也已经有了意义。即使没有最终完成，你的努力也已经汇入永恒。
+Rogers says: "Focus on what you love. The fastest way to succeed is to do what you love, and then give it everything you have." Giving everything is the manifestation of integrity. Having chosen love, one must be worthy of that love.
 
-因为追问本身就是意义。
+Integrity does not mean never changing direction, but before changing, first trying one's utmost. If after genuine effort one indeed discovers the direction is wrong, one may adjust. But giving up without having tried one's best is dishonest to oneself.
 
-因为问题滋养生命。
+### Chapter Twenty-One: Integrity in Daily Life
 
-因为事业超越个体。
+How does integrity manifest in daily life?
 
-因为有限融入无限。
+- **Honor commitments**: What you promise, strive to fulfill
+- **Uphold principles**: Do not abandon them due to difficulty
+- **Persist in effort**: Do not give up because of short-term ineffectiveness
+- **Be responsible to yourself**: Do not make excuses, do not deflect responsibility
+- **Keep agreements**: Even when inconvenient, fulfill your commitments
 
-向有限的生命告别。
-
-向无限的追问致敬。
-
-这一生，这样度过，足矣。
+Integrity makes us reliable people. Others can depend on us, and we can depend on ourselves.
 
 ---
 
-### 附录：追问者的自问
+## Volume Eight: Transcendence
 
-如果你愿意，可以在每天结束时问自己几个问题：
+### Chapter Twenty-Two: From Finite to Infinite
 
-**智慧**
-今天我学到了什么新东西?
-我对什么问题有了更深的理解?
-我有没有发现新的值得追问的问题?
+What do mathematicians studying the Riemann Hypothesis ultimately gain?
 
-**仁爱**
-今天我帮助了谁?
-我为他人创造了什么价值?
-我有没有把自己的工作与更大的事业连接?
+If they prove the conjecture, their names will be immortalized in history. But what if they fail to prove it? Is their life then wasted?
 
-**勇敢**
-今天我面对了什么困难?
-我是如何应对的?
-我有没有因为害怕而放弃该做的事?
+No.
 
-**节制**
-今天我把时间花在最重要的事情上了吗?
-有没有浪费在无谓的事情上?
-我有没有贪多求快?
+Because they have already transcended personal gain and loss. Their work has merged into the ocean of human knowledge. Even if they did not solve the ultimate problem, they became one link in the chain. Later seekers will continue advancing on their foundation.
 
-**公正**
-今天我对自己诚实吗?
-对他人诚实吗?
-有没有违背原则?
+The appendix of the paper contains a long table recording the progress of zero computation from 1903 to 2004:
 
-**诚信**
-今天我坚持了自己的承诺吗?
-有没有因为困难而放弃?
-有没有对自己说谎?
+1903, Gram: 15 zeros
+1914, Backlund: 79 zeros
+1925, Hutchinson: 138 zeros
+1935, Titchmarsh: 1,041 zeros
+1953, Turing: 1,104 zeros
+1956, Lehmer: 25,000 zeros
+1958, Meller: 35,337 zeros
+1966, Lehman: 250,000 zeros
+1969, Rosser et al.: 3,500,000 zeros
+1979, Brent: 81,000,001 zeros
+1982, Brent et al.: 200,000,001 zeros
+1986, van de Lune et al.: 1,500,000,001 zeros
+2004, Gourdon and Demichel: 10,000,000,000,000 zeros
 
-**超越**
-今天我做的事，有没有超越个人得失?
-有没有为未来留下什么?
-有没有感受到自己是一环?
+Every name, every number, is a contribution. Among these people, the vast majority were not remembered by the public, but collectively they advanced humanity's understanding of mathematics.
 
-这些问题没有标准答案，但它们可以帮助你审视一天的生活，让七种品质逐渐融入你的生命。
+This is transcendence: merging finite life into infinite enterprise.
 
-日积月累，你会发现：那个曾经困扰你的问题——“我该如何度过一生”——已经有了答案。
+### Chapter Twenty-Three: The Path of Transcendence
 
-答案不在别处，就在你每一天的选择里。
+Transcendence is not personal ascension, but the transformation from "I" to "we."
+
+When you realize you are one link in a relay across generations, when you feel your work will pave the way for later seekers, when you see personal effort merging into collective enterprise—you transcend personal limitations.
+
+Marx wrote: "History calls those who exalt themselves by working for a common goal the greatest of all people; experience praises those who bring happiness to the majority as the happiest of all people; religion itself teaches us that the ideal everyone admires has sacrificed himself for humanity."
+
+Sacrifice is not loss, but transcendence. Merging the individual into the collective, merging the fleeting into the eternal.
+
+### Chapter Twenty-Four: How to Achieve Transcendence
+
+You need not be a great person to achieve transcendence. In daily life, you can:
+
+- **Care for the next generation**: Transmit your experience to young people
+- **Protect the environment**: Leave a better planet for future generations
+- **Engage in public service**: Create value for people you do not know
+- **Create works**: Leave something meaningful behind
+- **Carry forward culture**: Learn and propagate valuable traditions
+
+Every such action is a transcendence of personal limitations.
+
+---
+
+## Volume Nine: Eternity
+
+### Chapter Twenty-Five: What Is Eternity?
+
+What is eternity?
+
+For the ancients, eternity was the immortal soul, the dwelling of gods, a realm beyond time.
+
+For modern people, eternity might be leaving a name, being remembered by history, achievements that endure.
+
+But the mathematicians' story offers us another understanding: eternity is not existing forever, but having existed in a way sufficient to influence forever.
+
+Gram lived only 56 years, computing 15 zeros. But his name was recorded in the history of mathematics, his methods improved by later seekers, his work becoming one link in the chain. His life was finite, but his influence extends to forever.
+
+Lehmer lived 84 years, computing 25,000 zeros, inventing the concept of "Lehmer pairs." This concept was later used in estimating the de Bruijn-Newman constant, becoming a key tool for proving that constant non-negative. He did not know his work would have such applications, but the fact is: his work influenced later research, unto forever.
+
+Turing lived only 41 years; in his brief life, he cracked Enigma, laid the foundations of AI, computed 1,104 zeros. His life was cut short, but his ideas continued growing, until today, until forever.
+
+Eternity is not living long, but living in a way sufficient to transcend time.
+
+### Chapter Twenty-Six: Ways to Touch Eternity
+
+Then, how do we touch eternity?
+
+Mathematicians tell us: through questioning infinity.
+
+When you question a sufficiently large problem, when you connect your life with humanity's enterprise, when you become one link in the chain of knowledge—you touch eternity.
+
+Because that question will continue to exist, even after you are gone. Because that enterprise will continue advancing, even after you depart. Because that chain will continue extending, even after you have completed your segment.
+
+You need not live forever; your work will make you live forever.
+
+You need not be remembered by everyone; your contributions will be remembered by those who need them.
+
+You need not complete everything; the portion you complete is enough.
+
+This is the way to touch eternity: with finite life, do infinite enterprise.
+
+### Chapter Twenty-Seven: Conversing with Eternity
+
+In 1859, Riemann wrote down that conjecture.
+
+In 2022, Connes delivered a lecture at the French Academy of Sciences titled "The Riemann Hypothesis: A Letter to Riemann." He told Riemann: 167 years later, we are still pursuing your question.
+
+This is not metaphor; this is a real conversation. Connes, using mathematical language, converses with Riemann from half a century ago. He says: look, we have approached your conjecture with methods you could not imagine. Look, your question still nourishes us. Look, your enterprise continues.
+
+This is conversing with eternity. When you join an inquiry spanning time and space, when you respond to a summons from the past, when you leave clues for future seekers to continue questioning—you are conversing with eternity.
+
+Rogers says: "Learn history. You need a macro-level worldview, and studying history lets you know what forces drive markets." History allows us to converse with the past. Similarly, questioning allows us to converse with the future.
+
+---
+
+## Volume Ten: Return
+
+### Chapter Twenty-Eight: Returning to the Original Question
+
+Now, let us return to the original question: how should we spend our lives?
+
+Poiman wrote:
+
+> Arriving here by chance
+> Wandering in doubt
+> What lies ahead
+> What lies behind
+> No one can say
+> No one can resolve
+> What is truth!
+> Who can attain it?
+
+No one can say, no one can resolve. Truth lies not elsewhere, but in the process of our questioning. The way to attain it is to spend a lifetime approaching a question worthy of our pursuit.
+
+The mathematicians' story tells us: that question can be very large, so large that a lifetime cannot complete it; that question can be very small, so small that one feels progress every day. The key is that it must be your question—a question you truly love, a question you are willing to approach for a lifetime.
+
+### Chapter Twenty-Nine: The Fusion of Seven Qualities
+
+Wisdom, benevolence, courage, temperance, justice, integrity, transcendence—these seven qualities are not isolated, but mutually supporting.
+
+Without wisdom, courage may become recklessness.
+Without benevolence, justice may become indifference.
+Without temperance, transcendence may become greed.
+Without courage, wisdom may become empty fantasy.
+Without justice, integrity may become blind conformity.
+Without integrity, benevolence may become performance.
+Without transcendence, everything remains trapped in finitude.
+
+Mathematicians studying the Riemann Hypothesis embody the fusion of these seven qualities:
+
+- They used wisdom to choose a question worth pursuing
+- They used benevolence to dedicate their work to humanity's enterprise
+- They used courage to face the unknown and possible failure
+- They used temperance to accept finitude and focus on one point
+- They used justice to treat truth and colleagues fairly
+- They used integrity to persist in lifelong pursuit
+- They used transcendence to merge the individual into humanity's long river
+
+This is the complete picture of a life.
+
+### Chapter Thirty: An Answer for Everyone
+
+You need not be a mathematician to practice these seven qualities.
+
+You need not study the Riemann Hypothesis to question infinity.
+
+You only need to find your question—that question that keeps you awake at night still pondering, that question you are willing to invest time and energy in, that question that makes you feel life has meaning.
+
+Then, use wisdom to choose it, benevolence to nourish it, courage to face it, temperance to focus on it, justice to treat it, integrity to persist in it, transcendence to elevate it.
+
+Then, pursue it for a lifetime.
+
+Even without a final answer, your life already has direction. Even without final completion, your effort has already merged into humanity's long river.
+
+Marx wrote at seventeen:
+
+> "If we have chosen the position in life in which we can most of all work for mankind, no burdens can bow us down, because they are sacrifices for the benefit of all; then we shall experience no petty, limited, selfish joy, but our happiness will belong to millions, our deeds will quietly live on and increasingly bear fruit, and over our ashes noble tears will be shed by those who attain higher development."
+
+This is our answer.
+
+---
+
+### Finale: Living Toward Infinity
+
+In 1859, Riemann wrote down that conjecture in an eight-page paper.
+
+In 2026, we are still questioning.
+
+In these 167 years, countless people came, loved, questioned. Not many among them solved the ultimate problem, but all contributed strength to the questioning. Their lives were fulfilled because of questioning; their names were remembered because of contribution.
+
+Now, it is our turn.
+
+Each of us has our own "Riemann Hypothesis"—that question worth pursuing for a lifetime. It may be very large, or very small; it may concern all humanity, or only a small community. But as long as it is worth questioning, as long as we are willing to approach it for a lifetime, it can endow life with direction.
+
+So, find your question.
+
+Then pursue it for a lifetime.
+
+Even without a final answer, your life already has meaning. Even without final completion, your effort has already merged into eternity.
+
+Because questioning itself is meaning.
+
+Because problems nourish life.
+
+Because enterprise transcends the individual.
+
+Because finitude merges into infinity.
+
+Bid farewell to finite life.
+
+Pay tribute to infinite questioning.
+
+A life lived this way is sufficient.
+
+---
+
+### Appendix: A Questioner's Self-Inquiry
+
+If you wish, at the end of each day, you can ask yourself a few questions:
+
+**Wisdom**
+What new thing did I learn today?
+What question did I understand more deeply?
+Did I discover any new questions worth pursuing?
+
+**Benevolence**
+Whom did I help today?
+What value did I create for others?
+Did I connect my work to a larger enterprise?
+
+**Courage**
+What difficulty did I face today?
+How did I respond?
+Did I abandon what I should have done out of fear?
+
+**Temperance**
+Did I spend time on the most important things today?
+Was any wasted on pointless matters?
+Did I seek too much, too fast?
+
+**Justice**
+Was I honest with myself today?
+Was I honest with others?
+Did I violate any principles?
+
+**Integrity**
+Did I honor my commitments today?
+Did I give up because of difficulty?
+Did I lie to myself?
+
+**Transcendence**
+Did what I did today transcend personal gain and loss?
+Did I leave anything for the future?
+Did I feel myself as one link in the chain?
+
+These questions have no standard answers, but they can help you examine your day's life, allowing the seven qualities to gradually merge into your being.
+
+Day by day, accumulating over time, you will discover: the question that once vexed you—"how should I spend my life"—already has an answer.
+
+The answer lies not elsewhere, but in each of your daily choices.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

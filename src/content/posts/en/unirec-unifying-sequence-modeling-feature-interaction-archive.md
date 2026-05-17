@@ -1,200 +1,200 @@
 ---
-title: UniRec：面向大规模推荐的序列建模与特征交互统一架构（TeX归档）
+title: "UniRec: A Unified Architecture for Sequence Modeling and Feature Interaction in Large-Scale Recommendation (TeX Archive)"
 date: '2026-03-27'
 category: AI & Technology
 tags:
   - recommendation systems
-  - 序列建模
-  - 特征交互
-  - 架构
+  - sequence modeling
+  - feature interaction
+  - architecture
 description: >
-  推荐系统支撑着大规模内容平台与数字广告，其点击率与转化率预测直接影响用户体验、参与度和商业收入。然而，尽管历经数十年发展，现代推荐流水线仍然在结构上呈现碎片化：特征交互模型与序列行为模型往往被作为基本独立的系统进行开发、优化和部署。本文认为…
+  Recommendation systems support large-scale content platforms and digital advertising, where click-through rate and conversion rate predictions directly impact user experience, engagement, and commercial revenue. However, despite decades of development, modern recommendation pipelines remain structurally fragmented: feature interaction models and sequential behavior models are often developed, optimized, and deployed as fundamentally independent systems. This paper argues...
 ---
 
-> 说明：本文由 TeX 源文件自动转换生成，公式与排版可能存在差异；以 TeX/PDF 原件为准。
+> Note: This article was automatically converted from a TeX source file; formulas and formatting may differ from the original. The TeX/PDF originals are authoritative.
 
-> 原始文件名：`unirec-sequence-modeling-feature-interaction-unified-architecture.tex`
-> 源文件下载：https://liang.world/archives/unirec/unirec-sequence-modeling-feature-interaction-unified-architecture.tex
+> Original filename: `unirec-sequence-modeling-feature-interaction-unified-architecture.tex`
+> Source file download: https://liang.world/archives/unirec/unirec-sequence-modeling-feature-interaction-unified-architecture.tex
 
 ---
 
-## 摘要
+## Abstract
 
-推荐系统支撑着大规模内容平台与数字广告，其点击率与转化率预测直接影响用户体验、参与度和商业收入。然而，尽管历经数十年发展，现代推荐流水线仍然在结构上呈现碎片化：特征交互模型与序列行为模型往往被作为基本独立的系统进行开发、优化和部署。本文认为，这种历史性割裂隐藏了三个日益脆弱的假设——即对行为序列的过早压缩是充分的、跨源交互可以推迟进行、序列模块与非序列模块可以准独立优化。针对这一问题，我们提出 UniRec,一个以“先统一，后压缩”为核心原则的理论奠基式统一架构。UniRec 通过结构保持令牌化将有序事件、无序特征域和连续上下文变量映射到公共令牌空间，应用混合掩码注意力算子实现因果性但非对角线的交互，并在跨源条件化发生之后才进行渐进压缩。我们进一步通过基于 GRU 的用户状态实现持续更新，使预测依赖于演化的交互轨迹而非静态摘要。本报告贡献三方面理论内容：第一，形式化了碎片化推荐流水线背后隐含的假设；第二，证明过早压缩只会通过数据处理减少任务相关信息，而一个近乎单射的统一表示则能将与响应的联合互信息保持到 $\epsilon$ 碰撞项之内；第三，提供简洁的结构性理由：范畴论视角激励源感知令牌化，而几何视角则激励将混合掩码与延迟压缩作为对抗退化交互模式的归纳约束。本文档旨在作为挑战“面向大规模推荐的序列建模与特征交互统一化”后续工程工作的存档理论奠基报告；基准测试结果与实现工件将在配套的实证修订版中呈现。
+Recommendation systems support large-scale content platforms and digital advertising, where click-through rate and conversion rate predictions directly impact user experience, engagement, and commercial revenue. However, despite decades of development, modern recommendation pipelines remain structurally fragmented: feature interaction models and sequential behavior models are often developed, optimized, and deployed as fundamentally independent systems. This paper argues that this historical separation conceals three increasingly fragile assumptions—that premature compression of behavioral sequences is sufficient, that cross-source interactions can be deferred, and that sequential and non-sequential modules can be quasi-independently optimized. Addressing this problem, we propose UniRec, a theoretically foundational unified architecture centered on the core principle of "unify first, then compress." UniRec maps ordered events, unordered feature domains, and continuous context variables to a common token space through structure-preserving tokenization, applies a mixed-mask attention operator to achieve causal but off-diagonal interactions, and performs progressive compression only after cross-source conditioning has occurred. We further implement continuous updating through a GRU-based user state, making predictions depend on an evolving interaction trajectory rather than a static summary. This report contributes theoretical content in three respects: first, it formalizes the implicit assumptions underlying fragmented recommendation pipelines; second, it demonstrates that premature compression can only reduce task-relevant information through data processing, whereas a nearly injective unified representation preserves the joint mutual information with the response within an $\epsilon$ collision term; third, it provides a concise structural rationale: the category-theoretic perspective motivates source-aware tokenization, while the geometric perspective motivates mixed masking and delayed compression as inductive constraints against degenerate interaction patterns. This document is intended as an archival theoretical foundational report for subsequent engineering work on the challenge "Unifying Sequence Modeling and Feature Interaction for Large-Scale Recommendation"; benchmark results and implementation artifacts will be presented in a companion empirical revision.
 
-## 关键词
+## Keywords
 
-推荐系统；统一架构；序列建模；特征交互；Transformer;信息论
+Recommendation systems; unified architecture; sequence modeling; feature interaction; Transformer; information theory
 
-## 引言
+## Introduction
 
-推荐系统支撑着大规模内容平台——信息流、短视频生态及其他以参与度为核心的界面——以及数字广告，其中点击率与转化率预测直接影响用户体验、货币化与平台效率。在巨大流量和严格延迟约束下，这类系统每日做出数十亿实时决策，并支撑着规模庞大的广告经济。
+Recommendation systems support large-scale content platforms—information feeds, short-video ecosystems, and other engagement-centric interfaces—as well as digital advertising, where click-through rate and conversion rate predictions directly impact user experience, monetization, and platform efficiency. Under massive traffic volume and strict latency constraints, such systems make billions of real-time decisions daily and underpin an advertising economy of enormous scale.
 
-过去二十年，推荐研究沿着两条主线发展。一条主线聚焦于特征交互：对用于排序和校准的高维多域类别与上下文特征进行建模。另一条主线聚焦于序列行为：通过循环架构、注意力机制以及受自注意力启发的 Transformer 风格排序模型对时间有序的用户交互进行建模 [vaswani2017attention]。两条传统均取得了显著成功。然而，它们在很大程度上是并行演化而非协同演化的。
+Over the past two decades, recommendation research has developed along two main lines. One line focuses on feature interaction: modeling high-dimensional multi-domain categorical and contextual features for ranking and calibration. The other line focuses on sequential behavior: modeling temporally ordered user interactions through recurrent architectures, attention mechanisms, and self-attention-inspired Transformer-style ranking models [vaswani2017attention]. Both traditions have achieved remarkable success. However, they have largely evolved in parallel rather than in concert.
 
-这种分离在工业系统中造成了结构性瓶颈。在许多已部署的技术栈中，行为序列首先被汇总成一个或几个向量，然后才与特征侧表示合并。由此产生的流水线易于模块化，但也强制了浅层的跨范式交互，鼓励组件间不一致的优化目标，使扩展复杂化，并随着序列长度与模型规模的持续增长而增加工程与硬件负担。
+This separation creates a structural bottleneck in industrial systems. In many deployed technology stacks, behavioral sequences are first aggregated into one or a few vectors before being merged with feature-side representations. The resulting pipeline is easy to modularize, but it also enforces shallow cross-paradigm interactions, encourages inconsistent optimization objectives between components, complicates scaling, and increases engineering and hardware burdens as sequence length and model scale continue to grow.
 
-当前挑战“面向大规模推荐的序列建模与特征交互统一化”恰逢其时，因为它直接瞄准了这一结构性瓶颈。其核心问题不仅仅在于一个新模块能否提升 AUC,而在于推荐架构能否被重新设计，使得有序行为与非序列域在同质化、可堆叠的骨干中联合建模。这个问题首先是一个架构问题，其次才是经验问题。因此，它需要一种“理论优先”的处理方式。
+The current challenge "Unifying Sequence Modeling and Feature Interaction for Large-Scale Recommendation" arrives at an opportune moment because it directly targets this structural bottleneck. Its core question is not merely whether a new module can improve AUC, but whether recommendation architecture can be redesigned so that ordered behavior and non-sequential domains are jointly modeled within a homogeneous, stackable backbone. This question is primarily an architectural question, and only secondarily an empirical one. It therefore requires a "theory-first" approach.
 
-本报告从一个简单观察出发。历史事件的相关性往往取决于当前特征上下文，而特征的相关性又往往取决于用户在行为轨迹中的位置。如果这一点成立，那么过早压缩历史的系统就可能丢弃那些恰恰是后续特征交互所必需的事件级区分。
+This report begins from a simple observation. The relevance of historical events often depends on the current feature context, and the relevance of features often depends on the user's position within the behavioral trajectory. If this is true, then systems that prematurely compress history may discard event-level distinctions that are precisely what subsequent feature interactions require.
 
-为此，我们提出 UniRec,一个以逆转常规顺序为核心原则的第一性原理架构：
+To this end, we propose UniRec, a first-principles architecture whose core principle reverses the conventional order:
 
-**先统一，后压缩**，
+**Unify first, then compress**,
 
-而非先压缩再交互。UniRec 结合了四个设计要素：结构保持令牌化、混合掩码注意力、渐进压缩以及通过循环用户状态实现的持续更新。
+rather than compress first, then interact. UniRec combines four design elements: structure-preserving tokenization, mixed-mask attention, progressive compression, and continuous updating through recurrent user states.
 
-本文档刻意作为理论奠基文件。在工程研究完成之前，我们并不声称基准优越性，而是固定架构论点及其应被证伪的标准。因此，本报告是存档性和准备性的：它为后续在挑战设定下的大规模实验提供了概念基础。
+This document is deliberately a theoretical foundational document. Prior to the completion of engineering research, we do not claim benchmark superiority, but rather fix the architectural arguments and the standards by which they should be falsified. Accordingly, this report is archival and preparatory: it provides the conceptual foundation for subsequent large-scale experimentation under the challenge setting.
 
-主要贡献如下：
+The main contributions are as follows:
 
-- 识别并形式化了分离式推荐流水线背后的三个隐含假设，并说明为何它们在规模化时变得日益脆弱。
-- 提出 UniRec,一个以“先统一，后压缩”为核心组织原则的统一架构。
-- 提供了一个紧凑的结构性理由：其中源感知令牌化可赋予范畴论解读，而混合掩码与延迟压缩则可赋予几何解读，作为优化中的归纳约束。
-- 通过基于 GRU 的用户状态实例化持续更新，并定义替代距离视角以区分动态用户建模与冻结用户建模。
-- 针对挑战目标指定了公平且可证伪的经验协议，使得后续工程结果能够被结构性地解读，而非仅仅数值性地比较。
+- Identifying and formalizing the three implicit assumptions underlying separated recommendation pipelines, and explaining why they become increasingly fragile at scale.
+- Proposing UniRec, a unified architecture with "unify first, then compress" as its core organizing principle.
+- Providing a compact structural rationale: source-aware tokenization admits a category-theoretic interpretation, while mixed masking and delayed compression admit a geometric interpretation, as inductive constraints in optimization.
+- Instantiating continuous updating through a GRU-based user state, and defining a surrogate distance perspective to distinguish dynamic user modeling from frozen user modeling.
+- Specifying fair and falsifiable empirical protocols for the challenge objectives, so that subsequent engineering results can be structurally interpreted rather than merely numerically compared.
 
-报告其余部分组织如下。第 2 节回顾相关工作。第 3 节形式化问题并精确陈述隐含假设。第 4 节介绍 UniRec。第 5 节解释结构与几何设计理由。第 6 节给出信息论基础。第 7 节阐述挑战对齐、经验协议与工程议程。第 8 节讨论启示与局限。第 9 节总结。
+The remainder of the report is organized as follows. Section 2 reviews related work. Section 3 formalizes the problem and precisely states the implicit assumptions. Section 4 introduces UniRec. Section 5 explains the structural and geometric design rationale. Section 6 provides the information-theoretic foundation. Section 7 articulates challenge alignment, empirical protocols, and the engineering agenda. Section 8 discusses implications and limitations. Section 9 concludes.
 
-## 相关工作
+## Related Work
 
-### 分离式推荐流水线
+### Separated Recommendation Pipelines
 
-大量工业推荐模型遵循“编码再交互”逻辑，即便通过多个子系统实现。Deep Crossing [shan2016deep]、Wide&Deep [cheng2016wide]、DeepFM [guo2017deepfm]、DCN [wang2017deep] 与 DCNv2 [wang2021dcnv2] 代表了多域特征交互与排序的重要方法。这些方法在稀疏和上下文特征上极为有效，但它们通常将行为历史视为浅层聚合或外部产生的嵌入。
+A large number of industrial recommendation models follow an "encode-then-interact" logic, even when implemented through multiple subsystems. Deep Crossing [shan2016deep], Wide&Deep [cheng2016wide], DeepFM [guo2017deepfm], DCN [wang2017deep] and DCNv2 [wang2021dcnv2] represent important approaches for multi-domain feature interaction and ranking. These methods are highly effective on sparse and contextual features, but they typically treat behavioral history as shallow aggregation or externally generated embeddings.
 
-### 序列建模
+### Sequence Modeling
 
-另一条研究线关注用户行为的时间结构。GRU4Rec [hidasi2016session]、DIN [zhou2018deep]、DIEN [zhou2019deep]、SASRec [kang2018self] 与 BERT4Rec [sun2019bert4rec] 使用循环或注意力机制建模序列依赖，而更广泛的 Transformer 范式 [vaswani2017attention] 已更普遍地重塑了排序架构。然而在许多工业部署中，所得的序列表示在融入特征侧堆栈之前仍然被缩减为少量向量。
+Another line of research focuses on the temporal structure of user behavior. GRU4Rec [hidasi2016session], DIN [zhou2018deep], DIEN [zhou2019deep], SASRec [kang2018self] and BERT4Rec [sun2019bert4rec] use recurrent or attention mechanisms to model sequential dependencies, while the broader Transformer paradigm [vaswani2017attention] has more generally reshaped ranking architectures. However, in many industrial deployments, the resulting sequence representations are still reduced to a small number of vectors before being incorporated into the feature-side stack.
 
-### 特征交互架构
+### Feature Interaction Architectures
 
-除了 FM 类模型,xDeepFM [lian2018xdeepfm] 与 AutoInt [song2019autoint] 通过显式交叉层与自注意力交互丰富了跨特征表达能力。然而这些模型通常假设序列信息已被汇总。其后果是，事件级的序列-特征条件化要么缺失，要么极为有限。
+Beyond FM-class models, xDeepFM [lian2018xdeepfm] and AutoInt [song2019autoint] enrich cross-feature expressiveness through explicit crossing layers and self-attention interactions. However, these models typically assume that sequence information has already been aggregated. The consequence is that event-level sequence-feature conditioning is either absent or extremely limited.
 
-### 统一化为何重要
+### Why Unification Matters
 
-近期工作已开始探索统一的令牌化方案、共享骨干以及晚期或渐进压缩机制，这表明序列建模与特征交互之间的长期分离既非不可避免，也非理论上必需。然而，迄今仍缺乏一个关于“统一化为何重要”的第一性原理阐述，也未能清晰说明哪些输入结构应在统一化下被保持，以及何时压缩才是合法而非破坏性的。本报告正是要回应这些问题，其目的不仅仅是倡导一个同质化骨干，更是要解释操作顺序——先交互，后压缩——本身就是一个具有信息论后果的建模承诺。
+Recent work has begun exploring unified tokenization schemes, shared backbones, and late or progressive compression mechanisms, suggesting that the long-standing separation between sequence modeling and feature interaction is neither inevitable nor theoretically necessary. However, a first-principles account of "why unification matters" remains lacking, as does a clear specification of which input structures should be preserved under unification, and when compression is legitimate rather than destructive. This report responds precisely to these questions, its purpose not merely to advocate a homogeneous backbone, but to explain that the operation order—interact first, compress later—is itself a modeling commitment with information-theoretic consequences.
 
-## 问题设置与隐含假设
+## Problem Setting and Implicit Assumptions
 
-我们考虑一个输入元组
+We consider an input tuple
 
 $$
 (S,\mathcal{F},\mathcal{C}),
 $$
 
-其中
+where
 
-- $S = (s_1,\ldots,s_n)$ 是有序历史事件序列；
-- $\mathcal{F} = \{f_1,\ldots,f_m\}$ 是无序的域式类别特征集合；
-- $\mathcal{C} = \{c_1,\ldots,c_q\}$ 是带有度量结构的连续标量或低维向量集合。
+- $S = (s_1,\ldots,s_n)$ is an ordered sequence of historical events;
+- $\mathcal{F} = \{f_1,\ldots,f_m\}$ is an unordered set of domain-style categorical features;
+- $\mathcal{C} = \{c_1,\ldots,c_q\}$ is a set of continuous scalars or low-dimensional vectors with a metric structure.
 
-目标变量是响应 $R$，例如点击、转化或后点击转化。
+The target variable is the response $R$, e.g., click, conversion, or post-click conversion.
 
-**记号**。全文用 $n$ 表示序列长度，$m$ 表示类别特征域个数，$q$ 表示连续上下文变量个数。
+**Notation**. Throughout the paper, $n$ denotes sequence length, $m$ denotes the number of categorical feature domains, and $q$ denotes the number of continuous context variables.
 
-### 三个隐含假设
+### Three Implicit Assumptions
 
-占主导地位的分离式流水线由以下假设支撑。
+The dominant separated pipeline is underpinned by the following assumptions.
 
-> **假设**（早期压缩是充分的）
+> **Assumption** (Early compression is sufficient)
 >
-> 存在低维摘要 $h_S = g(S)$，使得在跨源交互之前用 $h_S$ 替换 $S$ 对联合 $\mathcal{F},\mathcal{C}$ 预测 $R$ 的任务相关信息损失可忽略。
+> There exists a low-dimensional summary $h_S = g(S)$ such that replacing $S$ with $h_S$ before cross-source interaction incurs negligible task-relevant information loss for jointly predicting $R$ from $\mathcal{F},\mathcal{C}$.
 
-> **假设**（交互可以推迟）
+> **Assumption** (Interaction can be deferred)
 >
-> 大部分序列事件与域式特征之间的有用交互无需在序列压缩之前发生。
+> Most useful interactions between sequential events and domain-style features do not need to occur before sequence compression.
 
-> **假设**（分支可以准独立优化）
+> **Assumption** (Branches can be quasi-independently optimized)
 >
-> 序列编码器与特征交互模块可以基本独立地设计与优化，仅需浅层下游融合。
+> The sequence encoder and feature interaction module can be largely independently designed and optimized, requiring only shallow downstream fusion.
 
-这些假设在历史变长、辅助信息变丰富时日益脆弱。问题不在于压缩可能抽象地损失信息，更具体的问题是，序列事件的相关性往往取决于当前特征上下文。一旦交互被推迟到序列压缩之后，事件级条件化可能就无法恢复。
+These assumptions become increasingly fragile as history grows longer and auxiliary information grows richer. The concern is not that compression may abstractly lose information; more specifically, the relevance of sequence events often depends on the current feature context. Once interactions are deferred until after sequence compression, event-level conditioning may become irrecoverable.
 
-### 为何早期压缩在结构上代价高昂
+### Why Early Compression Is Structurally Costly
 
-设 $H_t$ 表示 $t$ 时刻可用的历史，$X_t$ 表示预测时可用的非序列特征。一个分离系统通常计算 $Z_t = g(H_t)$ 并从 $(Z_t, X_t)$ 预测 $R$。
+Let $H_t$ denote the history available at time $t$, and $X_t$ denote the non-sequential features available at prediction time. A separated system typically computes $Z_t = g(H_t)$ and predicts $R$ from $(Z_t, X_t)$.
 
-> **命题**（条件数据处理不等式）
+> **Proposition** (Conditional data processing inequality)
 >
-> 对任意确定性压缩器 $g$， $$ I(g(H_t);R\mid X_t) \leq I(H_t;R\mid X_t). $$ 等价地， $$ I(g(H_t),X_t;R) \leq I(H_t,X_t;R). $$
+> For any deterministic compressor $g$, $$ I(g(H_t);R\mid X_t) \leq I(H_t;R\mid X_t). $$ Equivalently, $$ I(g(H_t),X_t;R) \leq I(H_t,X_t;R). $$
 
-> **证明**
+> **Proof**
 >
-> 由于 $g(H_t)$ 是 $H_t$ 的可测函数，变量构成马尔可夫链 $R \leftrightarrow (H_t,X_t) \leftrightarrow (g(H_t),X_t)$。结论直接由数据处理不等式得出。
+> Since $g(H_t)$ is a measurable function of $H_t$, the variables form a Markov chain $R \leftrightarrow (H_t,X_t) \leftrightarrow (g(H_t),X_t)$. The conclusion follows directly from the data processing inequality.
 
-> **命题**（早期压缩下的贝叶斯误差下界）
+> **Proposition** (Bayes error lower bound under early compression)
 >
-> 设 $R$ 取值于有限标签集 $\mathcal{R}$。记 $P_e(g)$ 为限制在 $(g(H_t),X_t)$ 上的任意预测器的贝叶斯误差。则 $$ P_e(g) \ge \frac{H(R\mid g(H_t),X_t)-1}{\log|\mathcal{R}|} = \frac{H(R\mid X_t) - I(g(H_t);R\mid X_t) - 1}{\log|\mathcal{R}|}. $$
+> Let $R$ take values in a finite label set $\mathcal{R}$. Denote by $P_e(g)$ the Bayes error of any predictor restricted to $(g(H_t),X_t)$. Then $$ P_e(g) \ge \frac{H(R\mid g(H_t),X_t)-1}{\log|\mathcal{R}|} = \frac{H(R\mid X_t) - I(g(H_t);R\mid X_t) - 1}{\log|\mathcal{R}|}. $$
 
-> **证明**
+> **Proof**
 >
-> 这是对表示对 $(g(H_t),X_t)$ 直接应用 Fano 不等式的结果。
+> This is a direct application of Fano's inequality to the representation pair $(g(H_t),X_t)$.
 
-命题 3.4 与 3.5 形式化了本报告的核心关切：若响应依赖于那些只有与辅助信息结合才显露出相关性的历史细节，则早期压缩引入了一个结构性信息瓶颈。UniRec 通过将压缩延迟到充分的跨源交互发生之后来解决这一问题。
+Propositions 3.4 and 3.5 formalize the core concern of this report: if the response depends on historical details that only reveal their relevance when combined with auxiliary information, then early compression introduces a structural information bottleneck. UniRec addresses this by delaying compression until sufficient cross-source interaction has occurred.
 
-## UniRec：源于第一性原理的统一推荐
+## UniRec: Unified Recommendation from First Principles
 
-UniRec 围绕四个组件构建：结构保持令牌化、混合掩码注意力、渐进压缩与持续更新。架构如图 1 所示。
+UniRec is built around four components: structure-preserving tokenization, mixed-mask attention, progressive compression, and continuous updating. The architecture is shown in Figure 1.
 
-### 概览
+### Overview
 
-给定 $(S,\mathcal{F},\mathcal{C})$,UniRec 首先将所有输入类型映射到公共空间 $\mathbb{R}^d$，然后应用堆叠的同质 UniBlock 及结构化的混合注意力掩码，仅对序列部分随深度渐进压缩，最终产生任务特定的表示用于预测。当启用动态模块时，当前用户状态作为一个额外的特征侧令牌在统一交互之前加入。
+Given $(S,\mathcal{F},\mathcal{C})$, UniRec first maps all input types to a common space $\mathbb{R}^d$, then applies stacked homogeneous UniBlocks with structured mixed attention masks, progressively compressing only the sequence portion across depth, and finally producing task-specific representations for prediction. When the dynamic module is enabled, the current user state is inserted as an additional feature-side token prior to unified interaction.
 
-### 结构保持令牌化
+### Structure-Preserving Tokenization
 
-我们定义三个映射到公共嵌入空间 $\mathbb{R}^d$：
+We define three mappings to the common embedding space $\mathbb{R}^d$:
 
 $$
 \Phi_S: S \to \mathbb{R}^d,\quad \Phi_F: \mathcal{F} \to \mathbb{R}^d,\quad \Phi_C: \mathcal{C} \to \mathbb{R}^d.
 $$
 
-**序列令牌**。对于第 $i$ 个事件 $s_i$，定义
+**Sequence tokens**. For the $i$-th event $s_i$, define
 
 $$
 \Phi_S(s_i) = \text{Embed}(item_i) + \text{Embed}(action_i) + \text{Pool}(content_i) + \text{TimeEncoding}(t_i). (4.1)
 $$
 
-时间编码需在弱但操作上有意义的层面上保持先后顺序，即事件间的序关系在嵌入空间中可区分。
+Time encoding must preserve temporal ordering at a weak but operationally meaningful level, i.e., the ordering relation between events should be distinguishable in the embedding space.
 
-**特征令牌**。对于域-值对 $f_j = (\text{field}_j, \text{value}_j)$，定义
+**Feature tokens**. For the domain-value pair $f_j = (\text{field}_j, \text{value}_j)$, define
 
 $$
 \Phi_F(f_j) = \text{FieldEmbed}(\text{field}_j, \text{value}_j). (4.2)
 $$
 
-由于特征集是无序的，对该子集的下游操作应当关于列表顺序具有置换不变性或置换等变性。
+Since the feature set is unordered, downstream operations on this subset should be permutation-invariant or permutation-equivariant with respect to list order.
 
-**上下文令牌**。对于连续标量或向量 $c \in \mathcal{C}$，定义
+**Context tokens**. For a continuous scalar or vector $c \in \mathcal{C}$, define
 
 $$
 \Phi_C(c) = \sigma(W_c c + b_c), (4.3)
 $$
 
-其中 $\sigma$ 为 Lipschitz 连续的非线性函数，例如 GELU 或 SiLU.
+where $\sigma$ is a Lipschitz-continuous nonlinear function, e.g., GELU or SiLU.
 
-**统一令牌顺序**。令牌序列排列为
+**Unified token order**. The token sequence is arranged as
 
 $$
 [S_1,\ldots,S_n, F_1,\ldots,F_m, C_1,\ldots,C_q].
 $$
 
-当启用持续更新时，当前用户状态 $u_t$ 作为一个额外的特征侧令牌插入。添加源类型嵌入，以便源信息在投影到公共空间后仍被保留。
+When continuous updating is enabled, the current user state $u_t$ is inserted as an additional feature-side token. Source-type embeddings are added so that source information is preserved after projection to the common space.
 
-### 混合掩码注意力
+### Mixed-Mask Attention
 
-令
+Let
 
 $$
 \mathbf{Z}^{(l)} = [\Phi_S(s_i); \Phi_F(f_j); \Phi_C(c_k)] \in \mathbb{R}^{L \times d},
 $$
 
-其中 $L = n+m+q$（若存在用户状态令牌则为 $n+m+q+1$）。在层 $l$,UniRec 应用
+where $L = n+m+q$ (or $n+m+q+1$ if a user state token is present). At layer $l$, UniRec applies
 
 $$
 \mathbf{Z}^{(l+1)} = \text{Softmax}\left(\frac{(\mathbf{Z}^{(l)}\mathbf{W}_Q)(\mathbf{Z}^{(l)}\mathbf{W}_K)^\top}{\sqrt{d_h}} + \mathbf{M}\right)\mathbf{Z}^{(l)}\mathbf{W}_V. (4.4)
 $$
 
-掩码为
+The mask is
 
 $$
 \mathbf{M} =
@@ -204,43 +204,43 @@ $$
 . (4.5)
 $$
 
-其四个区块编码了源感知的可见性：
+Its four blocks encode source-aware visibility:
 
-- $\mathbf{M}_{SS}$ 是因果的，故序列令牌 $i$ 只能关注 $j \le i$ 的位置；
-- $\mathbf{M}_{FF}$ 完全开放，故特征与上下文令牌密集连接；
-- $\mathbf{M}_{FS}$ 完全开放，故特征侧令牌可以读取整个序列；
-- $\mathbf{M}_{SF}$ 选择性开放，使得序列令牌可以访问上下文安全或用户侧信息，而不引入目标泄露。图 2 展示了区块结构。
+- $\mathbf{M}_{SS}$ is causal, so sequence token $i$ can only attend to positions $j \le i$;
+- $\mathbf{M}_{FF}$ is fully open, so feature and context tokens are densely connected;
+- $\mathbf{M}_{FS}$ is fully open, so feature-side tokens can read the entire sequence;
+- $\mathbf{M}_{SF}$ is selectively open, allowing sequence tokens to access context-safe or user-side information without introducing target leakage. Figure 2 illustrates the block structure.
 
-### 渐进压缩
+### Progressive Compression
 
-为控制长序列成本,UniRec 渐进地压缩序列块，而非在输入处压缩。设 $\mathbf{S} \in \mathbb{R}^{n \times d}$ 为当前序列表示。引入可学习查询
+To control the cost of long sequences, UniRec progressively compresses sequence blocks rather than compressing at the input. Let $\mathbf{S} \in \mathbb{R}^{n \times d}$ be the current sequence representation. Introduce learnable queries
 
 $$
 Q_c \in \mathbb{R}^{k \times d}
 $$
 
-并定义
+and define
 
 $$
 \text{Compress}(\mathbf{S}) = \text{Softmax}\left(\frac{Q_c \mathbf{S}^\top}{\sqrt{d}}\right)\mathbf{S}. (4.6)
 $$
 
-由于压缩仅在若干轮统一交互之后应用，所得的令牌不仅编码历史本身，而且编码了已经过侧信息条件化的历史。
+Since compression is applied only after several rounds of unified interaction, the resulting tokens encode not only the history itself, but the history already conditioned on side information.
 
-一个代表性的 8 层调度如下：
+A representative 8-layer schedule is as follows:
 
-| **层数** | **序列分辨率** |
+| **Layer** | **Sequence Resolution** |
 | --- | --- |
 | 1-2 | $n$ |
 | 3-4 | $n/2$ |
 | 5-6 | $n/4$ |
 | 7-8 | $n/8$ |
 
-精确调度将在实证配套研究中作为可调工程变量处理。
+The precise schedule will be treated as a tunable engineering variable in the empirical companion study.
 
-### 基于 GRU 用户状态的持续更新
+### Continuous Updating via GRU-Based User State
 
-设 $u_t \in \mathbb{R}^d$ 表示紧邻交互 $t$ 之前的用户状态，$e_t \in \mathbb{R}^d$ 表示从当前统一模型中提取的交互嵌入。定义
+Let $u_t \in \mathbb{R}^d$ denote the user state just prior to interaction $t$, and $e_t \in \mathbb{R}^d$ denote the interaction embedding extracted from the current unified model. Define
 
 $$
 
@@ -257,179 +257,179 @@ $$
 (4.10)
 $$
 
-在下一次交互时，$u_{t+1}$ 被嵌入为一个额外的特征侧令牌，并重新插入统一骨干。由此，未来预测依赖于内部状态更新的轨迹，而非单一的冻结摘要。
+At the next interaction, $u_{t+1}$ is embedded as an additional feature-side token and reinserted into the unified backbone. Thus, future predictions depend on the trajectory of internal state updates, rather than a single frozen summary.
 
-## 结构与几何设计理由
+## Structural and Geometric Design Rationale
 
-本节旨在提供解释性而非公理化的论述。这里使用的结构性词汇是适度的，其目的在于阐明为何有序序列与无序特征集不应过早被压平为单一无类型列表。
+This section aims to provide an explanatory rather than axiomatic discussion. The structural vocabulary employed here is modest, its purpose being to clarify why ordered sequences and unordered feature sets should not be prematurely flattened into a single untyped list.
 
-### 结构性视角
+### Structural Perspective
 
-我们将输入源建模为两个范畴。设 Seq 为序列位置构成的偏序范畴，其中态射编码时间先后。设 Ftr 为特征域构成的离散范畴。异构输入域因此更应被理解为余积
+We model input sources as two categories. Let Seq be the partially ordered category of sequence positions, where morphisms encode temporal precedence. Let Ftr be the discrete category of feature domains. The heterogeneous input domain should therefore be understood as a coproduct
 
 $$
 \mathbf{Seq} \oplus \mathbf{Ftr}
 $$
 
-而非单一无区别的列表。映射
+rather than a single undifferentiated list. The mapping
 
 $$
 \Phi: \mathbf{Seq} \oplus \mathbf{Ftr} \to \mathbf{Vec}
 $$
 
-可赋予函子性解读。
+admits a functorial interpretation.
 
-> **命题**（令牌化的函子性解读）
+> **Proposition** (Functorial interpretation of tokenization)
 >
-> 在 4.2 节的令牌化规则下,UniRec 在统一交互之前保持了顺序敏感的序列结构与顺序不敏感的特征结构之间的区分。
+> Under the tokenization rules of Section 4.2, UniRec preserves the distinction between order-sensitive sequence structure and order-insensitive feature structure prior to unified interaction.
 
-**设计直觉**。在序列侧，顺序通过时间编码显式表示。在特征侧，内在顺序的缺失通过域感知嵌入以及对待域顺序的置换不敏感性来尊重。这里的要点并非声称一个深刻的范畴论定理，而是说明为何源感知令牌化比简单拼接更具原则性。
+**Design intuition**. On the sequence side, ordering is explicitly represented through time encoding. On the feature side, the absence of intrinsic ordering is respected through domain-aware embeddings and permutation insensitivity with respect to domain order. The point here is not to claim a profound category-theoretic theorem, but to explain why source-aware tokenization is more principled than simple concatenation.
 
-### 几何视角
+### Geometric Perspective
 
-Transformer 定义了一个庞大的函数类。在该类中，优化可能收敛到退化解，它们拟合标签却丢弃了有意义的源结构。UniRec 背后的几何直觉是：混合掩码与延迟压缩充当归纳约束，降低了这种退化的风险。因果掩码保持了时间可容许性；特征到序列的开放注意力允许侧信息条件化事件级相关性；延迟压缩防止模型在条件化发生之前坍缩序列。在这个意义上，“先统一，后压缩”并非一句启发式口号，而是一项具体的架构纪律。更完整的形式化评注留待附录 A.
+Transformers define a vast function class. Within this class, optimization may converge to degenerate solutions that fit labels yet discard meaningful source structure. The geometric intuition behind UniRec is that mixed masking and delayed compression serve as inductive constraints, reducing the risk of such degeneration. Causal masking preserves temporal admissibility; open feature-to-sequence attention allows side information to condition event-level relevance; delayed compression prevents the model from collapsing the sequence before conditioning has occurred. In this sense, "unify first, then compress" is not merely a heuristic slogan, but a concrete architectural discipline. A more complete formal commentary is reserved for Appendix A.
 
-## 信息论基础
+## Information-Theoretic Foundation
 
-令 $H_t$ 表示可用历史，$X_t$ 表示侧信息，$R$ 表示响应。令 $\Phi(H_t \oplus X_t)$ 表示统一表示，而 $g(H_t)$ 与 $h(X_t)$ 表示分离流水线中使用的任意确定性压缩器。
+Let $H_t$ denote available history, $X_t$ denote side information, and $R$ denote the response. Let $\Phi(H_t \oplus X_t)$ denote the unified representation, and $g(H_t)$ and $h(X_t)$ denote arbitrary deterministic compressors used in a separated pipeline.
 
-> **定理**（近单射统一表示界）
+> **Theorem** (Near-injective unified representation bound)
 >
-> 假设统一映射 $\Phi$ 在 $(H_t,X_t)$ 的支撑集上是近单射的，即 $$ H(H_t,X_t \mid \Phi(H_t \oplus X_t)) \le \epsilon. $$ 则 $$ I(\Phi(H_t \oplus X_t); R) \ge I(H_t,X_t; R) - \epsilon. (6.1) $$
+> Suppose the unified mapping $\Phi$ is near-injective on the support of $(H_t,X_t)$, i.e., $$ H(H_t,X_t \mid \Phi(H_t \oplus X_t)) \le \epsilon. $$ Then $$ I(\Phi(H_t \oplus X_t); R) \ge I(H_t,X_t; R) - \epsilon. (6.1) $$
 
-> **证明**
+> **Proof**
 >
-> 由于 $\Phi(H_t \oplus X_t)$ 是 $(H_t,X_t)$ 的确定性函数，有 $$ I(H_t,X_t,\Phi(H_t \oplus X_t); R) = I(H_t,X_t; R). $$ 由链式法则， $$ I(H_t,X_t; R) = I(\Phi(H_t \oplus X_t); R) + I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)). $$ 因此 $$ I(\Phi(H_t \oplus X_t); R) = I(H_t,X_t; R) - I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)). $$ 最后， $$ I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)) \le H(H_t,X_t \mid \Phi(H_t \oplus X_t)) \le \epsilon. $$
+> Since $\Phi(H_t \oplus X_t)$ is a deterministic function of $(H_t,X_t)$, we have $$ I(H_t,X_t,\Phi(H_t \oplus X_t); R) = I(H_t,X_t; R). $$ By the chain rule, $$ I(H_t,X_t; R) = I(\Phi(H_t \oplus X_t); R) + I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)). $$ Therefore $$ I(\Phi(H_t \oplus X_t); R) = I(H_t,X_t; R) - I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)). $$ Finally, $$ I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)) \le H(H_t,X_t \mid \Phi(H_t \oplus X_t)) \le \epsilon. $$
 
-> **推论**（统一表示在 $\epsilon$ 内支配分离压缩）
+> **Corollary** (Unified representation dominates separated compression within $\epsilon$)
 >
-> 对任意确定性压缩器 $g,h$， $$ I(\Phi(H_t \oplus X_t); R) \ge I(g(H_t),h(X_t); R) - \epsilon. (6.2) $$
+> For any deterministic compressors $g,h$, $$ I(\Phi(H_t \oplus X_t); R) \ge I(g(H_t),h(X_t); R) - \epsilon. (6.2) $$
 
-> **证明**
+> **Proof**
 >
-> 由命题 3.4,联合确定性压缩不会增加任务相关信息： $$ I(g(H_t),h(X_t); R) \le I(H_t,X_t; R). $$ 结合定理 6.1 即得结果。
+> By Proposition 3.4, joint deterministic compression does not increase task-relevant information: $$ I(g(H_t),h(X_t); R) \le I(H_t,X_t; R). $$ Combining with Theorem 6.1 yields the result.
 
-**解释**。定理 6.1 与推论 6.2 并非说任何名义上的统一模型都自动优于任何分离模型。它们表达了一个更基础的观点：如果一个统一表示近似保持联合输入结构，则其与响应的可用互信息在 $\epsilon$ 碰撞项内不低于任何确定性压缩分离表示的互信息。因此，早期压缩默认是有损的；延迟压缩只有在充分的联合条件化之后才变得可辩护。
+**Interpretation**. Theorem 6.1 and Corollary 6.2 do not say that any nominally unified model automatically outperforms any separated model. They express a more fundamental point: if a unified representation approximately preserves joint input structure, then its available mutual information with the response is, within an $\epsilon$ collision term, no less than that of any deterministically compressed separated representation. Thus, early compression is lossy by default; delayed compression becomes defensible only after sufficient joint conditioning.
 
-> **定义**（替代距离）
+> **Definition** (Surrogate distance)
 >
-> 设 $f_{\text{dyn}}$ 是一个动态预测器，它随时间更新内部用户状态，$\mathcal{H}_{\text{stat}}$ 是一类静态预测器。对于时间范围 $T$ 与损失 $\ell$，定义 $$ D_T(f_{\text{dyn}}, \mathcal{H}_{\text{stat}}) = \inf_{h \in \mathcal{H}_{\text{stat}}} \mathbb{E}\left[ \frac{1}{T} \sum_{t=1}^{T} \ell\bigl(f_{\text{dyn}}(x_{\le t}), h(x_{\le t})\bigr) \right]. (6.3) $$ 该量并非为了闭式计算，而是为未来工程实验提供一个清晰目标：在匹配参数预算下近似最佳静态替代，并测量其在交互范围内模仿轨迹依赖模型的程度。
+> Let $f_{\text{dyn}}$ be a dynamic predictor that updates its internal user state over time, and $\mathcal{H}_{\text{stat}}$ be a class of static predictors. For time horizon $T$ and loss $\ell$, define $$ D_T(f_{\text{dyn}}, \mathcal{H}_{\text{stat}}) = \inf_{h \in \mathcal{H}_{\text{stat}}} \mathbb{E}\left[ \frac{1}{T} \sum_{t=1}^{T} \ell\bigl(f_{\text{dyn}}(x_{\le t}), h(x_{\le t})\bigr) \right]. (6.3) $$ This quantity is not intended for closed-form computation, but rather to provide a clear objective for future engineering experiments: approximate the best static surrogate under matched parameter budgets, and measure how well it mimics the trajectory-dependent model over the interaction range.
 
-证明细节总结于附录 B.
+Proof details are summarized in Appendix B.
 
 }
 
 | l} |  |  |
 | --- | --- | --- |
-| **研究** | **假设/读出的结论** | **状态** |
-| 非对角线注意力消融 | 完整 UniRec 应优于 $A_{FS}=0$、$A_{SF}=0$ 或两者均禁用的变体，从而检验显式序列-特征交互是否具有实质性作用 | 协议固定 |
-| 压缩时机 | 在同等计算量下，延迟压缩应优于早期压缩，从而直接检验核心架构原则 | 协议固定 |
-| 动态更新消融 | GRU 更新的 UniRec 应在长时程指标上超越静态 UniRec,并相对于冻结用户摘要增加替代距离 | 协议固定 |
-| 扩展性研究 | 统一建模在模型规模、数据规模与历史长度上的收益应强于强分离基线 | 计划中 |
-| 延迟与内存 | 渐进压缩应在保留统一交互大部分收益的同时提升成本效率 | 协议固定 |
-| 定性分析 | 注意力图与用户状态轨迹应展示有意义的事件选择与偏好漂移 | 计划中 |
+| **Study** | **Assumption/Conclusion to be read out** | **Status** |
+| Off-diagonal attention ablation | Full UniRec should outperform variants with $A_{FS}=0$, $A_{SF}=0$, or both disabled, thereby testing whether explicit sequence-feature interaction has substantive effect | Protocol fixed |
+| Compression timing | Under matched computation, delayed compression should outperform early compression, directly testing the core architectural principle | Protocol fixed |
+| Dynamic update ablation | GRU-updated UniRec should surpass static UniRec on long-horizon metrics, and increase surrogate distance relative to frozen user summaries | Protocol fixed |
+| Scaling study | Unified modeling gains over model scale, data scale, and history length should surpass strong separated baselines | Planned |
+| Latency and memory | Progressive compression should improve cost efficiency while retaining most of the unified interaction benefit | Protocol fixed |
+| Qualitative analysis | Attention maps and user state trajectories should exhibit meaningful event selection and preference drift | Planned |
 
-## 挑战对齐、经验协议与工程议程
+## Challenge Alignment, Empirical Protocols, and Engineering Agenda
 
-本文档有意作为理论奠基技术报告。其目的是将架构假设、形式化保证与评估标准陈述得足够清晰，使后续工程研究能够对其进行证伪。
+This document is intentionally a theoretical foundational technical report. Its purpose is to state architectural hypotheses, formal guarantees, and evaluation standards with sufficient clarity that subsequent engineering research can falsify them.
 
-**挑战设定**。预期下游评估环境是“面向大规模推荐的序列建模与特征交互统一化”挑战。主要预测目标是 CVR,提交按单一 ROC-AUC 指标排名。除排行榜位置外，研讨会也明确重视统一模块创新与扩展规律分析。本报告的理论优先取向正是为了契合这一精神：先固定结构假设，使后续实证结果能被解释为支持或反对某一原则性架构主张的证据。
+**Challenge setting**. The anticipated downstream evaluation environment is the "Unifying Sequence Modeling and Feature Interaction for Large-Scale Recommendation" challenge. The primary prediction target is CVR, and submissions are ranked by a single ROC-AUC metric. Beyond leaderboard position, the workshop also explicitly values unified module innovation and scaling law analysis. This report's theory-first orientation is precisely to align with this spirit: first fix structural hypotheses, so that subsequent empirical results can be interpreted as evidence supporting or opposing a principled architectural claim.
 
-### 主要经验问题
+### Principal Empirical Questions
 
-未来的实证修订版将围绕一组直接问题组织。
+The future empirical revision will be organized around a set of direct questions.
 
-### 公平基线政策
+### Fair Baseline Policy
 
-为提前应对公平性问题，比较政策在此处而非结果出来后固定。
+To preempt fairness concerns, comparison policies are fixed here rather than after results are obtained.
 
-**超参数政策**。所有模型将在相同的搜索空间内调优：学习率 $\{10^{-4}, 3\times10^{-4}, 10^{-3}\}$,dropout $\{0.1,0.2,0.3\}$，匹配的隐藏宽度档次，以及基于验证 AUC 的早停。
+**Hyperparameter policy**. All models will be tuned within the same search space: learning rate $\{10^{-4}, 3\times10^{-4}, 10^{-3}\}$, dropout $\{0.1,0.2,0.3\}$, matched hidden width tiers, and early stopping based on validation AUC.
 
-**预算政策**。所有模型将在匹配的有效批量大小、匹配的最大更新次数以及可行的匹配参数档次下进行比较。硬件配置与时钟预算将在实证配套修订版中披露。
+**Budget policy**. All models will be compared under matched effective batch size, matched maximum update count, and feasible matched parameter tiers. Hardware configuration and clock budgets will be disclosed in the empirical companion revision.
 
 }
 
 | p{5cm}} |  |  |
 | --- | --- | --- |
-| **模型** | **实现来源** | **公平性规则** |
-| Deep Crossing | 内部 PyTorch 重实现 | 无事件级序列编码器；仅非序列域；匹配调优网格与最大更新 |
-| DeepFM / xDeepFM | 内部 PyTorch 重实现 | 无显式长序列建模的特征交互基线；匹配参数档次与优化预算 |
-| AutoInt | 内部 PyTorch 重实现 | 无事件级序列分支的自注意力特征交互基线；匹配调优网格与有效批量大小 |
-| SASRec + DCNv2 | 内部 PyTorch 重实现 | SASRec 将历史压缩为一个向量，然后与 DCNv2 融合；匹配参数档次与优化预算 |
-| UniRec | 参考实现 | 渐进压缩前的统一交互；可选循环用户状态；与最强基线档次相同预算 |
+| **Model** | **Implementation Source** | **Fairness Rule** |
+| Deep Crossing | Internal PyTorch reimplementation | No event-level sequence encoder; only non-sequential domains; matched tuning grid and maximum updates |
+| DeepFM / xDeepFM | Internal PyTorch reimplementation | Feature interaction baseline without explicit long-sequence modeling; matched parameter tier and optimization budget |
+| AutoInt | Internal PyTorch reimplementation | Self-attention feature interaction baseline without event-level sequence branch; matched tuning grid and effective batch size |
+| SASRec + DCNv2 | Internal PyTorch reimplementation | SASRec compresses history into one vector, then fused with DCNv2; matched parameter tier and optimization budget |
+| UniRec | Reference implementation | Unified interaction before progressive compression; optional recurrent user state; same budget as the strongest baseline tier |
 
-### 工程发布计划
+### Engineering Release Plan
 
-实证配套修订版将在政策和许可允许范围内发布：
+The empirical companion revision will release, within policy and licensing allowances:
 
-- 合法的确切数据预处理细节；
-- 模型超参数、随机种子与硬件配置；
-- 交互块、压缩时机与动态更新的消融表；
-- 参数、数据比例与序列长度上的扩展曲线；
-- 延迟与内存剖面；
-- 允许公开的代码与实验脚本。
+- Legitimate exact data preprocessing details;
+- Model hyperparameters, random seeds, and hardware configuration;
+- Ablation tables for interaction blocks, compression timing, and dynamic updating;
+- Scaling curves over parameters, data scale, and sequence length;
+- Latency and memory profiles;
+- Code and experiment scripts permissible for public release.
 
-因此，本报告应被解读为一份存档理论文档，它固定了后续工程工作必须验证的内容，而非一份已完成基准测试的论文。
+Therefore, this report should be read as an archival theoretical document that fixes what subsequent engineering work must verify, rather than as a paper with completed benchmarks.
 
-## 讨论
+## Discussion
 
-本报告提出了一个关于推荐架构的特定主张：序列建模与特征交互之间的长期分离不仅是工程便利，更是一个带有隐含假设的建模选择。一旦这些假设被显式陈述，标准的“编码再交互”流水线就变得容易受到直接的理论批评。
+This report advances a specific claim about recommendation architecture: the long-standing separation between sequence modeling and feature interaction is not merely engineering convenience, but a modeling choice carrying implicit assumptions. Once these assumptions are explicitly stated, the standard "encode-then-interact" pipeline becomes vulnerable to direct theoretical criticism.
 
-第一个启示是方法论上的。如果历史事件的相关性取决于当前特征上下文，那么事件级交互就不能总是被推迟到序列压缩之后。在这种情况下，非对角线注意力并非修饰性改进，而是潜在统计依赖性的操作对应物。
+The first implication is methodological. If the relevance of historical events depends on the current feature context, then event-level interaction cannot always be deferred until after sequence compression. In such cases, off-diagonal attention is not a cosmetic improvement, but the operational counterpart of underlying statistical dependencies.
 
-第二个启示是架构上的。统一设计并不意味着无差别的处处交互，而是指异构输入共享一个骨干，同时保留源感知约束。在 UniRec 中，结构性视角激励了共享交互前的独立源映射，而几何视角激励了混合掩码与延迟压缩作为优化路径上的正则器。
+The second implication is architectural. Unified design does not mean undifferentiated everywhere-interaction, but rather that heterogeneous inputs share a backbone while preserving source-aware constraints. In UniRec, the structural perspective motivates independent source mappings prior to shared interaction, while the geometric perspective motivates mixed masking and delayed compression as regularizers along the optimization path.
 
-第三个启示是概念上的。静态推荐模型，即使是大型模型，在结构上仍不同于那些内部用户状态随时间不可逆变化的模型。我们并不主张状态更新足以实现任何强意义上的智能或理解。更狭窄的主张是：一旦未来预测依赖于内部更新轨迹，用冻结查找表替换该模型就成为一个不同的、可经验检验的逼近问题。这正是替代距离所要捕捉的。
+The third implication is conceptual. Static recommendation models, even large ones, are structurally distinct from models whose internal user state changes irreversibly over time. We do not claim that state updating suffices for intelligence or understanding in any strong sense. The narrower claim is: once future predictions depend on an internal update trajectory, replacing that model with a frozen lookup table becomes a different, empirically testable approximation problem. This is precisely what the surrogate distance captures.
 
-本报告也有明显局限。首先，它刻意采取理论优先，尚未提供充分实证验证。其次，基于 GRU 的动态模块增加了系统复杂性，可能在生产中需要细致工程。第三，结构与几何论证是解释性框架，而非智能行为的完整形式化。它们在本文中的角色是为架构设计提供纪律，而非替代证据。
+This report also has notable limitations. First, it deliberately takes a theory-first approach and has not yet provided full empirical validation. Second, the GRU-based dynamic module adds system complexity and may require careful engineering in production. Third, the structural and geometric arguments are explanatory frameworks, not complete formalizations of intelligent behavior. Their role in this paper is to provide discipline for architectural design, not to substitute for evidence.
 
-## 结论
+## Conclusion
 
-我们提出了 UniRec,一个以“先统一，后压缩”为核心原则的大规模推荐统一架构。本报告的核心论点是：分离式推荐流水线依赖于三个隐含假设——早期压缩的充分性、交互的可推迟性以及序列与特征分支的准独立优化。我们说明了为何这些假设在历史变长、辅助信息变丰富时日益脆弱。
+We have proposed UniRec, a unified architecture for large-scale recommendation centered on the core principle of "unify first, then compress." The central argument of this report is: separated recommendation pipelines rest on three implicit assumptions—the sufficiency of early compression, the deferrability of interaction, and the quasi-independent optimization of sequence and feature branches. We have explained why these assumptions become increasingly fragile as history grows longer and auxiliary information grows richer.
 
-UniRec 的技术贡献并非孤立组件，而是一个连贯的架构原则。结构保持令牌化在统一交互前保持源差异显式化。混合掩码注意力在不牺牲因果可容许性的前提下实现受控的非对角线交互。渐进压缩将信息损失延迟到跨源条件化之后。一个具体的基于 GRU 的持续更新机制将模型从静态汇总扩展为轨迹依赖的用户状态演化。
+UniRec's technical contributions are not isolated components, but a coherent architectural principle. Structure-preserving tokenization keeps source differences explicit before unified interaction. Mixed-mask attention enables controlled off-diagonal interaction without sacrificing causal admissibility. Progressive compression defers information loss until after cross-source conditioning. A concrete GRU-based continuous update mechanism extends the model from static aggregation to trajectory-dependent user state evolution.
 
-本文档旨在作为挑战“面向大规模推荐的序列建模与特征交互统一化”后续工程工作的最终存档理论奠基报告。其目的是将概念承诺、形式保证与证伪标准陈述得足够清晰，使后续实验能在无歧义的情况下以此为准。完整实证结果、实现工件以及可披露的数据集统计信息将在配套修订版中呈现。
+This document is intended as the final archival theoretical foundational report for subsequent engineering work on the challenge "Unifying Sequence Modeling and Feature Interaction for Large-Scale Recommendation." Its purpose is to state conceptual commitments, formal guarantees, and falsification standards with sufficient clarity that subsequent experiments can refer to it without ambiguity. Complete empirical results, implementation artifacts, and permissible dataset statistics will be presented in a companion revision.
 
-## 附录
+## Appendix
 
-## 进一步结构评注
+## Further Structural Commentary
 
-令 Seq 为由序列顺序诱导的偏序范畴，对象为 $\{1,\ldots,n\}$，当 $i \le j$ 时存在态射 $i \to j$。令 Ftr 为离散范畴，其对象为特征域，唯一态射为恒等。余积
+Let Seq be the partially ordered category induced by sequence ordering, with objects $\{1,\ldots,n\}$ and a morphism $i \to j$ whenever $i \le j$. Let Ftr be the discrete category whose objects are feature domains, with only identity morphisms. The coproduct
 
 $$
 \mathbf{Seq} \oplus \mathbf{Ftr}
 $$
 
-在投影到 Vec 之前保留了时间先后与无序域结构之间的区分。一个更完整的形式化程序（留待未来工作）将刻画哪些架构替代能在令牌化与交互下保持相同的源侧不变量。本报告不要求那套更强的机器，其主张更为狭窄且架构性。
+preserves the distinction between temporal precedence and unordered domain structure prior to projection to Vec. A more complete formalization (reserved for future work) would characterize which architectural alternatives preserve the same source-side invariants under tokenization and interaction. This report does not require that stronger machinery; its claims are narrower and architectural.
 
-## 证明细节
+## Proof Details
 
-由于 $\Phi(H_t \oplus X_t)$ 是 $(H_t,X_t)$ 的确定性函数，
+Since $\Phi(H_t \oplus X_t)$ is a deterministic function of $(H_t,X_t)$,
 
 $$
 I(H_t,X_t,\Phi(H_t \oplus X_t); R) = I(H_t,X_t; R).
 $$
 
-应用链式法则得
+Applying the chain rule yields
 
 $$
 I(H_t,X_t; R) = I(\Phi(H_t \oplus X_t); R) + I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)).
 $$
 
-因此
+Therefore
 
 $$
 I(\Phi(H_t \oplus X_t); R) = I(H_t,X_t; R) - I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)).
 $$
 
-残差项由条件熵界定：
+The residual term is bounded by conditional entropy:
 
 $$
 I(H_t,X_t; R \mid \Phi(H_t \oplus X_t)) \le H(H_t,X_t \mid \Phi(H_t \oplus X_t)) \le \epsilon.
 $$
 
-## 参考文献
+## References
 
 - [shan2016deep] Y. Shan, T. R. Hoens, J. Jiao, H. Wang, D. Yu, and J. C. Mao. Deep crossing: Web-scale modeling without manually crafted combinatorial features. In *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, pages 255--262, 2016.
 - [cheng2016wide] H.-T. Cheng, L. Koc, J. Harmsen, et al. Wide & deep learning for recommender systems. *arXiv preprint arXiv:1606.07792*, 2016.
@@ -447,6 +447,6 @@ $$
 
 ---
 
-2026年3月27日
+March 27, 2026
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

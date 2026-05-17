@@ -1,5 +1,5 @@
 ---
-title: 关系动力学：一种关于人类连接随时间演化的数学与伦理架构
+title: "Relational Dynamics: A Mathematical and Ethical Architecture for the Evolution of Human Connections Over Time"
 date: '2026-02-13'
 category: Psychology
 tags:
@@ -7,286 +7,286 @@ tags:
   - mathematics
   - ethics
 description: >
-  关系动力学是关于人类连接模式随时间演化的元学科。它不是关系的静物画，而是关系的电影。它不提供“如何搞定人际关系”的技巧，而是揭示关系变化过程背后的数学结构、伦理约束与实现范式。
+  Relational Dynamics is a meta-discipline concerning the evolution of human connection patterns over time. It is not a still-life of relationships, but a film of relationships. It does not provide tips on "how to master interpersonal relationships," but reveals the mathematical structure, ethical constraints, and implementation paradigms behind the processes of relational change.
 ---
 
-**兼论友栖Philia的范式实验**
+**Also on the Paradigm Experiment of Youqi (友栖) Philia**
 
-良之
-2026年2月13日于云汐谷
-
----
-
-## 引子：特利尔来的年轻人
-
-1836年，波恩大学。
-
-一个18岁的年轻人从特利尔来到这里。他父亲是律师，希望他学法律，将来成为一名体面的法官或公务员。年轻人确实在读法律，但他的心不在这里。
-
-他更爱诗歌，爱哲学，爱深夜与人争论到天亮。
-
-更重要的是，他爱着一个姑娘。
-
-燕妮·冯·威斯特法伦，比他大四岁，是特利尔城最美的姑娘，出身贵族世家，追求者从莱茵河排到柏林。而卡尔·马克思，一个犹太律师的儿子，没有财产，没有名望，没有可以兑现的未来。
-
-所有人都说：这是不可能的。
-
-**1836年夏天，卡尔瞒着所有人，做了一件事。**
-
-他订了婚。
-
-不是求婚。订婚需要双方家长同意，需要财产证明，需要社会地位相称。他没有这些。
-
-他只是把自己能给出的全部——**一个承诺**——放进了燕妮的手心。
-
-然后他回到波恩，开始写诗。
-
-**整整三本诗集，全部献给同一个人。**
-
-燕妮。
-燕妮。
-燕妮。
-
-每一页，每一行，每一个标点。
-
-> *燕妮，*
-> *笑吧！你定会惊奇：*
-> *为何我的诗行*
-> *只有一个韵、一个主题？*
-> *仿佛有了你，一切才有了意义。*
-
-后来的人知道卡尔·马克思，是因为《共产党宣言》《资本论》、国际工人协会、全世界无产者联合起来。
-
-**但1836年，燕妮知道的卡尔，是一个在诗里写下“你的名字，每一个字母都像一颗燃烧的心”的年轻人。**
-
-———
-
-**他们等了七年。**
-
-七年间，马克思从波恩转到柏林，从法律转向哲学，从学生变成撰稿人，从普鲁士流亡到巴黎。
-
-七年间，燕妮瞒着家族，守着那个没有婚约的婚约，一封一封地回信。
-
-1843年6月19日，他们在克罗伊茨纳赫的温泉小镇结婚。
-
-**燕妮走进教堂的那一刻，马克思29岁，燕妮33岁。**
-
-从订婚到结婚，用了七年。
-
-从结婚到马克思去世，用了四十年。
-
-四十年里，他写下了改变世界的思想体系。
-
-**而她在他的每一部手稿里，都是第一个读者。**
-
-《资本论》第一卷出版时，马克思在序言里写道：
-
-> **“献给我的妻子，燕妮·冯·威斯特法伦。”**
-
-没有头衔，没有封号，没有“尊敬的爱人同志”。
-
-**只是她的名字。**
-
-———
-
-这个故事里，没有任何“关系管理”工具。
-
-没有提醒系统，没有亲密度算法，没有邓巴数圈层。
-
-**他们只用最笨的方法：写诗，写信，等。**
-
-等一封信从柏林到特利尔，再从特利尔回柏林，需要两周。
-
-等一场战争结束，等一份工作稳定，等家族终于松口，等了七年。
-
-**等死亡将他们分开，等了四十年。**
-
-———
-
-**关系动力学试图回答一个谦卑的问题：**
-
-这种“最笨的方法”，我们还记得吗?
-
-我们的通讯录里有几千人，却找不到一个可以写诗的人。
-
-我们的消息已读即回，却再也没有等过一封信。
-
-我们的关系被算法推荐、被标签分类、被KPI考核——
-
-**但我们还记得“燕妮，你的名字”吗？**
-
-———
-
-**关系动力学不提供“高效管理人际关系”的技巧。**
-
-它不教你如何三天内建立信任，如何让所有人喜欢你，如何把弱关系变现。
-
-**它只做一件事：**
-
-**把“燕妮”这个名字，从1836年，带到2026年。**
-
-带到你的手机里，你的通讯录里，你的第114514行代码里。
-
-**带到你下一次想说“我爱你”却不知如何开口的时刻。**
-
-———
-
-**人是社会关系的总和。**
-
-但社会关系不是数字、标签、算法预测。
-
-**社会关系是：**
-
-有人在1836年写下一首诗，等了七年，爱了四十年。
-
-有人在2026年写下十二个字，做了一个叫友栖的软件，把“组件可摘，实体永存”写进了架构。
-
-**这是同一种关系。**
-
-**这是同一种人。**
-
-———
-
-**关系动力学，从马克思和燕妮开始。**
-
-**也从你和你记得的每一个人开始。**
+Liangzhi (良之)
+February 13, 2026, at Yunxi Valley (云汐谷)
 
 ---
 
-## 绪论：为何需要一门新学科
+## Prologue: The Young Man from Trier
 
-马克斯·韦伯说过：人类是悬挂在意义之网上的动物，而这张网由关系织成。
+1836, University of Bonn.
 
-从部落的篝火到微信的群聊，从君臣父子到朋友粉丝，关系是人类最古老的命题，也是最沉重的债务。我们为爱赴汤蹈火，为恨耗尽余生，却在午夜翻开通讯录时发现：**那个曾经每天说话的人，已经三年没有消息了。**
+An 18-year-old young man arrived here from Trier. His father was a lawyer, hoping he would study law and become a respectable judge or civil servant. The young man was indeed studying law, but his heart was elsewhere.
 
-现代社会提供了前所未有的连接技术，却从未提供**理解连接本身如何随时间变化**的认知工具。
+He loved poetry more, loved philosophy, loved arguing with people into the dawn.
 
-我们把关系的演化扔给直觉、扔给鸡汤、扔给“缘分尽了”的叹息。我们像原始人仰望雷电那样仰望关系的聚散离合，却从未想过：**关系的变化是否也有自己的动力学方程？**
+More importantly, he loved a young woman.
 
-这门学科就是为了回答这个问题而创立。
+Jenny von Westphalen, four years his senior, was the most beautiful girl in Trier, born into a noble family, with suitors stretching from the Rhine to Berlin. And Karl Marx, the son of a Jewish lawyer, had no property, no reputation, no future he could cash in on.
 
-**关系动力学**(Relational Dynamics)是关于人类连接模式**随时间演化**的元学科。它不是关系的静物画，而是关系的电影。它不提供“如何搞定人际关系”的技巧，而是揭示关系**变化过程**背后的数学结构、伦理约束与实现范式。
+Everyone said: this is impossible.
 
-它的核心命题是：
+**In the summer of 1836, Karl, keeping it secret from everyone, did one thing.**
 
-> **关系不是属性，是态射。**
-> **关系不是资源，是生态。**
-> **关系不是占有的对象，是栖居的场所。**
-> **——而栖居，是时间中的绵延。**
+He became engaged.
 
-这门学科的第一次完整呈现，将伴随一个名为**友栖Philia**的软件原型共同诞生。这不是巧合——关系动力学的所有原理，都被编译进了友栖的每一行代码。
+Not a proposal. Engagement required consent from both families, proof of property, matching social status. He had none of these.
+
+He simply placed all he could give—**a promise**—into Jenny's palm.
+
+Then he returned to Bonn and began writing poetry.
+
+**Three entire volumes of poetry, all dedicated to the same person.**
+
+Jenny.
+Jenny.
+Jenny.
+
+Every page, every line, every punctuation mark.
+
+> *Jenny,*
+> *Laugh! You will surely wonder:*
+> *Why my lines of verse*
+> *Have only one rhyme, one theme?*
+> *As if with you, everything gained meaning.*
+
+Later generations know Karl Marx for *The Communist Manifesto*, *Capital*, the International Workingmen's Association, "Workers of the world, unite!"
+
+**But in 1836, the Karl Jenny knew was a young man who wrote in his poems "Your name, every letter is like a burning heart."**
+
+———
+
+**They waited seven years.**
+
+During those seven years, Marx transferred from Bonn to Berlin, from law to philosophy, from student to correspondent, exiled from Prussia to Paris.
+
+During those seven years, Jenny kept it secret from her family, holding fast to that engagement without a formal betrothal, replying letter after letter.
+
+On June 19, 1843, they married in the spa town of Bad Kreuznach.
+
+**At the moment Jenny walked into the church, Marx was 29, Jenny was 33.**
+
+From engagement to marriage: seven years.
+
+From marriage to Marx's death: forty years.
+
+Over those forty years, he wrote the system of thought that changed the world.
+
+**And in every manuscript of his, she was the first reader.**
+
+When the first volume of *Capital* was published, Marx wrote in the preface:
+
+> **"Dedicated to my wife, Jenny von Westphalen."**
+
+No title, no honorific, no "respected beloved comrade."
+
+**Just her name.**
+
+———
+
+In this story, there was no "relationship management" tool.
+
+No reminder system, no intimacy algorithm, no Dunbar-number circles.
+
+**They used only the most foolish method: writing poetry, writing letters, waiting.**
+
+Waiting for a letter to travel from Berlin to Trier, then back from Trier to Berlin, took two weeks.
+
+Waiting for a war to end, waiting for a job to stabilize, waiting for the family to finally relent—waiting seven years.
+
+**Waiting until death separated them—waiting forty years.**
+
+———
+
+**Relational Dynamics attempts to answer a humble question:**
+
+Do we still remember this "most foolish method"?
+
+Our contacts list holds thousands of people, yet we cannot find one person to write poetry for.
+
+Our messages are read and replied to instantly, yet we no longer wait for a letter.
+
+Our relationships are recommended by algorithms, categorized by tags, evaluated by KPIs—
+
+**But do we still remember "Jenny, your name"?**
+
+———
+
+**Relational Dynamics does not provide techniques for "efficiently managing interpersonal relationships."**
+
+It does not teach you how to establish trust in three days, how to make everyone like you, how to monetize weak ties.
+
+**It does only one thing:**
+
+**Bring the name "Jenny" from 1836 to 2026.**
+
+Bring it to your phone, to your contacts list, to your 114,514th line of code.
+
+**Bring it to that next moment when you want to say "I love you" but do not know how to begin.**
+
+———
+
+**Humans are the sum of social relations.**
+
+But social relations are not numbers, tags, algorithmic predictions.
+
+**Social relations are:**
+
+Someone writing a poem in 1836, waiting seven years, loving for forty years.
+
+Someone writing twelve characters in 2026, making a software called Youqi (友栖), embedding "components detachable, entities persist" into the architecture.
+
+**This is the same kind of relationship.**
+
+**This is the same kind of person.**
+
+———
+
+**Relational Dynamics begins with Marx and Jenny.**
+
+**It also begins with you and every person you remember.**
 
 ---
 
-## 第一章：哲学根基——十二字宪法
+## Introduction: Why a New Discipline Is Needed
 
-任何严肃的知识体系都必须回答元问题：**我们为什么相信这套框架是正当的？**
+Max Weber said: humans are animals suspended on a web of significance, and this web is woven from relationships.
 
-关系动力学的正当性来自四根立柱，它们既是伦理底线，也是架构约束。
+From tribal campfires to WeChat group chats, from ruler-subject-father-son to friends-and-followers, relationships are humanity's oldest proposition and heaviest debt. We would walk through fire for love, exhaust our remaining years for hate, yet discover at midnight flipping through our contacts: **that person we once spoke with every day has had no message for three years.**
 
-### 1.1 爱智慧：惊奇是认知的起点
+Modern society provides unprecedented technologies of connection, yet has never provided cognitive tools for **understanding how connection itself changes over time**.
 
-毕达哥拉斯自称“爱智者”而非“智者”，因为他知道智慧不是可占有的财产，而是永在途中的奔赴。苏格拉底说哲学始于惊奇——惊奇于世界居然如此，而非如彼。
+We toss relational evolution to intuition, to inspirational platitudes, to sighs of "fate has run its course." We gaze at the gathering and dispersal of relationships like primitives gazing at lightning, yet never wonder: **do relational changes have their own dynamical equations?**
 
-**关系动力学对“爱智慧”的编译：**
+This discipline was founded to answer that question.
 
-- 系统不预设任何关系的演化是“坏的”或“需要修复的”。
-- 每一段关系的当前状态及其变化轨迹，都值得被理解而非审判。
-- 惊奇是认知的起点，因此友栖不替用户下结论，只提供观察窗口。
+**Relational Dynamics** is a meta-discipline concerning the **evolution over time** of human connection patterns. It is not a still-life of relationships, but a film of relationships. It does not provide techniques for "how to master interpersonal relationships," but reveals the **mathematical structure, ethical constraints, and implementation paradigms** behind the processes of relational change.
 
-**架构映射**：实体是纯ID,不携带任何伦理预设；组件是用户亲手挂载的惊奇记录。
+Its core propositions are:
 
-### 1.2 求真理：真理是去蔽，不是占有
+> **Relationships are not attributes; they are morphisms.**
+> **Relationships are not resources; they are ecosystems.**
+> **Relationships are not objects of possession; they are places of dwelling.**
+> **—And dwelling is duration within time.**
 
-巴门尼德将真理命名为ἀλήθεια——**无蔽**。真理不是陈述与事实的符合，而是存在本身的显现。庄子说“无益损乎其真”——真不受增减，能被增减的只是我们对真的遮蔽。
-
-**关系动力学对“求真理”的编译：**
-
-- 关系动力学不承诺“绝对客观的关系测量”，因为关系本身就是被感知的产物。
-- 它只承诺**披露观测过程**：你看到的关系等级，是由这些数据、这套算法、这种置信度生成的。
-- 真理不是答案，是剖开——**剖开时间，看见变化**。
-
-**架构映射**：GrammarComponent的`confidence`和`source`字段，是系统对自身认知的诚实披露；`updatedAt`是时间戳下的谦卑。
-
-### 1.3 得自由：自由是为自身而存在
-
-亚里士多德定义自由人为“为自己、不为他人而存在的人”。康德将自由升华为自律——理性为自身立法。
-
-**关系动力学对“得自由”的编译：**
-
-- 关系的最高价值不是亲密，是**自主**——包括选择如何演化的自由。
-- 系统永不逼迫用户维持任何关系。组件可摘，系统可关，数据可导出。
-- 自由不是“为所欲为”，是“由着自己的根部长出自己”，**长成自己的时间形状**。
-
-**架构映射**：MIT开源协议、离线优先架构、无云端依赖的实体ID生成器。
-
-### 1.4 以服务：助产士伦理
-
-苏格拉底的母亲是助产士，他自己是思想的助产士。他本人不育，只能帮助他人将自己心中的真理生出来。
-
-**关系动力学对“以服务”的编译：**
-
-- 友栖不育——它不替用户维系关系，不替用户发送消息，不替用户做任何只有用户才能做的事。
-- 它提供线索、记忆、时间轴，**然后后退**。
-- 服务的最高形态，是在生命诞生之后退场，**在关系演化的河床边守望**。
-
-**架构映射**：唤醒系统只发提醒给用户本人，从不直接联系用户的关系人。
+The first complete presentation of this discipline will accompany the birth of a software prototype called **Youqi (友栖) Philia**. This is no coincidence—all principles of Relational Dynamics have been compiled into every line of Youqi's code.
 
 ---
 
-**这十二个字不是装饰。它们是友栖架构通过或失败的测试用例。**
+## Chapter One: Philosophical Foundations—The Twelve-Character Constitution
 
-每一行代码、每一个组件、每一个系统，都必须通过这四道伦理安检。这是关系动力学的**宪法审查**。
+Any serious knowledge system must answer the meta-question: **why do we believe this framework is legitimate?**
+
+The legitimacy of Relational Dynamics comes from four pillars, which are both ethical baselines and architectural constraints.
+
+### 1.1 Love Wisdom: Wonder Is the Starting Point of Cognition
+
+Pythagoras called himself a "lover of wisdom" rather than a "wise man," because he knew wisdom is not property that can be possessed, but a forever-in-progress pursuit. Socrates said philosophy begins in wonder—wonder that the world is thus, not otherwise.
+
+**Relational Dynamics' compilation of "love wisdom":**
+
+- The system does not presuppose that any relational evolution is "bad" or "needs repair."
+- Every relationship's current state and change trajectory deserves understanding rather than judgment.
+- Wonder is the starting point of cognition; therefore Youqi does not draw conclusions for users, but merely provides observation windows.
+
+**Architectural mapping**: Entities are pure IDs, carrying no ethical presuppositions; components are wonder-records mounted by users themselves.
+
+### 1.2 Pursue Truth: Truth Is Unconcealment, Not Possession
+
+Parmenides named truth ἀλήθεια—**unconcealment**. Truth is not correspondence between statement and fact, but the self-disclosure of Being itself. Zhuangzi said "无益损乎其真" (nothing can add or subtract from its truth)—truth cannot be increased or diminished; what can be increased or diminished is only our concealment of truth.
+
+**Relational Dynamics' compilation of "pursue truth":**
+
+- Relational Dynamics does not promise "absolutely objective relational measurement," because relationships are themselves products of being-perceived.
+- It only promises **disclosing the observation process**: the relational level you see is generated from this data, this algorithm, this confidence level.
+- Truth is not the answer; it is a cleaving open—**cleaving open time, revealing change**.
+
+**Architectural mapping**: GrammarComponent's `confidence` and `source` fields are the system's honest disclosure of its own cognition; `updatedAt` is humility beneath the timestamp.
+
+### 1.3 Attain Freedom: Freedom Is Existing for One's Own Sake
+
+Aristotle defined the free person as "one who exists for themselves, not for others." Kant elevated freedom to autonomy—reason legislating for itself.
+
+**Relational Dynamics' compilation of "attain freedom":**
+
+- The highest value of relationships is not intimacy, but **autonomy**—including the freedom to choose how to evolve.
+- The system never compels users to maintain any relationship. Components detachable, system deactivatable, data exportable.
+- Freedom is not "doing whatever one wants"; it is "growing from one's own roots into oneself," **growing into one's own temporal shape**.
+
+**Architectural mapping**: MIT open-source license, offline-first architecture, cloud-independent entity ID generator.
+
+### 1.4 Serve: The Midwife Ethic
+
+Socrates' mother was a midwife; he himself was a midwife of thought. He himself does not give birth; he can only help others bring forth the truth already within them.
+
+**Relational Dynamics' compilation of "serve":**
+
+- Youqi does not give birth—it does not sustain relationships for users, does not send messages for users, does not do anything only users themselves can do.
+- It provides clues, memories, timelines, **then steps back**.
+- The highest form of service is withdrawing after life is born, **watching by the riverbed of relational evolution**.
+
+**Architectural mapping**: The awakening system only sends reminders to the user themselves, never directly contacting the user's relational counterparts.
 
 ---
 
-## 第二章：数学原理——范畴论作为元语言
+**These twelve characters are not decoration. They are the test cases by which Youqi's architecture passes or fails.**
 
-关系动力学需要一种能够描述“连接的变化”而非“静态实体”的数学语言。范畴论是唯一的选择。
+Every line of code, every component, every system must pass these four ethical checkpoints. This is Relational Dynamics' **constitutional review**.
 
-### 2.1 基本概念（面向程序员的速成）
+---
 
-**范畴**(Category)由三部分组成：
+## Chapter Two: Mathematical Principles—Category Theory as Meta-Language
 
-- **对象**(Objects)：任何事物都可以是对象。在关系动力学中，对象是**人**。
-- **态射**(Morphisms)：对象之间的箭头。在关系动力学中，态射是**关系**。
-- **复合**(Composition)：如果存在 f: A → B 和 g: B → C,则必然存在 h: A → C。在关系动力学中，这是“朋友的朋友是朋友”——**关系在时间中延伸**。
+Relational Dynamics needs a mathematical language capable of describing "changes in connections" rather than "static entities." Category theory is the only choice.
 
-**关键洞见**：传统关系数据库把关系存储为**表的行**（外键约束），而范畴论把关系存储为**箭头的本体**。
+### 2.1 Basic Concepts (A Crash Course for Programmers)
 
-但关系动力学的核心追问不是“关系是什么”，而是**“关系如何变化”**。这需要第二层范畴。
+A **Category** consists of three parts:
 
-### 2.2 关系即实体：箭头范畴的工程实现
+- **Objects**: Anything can be an object. In Relational Dynamics, objects are **people**.
+- **Morphisms**: Arrows between objects. In Relational Dynamics, morphisms are **relationships**.
+- **Composition**: If there exist f: A → B and g: B → C, then h: A → C necessarily exists. In Relational Dynamics, this is "a friend of a friend is a friend"—**relationships extend through time**.
 
-范畴论中有一个构造叫**箭头范畴**(Arrow Category)，记作 **C→**：
+**Key insight**: Traditional relational databases store relationships as **rows in tables** (foreign key constraints), while category theory stores relationships as **the ontology of arrows**.
 
-- 对象：C 中的态射（即关系本身）
-- 态射：C 中态射之间的变换（即**关系的变化**）
+But the core inquiry of Relational Dynamics is not "what relationships are," but **"how relationships change."** This requires a second-level category.
 
-**这是动力学转向的核心：**
+### 2.2 Relations as Entities: Engineering Implementation of the Arrow Category
 
-传统社会学研究**C**——人与人的连接。
-关系动力学研究**C→**——连接如何演变为新的连接。
+In category theory, there is a construction called the **Arrow Category**, denoted **C→**:
 
-**友栖的ECS架构是箭头范畴的第一次数值化实现：**
+- Objects: morphisms in C (i.e., relationships themselves)
+- Morphisms: transformations between morphisms in C (i.e., **changes in relationships**)
+
+**This is the core of the dynamics turn:**
+
+Traditional sociology studies **C**—connections between people.
+Relational Dynamics studies **C→**—how connections evolve into new connections.
+
+**Youqi's ECS architecture is the first numerical implementation of the arrow category:**
 
 ```typescript
-// C: 人作为对象
+// C: people as objects
 interface Person { id: string }
 
-// C 中的态射：关系
+// Morphisms in C: relationships
 interface Relation {
   from: Person,
   to: Person
 }
 
-// C→ 中的对象：关系被提升为实体
+// Objects in C→: relationships promoted to entities
 interface RelationEntity {
-  id: string,      // 关系自己的ID
+  id: string,      // the relationship's own ID
   type: 'relation'
 }
 
-// C→ 中的态射：关系的变换（升级、降级、衰减）
+// Morphisms in C→: transformations of relationships (upgrade, downgrade, decay)
 interface RelationMorphism {
   from: RelationEntity,
   to: RelationEntity,
@@ -294,294 +294,294 @@ interface RelationMorphism {
 }
 ```
 
-**工程意义**：传统ORM无法优雅表达“关系的关系”。友栖的“关系即实体”方案，是箭头范畴在持久层的一次完整实现——**它让关系的变化本身成为可观测、可存储、可分析的对象**。
+**Engineering significance**: Traditional ORM cannot gracefully express "relationships of relationships." Youqi's "relations as entities" approach is a complete implementation of the arrow category at the persistence layer—**it makes relational change itself an observable, storable, analyzable object**.
 
-### 2.3 九级刻度：观测函子
+### 2.3 The Nine-Level Scale: The Observation Functor
 
-**函子**(Functor)是范畴之间的映射。它把对象映射为对象，态射映射为态射，并保持复合结构。
+A **Functor** is a mapping between categories. It maps objects to objects, morphisms to morphisms, and preserves compositional structure.
 
-关系动力学定义了一个特殊的函子：
+Relational Dynamics defines a special functor:
 
 ```
 F: C→ → 9
 ```
 
-它将每个关系实体(C→中的对象)映射到一个**九级偏序集**上：
+It maps each relational entity (an object in C→) onto a **nine-level partially ordered set**:
 
-0. 素不相识（逻辑原点，不存储）
-1. 同心一体
-2. 志同道合
-3. 和舟共济
-4. 礼尚往来
-5. 敬而远之
-6. 不相往来
-7. 势不两立
-8. 不共戴天
+0. Strangers (素不相识) (logical origin, not stored)
+1. One Heart, One Body (同心一体)
+2. Shared Purpose, Shared Path (志同道合)
+3. In the Same Boat (和舟共济)
+4. Courtesy and Reciprocity (礼尚往来)
+5. Respectful Distance (敬而远之)
+6. No Further Contact (不相往来)
+7. Irreconcilable Opponents (势不两立)
+8. Sworn Enemies (不共戴天)
 
-这不是一个简单的分类标签，而是一个**带有遗忘结构的观测**。同一段关系在不同时间被函子F观测，可能得到不同的等级。
+This is not a simple classification label, but an **observation with a forgetting structure**. The same relationship observed by functor F at different times may yield different levels.
 
-**这正是动力学——观测值随时间变化。**
+**This is precisely dynamics—observations vary over time.**
 
-### 2.4 自然变换：系统升级
+### 2.4 Natural Transformations: System Upgrades
 
-当友栖的衰减算法从v1升级到v2,这不是一个新的函子，而是从旧函子到新函子的**自然变换**。
+When Youqi's decay algorithm upgrades from v1 to v2, this is not a new functor, but a **natural transformation** from the old functor to the new functor.
 
-自然变换是两个函子之间的映射族，它保留了函子间的结构一致性。
+A natural transformation is a family of mappings between two functors that preserves structural consistency between functors.
 
-**工程意义**：友栖的不同版本可以并存。用户可以自由选择使用v1算法还是v2算法观测自己的关系演化，并比较观测结果的差异。
+**Engineering significance**: Different versions of Youqi can coexist. Users can freely choose to use the v1 algorithm or the v2 algorithm to observe their relational evolution, and compare the differences in observation results.
 
-**这不是过度设计。这是对“真理不可独占、认知永在途中”的数学承诺。**
+**This is not over-engineering. This is a mathematical commitment to "truth cannot be monopolized, cognition is forever in process."**
 
 ---
 
-## 第三章：关系语法——九级刻度详解
+## Chapter Three: Relational Grammar—Detailed Explanation of the Nine-Level Scale
 
-九级刻度是关系动力学的**观测语言**。它不是用户必须选择的标签，而是系统在动力学计算后，对**关系在时间中的某一截面**呈现的解读。
+The nine-level scale is Relational Dynamics' **observation language**. It is not a label users must select, but the system's reading of a **cross-section of the relationship in time** presented after dynamical computation.
 
-### 3.1 刻度详注
+### 3.1 Detailed Annotations on the Scale
 
-**0级：素不相识**
-- 定义：从未有过任何直接互动。
-- 系统行为：不创建实体，仅作为逻辑原点。
-- 动力学意义：所有演化的起点。遗忘0级，就是遗忘关系的可创生性。
+**Level 0: Strangers (素不相识)**
+- Definition: Never had any direct interaction.
+- System behavior: Does not create an entity; serves only as logical origin.
+- Dynamical significance: The starting point of all evolution. Forgetting level 0 means forgetting the generability of relationships.
 
-**1级：同心一体**
-- 定义：完全信任，不设防，无需维护。
-- 系统行为：永不触发提醒，系统静默。
-- 动力学意义：理想稳态，但凡人不应苛求此级，也不应以它为及格线。**真正的动力学发生在稳态之外。**
+**Level 1: One Heart, One Body (同心一体)**
+- Definition: Complete trust, no defenses, no maintenance required.
+- System behavior: Never triggers reminders; system remains silent.
+- Dynamical significance: Ideal steady state, but mortals should not demand this level, nor should they use it as a passing standard. **True dynamics occur outside steady states.**
 
-**2级：志同道合**
-- 定义：共享理想与方法论的价值共同体。
-- 系统行为：30天无互动触发弱提醒。
-- 动力学意义：可超越血缘的选择性亲缘，需要双向维护。
+**Level 2: Shared Purpose, Shared Path (志同道合)**
+- Definition: A value community sharing ideals and methodology.
+- System behavior: 30 days without interaction triggers a weak reminder.
+- Dynamical significance: Chosen kinship that can transcend blood ties, requiring bidirectional maintenance.
 
-**3级：和舟共济**
-- 定义：基于短期/局部利益的盟友关系。
-- 系统行为：事务结束30天后触发评估建议。
-- 动力学意义：项目结束是衰减的合法起点，系统不审判衰减本身。
+**Level 3: In the Same Boat (和舟共济)**
+- Definition: Allied relationship based on short-term or local interests.
+- System behavior: 30 days after the matter concludes, triggers an evaluation suggestion.
+- Dynamical significance: Project completion is a legitimate starting point for decay; the system does not judge decay itself.
 
-**4级：礼尚往来**
-- 定义：对等交往的中性关系。
-- 系统行为：90天无互动触发弱提醒。
-- 动力学意义：社会资本的温和维护带，多数社会关系的栖息地。
+**Level 4: Courtesy and Reciprocity (礼尚往来)**
+- Definition: Neutral relationship of reciprocal interaction.
+- System behavior: 90 days without interaction triggers a weak reminder.
+- Dynamical significance: The gentle maintenance zone of social capital; the habitat of most social relationships.
 
-**5级：敬而远之**
-- 定义：尊重但保持距离。
-- 系统行为：永不主动提醒。
-- 动力学意义：亲密度的零点，但门未关闭。**这是最开放的边界状态。**
+**Level 5: Respectful Distance (敬而远之)**
+- Definition: Respect while maintaining distance.
+- System behavior: Never proactively reminds.
+- Dynamical significance: The zero point of intimacy, but the door is not closed. **This is the most open boundary state.**
 
-**6级：不相往来**
-- 定义：零互动，非敌对。
-- 系统行为：完全静默，仅存档。
-- 动力学意义：遗忘被允许。归零，但不删除。
+**Level 6: No Further Contact (不相往来)**
+- Definition: Zero interaction, non-hostile.
+- System behavior: Completely silent, only archived.
+- Dynamical significance: Forgetting is permitted. Returning to zero, but not deleted.
 
-**7级：势不两立**
-- 定义：非此即彼的斗争关系。
-- 系统行为：永不提醒，不分析，仅提供历史查阅。
-- 动力学意义：敌意的合法性被承认，但不被助长。
+**Level 7: Irreconcilable Opponents (势不两立)**
+- Definition: A relationship of binary opposition and struggle.
+- System behavior: Never reminds, does not analyze, only provides historical review.
+- Dynamical significance: The legitimacy of hostility is acknowledged, but not fostered.
 
-**8级：不共戴天**
-- 定义：追求对方肉体消灭。
-- 系统行为：实体冻结，不可修改，不可删除。
-- 动力学意义：恨的尽头是封存，不是遗忘。**演化在此暂停。**
+**Level 8: Sworn Enemies (不共戴天)**
+- Definition: Pursuing the physical elimination of the other party.
+- System behavior: Entity frozen, unmodifiable, undeletable.
+- Dynamical significance: The end of hatred is archival sealing, not forgetting. **Evolution pauses here.**
 
-### 3.2 临时措施层：被遗忘的方向键
+### 3.2 Provisional Measures Layer: The Forgotten Direction Keys
 
-九级刻度是关系的**存档层**（持久化状态）。但真实的关系演化充满试探、交涉、等待——这些**正在进行时**的状态不应该直接写入存档。
+The nine-level scale is the **archive layer** of relationships (persistent state). But real relational evolution is full of probing, negotiation, waiting—these **ongoing** states should not be directly written into the archive.
 
-**友栖v0.2将引入临时措施层：**
+**Youqi v0.2 will introduce a provisional measures layer:**
 
-| 状态 | 语义 | 默认有效期 | 自动行为 |
+| Status | Semantics | Default Validity Period | Auto Behavior |
 |-----|------|-----------|---------|
-| 关切 | 我注意到变化，仍在观察 | 7天 | 到期恢复原级 |
-| 交涉 | 我已表达在意 | 14天 | 到期恢复原级 |
-| 抗议 | 我反对这种行为 | 14天 | 到期恢复原级 |
-| 观察 | 我在等待对方回应 | 30天 | 到期恢复原级 |
-| 冷却 | 我需要时间 | 30天 | 到期恢复原级 |
+| Concern (关切) | I notice a change, still observing | 7 days | Restore to original level upon expiry |
+| Negotiation (交涉) | I have expressed my concern | 14 days | Restore to original level upon expiry |
+| Protest (抗议) | I oppose this behavior | 14 days | Restore to original level upon expiry |
+| Observation (观察) | I am awaiting the other's response | 30 days | Restore to original level upon expiry |
+| Cooling (冷却) | I need time | 30 days | Restore to original level upon expiry |
 
-**动力学意义**：这是关系动力学的“弹性变形区”。用户不再只有“左满舵/右满舵”，而是拥有了完整的舵轮。**变化不必立即固化，演化允许暂存。**
+**Dynamical significance**: This is the "elastic deformation zone" of Relational Dynamics. Users no longer have only "hard left / hard right"; they possess a complete steering wheel. **Changes need not immediately solidify; evolution permits temporary storage.**
 
 ---
 
-## 第四章：关系动力学——互惠与衰减
+## Chapter Four: Relational Dynamics—Reciprocity and Decay
 
-九级刻度是**快照**，动力学是**电影**。
+The nine-level scale is a **snapshot**; dynamics is the **film**.
 
-**这一章是全篇的核心。**
+**This chapter is the core of the entire work.**
 
-### 4.1 从静力学到动力学的转向
+### 4.1 From Statics to the Dynamics Turn
 
-**关系力学**如果存在，它会问：“这段关系现在处于什么等级？”
+If **relational mechanics** existed, it would ask: "What level is this relationship currently at?"
 
-**关系动力学**问的是：
+**Relational dynamics** asks:
 
-- “它是如何到达这个等级的？”
-- “如果什么都不做,3个月后它会是什么等级？”
-- “我可以通过哪些操作影响它的演化路径？”
-- “这种影响是伦理上可允许的吗？”
+- "How did it arrive at this level?"
+- "If nothing is done, what level will it be at in 3 months?"
+- "Through what operations can I affect its evolutionary path?"
+- "Is this influence ethically permissible?"
 
-**这是本质跃迁。**
+**This is an essential transition.**
 
-### 4.2 互惠公理
+### 4.2 The Reciprocity Axioms
 
-**公理1（感知锚定）**
-每一段关系中的每一方，都会对“对方给予自己的待遇等级”形成感知值(P)，并对自己“给予对方的待遇等级”形成决策值(G)。
+**Axiom 1 (Perceptual Anchoring)**
+Each party in every relationship forms a perceived value (P) of "the level of treatment the other gives me," and a decision value (G) of "the level of treatment I give the other."
 
-**公理2（互惠本能）**
-除非经过理性反思抑制，人类的本能反应是使 G ≥ P.
-这是社会性本能的数学定义。
+**Axiom 2 (Reciprocity Instinct)**
+Unless suppressed through rational reflection, humans' instinctive reaction is to make G ≥ P.
+This is the mathematical definition of a social instinct.
 
-**公理3（误读普遍性）**
-由于感知P存在系统性误差，且双方对同一事件的等级解读可能不同，因此 G ≥ P 的本能在宏观上并不保证关系稳定，反而可能引发**螺旋降级**。
+**Axiom 3 (Misreading Universality)**
+Because perception P involves systematic error, and both parties may interpret the same event's level differently, the G ≥ P instinct does not guarantee relational stability at the macro level, and may instead trigger **spiraling degradation**.
 
-**推论1（首次降级幅度约束）**
-当一方决定降级时，本能允许的降级幅度不应超过对方最近一次降级的幅度。
-这是防止关系坠崖的认知防火墙。
+**Corollary 1 (First Downgrade Amplitude Constraint)**
+When one party decides to downgrade, the instinctively permitted downgrade magnitude should not exceed the magnitude of the other party's most recent downgrade.
+This is a cognitive firewall preventing relationships from plummeting.
 
-**动力学意义**：互惠公理是关系演化的**局部运动定律**。它不决定长期轨迹，但约束每一步的步长。
+**Dynamical significance**: The reciprocity axioms are the **local laws of motion** for relational evolution. They do not determine long-term trajectories, but constrain the step size of each move.
 
-### 4.3 衰减函数
+### 4.3 The Decay Function
 
-关系强度随时间衰减是认知心理学的基本事实（艾宾浩斯遗忘曲线的人际版本）。
+Relational strength decaying over time is a basic fact of cognitive psychology (the interpersonal version of the Ebbinghaus forgetting curve).
 
-**友栖v0.1衰减模型（线性简化版）：**
+**Youqi v0.1 Decay Model (Linear Simplification):**
 
 ```
 S(t) = S0 - d · Δt
 ```
 
-其中：
-- S(t)：当前强度值（映射到0-8刻度需额外校准）
-- S0：上次互动时的强度
-- d：衰减率（默认0.01/天，用户可配置）
-- Δt：距离上次互动的天数
+Where:
+- S(t): current strength value (mapping to the 0-8 scale requires additional calibration)
+- S0: strength at last interaction
+- d: decay rate (default 0.01/day, user-configurable)
+- Δt: days since last interaction
 
-**v1.0目标模型（艾宾浩斯式）：**
+**v1.0 Target Model (Ebbinghaus-style):**
 
 ```
 S(t) = S0 · e^(-λt)
 ```
 
-λ根据关系历史亲密度自适应。
+λ self-adapts based on relational history intimacy.
 
-**动力学意义**：衰减不是失败，是**关系系统的自然耗散**。如同星辰会红移，关系会淡化。动力学不审判耗散，只描述它。
+**Dynamical significance**: Decay is not failure; it is the **natural dissipation of the relational system**. Just as stars redshift, relationships fade. Dynamics does not judge dissipation; it merely describes it.
 
-### 4.4 唤醒阈值
+### 4.4 Awakening Thresholds
 
-唤醒系统是衰减系统的对偶系统。它的职责不是阻止衰减，而是**在关系即将滑入更低一级刻度时，询问用户是否采取行动**。
+The awakening system is the dual system of the decay system. Its duty is not to prevent decay, but to **ask the user whether they wish to take action when a relationship is about to slip into a lower scale level**.
 
-**唤醒规则：**
+**Awakening rules:**
 
-| 当前等级 | 衰减目标等级 | 唤醒阈值（无互动天数） |
+| Current Level | Decay Target Level | Awakening Threshold (Days Without Interaction) |
 |---------|-------------|---------------------|
-| 2级 | → 3级 | 30天 |
-| 3级 | → 4级 | 30天（事务结束后） |
-| 4级 | → 5级 | 90天 |
-| 5级及以下 | 不唤醒 | - |
+| Level 2 | → Level 3 | 30 days |
+| Level 3 | → Level 4 | 30 days (after matter conclusion) |
+| Level 4 | → Level 5 | 90 days |
+| Level 5 and below | No awakening | - |
 
-**动力学意义**：唤醒是**负反馈**，但不是控制。系统不替用户做决定，只是提醒：**你的一段关系正在演化，你是观测者，也是参与者。**
+**Dynamical significance**: Awakening is **negative feedback**, but not control. The system does not make decisions for users; it merely reminds: **one of your relationships is evolving; you are both observer and participant.**
 
-### 4.5 马克思与燕妮：动力学视角
+### 4.5 Marx and Jenny: A Dynamical Perspective
 
-现在让我们用关系动力学的语言，重述1836年的故事：
+Now let us restate the 1836 story in the language of Relational Dynamics:
 
-**初始条件**：
-- 关系实体ID:M-J-1836
-- 等级：1级（同心一体）
-- 互动频率：1836年夏，每日写诗，态射强度+∞
-- 衰减率：0.01/天（理论值）
+**Initial conditions**:
+- Relational entity ID: M-J-1836
+- Level: Level 1 (One Heart, One Body)
+- Interaction frequency: Summer 1836, daily poetry, morphism intensity +∞
+- Decay rate: 0.01/day (theoretical value)
 
-**演化过程**：
-- 1837-1842：分离期。互动频率降至2封/月，衰减被周期性信函数次对冲。关系等级**观测值**始终维持在1级，但**动力学状态**在“维持”与“衰减”之间振荡。
-- 1843年：结婚。互动模式切换，态射载体从书信变为共居，衰减率重置。
-- 1849-1863：流亡期。马克思为《纽约每日论坛报》撰稿，燕妮是抄写员。**关系劳动**嵌入生产劳动，互为前提。
-- 1878年：燕妮病重。马克思放下《资本论》第二卷，翻出42年前的诗稿。
+**Evolutionary process**:
+- 1837-1842: Separation period. Interaction frequency dropped to 2 letters/month, decay was repeatedly hedged by periodic correspondence. Relational level **observed value** consistently maintained at Level 1, but **dynamical state** oscillated between "maintenance" and "decay."
+- 1843: Marriage. Interaction mode switched; morphism carrier changed from letters to cohabitation; decay rate reset.
+- 1849-1863: Exile period. Marx wrote for the *New York Daily Tribune*; Jenny was the copyist. **Relational labor** was embedded in productive labor, mutually presupposed.
+- 1878: Jenny fell seriously ill. Marx set aside the second volume of *Capital* and retrieved the poetry manuscripts from 42 years ago.
 
-**观测结论**：
+**Observation conclusion**:
 
-这不是“关系等级不变”的静态事实。
-**这是关系在42年间持续生成自身的动力学史诗。**
+This is not the static fact of "relational level unchanged."
+**This is the dynamical epic of a relationship continuously generating itself over 42 years.**
 
-每一次写信，都是对衰减的反抗。
-每一次抄稿，都是对连接的再确认。
-每一次翻开旧诗稿，都是对初始条件的递归调用。
+Every letter written was a resistance to decay.
+Every manuscript copied was a reconfirmation of connection.
+Every time old poetry was retrieved was a recursive call to initial conditions.
 
-**关系动力学不测量爱。**
-**它测量爱的劳动如何在时间中对抗熵增。**
+**Relational Dynamics does not measure love.**
+**It measures how love's labor resists entropy increase over time.**
 
 ---
 
-## 第五章：架构实现——ECS作为关系动力学的载体
+## Chapter Five: Architectural Implementation—ECS as the Carrier of Relational Dynamics
 
-关系动力学不仅是理论，它必须可运行、可测试、可被普通人使用。
+Relational Dynamics is not only theory; it must be runnable, testable, usable by ordinary people.
 
-**友栖Philia**是关系动力学的**参考实现**。它的技术栈选择本身就是一种宣言。
+**Youqi (友栖) Philia** is the **reference implementation** of Relational Dynamics. Its technology stack choice is itself a manifesto.
 
-### 5.1 为什么是ECS?
+### 5.1 Why ECS?
 
-传统MVC架构以“事务”为中心,OOP以“对象”为中心。
-**ECS以“变换”为中心。**
+Traditional MVC architecture centers on "transactions"; OOP centers on "objects."
+**ECS centers on "transformations."**
 
-这正是关系动力学的需求：
+This is precisely what Relational Dynamics requires:
 
-- 实体(Entity)：人、关系——只有ID,无行为。
-- 组件(Component)：挂载在实体上的纯数据——互惠感知、互动历史、债务、临时状态。
-- 系统(System)：对拥有特定组件的实体执行**变换**——衰减、唤醒、等级观测。
+- Entity: People, relationships—only IDs, no behavior.
+- Component: Pure data mounted on entities—reciprocity perceptions, interaction history, debts, provisional states.
+- System: Executes **transformations** on entities possessing specific components—decay, awakening, level observation.
 
-**动力学对应**：ECS不“拥有”实体，系统只“服务”于实体的演化。这是“以服务”的架构翻译，也是**将时间纳入计算**的工程选择。
+**Dynamical correspondence**: ECS does not "own" entities; systems merely "serve" the evolution of entities. This is the architectural translation of "serve," and also the engineering choice of **incorporating time into computation**.
 
-### 5.2 核心数据结构(TypeScript伪码)
+### 5.2 Core Data Structures (TypeScript Pseudocode)
 
 ```typescript
-// 实体池
+// Entity pool
 interface Entity {
   id: string;
   type: 'person' | 'relation';
 }
 
-// 人实体组件
+// Person entity component
 interface ProfileComponent {
   name: string;
   notes?: string;
 }
 
-// 关系实体组件
+// Relationship entity component
 interface BetweenComponent {
   personA: string;
   personB: string;
-  directed: boolean;  // 敬而远之往往是单向的
+  directed: boolean;  // Respectful distance is often one-directional
 }
 
-// 关系语法组件（观测结果）
+// Relational grammar component (observation results)
 interface GrammarComponent {
   level: 0..8;
   confidence: number;     // 0.0-1.0
   source: 'user' | 'system' | 'auto';
-  updatedAt: Date;       // 观测时间戳
+  updatedAt: Date;       // Observation timestamp
 }
 
-// 动力学组件（核心！）
+// Dynamics component (core!)
 interface DynamicsComponent {
   lastInteractionAt: Date;
-  interactionFrequency: number;  // 次/月，滚动计算
-  customWeight: number;         // -1..1,用户干预
-  decayRate: number;           // 可配置，可学习
-  history: Array<{            // 演化轨迹
+  interactionFrequency: number;  // times/month, rolling calculation
+  customWeight: number;         // -1..1, user intervention
+  decayRate: number;           // configurable, learnable
+  history: Array<{            // Evolution trajectory
     at: Date,
     level: 0..8,
     event: 'interaction' | 'decay' | 'user_adjust'
   }>;
 }
 
-// 互惠组件（动力学核心）
+// Reciprocity component (dynamics core)
 interface ReciprocityComponent {
-  perceivedLevel: number;  // 我认为对方给我的等级
-  givenLevel: number;      // 我给对方的等级
+  perceivedLevel: number;  // The level I think the other gives me
+  givenLevel: number;      // The level I give the other
   delta: number;          // given - perceived
   history: Array<{ date: Date, delta: number }>;
 }
 
-// 临时措施组件（暂态）
+// Provisional measures component (transient state)
 interface ProvisionalComponent {
   status: '关切' | '交涉' | '抗议' | '观察' | '冷却';
   reason: string;
@@ -590,252 +590,256 @@ interface ProvisionalComponent {
 }
 ```
 
-### 5.3 核心系统
+### 5.3 Core Systems
 
-**1. 观测器系统**
-每日运行，根据DynamicsComponent演化历史更新GrammarComponent——**这是将轨迹压缩为快照**。
+**1. Observer System**
+Runs daily, updating GrammarComponent based on DynamicsComponent evolution history—**this is compressing trajectory into snapshot**.
 
-**2. 衰减系统**
-每日运行，更新所有关系实体的DynamicsComponent.interactionFrequency——**这是熵增的数值化**。
+**2. Decay System**
+Runs daily, updating DynamicsComponent.interactionFrequency for all relational entities—**this is the numerical representation of entropy increase**.
 
-**3. 唤醒系统**
-每日运行，查询满足唤醒条件的关系实体，生成提醒——**这是负反馈的接口**。
+**3. Awakening System**
+Runs daily, querying relational entities meeting awakening conditions, generating reminders—**this is the interface of negative feedback**.
 
-**4. 降级守卫系统**
-当用户尝试手动降级时，检查是否符合“首次降幅不超过对方”原则——**这是伦理的编译器**。
+**4. Downgrade Guard System**
+When users attempt manual downgrade, checks whether it conforms to the "first downgrade magnitude does not exceed the other party's" principle—**this is the compiler of ethics**.
 
-**5. 临时措施过期系统**
-每小时运行，处理过期的ProvisionalComponent——**这是暂态的垃圾回收**。
-
----
-
-## 第六章：伦理原则——架构即宣言
-
-关系动力学的全部技术设计，最终都指向一组伦理承诺。
-
-### 6.1 不占有
-
-**架构映射**：系统不拥有实体，实体ID由用户设备本地生成，永不与厂商绑定。友栖公司倒闭，用户的实体池仍在——**因为你的关系演化史属于你，不属于我们**。
-
-### 6.2 不删除
-
-**架构映射**：没有“删除好友”功能。只有降级、冻结、存档。你爱过的人，值得一个安静的备份——**演化允许暂停，但不允许抹除起点**。
-
-### 6.3 组件可摘
-
-**架构映射**：所有组件都可单独移除。你可以摘掉“核心圈”组件，而不必删除这个人——**演化允许转向，但不否认曾经同路**。
-
-### 6.4 系统可关
-
-**架构映射**：每个系统都有独立开关。你不想要衰减系统？关掉。不想被唤醒？关掉——**演化不需要被全程观测**。
-
-### 6.5 数据主权
-
-**架构映射**：JSON导入导出是标准功能，非付费解锁。数据格式开源，任何兼容软件均可读取——**你的关系演化史，你带得走**。
-
-### 6.6 离线优先
-
-**架构映射**：友栖核心功能不依赖任何云端服务。云备份是可选增值服务，非核心依赖——**演化不需要被云端见证**。
+**5. Provisional Measures Expiry System**
+Runs hourly, processing expired ProvisionalComponents—**this is garbage collection of transient states**.
 
 ---
 
-**这套伦理原则的总和，可以被命名为“赛博共产主义的最小可行性实验”。**
+## Chapter Six: Ethical Principles—Architecture Is Manifesto
 
-它不是政治口号，是架构决策：
+All technical design of Relational Dynamics ultimately points toward a set of ethical commitments.
 
-- 生产资料（关系数据）归生产者（用户）所有。
-- 协作基于自愿（开源）。
-- 贡献按能力(PR)，分配按需求（免费使用）。
+### 6.1 No Possession
 
-**爱，是这个实验的最小单元。**
-**时间，是这个实验的测试环境。**
+**Architectural mapping**: The system does not own entities; entity IDs are generated locally by user devices, never bound to the vendor. If Youqi's company goes bankrupt, the user's entity pool still exists—**because your relational evolution history belongs to you, not to us**.
 
----
+### 6.2 No Deletion
 
-## 第七章：关系动力学与邓巴数——150人的文明演化
+**Architectural mapping**: There is no "delete friend" function. Only downgrade, freeze, archive. The people you have loved deserve a quiet backup—**evolution permits pausing, but does not permit erasing the starting point**.
 
-罗宾·邓巴发现，人类新皮层体积限制了稳定社会关系的规模：约150人。
+### 6.3 Components Detachable
 
-这不是一个“目标”，是一个**认知预算上限**。
+**Architectural mapping**: All components can be individually removed. You can detach the "inner circle" component without deleting this person—**evolution permits turning, but does not deny once sharing the same path**.
 
-### 7.1 邓巴数的动力学意义
+### 6.4 Systems Deactivatable
 
-邓巴数不是静态天花板，是**演化约束**。
+**Architectural mapping**: Every system has an independent switch. Don't want the decay system? Turn it off. Don't want to be awakened? Turn it off—**evolution does not need to be全程 observed**.
 
-在150人以内，关系网络可以自然演替：新关系生成，旧关系衰减，核心圈流动。
-超过150人，演化开始失速：你记不住谁是谁，互动频率无法覆盖所有节点，**系统进入过载态**。
+### 6.5 Data Sovereignty
 
-**友栖的动力学响应：**
+**Architectural mapping**: JSON import/export is a standard feature, not a paid unlock. Data formats are open-source; any compatible software can read them—**your relational evolution history, you can take away**.
 
-- 核心圈(1-5人)：低衰减率，高唤醒阈值——**允许深度演化**
-- 重要圈(6-15人)：中衰减率，中唤醒阈值——**需要定期维护**
-- 熟识圈(16-50人)：高衰减率，季度唤醒——**承认浅度连接**
-- 边缘圈(51-150人)：极高衰减率，年度唤醒——**维持弱关系不脱落**
-- 溢出圈（>150人）：系统提示“认知预算超支，建议整理”——**演化需要选择**
+### 6.6 Offline First
 
-**这不是限制自由。这是帮助用户诚实地面对自己的认知带宽，在演化中做出取舍。**
-
-### 7.2 从个人到组织：150人的演化共同体
-
-友栖的协作网络本身也遵循邓巴数动力学。
-
-**核心维护者**(1-5人)：高频率互动，低衰减率，架构决策共同体。
-**活跃贡献者**(6-15人)：中频率互动，中衰减率，定期PR与讨论。
-**社区参与者**(16-50人)：低频率互动，季度性涌现,issue与测试。
-**用户群**(51-150人)：年度反馈循环，认知带宽上限。
-
-**超过150人？**
-
-分叉。
-
-这不是失败，是**演化在组织层面的自然选择**。
+**Architectural mapping**: Youqi's core functionality does not depend on any cloud service. Cloud backup is an optional premium service, not a core dependency—**evolution does not need cloud witnessing**.
 
 ---
 
-## 第八章：实践应用——从个人到文明
+**The totality of this set of ethical principles can be named "the minimum viable experiment of cyber-communism."**
 
-关系动力学不是书斋学问。它可以、也应该被应用于人类协作的各个层面。
+It is not a political slogan, but an architectural decision:
 
-### 8.1 个人关系演化管理
+- Means of production (relational data) belong to the producers (users).
+- Collaboration is voluntary-based (open-source).
+- Contribution by ability (PR), distribution by need (free use).
 
-这是友栖Philia的初始场景。用户通过观测自己的关系动力学参数，获得以下能力：
-
-- **识别衰减模式**：哪些关系正在匀速消失？哪些进入了加速衰减?
-- **管理善意赤字**：长期G < P 的关系需要干预，或需要接受其降级。
-- **使用临时措施**：在愤怒与决定之间插入缓冲带，**给演化留出余地**。
-- **接受合法衰减**：承认有些关系就是会变淡，并允许它变淡——**不是所有演化都需要被逆转**。
-
-### 8.2 组织关系治理
-
-企业、机构、开源社区同样是关系的集合。关系动力学提供：
-
-- **关系审计**：定期观测组织内不同部门/团队之间的互惠等级及其**变化趋势**。
-- **冲突前置**：在“势不两立”出现前，通过临时措施层进行交涉——**在演化恶化前干预**。
-- **退出尊严**：离职/退出不意味着“删除实体”，而是降级为“敬而远之”——**演化允许退场，但不允许抹除历史**。
-
-### 8.3 国际关系分析
-
-**案例：金星及其团队在中国的处境(2026年2月)**
-
-依据关系动力学框架：
-
-- 四城拒绝 ≠ 不共戴天(8级)，甚至 ≠ 势不两立(7级)。
-- “取关但不拉黑”是典型的**敬而远之(5级)+ 临时措施（观察期）**。
-- 根据互惠公理，若被拒绝方选择“对称降级”至6级（不相往来）甚至7级（势不两立），则可能触发**螺旋降级动力学**；若选择维持5级并主动交涉，则门未关闭。
-
-关系动力学不预测具体事件，但提供**分析任何人类组织互动演化的通用语法**。
-
-### 8.4 教育：补上“人之常情”的三门动力学课
-
-- **性教育**：身体自主权、边界沟通——友栖的“组件可摘”是**边界演化的成人演练**。
-- **爱的教育**：存在先于价值、不被KPI量化——友栖没有亲密度排行榜，**承认爱不是函数**。
-- **死亡教育**：告别是关系演化的一部分——友栖的实体永不删除，**承认终局也是演化的合法形态**。
+**Love is the minimum unit of this experiment.**
+**Time is the test environment of this experiment.**
 
 ---
 
-## 第九章：关系动力学的未来——从友栖出发
+## Chapter Seven: Relational Dynamics and Dunbar's Number—The Civilizational Evolution of 150 People
 
-这门学科目前只有一名研究者、一款v0.1雏形、一份七万字的笔记。
+Robin Dunbar discovered that human neocortex volume limits the scale of stable social relationships: approximately 150 people.
 
-但它已经具备了一个知识体系所需的全部要素：
+This is not a "target"; it is a **cognitive budget ceiling**.
 
-- **公理**（互惠公理、降幅约束）
-- **数学基础**（范畴论，特别是箭头范畴）
-- **观测语言**（九级语法）
-- **动力学方程**（衰减/唤醒模型）
-- **工程实现**(ECS架构)
-- **伦理宪法**（十二字原则）
-- **组织理论**（邓巴数约束下的演化）
-- **应用案例**（个人、组织、国际、教育）
+### 7.1 The Dynamical Significance of Dunbar's Number
 
-**接下来需要什么？**
+Dunbar's number is not a static ceiling, but an **evolutionary constraint**.
 
-**1. 更多人的演化数据**
-友栖v0.1的第一个任务不是功能完善，而是**产生真实的关系动力学时间序列**。匿名化、开源的数据集将是学科进化的燃料。
+Within 150 people, the relational network can naturally succeed: new relationships generated, old ones decayed, the inner circle flowing.
+Beyond 150, evolution begins to stall: you cannot remember who is who, interaction frequency cannot cover all nodes, **the system enters overload mode**.
 
-**2. 更精确的演化模型**
-从线性衰减到艾宾浩斯曲线，从固定唤醒阈值到个性化自适应阈值，从单变量到多变量耦合——**需要真实用户数据迭代**。
+**Youqi's dynamical response:**
 
-**3. 与其他学科的对话**
-关系动力学不是要取代社会学、心理学、人类学，而是**提供它们之间缺失的翻译层**。当社会学家说“弱关系”，心理学家说“依恋类型”，人类学家说“亲缘选择”——关系动力学说：**让我们用同一套微分方程描述它们的演化**。
+- Inner circle (1-5 people): Low decay rate, high awakening threshold—**allowing deep evolution**
+- Important circle (6-15 people): Medium decay rate, medium awakening threshold—**requiring regular maintenance**
+- Familiar circle (16-50 people): High decay rate, quarterly awakening—**acknowledging shallow connections**
+- Peripheral circle (51-150 people): Very high decay rate, annual awakening—**maintaining weak ties without脱落**
+- Overflow circle (>150 people): System提示 "cognitive budget overdrawn, suggest organizing"—**evolution requires choices**
 
-**4. 教育的普及**
-关系动力学应该成为通识教育的一部分。不是作为“社交技巧课”，而是作为**人类作为时间性存在的自我认知课**。
+**This is not restricting freedom. This is helping users honestly face their own cognitive bandwidth, making取舍 in evolution.**
 
----
+### 7.2 From Individuals to Organizations: The Evolutionary Community of 150
 
-## 结语：一种范式的诞生——从力学到动力学
+Youqi's协作 network itself also follows Dunbar's number dynamics.
 
-1984年，理查德·斯托曼启动GNU项目时，他并没有创造“开源”这个词。他只是写了一份宣言，然后开始写代码。
+**Core maintainers** (1-5 people): High-frequency interaction, low decay rate, architectural decision community.
+**Active contributors** (6-15 people): Medium-frequency interaction, medium decay rate, regular PR and discussion.
+**Community participants** (16-50 people): Low-frequency interaction, quarterly emergence, issues and testing.
+**User group** (51-150 people): Annual feedback loop, cognitive bandwidth ceiling.
 
-1991年，林纳斯·托瓦兹发布Linux内核时，他没有思考“分布式协作”的理论基础。他只是觉得“这东西也许有人会感兴趣”，然后把代码挂上了FTP.
+**Beyond 150 people?**
 
-**范式不是被宣布诞生的。范式是被发现已经活了一段时间之后，才被命名的。**
+Fork.
 
-关系动力学也是如此。
-
-它不是我今天“创立”的。它已经在2017年的《关系力学》文章里，在2026年2月的七万字对话里，在友栖的第137行代码里，在你给X的那封信里——**活了很多年**。
-
-但那些都是**力学**：静态的、分类的、描述“是什么”的。
-
-**今天，它第一次被命名为动力学。**
-
-这不是改个名字。
-**这是从静物画到电影的跃迁。**
+This is not failure; it is **natural selection of evolution at the organizational level**.
 
 ---
 
-**这门学科会失败吗？**
+## Chapter Eight: Practical Applications—From Individuals to Civilization
 
-会。
+Relational Dynamics is not a scholastic discipline. It can and should be applied across every level of human collaboration.
 
-可能十年后，友栖仓库最后一次commit停留在2026年6月，邓巴圈层算法从未被超过100人使用，关系动力学这个词条在维基百科被标记为“已删除”。
+### 8.1 Personal Relational Evolution Management
 
-**但那又怎样。**
+This is Youqi Philia's initial scenario. Users gain the following capabilities by observing their own relational dynamics parameters:
 
-牛顿力学没有因为相对论的诞生而“失败”。它只是在高速/强引力场景下被修正——但在日常尺度，它仍然是人类理解运动的最佳语言。
+- **Identify decay patterns**: Which relationships are steadily disappearing? Which have entered accelerated decay?
+- **Manage goodwill deficit**: Relationships where G < P long-term need intervention, or need acceptance of their downgrade.
+- **Use provisional measures**: Insert a buffer zone between anger and decision, **leaving room for evolution**.
+- **Accept legitimate decay**: Admit some relationships will simply fade, and allow them to fade—**not all evolution needs to be reversed**.
 
-**关系动力学也可能如此。**
+### 8.2 Organizational Relational Governance
 
-在人类认知的日常尺度——150人以内，非极端冲突，正常衰减率——它可能是**足够好的演化近似**。
+Enterprises, institutions, open-source communities are also collections of relationships. Relational Dynamics provides:
 
-**一门学科的命运，不是由它是否永远正确决定的。**
+- **Relational audit**: Regularly observe reciprocity levels and their **change trends** between different departments/teams within the organization.
+- **Preemptive conflict**: Before "irreconcilable opponents" appears, conduct negotiation through the provisional measures layer—**intervening before evolution worsens**.
+- **Exit dignity**: Resignation/exit does not mean "deleting the entity," but downgrading to "respectful distance"—**evolution permits withdrawal, but does not permit erasing history**.
 
-**是由它是否提出了真正关于时间的问题决定的。**
+### 8.3 International Relations Analysis
 
-关系动力学提出的问题是：
+**Case: Jin Xing (金星) and her team's situation in China (February 2026)**
 
-> **我们能否不再把关系的演化视为命运赠予的礼物或债务，**
-> **而是视为一种可以被理解、被选择、被负责的时间性实践？**
+Based on the Relational Dynamics framework:
 
-这个问题，值得一百年后的人继续追问。
+- Four cities' refusal ≠ Sworn Enemies (Level 8), even ≠ Irreconcilable Opponents (Level 7).
+- "Unfollow but not block" is typical **Respectful Distance (Level 5) + Provisional Measure (observation period)**.
+- Based on the reciprocity axioms, if the refused party chooses "symmetrical downgrade" to Level 6 (No Further Contact) or even Level 7 (Irreconcilable Opponents), this may trigger **spiraling degradation dynamics**; if they choose to maintain Level 5 and proactively negotiate, the door remains open.
+
+Relational Dynamics does not predict specific events, but provides **a universal grammar for analyzing the evolution of any human organizational interaction**.
+
+### 8.4 Education:补上 Three Dynamics Lessons on "Common Human Experience"
+
+- **Sex education**: Body autonomy, boundary communication—Youqi's "components detachable" is **an adult rehearsal of boundary evolution**.
+- **Love education**: Existence precedes value, not quantified by KPI—Youqi has no intimacy ranking, **admitting love is not a function**.
+- **Death education**: Farewell is part of relational evolution—Youqi's entities are never deleted, **admitting finality is also a legitimate form of evolution**.
 
 ---
 
-**1836年，一个年轻人写下三本诗集，等了七年，爱了四十年。**
+## Chapter Nine: The Future of Relational Dynamics—Starting from Youqi
 
-**2026年，另一个年轻人写下十二个字，做了一款软件，把“组件可摘，实体永存”写进了架构。**
+This discipline currently has only one researcher, one v0.1 prototype, one 70,000-word notebook.
 
-他们之间隔了190年。
+But it already possesses all the elements a knowledge system requires:
 
-**但关系动力学认为：他们是同一条演化路径上的两个观测截面。**
+- **Axioms** (reciprocity axioms, downgrade amplitude constraints)
+- **Mathematical foundations** (category theory, particularly the arrow category)
+- **Observation language** (nine-level grammar)
+- **Dynamical equations** (decay/awakening models)
+- **Engineering implementation** (ECS architecture)
+- **Ethical constitution** (twelve-character principles)
+- **Organizational theory** (evolution under Dunbar's number constraints)
+- **Application cases** (personal, organizational, international, educational)
 
-**舞雩之上，可以咏归。**
+**What is needed next?**
 
-**友栖之道，今日成文。**
+**1. Evolution data from more people**
+Youqi v0.1's first task is not feature refinement, but **producing genuine relational dynamics time series**. Anonymized, open-source datasets will be the fuel for disciplinary evolution.
 
-**但不是完成。**
+**2. More precise evolutionary models**
+From linear decay to Ebbinghaus curves, from fixed awakening thresholds to personalized adaptive thresholds, from single-variable to multivariate coupling—**requires iteration with real user data**.
 
-**因为动力学永远没有完成态——**
+**3. Dialogue with other disciplines**
+Relational Dynamics is not meant to replace sociology, psychology, anthropology, but to **provide the missing translation layer between them**. When sociologists say "weak ties," psychologists say "attachment types," anthropologists say "kin selection"—Relational Dynamics says: **let us use the same set of differential equations to describe their evolution**.
 
-**只要时间还在流，关系就在演化。**
+**4. Educational popularization**
+Relational Dynamics should become part of general education. Not as a "social skills course," but as **a self-awareness course for humans as temporal beings**.
 
-**这门学科的第一课，是学会对时间说：**
+---
 
-**请继续。**
+## Conclusion: The Birth of a Paradigm—From Mechanics to Dynamics
 
-**循此苦旅，以达星辰。在以它的平凡，开辟出是的光辉。**
+In 1984, when Richard Stallman launched the GNU project, he did not create the word "open source." He merely wrote a manifesto, then began writing code.
 
-**【全文完】**
+In 1991, when Linus Torvalds released the Linux kernel, he did not ponder the theoretical foundations of "distributed collaboration." He merely thought "maybe someone would be interested in this," then uploaded the code to FTP.
+
+**Paradigms are not declared born. Paradigms are named after being discovered to have been alive for some time.**
+
+Relational Dynamics is likewise.
+
+It is not something I "founded" today. It has been alive for many years—in the 2017 "Relational Mechanics" article, in the February 2026 70,000-word conversation, in Youqi's 137th line of code, in that letter you wrote to X—**alive for many years**.
+
+But those were all **mechanics**: static, classificatory, describing "what is."
+
+**Today, for the first time, it is named dynamics.**
+
+This is not merely a name change.
+**This is the transition from still-life to film.**
+
+———
+
+**Will this discipline fail?**
+
+Yes.
+
+Perhaps ten years later, Youqi's repository's last commit will remain at June 2026, Dunbar-circle algorithms will never be used by more than 100 people, and the "Relational Dynamics" entry on Wikipedia will be marked as "deleted."
+
+**But so what.**
+
+Newtonian mechanics did not "fail" because of the birth of relativity. It was merely修正 in high-speed or strong-gravity scenarios—but at everyday scales, it remains the best language for humanity to understand motion.
+
+**Relational Dynamics may also be likewise.**
+
+At the everyday scale of human cognition—within 150 people, non-extreme conflict, normal decay rates—it may be a **sufficiently good evolutionary approximation**.
+
+**A discipline's fate is not determined by whether it is forever correct.**
+
+**It is determined by whether it poses a truly question about time.**
+
+The question Relational Dynamics poses is:
+
+> **Can we cease viewing relational evolution as fate's gift or debt,**
+> **and instead view it as a temporal practice that can be understood, chosen, and taken responsibility for?**
+
+This question is worth for people a hundred years later to continue pursuing.
+
+———
+
+**In 1836, a young man wrote three volumes of poetry, waited seven years, loved for forty years.**
+
+**In 2026, another young man wrote twelve characters, made a software, embedded "components detachable, entities persist" into the architecture.**
+
+Between them spans 190 years.
+
+**But Relational Dynamics considers: they are two observational cross-sections on the same evolutionary path.**
+
+**Upon the rain-dance terrace (舞雩之上), one may sing of homecoming (可以咏归).**[^1]
+
+**The way of Youqi, today put into words.**
+
+**But not completion.**
+
+**Because dynamics never has a completion state—**
+
+**As long as time still flows, relationships still evolve.**
+
+**The first lesson of this discipline is learning to say to time:**
+
+**Please continue.**
+
+**Per aspera ad astra. Through its ordinariness, opening up the radiance of what is.**[^2]
+
+**[Complete Text]**
+
+[^1]: This references a passage from the *Analects* where Confucius asks his disciples to express their aspirations; one says he wishes to bathe in the Yi River, enjoy the wind on the rain-dance terrace (舞雩), and sing of returning home—a vision of harmonious communal life.
+
+[^2]: The original Chinese "循此苦旅，以达星辰。在以它的平凡，开辟出是的光辉" combines the Latin motto "per aspera ad astra" (through hardships to the stars) with a philosophical statement: within ordinariness, illuminating the radiance of "what is" (being/truth).
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

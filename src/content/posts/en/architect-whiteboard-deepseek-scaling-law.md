@@ -11,333 +11,333 @@ description: >
   从2012年阿里巴巴B2B私有化的架构挑战出发，深度复盘DeepSeek LLM论文中的长期主义与极致务实，探讨通往AGI的Scaling Law规律与方法论。
 ---
 
-## 序章 · 深夜的架构图
+## Prologue · The Architecture Diagram in the Late Night
 
-2012年6月的一个深夜，杭州。
+Late one night in June 2012, Hangzhou.
 
-阿里巴巴B2B业务刚刚完成从港交所的私有化退市。我坐在办公室，面前铺着一张巨大的系统架构图。那时候，我们的平台每天要处理超过10亿次服务调用，支撑着全球两千多万商户的生意。一个挥之不去的问题悬在头顶：**当业务规模扩大十倍，这套架构还能撑得住吗？**
+Alibaba's B2B business had just completed its privatization delisting from the Hong Kong Stock Exchange. I sat in my office, a massive system architecture diagram spread before me. At that time, our platform processed over 1 billion service calls daily, supporting the businesses of more than 20 million merchants worldwide. An inescapable question hung over my head: **When business scale expands tenfold, can this architecture still hold?**
 
-这个问题看似简单，回答起来却让人后背发凉。不是因为技术不够好，而是因为——**我们其实没有一个可靠的方法，去预测“扩大规模”这件事本身的成本和收益。** 增加服务器能带来多少性能提升？数据量翻倍，模型复杂度应该怎么调？这些决策，在当时更多依赖的是经验和直觉，而不是精确的科学。
+This question seems simple, but answering it sends chills down your spine. Not because the technology wasn't good enough, but because—**we actually had no reliable method for predicting the costs and benefits of "scaling up" itself.** How much performance improvement would adding servers bring? If data volume doubled, how should model complexity be adjusted? These decisions relied more on experience and intuition than on precise science.
 
-十多年后的今天，我坐在广州的办公室里，面前的“架构图”从电商系统变成了一篇论文——DeepSeek团队发布的《DeepSeek LLM: Scaling Open-Source Language Models with Longtermism》。读完之后，我感受到了一种久违的共鸣。
+Over a decade later, I sit in an office in Guangzhou. The "architecture diagram" before me has transformed from an e-commerce system into a paper—the paper published by the DeepSeek team, *DeepSeek LLM: Scaling Open-Source Language Models with Longtermism*. After reading it, I felt a long-absent resonance.
 
-这不是一篇关于“我们做了多大的模型”的炫技文章，而是一篇关于 **“我们如何找到一种方法，可靠地预测扩大规模的效果”** 的工程方法论论文。它试图回答的，恰恰是2012年那个深夜困扰我的问题——只不过，这次不是在电商架构的尺度上，而是在通往通用人工智能(AGI)的尺度上。
+This is not a paper about "how big a model we made"—it's a paper about **"how we found a method to reliably predict the effects of scaling up"**. It attempts to answer precisely the question that haunted me on that late night in 2012—except this time, not at the scale of e-commerce architecture, but at the scale of the path toward Artificial General Intelligence (AGI).
 
-让我特别触动的是他们提出的核心理念：**Longtermism,长期主义。** 这不是一个空洞的口号。在上下文里，它指的是：与其一次烧钱堆出个大模型然后炫耀跑分，不如花时间搞清楚“规模化”(scaling)这件事本身的内在规律。一旦掌握了规律，你就能用小的、便宜的实验，去预测大的、贵的模型的性能。
+What struck me most was their core proposition: **Longtermism (长期主义).** This is not an empty slogan. In this context, it means: rather than burning money once to build a massive model and then炫耀 benchmark scores, spend time understanding the intrinsic规律 of "scaling" itself. Once you grasp the规律, you can use small, cheap experiments to predict the performance of large, expensive models.
 
-这就像航海。早期探险家靠的是勇气和运气，而现代航海靠的是精确的海图和天气预报。DeepSeek团队想做的，就是绘制大模型的“航海图”。
+This is like navigation. Early explorers relied on courage and luck; modern navigation relies on precise charts and weather forecasts. What the DeepSeek team wanted to do was draw the "nautical chart" for large models.
 
-但这个任务比想象中难得多。为什么？因为之前画出来的“海图”居然是相互矛盾的。
+But this task is far harder than imagined. Why? Because the previously drawn "charts" were actually contradictory.
 
-**OpenAI在2020年发表了一篇著名的Scaling Law论文。** 他们研究了模型参数量N、训练数据量D、计算预算C之间的关系，得出的结论是：如果计算预算增加了，你应该把大部分新增预算投入到**扩大模型参数量N**上，数据量D的增加相对少一些。具体来说，他们拟合出的关系大约是 N_opt ∝ C^0.73, D_opt ∝ C^0.27。也就是说，模型规模的指数是0.73,数据的指数只有0.27.
+**In 2020, OpenAI published a famous Scaling Law paper.** They studied the relationship between model parameter count N, training data volume D, and compute budget C, concluding that if the compute budget increases, you should allocate most of the新增 budget to **expanding model parameters N**, with relatively less increase in data volume D. Specifically, their fitted relationship was approximately N_opt ∝ C^0.73, D_opt ∝ C^0.27. That is, the exponent for model scale was 0.73, and for data only 0.27.
 
-**但到了2022年,DeepMind的Chinchilla论文**却给出了相反的结论。他们说自己做了更严谨的实验，发现应该是：**数据和模型同等重要，几乎要对半开。** 他们的拟合结果是 N_opt ∝ C^0.49, D_opt ∝ C^0.51。也就是各占一半。
+**But in 2022, DeepMind's Chinchilla paper** reached the opposite conclusion. They claimed to have conducted more rigorous experiments and found that: **data and model are equally important, nearly a 50-50 split.** Their fitted results were N_opt ∝ C^0.49, D_opt ∝ C^0.51—essentially half and half.
 
-一个是73:27,一个是50:50。这差距大到无法忽略。作为技术决策者，你该信谁？如果你按照OpenAI的建议，把几千万美元砸进扩大模型，结果发现瓶颈其实是数据不够，那这几千万就打了水漂。反过来也一样。
+One says 73:27; the other says 50:50. This gap is too large to ignore. As a technical决策者, whom should you trust? If you follow OpenAI's advice and pour millions of dollars into expanding the model, only to discover the bottleneck is actually insufficient data, those millions go down the drain. The reverse holds equally.
 
-这就是为什么DeepSeek团队决定自己从头研究Scaling Law。用他们的话说，之前的结论不同，“casts a dark cloud over scaling LLMs”——给大模型的规模化蒙上了一层阴云。他们要亲手拨开这层云。
+This is why the DeepSeek team decided to研究 Scaling Law from scratch themselves. In their words, the differing previous conclusions "casts a dark cloud over scaling LLMs." They wanted to personally dispel that cloud.
 
-而这，就是我写这篇万字拆解的初心。
+And this is my original motivation for writing this ten-thousand-character teardown.
 
-我会用**架构师和物理学徒的双重身份**，把这篇论文从头到尾拆给你看。不堆公式，不搬术语，只用物理直觉和生活类比。保证读到这里的本科生也能理解，这篇看似高深的AI论文，本质上在讲一个什么故事。
+I will use my **dual identity as architect and physics apprentice** to dissect this paper for you from beginning to end. No formula-stacking, no jargon搬运—only physical intuition and everyday analogies. I guarantee that any undergraduate reading this can understand what story this seemingly arcane AI paper is fundamentally telling.
 
-好，让我们开始。
-
----
-
-## 第一乐章 · 调校炼丹炉
-
-古人炼丹，讲究“炉火纯青”。炉子没搭好，火候没摸准，炼出来的就是废渣。大模型训练也一样。在讨论深奥的Scaling Law之前,DeepSeek团队花了大量篇幅讲他们的基础工作——数据怎么洗，模型怎么搭，分词器怎么设计。
-
-这些内容在论文里容易被跳过，但作为当年搭过电商平台基础架构的人，我深知：**决定上层建筑能建多高的，永远是地基。**
-
-### 食材备制：数据清洗的艺术
-
-大模型吃的是数据。数据质量直接决定模型质量。这跟做饭一个道理——米其林大厨用的食材，和路边摊用的食材，做出来的菜能一样吗?
-
-DeepSeek团队的数据处理分三步走：**去重、过滤、重混合。**
-
-**去重**这件事，比听起来要复杂得多。想象你在整理一个巨大的图书馆。有些书是孤本，有些书有几十个副本散落在不同书架上。如果你不去重，模型就会把同一本书读几十遍——这不仅是浪费，更可怕的是，模型会误以为这本书里的观点是“主流观点”，因为它的出现频率被人为放大了。
-
-但难点在于：你怎么定义“重复”？完全一样的两个文档当然好认。但如果有人把一篇文章改了10%的字，算不算重复？如果一篇文章被翻译成了中文、日文、法文，算不算重复?
-
-DeepSeek团队做了个很细致的实验。他们发现，如果只在单个数据快照(dump)内部去重，去重率只有22%到46%。但如果横向跨91个快照去重，去重率能达到**89.8%**——这意味着近九成的重复都被干掉了。这个数字让我想起当年做电商搜索时，我们也是通过跨多个索引分片去重，才真正解决了商品重复展示的问题。**工程上，很多难题的答案都在“横向打通”这四个字里。**
-
-**过滤**这一步更考验功力。怎么判断一个文档的质量？你不能靠人工一篇篇看，量太大了。必须设计自动化的质量评估标准。论文里提到他们综合了“语言学分析和语义评估”——说白了，就是从语言通不通顺、有没有实质性内容这两个维度来打分。
-
-这让我想起一个比喻。好的数据像营养成分丰富的食物，坏的数据像垃圾食品——吃了会饱，但不长肌肉只长肥肉。用垃圾数据训练的模型，参数是上去了，但推理能力稀烂。
-
-**重混合**是最后一步。不同的知识领域在互联网上的占比是不均衡的。比如娱乐花边新闻可能占了90%，而严肃的数学推理只占0.1%。如果原样喂给模型，它就只会写八卦，不会做数学。所以要刻意调整比例，增加那些“小众但有营养”的数据——这就像配比猫粮，蛋白质、脂肪、碳水要有合理的比例。
-
-### 地基设计：为什么是95层而不是加宽?
-
-模型架构这部分,DeepSeek基本上是跟随LLaMA的设计。但有一处“微调”特别值得玩味。
-
-他们的67B模型有**95层**，而对标的LLaMA 70B只有80层。在总参数量差不多的情况下,DeepSeek选择了“更深”而不是“更宽”。
-
-这有什么讲究?
-
-想象你要建一栋办公楼，总面积固定。你有两种选择：一种是建得矮一些，但每层面积很大(更宽)；另一种是建得高一些，每层面积缩小(更深)。哪种更好?
-
-对于办公楼，高层能装下更多有独立办公室的部门，功能分区更清晰。对于神经网络，**更深意味着更多的“抽象层级”**——每一层可以对上一层的特征做进一步的提炼和组合。
-
-这就像理解一个笑话。大脑的神经处理可能也有层级：第一层识别出这是语言；第二层理解字面意思；第三层捕捉到双关的可能；第四层结合语境；第五层才觉得好笑。层数越多，能处理的抽象程度越高。
-
-但为什么不无限加深呢？因为有两个致命问题。
-
-第一是**梯度消失/爆炸**。层数太多，信号从最后一层传回第一层时会变得越来越弱(或越来越强)，导致前面的层根本学不到东西。好在现代架构(RMSNorm, SwiGLU, Rotary Embedding等)已经较好地解决了这个问题。
-
-第二是**推理效率**。层数加深意味着推理时必须串行计算——第51层的结果出来之前，第52层没法开工。如果层太深，即使单层计算很快，总延迟也会让人抓狂。而“加宽”(增加d_model维度)则可以通过并行来加速。
-
-DeepSeek选择了95层，说明他们在“高抽象能力”和“推理延迟”之间找到了一个平衡点。更深，但不过分深。这个决策没有魔法，只有tradeoff——而识别和导航tradeoff,正是架构师的核心能力。
-
-### 一个小而美的细节：分词器
-
-分词器(Tokenizer)负责把原始文本切成模型能处理的最小单元。英文里，“apple”可能是一个token(词单元)；中文里，“苹果”通常是一个token.
-
-DeepSeek用的是BBPE(字节级BPE)算法，词汇量设为102400。一个有趣的细节是：他们把数字拆分成单个数字——比如“2024”不是整体，而是“2”、“0”、“2”、“4”四个token.
-
-为什么这样做？我一开始也不理解。后来看到解释才明白：**数字的组合是无限的，但单个数字只有10个。** 如果把每个数字组合都当作独立token,词汇表会爆炸。更重要的是，拆开后，模型可以真正“计算”——它能看到“2”和“4”之间的关系，而不是把一个叫“2024”的黑盒子直接吐出来。这为数学推理能力打下了基础。
-
-这让我想起《道德经》里的一句话：“图难于其易，为大于其细。”天下难事，必作于易；天下大事，必作于细。大模型的成功，很多时候不在宏大的叙事里，而在这些深夜抠细节的决定里。
+Alright, let us begin.
 
 ---
 
-## 第二乐章 · 绘制寻宝图
+## Movement One · Calibrating the Furnace
 
-第一乐章讲的是“搭炉子”。现在炉子搭好了，最核心的部分来了。
+Ancient alchemists讲究 "furnace-fire perfection" (炉火纯青). If the furnace isn't built well and the fire temperature isn't mastered, what's produced is slag. Large model training is the same. Before discussing the profound Scaling Law, the DeepSeek team devoted extensive篇幅 to their foundational work—how data is cleaned, how models are built, how tokenizers are designed.
 
-假设你是一个探险队队长，要在茫茫群山中寻找宝藏。你有有限的补给和人力(计算预算C)。你需要决定：是派更多人去勘探(Model规模)，还是收集更详细的当地数据(Data规模)？怎么分配效率最高?
+These sections are easy to skip in the paper, but as someone who once built the foundational architecture of an e-commerce platform, I know deeply: **what determines how high the upper structure can rise is always the foundation.**
 
-这就是Scaling Law试图回答的问题。而DeepSeek的贡献，在我看来，是让问题本身变得更精确了。
+### Ingredient Preparation: The Art of Data Cleaning
 
-### 3.1 超参数的宽阔山谷
+Large models eat data. Data quality directly determines model quality. It's the same principle as cooking—the ingredients a Michelin chef uses versus those of a street stall, can the dishes be the same?
 
-机器学习里，有大量“超参数”需要设置——学习率啦，批次大小(batch size)啦，等等。这些参数不直接决定模型能力，但严重影响训练效果。
+The DeepSeek team's data processing followed three steps: **deduplication, filtering, and remixing.**
 
-问题是：**当你的模型规模从1亿参数扩大到100亿参数，这些参数的最优值会变吗？**
+**Deduplication** is far more complex than it sounds. Imagine organizing a massive library. Some books are unique copies; others have dozens of duplicates scattered across different shelves. If you don't deduplicate, the model will read the same book dozens of times—not only is this wasteful, but more terrifyingly, the model will mistakenly assume the views in that book are "mainstream views" because their frequency has been artificially inflated.
 
-之前的经典研究(比如OpenAI的Kaplan等人)发现，最优批次大小似乎只跟最终性能目标有关，跟模型大小或计算预算关系不大。如果是这样，你就不用反复试了——直接用之前的最优值就行。
+But the difficulty lies in: how do you define "duplicate"? Two identical documents are easy to spot. But if someone changed 10% of the words in an article, does that count as a duplicate? If an article was translated into Chinese, Japanese, and French, does that count as duplication?
 
-但DeepSeek发现不是这样。他们做了大规模网格搜索后得出结论：**最优批次大小B会随着计算预算C的增加而增加，最优学习率η会随着C的增加而减小。** 并拟合出了明确的公式。
+The DeepSeek team conducted a very meticulous experiment. They found that if deduplication is performed only within a single data dump, the deduplication rate ranges from 22% to 46%. But if cross-duplication is performed across 91 dumps横向, the deduplication rate reaches **89.8%**—meaning nearly nine-tenths of duplicates were eliminated. This number reminded me of when we did e-commerce search—we also only truly solved the problem of duplicate product listings through cross-duplication across multiple index shards. **In engineering, the answer to many difficult problems lies in the four characters "横向打通" (cross-integration).**
 
-这背后有什么物理直觉?
+**Filtering** is the step that more考验功力. How to judge a document's quality? You can't rely on manually reading each one—the volume is too large. You must design automated quality评估标准. The paper mentions they integrated "linguistic analysis and semantic evaluation"—put plainly, scoring from two dimensions: whether the language flows smoothly, and whether there is substantive content.
 
-学习率决定了模型每次调整参数的幅度。学习率大，步子迈得大，学得快但容易错过最优解。学习率小，步子精细，但可能走太慢。**计算预算大的时候，你能跑的步数多，所以可以把学习率调小一些，走得更精细。** 而批次大小越大，每个批次的数据越多，梯度估计越准，训练越稳，但单批计算量也大。预算大时，你有更多计算余量，可以承受更大batch带来的好处。
+This reminds me of an analogy. Good data is like nutrient-rich food; bad data is like junk food—it fills you up, but builds fat not muscle. A model trained on junk data may have参数 that go up, but its reasoning ability is abysmal.
 
-关键在于他们发现的另一个现象：**最优参数空间非常宽阔。**
+**Remixing** is the final step. Different knowledge domains occupy unequal proportions on the internet. Entertainment gossip may occupy 90%, while serious mathematical reasoning accounts for only 0.1%. If fed to the model as-is, it will only write八卦, not do math. So you must deliberately adjust proportions, increasing those "minority but nutritious" data—this is like formulating cat food, where protein, fat, and carbohydrates must be in reasonable ratios.
 
-用他们的话说，只要你的参数落在那个区域里，**“generalization error remains stable across a wide range of choices”**——泛化误差在很多选择下都很稳定。在另一处，他们把那些泛化误差比最低点高出不超过0.25%的模型都标记为“near-optimal”(近似最优)。
+### Foundation Design: Why 95 Layers Instead of Wider?
 
-0.25%。这意味着你稍微偏离最优设置，性能损失微乎其微。
+For model architecture, DeepSeek largely followed LLaMA's design. But one "微调" (fine adjustment) is particularly值得玩味.
 
-他们把最优区域画出来，不是一条线，而是一个**宽阔的条带(broad band)**。
+Their 67B model has **95 layers**, while the comparable LLaMA 70B has only 80 layers. With total参数量 roughly the same, DeepSeek chose "deeper" rather than "wider."
 
-这个发现对工程落地的意义巨大。这意味着你在训练大模型之前，其实**不需要用超级昂贵的实验去精确寻找那个最优参数点**。你只需要小心地通过小模型预测出一个大致范围，然后在大模型训练时，你大概率就落在这个“宽阔山谷”里。你不会踩在悬崖边缘，你走在一个平坦的高原上。
+What's the rationale here?
 
-作为工程师，这让我大松一口气。它把“玄学调参”变成了“大约摸就行”。
+Imagine you're building an office tower with a fixed total floor area. You have two options: build it shorter but with larger floor plates per story (wider), or build it taller with smaller floor plates per story (deeper). Which is better?
 
-### 3.2 计算的真实流动：为什么C≠6ND?
+For an office building, a taller structure can accommodate more departments with independent offices, with clearer functional分区. For neural networks, **deeper means more "levels of abstraction"**—each layer can further refine and compose the features from the previous layer.
 
-这个标题写下来，我就知道是本章最硬核的部分。但也是最精彩的部分。我会努力让没有数学背景的读者也能感受到其中逻辑之美。
+This is like understanding a joke. The brain's neural processing may also have levels: the first layer recognizes this as language; the second layer grasps the literal meaning; the third layer catches the possibility of a pun; the fourth layer combines context; the fifth layer finally finds it funny. More layers enable processing of higher degrees of abstraction.
 
-之前所有scaling law研究，在关联“计算量C”和“模型大小N”、“数据量D”时，都使用一个近似公式：
+But why not deepen infinitely? Because there are two致命问题.
+
+The first is **gradient vanishing/explosion**. With too many layers, the signal becomes increasingly weak (or increasingly strong) as it propagates from the last layer back to the first, causing earlier layers to learn nothing. Fortunately, modern architectures (RMSNorm, SwiGLU, Rotary Embedding, etc.) have largely resolved this problem.
+
+The second is **inference efficiency**. Deeper layers mean inference must be computed serially—layer 52 cannot begin work until layer 51's results are available. If layers are too deep, even if single-layer computation is fast, total latency becomes maddening. "Widening" (increasing d_model dimension) can be accelerated through parallelization.
+
+DeepSeek chose 95 layers, indicating they found a balance between "high abstraction capability" and "inference latency." Deeper, but not excessively deep. This decision has no magic—only tradeoff. And identifying and navigating tradeoffs is precisely the core capability of an architect.
+
+### A Small and Beautiful Detail: The Tokenizer
+
+The tokenizer (分词器) is responsible for splitting raw text into the smallest units the model can process. In English, "apple" might be one token; in Chinese, "苹果" is typically one token.
+
+DeepSeek uses the BBPE (Byte-Level BPE) algorithm, with a vocabulary size of 102,400. An interesting细节: they split numbers into individual digits—for example, "2024" is not a whole token but four tokens: "2", "0", "2", "4".
+
+Why do this? I didn't understand at first either. Upon seeing the explanation, I realized: **combinations of numbers are infinite, but individual digits are only 10.** If every number combination were treated as an independent token, the vocabulary table would explode. More importantly, once拆开, the model can truly "compute"—it can see the relationship between "2" and "4", rather than vomiting a black box called "2024" directly. This lays the groundwork for mathematical reasoning capability.
+
+This reminds me of a line from the *Dao De Jing* (《道德经》): "图难于其易，为大于其细" (Accomplish the difficult by handling the easy; accomplish the great by attending to the small). The greatest difficulties must be approached through the easiest; the greatest tasks must be始于 from the smallest details. The success of large models often lies not in grand narratives, but in these late-night decisions抠细节.
+
+---
+
+## Movement Two · Drawing the Treasure Map
+
+Movement One discussed "building the furnace." Now the furnace is built, and the most core part arrives.
+
+Imagine you are the leader of an expedition, searching for treasure in a vast mountain range. You have limited supplies and manpower (compute budget C). You need to decide: send more people to explore (Model scale), or collect more detailed local data (Data scale)? How to allocate for maximum efficiency?
+
+This is precisely the question Scaling Law attempts to answer. And DeepSeek's contribution, in my view, is making the question itself more precise.
+
+### 3.1 The Broad Valley of Hyperparameters
+
+In machine learning, there are numerous "hyperparameters" to set—learning rate, batch size, and so on. These parameters don't directly determine model capability, but severely affect training effectiveness.
+
+The question is: **when your model scale expands from 100 million parameters to 10 billion, do the optimal values of these parameters change?**
+
+Earlier经典研究 (such as OpenAI's Kaplan et al.) found that optimal batch size似乎 only relates to the最终性能目标, with little relationship to model size or compute budget. If so, you don't need to repeatedly experiment—just use the previous optimal values.
+
+But DeepSeek found otherwise. After conducting large-scale grid search, they concluded: **optimal batch size B increases as compute budget C increases, and optimal learning rate η decreases as C increases.** They fitted explicit formulas.
+
+What physical intuition lies behind this?
+
+Learning rate determines the magnitude of each parameter adjustment the model makes. Large learning rate means big steps—fast learning but easy to overshoot the optimal solution. Small learning rate means fine steps—precise but potentially too slow. **When compute budget is large, you can run more steps, so you can afford to reduce the learning rate for finer traversal.** Larger batch size means more data per batch, more accurate gradient estimates, more stable training, but also heavier per-batch computation. With a larger budget, you have more computational margin to bear the benefits of larger batches.
+
+The关键 lies in another phenomenon they discovered: **the optimal parameter space is very broad.**
+
+In their words, as long as your parameters fall within that region, **"generalization error remains stable across a wide range of choices."** Elsewhere, they labeled any model whose泛化误差 was no more than 0.25% above the lowest point as "near-optimal."
+
+0.25%. This means that slight deviation from optimal settings results in negligible performance loss.
+
+They plotted the optimal region—not as a line, but as a **broad band**.
+
+This finding has enormous significance for engineering deployment. It means before training a large model, you actually **don't need super expensive experiments to precisely locate that optimal parameter point.** You only need to carefully predict a general range through small models, and during large model training, you'll most likely land within this "broad valley." You won't be teetering on a cliff edge—you'll be walking on a flat plateau.
+
+As an engineer, this gave me a huge sigh of relief. It transforms "玄学调参" (arcane parameter tuning) into "大约摸就行" (rough approximation is fine).
+
+### 3.2 The True Flow of Computation: Why C ≠ 6ND?
+
+I knew from the title that this would be the most hardcore section of this chapter. But also the most brilliant. I'll strive to let readers without mathematical background also appreciate the beauty of its logic.
+
+All previous scaling law studies, when correlating "computation C" with "model size N" and "data volume D", used an approximate formula:
 
 **C ≈ 6ND**
 
-这个公式是怎么来的？一个训练步(token)的前向传播需要约2N次浮点运算(一次乘法，一次加法)，反向传播需要约4N次，加起来就是6N。所以处理D个token的总计算量就是6ND.
+How does this formula arise? One training step (per token) requires approximately 2N floating-point operations for forward propagation (one multiplication, one addition), approximately 4N for backpropagation, totaling 6N. So processing D tokens requires total computation of 6ND.
 
-近似，但不是精确。
+Approximate, but not精确.
 
-问题出在两个地方。第一，这个N到底代表什么?Kaplan用的是“非嵌入层参数N1”，就是大部分计算发生的那些层。Hoffmann用的是“完整参数N2”，包括嵌入层。这两者在小模型上能差出一倍以上。
+The problems arise in two places. First, what does this N actually represent? Kaplan used "non-embedding-layer parameters N1"—the layers where most computation occurs. Hoffmann used "full parameters N2", including embedding layers. The two can differ by more than a factor of two on small models.
 
-第二，也是最关键的，**两者都忽略了注意力(attention)机制的计算量**。在大模型、长序列的情况下，注意力操作非常昂贵。
+Second, and most critically, **both忽略 the computational cost of the attention mechanism.** In large models with long sequences, attention operations are extremely expensive.
 
-DeepSeek团队引入了一个新度量：
+The DeepSeek team introduced a new metric:
 
-**M = 非嵌入层FLOPs/token(令牌浮点运算次数)**
+**M = Non-embedding-layer FLOPs/token**
 
-也就是每个token经过模型时，实际发生的浮点运算次数，**包含注意力操作，但不包含词汇映射那部分(因为词汇映射对“智能”贡献小)**。
+That is, the actual floating-point operations per token as it passes through the model, **including attention operations, but excluding the vocabulary mapping portion (because vocabulary mapping contributes little to "intelligence").**
 
-这有什么了不起的?
+What's remarkable about this?
 
-旧公式C=6ND是一个近似值，实际上当你说“我要给这个模型1e20的算力”时，如果你用旧公式，实际上的算力可能有系统误差。在比较不同大小、不同配置的模型时，你的比较基线就是歪的。
+The old formula C = 6ND is an approximation; actually, when you say "I want to give this model 1e20 of compute," if you use the old formula, the actual compute may have systematic误差. When comparing models of different sizes and configurations, your comparison baseline is distorted.
 
-**而M让比较基线变平了。** 在极小的模型上，旧公式6N1/M只有0.43,意味着它严重低估了实际计算量。而在最大的模型上,N2/M达到0.94,就比较准了。你要是从小模型上去推测大模型的行为，带着系统误差的公式会给你指错路。
+**And M flattens the comparison baseline.** On extremely small models, the old formula gives 6N1/M = only 0.43, meaning it severely underestimates actual computation. On the largest models, N2/M reaches 0.94, which is more accurate. If you try to extrapolate large model behavior from small models, a formula carrying systematic误差 will point you in the wrong direction.
 
-这就好比：你要测量一段距离，但你的尺子是橡皮做的——短距离时绷得紧，长距离时松，读数完全是歪的。DeepSeek做的，就是换了一把准确的钢尺。
+It's like trying to measure a distance with a rubber ruler—tight when measuring short distances, loose when measuring long ones, producing entirely歪的 readings. What DeepSeek did was switch to an accurate steel ruler.
 
-他们用这把“钢尺”重新做了IsoFLOP实验。
+They used this "steel ruler" to重新 conduct IsoFLOP experiments.
 
-IsoFLOP的意思是“等计算量”。给定一个固定的计算预算，比如1e20 FLOPs,尝试不同的模型大小和数据量配比，看看哪个配比能达到最低的测试损失。比如你可以做一个10亿参数的模型，配1000亿token的数据；也可以做一个30亿参数的模型，配333亿token的数据。两者计算量一样，但效果不同。
+IsoFLOP means "equal computation." Given a fixed compute budget, say 1e20 FLOPs, try different ratios of model size and data volume to see which ratio achieves the lowest test loss. For example, you could make a 1-billion-parameter model with 100 billion tokens of data, or a 3-billion-parameter model with 33.3 billion tokens. Both have equal computation, but different effectiveness.
 
-他们做出了结果。拟合出：
+They obtained results. Fitted:
 
 **M_opt ∝ C^0.5243**
 **D_opt ∝ C^0.4757**
 
-四舍五入,50比50.
+Round it off—50 versus 50.
 
-这个结果与DeepMind的Chinchilla(49 vs 51)很接近，跟OpenAI的(73 vs 27)差别很大。
+This result is close to DeepMind's Chinchilla (49 vs 51), and quite different from OpenAI's (73 vs 27).
 
-但等等，这还不算完。他们接下来做了一个让我眼前一亮的分析。
+But wait, there's more. They接下来 performed an analysis that truly dazzled me.
 
-### 3.3 数据的材质与模型的形态
+### 3.3 The Material of Data and the Form of the Model
 
-DeepSeek在自己开发过程中，有早期版本的数据集，也有后期优化过的当前版本数据集。此外，他们还把OpenWebText2(一个之前其他论文用过的公开数据集)也拿来跑了一遍。
+During their own development process, DeepSeek had early-version datasets and later optimized current-version datasets. Additionally, they ran experiments on OpenWebText2 (a publicly available dataset previously used by other papers).
 
-三个数据集，得出的最优配比却不一样。
+Three datasets yielded different optimal allocation ratios.
 
-对于“早期数据”,a=0.450,b=0.550——数据更重要，应该把55%的增量算力投入数据扩展。
+For "early data": a = 0.450, b = 0.550—data is more重要, and 55% of incremental compute should go to data scaling.
 
-对于“当前数据”(更高质量),a=0.524,b=0.476——模型和数据几乎一半一半，但模型略占优势。
+For "current data" (higher quality): a = 0.524, b = 0.476—model and data are nearly half and half, with model slightly dominant.
 
-对于OpenWebText2(经过精心处理的小数据集),a=0.578,b=0.422——**模型占据绝对主导，指数飙到0.578。**
+For OpenWebText2 (a carefully processed small dataset): a = 0.578, b = 0.422—**the model claims绝对主导, with the exponent soaring to 0.578.**
 
-一个非常清晰的趋势出现了：**数据质量越高，最优化分配策略越偏向“扩大模型”而不是“扩大数据”。**
+A very清晰趋势 emerged: **the higher the data quality, the more the optimal allocation strategy favors "expanding the model" rather than "expanding data."**
 
-这是什么道理？我坐在这里想这个问题，推演出了这样一个框架。
+What's the logic behind this? I sat here pondering this question and推导出 the following framework.
 
-假设数据是食物，模型是吃食物长大的生物。给模型一堆低质量的垃圾食品，不管堆多少，它也长不出强健的推理能力。因为逻辑和推理是需要结构化和清晰信号才能学到的模式。低质量数据重复堆量，只是让它在同样的噪音里打转，边际收益递减得非常快。
+Suppose data is food, and the model is a organism that grows by eating. Feed the model a pile of low-quality junk food—no matter how much you pile on, it won't develop robust reasoning ability. Because logic and reasoning are patterns that require structured and clear signals to learn. Low-quality data repeatedly堆量 only keeps the model spinning in the same noise, with marginal收益递减 extremely rapidly.
 
-但高质量数据，比如一本教科书，言之有物，逻辑严密。一个智商高的学生(大模型)反复读同一本教科书，是不是就能自己推导出很多全新的结论？反过来，一个智商低的学生(小模型)，读再多遍教科书，内部消化吸收能力有限，也还是只能学到皮毛。
+But high-quality data, like a textbook, is substantive and logically rigorous. A high-IQ student (large model) reading the same textbook repeatedly—can it derive many entirely new conclusions on its own? Conversely, a low-IQ student (small model), no matter how many times they read the textbook, has limited internal消化吸收能力 and can only grasp the surface.
 
-所以，**数据和模型之间不是简单的堆料关系，它们中间有一个非常关键的“吸收”过程。** 而这个吸收的速率，更多取决于模型的“理解能力”——从根本上来说，就取决于模型的规模。
+So, **the relationship between data and model is not simple堆料; there is a crucial "absorption" process in between.** And the rate of this absorption depends more on the model's "understanding capability"—fundamentally, on the model's规模.
 
-这就解释了：数据质量越好，它就越“耐用”，一个强大的模型可以反复从中萃取营养。所以当你握有高质量数据时，最明智的策略是把增量算力投向模型，让它变得更强，去榨干这批优质数据的最后一点价值。
+This explains: the better the data quality, the more "durable" it is, and a powerful model can repeatedly extract营养 from it. So when you possess high-quality data, the wisest strategy is to direct incremental compute toward the model, making it stronger, to squeeze out the last drop of value from this premium data.
 
-这个发现意味着：**scaling law不是一个普适常数**，它依赖于你的数据。你看到别人论文里画的最优点，不一定是你家数据的最优点。归根结底，你得自己动手测试。
+This finding means: **scaling law is not a universal常数**—it depends on your data. The optimal point drawn in someone else's paper may not be the optimal point for your data. Ultimately, you must test it yourself.
 
-同时，它也提供了一个间接判断数据质量的工具——**a系数越高，暗示你的数据质量越好。**
-
----
-
-## 第三乐章 · 赋予模型灵魂
-
-有了一个强大的预训练(Pre-training)模型，接下来怎么办？如果你直接用它进行对话，它会回答你一句话的下文是什么，而不是一个有用的、忠诚的、安全的AI助手。
-
-把这个raw模型变成一个真正好用的对话伙伴，这个过程叫“对齐”(Alignment)。这个部分是整个流程中，最像“魔法”，也最像“艺术”的阶段。DeepSeek的路线是：**SFT(有监督微调,Supervised Fine-Tuning) + DPO(直接偏好优化,Direct Preference Optimization)**。
-
-### SFT与DPO的默契
-
-指令数据非常关键。DeepSeek准备了约150万条指令数据，涵盖通用语言、数学和代码。SFT就是用这些“问题-标准答案”对，给模型看，让它模仿。
-
-但这里有一个矛盾。7B小模型如果大量喂数学和代码数据，它的conversation能力会退化，最明显就是**喜欢重复说话**。因为数学和代码的推理链，天然就有很多重复模式。小模型概括能力弱，就学到了“不断重复”这个壳子。
-
-DeepSeek的办法聪明极了：**两阶段SFT。**
-
-第一阶段，全量数据，猛火快炒，主要是让它吸收数学和代码的逻辑能力。这时模型重复率2.0%。
-
-第二阶段，只喂高质量对话数据，不喂数学和代码。这时，它不是因为学习了“不要重复”来降低重复率，而是学习了更流畅、更多样的对话模式。当它学会能用多种方式表达同一意思后，自然就不会在一个死循环里打转了。最后重复率降到1.4%，数学和代码能力还在。
-
-67B模型只做第一阶段就够了，因为大模型本身有更强的泛化能力，不容易掉进重复陷阱。
-
-在SFT之后,DeepSeek还使用了DPO.DPO是一种新兴的偏好对齐方法。它不让模型去死记硬背标准答案，而是给它一对回答——一个好，一个坏——让它去学习“人类更偏好哪种回答”。
-
-结果是,DPO几乎不影响各项跑分，但在开放式对话、安全性和角色扮演上，提升明显。比如MT-Bench评分，从8.35跳到了8.76.
-
-### 数据配比的化学
-
-他们的指令数据配比：**31.2%通用语言,46.6%数学,22.2%代码。** 数学数据占了快一半。为什么?
-
-因为数学数据兼具了“严密逻辑”和“最终答案确定性”两者之长。代码也有类似特点，但数学更是对纯粹推理的训练。可以说，数学是这颗药丸里的“健脑成分”。
-
-不过他们也观察到了一个微妙的现象：加太多数学SFT数据，会让小模型更容易重复。**显然，数学和对话之间，有一条需要小心平衡的界线。**
-
-### 一个体现极致务实的选择
-
-在整个对齐过程中，最让我肃然起敬的一个细节是：他们选择**故意不加多项选择题(MC Data)数据**。
-
-在SFT阶段加入大量选择题训练，可以大幅拉升MMLU、C-Eval这类多项选择评测集的分数。智谱、百度等很多模型的SFT策略里都这么干。
-
-DeepSeek也试了。加了2000万道中文选择题后,C-Eval涨了24分，涨幅惊人。但他们去测其他**非选择题、生成式的评测**，发现分数没变化。
-
-顿时，这支团队明白了：加选择题，只是在教模型“考试技巧”，不是在教它“真正的知识和推理”。
-
-他们于是决定，为了报告的纯洁性，放弃这唾手可得的分数提升。
-
-读到这一段，我心里涌起一阵敬意。**这是真正的工程师精神：求真，务实，不装，不作弊。** 分数是给别人看的，智能是留给自己去突破下一个难题的。
+At the same time, it provides an间接 tool for judging data quality—the **higher the a coefficient, the better your data quality is暗示.**
 
 ---
 
-## 第四乐章 · 不仅是跑分
+## Movement Three · Endowing the Model with Soul
 
-评估环节，是所有AI论文最“卷”的部分。排行榜，柱子高一点，低一点，媒体追逐，股价波动。
+Once you have a powerful pre-trained model, what comes next? If you directly use it for dialogue, it will answer you with the continuation of a sentence, not as a useful, loyal, and safe AI assistant.
 
-但DeepSeek的评估章节，信息密度极高，且蕴含着远超跑分的技术洞见。
+Transforming this raw model into a truly usable conversational partner is the process called "alignment" (对齐). This part is the stage of the entire流程 that is most like "magic" and most like "art." DeepSeek's route is: **SFT (Supervised Fine-Tuning) + DPO (Direct Preference Optimization)**.
 
-他们分了四个层次来评估：标准公开基准(Base和Chat)、开放域评测(AlignBench, MT-Bench)、留出集防污染评测(LeetCode, Hungarian Exam)和安全评测。
+### The默契 of SFT and DPO
 
-我挑里面几个最有意思的来说。
+Instruction data is crucial. DeepSeek prepared approximately 1.5 million instruction data entries, covering general language, mathematics, and code. SFT uses these "question-standard answer" pairs, presenting them to the model for imitation.
 
-### 对比的艺术
+But there's a矛盾 here. If a 7B small model is大量 fed mathematics and code data, its conversation capability degrades—the most obvious manifestation being **a tendency to repeat itself**. Because the reasoning chains in mathematics and code inherently contain many repetitive patterns. Small models, with weak概括能力, learn the shell of "constant repetition."
 
-他们最核心的对比对象是LLaMA 2。结论是：**在同样使用2T token双语数据训练的情况下,DeepSeek 67B在代码、数学和推理上，已经显著超越了LLaMA 2 70B。**
+DeepSeek's solution was brilliant: **two-stage SFT.**
 
-这意味着什么？意味着“数据构成”和“scaling law指导下的训练方法”的价值，已经盖过了“参数量”的差异。
+First stage: full dataset, stir-frying猛火快炒, primarily to absorb mathematical and code reasoning capability. At this point, the model's repetition rate is 2.0%.
 
-在代码和数学上,DeepSeek 67B Base甚至能和专门训过的CodeLlama掰手腕，而他们的普通能力要强得多。而在数学上,DeepSeek 67B Chat配合工具使用，成绩甚至超过了当时的专用SOTA模型ToRA.
+Second stage: only feed high-quality dialogue data, no mathematics or code. At this point, it doesn't reduce repetition by learning "don't repeat"—rather, it learns more fluent, diverse dialogue patterns. Once it learns to express the same meaning in多种 ways, it naturally stops spinning in a死循环. The repetition rate最终 drops to 1.4%, while mathematical and code capability remains.
 
-这说明了一个深刻的道理：一个扎实的、全面的通用底座，可以在专项上媲美甚至超越专项模型。**博和专，不是对立的，博到深处，本身就是一种更高级的专。**
+The 67B model only needs the first stage, because large models inherently have stronger泛化能力 and don't easily fall into the repetition trap.
 
-### 系统提示的涌现
+After SFT, DeepSeek also used DPO. DPO is an新兴 preference alignment method. It doesn't make the model死记硬背 standard answers; instead, it gives it a pair of responses—one good, one bad—and teaches it to learn "which response humans prefer."
 
-DeepSeek做了个很有意思的测试：给模型加一个系统提示词，类似于“你是一个由DeepSeek创造的有用、诚实的人工智能助手……”。
+The result: DPO几乎不影响 various benchmark scores, but improves明显 on open-ended dialogue, safety, and role-playing. For instance, the MT-Bench score jumped from 8.35 to 8.76.
 
-结果,7B模型加上提示词后,MT-Bench分数不升反降，从7.15微跌到7.11。而67B模型加上提示词后，分数从8.35大涨到8.58.
+### The Chemistry of Data Proportion
 
-他们的解释是：**小模型理解不了系统提示词的深层意图，反而被这种“训练时不存在的格式”搞糊涂了。而大模型真正理解了系统提示词是在给它下达行为准则。**
+Their instruction data proportion: **31.2% general language, 46.6% mathematics, 22.2% code.** Mathematics data accounts for nearly half. Why?
 
-这种现象在AI界有个专门的名称：**涌现(Emergence)**。当模型跨过某个规模阈值，会突然获得一些小模型完全没有的能力。**指令遵循就是一种涌现能力。** 它不是设计出来的，不是训练目标明确包含的，而是规模到了，自然产生的。
+Because mathematics data combines the advantages of both "rigorous logic" and "deterministic最终答案." Code has similar characteristics, but mathematics is even more training for pure reasoning. One might say mathematics is the "brain-nourishing ingredient" in this pill.
 
-这让人对“长期主义”有了更深的信任。很多东西，不必在每一个中间步骤去着急优化。
+However, they also observed a微妙现象: adding too much mathematical SFT data makes small models更容易 repeat. **Clearly, between mathematics and dialogue, there is a界线 that requires careful balancing.**
 
-### 对齐税的思考
+### A Choice Reflecting极致务实
 
-一个几乎所有团队都观察到的现象是：有时候SFT和RLHF会带来一个矛盾效应——**安全性提升了，对话能力变好了，但标准学术benchmark的分数反而下降了。** 这种现象叫“对齐税”(Alignment Tax)。
+Throughout the alignment process, the细节 that most earned my肃然起敬 was: they chose **to deliberately not add multiple-choice question (MC Data) data**.
 
-DeepSeek也看到了。HellaSwag(一个完形填空式常识测试)在SFT后分数下降。他们的分析是：“这些任务通常涉及完形填空或句子补全……纯语言模型更擅长处理此类任务。”
+Adding大量 multiple-choice question training during the SFT stage can大幅 boost scores on multiple-choice evaluation sets like MMLU and C-Eval. Zhipu, Baidu, and many other models' SFT strategies do exactly this.
 
-翻译成大白话：**鱼与熊掌不可得兼。** 当你让模型学会像人一样对话时，它在“预测下文”这种模式下的表现自然会退化。这不是失败，只是一个需要接受的tradeoff.
+DeepSeek tried it too. After adding 20 million Chinese multiple-choice questions, C-Eval rose by 24 points—a stunning increase. But when they tested other **non-multiple-choice, generative evaluations**, the scores hadn't changed at all.
 
-### 留出集的残酷考验
+Instantly, the team understood: adding multiple-choice questions only teaches the model "exam技巧," not "true knowledge and reasoning."
 
-很多模型，小模型，都能在GSM8K、HumanEval上考高分，刷榜刷得很开心。
+They therefore decided, for the purity of their report, to放弃 this readily available score boost.
 
-但在全新的、模型绝对没见过的留出测试集上呢?
-
-他们用LeetCode竞赛题(2023下半年的新题)、匈牙利高考数学、以及谷歌的一个指令遵循评估集来测试。
-
-结果触目惊心。ChatGLM3在MBPP上拿了52.4分，但在LeetCode上直接掉到2.4;在GSM8K上拿了72.3分，在匈牙利高考上只有32分。
-
-而DeepSeek 67B,三个测试都稳稳站住，不仅远超小模型，也大比分甩开了一批更大或同级的模型。
-
-这说明：**小模型的刷榜高分，存在着严重的“过拟合到评测集”的水分。真正面临没见过的新题时，它的缺陷暴露无遗。而大模型的“智能”，是更加本质的。** 这是一个残酷的真相，但也是所有认真在做AGI的团队必须直面的。
+Reading this section, a wave of敬意 surged in my heart. **This is true engineer spirit: seeking truth, being务实, no pretense, no cheating.** Scores are for others to see; intelligence is for yourself to突破 the next difficult problem.
 
 ---
 
-## 终章 · 从C2C到AGI
+## Movement Four · Not Merely Benchmark Scores
 
-万字拆解到这里，已近尾声。回到我们自己。
+The evaluation section is the most "卷" (competitive) part of all AI papers. Leaderboards—bars slightly higher or lower—media追逐, stock price fluctuations.
 
-2010年，我在阿里主导B2B技术架构。当时每天10亿次服务调用，支撑着全中国乃至全球的中小企业做生意。我们从单体架构，历经痛苦的拆分，演化为1000+微服务的分布式系统。支撑了2007年史上最狂热IPO,也支撑了2012年那个从港交所私有化的壮士断腕。
+But DeepSeek's evaluation chapter has extremely high information密度, and蕴含 technical insights far beyond benchmark scores.
 
-那个过程教会了我一件事：**系统规模每扩大一个数量级，原先的架构假设就会崩塌。能让你在未知水域安然航行的，不是你有多聪明，而是你是否真正摸清了风浪的规律。**
+They evaluated at four levels: standard public benchmarks (Base and Chat), open-domain evaluation (AlignBench, MT-Bench), holdout-set contamination-prevention evaluation (LeetCode, Hungarian Exam), and safety evaluation.
 
-我读到DeepSeek这篇论文时，看到了同一种信仰。
+I'll pick several of the most interesting ones to discuss.
 
-他们没有急于做一个“震惊世界”的最大模型，而是扎扎实实回头，重新检查最基础的问题：Scaling Law。他们不怕花费算力去重新跑那些基础曲线，重新审视batch size和learning rate,重新定义计算量M。因为他们相信，只有在这些最基础的“地基”上建立起的万丈高楼，才不会在风暴中轻易倒塌。
+### The Art of Comparison
 
-DeepSeek LLM不仅仅是一组模型的发布。它是一份宣言：**真正的长期主义，不是等待未来，而是基于对规律的深刻理解，去准确预测并有效抵达未来。**
+Their most核心 comparison对象 is LLaMA 2. The conclusion: **using the same 2T token bilingual data for training, DeepSeek 67B has significantly surpassed LLaMA 2 70B in code, mathematics, and reasoning.**
 
-我在简历开头写道，我现在致力于“Phaenarete项目”——人类与AI协作，向希尔伯特第八问题(黎曼猜想)进军。我们用一种叫做PrimeClaw的多智能体框架，结合Lean 4语言，让AI去辅助探索那些深藏于素数分布背后的数学真理。
+What does this mean? It means the value of "data composition" and "training methods guided by scaling law" has surpassed the difference in "parameter count."
 
-我的工作不是去“算”出黎曼猜想的对错，而是构建一套方法论，一种像Scaling Law一样的东西——揭示“人类直觉”和“AI穷举”之间最优的合作配比到底是什么，如何随着问题难度的扩展而扩展。
+In code and mathematics, DeepSeek 67B Base can even掰手腕 with the specially trained CodeLlama, while its general capability is much stronger. And in mathematics, DeepSeek 67B Chat配合 tool usage, scores even exceeded the then-specialized SOTA model ToRA.
 
-我们在纯粹的数学领域里探索，他们在工程领域里探索，但底色是一模一样的：**面对巨大的未知，不靠拍脑袋，不靠碰运气，靠的是绘制精确的地图，然后再启航。**
+This demonstrates a profound道理: a solid, comprehensive general foundation can match or even surpass specialized models in specific domains. **Breadth and depth are not对立; breadth pursued to its depths is itself a more advanced form of depth.**
 
-深夜，再次审读这篇论文时，我想起《庄子·养生主》里的庖丁解牛：“依乎天理，批大郤，导大窾，因其固然。”我心目中的架构，就应该是“因其固然”的架构。DeepSeek团队所做的，正是深入牛体的肌理，找到那些天然存在的缝隙(Scaling Law)，然后顺着它们精准地用刀。
+### The涌现 of System Prompts
 
-在浮躁的AI圈，这种沉静的力量，最是动人。
+DeepSeek conducted an interesting test: adding a system prompt词 to the model, something like "You are a useful, honest AI assistant created by DeepSeek..."
+
+The result: the 7B model's MT-Bench score after adding the prompt不升反降, dropping slightly from 7.15 to 7.11. The 67B model's score, however, surged from 8.35 to 8.58 after adding the prompt.
+
+Their explanation: **small models cannot understand the深层意图 of the system prompt and are反而 confused by this "format that didn't exist during training." Large models genuinely understand that the system prompt is issuing them behavioral guidelines.**
+
+This phenomenon has a专门 name in the AI community: **Emergence (涌现).** When a model crosses a certain规模阈值, it suddenly gains capabilities that small models entirely lack. **Instruction following is an emergent capability.** It wasn't designed; it wasn't explicitly included in training objectives; it arises naturally when scale is sufficient.
+
+This gives one deeper trust in "longtermism." Many things don't need to be urgently optimized at every intermediate step.
+
+### Reflections on Alignment Tax
+
+A phenomenon observed by几乎 all teams: sometimes SFT and RLHF bring a矛盾效应—**safety improves, dialogue capability gets better, but standard academic benchmark scores反而 decline.** This phenomenon is called "Alignment Tax" (对齐税).
+
+DeepSeek observed this too. HellaSwag (a cloze-style common sense test) declined after SFT. Their analysis: "These tasks typically involve cloze or sentence completion... pure language models are better at handling such tasks."
+
+Translated to plain language: **you cannot have both鱼与熊掌.** When you train a model to converse like a human, its performance in "predicting the next passage" mode naturally degrades. This is not failure—it's simply a tradeoff to be accepted.
+
+### The Brutal Test of Holdout Sets
+
+Many models, especially small ones, can score high on GSM8K and HumanEval, happily刷榜.
+
+But on entirely new, definitely unseen holdout test sets?
+
+They tested with LeetCode competition problems (new problems from the second half of 2023), Hungarian national math exams, and a Google instruction-following evaluation set.
+
+The results were触目惊心. ChatGLM3 scored 52.4 on MBPP but plummeted to 2.4 on LeetCode; scored 72.3 on GSM8K but only 32 on the Hungarian exam.
+
+Meanwhile, DeepSeek 67B stood firm across all three tests, not only far surpassing small models but also大比分甩开 a batch of larger or comparable models.
+
+This demonstrates: **the benchmark-刷榜 high scores of small models contain serious "overfitting to evaluation sets"水分. When truly facing unseen new problems, their缺陷 are暴露无遗. And the "intelligence" of large models is more本质的.** This is a残酷真相, but one that every team seriously pursuing AGI must直面.
+
+---
+
+## Finale · From C2C to AGI
+
+This ten-thousand-character teardown is nearly complete. Let us return to ourselves.
+
+In 2010, I led B2B technical architecture at Alibaba. At that time, 1 billion service calls per day supported small and medium businesses across China and globally in doing commerce. We evolved from monolithic architecture through painful拆分 into a distributed system of 1000+ microservices. This supported the most狂热 IPO in history in 2007, and also supported the壮士断腕 of privatization delisting from the Hong Kong Stock Exchange in 2012.
+
+That process taught me one thing: **every time system scale increases by an order of magnitude, the original architectural assumptions collapse. What lets you safely navigate unknown waters is not how smart you are, but whether you've truly mapped the规律 of the wind and waves.**
+
+When I read DeepSeek's paper, I saw the same conviction.
+
+They didn't rush to make a "world-shocking" largest model. Instead, they扎扎实实 went back and重新 examined the most基础 questions: Scaling Law. They weren't afraid to spend compute重新 running those foundational curves,重新审视 batch size and learning rate,重新定义 computation M. Because they believe that only skyscrapers built on these most foundational "foundations" won't easily topple in storms.
+
+DeepSeek LLM is not merely a release of一组 models. It is a宣言: **true longtermism is not waiting for the future, but based on deep understanding of规律, accurately predicting and effectively arriving at the future.**
+
+I wrote at the beginning of my简历 that I am now dedicated to the "Phaenarete Project"—humans and AI collaborating to advance toward Hilbert's Eighth Problem (the Riemann Hypothesis). We use a multi-agent framework called PrimeClaw, combined with the Lean 4 language, to let AI辅助 explore the mathematical truths隐藏 behind the distribution of prime numbers.
+
+My work is not to "compute" whether the Riemann Hypothesis is true or false, but to构建 a methodology, something like Scaling Law—revealing what the optimal合作配比 between "human intuition" and "AI exhaustive search" truly is, and how it scales as problem difficulty scales.
+
+We explore in the pure domain of mathematics; they explore in the domain of engineering. But the underlying色 is identical: **面对巨大的未知, not靠拍脑袋, not靠碰运气, but靠绘制精确的地图,然后再启航.**
+
+Late at night, re-reading this paper, I recall the butcher Ding (庖丁) from *Zhuangzi* (《庄子·养生主》): "依乎天理，批大郤，导大窾，因其固然" (Following the natural grain, splitting the large gaps, guiding through the large hollows,顺应 what is naturally so). The architecture in my mind should be one that is "因其固然" (顺应 what is naturally so). What the DeepSeek team did was precisely to delve into the肌理 of the ox's body, find the naturally existing gaps (Scaling Law), and then沿着 them apply the knife with precision.
+
+In the浮躁 AI圈, this quiet strength is most moving.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

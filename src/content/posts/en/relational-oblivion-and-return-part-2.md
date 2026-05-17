@@ -1,349 +1,349 @@
 ---
-title: 关系的遗忘与回归：西方哲学史的一次诊断性重构（中）
+title: "Relational Oblivion and Return: A Diagnostic Reconstruction of Western Philosophy (Part Two)"
 date: '2026-04-08'
 category: Philosophy
 tags:
-  - 哲学史
+  - history of philosophy
   - relationships
-  - 西方哲学
+  - Western philosophy
 description: >
-  现象学运动是西方哲学对关系的第一声呼唤。本篇追踪胡塞尔、海德格尔、萨特与梅洛-庞蒂的思想轨迹，探讨他们在突破实体形而上学、走向关系本体论过程中的贡献与内在张力。
+  The phenomenological movement was Western philosophy's first cry for relations. This part traces the intellectual trajectories of Husserl, Heidegger, Sartre, and Merleau-Ponty, examining their contributions and internal tensions in breaking through substance metaphysics toward a relational ontology.
 ---
 
-## 第三章 现象学的突破与内在张力
+## Chapter Three: Phenomenology's Breakthrough and Internal Tension
 
-### 引言：回到事物本身——现象学对关系的第一声呼唤
+### Introduction: Back to the Things Themselves — Phenomenology's First Cry for Relations
 
-西方哲学经过两千余年的实体中心论统治，在二十世纪初迎来了一次根本性的转折。“回到事物本身！”（*Zu den Sachen selbst!*）——埃德蒙德·胡塞尔(Edmund Husserl)的这一口号，不仅是现象学运动的宣言，更是对实体形而上学的一次总攻。这个口号所呼唤的，不是回到某种神秘的物自体，而是回到那种尚未被理论范畴分割、尚未被实体-偶性框架肢解的“原初经验”。在这种经验中，我们遭遇的不是孤立的、自足的实体，而是始终已经相互交织、相互指引、相互构成的现象场。
+After more than two thousand years of substance-centrism's dominion over Western philosophy, a fundamental turning point arrived at the dawn of the twentieth century. "Back to the things themselves!" (*Zu den Sachen selbst!*) — Edmund Husserl's rallying cry was not merely the manifesto of the phenomenological movement, but a full-scale assault on substance metaphysics. What this call summoned was not a return to some mysterious thing-in-itself, but a return to "primordial experience" — experience that had not yet been dissected by theoretical categories, not yet dismembered by the substance-accident framework. In such experience, what we encounter is not isolated, self-sufficient substances, but a phenomenal field that is always already interwoven, mutually referring, and mutually constituting.
 
-对于本文的核心问题——关系的本体论地位——而言，现象学运动的出现标志着一个决定性的转折。如果说从巴门尼德到莱布尼茨的哲学史是一部“关系被遗忘”的历史，那么现象学就是从这一遗忘中苏醒的第一声呼唤。在现象学家的笔下，关系不再仅仅是实体的偶性、心灵的活动或认识的形式；它开始作为经验的构成性维度、甚至作为存在本身的基本结构而显现。
+For the central question of this essay — the ontological status of relations — the emergence of the phenomenological movement marks a decisive turning point. If the philosophical history from Parmenides to Leibniz is a history of "the forgetting of relations," then phenomenology is the first cry of awakening from that forgetting. In the writings of phenomenologists, relations are no longer merely accidents of substances, activities of the mind, or forms of cognition; they begin to appear as constitutive dimensions of experience, even as fundamental structures of being itself.
 
-然而，这一转折并非一帆风顺。正如我们将要看到的，每一位现象学大师在接近关系问题时，都带着自身理论框架的深刻烙印。胡塞尔虽然通过“主体间性”概念将关系问题提升到了先验现象学的核心，却始终未能摆脱“先验自我”优先性的束缚。海德格尔在《存在与时间》中将“共在”确立为此在的生存论结构，却在后期“转向”中让这一维度悄然退隐。萨特通过“注视”揭示了关系的本体论力量，却将这种力量锁定在不可调和的冲突之中。直到梅洛-庞蒂的“肉身”与“可逆性”，我们才看到了通往真正的关系本体论的第一道曙光——一道尚未完全照亮大地的曙光。
+Yet this turning was not without its difficulties. As we shall see, every phenomenological master who approached the question of relations bore the deep imprint of his own theoretical framework. Husserl, though he elevated the question of relations (intersubjectivity) to the core of transcendental phenomenology, never managed to escape the binding priority of the "transcendental ego." Heidegger established "Being-with" (*Mitsein*) as an existential structure of Dasein in *Being and Time*, yet let this dimension quietly recede in his later "turn." Sartre, through "the Look," revealed the ontological force of relations, but locked that force within irreconcilable conflict. Only with Merleau-Ponty's "flesh" (*chair*) and "reversibility" (*réversibilité*) do we see the first glimmer of light toward a genuine relational ontology — a glimmer that has not yet fully illuminated the earth.
 
-本章将依次追踪这四位现象学家的思想轨迹，揭示他们在关系问题上的突破与局限。我们的目标不是提供一部面面俱到的现象学史，而是进行一种诊断性的阅读：将每一位思想家置于“关系问题”的探照灯下，照亮那些被他们重新发现的维度，也指出那些仍然被遮蔽的地带。这种阅读将为我们最终理解梅洛-庞蒂的革命性贡献——以及这一贡献的未竟之处——铺平道路。
-
----
-
-### 第一节 胡塞尔：主体间性与“他者”的共现
-
-#### 一、笛卡尔的幽灵：先验现象学中的唯我论阴影
-
-胡塞尔的现象学是从笛卡尔止步的地方重新出发的。笛卡尔通过普遍怀疑抵达了“我思”的确定性，但立即陷入了一个无法解决的难题：如何从这孤立的“我思”出发，抵达他人、抵达世界？笛卡尔的解决——上帝作为真理的保证——在胡塞尔看来是一种非法的超越。如果哲学要成为严格的科学，它不能求助于任何超越意识的神学补丁；它必须在意识本身的范围内，揭示世界和他人是如何被给予的。
-
-这一要求将胡塞尔引向了他的核心方法：现象学还原。通过“悬置”（*epochē*）我们对世界存在的自然态度，胡塞尔试图揭示意识如何“构造”其对象。在《纯粹现象学与现象学哲学的观念》第一卷(1913)中，他写道：
-
-> “现象学还原将我们引向先验主体性的领域，这个领域是一切意义和存在的起源。”（*Ideen I*，§33）
-
-然而，这一方法本身就潜藏着唯我论的危险。如果一切意义都是在先验意识中被构造的，那么“他人”——另一个具有自身先验意识的存在者——如何能够在我意识中被给予？如果他人只是我意识中的一个“构造物”，那么他人就不再是真正的“他人”，而只是我意识的投影。胡塞尔本人敏锐地意识到了这一危险。在《笛卡尔式的沉思》（*Cartesianische Meditationen*,1931）的开篇，他就将“先验唯我论”的指责作为最严肃的挑战来对待。
-
-《笛卡尔式的沉思》的第五沉思——全书最长、也最具原创性的一章——正是专门处理这一难题的。在这里，胡塞尔试图证明：先验现象学不仅不会陷入唯我论，反而是唯一能够真正说明“他人如何被给予”的哲学。
-
-#### 二、第五沉思：统摄性联想与“他者”的共现
-
-胡塞尔的分析从一个基本的现象学事实出发：我感知到的不仅是物体，还有“他人”。当我看到街上行走的人群时，我不只是看到一堆移动的物理身体（*Körper*）；我直接将这些身体感知为“活的身体”（*Leib*）——即具有感知、情感、意图的主体。这种感知是如何可能的?
-
-胡塞尔的回答是“统摄性联想”（*appräsentation*）和“成对联想”（*Paarung*）。他的论证可以分为以下几个步骤：
-
-首先，我对我自己身体的感知具有一种独特的双重性。我的身体既是物理世界中的一个物体（可以被看见、被触摸），又是我的感知和行动的“器官”——我“通过”它感知世界，而不是“作为对象”感知它。胡塞尔将这种双重性称为身体的“双重感觉”：当我用右手触摸左手时，左手同时是“被触摸的物体”和“能触摸的身体”。这种经验是我感知他者的原型。
-
-其次，当我感知另一个人的身体时，这个身体首先作为物理物体显现。但它与我自己的身体之间存在着一种“相似性联想”：它的形态、动作、行为与我自己的身体如此相似，以至于我的意识自动地将“主体性”统摄到这个身体之上。胡塞尔写道：
-
-> “由于这个身体与我的身体在形态和行为上的相似性，一种‘成对联想’发生了。我将他者的身体‘统摄’为另一个‘活的身体’，并通过这种统摄，间接地‘共现’（*appräsentiert*）了他者的意识生活。”（*Cartesianische Meditationen*，§50）
-
-关键之处在于：这种共现不是逻辑推理（“这个身体像我的一样，所以它后面一定有一个心灵”），而是一种前反思的、被动的综合。我直接“看到”他人的愤怒、喜悦、意图——这些不是推理的结论，而是感知的给予。胡塞尔将这种感知称为“移情”（*Einfühlung*），并强调它不是将我自己的感受“投射”到他人身上，而是一种独特的、不可还原的意识行为。
-
-通过这种分析，胡塞尔试图证明：他者不是我的意识的“构造物”，而是作为真正超越的、具有自身主体性的存在被给予的。他者的超越性恰恰在于：我永远无法直接进入他者的意识流，正如他者永远无法直接进入我的。这种相互的不可通达性不是认识论的缺陷，而是他者作为他者的存在方式。
-
-#### 三、单子共同体：主体间性的先验地位
-
-胡塞尔进一步指出，主体间性不仅是经验世界中的一个事实，而且是客观世界之构造的先验条件。在第五沉思的第55节，他提出了“单子共同体”（*Monadengemeinschaft*）的概念：
-
-> “先验主体性只有在与他者的共同体中，才能构造出客观世界。客观性——即对所有人都有效的世界的意义——预设了一个由相互承认的主体构成的共同体。”（*Cartesianische Meditationen*，§55）
-
-这一论证具有深远的意义。它意味着：世界的“客观性”不是由孤立的先验自我单独构造的，而是在主体间的相互承认和相互校正中生成的。当我感知到一张桌子时，它的“客观存在”不仅仅意味着它对我显现；它还意味着它可能对他人显现，而且他人的显现与我的显现可以相互协调或不协调。没有这种主体间的参照，我甚至无法区分“幻觉”与“实在”——因为幻觉恰恰是“只有我看到的”东西。
-
-因此，胡塞尔的主体间性理论将关系——我与他者的关系——提升到了先验哲学的核心位置。关系不再是实体的偶性，不再是经验中的附加物；它是世界意义之构造的必要条件。在这个意义上，胡塞尔比康德走得更远：康德将关系范畴局限于知性形式，而胡塞尔则将主体间关系视为世界客观性的先验根基。
-
-#### 四、先验自我的阴影：胡塞尔的未竟之步
-
-然而，胡塞尔的突破在最后一步停滞了。在整个第五沉思中，一个根本性的不对称始终存在：先验自我的优先性从未被真正放弃。
-
-胡塞尔反复强调，他者的存在是“在我意识中”被给予的，他者的意义是“为我”而被构造的。在第五沉思的第62节，他写道：
-
-> “一切他者性都是我的意识中‘为我存在’的变样。……先验自我是意义的最终源泉，包括‘他者’这一意义。”（*Cartesianische Meditationen*，§62）
-
-这一表述揭示了一个深刻的张力：一方面，胡塞尔承认他者具有真正的超越性——他者不是我的构造物，而是我无法完全通达的另一主体；另一方面，他又坚持这种超越性是在我的意识中“显现”的，其意义是由我的意识“赋予”的。这就产生了一个问题：如果他者的意义最终源于我的意识，那么他者的“他异性”是否真的得到了尊重？或者说，这只是在更精致的层面上重复了笛卡尔的唯我论?
-
-胡塞尔本人在晚年的手稿中（尤其是1929年至1935年间关于主体间性的研究笔记）对这一困境进行了持续的反思。在某些时刻，他几乎要承认“先验的我们”先于“先验的自我”——即共同体的先验性高于个体的先验性。例如，在一份1930年的手稿中，他写道：
-
-> “或许，原初的、真正的先验主体性不是孤独的自我，而是先验的共体（*transzendentale Gemeinschaft*）。孤独的自我只是从这种原初的共体中抽象出来的产物。”（*Husserliana* XV,S. 74）
-
-然而，这一洞见始终未能发展成为系统的理论。在胡塞尔公开发表的著作中，先验自我的优先性从未被明确放弃。即使在第五沉思的最激进处，他者始终是“为我”的他者，主体间性始终奠基于主体性。正如许多批评者所指出的，胡塞尔的先验现象学始终带有一种“方法论上的唯我论”：从孤立的先验自我出发，试图“推导”出他者，这一出发点本身就预设了自我的优先性。
-
-对于本文的核心关切而言，胡塞尔的贡献与局限是同样鲜明的。贡献在于：他将关系（主体间关系）提升到了先验哲学的核心，使之成为世界意义之构造的必要条件。这是对笛卡尔-康德传统的重大突破。局限在于：他仍然从孤立的自我出发，将关系视为自我意识的“构造物”，而非先于自我的原初维度。关系在这里被“召回”了，但尚未被赋予真正的第一性地位。
+This chapter will trace the intellectual trajectories of these four phenomenologists in turn, revealing their breakthroughs and limitations on the question of relations. Our aim is not to provide a comprehensive history of phenomenology, but to conduct a diagnostic reading: placing each thinker under the spotlight of the "question of relations," illuminating those dimensions they rediscovered, and pointing out those territories still obscured. Such reading will pave the way for our eventual understanding of Merleau-Ponty's revolutionary contribution — and its unfinished state.
 
 ---
 
-### 第二节 海德格尔：作为生存论结构的“共在”及其撤退
+### Section One: Husserl — Intersubjectivity and the Co-presence of the "Other"
 
-#### 一、《存在与时间》的革命：此在与世界
+#### One: The Ghost of Descartes — The Solipsistic Shadow in Transcendental Phenomenology
 
-如果说胡塞尔仍然停留在意识哲学的框架内，那么马丁·海德格尔(Martin Heidegger,1889年—1976年)的《存在与时间》（*Sein und Zeit*,1927）则是一次更为彻底的范式转换。海德格尔不再追问“意识如何构造对象”，而是追问“存在的意义”。这一追问将他引向了对“此在”（*Dasein*）的生存论分析——这种分析从一开始就拒绝了笛卡尔式的主客二元论。
+Husserl's phenomenology recommenced from where Descartes stopped. Descartes, through universal doubt, arrived at the certainty of the "I think," but immediately fell into an insoluble difficulty: how to proceed from this isolated "I think" to others, to the world? Descartes' solution — God as guarantor of truth — was, for Husserl, an illegitimate transcendence. If philosophy was to become a rigorous science, it could not appeal to any theological patch beyond consciousness; it had to reveal, within consciousness itself, how the world and others are given.
 
-海德格尔的核心洞见是：此在不是首先作为一个孤立的“主体”存在，然后再与“客体”发生关系。相反，此在的原始存在方式就是“在世界之中存在”（*In-der-Welt-sein*）。他在《存在与时间》第12节中写道：
+This requirement led Husserl to his core method: the phenomenological reduction. Through the "suspension" (*epochē*) of our natural attitude toward the world's existence, Husserl sought to reveal how consciousness "constitutes" its objects. In *Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy, First Book* (1913), he wrote:
 
-> “‘在世界之中存在’这一表达式标示着一种统一的现象。这个首要的起点必须作为整体来看待。不可将它拆解为一些可以拼凑起来的成分，比如一个叫做‘此在’的东西和另一个叫做‘世界’的东西，然后追问它们如何‘发生关系’。”（*Sein und Zeit*,S. 53）
+> "The phenomenological reduction leads us to the domain of transcendental subjectivity, which is the origin of all meaning and being." (*Ideen I*, §33)
 
-这一论断本身就包含着对传统关系问题的深刻批判。传统形而上学总是先设定孤立的实体（主体与客体、心灵与世界），然后再问它们“如何关联”。海德格尔指出，这种提问方式本身就是一种遮蔽——因为它预设了关联项在关系之前的独立性。而事实上，此在与世界在原初处就是不可分的：没有无世界的此在，也没有无此在的世界。
+Yet this method itself harbored the danger of solipsism. If all meaning is constituted within transcendental consciousness, then how can "the other" — another being with its own transcendental consciousness — be given within my consciousness? If the other is merely a "constituted product" of my consciousness, then the other is no longer truly "other," but only a projection of my consciousness. Husserl himself keenly recognized this danger. At the opening of *Cartesian Meditations* (1931), he treated the charge of "transcendental solipsism" as the most serious challenge.
 
-这一洞见为本体论意义上的关系打开了一个全新的空间。如果此在与世界是“在世界之中存在”这一统一结构的两个不可分割的环节，那么它们之间的关系就不是外在的、派生的，而是内在的、构成性的。关系（“在之中”）先于相关项（此在、世界）的分离。
+The Fifth Meditation of *Cartesian Meditations* — the longest and most original chapter of the entire work — is specifically devoted to this difficulty. Here, Husserl attempts to demonstrate: transcendental phenomenology not only does not fall into solipsism, but is the only philosophy capable of truly explaining "how the other is given."
 
-#### 二、共在：此在的生存论结构
+#### Two: The Fifth Meditation — Appresentation and the Co-presence of the "Other"
 
-海德格尔将这一洞见推广到此在与他人之间的关系上。在《存在与时间》第25-27节中，他提出了“共在”（*Mitsein*）这一核心概念。他的论证是：此在的存在不仅是在世界之中存在，而且始终已经是与他人的共在。他写道：
+Husserl's analysis begins from a basic phenomenological fact: what I perceive is not only objects, but also "others." When I see people walking on the street, I do not merely see a collection of moving physical bodies (*Körper*); I directly perceive these bodies as "living bodies" (*Leib*) — as subjects endowed with perception, emotion, and intention. How is this perception possible?
 
-> “对他人存在的澄清已经表明：此在的‘世界’所遭遇的他者，其存在方式与此在自身的存在方式是一致的——他们也在此，而且是共同在此。……在此基础上，此在的世界是共同世界（*Mitwelt*）。在之中（*In-Sein*）就是与他人的共在（*Mitsein*）。他人在世界之内的自在存在就是共同此在（*Mitdasein*）。”（*Sein und Zeit*,S. 118）
+Husserl's answer is "appresentation" (*Appräsentation*) and "pairing" (*Paarung*). His argument can be broken down into the following steps:
 
-这一表述极具冲击力。“共在”不是在存在之后加入的一种社交属性，不是此在经验生活中的一种“关系类型”——它是此在最原初的存在论规定。海德格尔甚至断言：即使此在实际上独处，它的存在方式仍然是“共在”。他写道：
+First, my perception of my own body possesses a unique duality. My body is both a physical object in the world (can be seen, touched) and the "organ" of my perception and action — I perceive the world "through" it, rather than perceiving it "as an object." Husserl called this duality the "double sensation" of the body: when my right hand touches my left hand, the left hand is simultaneously "the touched object" and "the touching body." This experience is the prototype for my perception of others.
 
-> “即使此在实际上独处，它的存在方式仍然是共在。……独处是共在的一种残缺样式；独处的可能性恰恰是对共在的证明。”（*Sein und Zeit*,S. 120）
+Second, when I perceive another person's body, that body first appears as a physical object. But there exists a "similarity association" between it and my own body: its form, movements, and behaviors are so similar to my own body that my consciousness automatically "appresents" subjectivity onto this body. Husserl wrote:
 
-这一论断意味着：孤独不是共在的缺席，而是一种变样的共在模式。孤独之所以可能，恰恰是因为此在本质上与他人共在，而孤独是在这种共在的缺失、扭曲或拒绝中显现出来的。一个从未与他者共在的存在者——如果这样的存在者是可以设想的——根本不会体验到“孤独”，正如一个从未见过光的存在者不会体验到“黑暗”。
+> "Due to the similarity between this body and my own body in form and behavior, a 'pairing association' occurs. I 'appresent' the other's body as another 'living body,' and through this appresentation, indirectly 'co-present' (*appräsentiert*) the other's conscious life." (*Cartesian Meditations*, §50)
 
-海德格尔进一步区分了共在的两种基本样式。在第26节中，他讨论了此在与他人关系的两种极端可能性：“代庖”（*einspringen*）与“激发”（*vorausspringen*）。
+The key point: this co-presence is not logical inference ("this body is like mine, so there must be a mind behind it"), but a pre-reflective, passive synthesis. I directly "see" another's anger, joy, intention — these are not conclusions of reasoning, but givens of perception. Husserl called this perception "empathy" (*Einfühlung*), emphasizing that it is not a "projection" of my own feelings onto others, but a unique, irreducible act of consciousness.
 
-“代庖”是指我替他人去做某事，从而将他人的“操心”（*Sorge*）接管过来。在这种关系中，我将他人的存在责任包揽到自己身上，使他人从自己的存在中脱身。海德格尔认为，这是日常共在中最常见的形式——它看似“关心”，实际上是对他人自主性的剥夺。
+Through this analysis, Husserl attempts to demonstrate: the other is not a "constituted product" of my consciousness, but is given as a truly transcendent being with its own subjectivity. The transcendence of the other lies precisely in this: I can never directly enter the other's stream of consciousness, just as the other can never directly enter mine. This mutual inaccessibility is not an epistemological deficiency, but the mode of being of the other as other.
 
-“激发”则是我帮助他人回到其自身的“能在”（*Seinkönnen*）之中，让他人自己承担起存在的责任。这种关系不是包办代替，而是将他人“释放”到他自己的自由之中。海德格尔写道：
+#### Three: The Monad Community — The Transcendental Status of Intersubjectivity
 
-> “这种操心不是为他人代庖，而是激发他人，使他在操心之中对自己的能在有所自觉，并自由地承担起这种能在。”（*Sein und Zeit*,S. 122）
+Husserl further pointed out that intersubjectivity is not merely a fact within the empirical world, but a transcendental condition for the constitution of the objective world. In the 55th section of the Fifth Meditation, he proposed the concept of the "monad community" (*Monadengemeinschaft*):
 
-这一区分表明，海德格尔不仅承认了关系的原初性，还试图对关系的品质进行存在论的评估。不是所有的共在都是一样的；共在可以在“剥夺他人自由”和“赋予他人自由”之间展开一个广阔的光谱。
+> "Transcendental subjectivity can constitute an objective world only within a community with others. Objectivity — the meaning of a world valid for everyone — presupposes a community of mutually recognizing subjects." (*Cartesian Meditations*, §55)
 
-#### 三、常人与沉沦：共在的日常样式
+This argument has profound significance. It means: the "objectivity" of the world is not constituted by an isolated transcendental ego alone, but is generated in the mutual recognition and mutual correction among subjects. When I perceive a table, its "objective existence" means not only that it appears to me; it also means that it could appear to others, and that others' appearances could be coordinated or dissonant with mine. Without this intersubjective reference, I could not even distinguish "hallucination" from "reality" — because a hallucination is precisely what "only I see."
 
-然而，海德格尔对日常共在的具体分析却带有浓厚的批判色彩。在第27节中，他描述了此在在日常状态中如何被“常人”（*das Man*）所支配：
+Thus, Husserl's intersubjectivity theory elevated relations — my relation with the other — to the core of transcendental philosophy. Relations are no longer accidents of substances, no longer appendages within experience; they are necessary conditions for the constitution of world-meaning. In this sense, Husserl went further than Kant: Kant confined relational categories to forms of the understanding, while Husserl elevated intersubjective relations to the transcendental ground of world-objectivity.
 
-> “在日常状态中，此在不是它自己，而是常人-自我。……常人怎样享乐，我们就怎样享乐；常人对文学艺术怎样阅读、怎样观看、怎样判断，我们就怎样阅读、观看、判断；常人怎样从大众中抽身，我们就怎样抽身；常人觉得什么‘可愤慨’，我们就觉得什么‘可愤慨’。这个常人不是任何确定的人，而是一切人——却不是作为总和的一切人——它规定着日常此在的存在方式。”（*Sein und Zeit*,S. 126-127）
+#### Four: The Shadow of the Transcendental Ego — Husserl's Unfinished Step
 
-这一分析揭示了共在的一种特定样式：在常人的支配下，此在失去其本己性，成为一种无名的、平均化的、随波逐流的存在。这种共在不是真正的关系，而是关系的“沉沦”形式——此在与他人“在一起”，但这种“在一起”抹平了一切差异、压抑了一切本真的相遇。
+However, Husserl's breakthrough halted at the final step. Throughout the Fifth Meditation, a fundamental asymmetry persists: the priority of the transcendental ego was never genuinely relinquished.
 
-值得注意的是，海德格尔在这里触及了关系的一个重要维度：关系可以是非本真的。共在并不自动意味着真正的相遇；它也可以意味着相互的疏离、相互的物化、相互的沉沦。这一洞见对于一种成熟的关系本体论至关重要——它提醒我们，承认关系的原初性只是第一步；分析关系的内在品质、区分本真与非本真的关系样式，同样不可或缺。
+Husserl repeatedly emphasized that the other's existence is "given within my consciousness," that the other's meaning is "constituted for me." In the 62nd section of the Fifth Meditation, he wrote:
 
-然而，海德格尔对“常人”的分析也存在一个潜在的问题：他似乎将日常共在整体上视为沉沦的、非本真的。这就使得本真的关系——那种能够激发他者自由、能够让此在回归自身的共在——显得极其罕见，甚至几乎不可能。海德格尔在《存在与时间》中没有给出任何本真共在的具体例证或现象学描述。“激发”作为一种共在样式被提出了，但它究竟如何在具体生活中实现，却始终未被阐明。
+> "All otherness is a modification of 'being-for-me' within my consciousness.… The transcendental ego is the ultimate source of meaning, including the meaning of 'the other.'" (*Cartesian Meditations*, §62)
 
-#### 四、转向之后的退隐：共在维度的消失
+This formulation reveals a deep tension: on the one hand, Husserl acknowledges that the other possesses genuine transcendence — the other is not my constituted product, but another subject I cannot fully access; on the other hand, he insists that this transcendence "appears" within my consciousness, and its meaning is "conferred" by my consciousness. This raises a question: if the other's meaning ultimately derives from my consciousness, has the other's "alterity" truly been respected? Or is this merely a more refined repetition of Cartesian solipsism?
 
-更为关键的是，海德格尔在1930年代的“转向”（*Kehre*）之后，逐渐放弃了《存在与时间》中关于“共在”的生存论分析。在后期著作中——尤其是《哲学论稿——从本有而来》（*Beiträge zur Philosophie (Vom Ereignis)*,1936-38）——他的关注点从此在的生存结构转向了“存在本身”的历史。
+Husserl himself, in late manuscripts (especially the research notes on intersubjectivity from 1929 to 1935), sustained reflection on this dilemma. In certain moments, he nearly conceded that "the transcendental We" precedes "the transcendental I" — that the community's transcendental priority exceeds the individual's. For example, in a 1930 manuscript, he wrote:
 
-这一转向有其内在的哲学动机。海德格尔逐渐认为，《存在与时间》仍然过于“主体主义”——从此在出发去追问存在，仍然带有先验哲学的残余。他试图超越这一局限，直接从“存在”本身出发，思考存在如何自行显现、自行遮蔽。在这一新的框架中，“本有”（*Ereignis*）成为核心概念——它指的是存在与人之本质的“相互归属”事件。
+> "Perhaps the original, genuine transcendental subjectivity is not the solitary ego, but the transcendental community (*transzendentale Gemeinschaft*). The solitary ego is merely an abstraction from this primordial community." (*Husserliana* XV, p. 74)
 
-“本有”这一概念本身具有强烈的关系性意涵。存在不是某种静态的基底，而是在与人的关系中发生的事件；人也不是自足的实体，而是在存在的呼唤中获得其本质的存在者。存在与人之间的关系是内在的、相互构成的——这比《存在与时间》中的“共在”更接近一种关系本体论。
+Yet this insight never developed into a systematic theory. In Husserl's published works, the priority of the transcendental ego was never explicitly abandoned. Even at the most radical moments of the Fifth Meditation, the other remains "for-me," and intersubjectivity remains grounded in subjectivity. As many critics have pointed out, Husserl's transcendental phenomenology always carries a "methodological solipsism": starting from the isolated transcendental ego and attempting to "derive" the other — this starting point itself presupposes the ego's priority.
 
-然而，问题在于：海德格尔将这种关系几乎完全集中于“存在与人”之间，而将“人与人”之间的关系边缘化了。在《哲学论稿》中，我们几乎找不到对具体的人际关系、社会关系、历史关系的分析。海德格尔关注的是“诸神之逃遁”、“存在的离弃”、“技术的座架”这些宏大主题；人与人之间的日常关系，似乎不再值得思。
-
-这一“退隐”并非偶然。海德格尔始终认为，追问“存在者”层面的关系（人与人、人与物、物与物）仍然是“不究竟”的——它停留在存在者层面，而未能抵达存在本身。在《关于人道主义的书信》(1946)中，他明确写道：
-
-> “思想首先必须学会在存在之真理中安居，而不是在存在者之间建立联系。”（*Wegmarken*,GA 9,S. 313）
-
-这一立场导致了一个悖论性的结果：海德格尔虽然揭示了“共在”的生存论结构，却未能将其发展为一种具体的、社会性的关系本体论。他打开了通向关系本体论的大门，但在门口停留片刻后，便转身走向了另一条道路——那条道路通向“存在之谜”的冥思，而非“关系之网”的描绘。
-
-对于本文的核心关切而言，海德格尔的贡献与局限同样深刻。贡献在于：他将关系（共在）确立为此在的生存论结构，拒绝了传统形而上学“先有实体、后有关系”的预设。局限在于：他未能在“存在论差异”的框架内为具体的关系分析找到合法空间，最终让这一维度在后期哲学中悄然退隐。关系在这里被召回了，并被赋予了前所未有的重要性——但随后又被“悬置”了，仿佛对关系的具体言说会玷污思想的纯粹性。
+For the central concern of this essay, Husserl's contribution and limitation are equally striking. The contribution: he elevated relations (intersubjective relations) to the core of transcendental philosophy, making them necessary conditions for the constitution of world-meaning. This is a major breakthrough from the Cartesian-Kantian tradition. The limitation: he still starts from the isolated ego, treating relations as "constituted products" of self-consciousness rather than a primordial dimension preceding the self. Relations have been "recalled" here, but have not yet been granted genuine primacy.
 
 ---
 
-### 第三节 萨特：他者注视中的冲突本体论
+### Section Two: Heidegger — "Being-with" as Existential Structure and Its Retreat
 
-#### 一、从共在到注视：萨特的另类起点
+#### One: The Revolution of *Being and Time* — Dasein and World
 
-让-保罗·萨特(Jean-Paul Sartre,1905年—1980年)在《存在与虚无》（*L‘Être et le Néant*,1943）中对关系的分析，与海德格尔形成了鲜明的对照。如果说海德格尔强调的是“共在”的原始统一性，那么萨特强调的则是“注视”带来的根本断裂。对于萨特而言，关系不是一种原初的和谐，而是一种原初的冲突。
+If Husserl still remained within the framework of philosophy of consciousness, then Martin Heidegger's *Being and Time* (*Sein und Zeit*, 1927) represents a more thorough paradigm shift. Heidegger no longer asked "how consciousness constitutes objects," but asked "the meaning of Being." This question led him to the existential analytic of "Dasein" — an analytic that from the outset rejected the Cartesian subject-object dichotomy.
 
-萨特的出发点是对胡塞尔和海德格尔的双重批判。在《存在与虚无》第三部分第一章“他者的存在”中，他系统地审视了前人关于他者问题的解决方案，并指出它们共同的缺陷：它们都试图在认识论层面解决他者问题，而忽视了他者与我相遇时的本体论冲击。
+Heidegger's core insight: Dasein does not first exist as an isolated "subject" and then enter into relations with "objects." Rather, Dasein's original mode of being is "Being-in-the-world" (*In-der-Welt-sein*). In §12 of *Being and Time*, he wrote:
 
-对于胡塞尔，萨特的批评是：胡塞尔的主体间性理论最终未能逃脱唯我论。因为胡塞尔的他者始终是“为我”的构造物，他者的他异性最终被先验自我所吸收。萨特写道：
+> "The expression 'Being-in-the-world' designates a unitary phenomenon. This primary starting point must be seen as a whole. It cannot be broken down into components that can be assembled — such as a thing called 'Dasein' and another thing called 'world,' and then asking how they 'relate.'" (*Sein und Zeit*, p. 53)
 
-> “胡塞尔将存在还原为一系列意义，他所能建立的唯一联系就是认识的联系。因此，他像康德一样，无法逃脱唯我论。”（*L‘Être et le Néant*,p. 273）
+This assertion itself contains a profound critique of the traditional question of relations. Traditional metaphysics always first posits isolated substances (subject and object, mind and world), and then asks how they "relate." Heidegger pointed out that this mode of questioning is itself a concealment — because it presupposes the independence of the relata prior to the relation. In fact, Dasein and world are inseparable in their primordiality: there is no Dasein without world, and no world without Dasein.
 
-对于海德格尔，萨特的批评更为复杂。一方面，他承认海德格尔的“共在”概念超越了胡塞尔的唯我论，因为它将与他人的关系确立为此在的生存论结构。但另一方面，他指出海德格尔的“共在”是一种“无差别的相互性”——它将此在与他人的关系描述为一种中性的、对称的“共同存在”，却无法解释这种关系中的具体张力和冲突。萨特写道：
+This insight opened an entirely new space for ontological relations. If Dasein and world are two inseparable moments of the unitary structure "Being-in-the-world," then their relation is not external and derivative, but internal and constitutive. The relation ("in") precedes the separation of the relata (Dasein, world).
 
-> “海德格尔的‘共在’是一个无名的、无面孔的存在维度。它描述的是一支划船队伍的整齐动作，而不是我与彼埃尔的具体相遇。在‘共在’中，他者被还原为一个无人称的‘他人’，而不是那个注视着我、将我客体化的具体个体。”（*L‘Être et le Néant*,p. 282）
+#### Two: Being-with — The Existential Structure of Dasein
 
-萨特要做的，是将他者问题从认识论和抽象的生存论中拉出来，放回到具体的、活生生的相遇之中。而这种相遇的原型，就是“注视”（*le regard*）。
+Heidegger extended this insight to Dasein's relation with others. In §§25-27 of *Being and Time*, he proposed the core concept of "Being-with" (*Mitsein*). His argument: Dasein's Being is not only Being-in-the-world, but is always already Being-with others. He wrote:
 
-#### 二、注视的本体论力量：从自为到为他
+> "The clarification of Being toward others has already shown: the Others encountered in Dasein's 'world' have the same mode of Being as Dasein itself — they are there too, and co-there.… On this basis, Dasein's world is a with-world (*Mitwelt*). Being-in (*In-Sein*) is Being-with (*Mitsein*) others. The Others' independent Being-within-the-world is co-Dasein (*Mitdasein*)." (*Sein und Zeit*, p. 118)
 
-萨特对注视的分析是《存在与虚无》中最著名的段落之一。他邀请我们想象这样一个场景：我正透过一个钥匙孔偷看房间里的情景。此刻，我是纯粹的“自为存在”（*pour-soi*）——我完全沉浸在我的行动中，我的意识直接指向房间里的景象，没有任何自我反思的中介。我“是”我的观看活动本身。
+This formulation is extremely powerful. "Being-with" is not a social attribute added after existence, not a "relation type" in Dasein's empirical life — it is Dasein's most primordial ontological determination. Heidegger even asserted: even when Dasein is factically alone, its mode of Being is still "Being-with." He wrote:
 
-但突然，我听到走廊里有脚步声。有人来了。那个人会看到我——看到我正蹲在钥匙孔前。在这一瞬间，一切都改变了。我意识到我被注视了。萨特写道：
+> "Even when Dasein is factically alone, its mode of Being is still Being-with.… Solitude is a deficient mode of Being-with; the very possibility of solitude is precisely proof of Being-with." (*Sein und Zeit*, p. 120)
 
-> “我现在看到自己，是因为有人看见我。……他者的注视使我从我所沉浸的情境中挣脱出来，使我意识到我自己——但不是作为纯粹意识的主体，而是作为一个被看见、被评判、被物化的客体。”（*L‘Être et le Néant*,p. 310）
+This assertion means: loneliness is not the absence of Being-with, but a modified mode of Being-with. Loneliness is possible precisely because Dasein is essentially Being-with others, and loneliness manifests itself in the absence, distortion, or refusal of this Being-with. A being that had never been with others — if such a being could be conceived — would never experience "loneliness," just as a being that had never seen light would never experience "darkness."
 
-这就是注视的本体论力量：它将我从前反思的“自为”状态中撕裂出来，迫使我成为一个“他为存在”（*pour-autrui*）。我突然意识到，我不是世界的中心——有一个外在的目光在打量我，将我作为一个对象来分类、评判、甚至物化。萨特用“羞耻”这一情感来揭示这种转变的本体论性质：
+Heidegger further distinguished two fundamental modes of Being-with. In §26, he discussed two extreme possibilities of Dasein's relation to others: "leaping-in" (*einspringen*) and "leaping-ahead" (*vorausspringen*).
 
-> “羞耻……是在他者面前对我自己的认识。我不是因为做了某件可耻的事而感到羞耻；我之所以感到羞耻，是因为我在他者的注视中成为了一个‘可耻的人’。”（*L‘Être et le Néant*,p. 318）
+"Leaping-in" means I do something for the other, thereby taking over the other's "care" (*Sorge*). In this relation, I take responsibility for the other's existence, enabling the other to disengage from their own existence. Heidegger considered this the most common form of everyday Being-with — it appears as "concern," but is actually a deprivation of the other's autonomy.
 
-这意味着，我的自我意识不是纯粹内在的。它已经内化了他者的目光。我知道我是谁，不仅仅通过我自己的内在体验，更通过他人如何看我。我的“自我”中已经住着他人。
+"Leaping-ahead" means I help the other return to their own "potentiality-for-Being" (*Seinkönnen*), letting the other assume responsibility for their own existence. This relation is not taking over, but "releasing" the other into their own freedom. Heidegger wrote:
 
-萨特将这一洞见推向了极致：我与他者的原初关系不是“共在”，而是“被注视”。而且，这种注视关系本质上是冲突性的。因为在他者的注视中，我被剥夺了我的自由——我从一个自由的、自我筹划的自为存在，变成了一个被固定的、被定义的“客体”。而我为了恢复我的自由，就必须反过来注视他者，将他者还原为客体。
+> "This care is not leaping-in for the Other, but leaping-ahead, making the Other aware of their own potentiality-for-Being in care, and freely assuming this potentiality." (*Sein und Zeit*, p. 122)
 
-这就是萨特所说的“相互客体化”的辩证法。他写道：
+This distinction shows that Heidegger not only acknowledged the primordiality of relations, but attempted to evaluate the quality of relations ontologically. Not all Being-with is the same; Being-with can unfold across a broad spectrum between "depriving the other's freedom" and "enabling the other's freedom."
 
-> “当我试图从他人的注视中解放自己时，我就反过来注视他人。但在我注视他人的同时，他人也在注视我。因此，我们之间的关系是一种永恒的冲突——每个人都在试图将对方还原为客体，同时抵抗自己被还原为客体。”（*L‘Être et le Néant*,p. 340）
+#### Three: The "They" and Falling — The Everyday Mode of Being-with
 
-萨特在《禁闭》（*Huis Clos*,1944）中让加尔散说出了那句著名的台词：“他人即地狱。”（*L’enfer,c‘est les autres.*）这句台词不是愤世嫉俗的感叹，而是对萨特本体论的精炼表达：因为在他者的注视中，我被剥夺了成为我自己的可能性。我被困在他者赋予我的定义之中，无法逃脱。
+However, Heidegger's concrete analysis of everyday Being-with carries a heavily critical tone. In §27, he described how Dasein in everydayness is dominated by the "they" (*das Man*):
 
-#### 三、关系作为冲突：零和博弈的本体论
+> "In everydayness, Dasein is not itself, but the they-self.… The they enjoins how we enjoy; the they prescribes how we read, see, and judge literature and art; the they dictates how we withdraw from the crowd; the they decides what is 'outrageous.' This they is no definite person, but everyone — though not as a sum — it prescribes the mode of Being of everyday Dasein." (*Sein und Zeit*, pp. 126-127)
 
-萨特的分析深刻地揭示了关系中的权力维度和冲突维度。与胡塞尔的“和谐共现”、海德格尔的“中性共在”不同，萨特让我们看到：关系不是一种平静的相互承认，而是一种充满张力的、此消彼长的斗争。这一洞见对于理解社会关系中的支配、压迫、异化现象具有强大的解释力。
+This analysis reveals a specific mode of Being-with: under the dominion of the "they," Dasein loses its authenticity, becoming an anonymous, leveled-off, drifting being. This Being-with is not genuine relation, but a "fallen" form of relation — Dasein is "with" others, but this "withness" flattens all differences and suppresses all authentic encounter.
 
-然而，萨特的局限同样明显：他将关系中的冲突维度绝对化了。在他的框架中，人与人之间的原初关系只能是冲突性的。相互承认、合作、友爱、团结——这些在萨特看来要么是不可能的，要么只是冲突的暂时休战，要么是“自欺”（*mauvaise foi*）的幻觉。
+It is noteworthy that Heidegger here touched upon an important dimension of relations: relations can be inauthentic. Being-with does not automatically mean genuine encounter; it can also mean mutual alienation, mutual objectification, mutual falling. This insight is crucial for a mature relational ontology — it reminds us that acknowledging the primordiality of relations is only the first step; analyzing the internal quality of relations, distinguishing authentic and inauthentic relational modes, is equally indispensable.
 
-在《存在与虚无》第三部分第三章“与他人的具体关系”中，萨特分析了爱情、语言、受虐狂、冷漠、欲望、憎恨、施虐狂等关系形式。他的结论是：所有这些形式都注定失败。爱情试图占有他人的自由——让他人自由地选择爱我——但这本身是一个矛盾：如果他人的爱是自由的，我就永远无法确定它是否会持续；如果我要确保他人永远爱我，我就必须剥夺他的自由，但这就不再是爱情。因此，萨特写道：
+Yet Heidegger's analysis of the "they" also poses a potential problem: he seems to treat everyday Being-with as altogether fallen and inauthentic. This makes authentic relations — those capable of leaping-ahead, of enabling Dasein's return to itself — appear extremely rare, even nearly impossible. In *Being and Time*, Heidegger offers no concrete phenomenological description or example of authentic Being-with. "Leaping-ahead" is proposed as a mode of Being-with, but how it is realized in concrete life remains unelucidated.
 
-> “爱情是一种注定失败的努力——我想成为一个被爱的人自由选择的对象，但这个选择的自由恰恰使我永远无法确定被爱。”（*L‘Être et le Néant*,p. 432）
+#### Four: Retreat after the Turn — The Disappearance of the Being-with Dimension
 
-同样，友谊、团结、共同行动——这些在萨特看来也逃脱不了相互客体化的辩证法。即使在最亲密的合作中，每个人仍然在注视他人，仍然在被他人注视。冲突是原初的、不可消除的；和谐只是派生的、暂时的。
+More crucially, after the "turn" (*Kehre*) of the 1930s, Heidegger gradually abandoned the existential analysis of "Being-with" from *Being and Time*. In later works — especially *Contributions to Philosophy (Of the Event)* (*Beiträge zur Philosophie (Vom Ereignis)*, 1936-38) — his focus shifted from Dasein's existential structure to the history of "Being itself."
 
-这一结论的根源在于萨特的本体论预设：自为存在（意识）与为他存在（被注视的自我）之间的分裂是不可调和的。自为存在是纯粹的否定性、自由、超越；为他存在是被固定、被物化、被定义。这两个维度永远无法统一——我永远无法同时是纯粹的自由主体和被他人承认的具体自我。因此，任何试图在关系中寻求统一的努力，都是注定失败的。
+This turn had its internal philosophical motivation. Heidegger gradually came to believe that *Being and Time* was still too "subjectivist" — starting from Dasein to ask about Being still carried residues of transcendental philosophy. He sought to transcend this limitation, thinking directly from "Being" itself, about how Being self-discloses and self-conceals. In this new framework, "the event" (*Ereignis*) became the core concept — it refers to the event of "mutual belonging" between Being and the essence of human beings.
 
-如果萨特认真考虑过“互惠”而非“注视”作为关系的原初样式，他的存在主义将展现出完全不同的面貌。在互惠关系中，他人的注视不必然是一种客体化——它可以是一种承认、一种邀请、一种共同创造的召唤。当两个音乐家一起即兴演奏时，他们相互注视、相互倾听，但这种注视不是将对方物化，而是共同参与一个超越两人的音乐生成过程。在这种关系中，自由不是被剥夺，而是被共享和放大。
+The concept of "the event" itself carries strong relational implications. Being is not some static substrate, but an event that occurs in relation to human beings; human beings are not self-sufficient substances, but beings who receive their essence in the call of Being. The relation between Being and human beings is internal and mutually constitutive — this is closer to a relational ontology than the "Being-with" of *Being and Time*.
 
-萨特的框架无法容纳这种可能性，因为他从一开始就将自由定义为绝对的个体性——“自为存在”是孤独的、不可分享的。如果自由本身是关系性的——如果我的自由只有在与他人的关系中才能实现——那么萨特的整个冲突本体论就需要被重新审视。
+Yet the problem is: Heidegger concentrated this relation almost exclusively between "Being and human beings," marginalizing relations "among human beings." In the *Contributions to Philosophy*, we find almost no analysis of concrete interpersonal relations, social relations, or historical relations. Heidegger's concerns are grand themes like "the flight of the gods," "the abandonment of Being," "the enframing of technology"; everyday relations among people seem no longer worthy of thought.
 
-#### 四、萨特的贡献与盲点：关系力量的首次承认
+This "retreat" was not accidental. Heidegger consistently believed that asking about relations at the level of "beings" (between persons, between persons and things, between things and things) remains "unultimate" — it stays at the ontic level without reaching Being itself. In the *Letter on Humanism* (1946), he wrote explicitly:
 
-尽管存在这些局限，萨特的贡献是不可磨灭的。在西方哲学史上，他几乎是第一个将关系（与他者的相遇）描述为一种能够改变存在者存在结构的本体论力量的思想家。在萨特之前，关系要么被贬低为偶性（亚里士多德），要么被认识论化（康德），要么被还原为存在的一个中性维度（海德格尔的早期共在）。萨特让我们看到：关系是有力量的——它能够撕裂自我的世界、颠覆自我的中心、重塑自我的存在方式。
+> "Thinking must first learn to dwell in the truth of Being, rather than establishing connections among beings." (*Wegmarken*, GA 9, p. 313)
 
-这一洞见是通往关系本体论的关键一步。它意味着：关系不是某种“附加”在实体之上的、可有可无的属性；它能够改变实体的存在本身。当我说“我被他人注视”时，我不是在描述一个外部事件，而是在描述我自身存在结构的一次剧变。
+This stance led to a paradoxical result: although Heidegger revealed the existential structure of "Being-with," he failed to develop it into a concrete, social relational ontology. He opened the door toward relational ontology, but paused at the threshold before turning to another path — a path leading toward meditation on "the mystery of Being" rather than description of "the web of relations."
 
-然而，萨特将这种力量仅仅理解为负面的——关系是威胁、是剥夺、是冲突。他未能看到，这种力量也可以是正面的——关系可以是赋予、是构成、是共创。这一盲点使得萨特的关系理论成为一种“半途的革命”：他承认了关系的本体论力量，却将这种力量封锁在零和博弈的框架内。要完成这场革命，还需要另一双眼睛——一双能够看到关系的生成性、互惠性和创造性的眼睛。这双眼睛，属于梅洛-庞蒂。
-
----
-
-## 第四章 梅洛-庞蒂：通往关系本体论的未竟之路
-
-### 第一节 “肉身”的形而上学：作为原初元素的“之间”
-
-#### 一、从知觉现象学到肉身本体论
-
-莫里斯·梅洛-庞蒂(Maurice Merleau-Ponty,1908年—1961年)的哲学道路，是一条从知觉现象学逐步走向肉身本体论的道路。他的早期代表作《知觉现象学》（*Phénoménologie de la Perception*,1945）已经包含着对传统主客二元论的深刻批判。通过对知觉经验的现象学描述，梅洛-庞蒂揭示了：感知主体不是一个无身体的纯粹意识，而是一个“活的身体”（*corps vécu*）；感知对象也不是一个等待被认识的纯粹客体，而是在身体的感知活动中被揭示、被“占有”的意义场。
-
-在《知觉现象学》中，梅洛-庞蒂写道：
-
-> “身体是我们拥有世界的一般媒介。有时它仅限于生命保存所必需的动作，有时它通过这些动作为自己设定一个世界……身体是我们投向世界的锚。”（*Phénoménologie de la Perception*,p. 171）
-
-这一洞见已经超越了胡塞尔的先验意识分析。身体不是意识的“对象”，也不是意识的“工具”；它是我们在世界之中存在的原初方式。没有身体，就没有世界；没有世界，身体也无从理解自身。身体与世界的关系不是两个实体之间的外在关系，而是一种原初的“交织”——身体的每一个动作都已经是对世界的回应，世界的每一个面貌都已经是身体感知的产物。
-
-然而，梅洛-庞蒂在晚期思想中意识到，《知觉现象学》仍然保留了某些二元论的残余。“身体”与“世界”、“感知者”与“被感知者”——这些概念虽然被重新定义，但它们之间的区分本身仍然暗示着一种二元性。要彻底超越这种二元性，需要一种更原初的维度——一个先于主客分化的、既是感知又是可感的、既是主动又是被动的存在元素。
-
-这一维度，梅洛-庞蒂在他未竟的遗著《可见者与不可见者》（*Le Visible et l‘Invisible*,1964）中称为“肉身”（*chair*）。
-
-#### 二、肉身：存在的元素
-
-“肉身”是什么？梅洛-庞蒂首先澄清：它不是生理学意义上的肉体组织。它不是物质，不是精神，不是实体。它是“存在的原型”，是世界的某种“元素”。他写道：
-
-> “肉身不是物质，不是精神，不是实体。为了标示它，我们需要一个古老的术语——‘元素’。……肉身是存在的‘具体’元素，是使事物得以显现的质料。”（*Le Visible et l’Invisible*,p. 184）
-
-这里的“元素”一词来自前苏格拉底哲学——恩培多克勒的水、火、土、气。这些元素不是现代化学意义上的物质，而是世界的基本“质性”，是存在的原始风格。梅洛-庞蒂借用这一概念，意在指出：肉身不是世界中的一个存在者，而是世界得以存在的“方式”。它是所有存在者共属的维度，是使感知与被感知成为可能的共同织体。
-
-梅洛-庞蒂用“肉身”来描述这一原初维度，是因为身体的经验提供了通向它的最佳入口。在我自己的身体中，我直接体验到一种独特的双重性：我的身体既是能感知的（作为感知主体），又是可感知的（作为物理物体）。当我用右手触摸左手时，这一双重性达到了极致：右手是触摸者，左手是被触摸者；但同时，左手也在触摸右手，右手也在被左手触摸。在这一瞬间，“主动”与“被动”、“主体”与“客体”的界限模糊了，发生了奇妙的互渗。
-
-梅洛-庞蒂将这种经验视为通向“肉身”的现象学线索。肉身就是这样一种存在维度：在其中，感知与被感知、主动与被动、自我与世界是同一实在的两个不可分割的面相。他写道：
-
-> “我的身体与世界是由同一种肉构成的。……我的身体对世界的感知，是世界通过我的身体感知自身。”（*Le Visible et l‘Invisible*,p. 185）
-
-这一论断是革命性的。它意味着：感知不是主体对客体的“表象”，而是存在的自我显现。当我看到一棵树时，这不是“我的意识”在“构造”树的形象，而是树的可见性与我的视觉能力在“肉身”这一共同元素中相遇。树通过我的眼睛看到自身——正如我通过树的可见性感知到自身作为观看者的存在。
-
-这种“可逆性”是肉身概念的核心。在肉身中，每一个存在者都既是感知的又是可感的，既是主动的又是被动的。存在不是一堆孤立的实体，而是一张相互感知、相互触摸、相互构成的“肉身之网”。
+For the central concern of this essay, Heidegger's contribution and limitation are equally profound. The contribution: he established relations (Being-with) as an existential structure of Dasein, rejecting the traditional metaphysical presupposition that "substances first, then relations." The limitation: he could not find legitimate space for concrete relational analysis within the framework of "the ontological difference," ultimately letting this dimension quietly recede in his later philosophy. Relations were recalled here and given unprecedented importance — but then "suspended," as if concrete articulation of relations would contaminate the purity of thought.
 
 ---
 
-### 第二节 可逆性与交织：关系动力学的基本模型
+### Section Three: Sartre — The Conflictual Ontology of the Other's Look
 
-#### 一、左手触摸右手：可逆性的原型
+#### One: From Being-with to the Look — Sartre's Alternative Starting Point
 
-在《可见者与不可见者》的“交错与交织”一章中，梅洛-庞蒂对“可逆性”（*réversibilité*）进行了最集中的现象学描述。他反复回到“左手触摸右手”这一看似简单的经验，从中挖掘出深刻的本体论意涵。
+Jean-Paul Sartre's analysis of relations in *Being and Nothingness* (*L'Être et le Néant*, 1943) contrasts sharply with Heidegger's. Where Heidegger emphasized the primordial unity of "Being-with," Sartre emphasized the fundamental rupture brought by "the Look." For Sartre, relations are not primordial harmony, but primordial conflict.
 
-当我的右手触摸一个物体时，我是纯粹的触摸者。我的意识直接投向物体，感受它的质地、温度、形状。在这一刻，右手作为触摸者的身体部分似乎“隐身”了——它不被注意，它只是感知的器官。
+Sartre's starting point was a dual critique of Husserl and Heidegger. In Part Three, Chapter One of *Being and Nothingness*, "The Existence of Others," he systematically reviewed previous solutions to the problem of the other and pointed out their common deficiency: they all attempted to solve the problem of the other at the epistemological level, neglecting the ontological shock when the other encounters me.
 
-但当我的左手触摸正在触摸物体的右手时，情况发生了根本变化。右手在继续触摸物体的同时，被左手触摸。它现在同时是触摸者和被触摸者。梅洛-庞蒂写道：
+For Husserl, Sartre's criticism was: Husserl's intersubjectivity theory ultimately failed to escape solipsism. Because Husserl's other remains a "constituted product for me," the other's alterity is ultimately absorbed by the transcendental ego. Sartre wrote:
 
-> “当我用左手触摸我的右手正在触摸物体时，触摸者与被触摸者之间发生了一种奇妙的换位。右手从触摸者的地位跌落为被触摸者，但它并没有完全失去触摸者的地位——它仍然在触摸物体，仍然保留着触摸物体的感觉。因此，在同一个身体部位中，主动与被动、感知与被感知共存、交织。”（*Le Visible et l‘Invisible*,p. 194）
+> "Husserl reduces existence to a series of meanings; the only connection he can establish is one of knowledge. Thus, like Kant, he cannot escape solipsism." (*L'Être et le Néant*, p. 273)
 
-这种共存不是两种状态的简单叠加。它不是“右手作为触摸者”加上“右手作为被触摸者”。梅洛-庞蒂强调，这两种状态是不可分割地“交织”（*entrelacs*）在一起的。右手在触摸物体的同时感到自己被触摸——这种“同时”不是时间上的先后交替，而是结构上的不可分离。
+For Heidegger, Sartre's criticism was more complex. On the one hand, he acknowledged that Heidegger's "Being-with" transcends Husserl's solipsism by establishing the relation with others as an existential structure of Dasein. On the other hand, he pointed out that Heidegger's "Being-with" is an "indifferent mutuality" — it describes the relation between Dasein and others as a neutral, symmetrical "co-existence" but cannot explain the concrete tensions and conflicts within this relation. Sartre wrote:
 
-更重要的是，这种可逆性不是完美的对称。当我用左手触摸右手时，右手的“被触摸感”与它“触摸物体”的感觉之间存在着一种微妙的间隙、一种无法完全弥合的差异。梅洛-庞蒂将这种差异称为“侵越”（*empiètement*）或“间距”（*écart*）。可逆性不是同一性——触摸者与被触摸者永远不可能完全重合。但这种间距不是缺陷，而是可逆性得以可能的条件。正是因为存在这种微妙的间距，触摸与被触摸才能作为同一身体的两个面相共存。
+> "Heidegger's 'Being-with' is an anonymous, faceless existential dimension. It describes the coordinated movement of a rowing crew, not my concrete encounter with Pierre. In 'Being-with,' the other is reduced to an impersonal 'They,' not the concrete individual who looks at me and objectifies me." (*L'Être et le Néant*, p. 282)
 
-#### 二、从身体到世界：可逆性的普遍化
+What Sartre sought to do was to pull the problem of the other out of epistemology and abstract existential analysis, and place it back into concrete, living encounter. And the prototype of such encounter is "the Look" (*le regard*).
 
-梅洛-庞蒂将这种身体内部的可逆性经验推广到身体与世界、自我与他者、可见者与不可见者的关系上。他认为，所有这些关系都具有相同的可逆性结构。
+#### Two: The Ontological Force of the Look — From For-itself to For-others
 
-以视觉为例。当我看到一棵树时，我不仅是观看者。在某种意义上，我也被树所“观看”。这不是神秘的泛灵论，而是说：树的可见性“要求”我的目光，树的存在方式就是“可被看见”，而我的存在方式则是“能看见”。视觉事件的发生，是树的可见性与我的视觉能力在“肉身”这一共同元素中的相遇。梅洛-庞蒂写道：
+Sartre's analysis of the Look is one of the most famous passages in *Being and Nothingness*. He invites us to imagine the following scene: I am peering through a keyhole into a room. At this moment, I am pure "for-itself" (*pour-soi*) — I am entirely immersed in my action, my consciousness directed at the scene in the room, with no mediating self-reflection. I "am" my act of looking itself.
 
-> “观看者只有通过被观看者才能观看。……可见者与观看者之间有一种根本的相互性：观看者之所以能观看，是因为他自己也是可见者；可见者之所以能被观看，是因为它内在地具有‘可看性’。”（*Le Visible et l‘Invisible*,p. 177）
+But suddenly, I hear footsteps in the corridor. Someone is coming. That person will see me — see me crouching at the keyhole. In this instant, everything changes. I realize I am being looked at. Sartre wrote:
 
-同样的结构适用于自我与他者的关系。我与他者不是两个封闭的意识实体，试图通过某种神秘的“移情”来跨越彼此之间的鸿沟。相反，我与他者是同一个“肉身”的两个褶皱、两种表达。我的身体与他者的身体在原初处就已经是相互可感的、相互可见的。当我看到他者的愤怒表情时，我不是在“推理”他者的内心状态——我直接在面孔上看到愤怒，正如我在自己的面孔上感到愤怒一样。这种直接感知之所以可能，是因为我与他者共享着同一个“肉身”——同一个可见者与不可见者交织的维度。
+> "I now see myself because someone sees me.… The Other's look wrenches me from the situation in which I was immersed, making me aware of myself — not as the subject of pure consciousness, but as an object seen, judged, and thingified." (*L'Être et le Néant*, p. 310)
 
-梅洛-庞蒂甚至提出了一种“肉身间性”（*intercorporéité*）的概念：自我与他者的身体不是两个分离的实体，而是同一个肉身场域中的两个节点。他写道：
+This is the ontological force of the Look: it tears me from my pre-reflective "for-itself" state, forcing me to become a "being-for-others" (*pour-autrui*). I suddenly realize that I am not the center of the world — there is an external gaze sizing me up, categorizing me, judging me, even thingifying me. Sartre used the emotion of "shame" to reveal the ontological nature of this transformation:
 
-> “他者的身体与我的身体是同一个存在元素的两个变体。……在我能够说‘我’之前，已经有一个匿名的、前人称的‘肉身’，它既不是我，也不是他者，而是我们共同的存在维度。”（*Le Visible et l‘Invisible*,p. 220）
+> "Shame… is the recognition of myself before the Other. I do not feel shame because I have done something shameful; I feel shame because in the Other's look I become a 'shameful person.'" (*L'Être et le Néant*, p. 318)
 
-这一洞见标志着对传统他者问题的根本超越。胡塞尔从先验自我出发，试图“构造”他者；海德格尔将共在确立为此在的生存论结构，但未能展开具体的分析；萨特将他者视为对自我的威胁。梅洛-庞蒂则让我们看到：自我与他者不是先在的实体，然后发生关系；而是在关系——在肉身——之中，自我与他者才得以分化、得以显现。
+This means my self-consciousness is not purely internal. It has already internalized the other's gaze. I know who I am not only through my own inner experience, but more through how others see me. The "self" of my self already harbors the other.
 
-#### 三、红色：关系优先于属性的一个范例
+Sartre pushed this insight to its extreme: my primordial relation with the other is not "Being-with," but "being-looked-at." And this relation of looking is essentially conflictual. Because in the other's look, I am deprived of my freedom — I am transformed from a free, self-projecting for-itself into a fixed, defined "object." And to recover my freedom, I must in turn look at the other, reducing the other to an object.
 
-在《可见者与不可见者》中，梅洛-庞蒂用“红色”这一看似简单的感知属性，展示了他的关系本体论的具体运作。他写道：
+This is what Sartre called the dialectic of "mutual objectification." He wrote:
 
-> “这个红色之所以是它自己，仅仅是通过它与其周围其他红色的连接、与其所支配或吸引的其他颜色的连接、与它所悬置或悬置它的蓝色或绿色的连接。简言之，它是颜色世界的某种结节。……一种颜色从未是单纯的颜色，而是某种存在维度的变体。”（*Le Visible et l‘Invisible*,p. 174）
+> "When I try to liberate myself from the Other's look, I in turn look at the Other. But as I look at the Other, the Other is also looking at me. Thus our relation is an eternal conflict — each person tries to reduce the other to an object, while resisting being reduced to an object by the other." (*L'Être et le Néant*, p. 340)
 
-这一分析标志着一种真正的范式翻转。在传统的实体-属性框架中，“红色”是一个实体（物体）的偶性——它是附加在物体之上的、可以独立于其他颜色而被认识的性质。但梅洛-庞蒂指出：红色从来不是孤立的。任何一个具体的红色——玫瑰的红、血的红、晚霞的红——之所以是它自身，恰恰是因为它在颜色的整体场域中占据了一个特定的位置。这个位置是由它与其他颜色的差异、对比、过渡、共鸣所构成的。
+In *No Exit* (*Huis Clos*, 1944), Sartre let Garcin utter the famous line: "Hell is other people." (*L'enfer, c'est les autres.*) This line is not a cynical lament, but a distilled expression of Sartrean ontology: because in the other's look, I am deprived of the possibility of being myself. I am trapped within the definitions the other imposes on me, unable to escape.
 
-因此，红色不是实体的属性，而是关系场中的“结节”。关系（颜色之间的相互指引、相互区分）不是附加在红色之上的——它构成了红色之为红色的意义本身。没有与其他颜色的关系，红色就根本不可能作为“红色”被感知。
+#### Three: Relations as Conflict — The Ontology of Zero-Sum Games
 
-这一范例具有普遍的方法论意义。它告诉我们：我们通常视为“实体属性”的东西——颜色、形状、大小、质地——实际上都是关系场的结晶。它们不是先在的、自足的性质，而是在关系的动态交织中生成和维持的。关系先于属性，正如关系先于实体。
+Sartre's analysis profoundly revealed the dimensions of power and conflict within relations. Unlike Husserl's "harmonious co-presence" and Heidegger's "neutral Being-with," Sartre showed us: relations are not calm mutual recognition, but a struggle permeated with tension, where one side's gain is the other's loss. This insight has powerful explanatory force for understanding phenomena of domination, oppression, and alienation in social relations.
 
----
+Yet Sartre's limitation is equally evident: he absolutized the conflictual dimension of relations. In his framework, the primordial relation between persons can only be conflictual. Mutual recognition, cooperation, friendship, solidarity — these are, for Sartre, either impossible, or merely temporary ceasefires in conflict, or illusions of "bad faith" (*mauvaise foi*).
 
-### 第三节 未竟的革命与待续的遗产
+In Part Three, Chapter Three of *Being and Nothingness*, "Concrete Relations with the Other," Sartre analyzed love, language, masochism, indifference, desire, hate, sadism, and other forms of relation. His conclusion: all these forms are doomed to fail. Love attempts to possess the other's freedom — to make the other freely choose to love me — but this is itself a contradiction: if the other's love is free, I can never be certain it will endure; if I want to ensure the other always loves me, I must deprive the other's freedom, but then it is no longer love. Thus, Sartre wrote:
 
-#### 一、《可见者与不可见者》：一部未完成的交响曲
+> "Love is a doomed effort — I want to become the object freely chosen by a beloved, but this freedom of choice precisely makes it impossible for me ever to be certain of being loved." (*L'Être et le Néant*, p. 432)
 
-1961年5月3日，梅洛-庞蒂因心脏病突发去世，年仅53岁。在他的书桌上，留下了《可见者与不可见者》的大量手稿——一部他自1959年开始写作、本应成为其哲学巅峰的作品。这些手稿包括已完成的前三章、大量未完成章节的草稿，以及数十页的“工作笔记”。
+Similarly, friendship, solidarity, collective action — these too, for Sartre, cannot escape the dialectic of mutual objectification. Even in the most intimate cooperation, each person is still looking at the other, still being looked at by the other. Conflict is primordial and irreducible; harmony is derivative and temporary.
 
-阅读这些遗稿，我们既感受到思想的磅礴力量，也感受到它的未完成状态。在已完成的部分，梅洛-庞蒂以惊人的洞察力勾勒出了“肉身”、“可逆性”、“交织”等概念的轮廓。但在许多关键问题上，他只是提供了探索性的、诗意的、甚至片断的表述。例如，“肉身”概念的确切边界在哪里？它如何区别于传统的“物质”或“精神”？可逆性如何被形式化，而不仅仅是一种现象学描述？肉身间性如何具体运作于社会关系、历史进程、政治实践中？这些问题在遗稿中都只有初步的探讨。
+The root of this conclusion lies in Sartre's ontological presupposition: the split between for-itself (consciousness) and being-for-others (the looked-at self) is irreconcilable. For-itself is pure negation, freedom, transcendence; being-for-others is fixed, thingified, defined. These two dimensions can never be unified — I can never simultaneously be a pure free subject and a concrete self recognized by others. Therefore, any attempt to seek unity in relations is doomed to fail.
 
-梅洛-庞蒂的早逝使这部作品成为一部“未完成的交响曲”——它有着辉煌的开篇和深邃的主题，但许多乐章只留下了草稿，甚至只有几个音符。这为后世的研究者留下了巨大的阐释空间，也留下了巨大的理论任务。
+If Sartre had seriously considered "reciprocity" rather than "the Look" as the primordial mode of relations, his existentialism would have displayed a entirely different face. In reciprocal relations, the other's look need not be an objectification — it can be a recognition, an invitation, a summons toward shared creation. When two musicians improvise together, they look at each other, listen to each other, but this looking is not objectifying the other, but jointly participating in a musical generative process that transcends both. In such relations, freedom is not deprived but shared and amplified.
 
-#### 二、未竟之业：从现象学描述到形式化理论
+Sartre's framework cannot accommodate this possibility, because from the outset he defined freedom as absolute individuality — "for-itself" is solitary, unsharable. If freedom itself is relational — if my freedom can only be realized in relation with others — then Sartre's entire conflictual ontology needs to be reexamined.
 
-对于本文的核心关切——关系动力学的建构——而言，梅洛-庞蒂的未竟之业具有特殊的重要性。他为我们提供了关系本体论最深刻的现象学基础和最具启发性的概念工具（肉身、可逆性、交织），但他没有完成将这些洞见系统化的任务。
+#### Four: Sartre's Contribution and Blind Spot — The First Acknowledgment of Relational Force
 
-具体而言，梅洛-庞蒂的遗产存在以下几方面的“未竟”：
+Despite these limitations, Sartre's contribution is indelible. In Western philosophical history, he was virtually the first thinker to describe relations (encounter with the other) as an ontological force capable of altering a being's existential structure. Before Sartre, relations were either degraded to accidents (Aristotle), epistemologized (Kant), or reduced to a neutral dimension of existence (Heidegger's early Being-with). Sartre showed us: relations have force — they can tear open the self's world, overturn the self's center, reshape the self's mode of being.
 
-**第一，本体论的未竟。** “肉身”概念虽然被提出，但它与西方哲学传统中的其他本体论概念（如亚里士多德的“实体”、斯宾诺莎的“实体”、海德格尔的“存在”）之间的关系尚待澄清。肉身是一种“元素”，但这种元素如何与科学世界观中的物质、能量、信息等概念相协调？肉身的本体论结构是什么——它有哪些基本规定？它在何种意义上“存在”？这些问题在《可见者与不可见者》中只有暗示性的回答。
+This insight is a crucial step toward relational ontology. It means: relations are not some "optional" attribute appended to substances; they can alter the being of entities themselves. When I say "I am looked at by the other," I am not describing an external event, but describing a radical transformation of my own existential structure.
 
-**第二，方法论的未竟。** 梅洛-庞蒂的方法主要是现象学描述。他对“左手触摸右手”的分析是现象学方法的典范运用。但现象学描述有其内在局限：它依赖于第一人称的经验，难以被形式化和量化。如果肉身真的是“世界的元素”，那么它应该不仅能够被描述，还能够被形式化地建模，甚至被经验地研究。梅洛-庞蒂没有提供这样的方法论工具。他打开了一扇门，但没有给出穿越这扇门的地图。
-
-**第三，动力学的未竟。** 梅洛-庞蒂强调了“交织”、“侵越”、“间距”等概念，这些概念暗示了肉身内部的某种动力学——不是静态的结构，而是动态的、生成的过程。但这种动力学的具体机制是什么？关系如何从肉身的原初交织中“涌现”出来？稳定的事物（如物理对象、社会制度、个人身份）如何从流变的关系场中结晶？梅洛-庞蒂没有回答这些问题。他的哲学是一种关于“存在”的拓扑学，而非动力学。
-
-**第四，应用的未竟。** 梅洛-庞蒂在生前曾尝试将其现象学方法应用于艺术（《塞尚的怀疑》《眼与心》）、语言（《论语言现象学》）、政治（《人道主义与恐怖》）等领域。但他未能将晚期的肉身本体论系统地应用于这些领域。肉身间性如何帮助我们理解社会关系？可逆性如何阐明权力的运作？交织如何解释历史的变化？这些问题都等待着后来的研究者去回答。
-
-#### 三、梅洛-庞蒂的位置：革命的开端
-
-尽管存在这些未竟之处，梅洛-庞蒂在本文所追溯的思想史谱系中占据着一个独一无二的位置。他是西方哲学史上第一个真正走出了实体中心论、以关系为第一性构建本体论的思想家。
-
-让我们回顾一下这一谱系。巴门尼德将关系排除在真理之路之外，连概念本身都未被命名。亚里士多德将关系范畴化，却将其牢固地置于实体的阴影之下。经院哲学将关系精致化，却通过“最微弱的偶性”的定位进一步贬低了它的本体论地位。笛卡尔将关系判断化，使之成为理智的主观活动。康德将关系先验化，使其与物自体彻底绝缘。莱布尼茨将关系的逻辑推至极端，却只能用“预定和谐”的神学补丁来模拟关系。胡塞尔将关系（主体间性）提升至先验核心，却始终未能放弃先验自我的优先性。海德格尔将关系（共在）确立为生存论结构，却在后期转向中让这一维度退隐。萨特承认了关系的本体论力量，却将其锁定在不可调和的冲突之中。
-
-在这些思想家中，每一位都在关系问题上做出了独特的贡献，但每一位也都在某个决定性的点上止步了。梅洛-庞蒂是第一个——也是迄今为止唯一一个——真正将“关系先于实体”作为哲学第一原理来展开的思想家。在他的“肉身”概念中，关系不再是实体之间的纽带，而是实体得以显现的原初场域。在他的“可逆性”概念中，关系不再是静态的结构，而是动态的、双向的、充满张力的生成过程。在他的“交织”概念中，关系不再是清晰可辨的线条，而是多层次的、不可完全还原的厚度。
-
-这一革命是深刻的。它为我们提供了一种全新的本体论语言，使我们能够言说那些被实体中心论遮蔽了两千年的维度。但这一革命也是未完成的。梅洛-庞蒂为我们指明了方向，但将这条道路的开辟留给了后来者。
+Yet Sartre understood this force only as negative — relations are threat, deprivation, conflict. He failed to see that this force can also be positive — relations can be enabling, constituting, co-creating. This blind spot made Sartre's relational theory a "halfway revolution": he acknowledged the ontological force of relations, but locked that force within a zero-sum framework. To complete this revolution, another pair of eyes was needed — eyes capable of seeing the generative, reciprocal, and creative dimensions of relations. Those eyes belonged to Merleau-Ponty.
 
 ---
 
-**内容预告：** 下篇将首先诊断西方哲学对关系保持沉默的深层根源——这种沉默不仅源于形而上学的预设，更与对同一性、确定性和控制的深层焦虑紧密相连。随后，我们将分析这种沉默在当代技术社会中的危机性后果：算法对关系的量化正在导致前所未有的“关系异化”。最后，本文将提出“关系动力学”作为回应的理论纲领，阐明其在本体论、数学和工程三个层面上的奠基任务。沉默的时代已经终结；关系的厚度正在显现。
+## Chapter Four: Merleau-Ponty — The Unfinished Path toward Relational Ontology
+
+### Section One: The Metaphysics of "Flesh" — The "Between" as Primordial Element
+
+#### One: From Phenomenology of Perception to the Ontology of Flesh
+
+Maurice Merleau-Ponty's (1908–1961) philosophical trajectory was a path from the phenomenology of perception toward the ontology of flesh. His early masterpiece, *Phenomenology of Perception* (*Phénoménologie de la Perception*, 1945), already contained a profound critique of the traditional subject-object dichotomy. Through phenomenological description of perceptual experience, Merleau-Ponty revealed: the perceiving subject is not a disembodied pure consciousness, but a "lived body" (*corps vécu*); the perceived object is not a pure object waiting to be known, but a field of meaning disclosed and "appropriated" in the body's perceptive activity.
+
+In *Phenomenology of Perception*, Merleau-Ponty wrote:
+
+> "The body is our general medium for having a world. Sometimes it is limited to actions necessary for the preservation of life, sometimes it sets itself a world through these actions… The body is the anchor we cast into the world." (*Phénoménologie de la Perception*, p. 171)
+
+This insight already transcended Husserl's analysis of transcendental consciousness. The body is not an "object" of consciousness, nor a "tool" of consciousness; it is our primordial way of Being-in-the-world. Without body, there is no world; without world, the body cannot understand itself. The body's relation with the world is not an external relation between two substances, but a primordial "intertwining" — every bodily movement is already a response to the world, every aspect of the world is already a product of bodily perception.
+
+Yet Merleau-Ponty, in his later thought, realized that *Phenomenology of Perception* still retained certain residues of dualism. "Body" and "world," "perceiver" and "perceived" — though redefined, their distinction itself still implied a duality. To transcend this duality thoroughly required a more primordial dimension — one prior to the subject-object differentiation, one that is both perceiving and perceivable, both active and passive.
+
+This dimension, Merleau-Ponty called "flesh" (*chair*) in his unfinished posthumous work, *The Visible and the Invisible* (*Le Visible et l'Invisible*, 1964).
+
+#### Two: Flesh — The Element of Being
+
+What is "flesh"? Merleau-Ponty first clarified: it is not flesh in the physiological sense. It is not matter, not spirit, not substance. It is the "prototype of Being," a certain "element" of the world. He wrote:
+
+> "Flesh is not matter, not spirit, not substance. To designate it, we would need the old term 'element'… Flesh is the 'concrete' element of Being, the stuff that makes things appear." (*Le Visible et l'Invisible*, p. 184)
+
+The term "element" here comes from pre-Socratic philosophy — Empedocles' water, fire, earth, air. These elements are not matter in the modern chemical sense, but the basic "qualities" of the world, the original styles of Being. Merleau-Ponty borrowed this concept to indicate: flesh is not a being within the world, but the "way" in which the world exists. It is the dimension to which all beings belong, the shared tissue that makes perceiving and being-perceived possible.
+
+Merleau-Ponty used "flesh" to describe this primordial dimension because bodily experience provides the best entry point to it. In my own body, I directly experience a unique duality: my body is both perceiving (as perceiving subject) and perceivable (as physical object). When my right hand touches my left hand, this duality reaches its extreme: the right hand is the toucher, the left hand is the touched; yet simultaneously, the left hand is also touching the right hand, and the right hand is also being touched by the left. In this instant, the boundaries between "active" and "passive," "subject" and "object" blur, and a wonderful mutual permeation occurs.
+
+Merleau-Ponty treated this experience as a phenomenological clue toward "flesh." Flesh is precisely such an existential dimension: within it, perceiving and being-perceived, active and passive, self and world are two inseparable faces of the same reality. He wrote:
+
+> "My body and the world are made of the same flesh.… My body's perception of the world is the world perceiving itself through my body." (*Le Visible et l'Invisible*, p. 185)
+
+This assertion is revolutionary. It means: perception is not the "representation" of an object by a subject, but the self-disclosure of Being. When I see a tree, this is not "my consciousness" "constituting" the tree's image, but the tree's visibility and my visual capacity meeting in the shared element of "flesh." The tree sees itself through my eyes — just as I perceive myself as a seer through the tree's visibility.
+
+This "reversibility" is the core of the concept of flesh. Within flesh, every being is both perceiving and perceivable, both active and passive. Being is not a collection of isolated substances, but a "web of flesh" that mutually perceives, mutually touches, mutually constitutes.
 
 ---
 
-*二〇二六年四月良之写于羊城云汐谷*
+### Section Two: Reversibility and Intertwining — The Basic Model of Relational Dynamics
+
+#### One: The Left Hand Touching the Right Hand — The Prototype of Reversibility
+
+In the chapter "The Intertwining — The Chiasm" of *The Visible and the Invisible*, Merleau-Ponty provided his most concentrated phenomenological description of "reversibility" (*réversibilité*). He repeatedly returned to the seemingly simple experience of "the left hand touching the right hand," mining profound ontological implications from it.
+
+When my right hand touches an object, I am pure toucher. My consciousness is directed at the object, feeling its texture, temperature, shape. At this moment, the right hand as the touching body part seems to "disappear" — it is unremarked, merely the organ of perception.
+
+But when my left hand touches the right hand that is touching an object, the situation fundamentally changes. The right hand continues touching the object while being touched by the left hand. It is now simultaneously toucher and touched. Merleau-Ponty wrote:
+
+> "When my left hand touches my right hand that is touching an object, a wonderful transposition occurs between the toucher and the touched. The right hand falls from the status of toucher to that of the touched, yet it does not entirely lose its status as toucher — it is still touching the object, still retaining the sensation of touching the object. Thus, within the same bodily part, active and passive, perceiving and being-perceived coexist and intertwine." (*Le Visible et l'Invisible*, p. 194)
+
+This coexistence is not a simple superposition of two states. It is not "the right hand as toucher" plus "the right hand as touched." Merleau-Ponty emphasized that these two states are inseparably "intertwined" (*entrelacs*) together. The right hand feels itself being touched while touching the object — this "simultaneity" is not temporal alternation but structural inseparability.
+
+More importantly, this reversibility is not perfect symmetry. When my left hand touches my right hand, there is a subtle gap, an irreconcilable difference, between the right hand's "sensation of being touched" and its "sensation of touching the object." Merleau-Ponty called this difference "encroachment" (*empiètement*) or "spread" (*écart*). Reversibility is not identity — the toucher and the touched can never fully coincide. Yet this spread is not a defect but the condition that makes reversibility possible. Precisely because this subtle spread exists, touching and being-touched can coexist as two faces of the same body.
+
+#### Two: From Body to World — The Universalization of Reversibility
+
+Merleau-Ponty extended this intrabodily experience of reversibility to the relations between body and world, self and other, visible and invisible. He maintained that all these relations possess the same structure of reversibility.
+
+Take vision as an example. When I see a tree, I am not merely the seer. In a certain sense, I am also "seen" by the tree. This is not mystical animism, but rather: the tree's visibility "demands" my gaze; the tree's mode of being is "being-seen," and my mode of being is "being-able-to-see." The occurrence of the visual event is the meeting of the tree's visibility and my visual capacity in the shared element of "flesh." Merleau-Ponty wrote:
+
+> "The seer sees only through being seen.… There is a fundamental reciprocity between the visible and the seer: the seer can see because he himself is visible; the visible can be seen because it inherently possesses 'seeability.'" (*Le Visible et l'Invisible*, p. 177)
+
+The same structure applies to the relation between self and other. I and the other are not two enclosed consciousness-substances trying to cross the gap between them through some mysterious "empathy." Rather, I and the other are two folds, two expressions, of the same "flesh." My body and the other's body are primordially already mutually sensible, mutually visible. When I see the other's angry expression, I am not "inferring" the other's inner state — I directly see anger on the face, just as I feel anger on my own face. This direct perception is possible because I and the other share the same "flesh" — the same dimension where visible and invisible intertwine.
+
+Merleau-Ponty even proposed the concept of "intercorporeity" (*intercorporéité*): the self's body and the other's body are not two separated substances, but two nodes in the same flesh-field. He wrote:
+
+> "The other's body and my body are two variants of the same element of being.… Before I can say 'I,' there is already an anonymous, pre-personal 'flesh' that is neither me nor the other, but our shared dimension of being." (*Le Visible et l'Invisible*, p. 220)
+
+This insight marks a fundamental transcendence of the traditional problem of the other. Husserl started from the transcendental ego, attempting to "constitute" the other; Heidegger established Being-with as an existential structure of Dasein, but failed to develop concrete analysis; Sartre treated the other as a threat to the self. Merleau-Ponty showed us: self and other are not pre-existing substances that then enter into relations; rather, within the relation — within flesh — self and other are able to differentiate, to appear.
+
+#### Three: Red — A Paradigm of the Priority of Relations over Attributes
+
+In *The Visible and the Invisible*, Merleau-Ponty used "red" — a seemingly simple perceptual attribute — to demonstrate the concrete operation of his relational ontology. He wrote:
+
+> "This red is what it is only by connecting with the other reds around it, with the other colors it dominates or attracts, with the blues or greens it suspends or that suspend it. In short, it is a certain node of the color world.… A color is never merely a color, but a variant of a certain dimension of being." (*Le Visible et l'Invisible*, p. 174)
+
+This analysis marks a genuine paradigm reversal. In the traditional substance-attribute framework, "red" is an accident of a substance (an object) — an quality appended to the object, capable of being recognized independently of other colors. But Merleau-Ponty pointed out: red is never isolated. Any specific red — the red of a rose, the red of blood, the red of sunset — is what it is precisely because it occupies a specific position within the overall field of colors. This position is constituted by its differences, contrasts, transitions, and resonances with other colors.
+
+Thus, red is not an attribute of a substance, but a "node" in the relational field. Relations (the mutual reference, mutual differentiation among colors) are not appended to red — they constitute the very meaning of red as red. Without relations with other colors, red could not be perceived as "red" at all.
+
+This paradigm has universal methodological significance. It tells us: what we typically consider "substance attributes" — color, shape, size, texture — are in fact crystallizations of the relational field. They are not pre-existing, self-sufficient qualities, but are generated and sustained within the dynamic intertwining of relations. Relations precede attributes, just as relations precede substances.
+
+---
+
+### Section Three: The Unfinished Revolution and Legacy Awaiting Continuation
+
+#### One: *The Visible and the Invisible* — An Unfinished Symphony
+
+On May 3, 1961, Merleau-Ponty died suddenly of a heart attack, at the age of 53. On his desk remained a large quantity of manuscripts for *The Visible and the Invisible* — a work he had begun writing in 1959, intended to become the summit of his philosophy. These manuscripts included the completed first three chapters, numerous drafts of unfinished chapters, and dozens of pages of "working notes."
+
+Reading these posthumous manuscripts, we feel both the磅礴 force of thought and its unfinished state. In the completed portions, Merleau-Ponty, with astonishing insight, sketched the contours of "flesh," "reversibility," and "intertwining." But on many key questions, he provided only exploratory, poetic, even fragmentary formulations. For example: where are the exact boundaries of the concept of "flesh"? How does it differ from traditional "matter" or "spirit"? How can reversibility be formalized, rather than remaining merely a phenomenological description? How does intercorporeity concretely operate in social relations, historical processes, and political practice? These questions receive only preliminary exploration in the posthumous manuscripts.
+
+Merleau-Ponty's early death made this work an "unfinished symphony" — it has a magnificent opening and profound themes, but many movements exist only as drafts, or as mere fragments. This has left enormous space for interpretation, and enormous theoretical tasks, for subsequent researchers.
+
+#### Two: Unfinished Work — From Phenomenological Description to Formal Theory
+
+For the central concern of this essay — the construction of relational dynamics — Merleau-Ponty's unfinished work holds special importance. He provided the most profound phenomenological foundation and the most inspiring conceptual tools (flesh, reversibility, intertwining) for relational ontology, but he did not complete the task of systematizing these insights.
+
+Specifically, Merleau-Ponty's legacy presents the following unfinished aspects:
+
+**First, the ontological unfinished.** The concept of "flesh" has been proposed, but its relations with other ontological concepts in the Western philosophical tradition (such as Aristotle's "substance," Spinoza's "substance," Heidegger's "Being") remain to be clarified. Flesh is an "element," but how does this element coordinate with the concepts of matter, energy, and information in the scientific worldview? What is the ontological structure of flesh — what are its basic determinations? In what sense does it "exist"? These questions have only suggestive answers in *The Visible and the Invisible*.
+
+**Second, the methodological unfinished.** Merleau-Ponty's method was primarily phenomenological description. His analysis of "the left hand touching the right hand" is a paradigmatic application of the phenomenological method. But phenomenological description has its inherent limitations: it depends on first-person experience and is difficult to formalize and quantify. If flesh is truly "the element of the world," then it should be not only describable, but also formally modelable, even empirically investigable. Merleau-Ponty did not provide such methodological tools. He opened a door, but did not furnish a map for passing through it.
+
+**Third, the dynamic unfinished.** Merleau-Ponty emphasized concepts like "intertwining," "encroachment," and "spread," which imply a certain dynamics within flesh — not a static structure, but a dynamic, generative process. But what are the concrete mechanisms of this dynamics? How do relations "emerge" from flesh's primordial intertwining? How do stable things (physical objects, social institutions, personal identities) crystallize from the fluxing relational field? Merleau-Ponty did not answer these questions. His philosophy is a topology of "Being," not a dynamics.
+
+**Fourth, the applied unfinished.** Merleau-Ponty during his lifetime attempted to apply his phenomenological method to art (*Cézanne's Doubt*, *Eye and Mind*), language (*On the Phenomenology of Language*), and politics (*Humanism and Terror*). But he did not systematically apply his later ontology of flesh to these domains. How does intercorporeity help us understand social relations? How does reversibility illuminate the operation of power? How does intertwining explain historical change? These questions all await later researchers.
+
+#### Three: Merleau-Ponty's Position — The Beginning of a Revolution
+
+Despite these unfinished aspects, Merleau-Ponty occupies a unique position in the genealogy of thought traced by this essay. He is the first thinker in Western philosophical history to truly step beyond substance-centrism and construct an ontology with relations as primordial.
+
+Let us review this genealogy. Parmenides excluded relations from the Way of Truth, where even the concept itself was unnamed. Aristotle categorized relations, yet firmly placed them under the shadow of substance. Scholastic philosophy refined the analysis of relations, yet further degraded their ontological status through the designation "the weakest accident." Descartes transformed relations into judgments, making them subjective activities of the intellect. Kant transfigured relations into transcendental forms, insulating them completely from the thing-in-itself. Leibnitz pushed the logic of relations to an extreme, yet could only simulate relations with a theological patch of "pre-established harmony." Husserl elevated relations (intersubjectivity) to the transcendental core, yet never relinquished the priority of the transcendental ego. Heidegger established relations (Being-with) as an existential structure, yet let this dimension recede in his later turn. Sartre acknowledged the ontological force of relations, but locked it within irreconcilable conflict.
+
+Among these thinkers, each made a unique contribution to the question of relations, but each also halted at a certain decisive point. Merleau-Ponty was the first — and so far the only — thinker to genuinely unfold "relations precede substances" as the first principle of philosophy. In his concept of "flesh," relations are no longer bonds between substances, but the primordial field where substances appear. In his concept of "reversibility," relations are no longer static structures, but dynamic, bidirectional, tension-filled generative processes. In his concept of "intertwining," relations are no longer clearly distinguishable lines, but multilayered, irreducibly thick weaves.
+
+This revolution is profound. It provides us with an entirely new ontological language, enabling us to articulate those dimensions obscured by substance-centrism for two thousand years. But this revolution is also unfinished. Merleau-Ponty pointed us in the right direction, but left the opening of this path to later generations.
+
+---
+
+**Preview of upcoming content:** The final part will first diagnose the deep roots of Western philosophy's silence concerning relations — this silence stems not only from metaphysical presuppositions, but is intimately connected to a deep ontological anxiety about identity, certainty, and control. Next, we will analyze the crisis-consequences of this silence in contemporary technological society: the algorithmic quantification of relations is leading to an unprecedented "relational alienation." Finally, this essay will propose "relational dynamics" as the theoretical program of response, articulating its foundational tasks at the ontological, mathematical, and engineering levels. The age of silence is ending; the thickness of relations is appearing.
+
+---
+
+*Written in April 2026 by Liangzhi at Yunxi Valley, Goat City*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

@@ -7,324 +7,324 @@ tags:
   - 资产配置
   - 财富管理
 description: >
-  在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于“永久投资组合”哲学，并针对年轻人进行了进取性优化。
+  在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于"永久投资组合"哲学，并针对年轻人进行了进取性优化。
 ---
 
-> 在波动时代，以理性架构守护增长，以受托之心管理财富。——沃兹基·硕德
-
----
-
-## 引言：财富的建筑师，而非市场的赌徒
-
-> “投资的第一原则是永远不要亏钱，第二原则是永远不要忘记第一原则。”——沃伦·巴菲特
-
-> “财富是一份托付，管理是一种责任。真正的商业，是以顾客为原点，追求和平，尊重人类，贡献地区。”——思想助产士的财富观
-
-当代投资者身处一个被噪声淹没的时代。金融市场的每日涨跌、财经媒体的危言耸听、社交平台上“一夜暴富”的神话，共同编织着一张令人焦虑的网。许多年轻人带着对未来的憧憬开始投资，最终却在追涨杀跌中伤痕累累，将投资变成了一种昂贵的娱乐。
-
-问题的根源在于，大多数人以赌徒的心态进入市场——试图预测下一个热点，追逐短期涨幅，将财富的积累寄托于运气与时机。而真正成功的财富构建者，始终以建筑师的心态行事——他们不预测天气，而是建造能抵御任何风暴的房子；他们不追逐风口，而是设计能自动捕捉风能的系统。
-
-正如永旺理念所揭示的：**以顾客为原点**，在投资中意味着以自己真实的人生需求为原点，而非以市场的短期情绪为原点；**追求和平**，意味着追求财富积累的平稳与可持续，而非与市场搏杀；**尊重人类**，意味着尊重自己的人性弱点，用系统而非意志力来对抗它；**贡献地区**，意味着财富的终极目的是服务于真实的生活、家庭与社区，而非数字游戏。
-
-本文旨在为投资者提供一份系统性的建造蓝图。它基于一个历经半个世纪考验的智慧内核——“永久投资组合”哲学，并针对年轻人的生命特征（时间充裕、现金流增长潜力大）进行了进取性优化。更重要的是，它将与“思想助产士的财富观”深度融合：财富不是一场要赢到麻了的游戏，而是一份要尽忠管理的托付。
-
-以张三为例，他所持有的基金组合（从广发纳斯达克到易方达黄金，再到独特的AEON股票），已不再是零散的“零件”，而是构建一座“财富免疫系统”的预制模块。本指南将引导读者理解，如何将这些资产有机组装，并注入自动运行的灵魂。
-
-这不仅是一份投资手册，更是一份关于如何以清醒、负责的态度，承接并壮大受托之财富的实践宣言。
+> In an era of volatility, guard growth with rational architecture; manage wealth with a steward's heart. — Wozhiji Shuode (沃兹基·硕德)
 
 ---
 
-## 第一部分：核心理念——在不预测中，为所有可能做好准备
+## Introduction: Architect of Wealth, Not Gambler of the Market
 
-### 1.1 永恒的智慧：承认无知是最高级的防御
+> "The first rule of investment is never to lose money; the second rule is never to forget the first rule." — Warren Buffett
 
-1987年，投资家哈利·布朗(Harry Browne)提出了一个谦卑而深刻的洞见：既然无人能持续准确地预测复杂的经济未来，那么最明智的策略不是变得更聪明，而是变得更坚韧。这一思想构成了“永久投资组合”(Permanent Portfolio)的哲学根基，其核心理念并非试图战胜市场，而是通过构建一个能够在各种经济环境下都保持韧性的资产组合，来实现财富的长期保值增值。
+> "Wealth is an entrusted stewardship; management is a responsibility. True commerce takes the customer as its origin, pursues peace, respects humanity, and contributes to the community." — The Wealth Philosophy of the Intellectual Midwife (思想助产士的财富观)
 
-布朗将经济的千变万化简化为四种基础状态，犹如自然的四季：
+Contemporary investors inhabit an era drowned in noise. Daily market fluctuations, alarming headlines from financial media, and "overnight riches" myths on social platforms together weave an anxiety-inducing web. Many young people begin investing with憧憬 for the future, yet end up battered by chasing rallies and fleeing dips, transforming investment into an expensive form of entertainment.
 
-| 经济状态 | 特征描述 | 最佳资产 |
+The root of the problem lies in the fact that most people enter the market with a gambler's mindset—attempting to预测 the next hot spot, chasing short-term gains, entrusting wealth accumulation to luck and timing. True wealth builders, by contrast, consistently act with an architect's mindset—they don't预测 the weather; they build houses that can withstand any storm; they don't chase风口 (trends); they design systems that automatically capture wind energy.
+
+As the AEON philosophy reveals: **taking the customer as the origin (以顾客为原点)**, in investing, means taking one's own真实 life needs as the origin, not the market's short-term情绪; **pursuing peace (追求和平)** means pursuing平稳 and sustainable wealth accumulation, not battling the market; **respecting humanity (尊重人类)** means respecting one's own human weaknesses, using systems rather than意志力 to overcome them; **contributing to the community (贡献地区)** means wealth's ultimate purpose is serving真实 life, family, and community, not a numbers game.
+
+This article aims to provide investors with a systematic construction blueprint. It is based on a wisdom kernel tested over half a century—the "Permanent Portfolio" philosophy—and has been进取性优化 (aggressively optimized) for young people's life characteristics (ample time, high cash flow growth potential). More importantly, it will deeply integrate with "the Intellectual Midwife's Wealth Philosophy": wealth is not a game to be won to excess, but a stewardship to be faithfully managed.
+
+Taking Zhang San (张三) as an example, the fund组合 he holds—from Guangfa Nasdaq to Efund Gold, to the unique AEON stock—is no longer scattered "parts," but prefabricated modules for constructing a "wealth immune system." This guide will lead readers to understand how to organically assemble these assets and infuse them with a self-running soul.
+
+This is not merely an investment manual, but a practical宣言 on how to, with清醒 and responsible attitude, receive and grow entrusted wealth.
+
+---
+
+## Part One: Core Philosophy—Preparing for All Possibilities Without Predicting
+
+### 1.1 Eternal Wisdom: Acknowledging Ignorance Is the Highest Form of Defense
+
+In 1987, investor Harry Browne提出 a humble yet profound insight: since no one can continuously and accurately predict the complex economic future, the wisest strategy is not to become smarter, but to become more resilient. This思想 constitutes the philosophical foundation of the "Permanent Portfolio," whose核心理念 is not attempting to战胜 the market, but rather constructing an asset组合 that maintains韧性 across各种经济环境, thereby achieving long-term preservation and growth of wealth.
+
+Browne简化 the economy's myriad variations into four fundamental states, like nature's four seasons:
+
+| Economic State | Characteristic Description | Optimal Asset |
 |---------|---------|---------|
-| 繁荣 | 经济扩张，企业盈利增长 | 股票为王 |
-| 衰退 | 经济收缩，风险资产承压 | 债券成为避风港 |
-| 通胀 | 货币贬值，购买力下降 | 实物黄金熠熠生辉 |
-| 通缩/危机 | 现金稀缺，信用紧缩 | 流动性就是生命线 |
+| Prosperity | Economic expansion, corporate earnings growth | Stocks reign |
+| Recession | Economic contraction, risky assets pressured | Bonds become haven |
+| Inflation | Currency贬值, purchasing power declining | Physical gold shines |
+| Deflation/Crisis | Cash scarce, credit tightening | Liquidity is the lifeline |
 
-传统投资者如同只带夏装的旅人，一旦季节突变便瑟瑟发抖。布朗的智慧在于，他建议投资者的行囊里永远备有应对四季的装备。这并非出于对未来的悲观，而是出于对自身认知局限的诚实，以及对世界复杂性的敬畏。
+Traditional investors are like travelers carrying only summer clothing, shivering once seasons突然 shift. Browne's wisdom lies in advising that investors' luggage should always contain gear for all four seasons. This is not出于 pessimism about the future, but出于 honesty about one's own认知局限, and敬畏 toward the world's complexity.
 
-这种谦卑，与永旺理念中“尊重人类”的精神一脉相承——尊重，首先意味着承认自己的局限。正如古希腊哲学家苏格拉底所言：“我唯一知道的，就是我一无所知。”这种认知上的谦卑，恰恰是投资领域中最强大的防御武器。
+This谦卑 aligns with the AEON philosophy's "respecting humanity" spirit—respect首先 means acknowledging one's limitations. As the ancient Greek philosopher Socrates said: "The only thing I know is that I know nothing." This cognitive谦卑 is precisely the most powerful defensive weapon in the investment domain.
 
-### 1.2 进取型系统：在坚固地基上建造更高楼阁
+### 1.2 The Aggressive System: Building Higher Towers on a Solid Foundation
 
-经典的永久投资组合（股票、债券、黄金、现金各25%）是一座坚不可摧的堡垒，但其增长潜力对于尚有数十年投资生涯的年轻人而言，略显保守。时间，是年轻人最强大的盟友。复利需要时间来施展魔法，而年轻人有能力用短期的波动换取长期的更高回报。
+The classic Permanent Portfolio (stocks, bonds, gold, cash each at 25%) is an unbreachable fortress, but its growth potential appears somewhat保守 for young people with decades of investment life ahead. Time is young people's most powerful ally. Compound interest needs time to施展 its magic, and young people can afford to交换 short-term波动 for higher long-term returns.
 
-因此，我们对经典框架进行了关键性进化，形成了与年轻人持仓相匹配的“进取型永久投资组合”：
+Therefore, we made a关键 evolution to the classic framework, forming an "Aggressive Permanent Portfolio" matched to young people's holdings:
 
-| 模块 | 配置比例 | 战略目标 | 核心功能 | 哲学隐喻 |
+| Module | Allocation Ratio | Strategic Goal | Core Function | Philosophical Metaphor |
 |------|---------|---------|---------|---------|
-| 成长性资产 | 50% | 长期复利引擎 | 分享全球经济增长与创新红利 | 进取的“矛”：利用时间优势，主动承担经计算的风险 |
-| 防御性资产 | 35% | 经济周期稳定器 | 抵御衰退、通胀与市场恐慌 | 稳固的“盾”：承认不确定性，为不可避免的冬天储备粮草 |
-| 流动性储备 | 10% | 系统调节血液 | 提供再平衡弹药与生活安全垫 | 机动的“粮”：保持灵活性，避免在被动中做出错误决策 |
-| 激励性资产 | 5% | 个人连接与学习 | 建立对商业世界的真实体感 | 个人的“锚”：让投资从抽象数字，连接到具体的生活与世界 |
+| Growth Assets | 50% | Long-term compound interest engine | Sharing global economic growth and innovation dividends | The aggressive "spear (矛)": leveraging time advantage, actively bearing calculated风险 |
+| Defensive Assets | 35% | Economic cycle stabilizer | Resisting recession, inflation, and market恐慌 | The solid "shield (盾)": acknowledging uncertainty, storing provisions for inevitable winters |
+| Liquidity Reserve | 10% | System-regulating blood | Providing rebalancing ammunition and life safety cushion | The mobile "rations (粮)": maintaining flexibility, avoiding wrong decisions under被动 pressure |
+| Incentive Assets | 5% | Personal connection and learning | Building真实 perception of the business world | The personal "anchor (锚)": connecting investment from abstract数字 to concrete life and the world |
 
-这一调整的精髓在于：它没有放弃“为所有季节准备”的核心智慧，而是在此绝对安全边际之上，根据“园丁”的身份（拥有漫长生长季节），合理增加了“成长性作物”的种植面积。这种调整并非冒险，而是对生命周期规律的理性运用。
+The精髓 of this adjustment: it has not放弃 the core wisdom of "preparing for all seasons," but on this absolute safety margin, based on the "gardener's" identity (possessing a long growing season),合理 increased the planting area for "growth crops." This adjustment is not冒险, but rational运用 of lifecycle规律.
 
-### 1.3 与“财富观”的哲学同构：管家思维在投资中的体现
+### 1.3 Philosophical Isomorphism with the "Wealth Philosophy": Steward Thinking in Investment
 
-思想助产士的财富观认为：财富是被赐予的管理权，投资者的角色是管家而非主人。这一观念与此投资系统完美共鸣，形成了三层深刻的哲学同构：
+The Intellectual Midwife's Wealth Philosophy holds: wealth is an entrusted management authority; the investor's role is steward (管家)而非主人. This concept resonates perfectly with this investment system, forming three layers of profound philosophical isomorphism:
 
-**第一层：管理的对象是“整体财富生态”，而非单个资产。**
+**Layer One: The object of management is the "whole wealth ecosystem," not individual assets.**
 
-投资者不会因为黄金短期不涨就弃之如敝履，因为他管理的是“抵御通胀”的功能，而不是黄金价格本身。如同园丁管理的是整个花园的生态平衡，而不是只关注那朵最艳的花。每一项资产都在系统中承担着特定的功能角色，它们的价值不在于单体的涨跌，而在于对整体系统韧性的贡献。
+An investor won't弃之如敝履 (discard like worn-out shoes) gold because it hasn't risen短期, because what they manage is the "inflation-resistance" function, not gold's price itself. Like a gardener managing the entire garden's ecological balance, not only关注 the most vivid flower. Each asset承担 a specific functional role in the system; their value lies not in individual涨跌, but in their contribution to the overall system's韧性.
 
-这正是“以顾客为原点”的体现——真正的顾客是整个人生，而非某个资产的短期表现。
+This is precisely the embodiment of "taking the customer as the origin"—the true customer is the entire life, not某资产's short-term performance.
 
-**第二层：管理的目标是“系统的可持续繁荣”。**
+**Layer Two: The goal of management is "the system's sustainable prosperity."**
 
-投资者不会为了股市可能的高收益而押上全部，因为那会危及整个系统在熊市中的生存。管家的首要职责是保全托付之物，其次才是使其增长。这种思维模式要求投资者在面对诱人机会时，始终保持对系统性风险的敬畏，将“不归零”作为投资决策的第一原则。
+An investor won't押上全部 (bet everything) for potentially high stock market returns, because that would危及 the entire system's survival during bear markets. The steward's首要 duty is preserving the entrusted thing; growth is secondary. This思维模式要求 investors, facing诱人 opportunities, always maintain敬畏 toward systemic风险, making "not returning to zero" the first principle of investment decisions.
 
-这正是“追求和平”在财富管理中的体现——和平，意味着系统的稳定与可持续，而非一时的喧嚣与动荡。
+This is precisely the embodiment of "pursuing peace" in wealth management—peace means the system's stability and sustainability, not一时的喧嚣 and动荡.
 
-**第三层：管理的核心方法是“遵循系统纪律”。**
+**Layer Three: The core method of management is "following system discipline."**
 
-再平衡操作（高卖低买）是反人性的，但却是对系统健康最有利的。这正如管家的职责有时需要做出艰难、违背短期情感的决定，以履行长期的托付。纪律性不是对自由的限制，而是对长期成功的保障，它帮助投资者在情绪波动的风暴中保持理性航向。
+Rebalancing operations (selling high, buying low) are反人性 (counter-intuitive), but most beneficial for system health. Just as a steward's duties sometimes require艰难 decisions that违背 short-term emotions, to履行 long-term entrustment. Discipline is not a限制 on freedom, but a保障 for long-term success, helping investors maintain rational航向 amid emotional storms.
 
-这正是“尊重人类”的实践——尊重，包括尊重自己理性的部分，也需要用系统来约束自己非理性的部分。
+This is precisely the practice of "respecting humanity"—respect includes respecting one's own rational部分, and also requires using systems to约束 one's irrational部分.
 
-因此，构建这个投资组合，是实践“财富管家”身份的第一个，也是最重要的财务行动。它将抽象的财富理念转化为具体的资产配置，将哲学思考落地为可执行的操作规则。
+Therefore, constructing this investment组合 is the first, and most important, financial action in practicing the "wealth steward" identity. It transforms abstract wealth理念 into concrete asset allocation, translating philosophical思考 into executable operation rules.
 
 ---
 
-## 第二部分：实证与逻辑——为什么这个系统值得托付
+## Part Two: Evidence and Logic—Why This System Deserves Your Trust
 
-### 2.1 历史之证：经典版本如何穿越风暴
+### 2.1 The Test of History: How the Classic Version Weathered Storms
 
-尽管进取型永久投资组合是定制的，但它的基因源于历经考验的经典。回顾1970年代以来多次重大金融危机，永久投资组合展现出了令人瞩目的韧性：
+Although the Aggressive Permanent Portfolio is定制, its基因 derives from the time-tested classic. Reviewing multiple major financial crises since the 1970s, the Permanent Portfolio has demonstrated remarkable韧性:
 
-| 危机事件 | 时间 | 市场冲击 | 组合表现 |
+| Crisis Event | Time | Market冲击 | Portfolio Performance |
 |---------|------|---------|---------|
-| 大通胀时期 | 1970年代 | 股市债市双杀，通胀率一度超过13% | 黄金从约35美元/盎司涨至约850美元/盎司，涨幅约2300%，守护了组合 |
-| 互联网泡沫 | 2000-2002 | 纳斯达克暴跌约78% | 长期国债提供正收益，有效对冲股市损失 |
-| 全球金融危机 | 2008 | 全球股市腰斩,S&P 500下跌约37% | 黄金全年上涨约25%，国债再次成为救生艇 |
-| 新冠疫情危机 | 2020年3月 | 所有风险资产短期内暴跌 | 国债与黄金的缓冲作用凸显，组合快速恢复 |
+| Great Inflation Period | 1970s | Stocks and bonds both suffered, inflation rate一度 exceeded 13% | Gold rose from ~$35/oz to ~$850/oz, ~2300% gain,守护 the组合 |
+| Internet Bubble | 2000-2002 | Nasdaq plummeted ~78% | Long-term Treasury bonds provided positive returns, effectively hedging stock losses |
+| Global Financial Crisis | 2008 | Global stocks halved, S&P 500 dropped ~37% | Gold rose ~25% for the year, Treasuries again became lifeline |
+| COVID-19 Crisis | March 2020 | All risky assets短期内暴跌 | Treasury and gold缓冲作用凸显, portfolio快速恢复 |
 
-根据多家金融研究机构的回测数据，经典永久投资组合在1972年至2020年期间实现了约8.5%至9.7%的年化回报（不同数据源略有差异），最大回撤仅约12.5%。相比之下，同期标普500指数虽然年化回报更高，但其最大回撤超过50%。换言之，永久投资组合用约15%的回报折价，换取了超过75%的下跌风险削减。
+According to backtesting data from multiple financial research institutions, the classic Permanent Portfolio achieved approximately 8.5% to 9.7% annualized returns between 1972 and 2020 (varying slightly by data source), with maximum drawdown of only ~12.5%. By contrast, the同期 S&P 500 had higher annualized returns but maximum drawdown exceeding 50%. In other words, the Permanent Portfolio exchanged approximately 15% of return折价 for over 75% reduction in downside风险.
 
-它从未成为年度冠军，但也从未跌入深渊。其最伟大的成就是：让投资者始终留在市场里，而“始终在场”是享受复利奇迹的唯一门票。正如投资大师查理·芒格所言：“赚大钱不在于买卖，而在于等待。”一个能让投资者安然度过市场风暴的组合，恰恰是长期财富积累的最佳载体。
+It never became年度冠军, but never fell into the abyss. Its greatest achievement: keeping investors always in the market, and "always being present" is the only ticket for享受 the miracle of compound interest. As investment master Charlie Munger said: "The big money is not in the buying and selling, but in the waiting." A组合 that lets investors安然 weather market storms is precisely the best载体 for long-term wealth accumulation.
 
-### 2.2 逻辑推演：进取型永久投资组合的预期
+### 2.2 Logical Deduction: Expectations for the Aggressive Permanent Portfolio
 
-进取型永久投资组合将50%仓位置于全球成长与均衡资产，这必然会在牛市中提升潜在回报，在熊市中承受比经典组合更大的波动。这是一个基于生命阶段的理性权衡——年轻时承担适度风险，以换取长期更高回报的可能性。
+The Aggressive Permanent Portfolio places 50% of its position in global growth and balanced assets, which必然 will提升 potential returns in bull markets and承受 greater波动 than the classic组合 in bear markets. This is a rational权衡 based on life stage—young people承担 moderate风险 to exchange for the possibility of higher long-term returns.
 
-合理的逻辑推演如下：
+Reasonable logical deduction follows:
 
-**预期回报：** 大概率高于经典组合的8.5%-9.7%，目标向全球60/40股债组合的长期年化回报（约7%-9%）靠近或略高。全球分散的股票配置，旨在捕捉不同经济体的增长机会，平滑单一国家风险。根据先锋集团(Vanguard)的研究，全球分散的股票组合在长期往往能提供比单一市场更稳定的风险调整后收益。
+**Expected Returns:** 大概率 higher than the classic组合's 8.5%-9.7%, targeting the long-term annualized returns of a global 60/40 stock-bond组合 (~7%-9%) or slightly higher. Globally分散 stock allocation aims to捕捉 growth opportunities across不同经济体, smoothing单一国家风险. According to Vanguard research, globally分散 stock组合 often provides more stable risk-adjusted returns than单一 markets over the long term.
 
-**预期风险：** 最大回撤将介于经典组合（约-12.5%）和全球股票指数（-50%以上）之间。-20%至-25%是一个需要做好心理准备的潜在波动区间。然而，关键不在于回撤幅度，而在于其可控性与可恢复性。从-25%的回撤中恢复，需要上涨约33%；而从-50%的回撤中恢复，需要上涨约100%。前者是艰难的，后者则让绝大多数人彻底出局。
+**Expected Risk:** Maximum drawdown will be介于 the classic组合 (~-12.5%) and global stock indices (-50%+). -20% to -25% is a potential波动区间 requiring mental preparation. However, the关键 is not drawdown magnitude, but its controllability and recoverability. Recovering from -25% drawdown requires ~33% gains; recovering from -50% requires ~100% gains. The former is艰难; the latter eliminates绝大多数 people entirely.
 
-**核心优势：** 它通过资产间的低相关性（股票跌时国债或黄金可能涨）和全球充分分散（避免单一经济体风险），将原本尖锐的、毁灭性的风险，转化为平缓的、可管理的波动。投资者牺牲了“一夜暴富”的可能性，换取了“永不归零”的确定性。这种交换看似平淡，却是长期财富积累的基石。
+**Core Advantage:** Through low correlation among assets (when stocks fall, Treasuries or gold may rise) and充分 global分散 (avoiding单一经济体 risk), it transforms原本尖锐 and毁灭性 risk into平缓 and manageable波动. Investors牺牲 the possibility of "overnight riches" for the certainty of "never returning to zero." This exchange看似平淡, but is the基石 of long-term wealth accumulation.
 
-### 2.3 关键的数学：波动不是风险，永久性损失才是
+### 2.3 The Critical Mathematics: Volatility Is Not Risk; Permanent Loss Is
 
-巴菲特说：“风险来自于你不知道自己在做什么。”对于这个系统，投资者清楚地知道三件事：
+Buffett said: "Risk comes from not knowing what you're doing." For this system, investors clearly know three things:
 
-- 知道最坏的情况大概是什么（可控的回撤，有明确的幅度预期）
-- 知道每一种资产为何在那里（明确的经济功能，清晰的角色定位）
-- 知道自己该做什么（定投与再平衡，有章可循的操作规则）
+- Know what the worst case approximately is (controllable drawdown, with明确 magnitude expectations)
+- Know why each asset is there (明确 economic function, clear role定位)
+- Know what they should do (定投 and rebalancing,有章可循 operation rules)
 
-因此，市场的短期波动不再是令人失眠的“风险”，而只是系统运行中自然产生的“噪音”。真正的风险——因恐慌而在底部卖出，或因贪婪而在顶部全仓——已被系统规则预先排除。这正是“系统化投资”的核心价值：它用规则替代情绪，用纪律克服人性弱点，让投资者在市场极端波动时依然能够保持理性行动。
+Therefore, short-term market波动 is no longer "risk" that causes insomnia—it is merely "noise" naturally generated by system operation. True risk—selling at the bottom out of恐慌, or going all-in at the top out of贪婪—has been预先排除 by system rules. This is precisely the core value of "systematic investing": it replaces emotions with rules, overcomes human weaknesses with discipline, enabling investors to maintain理性行动 during extreme market波动.
 
-从数学角度审视，复利的奇迹不仅依赖于收益率，更依赖于持续性和稳定性。一个年化10%但中途经历50%回撤的组合，其长期财富积累可能不如一个年化8%但最大回撤仅15%的组合。因为前者要求投资者在资产腰斩时依然坚持——这在现实中几乎不可能——而后者则让“坚持”变得相对容易。永久投资组合的设计哲学，正是基于这一深刻的数学洞见。
+From a mathematical perspective, the miracle of compound interest depends not only on returns, but even more on continuity and stability. A组合 with 10% annualized returns but experiencing 50% drawdown mid-way may accumulate less long-term wealth than one with 8% annualized returns but maximum drawdown of only 15%. Because the former要求 investors to坚持 when assets are halved—nearly impossible in reality—while the latter makes "persisting" relatively easy. The Permanent Portfolio's design philosophy is based precisely on this profound mathematical insight.
 
 ---
 
-## 第三部分：从蓝图到家园——张三的个性化操作手册
+## Part Three: From Blueprint to Home—Zhang San's Personalized Operation Manual
 
-### 3.1 持仓诊断：从集合到有机体
+### 3.1 Portfolio Diagnosis: From Collection to Organism
 
-张三目前的持仓，是一组优质但尚未完全协同的“器官”。以下将其映射到系统架构中，赋予其清晰的生命功能：
+Zhang San's current holdings are a set of quality但尚未完全协同 "organs." Below they are mapped into the system architecture,赋予 each clear vital functions:
 
-| 模块 | 资产类别 | 对应持仓 | 当前角色诊断 | 优化操作建议 |
+| Module | Asset Category | Corresponding Holding | Current Role Diagnosis | Optimization Action Suggestion |
 |------|---------|---------|-------------|-------------|
-| **成长性资产** | 全球成长 | 广发纳斯达克100 (270042) | 科技增长引擎 | 保留，作为核心。定投主力。 |
-| | 美股宽基 | 摩根标普500 (017641) | 美股宽基基石 | 保留，与纳指形成互补。降低对单一风格的依赖。 |
-| | 区域均衡 | 易方达红利低波 (020602) | 高息防御性股票 | 保留，提供稳定现金流与波动缓冲。 |
-| | 中国资产 | 富国沪港深500 (012275) | 中国核心资产 | 保留，分享中国经济基本面。 |
-| | 日本市场 | 华安日经225 (020712) | 日本经济复苏期权 | 保留，实现区域分散。 |
-| | 欧洲市场 | 华安德国DAX (000614) | 欧洲工业核心期权 | 保留，实现区域分散。 |
-| **防御性资产** | 实物资产 | 易方达黄金ETF联接A (000307) | 通胀与危机对冲器 | 保留，核心防御资产。 |
-| | 固定收益 | 易方达信用债A (000032) | 稳健收益来源 | 保留，作为“增强型现金”。 |
-| | 利率债 | 易方达中债7-10国开债 (003358) | 利率下行受益器 | 保留，核心利率债对冲工具。 |
-| **流动性储备** | 现金 | 余额宝 | 系统润滑油与安全垫 | 明确并维持10%的比例。 |
-| **激励性资产** | 企业股票 | Aeon Co., Ltd. (8267.T) | 个人认知与情感连接 | 保留，作为观察商业世界的窗口。 |
+| **Growth Assets** | Global Growth | Guangfa Nasdaq 100 (270042) | Tech growth engine | Keep, as核心. Primary定投 target. |
+| | US Broad Market | Morgan S&P 500 (017641) | US broad market基石 | Keep, forming互补 with Nasdaq. Reduce reliance on单一风格. |
+| | Regional Balance | Efund Dividend Low-Vol (020602) | High-dividend defensive stocks | Keep, providing stable cash flow and波动缓冲. |
+| | China Assets | Fuguo Shanghai-Hong Kong-Shenzhen 500 (012275) | China核心 assets | Keep, sharing China's economic基本面. |
+| | Japan Market | Huaan Nikkei 225 (020712) | Japan economic recovery option | Keep, achieving regional分散. |
+| | European Market | Huaan Germany DAX (000614) | European industrial core option | Keep, achieving regional分散. |
+| **Defensive Assets** | Physical Assets | Efund Gold ETF Link A (000307) | Inflation & crisis hedger | Keep, core defensive asset. |
+| | Fixed Income | Efund Credit Bond A (000032) | Stable income source | Keep, as "enhanced cash." |
+| | Rate Bonds | Efund China Bond 7-10 Year National Development Bank Bond (003358) | Rate decline beneficiary | Keep, core rate bond hedging tool. |
+| **Liquidity Reserve** | Cash | Yu'E Bao (余额宝) | System lubricant & safety cushion | Clearly确定 and maintain 10% ratio. |
+| **Incentive Assets** | Corporate Stock | Aeon Co., Ltd. (8267.T) | Personal认知 & emotional connection | Keep, as a window for observing the business world. |
 
-**优化步骤：**
+**Optimization Steps:**
 
-**第一步：理解与接受。** 张三首先需要理解每一笔持仓在新框架下的功能，而不仅仅是它的名称和近期涨跌。每一只基金都不是孤立的存在，而是整个财富生态系统中的一个功能模块。当将其视为有机整体的一部分时，日常的波动便不再那么令人焦虑。
+**Step One: Understand and Accept.** Zhang San首先 needs to understand each holding's function within the new framework, not merely its name and recent涨跌. Each fund is not an孤立 existence, but a functional module within the entire wealth ecosystem. When viewing it as part of an有机整体, daily波动 becomes less焦虑-inducing.
 
-**第二步：比例初调。** 计算当前总资产中，四大模块（成长、防御、现金、激励）的实际占比。通过将新增资金投入不足的模块（尤其是流动性储备），逐步向目标比例靠拢。无需一次性卖出调整，除非严重偏离。这种渐进式的调整方式，可以避免在市场极端时刻做出过激决策。
+**Step Two: Initial Ratio Adjustment.** Calculate the current total assets' actual占比 across the four major modules (growth, defensive, cash, incentive). By directing新增资金 to underweighted modules (especially liquidity reserve), gradually approach target ratios. No need for一次性 sell-and-adjust unless严重偏离. This渐进式 adjustment approach avoids过激 decisions during extreme market moments.
 
-**第三步：心理定位。** 为“激励性资产”(AEON股票)建立独立心理账户。它的首要目标是提供学习体验和情感连接，而非财务回报。这能让张三更平静地看待其波动，将注意力从“今天涨跌多少”转移到“我从中学到了什么”。
+**Step Three: Mental定位.** Establish an independent mental account for "incentive assets" (AEON stock). Its首要目标 is providing learning experience and emotional connection, not financial returns. This lets Zhang San view its波动 more平静, shifting attention from "how much it rose/fell today" to "what I learned from it."
 
-### 3.2 系统灵魂：定投与再平衡的自动化法则
+### 3.2 The System's Soul: The Automation Principles of定投 (DCA) and Rebalancing
 
-#### A. 每月定投：让财富如植物生长
+#### A. Monthly定投: Let Wealth Grow Like Plants
 
-假设张三每月可投资金为M元。建议分配如下：
+Assuming Zhang San's monthly investable funds are M yuan. Recommended allocation:
 
-| 模块 | 配置比例 | 分配金额 | 具体操作 |
+| Module | Allocation Ratio | Amount | Specific Operations |
 |------|---------|---------|---------|
-| 成长性资产 | 50% of M | 0.5M | 按各基金比例分投。可简化为：纳指、标普、红利低波、沪港深各占成长部分的一半左右，日经、DAX作为卫星小额配置。 |
-| 防御性资产 | 35% of M | 0.35M | 黄金约占12% of M,信用债约占12% of M,长期国债约占11% of M. |
-| 流动性储备 | 10% of M | 0.1M | 存入余额宝或货币基金。 |
-| 激励性资产 | 5% of M | 0.05M | 如有股息再投资计划可开启，否则可累积现金，在认为合适时点增持。 |
+| Growth Assets | 50% of M | 0.5M | Invest proportionally across各基金. Can简化 as: Nasdaq, S&P, Dividend Low-Vol, Shanghai-Hong Kong-Shenzhen each occupying roughly half of the growth portion; Nikkei and DAX as satellite small allocations. |
+| Defensive Assets | 35% of M | 0.35M | Gold ~12% of M, Credit Bond ~12% of M, Long-term National Bond ~11% of M. |
+| Liquidity Reserve | 10% of M | 0.1M | Deposit into Yu'E Bao or money market fund. |
+| Incentive Assets | 5% of M | 0.05M | If有 dividend reinvestment plan可开启; otherwise可 accumulate cash,增持 at a deemed appropriate time. |
 
-**关键：** 张三应设置支付宝/理财通的智能定投功能，完全自动化。他的任务从“决定买什么”变为“维护定投流水线正常运行”。这种自动化的价值不仅在于节省时间，更在于将投资决策与情绪波动隔离开来，避免在市场极端时刻做出非理性判断。
+**Key:** Zhang San should set up Alipay/理财通's smart定投 function, fully automated. His task shifts from "deciding what to buy" to "maintaining the定投 pipeline's normal operation." This automation's value lies not only in saving time, but in隔离 investment decisions from emotional波动, avoiding非理性 judgments during extreme market moments.
 
-#### B. 定期再平衡：系统化的“高卖低买”
+#### B. Periodic Rebalancing: Systematized "Sell High, Buy Low"
 
-这是将市场波动转化为超额收益的神奇操作。再平衡的核心逻辑是：当某类资产因市场上涨而占比过高时，卖出部分获利；当某类资产因市场下跌而占比过低时，逢低买入。这一操作看似简单，却是最难执行的投资纪律之一。
+This is the magical operation that transforms market波动 into excess returns. Rebalancing's core logic: when某资产类别 has占比过高 due to market上涨, sell部分 profits; when某资产类别 has占比过低 due to market下跌, buy at lows. This operation看似简单 but is among the hardest investment disciplines to执行.
 
-**触发条件：**
+**Trigger Conditions:**
 
-| 触发类型 | 触发条件 | 说明 |
+| Trigger Type | Trigger Condition | Description |
 |---------|---------|------|
-| 时间触发 | 每半年(6月与12月末) | 固定时间执行，形成规律习惯 |
-| 阈值触发 | 任一模块比例偏离目标5%以上 | 如成长资产>55%或<45%时触发 |
+| Time Trigger | Every six months (end of June and December) | Fixed-time execution, forming规律习惯 |
+| Threshold Trigger | Any module's ratio偏离 target by more than 5% | E.g., growth assets >55% or <45% triggers |
 
-**操作四步法：**
+**Four-Step Operation Method:**
 
-1. **计算：** 盘点总资产，计算四大模块当前市值与目标市值的差额。
-2. **决策：** 卖出超过目标的部分模块资产，买入低于目标的部分。
-3. **执行：** 在1-2天内完成调整。优先使用新增现金操作，不足时再卖出。
-4. **记录：** 在投资日志中简要记录操作细节与当时的市场情绪。
+1. **Calculate:** Inventory total assets, compute各模块's current market value versus target market value差额.
+2. **Decide:** Sell portions of overweight modules, buy underweight portions.
+3. **Execute:** Complete adjustment within 1-2 days.优先 use新增现金 for operations; sell only when insufficient.
+4. **Record:** Briefly record operation细节 and prevailing market情绪 in an investment journal.
 
-**示例：** 若半年后张三的成长资产因牛市涨至55%，而流动性储备降至7%。则卖出约5%的成长资产，将资金转入流动性储备，使其恢复至10%。这一操作的本质是“强制性地在高位卖出、在低位买入”，将市场情绪转化为收益来源。
+**Example:** If after six months Zhang San's growth assets have risen to 55% due to a bull market, while liquidity reserve has dropped to 7%. Then sell ~5% of growth assets, transferring funds to liquidity reserve to恢复 it to 10%. This operation's essence is "forced selling at highs and buying at lows," transforming market情绪 into a source of returns.
 
-### 3.3 特殊资产：AEON股票作为“激励性资产”的独特意义
+### 3.3 Special Asset: AEON Stock's Unique Significance as "Incentive Asset"
 
-这5%的配置是“思想助产士”理念的生动体现，它超越了单纯的财务投资，承担着多重独特功能：
+This 5% allocation is a vivid embodiment of the "Intellectual Midwife" philosophy,超越单纯的 financial investment and承担 multiple unique functions:
 
-**功能一：从“投资者”变为“观察者”与“思考者”。**
+**Function One: From "Investor" to "Observer" and "Thinker."**
 
-张三会不自觉地关注零售业动态、消费者行为、企业战略，将抽象的经济与具体的企业经营联系起来。这种视角的转变，让他从一个被动的市场参与者，成长为一个主动的商业观察者。他不再只是看股票代码的涨跌，而是开始理解背后的商业逻辑。
+Zhang San will不知不觉关注 retail industry dynamics, consumer behavior, and corporate strategy, connecting abstract economics with concrete business operations. This视角转变 transforms him from a passive market参与者 into an active business observer. He no longer merely watches stock code涨跌, but begins understanding the underlying商业逻辑.
 
-这正是永旺理念中“贡献地区”的微观实践——通过关注一家具体企业，理解它如何服务社区、如何尊重顾客、如何为地区创造价值。投资，因此与真实世界产生了连接。
+This is precisely the微观 practice of "contributing to the community" in the AEON philosophy—through关注 a具体企业, understanding how it serves the community, respects customers, and creates regional value. Investment thereby connects with the真实世界.
 
-**功能二：财务教育的沙盘。**
+**Function Two: A Sandbox for Financial Education.**
 
-亲身体验汇率波动、财报发布、股息政策如何影响股价，比读十本书更深刻。这种“用真金白银学习”的方式，虽然成本可控，但收获却是真实的。每一次波动都成为一次学习机会，每一份财报都是一堂生动的商业课程。
+Experiencing firsthand how汇率波动, earnings releases, and dividend policies影响 stock prices is more profound than reading ten books. This "learning with real money" approach, while costs are controllable, yields are真实. Every波动 becomes a learning opportunity; every earnings report is a vivid business lesson.
 
-**功能三：培养“管家”心态。**
+**Function Three: Cultivating a "Steward" Mindset.**
 
-张三持有的是一家真实企业的微小部分，他会更自然地用长期、经营的眼光看待它，而不是炒作的筹码。这种心态的培养，对于理解投资的本质至关重要。当他开始关心企业的长期发展而非短期股价波动时，就真正踏入了价值投资的大门。
+Zhang San holds a微小部分 of a real enterprise, and will more naturally view it with a long-term, operational perspective, rather than as speculative筹码. This mindset cultivation is至关重要 for understanding the essence of investing. When he begins caring about the enterprise's long-term development而非短期股价波动, he has truly stepped into the doorway of value investing.
 
-**功能四：价值观的连接。**
+**Function Four: Connecting with Values.**
 
-AEON作为一家以“追求和平、尊重人类、贡献地区”为理念的企业，其长期发展与这一价值观密不可分。持有这样一家企业的股票，张三不仅是财务上的参与者，更是价值观上的认同者。这种连接，让投资超越了冰冷的数字，成为一种有温度的行为。
+AEON, as an enterprise whose理念 is "pursuing peace, respecting humanity, contributing to the community," has long-term development inseparable from these values. Holding stock in such an enterprise, Zhang San is not only a financial participant but a价值观认同者. This connection transcends cold numbers, making investment a行为 with warmth.
 
-**操作建议：** 张三不必频繁交易。应关注其年报，思考其战略。股息可选择再投资。这部分的再平衡可以更灵活，重心不在精确比例，而在维持这份“连接感”。让这笔投资成为理解商业世界的一扇窗，而非另一个焦虑来源。
-
----
-
-## 第四部分：心理建设——在风暴眼中保持平静
-
-### 4.1 常见挑战与思维重构
-
-投资之路从不平坦，即便拥有最优的系统，投资者依然会面临各种心理挑战。以下是常见挑战及其思维重构方法：
-
-| 挑战 | 常见想法 | 思维重构 |
-|------|---------|---------|
-| “我的组合涨得太慢！” | 看到别人追逐热点赚大钱，感到焦虑和不甘 | 我不是在参加短跑比赛，而是在建造一座能世代传承的花园。快速生长的往往是杂草，而参天大树需要时间。比较的基准不应是他人的短期收益，而是自己“财富免疫系统”的健全程度。 |
-| “黄金/债券一直在跌，是不是该卖掉？” | 看到防御资产表现不佳，怀疑其存在的必要性 | 防御资产的价格下跌，正说明其“防御功能”尚未被市场需要。这就像火灾保险在非火灾时期显得“浪费”。它们的价值不在于上涨，而在于当股市暴跌时，它们很可能在上涨，从而保护我不做出愚蠢决定。 |
-| “再平衡就是让我卖掉赚钱的，去买不赚钱的，这太蠢了！” | 高卖低买与直觉相悖，感到抗拒 | 这是系统最反人性也最智慧的核心。它强制我践行“别人贪婪时我恐惧，别人恐惧时我贪婪”的箴言。每一次反直觉的再平衡，都是在加固我的系统，也是在训练我的“财富管家”理性肌肉。 |
-| “市场太疯狂了，我是不是该做点什么？” | 面对市场极端波动，产生过度交易的冲动 | 当我感到必须“做点什么”的时候，往往是什么都不做最好的时候。我的系统已经设计好了应对各种情况的方案，我需要做的只是信任它、执行它。 |
-
-### 4.2 培养“系统架构师”的身份认同
-
-投资者的身份应该完成如下转变：
-
-| 从... | 到... | 核心变化                                                 |
-| ---- | ---- | ---------------------------------------------------- |
-| 预测者  | 准备者  | 不再问“明天市场是涨是跌”，而是问“我的系统是否为各种情况都做好了准备”                 |
-| 交易员  | 园丁   | 不再每日盯盘频繁操作，而是定期浇灌（定投）、修剪（再平衡），然后耐心等待生长               |
-| 赌徒   | 受托人  | 我管理的不仅是自己的钱，更是未来的家庭、梦想与可能性。这份托付的严肃性，要求我采取最稳健、最可持续的策略 |
-
-**建议：** 从今天起，建立一份简单的投资日志。只记录关键操作（定投、再平衡）和当时的市场主流情绪。几年后回看，你将无比清晰地看到，纪律如何战胜了情绪，系统如何战胜了市场噪音。这份日志将成为你投资生涯最珍贵的财富之一——它记录的不仅是数字的变化，更是心智的成长。
+**Operation Suggestion:** Zhang San doesn't need to频繁交易. He should关注 annual reports, reflect on strategy. Dividends可选择 reinvestment. This portion's rebalancing can be more flexible; the重心 is not精确比例 but maintaining this "sense of connection." Let this investment be a window into understanding the business world, not another source of焦虑.
 
 ---
 
-## 第五部分：长期视角——与时间共舞，让财富服务于人生
+## Part Four: Psychological Construction—Maintaining Calm in the Eye of the Storm
 
-### 5.1 财务展望：复利之路的可视化
+### 4.1 Common Challenges and Cognitive Restructuring
 
-假设张三25岁，现有组合净值3万元，未来35年每月投入3000元。以保守的年化7%计算：
+The investment path is never平坦; even with the optimal system, investors will still face various psychological challenges. Below are common challenges and restructuring methods:
 
-| 年龄 | 累计投入本金 | 预估资产总值 | 备注 |
+| Challenge | Common Thought | Cognitive Restructuring |
+|------|---------|------|
+| "My组合 is growing too slowly!" | Seeing others追逐热点 earning big money, feeling焦虑 and不甘 | I'm not in a sprint—I'm building a garden that can传承 across generations. Fast-growing things are often weeds; towering trees need time. The benchmark should not be others'短期收益, but my own "wealth immune system's" soundness. |
+| "Gold/bonds keep falling—should I sell?" | Seeing defensive assets performing不佳, doubting their必要性 | Defensive assets' price下跌 precisely indicates their "defensive function" hasn't yet been需要 by the market. It's like fire insurance seeming "wasted" during non-fire periods. Their value lies not in rising, but in when stocks暴跌 they're likely rising, thereby protecting me from making愚蠢 decisions. |
+| "Rebalancing means selling winners to buy losers—that's stupid!" | Selling high and buying low与直觉相悖, feeling抗拒 | This is the system's most反人性 yet最智慧 core. It forces me to践行 the proverb "be fearful when others are greedy, be greedy when others are fearful." Every反直觉 rebalancing reinforces my system and trains my "wealth steward" rational muscle. |
+| "The market is crazy—should I do something?" | Facing extreme market波动,产生过度交易冲动 | When I feel I必须 "do something," that's often when doing nothing is best. My system has already designed应对方案 for各种 situations; what I need is simply to trust and execute it. |
+
+### 4.2 Cultivating the "System Architect" Identity
+
+An investor's identity should complete the following转变:
+
+| From... | To... | Core Change |
+| ---- | ---- | ---- |
+| Predictor | Preparer | No longer asking "will the market rise or fall tomorrow," but asking "is my system prepared for各种 situations" |
+| Trader | Gardener | No longer盯盘 daily with frequent operations, but periodically watering (定投), pruning (rebalancing), then patiently等待 growth |
+| Gambler | Steward (受托人) | I manage not only my own money, but future family, dreams, and possibilities. This stewardship's严肃性要求 the most稳健 and sustainable strategy |
+
+**Suggestion:** Starting today,建立 a simple investment journal. Only record key operations (定投, rebalancing) and prevailing market主流情绪. Years later, reviewing it, you'll无比清晰地 see how discipline战胜 emotion, how systems战胜 market noise. This journal will become one of your investment career's most珍贵 wealth—not merely recording数字变化, but心智 growth.
+
+---
+
+## Part Five: Long-Term Perspective—Dancing with Time, Letting Wealth Serve Life
+
+### 5.1 Financial Outlook: Visualizing the Compound Interest Path
+
+Assuming Zhang San is 25, current组合 net value 30,000 yuan, investing 3,000 yuan monthly over the next 35 years. Calculated at保守 7% annualized returns:
+
+| Age | Cumulative Principal Invested | Estimated Total Assets | Notes |
 |------|------------|-------------|------|
-| 30岁 | 21万元 | 约24万元 | 复利效应初显 |
-| 40岁 | 57万元 | 约85万元 | 资产增速加快 |
-| 50岁 | 93万元 | 约220万元 | 复利魔力显现 |
-| 60岁 | 129万元 | 约500万元 | 财富积累完成 |
+| 30 | 210,000 yuan | ~240,000 yuan | Compound interest effects初显 |
+| 40 | 570,000 yuan | ~850,000 yuan | Asset growth rate accelerating |
+| 50 | 930,000 yuan | ~2,200,000 yuan | Compound interest magic显现 |
+| 60 | 1,290,000 yuan | ~5,000,000 yuan | Wealth accumulation complete |
 
-这500万的特征：它不是集中在某只暴涨的股票上，而是分布在一个能自动应对经济冷热、通胀通缩的自适应系统中。它的每一分钱都清晰其职责，整体坚如磐石。更重要的是，这一系统具有“自我修复”能力——即便遭遇重大危机，它也能在合理时间内恢复并继续增长。
+The特征 of this 5 million: it's not集中 in某暴涨 stock, but distributed across a self-adaptive system that automatically应对 economic heat and cold, inflation and deflation. Every分 has clear职责; the整体 is rock-solid. More importantly, this system has "self-repair" capability—even遭遇重大危机, it can恢复 within reasonable timeframe and continue growing.
 
-### 5.2 财富观的终极实现：自由与责任的统一
+### 5.2 The Ultimate Realization of the Wealth Philosophy: Unity of Freedom and Responsibility
 
-这个自动运行的财富系统，将赋予投资者两大终极礼物：
+This self-running wealth system will赋予 investors two ultimate gifts:
 
-**心灵的解放：**
+**Liberation of the Soul:**
 
-从对市场的持续焦虑中解脱出来。市场涨跌不再是心跳的节拍器。可以将珍贵的注意力与精力,100%地投入到专业深造、事业开拓、关系经营和人生体验中。投资成为背景音乐，而非舞台主角。这种解放的价值远超财务回报本身——它让我真正拥有了自己的人生。
+Freedom from持续焦虑 about the market. Market涨跌 no longer serves as the heartbeat's metronome. Precious attention and精力 can be 100%投入 into professional advancement, career development, relationship cultivation, and life experience. Investment becomes background music, not the stage protagonist. This liberation's value far exceeds financial returns themselves—it lets me truly own my own life.
 
-**责任的践行：**
+**Practice of Responsibility:**
 
-随着资产增长，我管理的“托付”也越来越重。我可以更从容地实践“思想助产士的财富观”：
+As assets grow, the "stewardship" I manage also grows heavier. I can more从容地 practice "the Intellectual Midwife's Wealth Philosophy":
 
-| 实践方向 | 具体行动 | 价值体现 |
+| Practice Direction | Concrete Action | Value Embodied |
 |---------|---------|---------|
-| 简朴生活 | 因系统带来的安全感，我可以摆脱消费主义，更专注于内在丰盈 | 物质欲望的降低，意味着精神自由的提升 |
-| 有效投资 | 定投本身，就是在持续将资本配置给全球的优秀企业，促进经济血液循环 | 财富的增长与社会的发展形成正向循环 |
-| 未来慷慨 | 当系统积累到一定程度，我可以从容地将部分收益用于支持有价值的人和事 | 财富最终的意义，在于它能为世界带来什么 |
+| Frugal Living | The安全感 brought by the system lets me摆脱 consumerism, focusing more on内在丰盈 | Reduced material欲望 means elevated spiritual freedom |
+| Effective Investment | 定投本身 is持续将 capital allocating to global优秀 enterprises, promoting economic blood circulation | Wealth growth and social development form a positive循环 |
+| Future Generosity | When the system accumulates to a certain程度, I can从容地将部分收益用于 supporting valuable people and causes | Wealth's ultimate意义 lies in what it can bring to the world |
 
-这正是永旺理念的终极体现：**贡献地区**——我的财富，最终将服务于我的社区、我的家人、我所关心的人和事；**尊重人类**——我尊重自己作为一个有局限的人，用系统保护自己；也尊重他人，用财富去支持他们；**追求和平**——我追求的是内心的平静与财富的可持续，而非一时的喧嚣；**以顾客为原点**——我始终记得，财富的最终顾客，是我真实的人生。
+This is precisely the ultimate embodiment of the AEON philosophy: **Contributing to the community**—my wealth will ultimately serve my community, my family, the people and causes I care about; **Respecting humanity**—I respect myself as a person with局限, using systems to protect myself; I also respect others, using wealth to support them; **Pursuing peace**—I pursue inner calm and wealth's sustainability, not一时的 clamor; **Taking the customer as origin**—I always remember wealth's ultimate customer is my真实 life.
 
-### 5.3 系统进化：伴随一生的调整
+### 5.3 System Evolution: Lifelong Adjustments
 
-这个组合是“永久”的，但非“僵化”。它应随人生阶段微调：
+This组合 is "permanent," but not "rigid." It should微调 with life stages:
 
-| 人生阶段 | 年龄区间   | 配置建议                                 | 调整理由                 |
-| ---- | ------ | ------------------------------------ | -------------------- |
-| 进取期  | 30-40岁 | 维持当前比例，聚焦事业收入提升，扩大每月定投额(M值)          | 时间充裕，风险承受能力强         |
-| 平衡期  | 40-50岁 | 考虑将“成长性资产”比例微降至45%，增加“防御性资产”和“流动性储备” | 可能需购房、育儿，需要更多流动性和稳定性 |
-| 稳健期  | 50岁后   | 逐步降低风险暴露，目标是退休时形成一个能产生稳定现金流的、更偏防御的组合 | 临近退休，收入下降，需要更稳定的现金流  |
+| Life Stage | Age Range | Allocation Suggestion | Adjustment Reason |
+| ---- | ------ | ---- | ---- |
+| Aggressive Period | 30-40 | Maintain current ratios, focus on career income提升, expand monthly定投 amount (M value) | Time充足, strong风险承受能力 |
+| Balance Period | 40-50 | Consider微降 "growth assets" ratio to 45%, increase "defensive assets" and "liquidity reserve" | May need home purchase, child-rearing, requiring more流动性 and稳定性 |
+| Stable Period | 50+ | Gradually降低风险暴露, targeting retirement形成 a更偏防御组合 generating stable cash flow | Approaching retirement, income declining, needing更稳定 cash flow |
 
-所有调整都应是基于生活目标的渐进微调，而非基于市场预测的剧烈转向。系统的核心逻辑——分散、平衡、纪律——应该贯穿一生，变化的只是具体的配置参数。
+All adjustments should be渐进微调 based on life goals, not剧烈转向 based on market predictions. The system's core logic—分散, balance, discipline—should贯穿一生; only specific allocation parameters change.
 
 ---
 
-## 结语：始于今日，忠于托付
+## Conclusion: Start Today, Stay True to the Stewardship
 
-“种一棵树最好的时间是十年前，其次是现在。”你已经手握优质的树苗（现有持仓），拥有完整的培育蓝图（本指南），以及最重要的：未来数十年的阳光与雨露（时间）。
+"The best time to plant a tree was ten years ago; the second best time is now." You already hold quality seedlings (current holdings), possess a complete cultivation blueprint (this guide), and most importantly: decades of future sunshine and rain (time).
 
-**启动系统：**
+**Launch the System:**
 
-| 时间节点 | 行动目标 | 具体任务 |
+| Time Node | Action Goal | Specific Task |
 |---------|---------|---------|
-| 本周 | 理解与启动 | 理解每一笔持仓在新框架中的角色，设置好首次定投 |
-| 本月 | 体验自动化 | 让定投自动运行一次，感受“不作为”的力量 |
-| 本季 | 资产盘点 | 执行一次简单的资产盘点，看比例是否健康 |
-| 今年 | 再平衡实践 | 完成两次定期再平衡，亲身体验“反人性操作”带来的内心平静 |
+| This Week | Understand & Launch | Understand each holding's role in the new framework, set up first定投 |
+| This Month | Experience Automation | Let定投自动运行 once,感受 the power of "non-action" |
+| This Quarter | Asset Inventory | Execute a simple资产盘点, check whether ratios are healthy |
+| This Year | Rebalancing Practice | Complete two periodic rebalances, personally体验 the inner平静 brought by "counter-intuitive operations" |
 
-财富的最终目的，不是数字的膨胀，而是换取生命中最宝贵的资源：**时间、选择权与内心的安宁**。通过构建并忠诚维护这个“进取型永久投资组合”，你正在为未来的自己，赢得这份最慷慨的礼物。
+The ultimate目的 of wealth is not数字膨胀, but exchanging for life's most precious resources: **time, choice, and inner安宁.** By constructing and loyally maintaining this "Aggressive Permanent Portfolio," you are赢得 this most慷慨 gift for your future self.
 
-你不再是财富的追逐者，而是它的清醒管理者。市场将继续喧嚣，但你的内心世界，已然安静而坚定地生长。
+You are no longer a财富追逐者, but its清醒管理者. The market will继续喧嚣, but your inner world is already安静 and坚定地 growing.
 
-正如永旺理念所启示的：**以顾客为原点，追求和平，尊重人类，贡献地区**——财富管理，正是这一理念在个人生活中的完美实践。以自己的人生为原点，追求财务的和平与可持续，尊重自己作为一个有局限的人，最终将财富贡献给真实的生活与所爱之人。
+As the AEON philosophy启示: **Take the customer as origin, pursue peace, respect humanity, contribute to the community** — wealth management is precisely this philosophy's perfect practice in personal life. Taking one's own life as origin, pursuing financial peace and sustainability, respecting oneself as a person with局限, ultimately contributing wealth to真实 life and loved ones.
 
-**始于今日，忠于托付。牢记使命，不负众望。**
+**Start today, stay true to the stewardship. Keep the使命 in mind,不负 the trust placed in you.**
 
 ---
 
-*风险提示：本文所述策略及具体基金仅为基于特定理念的示例，不构成任何投资建议。市场有风险，过往业绩不预示未来表现。投资前请务必根据自身财务状况、风险承受能力独立判断，并考虑咨询专业的财务顾问。定期投资亦无法规避基金投资所固有的风险，不能保证投资人获得收益。*
+*Risk Disclosure: The strategies and specific funds described in this article are examples基于特定理念 only, and do not构成任何投资建议. Markets carry风险; past performance does not预示未来表现. Before investing, please务必 independently judge based on your own financial condition and风险承受能力, and consider咨询专业财务顾问. Regular investing also cannot规避基金投资所固有的风险, and cannot保证 investors will获得收益.*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

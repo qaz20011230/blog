@@ -10,513 +10,513 @@ description: >
   从词源到实战，用七天掌握七个最实用的提示词框架（CLEAR, ART, RICE, PAIR, SCAMPER, PESTEL, LIGHT）。这是一份给大一新生小瑶的入门指南，也是给所有希望驾驭AI的人的思维工具箱。
 ---
 
-> *“Prompt the actor, and the play unfolds; prompt the mind, and wisdom speaks.”*
-> ——改编自莎士比亚戏剧谚语
+> *"Prompt the actor, and the play unfolds; prompt the mind, and wisdom speaks."*
+> ——Adapted from a Shakespearean theatrical proverb
 
 ---
 
-## 引言：从词源到智慧——提示词工程的起源与意义
+## Introduction: From Etymology to Wisdom—The Origins and Significance of Prompt Engineering
 
-### 一、Prompt的词源：舞台上的轻声低语
+### I. The Etymology of "Prompt": A Soft Whisper on the Stage
 
-在16世纪末的伦敦，泰晤士河南岸的环球剧场里，莎士比亚的《哈姆雷特》正在上演。舞台上的演员沉浸在角色中，但突然，他的大脑一片空白——长达1500行的台词，他忘了一句。在那个没有提词器的年代，这将是致命的失误。然而观众毫无察觉，因为舞台地板的一个暗格中，一位**提词员(prompter)**轻声送出了那个关键词语，演员接上，演出继续。
+In late 16th-century London, on the south bank of the Thames at the Globe Theatre, Shakespeare's *Hamlet* was being performed. An actor, immersed in his role, suddenly experienced a blank mind—among 1,500 lines of dialogue, he had forgotten one. In an era without electronic prompters, this would have been a致命失误. Yet the audience noticed nothing, because from a concealed trapdoor beneath the stage floor, a **prompter (提词员)** softly delivered the key phrase. The actor picked it up, and the performance continued.
 
-这就是英语单词 **prompt** 最初的舞台形象。它源自拉丁语动词 **promere**，由前缀 **pro-**（向前）和 **emere**（拿取）组成，字面意思是“拿到前面来”。其过去分词 **promptus** 演变为形容词，意为“准备好的”“手边的”——正如提词员手中那本随时可用的剧本。14世纪进入英语后，它从“促使行动”扩展到“给演员提词”，再到17世纪泛指“提醒或促使某人行动”，最终在计算机时代，演变为屏幕上等待用户输入的提示符。
+This is the original theatrical image of the English word **prompt**. It derives from the Latin verb **promere**, composed of the prefix **pro-** (forward) and **emere** (to take), literally meaning "to bring forth." Its past participle **promptus** evolved into an adjective meaning "ready" or "at hand"—just as the prompter's ever-available script. After entering English in the 14th century, it expanded from "prompting action" to "cueing actors," then by the 17th century broadly to "reminding or prompting someone to act," and ultimately in the computer age, becoming the symbol on a screen awaiting user input.
 
-每一次你对着AI对话框键入文字，你就在扮演那个舞台下的提词员。而AI,就是那个等待提示的演员。
+Every time you type words into an AI dialogue box, you are playing the prompter beneath the stage. And the AI is the actor awaiting a cue.
 
-### 二、Engineering的词源：天赋与创造的艺术
+### II. The Etymology of "Engineering": The Art of Innate Talent and Creation
 
-**Engineering** 同样有着高贵的血统。它源于拉丁语 **ingenium**，意为“天赋、才能、发明”。这个词根也衍生出 ingenious（ ingenious,有天才的）和 engine（引擎，原指天赋或机巧的工具）。到了中世纪,ingeniator 指设计或操作攻城器械的人；文艺复兴后,engineer 逐渐指向那些运用数学和科学知识解决实际问题的人。
+**Engineering** likewise possesses noble lineage. It originates from the Latin **ingenium**, meaning "innate talent, ability, invention." This root also衍生出 ingenious (possessing genius) and engine (originally referring to a tool of天赋 or ingenuity). By the Middle Ages, *ingeniator* referred to those who designed or operated siege engines; after the Renaissance, *engineer* gradually指向 those who applied mathematical and scientific knowledge to solve practical problems.
 
-所以，**提示词工程(Prompt Engineering)** 从词源上就蕴含了两层深意：一是“在恰当的时刻向前递出准备好的话语”(prompt)，二是“运用天赋与智慧，创造性地设计解决方案”(engineering)。它不是简单的指令输入，而是一门融合了语言学、心理学、逻辑学和创造力的艺术与科学。
+Thus, **Prompt Engineering (提示词工程)** carries two layers of profound meaning from its etymological roots: first, "delivering prepared words forward at the right moment" (prompt), and second, "运用 innate talent and wisdom to creatively design solutions" (engineering). It is not simple指令输入, but a discipline融合 linguistics, psychology, logic, and creativity—both art and science.
 
-### 三、5W1H：精准定义提示词工程
+### III. 5W1H: Precisely Defining Prompt Engineering
 
-为了让你从零开始透彻理解，我们不妨用经典的5W1H法来解析这门新兴学科。
+To enable thorough understanding from scratch, let us use the classic 5W1H method to parse this emerging discipline.
 
-| 维度 | 问题 | 答案 |
+| Dimension | Question | Answer |
 |------|------|------|
-| **What** | 什么是提示词工程? | 设计和优化输入给AI模型的文本(prompt)，以引导其生成符合预期的输出的实践。 |
-| **Why** | 为什么要学它? | AI的输出质量极大依赖于输入的质量。一个好的问题，已经解决了问题的一半。掌握它能让你从“被动接收”变为“主动驾驭”。 |
-| **Who** | 谁需要学习? | 任何与AI打交道的人：学生、教师、研究者、创作者、程序员、管理者……尤其是刚踏入大学的新生，因为AI将成为你们未来四年最强大的学习伙伴。 |
-| **When** | 什么时候开始学? | 现在。AI技术正以指数级融入教育和工作，越早掌握，越早受益。 |
-| **Where** | 在哪些场景应用? | 学术写作、文献检索、创意生成、数据分析、编程调试、语言学习、日常问答……几乎无处不在。 |
-| **How** | 怎么学? | 通过结构化的思维框架。本文将用七天时间，带你掌握七种最实用的提示词框架，并以大一新生小瑶的视角，见证她从AI小白到熟练使用者的蜕变。 |
+| **What** | What is prompt engineering? | The practice of designing and optimizing text (prompts) input to AI models, to引导 them toward generating outputs that meet expectations. |
+| **Why** | Why learn it? | AI output quality极大地 depends on input quality. A good question has already solved half the problem. Mastering it transforms you from "passive recipient" to "active驾驭者." |
+| **Who** | Who needs to learn? | Anyone interacting with AI: students, teachers, researchers, creators, programmers, managers... especially freshmen just entering university, because AI will become your most powerful learning companion for the next four years. |
+| **When** | When to start learning? | Now. AI technology is exponentially integrating into education and work; the earlier you master it, the earlier you benefit. |
+| **Where** | In which scenarios to apply? | Academic writing, literature retrieval, creative generation, data analysis, programming debugging, language learning, daily Q&A... virtually无处不在. |
+| **How** | How to learn? | Through structured thinking frameworks. This article will use seven days to guide you through seven of the most practical prompt frameworks, witnessing from the perspective of freshman Xiaoyao (小瑶) her transformation from AI novice to熟练使用者. |
 
 ---
 
-## 第0天：小瑶的AI初遇
+## Day 0: Xiaoyao's First Encounter with AI
 
-九月清晨，阳光透过梧桐叶洒在校园里。小瑶拖着行李箱，站在信息科学与技术学院的新生报到处，心里既兴奋又忐忑。她是一名刚入学的大一新生，专业是数字媒体技术。高中时她听说过ChatGPT,但从来没真正用过——感觉那是“高年级学长才玩得转的东西”。
+On a September morning, sunlight filtered through parasol tree leaves onto the campus. Xiaoyao dragged her suitcase to the freshman registration desk of the School of Information Science and Technology, feeling both excited and忐忑. She was a newly enrolled freshman, majoring in Digital Media Technology. In high school she had heard of ChatGPT but never truly used it—it felt like "something only senior students could master."
 
-报到后的第一次班会上，辅导员说：“大学四年，你们要学会的最重要的技能不是背知识点，而是**学会提问、学会思考**。人工智能时代，会提问的人，才是真正的主人。”
+At the first class meeting after registration, the counselor said: "The most important skill you must learn over four years of university is not memorizing knowledge points, but **learning to ask questions, learning to think**. In the age of artificial intelligence, those who can ask questions are the true masters."
 
-小瑶似懂非懂地记下了这句话。回到宿舍，她打开笔记本电脑，第一次点开了DeepSeek的对话框。光标在屏幕上闪烁，仿佛在问：“你想让我做什么？”
+Xiaoyao半懂不懂地 noted this down. Back in her dorm, she opened her laptop and for the first time clicked on DeepSeek's dialogue box. The cursor blinked on the screen, as if asking: "What would you like me to do?"
 
-她输入：“你好。”
+She typed: "Hello."
 
-AI立刻回复：“你好！有什么我可以帮你的吗？”
+The AI immediately replied: "Hello! How can I help you?"
 
-小瑶愣住了。她不知道接下来该说什么。那个闪烁的光标，就像舞台上等待提词的演员，而她却忘了自己才是提词员。
+Xiaoyao froze. She didn't know what to say next. That blinking cursor was like an actor on stage awaiting a cue, while she had forgotten that she herself was the prompter.
 
-她关上电脑，决定先了解这门“提词的艺术”。她在图书馆找到了几本关于AI和提示词的书，又看了不少网上的教程。接下来的七天，她每天学习一个框架，并用自己的真实需求进行练习。
+She closed the computer, deciding first to understand this "art of prompting." She found several books about AI and prompts in the library, and watched many online tutorials. Over the next seven days, she learned one framework each day, practicing with her own real needs.
 
 ---
 
-## 第1天：CLEAR框架——让模糊想法变清晰
+## Day 1: The CLEAR Framework—Turning模糊想法 into Clarity
 
-### 1.1 小瑶的困惑
+### 1.1 Xiaoyao's Confusion
 
-第一节课后，老师布置了一篇小论文，主题是“芯片产业现状分析”。小瑶觉得这很简单，于是打开DeepSeek,输入：
+After the first class, the teacher assigned a short essay on the topic "Analysis of the Current State of the Chip Industry." Xiaoyao thought this was simple, so she opened DeepSeek and typed:
 
-> “帮我写点关于芯片产业的东西。”
+> "Help me write something about the chip industry."
 
-结果AI输出了一大段文字，从芯片定义讲到制造工艺，再到市场格局，洋洋洒洒一千多字。但小瑶看完却皱起了眉头：“这内容太泛了，我想要的是作业需要的分析，不是科普啊！”
+The AI output a large passage, from chip definitions to manufacturing processes to market landscape,洋洋洒洒 over a thousand words. But Xiaoyao frowned after reading: "This content is too broad—I wanted analysis suitable for the assignment, not a popular science overview!"
 
-她尝试第二次输入：
+She tried a second input:
 
-> “写一篇关于芯片产业的文章。”
+> "Write an article about the chip industry."
 
-结果类似。小瑶有点沮丧：“为什么AI总是不懂我想要什么？”
+The result was similar. Xiaoyao felt沮丧: "Why does AI never understand what I want?"
 
-### 1.2 引入CLEAR框架
+### 1.2 Introducing the CLEAR Framework
 
-这时她想起了辅导员的话：“会提问的人，才是真正的主人。”她开始搜索“如何更好地提问”，然后找到了一个叫**CLEAR**的提示词框架：
+She recalled the counselor's words: "Those who can ask questions are the true masters." She began searching for "how to ask better questions" and found a prompt framework called **CLEAR**:
 
-- **C - Concise（简洁）**：去除冗余信息，直击核心
-- **L - Logical（逻辑清晰）**：确保思路连贯，结构合理
-- **E - Explicit（明确）**：具体说明需求，避免歧义
-- **A - Adaptive（适应性）**：根据反馈灵活调整提示
-- **R - Reflective（反思）**：评估输出质量并持续优化
+- **C - Concise**: Remove冗余信息, hit the core directly
+- **L - Logical**: Ensure coherent reasoning, sound structure
+- **E - Explicit**: Specifically state requirements, avoid歧义
+- **A - Adaptive**: Flexibly adjust the prompt based on反馈
+- **R - Reflective**: Evaluate output quality and continually optimize
 
-小瑶恍然大悟：原来问题出在自己身上——她的提示词太模糊了！就像走进餐厅只说“给我来点吃的”，厨师当然不知道是该端米饭还是红烧肉。
+Xiaoyao恍然大悟: the problem lay with herself—her prompts were too模糊! It's like walking into a restaurant and only saying "give me something to eat"—the chef当然 doesn't know whether to serve rice or braised pork.
 
-### 1.3 实战：用CLEAR重新提问
+### 1.3 Practice: Re-prompting with CLEAR
 
-小瑶拿起纸笔，用CLEAR的五个要素重新设计提示词：
+Xiaoyao took up pen and paper, redesigning her prompt using CLEAR's five elements:
 
-| 要素 | 思考过程 | 体现在提示词中 |
+| Element | Thinking Process | Reflected in Prompt |
 |------|----------|----------------|
-| **简洁** | 要控制篇幅，不能太长 | “简要说明” |
-| **逻辑** | 需要上下游信息和历史脉络 | “关键上下游信息”“主要发展脉络” |
-| **明确** | 作业需要客观，不确定的要说明 | “若有不确定信息，直接说明并给出可能来源” |
-| **适应** | 给AI留出调整空间 | “可能来源”——允许AI提出假设 |
-| **反思** | 输出后要检查是否符合要求 | 先不写，但会在收到回答后反思 |
+| **Concise** | Need to control length, not too long | "简要说明" (briefly explain) |
+| **Logical** | Need upstream/downstream information and historical脉络 | "关键上下游信息" (key upstream/downstream information), "主要发展脉络" (main development trajectory) |
+| **Explicit** | Assignment requires objectivity; uncertain points should be noted | "若有不确定信息，直接说明并给出可能来源" (if uncertain information exists, state it directly and give possible sources) |
+| **Adaptive** | Leave AI room for adjustment | "可能来源" (possible sources)—allowing AI to提出 hypotheses |
+| **Reflective** | After output, check whether it meets requirements | Not written yet, but will反思 upon receiving the answer |
 
-最终提示词：
+Final prompt:
 
-> “请简要说明芯片产业的关键上下游信息，并逻辑清晰地给出其主要发展脉络与现状。若有不确定信息，直接说明并给出可能来源。”
+> "请简要说明芯片产业的关键上下游信息，并逻辑清晰地给出其主要发展脉络与现状。若有不确定信息，直接说明并给出可能来源。" (Please briefly explain the key upstream and downstream information of the chip industry, and logically clearly present its main development trajectory and current state. If there is uncertain information, state it directly and provide possible sources.)
 
-这一次,AI的输出完全不同了：清晰地列出了上游材料（硅片、光刻胶）、中游制造（设计、制造、封测）、下游应用（消费电子、汽车、通信），以及从集成电路发明到AI芯片的演进脉络，还标注了未来3nm量产时间的预测分歧。这正是小瑶需要的。
+This time, the AI's output was entirely different: it clearly listed upstream materials (silicon wafers, photoresist), midstream manufacturing (design, fabrication, packaging and testing), downstream applications (consumer electronics, automotive, communications), and the evolutionary trajectory from integrated circuits to AI chips, also noting prediction divergences regarding the future 3nm production timeline. This was exactly what Xiaoyao needed.
 
-### 1.4 小瑶的反思(R)
+### 1.4 Xiaoyao's Reflection (R)
 
-“原来不是我‘不会用AI’，而是我‘不会提问’。”小瑶在本子上记下：
+"It turns out I wasn't 'unable to use AI'—I was 'unable to ask questions.'" Xiaoyao noted in her notebook:
 
-> **CLEAR心法**：写提示词前，先问自己——我的需求简洁吗？逻辑清楚吗？要求明确吗？给AI留了调整空间吗？如果结果不理想，我该怎么修改?
+> **CLEAR心法 (Core Method)**: Before writing a prompt, ask yourself—is my need concise? Is the logic clear? Are the requirements explicit? Have I left AI room for adjustment? If the result is unsatisfactory, how should I revise?
 
-她还意识到,CLEAR框架不仅适用于AI提示，也适用于日常沟通。从此以后，她给同学发微信、给老师发邮件，都会下意识地检查是否清晰明了。
-
----
-
-## 第2天：ART框架——为谁写比写什么更重要
-
-### 2.1 小瑶的新挑战
-
-周末，小瑶给妈妈打电话，聊起经济学课上学到的“供需关系”。妈妈说：“啥是供需关系？你能用我能听懂的话给我讲讲不？”
-
-小瑶试着用课本上的定义解释：“供给是指生产者在一定时期内愿意并能够出售的商品数量，需求是消费者愿意并能够购买的数量……”
-
-“停停停！”妈妈打断她，“你讲得太专业了，我听不懂。你就说这东西跟我买菜有什么关系？”
-
-小瑶愣住了。她发现自己能写作业，但没法让不懂经济学的妈妈听懂。
-
-### 2.2 引入ART框架
-
-她想到：如果让AI来讲解，会怎么讲？于是她找到了**ART框架**：
-
-- **A - Audience（受众）**：明确目标读者（如专业背景、知识水平、兴趣点）
-- **R - Response（预期回答）**：期望AI输出的内容和形式（如解释、故事、清单）
-- **T - Tone（语气）**：规定语言风格（亲切、正式、幽默、批判等）
-
-### 2.3 实战：两个版本，一个概念
-
-**版本一：给妈妈（非专业受众）**
-
-> **受众**：我的妈妈,50岁，家庭主妇，对经济学一无所知，但每天买菜。
-> **预期回答**：用买菜的例子解释供需关系,500字以内，生动有趣。
-> **语气**：亲切，像聊天一样。
-
-提示词：“请用妈妈每天买菜的例子，向她解释什么是供需关系。要用她熟悉的场景（比如白菜涨价了、猪肉便宜了），避免任何专业术语。语气像和妈妈聊天一样自然。”
-
-AI输出（节选）：
-
-“妈，您不是常问我：为什么有时候白菜一块钱一斤，有时候三块钱一斤？这就是供需关系在起作用。您想想，夏天白菜大量上市，卖菜的人多（供给多），买的人也就那么多（需求不变），所以价格就便宜。可到了冬天，本地白菜少了，得从南方运过来（供给少），大家还都得吃白菜（需求不变），价格自然就涨了。这就是‘供不应求’涨价，‘供过于求’降价。猪肉便宜也是同理，去年猪肉贵，养猪的人多了，今年猪多了（供给增加），价格就下来了……”
-
-小瑶把这段话读给妈妈听，妈妈哈哈大笑：“这下我懂了！原来我买菜的时候一直在用经济学啊！”
-
-**版本二：给同学（专业初学）**
-
-> **受众**：大学经济学专业新生，刚学过供求曲线。
-> **预期回答**：一篇500字的学术风格综述，包含定义、基本定律和现实例子。
-> **语气**：正式但通俗，避免复杂数学模型。
-
-提示词：“目标读者是大学经济学专业新生，请生成一篇关于供需关系的学术风格简短综述，口吻保持正式，包含定义、基本定律和一个现实例子（如房地产市场）。”
-
-AI输出清晰规范，正好可以用来复习功课。
-
-### 2.4 小瑶的收获
-
-> **ART心法**：动笔之前，先问自己——我在对谁说话？他们需要什么？用什么语气最合适？对不同的人，说不同的话，这不是虚伪，而是尊重。
-
-她开始用ART框架写不同风格的自我介绍，应对不同的社团面试，每次都很成功。
+She also realized that the CLEAR framework applies not only to AI prompting but also to日常沟通. From then on, whenever she sent WeChat messages to classmates or emails to teachers, she would subconsciously check whether they were clear and comprehensible.
 
 ---
 
-## 第3天：RICE框架——让AI扮演专业角色
+## Day 2: The ART Framework—Who You Write For Matters More Than What You Write
 
-### 3.1 小瑶的微积分难题
+### 2.1 Xiaoyao's New Challenge
 
-高等数学课上，老师讲到极限的ε-δ定义，小瑶完全懵了。她试着让AI解释：
+On the weekend, Xiaoyao called her mom and mentioned the "supply-demand relationship" she had learned in economics class. Mom said: "What's this supply-demand thing? Can you explain it in words I can understand?"
 
-> “请解释一下极限的ε-δ定义。”
+Xiaoyao tried explaining using the textbook definition: "Supply refers to the quantity of goods producers are willing and able to sell within a given period, and demand is the quantity consumers are willing and able to purchase..."
 
-AI输出了一堆数学符号和严谨定义，小瑶看了更晕了。她意识到：不是AI解释得不对，而是解释方式不适合自己这个“初学者”。
+"Stop, stop, stop!" Mom interrupted. "You're talking too professionally—I don't understand. Just tell me what this has to do with my grocery shopping!"
 
-### 3.2 引入RICE框架
+Xiaoyao froze. She realized she could write assignments but couldn't make her mom, who didn't understand economics, comprehend the concept.
 
-这时她学到了**RICE框架**，一个强调“角色扮演”的提示词设计方法：
+### 2.2 Introducing the ART Framework
 
-- **R - Role（角色）**：指定AI扮演的角色（如导师、助教、学伴）
-- **I - Instructions（指令）**：清晰说明要执行的任务
-- **C - Context（背景信息）**：提供必要的背景资料
-- **E - Expectations（预期结果）**：明确输出的格式和内容要求
+She thought: if AI were to explain it, how would it do so? She found the **ART Framework**:
 
-### 3.3 实战：让AI当我的专属数学导师
+- **A - Audience**: Identify target readers (e.g., professional background, knowledge level, interests)
+- **R - Response**: Expected content and format of AI output (e.g., explanation, story, checklist)
+- **T - Tone**: Specify language style (friendly, formal, humorous, critical, etc.)
 
-小瑶重新设计提示词：
+### 2.3 Practice: Two Versions, One Concept
 
-> **角色**：你是一位擅长用生活类比解释抽象概念的数学导师，教过很多对极限感到困惑的大一学生。
-> **指令**：请用我能听懂的方式解释极限的ε-δ定义。
-> **背景**：我是一名刚接触微积分的大一新生，对极限的直观概念（“趋近于”）已经了解，但严格定义让我困惑。
-> **预期结果**：先给出一个生活类比，再逐步过渡到数学语言，最后出两道简单的练习题帮我巩固。
+**Version One: For Mom (non-professional audience)**
 
-AI的输出让小瑶眼前一亮：
+> **Audience**: My mom, 50, housewife, knows nothing about economics, but grocery shops every day.
+> **Expected Response**: Explain supply-demand using grocery shopping examples, under 500 words, vivid and engaging.
+> **Tone**: Friendly, like casual conversation.
 
-**生活类比**：
-> “想象你是一个狙击手，目标是击中靶心（极限值L）。你的教练要求你：无论他把靶心画得多小（任意小的ε），你都必须能够找到一个瞄准点（δ），使得只要你瞄准的点距离靶心足够近（小于δ），子弹就一定落在靶心的小圈内（误差小于ε）。你证明自己神枪手的方式，就是能针对任何一个小的目标圈，给出一个相应的瞄准范围。”
+Prompt: "Please use my mom's daily grocery shopping examples to explain to her what the supply-demand relationship is. Use scenarios she's familiar with (like cabbage prices rising, pork getting cheaper), and avoid any专业术语. The tone should be as natural as chatting with mom."
 
-**数学翻译**：
-> 对应到极限定义：对任意给定的正数ε（目标圈大小），总存在一个正数δ（瞄准范围），使得当x与a的距离小于δ时（瞄准点足够近）,f(x)与L的差小于ε（子弹落在圈内）。
+AI output (excerpt):
 
-**练习题**：
-> 1. 用ε-δ语言解释为什么lim_{x→2} (3x-2)=4.
-> 2. 对于函数f(x)=x²，如果要让f(x)与4的误差小于0.1,x应该离2多近?
+"Mom, you often ask me: why is cabbage sometimes one yuan per pound and sometimes three yuan? That's the supply-demand relationship at work. Think about it—in summer, lots of cabbage hits the market, more sellers (high supply), but buyers stay about the same (demand unchanged), so prices drop. But in winter, local cabbage is scarce, it has to be shipped from the south (low supply), and everyone still needs to eat cabbage (demand unchanged), so prices naturally rise. That's 'demand exceeding supply' drives prices up; 'supply exceeding demand' drives prices down. Cheap pork works the same way—last year pork was expensive, so more people raised pigs; this year there are more pigs (supply increases), so prices come down..."
 
-小瑶恍然大悟：“原来ε-δ就是‘你不管要求多精确，我都能满足你’！”她第一次觉得数学定义这么亲切。
+Xiaoyao read this passage to her mom. Mom laughed heartily: "Now I get it! Turns out I've been doing economics every time I buy groceries!"
 
-### 3.4 拓展应用
+**Version Two: For Classmates (professional beginners)**
 
-小瑶开始收集有用的“角色卡”：
-- 雅思口语考官（练英语）
-- 学术写作导师（改论文）
-- 效率专家（做规划）
-- 心理咨询师（解心结）
+> **Audience**: University economics freshmen, just studied supply-demand curves.
+> **Expected Response**: A 500-word academic-style review, including definition, basic laws, and a real-world example.
+> **Tone**: Formal but accessible, avoiding complex mathematical models.
 
-> **RICE心法**：给AI一个角色，就是给它一个视角。同样的知识，从不同“人”嘴里说出来，效果天差地别。
+Prompt: "Target readers are university economics freshmen. Please generate a brief academic-style review of the supply-demand relationship, maintaining a formal tone, including definition, basic laws, and a real-world example (such as the real estate market)."
+
+The AI output was clear and规范, perfect for exam review.
+
+### 2.4 Xiaoyao's收获
+
+> **ART心法 (Core Method)**: Before you start writing, ask yourself—who am I speaking to? What do they need? What tone is most appropriate? Speaking differently to different people is not虚伪—it is respect.
+
+She began using the ART framework to write self-introductions in different styles for different club interviews, succeeding every time.
 
 ---
 
-## 第4天：PAIR框架——在对话中迭代完美
+## Day 3: The RICE Framework—Letting AI Play a Professional Role
 
-### 4.1 小瑶的文献检索困境
+### 3.1 Xiaoyao's Calculus Difficulty
 
-专业课要求写一篇文献综述，主题是“人工智能在教育中的应用”。小瑶在Web of Science上试了几个关键词，要么结果太多(5000+)，要么结果太少（不到10篇）。她向AI求助：
+In higher mathematics class, the teacher covered the ε-δ definition of limits, and Xiaoyao was completely茫然. She tried asking AI to explain:
 
-> “帮我找一下关于人工智能在教育中的应用的英文文献。”
+> "Please explain the ε-δ definition of limits."
 
-AI给出了一堆通用建议，但小瑶尝试后依然不理想。
+The AI output a pile of mathematical symbols and rigorous definitions, leaving Xiaoyao even more confused. She realized: it wasn't that AI explained incorrectly, but that the explanation style was unsuitable for her as a "beginner."
 
-### 4.2 引入PAIR框架
+### 3.2 Introducing the RICE Framework
 
-这时她学到了**PAIR框架**，一个专为多轮迭代设计的框架：
+She then learned the **RICE Framework**, a prompt design method emphasizing "role-playing":
 
-- **P - Problem（问题）**：清晰表达要解决的问题
-- **A - AI（人工智能）**：让AI参与分析，提供初步见解
-- **I - Interaction（互动）**：通过多轮交互优化生成的内容
-- **R - Reflection（反思）**：评估AI的答案并调整提示细节
+- **R - Role**: Specify the role AI should play (e.g., tutor, teaching assistant, study companion)
+- **I - Instructions**: Clearly state the task to be executed
+- **C - Context**: Provide necessary background information
+- **E - Expectations**: Specify output format and content requirements
 
-小瑶意识到，她之前的提问是一次性的，但文献检索是一个需要不断调整的过程。她决定把PAIR框架用起来。
+### 3.3 Practice: Letting AI Be My Personal Math Tutor
 
-### 4.3 实战：三轮对话，层层深入
+Xiaoyao redesigned her prompt:
 
-**第一轮(P - 问题定义)**：
-> “我的研究主题是‘人工智能在教育中的应用’，重点关注个性化学习。我已经在Web of Science上试了关键词组合，但结果要么太多要么太少。请帮我优化检索策略。”
+> **Role**: You are a math tutor skilled at explaining abstract concepts through everyday analogies, having taught many confused freshmen about limits.
+> **Instructions**: Please explain the ε-δ definition of limits in a way I can understand.
+> **Context**: I am a freshman just encountering calculus. I understand the intuitive concept of limits ("approaching"), but the rigorous definition confuses me.
+> **Expected Results**: First give a life analogy, then gradually transition to mathematical language, and finally provide two simple practice problems to help me consolidate.
 
-AI建议：
-> 建议使用以下关键词组合：
+The AI's output dazzled Xiaoyao:
+
+**Life Analogy**:
+> "Imagine you're a sniper, aiming at the bullseye (the limit value L). Your coach demands: no matter how small he draws the bullseye (any small ε), you must be able to find an aiming point (δ) such that whenever your aiming point is sufficiently close to the bullseye (within δ), the bullet will definitely land within the small ring around the bullseye (error less than ε). Your proof of being a sharpshooter is that for any small target ring, you can provide a corresponding aiming range."
+
+**Mathematical Translation**:
+> Corresponding to the limit definition: for any given positive number ε (target ring size), there exists a positive number δ (aiming range) such that when x's distance from a is less than δ (aiming point sufficiently close), f(x)'s difference from L is less than ε (bullet lands within the ring).
+
+**Practice Problems**:
+> 1. Use ε-δ language to explain why lim_{x→2} (3x-2) = 4.
+> 2. For the function f(x) = x², if you want the error between f(x) and 4 to be less than 0.1, how close should x be to 2?
+
+Xiaoyao恍然大悟: "So ε-δ just means 'no matter how precisely you demand, I can satisfy you!'" For the first time, she felt a mathematical definition could be亲切.
+
+### 3.4 Extended Applications
+
+Xiaoyao began collecting useful "role cards":
+- IELTS speaking examiner (for English practice)
+- Academic writing tutor (for paper revision)
+- Efficiency expert (for planning)
+- Psychological counselor (for emotional support)
+
+> **RICE心法 (Core Method)**: Giving AI a role means giving it a perspective. The same知识, spoken by different "people," produces vastly different效果.
+
+---
+
+## Day 4: The PAIR Framework—Iterating toward Perfection through Dialogue
+
+### 4.1 Xiaoyao's Literature Retrieval Difficulty
+
+A professional course required writing a literature综述 on the topic "Applications of Artificial Intelligence in Education." Xiaoyao tried several keyword combinations on Web of Science—either too many results (5000+) or too few (under 10). She asked AI for help:
+
+> "Help me find English literature on applications of AI in education."
+
+The AI gave a pile of general suggestions, but Xiaoyao's attempts remained unsatisfactory.
+
+### 4.2 Introducing the PAIR Framework
+
+She then learned the **PAIR Framework**, designed specifically for multi-round iteration:
+
+- **P - Problem**: Clearly express the problem to be solved
+- **A - AI**: Let AI participate in analysis, providing初步见解
+- **I - Interaction**: Optimize generated content through multiple rounds of交互
+- **R - Reflection**: Evaluate AI's answers and adjust prompt细节
+
+Xiaoyao realized her previous queries were one-shot, but literature retrieval is a process requiring continual adjustment. She decided to put the PAIR framework to use.
+
+### 4.3 Practice: Three Rounds of Dialogue, Progressively Deeper
+
+**Round One (P - Problem Definition)**:
+> "My research topic is 'Applications of AI in Education,' focusing particularly on personalized learning. I've tried keyword combinations on Web of Science, but results are either too many or too few. Please help optimize my retrieval strategy."
+
+AI suggested:
+> Recommend using the following keyword combinations:
 > - ("artificial intelligence" OR "AI") AND ("education" OR "learning")
-> - 限定时间范围：近5年
-> - 考虑加入"personalized learning"作为二级关键词
+> - Time range limited to: recent 5 years
+> - Consider adding "personalized learning" as a secondary keyword
 
-**第二轮(I - 互动反馈)**：
-> “我试了第一个组合，得到5000+结果，太多了。我的研究更侧重K-12教育，不是高等教育。怎么进一步缩小范围？”
+**Round Two (I - Interactive Feedback)**:
+> "I tried the first组合 and got 5000+ results—too many. My research focuses more on K-12 education, not higher education. How to further narrow the scope?"
 
-AI优化：
-> 可以加入以下限定：
+AI optimized:
+> Can add the following限制:
 > - ("K-12" OR "primary education" OR "secondary education")
-> - 文献类型限定为"review"（综述），先了解领域概况
-> - 用"adaptive learning"替代部分"AI"关键词
+> - Limit literature type to "review" (综述), first understand the field overview
+> - Use "adaptive learning" to substitute部分 "AI" keywords
 
-**第三轮(I - 继续互动)**：
-> “综述文章是个好主意。我找到了几篇关键文献。现在想基于这些文献的参考文献进一步扩展检索，有什么方法？”
+**Round Three (I - Continued Interaction)**:
+> "综述 articles are a good idea. I've found several key papers. Now I want to expand retrieval based on the references of these papers—any methods?"
 
-AI建议：
-> 尝试“雪球采样法”：
-> 1. 找出核心文献的被引次数
-> 2. 在Web of Science中查看“引用参考文献”功能
-> 3. 关注该领域的权威作者，用“author:”字段检索
-> 4. 也可以试试“connected papers”工具，可视化文献关系
+AI suggested:
+> Try "snowball sampling":
+> 1. Identify citation counts of core papers
+> 2. Use the "Cited References" function in Web of Science
+> 3. Follow authoritative authors in the field, search using "author:" field
+> 4. Also try the "Connected Papers" tool to visualize literature relationships
 
-经过三轮对话，小瑶不仅找到了20多篇高质量文献，还学会了文献检索的系统方法。
+After three rounds of dialogue, Xiaoyao not only found over 20 high-quality papers but also learned a systematic method for literature retrieval.
 
-### 4.4 小瑶的反思
+### 4.4 Xiaoyao's Reflection
 
-她总结出PAIR框架的关键：
-- **一次只问一个问题**：不要在第一轮抛出一堆问题。
-- **提供具体反馈**：告诉AI什么有用、什么没用。
-- **记录迭代过程**：可以要求AI记录每次修改点。
+She summarized the keys to the PAIR framework:
+- **Ask only one question per round**: Don't throw a pile of questions in the first round.
+- **Provide specific反馈**: Tell AI what was useful and what wasn't.
+- **Record the iteration process**: You can ask AI to record each modification point.
 
-> **PAIR心法**：好的答案不是问出来的，是聊出来的。把单次提问变成一场对话，就像和朋友一起探索未知。
+> **PAIR心法 (Core Method)**: Good answers aren't asked—they're conversed into. Transform a single query into a dialogue, like exploring the unknown together with a friend.
 
 ---
 
-## 第5天：SCAMPER框架——让创意无限迸发
+## Day 5: The SCAMPER Framework—Letting Creativity Flow Boundlessly
 
-### 5.1 小瑶的社团活动难题
+### 5.1 Xiaoyao's Club Activity Challenge
 
-小瑶加入了学生会宣传部，部长要求每个干事为即将到来的“社团招新嘉年华”设计一个创意活动。小瑶绞尽脑汁，想出来的无非是“发传单”“贴海报”“摆摊玩游戏”这些老套路。她急需一些新鲜点子。
+Xiaoyao joined the Student Union's publicity department. The director要求 each member to design a creative activity for the upcoming "Club Recruitment Carnival." Xiaoyao racked her brain, but all she could come up with were clichés like "hand out flyers," "post posters," "set up a booth with games." She desperately needed fresh ideas.
 
-### 5.2 引入SCAMPER框架
+### 5.2 Introducing the SCAMPER Framework
 
-在AI的帮助下，她找到了**SCAMPER框架**，一个经典的创意激发工具：
+With AI's help, she found the **SCAMPER Framework**, a classic creativity-stimulation tool:
 
-- **S - Substitute（替换）**：能否替换某些部分?
-- **C - Combine（组合）**：能否与其他元素组合?
-- **A - Adapt（调整）**：如何适应新场景?
-- **M - Modify（修改）**：放大或修改某些特性?
-- **P - Put to other uses（转换用途）**：还有其他用途吗?
-- **E - Eliminate（删除）**：能否简化或去除?
-- **R - Reverse/Rearrange（颠倒/重组）**：颠倒顺序或重新排列?
+- **S - Substitute**: Can you replace certain parts?
+- **C - Combine**: Can you combine with other elements?
+- **A - Adapt**: How to adapt to new scenarios?
+- **M - Modify**: Can you放大 or modify certain features?
+- **P - Put to other uses**: Are there other uses?
+- **E - Eliminate**: Can you simplify or remove?
+- **R - Reverse/Rearrange**: Can you reverse the order or rearrange?
 
-### 5.3 实战：从“无聊发传单”到“校园寻宝”
+### 5.3 Practice: From "Boring Flyer Distribution" to "Campus Treasure Hunt"
 
-她把“发传单”这个传统活动作为起点，用SCAMPER逐项提问：
+She took "handing out flyers" as a starting point and applied SCAMPER item by item:
 
-| 角度 | 问题 | 创新点子 |
+| Angle | Question | Creative Idea |
 |------|------|----------|
-| **替换** | 能不能把纸质传单换成别的? | 换成AR传单：用手机扫描校园标志，弹出社团介绍视频 |
-| **组合** | 能不能和别的活动组合? | 发传单+小游戏：传单背面印有谜题，猜对可到摊位领奖品 |
-| **调整** | 能不能调整时间、地点? | 不在食堂门口发，而是在晚自习教室发，顺便做10分钟宣讲 |
-| **修改** | 能不能放大传单的作用? | 传单设计成“集章卡”，集齐五个社团印章可抽奖 |
-| **他用** | 传单还有什么其他用途? | 传单背面印有课程表、备忘录，变成实用物品，同学不舍得扔 |
-| **删除** | 能不能干脆不发传单? | 完全数字化：用校园表白墙、抖音号发布社团招新短视频 |
-| **颠倒** | 如果让新生来发传单? | 邀请新生体验一天社团工作，由他们向其他新生介绍社团 |
+| **Substitute** | Can paper flyers be replaced with something else? | AR flyers: scan campus landmarks with a phone, club intro videos pop up |
+| **Combine** | Can it be combined with other activities? | Flyers + mini games: puzzle printed on flyer背面, solve it to win prizes at the booth |
+| **Adapt** | Can time/location be adjusted? | Don't distribute at cafeteria entrance; instead distribute during evening study sessions, with a 10-minute pitch |
+| **Modify** | Can the flyer's role be amplified? | Design flyers as "stamp collection cards"—collect stamps from five clubs to enter a prize draw |
+| **Put to other uses** | What other uses do flyers have? | Print course schedules and备忘录 on flyer背面, turning them into practical items students won't throw away |
+| **Eliminate** | Can we simply not distribute flyers? | Fully digitize: post club recruitment short videos on campus confession walls and Douyin accounts |
+| **Reverse** | What if new students distributed flyers? | Invite new students to experience one day of club work, letting them introduce the club to other newcomers |
 
-小瑶把七个点子整理成一份创意清单，发给部长。部长看后大为惊喜，尤其喜欢“AR传单”和“集章卡”的点子，决定在招新活动中采用。
+Xiaoyao compiled seven ideas into a creative清单 and sent it to the director. The director was大为惊喜, especially loving the "AR flyer" and "stamp collection card" ideas, deciding to adopt them for the recruitment event.
 
-### 5.4 用SCAMPER创作童话
+### 5.4 Creating a Fairy Tale with SCAMPER
 
-小瑶还试了用SCAMPER写故事：
+Xiaoyao also tried writing a story using SCAMPER:
 
-> “请帮我创作一个现代童话故事，主角是狐狸和公主。运用SCAMPER：颠倒时间顺序（先从结局讲起），组合科技元素（全息投影、机器人），替换魔法道具为科技设备。”
+> "Please help me create a modern fairy tale with a fox and a princess as protagonists. Apply SCAMPER: reverse chronological order (start from the ending), combine tech elements (holographic projections, robots), and replace magical props with tech devices."
 
-AI创作了一个精彩故事：狐狸通过破解城市全息地图，帮公主找到了失落的古代森林。
+The AI created a精彩故事: the fox破解 the city's holographic map, helping the princess find the lost ancient forest.
 
-### 5.5 小瑶的心得
+### 5.5 Xiaoyao's Insights
 
-> **SCAMPER心法**：创新不是凭空想象，而是有套路地改造现有事物。七个角度就像七把钥匙，逐一试过去，总能打开一扇新的门。
+> **SCAMPER心法 (Core Method)**: Innovation isn't凭空想象—it's systematically transforming existing things through套路. Seven angles are like seven keys; try them one by one, and you'll always unlock a new door.
 
 ---
 
-## 第6天：PESTEL框架——像专家一样分析问题
+## Day 6: The PESTEL Framework—Analyzing Problems Like an Expert
 
-### 6.1 小瑶的选专业纠结
+### 6.1 Xiaoyao's Major Selection Dilemma
 
-学校要求大一结束前确定专业方向。小瑶在数字媒体技术、计算机科学、人工智能三个方向之间纠结。她找了很多资料，但信息太多太杂，反而更迷茫了。
+The school required freshmen to确定 their major direction before the end of the first year. Xiaoyao was纠结 among Digital Media Technology, Computer Science, and Artificial Intelligence. She gathered lots of information, but it was too much and too杂, making her even more迷茫.
 
-### 6.2 引入PESTEL框架
+### 6.2 Introducing the PESTEL Framework
 
-AI给她推荐了**PESTEL框架**，一个常用于商业分析和战略规划的宏观环境分析工具：
+AI recommended the **PESTEL Framework** to Xiaoyao, a macro-environment analysis tool commonly used in business analysis and strategic planning:
 
-- **P - Political（政治）**：政策、法规、政府支持
-- **E - Economic（经济）**：行业前景、薪酬水平、就业市场
-- **S - Social（社会）**：社会需求、文化接受度、伦理争议
-- **T - Technological（技术）**：技术成熟度、发展速度、突破方向
-- **E - Environmental（环境）**：对环境的影响、可持续性
-- **L - Legal（法律）**：法律风险、知识产权、合规要求
+- **P - Political**: Policies, regulations, government support
+- **E - Economic**: Industry prospects, salary levels, job market
+- **S - Social**: Social需求, cultural acceptance, ethical争议
+- **T - Technological**: Technology maturity, development速度, breakthrough directions
+- **E - Environmental**: Environmental impact, sustainability
+- **L - Legal**: Legal risks, intellectual property,合规 requirements
 
-### 6.3 实战：用PESTEL分析三个专业
+### 6.3 Practice: Using PESTEL to Analyze Three Majors
 
-她让AI帮忙，用PESTEL框架分别分析三个专业的前景。以人工智能为例,AI的输出节选：
+She asked AI to help, using PESTEL to analyze the prospects of each major. Taking AI as an example, an excerpt of the output:
 
-| 维度 | 关键点 |
+| Dimension | Key Points |
 |------|--------|
-| **政治** | 各国将AI上升为国家战略，政策支持力度大；但也面临数据安全、技术出口管制等风险 |
-| **经济** | 相关岗位薪资高，投融资活跃；但资本泡沫风险存在，部分领域可能洗牌 |
-| **社会** | 公众对AI的认知逐渐加深，接受度提高；但存在“AI取代工作”的焦虑 |
-| **技术** | 大模型、多模态等技术突破快；但理论创新进入瓶颈期，算力成本高 |
-| **环境** | 大模型训练耗电耗水，引发环保争议；绿色AI成为新方向 |
-| **法律** | 各国AI监管法案陆续出台，合规成本上升；知识产权问题（如训练数据版权）待解 |
+| **Political** | Nations elevate AI to national strategy, strong policy support; but also face data security and tech export control risks |
+| **Economic** | Related positions command high salaries, active investment and financing; but capital泡沫 risk exists, some sectors may face洗牌 |
+| **Social** | Public understanding of AI gradually deepens, acceptance increases; but "AI replacing jobs" anxiety persists |
+| **Technological** | Rapid breakthroughs in large models, multimodal, etc.; but theoretical innovation enters瓶颈期, compute costs are high |
+| **Environmental** | Large model training consumes electricity and water,引发 environmental争议; green AI emerges as a new direction |
+| **Legal** | AI regulatory bills陆续 enacted across nations,合规 costs rise; intellectual property issues (e.g., training data copyright) remain unresolved |
 
-计算机科学和数字媒体技术的分析也类似。对比之后，结合自己从小爱画画的特点，小瑶选择了数字媒体技术。
+Similar analyses were conducted for Computer Science and Digital Media Technology. After comparison, combined with her childhood love of drawing, Xiaoyao chose Digital Media Technology.
 
-### 6.4 进阶应用：交叉分析
+### 6.4 Advanced Application: Cross-Analysis
 
-AI还教她做交叉分析：技术如何影响社会？政策如何推动技术？这样能看到动态图景。
+AI also taught her to perform cross-analysis: how does technology affect society? How does policy推动 technology? This reveals a dynamic picture.
 
-> **PESTEL心法**：做选择时，不能只看眼前，要看大环境。六个维度就像六盏探照灯，帮你照亮未来的路。
-
----
-
-## 第7天：LIGHT框架——让思考有温度
-
-### 7.1 小瑶的公益项目
-
-学院组织“科技向善”公益项目大赛，小瑶和几个同学组队参加。他们想设计一个帮助社区老人的APP,但讨论了半天，想法始终停留在“功能列表”层面：紧急呼叫、用药提醒、健康监测……总觉得少了点什么。
-
-### 7.2 引入LIGHT框架
-
-AI给小瑶推荐了一个特别的框架——**LIGHT**，一个价值导向型框架：
-
-- **L - Love of Wisdom（爱智慧）**：追求深度思考和理性探索，不满足于表面答案
-- **I - Inquiry for Truth（求真理）**：基于事实和证据，避免偏见和盲从
-- **G - Gain Freedom（得自由）**：通过知识和真理实现精神或行动的自由
-- **H - Humanity in Service（以服务）**：以服务他人为核心，体现同理心和社会责任
-- **T - Towards Peace（创和平）**：致力于和谐与和解，促进理解与合作
-
-小瑶读着这些词，心里涌起一股暖流。她意识到，团队之前只想着“做什么功能”，却很少想“为什么做”“为谁做”“怎么做得更好”。
-
-### 7.3 实战：用LIGHT重新设计项目
-
-她用LIGHT框架引导团队重新思考：
-
-**爱智慧**：
-> “我们真的了解老人吗？他们的真实需求是什么？是缺一个紧急呼叫按钮，还是缺一份安心和陪伴？”
-
-团队决定先去社区调研，和老人聊天。他们发现，很多老人并不怕突发疾病（因为社区医院很近），但很怕孤独。有位奶奶说：“我手机里装了八个APP,但最想要的，是有人能教我用微信视频和孙子聊天。”
-
-**求真理**：
-> 调研结果颠覆了最初的设计假设。
-
-**得自由**：
-> 团队重新定义目标：不是“监控老人健康”，而是“帮助老人保持独立、有尊严的生活”。APP的功能不再是“提醒老人该干嘛”，而是“让老人能主动学习、自主社交”。
-
-**以服务**：
-> 他们决定增加“银发课堂”板块，由志愿者（大学生）录制简单易懂的手机使用教程，还可以在线答疑。
-
-**创和平**：
-> 考虑到老人和子女之间常因“教不会用手机”产生矛盾，他们设计了一个“亲子同步学习”模式：子女在APP上认领学习任务，老人完成学习后，双方都可以获得积分奖励。
-
-最终，他们设计的APP叫“暖阳”，在比赛中获得一等奖。评委说：“你们不仅设计了一个APP,更设计了一种有温度的社区关系。”
-
-### 7.4 小瑶的升华
-
-> **LIGHT心法**：技术是冷的，人心是热的。LIGHT框架提醒我，无论做什么，都要问自己：这真的有用吗？为谁有用？会不会有伤害？能不能让世界更好一点点?
+> **PESTEL心法 (Core Method)**: When making choices, don't only look at the present—look at the macro environment. Six dimensions are like six searchlights, illuminating the path ahead.
 
 ---
 
-## 框架选择指南：小瑶的速查表
+## Day 7: The LIGHT Framework—Giving Thought Warmth
 
-| 任务类型 | 首选框架 | 为什么 |
+### 7.1 Xiaoyao's Public Welfare Project
+
+The school organized a "Tech for Good" public welfare project competition. Xiaoyao and several classmates formed a team. They wanted to design an app to help elderly people in the community, but after prolonged discussion, their ideas remained stuck at the "feature list" level: emergency calls, medication reminders, health monitoring... something still felt missing.
+
+### 7.2 Introducing the LIGHT Framework
+
+AI recommended a special framework to Xiaoyao—**LIGHT**, a value-oriented framework:
+
+- **L - Love of Wisdom (爱智慧)**: Pursue deep thinking and rational exploration, not settling for surface-level answers
+- **I - Inquiry for Truth (求真理)**: Base conclusions on facts and evidence, avoiding偏见 and盲从
+- **G - Gain Freedom (得自由)**: Achieve spiritual or practical freedom through knowledge and truth
+- **H - Humanity in Service (以服务)**: Serve others as the core, embodying empathy and social responsibility
+- **T - Towards Peace (创和平)**: Commit to harmony and reconciliation, promoting understanding and cooperation
+
+Reading these words, a warm current surged in Xiaoyao's heart. She realized the team had only been thinking about "what features to build," rarely considering "why build," "for whom," and "how to do it better."
+
+### 7.3 Practice: Redesigning the Project with LIGHT
+
+She used the LIGHT framework to guide the team's重新思考:
+
+**Love of Wisdom**:
+> "Do we truly understand the elderly? What are their real needs? Is it an emergency call button, or a sense of安心 and companionship?"
+
+The team decided to first conduct community调研, chatting with elderly residents. They discovered many seniors weren't afraid of sudden illness (the community hospital was nearby), but were very afraid of loneliness. One grandmother said: "I have eight apps on my phone, but what I want most is someone to teach me how to use WeChat video calls to chat with my grandson."
+
+**Inquiry for Truth**:
+> The调研 results颠覆 the initial design assumptions.
+
+**Gain Freedom**:
+> The team重新定义 the goal: not "monitor elderly health," but "help elderly maintain independent, dignified lives." The app's features shifted from "reminding the elderly what to do" to "enabling the elderly to actively learn and autonomously社交."
+
+**Humanity in Service**:
+> They decided to add a "Silver Age Classroom" section, where volunteers (university students) record simple, easy-to-understand phone usage tutorials, with online Q&A available.
+
+**Towards Peace**:
+> Considering that conflicts between elderly and children often arise from "can't teach them to use phones," they designed a "Parent-Child Sync Learning" mode: children claim learning tasks on the app; when the elderly complete learning, both parties earn积分 rewards.
+
+Ultimately, their app was named "Warm Sun" (暖阳), and it won first prize in the competition. A judge commented: "You didn't just design an app—you designed a warm community relationship."
+
+### 7.4 Xiaoyao's升华
+
+> **LIGHT心法 (Core Method)**: Technology is cold; the human heart is warm. The LIGHT framework reminds me: whatever I do, I must ask—is this truly useful? For whom? Could it cause harm? Can it make the world even slightly better?
+
+---
+
+## Framework Selection Guide: Xiaoyao's Quick Reference
+
+| Task Type | Preferred Framework | Why |
 |----------|----------|--------|
-| 写作业、日常提问 | CLEAR | 先让需求清晰 |
-| 向不同人解释同一件事 | ART | 受众决定表达 |
-| 需要专业视角 | RICE | 给AI一个角色 |
-| 复杂问题多轮解决 | PAIR | 好的答案需要聊 |
-| 头脑风暴、创意生成 | SCAMPER | 七个角度破定势 |
-| 分析趋势、做决策 | PESTEL | 六个维度看大局 |
-| 思考价值、设计公益 | LIGHT | 让技术有温度 |
+| Homework, daily questions | CLEAR | First clarify your needs |
+| Explaining the same thing to different people | ART | Audience determines expression |
+| Need a professional perspective | RICE | Give AI a role |
+| Complex problems requiring multiple rounds | PAIR | Good answers need conversation |
+| Brainstorming, creative generation | SCAMPER | Seven angles break固定思维 |
+| Analyzing trends, making decisions | PESTEL | Six dimensions view the big picture |
+| Reflecting on values, designing public welfare | LIGHT | Give technology warmth |
 
 ---
 
-## 组合运用：小瑶的期末大作业
+## Combined Application: Xiaoyao's Final Major Assignment
 
-期末，老师布置了一个大作业：设计一款面向大一新生的校园服务产品。小瑶决定把七个框架全部用上：
+At the end of the semester, the teacher assigned a major project: design a campus service product for freshmen. Xiaoyao decided to use all seven frameworks:
 
-1. **PESTEL**分析宏观环境：小程序比APP更合适，聚焦新生入学痛点（报到、选课、社交）。
-2. **SCAMPER**激发创意：设计出“小禾”小程序，含AR实景导航、学长学姐问答社区、教材循环、失物招领等功能。
-3. **RICE**细化功能：让AI扮演产品经理，完善问答社区的交互逻辑和激励机制。
-4. **ART**调整表达：为新生、学长学姐、评委写不同版本的产品介绍。
-5. **PAIR**迭代方案：收集同学试用反馈，与AI多轮对话优化功能。
-6. **CLEAR**撰写文档：用CLEAR生成产品说明初稿，再润色。
-7. **LIGHT**校准价值：增加“新生关怀”板块，由志愿者发布鼓励话语，让产品有温度。
+1. **PESTEL** analyzed the macro environment: a mini-program is more suitable than an app, focusing on freshman pain points (registration, course selection, socializing).
+2. **SCAMPER** stimulated creativity: designed the "Xiaohe" (小禾) mini-program, featuring AR real-scene navigation, senior Q&A community, textbook recycling, lost-and-found, etc.
+3. **RICE** refined features: had AI play a product manager role, improving the Q&A community's interaction logic and incentive mechanisms.
+4. **ART** adjusted expression: wrote different versions of product introductions for freshmen, seniors, and judges.
+5. **PAIR** iterated the plan: collected trial feedback from classmates, conducting multiple dialogue rounds with AI to optimize features.
+6. **CLEAR** wrote documentation: used CLEAR to generate the product specification初稿, then refined it.
+7. **LIGHT** calibrated values: added a "Freshman Care" section where volunteers post encouraging words, giving the product warmth.
 
-最终方案被学院推荐参加校级比赛并获奖。小瑶真正内化了七个框架。
-
----
-
-## 结语：小瑶的七天，与你的无限可能
-
-七天的学习结束了，但小瑶与AI的协作才刚刚开始。她养成了习惯：每次提问前，都想想用哪个框架。她更明白：**框架是工具，灵活运用才是关键**。CLEAR让她清晰,ART让她贴心,RICE让她借力,PAIR让她深入,SCAMPER让她创新,PESTEL让她远见,LIGHT让她温暖。
-
-回到词源的故事——Prompt,从“拿到前面来”到“准备好的”，再到“人与机器协作的艺术”；Engineering,从“天赋”到“创造性解决问题”。提示词工程，就是运用天赋，在恰当的时刻递出准备好的话语，唤醒AI的智慧，共同演绎精彩的篇章。
-
-亲爱的读者，如果你也是一名大一新生，或者任何想与AI深度协作的人，希望小瑶的笔记能给你一些启发。记住：
-
-> **会提问的人，才是AI时代的主人。**
-> **而一个好的问题，已经解决了问题的一半。**
-
-现在，轮到你上场了。打开你的AI助手，开始你的第一次“提词”吧。
-
-> *“愚者自以为智，智者自知其愚。”*
-> ——莎士比亚《皆大欢喜》
+The final方案 was recommended by the school to participate in the university-level competition and won an award. Xiaoyao had truly内化 all seven frameworks.
 
 ---
 
-## 后记：给小瑶们的三点心里话——来自大瑶博士的温馨提醒
+## Conclusion: Xiaoyao's Seven Days, and Your Infinite Possibilities
 
-亲爱的小瑶，以及所有正在阅读这篇笔记的朋友：
+Seven days of learning have ended, but Xiaoyao's collaboration with AI has just begun. She developed a habit: before each question, she considers which framework to use. She更明白: **frameworks are tools;灵活运用 is the key.** CLEAR makes her clear, ART makes her体贴, RICE lets her leverage strength, PAIR lets her go deep, SCAMPER makes her innovative, PESTEL gives her远见, LIGHT gives her warmth.
 
-当你学完七个框架，准备开启与AI的协作之旅时，我想以心理语言学研究的视角，和你分享三点心里话。这不是“正确答案”，而是希望你在享受AI便利的同时，也能守护好自己的心智健康。
+Returning to the etymology story—Prompt, from "bring forth" to "ready," to "the art of human-machine collaboration"; Engineering, from "innate talent" to "creatively solving problems." Prompt Engineering is运用天赋, delivering prepared words at the right moment, awakening AI's wisdom, and together演绎 brilliant chapters.
 
-### 第一，记住：AI是工具，不是人
+Dear reader, if you are also a freshman, or anyone wishing to collaborate deeply with AI, I hope Xiaoyao's notes offer you some inspiration. Remember:
 
-故事里，我让AI“扮演导师”“创作故事”，用拟人化的方式让你更容易理解。但请一定记住：AI本质上是一个复杂的**模式匹配和文本生成系统**。它不真正“理解”你的情感，没有“意识”，也不会“思考”。它的输出基于海量数据的统计规律，而非人类意义上的意图或信念。
+> **Those who can ask questions are the masters of the AI era.**
+> **And a good question has already solved half the problem.**
 
-把它想象成一个**超级智能的提词器**，而不是另一个人类伙伴。这样，你既能享受它的强大，又不会过度依赖或误解它的能力——比如，别向它倾诉情感问题期待共情，别把它的话当作绝对真理不加验证。
+Now, it's your turn to take the stage. Open your AI assistant and begin your first "prompting."
 
-### 第二，框架是帮你思考的，不是让你焦虑的
-
-学完七个框架后，你可能会像我一样紧张——每次提问前都要想“该用哪个框架”，反而更累了。这是正常的**认知负荷阶段**，心理学告诉我们：这是学习新技能时的必经之路。
-
-我的减负建议是：
-- **新手期，只记三个**：先掌握CLEAR（清晰）、ART（受众）、RICE（角色），应对80%的场景。
-- **进阶期，随用随查**：把SCAMPER、PESTEL、LIGHT的速查表存手机里，需要时再看。
-- **熟练期，内化习惯**：慢慢地，你会自然地问“我的受众是谁？”“还有什么角度没考虑？”——这时框架已成为你思维的一部分。
-
-如果哪个框架让你觉得累，说明你还没准备好用它，放一放，先从简单的开始。
-
-### 第三，对AI的输出，永远保持一份审慎
-
-故事里我常常“满意地接受”AI的回答，但现实中，你一定要多做一步：**核实**。AI可能生成“幻觉”——看似合理但完全错误的信息；它的训练数据可能存在偏见和时效性问题；它没有能力核实信息的真实性。
-
-每次使用AI的输出，都问自己三个问题：
-1. 这个信息我能从哪里核实？（教材、官网、原始论文？）
-2. AI的表述中，哪些是事实，哪些是观点，哪些是猜测?
-3. 如果我错了，会有什么后果?
-
-**AI的答案，需要你的验证。** 它像一位知识渊博但偶尔会出错的学长，你可以借助它的智慧，但最终要对信息的真实性负责。这不是不信任AI,而是对自己负责。
+> *"The fool doth think he is wise, but the wise man knows himself to be a fool."*
+> ——Shakespeare, *As You Like It*
 
 ---
 
-最后，送你三句话，愿你在AI时代：
-**清醒地使用，而不沉迷；**
-**批判地接受，而不盲从；**
-**温暖地协作，而不依赖。**
+## Afterword: Three heartfelt words for Xiaoyao and friends—Warm reminders from Dr. Dayao
 
-你的朋友，
-大瑶
+Dear Xiaoyao, and all friends reading these notes:
+
+When you've finished learning seven frameworks and are ready to embark on your AI collaboration journey, I'd like to share three heartfelt words from the perspective of psycholinguistic research. These are not "correct answers," but hopes that while enjoying AI's便利, you also safeguard your mental health.
+
+### First, Remember: AI Is a Tool, Not a Person
+
+In the story, I had AI "play a tutor" and "create stories," using拟人化 approaches to make it easier for you to understand. But please务必记住: AI is fundamentally a complex **pattern-matching and text-generation system**. It doesn't真正 "understand" your emotions, has no "consciousness," and doesn't "think." Its outputs are based on statistical规律 from海量数据, not human-level intent or belief.
+
+Think of it as a **super-intelligent prompter**, not another human companion. This way, you can enjoy its power without过度依赖 or misunderstanding its capabilities—for instance, don't倾诉 emotional problems to it expecting empathy, and don't treat its words as absolute truth without verification.
+
+### Second, Frameworks Help You Think—They're Not Meant to Make You Anxious
+
+After learning seven frameworks, you might feel as tense as I did—wondering "which framework to use" before every question, making things even more tiring. This is a normal **cognitive load phase**; psychology tells us this is an必经之路 when learning new skills.
+
+My减负 suggestions:
+- **Beginner period, just learn three**: Master CLEAR (clarity), ART (audience), and RICE (role) first, handling 80% of scenarios.
+- **Intermediate period, consult as needed**: Store the SCAMPER, PESTEL, and LIGHT quick-reference tables on your phone; look them up when needed.
+- **Advanced period,内化 as habit**: Gradually, you'll naturally ask "Who is my audience?" or "What angle haven't I considered?"—at this point, frameworks have become part of your thinking.
+
+If any framework feels exhausting, it means you're not yet ready for it—set it aside and start from simpler ones.
+
+### Third, Always Maintain审慎 toward AI Outputs
+
+In the story, I often "satisfactorily accepted" AI's answers, but in reality, you must always take one extra step: **verify**. AI may generate "hallucinations"—information that seems合理 but is entirely wrong; its training data may contain偏见 and timeliness issues; it lacks the ability to verify information's真实性.
+
+Every time you use AI output, ask yourself three questions:
+1. Where can I verify this information? (Textbooks, official websites, original papers?)
+2. In AI's表述, what is fact, what is opinion, and what is speculation?
+3. If I'm wrong, what consequences would follow?
+
+**AI's answers require your verification.** It's like a knowledgeable but偶尔出错 senior student—you can leverage its wisdom, but ultimately you must take responsibility for information's真实性. This isn't distrust of AI—it's being responsible toward yourself.
+
+---
+
+Finally, three sentences for you, wishing you well in the AI era:
+**Use it清醒地, without沉迷;**
+**Accept it批判地, without盲从;**
+**Collaborate warmly, without依赖.**
+
+Your friend,
+Dayao (大瑶)
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.
