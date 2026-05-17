@@ -138,7 +138,7 @@ export default function About() {
           {data.recentPosts.map((post) => (
             <Link
               key={post.slug}
-              to={`/post/${post.slug}`}
+              to={`${locale === 'en' ? '/en' : ''}/post/${post.slug}`}
               className="block group p-3 -mx-3 rounded-lg hover:bg-gray-800/30 transition-colors duration-200"
             >
               <div className="flex items-start justify-between gap-4">

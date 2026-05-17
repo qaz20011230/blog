@@ -1,13 +1,24 @@
 import fs from 'fs';
 import path from 'path';
 
-const dir = 'src/content/posts';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
+function collectMdFiles(...dirs) {
+  const results = [];
+  for (const d of dirs) {
+    if (!fs.existsSync(d)) continue;
+    for (const f of fs.readdirSync(d)) {
+      if (f.endsWith('.md')) results.push({ file: f, dir: d });
+    }
+  }
+  return results;
+}
+const entries = collectMdFiles('src/content/posts/zh', 'src/content/posts/en');
+const files = entries.map(e => path.join(e.dir, e.file));
+const totalCount = entries.length;
 
 let issues = [];
 
 for (const f of files) {
-  const raw = fs.readFileSync(path.join(dir, f), 'utf-8');
+  const raw = fs.readFileSync(f, 'utf-8');
   const body = raw.replace(/^---[\s\S]*?---\n*/, '');
 
   // 1. Unclosed code blocks
@@ -49,7 +60,7 @@ for (const f of files) {
 }
 
 // Report
-console.log(`\n=== EXTENDED AUDIT: ${files.length} posts ===`);
+console.log(`\n=== EXTENDED AUDIT: ${totalCount} posts (${entries.length} md files) ===`);
 if (issues.length === 0) {
   console.log('No issues found. All posts pass.');
 } else {
@@ -60,7 +71,7 @@ if (issues.length === 0) {
 // Show posts WITHOUT any description at all
 console.log('\n=== POSTS WITH EMPTY DESCRIPTION ===');
 for (const f of files) {
-  const raw = fs.readFileSync(path.join(dir, f), 'utf-8');
+  const raw = fs.readFileSync(f, 'utf-8');
   const descMatch = raw.match(/description:\s*(.+)/m);
   if (!descMatch || !descMatch[1].trim()) {
     console.log('  ' + f);

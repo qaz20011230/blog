@@ -7,10 +7,13 @@ const CATEGORY_CANON = new Map([
   ['philosophy', 'Philosophy'],
   ['psychology', 'Psychology'],
   ['logic', 'Logic'],
-  ['ecommerce', 'Ecommerce'],
-  ['e-commerce', 'Ecommerce'],
-  ['e commerce', 'Ecommerce'],
-  ['e_commerce', 'Ecommerce'],
+  ['ai & technology', 'AI & Technology'],
+  ['ai and technology', 'AI & Technology'],
+  ['mathematics & logic', 'Mathematics & Logic'],
+  ['math & logic', 'Mathematics & Logic'],
+  ['business & strategy', 'Business & Strategy'],
+  ['culture & art', 'Culture & Art'],
+  ['culture and art', 'Culture & Art'],
 ]);
 
 function toIsoDateString(value) {
@@ -166,7 +169,8 @@ async function normalizeAll() {
     fs.writeFileSync(file, normalized, 'utf8');
 
     const canon = normalizeCategory(category);
-    if (canon && canon !== 'Philosophy' && canon !== 'Psychology' && canon !== 'Logic' && canon !== 'Ecommerce') {
+    const validCats = ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Logic', 'Others'];
+    if (canon && !validCats.includes(canon)) {
       invalidCategories.push({ file, category: canon });
     }
   }

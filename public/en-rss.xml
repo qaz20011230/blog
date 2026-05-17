@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 01:47:14 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 02:29:11 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 01:47:14 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 02:29:11 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -19,8 +19,11 @@
         <ttl>60</ttl>
         <category><![CDATA[Philosophy]]></category>
         <category><![CDATA[Psychology]]></category>
+        <category><![CDATA[AI & Technology]]></category>
+        <category><![CDATA[Mathematics & Logic]]></category>
+        <category><![CDATA[Business & Strategy]]></category>
+        <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Logic]]></category>
-        <category><![CDATA[Ecommerce]]></category>
         <category><![CDATA[Others]]></category>
         <item>
             <title><![CDATA[把大象放进冰箱：论用计算方法逼近黎曼猜想]]></title>

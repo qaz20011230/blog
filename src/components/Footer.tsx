@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { UI } from '../types';
 
 export default function Footer() {
-  const { t } = useLanguage();
+  const { locale, t } = useLanguage();
 
   return (
     <footer className="relative bg-hilbert border-t border-gray-900 py-8 mt-auto z-10">
@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex space-x-6">
-            <a href="/rss.xml" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 inline-block">
+            <a href={locale === 'en' ? '/en/rss.xml' : '/rss.xml'} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 inline-block">
               <span className="sr-only">RSS</span>
               <Rss size={20} />
             </a>

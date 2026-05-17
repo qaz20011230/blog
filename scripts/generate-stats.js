@@ -75,14 +75,16 @@ async function countMarkdownFiles(globPattern) {
 async function generateStats() {
   console.log('Generating site stats...');
 
-  const posts = await countMarkdownFiles('src/content/posts/zh/*.md');
+  const zhPosts = await countMarkdownFiles('src/content/posts/zh/*.md');
+  const enPosts = await countMarkdownFiles('src/content/posts/en/*.md');
 
-  const totalWords = posts.totalWords;
+  const totalWords = zhPosts.totalWords + enPosts.totalWords;
+  const totalFiles = zhPosts.files.length + enPosts.files.length;
   const payload = {
     generatedAt: new Date().toISOString(),
     totalWords,
-    totalFiles: posts.files.length,
-    posts: { files: posts.files.length, words: posts.totalWords },
+    totalFiles,
+    posts: { files: totalFiles, words: totalWords },
   };
 
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });

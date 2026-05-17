@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 01:47:14 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 02:29:11 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 01:47:14 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 02:29:11 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -19,8 +19,11 @@
         <ttl>60</ttl>
         <category><![CDATA[Philosophy]]></category>
         <category><![CDATA[Psychology]]></category>
+        <category><![CDATA[AI & Technology]]></category>
+        <category><![CDATA[Mathematics & Logic]]></category>
+        <category><![CDATA[Business & Strategy]]></category>
+        <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Logic]]></category>
-        <category><![CDATA[Ecommerce]]></category>
         <category><![CDATA[Others]]></category>
         <item>
             <title><![CDATA[人工智能七大公理圣旨]]></title>

@@ -107,6 +107,14 @@ export const UI = {
   },
   footer: {
     copyright: { zh: '版权所有', en: 'All rights reserved' },
+    stats: {
+      words: { zh: '站点总字数', en: 'Total Words' },
+      wordUnit: { zh: '字', en: ' words' },
+      pv: { zh: '总访问量', en: 'PV' },
+      pvUnit: { zh: '次', en: '' },
+      uv: { zh: '总访问人数', en: 'UV' },
+      uvUnit: { zh: '人', en: '' },
+    },
   },
   langSwitch: {
     zh: '中文',

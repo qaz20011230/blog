@@ -30,7 +30,7 @@ export default function BlogDetail() {
       navigator.share({ title: post.title, text: post.description, url: window.location.href }).catch(console.error);
     } else {
       navigator.clipboard.writeText(window.location.href);
-      alert('Link copied!');
+      alert(locale === 'zh' ? '链接已复制！' : 'Link copied!');
     }
   };
 

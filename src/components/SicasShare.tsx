@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Share2, Copy, Check, X, QrCode } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
 
 export default function SicasShare() {
+  const { locale } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const location = useLocation();
@@ -31,9 +33,8 @@ export default function SicasShare() {
   };
 
   const handleWechatShare = () => {
-    // For WeChat, the best we can do on web without native SDK is to copy link and prompt
     handleCopyLink();
-    alert('链接已复制，请打开微信粘贴分享至朋友圈');
+    alert(locale === 'zh' ? '链接已复制，请打开微信粘贴分享至朋友圈' : 'Link copied! Open WeChat to share.');
   };
 
   if (!isVisible) return null;
@@ -49,7 +50,7 @@ export default function SicasShare() {
         <div className="bg-hilbert rounded-lg shadow-xl border border-gray-800 p-2 flex flex-col gap-2 min-w-[160px]">
           {/* Interest & Connect: Provide value propositions for sharing */}
           <div className="px-3 py-2 text-xs font-mono text-gray-500 border-b border-gray-800 tracking-widest uppercase">
-            传播思想火种
+            {locale === 'zh' ? '传播思想火种' : 'Spread the Spark'}
           </div>
           
           <button
@@ -57,7 +58,7 @@ export default function SicasShare() {
             className="flex items-center gap-3 px-3 py-2 text-sm text-gray-400 hover:bg-gray-900 hover:text-gray-200 rounded-md transition-colors w-full text-left group font-mono tracking-widest"
           >
             {copied ? <Check size={16} className="text-primary" /> : <Copy size={16} className="text-gray-500 group-hover:text-primary" />}
-            <span>{copied ? '已复制链接' : '复制链接'}</span>
+            <span>{copied ? (locale === 'zh' ? '已复制链接' : 'Copied!') : (locale === 'zh' ? '复制链接' : 'Copy Link')}</span>
           </button>
 
           <button
@@ -65,7 +66,7 @@ export default function SicasShare() {
             className="flex items-center gap-3 px-3 py-2 text-sm text-gray-400 hover:bg-gray-900 hover:text-gray-200 rounded-md transition-colors w-full text-left group font-mono tracking-widest"
           >
             <QrCode size={16} className="text-gray-500 group-hover:text-primary" />
-            <span>分享至朋友圈</span>
+            <span>{locale === 'zh' ? '分享至朋友圈' : 'Share via WeChat'}</span>
           </button>
         </div>
       </div>

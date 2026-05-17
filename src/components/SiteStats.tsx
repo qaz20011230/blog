@@ -1,4 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { useLanguage } from '../context/LanguageContext';
+import { UI } from '../types';
 
 type StatsPayload = {
   totalWords: number;
@@ -17,6 +19,7 @@ function readBusuanziValue(id: string) {
 }
 
 export default function SiteStats() {
+  const { locale } = useLanguage();
   const [totalWords, setTotalWords] = useState<number | null>(null);
   const [pv, setPv] = useState<string>('');
   const [uv, setUv] = useState<string>('');
@@ -60,7 +63,10 @@ export default function SiteStats() {
     <div className="text-gray-500 text-sm">
       <span className="hidden" id="busuanzi_value_site_pv" />
       <span className="hidden" id="busuanzi_value_site_uv" />
-      站点总字数: {formattedWords} 字 | 总访问量: {pv || '—'} 次 | 总访问人数: {uv || '—'} 人
+      {locale === 'zh'
+        ? `站点总字数: ${formattedWords} 字 | 总访问量: ${pv || '—'} 次 | 总访问人数: ${uv || '—'} 人`
+        : `Total words: ${formattedWords} | PV: ${pv || '—'} | UV: ${uv || '—'}`
+      }
     </div>
   );
 }
