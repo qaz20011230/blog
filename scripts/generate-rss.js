@@ -41,7 +41,7 @@ async function generateRSS() {
     language: 'zh-CN',
     pubDate: new Date(),
     ttl: 60,
-    categories: ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Logic', 'Others'],
+    categories: ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Others'],
   });
   for (const p of zhPosts) {
     zhFeed.item({ title: p.title, description: p.description, url: `${BASE_URL}/post/${p.slug}`, guid: `${BASE_URL}/post/${p.slug}`, categories: p.tags, author: '思想助产士', date: p.date });
@@ -63,7 +63,7 @@ async function generateRSS() {
     language: 'en',
     pubDate: new Date(),
     ttl: 60,
-    categories: ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Logic', 'Others'],
+    categories: ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Others'],
   });
   for (const p of enPosts) {
     enFeed.item({ title: p.title, description: p.description, url: `${BASE_URL}/en/post/${p.slug}`, guid: `${BASE_URL}/en/post/${p.slug}`, categories: p.tags, author: 'Ang Li', date: p.date });

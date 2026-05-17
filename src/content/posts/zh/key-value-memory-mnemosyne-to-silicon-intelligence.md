@@ -1,7 +1,7 @@
 ---
 title: 键值记忆：从谟涅摩叙涅的馈赠到硅基智能的苏醒
 date: '2026-05-15'
-category: Logic
+category: "Mathematics & Logic"
 tags:
   - 键值记忆
   - 海马体

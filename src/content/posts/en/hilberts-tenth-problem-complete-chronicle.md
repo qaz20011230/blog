@@ -1,7 +1,7 @@
 ---
 title: 'Hilberts Tenth Problem - Complete Chronicle'
 date: '2026-03-01'
-category: Logic
+category: "Mathematics & Logic"
 tags:
   - Hilbert
   - mathematics

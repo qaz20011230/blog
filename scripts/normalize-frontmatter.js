@@ -6,7 +6,7 @@ import matter from 'gray-matter';
 const CATEGORY_CANON = new Map([
   ['philosophy', 'Philosophy'],
   ['psychology', 'Psychology'],
-  ['logic', 'Logic'],
+  ['logic', 'Mathematics & Logic'],
   ['ai & technology', 'AI & Technology'],
   ['ai and technology', 'AI & Technology'],
   ['mathematics & logic', 'Mathematics & Logic'],
@@ -169,7 +169,7 @@ async function normalizeAll() {
     fs.writeFileSync(file, normalized, 'utf8');
 
     const canon = normalizeCategory(category);
-    const validCats = ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Logic', 'Others'];
+    const validCats = ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Others'];
     if (canon && !validCats.includes(canon)) {
       invalidCategories.push({ file, category: canon });
     }

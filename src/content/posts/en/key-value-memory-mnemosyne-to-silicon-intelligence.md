@@ -1,7 +1,7 @@
 ---
 title: "Key-Value Memory: From Mnemosyne's Gift to the Awakening of Silicon Intelligence"
 date: '2026-05-15'
-category: Logic
+category: "Mathematics & Logic"
 tags:
   - 键值记忆
   - hippocampus

@@ -5,7 +5,6 @@ export type Category =
   | 'Mathematics & Logic'
   | 'Business & Strategy'
   | 'Culture & Art'
-  | 'Logic'
   | 'Others';
 
 export interface Post {
