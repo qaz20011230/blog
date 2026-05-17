@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 03:02:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 03:09:47 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 03:02:27 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 03:09:47 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -35,6 +35,23 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学]]></title>
+            <description><![CDATA[阿里巴巴前CTO李昂二十年架构实战回忆录：从Doris分布式存储到Baza缓存框架，拆解数据/计算/链路三重冗余哲学，揭示大规模系统中"可靠性"与"成本"的平衡艺术。]]></description>
+            <link>https://liang.world/post/冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学</link>
+            <guid isPermaLink="false">https://liang.world/post/冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学</guid>
+            <category><![CDATA[系统架构]]></category>
+            <category><![CDATA[分布式系统]]></category>
+            <category><![CDATA[Doris]]></category>
+            <category><![CDATA[Baza]]></category>
+            <category><![CDATA[阿里巴巴]]></category>
+            <category><![CDATA[冗余]]></category>
+            <category><![CDATA[存储]]></category>
+            <category><![CDATA[缓存]]></category>
+            <category><![CDATA[取舍哲学]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[光能聚合，黑核脉冲：聚变产业链全息地图]]></title>
