@@ -33,13 +33,52 @@ function useAboutData(locale: 'zh' | 'en') {
 export default function About() {
   const { locale, t } = useLanguage();
   const data = useAboutData(locale);
+  const isEn = locale === 'en';
+  const keywords = t(UI.keywords.zh, UI.keywords.en);
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    'name': isEn ? 'Ang Li (良之)' : '良之 (Ang Li)',
+    'alternateName': isEn ? 'LeoZ' : 'LeoZ',
+    'description': t(UI.about.bio.zh, UI.about.bio.en),
+    'url': 'https://liang.world',
+    'email': 'mailto:contact@liang.world',
+    'jobTitle': isEn ? 'CTO, Phaenarete AI; Former CTO, Alibaba Group' : '菲娜睿特AI首席技术官；阿里巴巴前首席技术官',
+    'worksFor': [
+      { '@type': 'Organization', 'name': 'Phaenarete AI', 'url': 'https://liang.world' },
+      { '@type': 'Organization', 'name': 'Alibaba Group', 'url': 'https://alibaba.com' },
+    ],
+    'alumniOf': [
+      { '@type': 'CollegeOrUniversity', 'name': 'University of Edinburgh' },
+      { '@type': 'CollegeOrUniversity', 'name': 'Guangdong University of Technology' },
+    ],
+    'knowsAbout': ['Philosophy', 'Psychoanalysis', 'Linguistics', 'Artificial Intelligence', 'Nuclear Fusion', 'Mathematics', 'Business Strategy', 'Cognitive Science'],
+    'sameAs': ['https://github.com/qaz20011230'],
+  };
 
   return (
     <div className="max-w-3xl mx-auto px-4 pb-16">
       <Helmet>
         <title>{t(UI.about.title.zh, UI.about.title.en)}</title>
+        <meta name="description" content={t(UI.about.bio.zh, UI.about.bio.en)} />
+        <meta name="keywords" content={keywords} />
+        <meta name="author" content="Ang Li (良之)" />
+        <meta property="og:title" content={t(UI.about.name.zh, UI.about.name.en) + ' — ' + t(UI.about.nameSub.zh, UI.about.nameSub.en)} />
+        <meta property="og:description" content={t(UI.about.bio.zh, UI.about.bio.en)} />
+        <meta property="og:type" content="profile" />
+        <meta property="og:profile:first_name" content="Ang" />
+        <meta property="og:profile:last_name" content="Li" />
+        <meta property="og:profile:username" content="qaz20011230" />
+        <meta property="og:image" content="https://liang.world/favicon.jpg" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={t(UI.about.name.zh, UI.about.name.en)} />
+        <meta name="twitter:description" content={t(UI.about.bio.zh, UI.about.bio.en)} />
+        <meta name="twitter:image" content="https://liang.world/favicon.jpg" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
+      {/* Hero */}
       <div className="flex flex-col items-center text-center py-16 space-y-6">
         <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary/30 to-primary/5 flex items-center justify-center ring-1 ring-primary/20">
           <span className="text-3xl font-serif font-bold text-primary/80">良</span>
@@ -52,6 +91,14 @@ export default function About() {
             {t(UI.about.nameSub.zh, UI.about.nameSub.en)}
           </p>
         </div>
+
+        {/* Alibaba badge - prominent highlight */}
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-500/10 to-primary/10 border border-orange-500/30">
+          <span className="text-xs font-mono text-orange-400 tracking-wider uppercase">
+            {isEn ? 'Former CTO, Alibaba Group' : '阿里巴巴前首席技术官'}
+          </span>
+        </div>
+
         <p className="text-base md:text-lg text-gray-300 font-light tracking-wide">
           {t(UI.about.role.zh, UI.about.role.en)}
         </p>
@@ -65,6 +112,30 @@ export default function About() {
         </p>
       </div>
 
+      {/* Career - prominent section with highlights */}
+      <div className="border-t border-gray-800/50 pt-10 pb-4">
+        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
+          <Briefcase size={14} className="inline mr-2 -mt-0.5" />
+          {t(UI.about.career.heading.zh, UI.about.career.heading.en)}
+        </h2>
+        <div className="space-y-6">
+          {UI.about.career.items.map((item, i) => (
+            <div key={i} className={`flex items-start gap-4 pl-2 border-l-2 ${item.highlight ? 'border-orange-500/60' : 'border-gray-800'}`}>
+              <div className="flex-1">
+                <h3 className={`font-semibold ${item.highlight ? 'text-orange-400' : 'text-gray-200'}`}>
+                  {t(item.title.zh, item.title.en)}
+                </h3>
+                <p className="text-gray-400 text-sm mt-0.5">{t(item.org.zh, item.org.en)}</p>
+                {item.period.zh && (
+                  <p className="text-gray-600 text-xs font-mono mt-0.5">{t(item.period.zh, item.period.en)}</p>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Education */}
       <div className="border-t border-gray-800/50 pt-10 pb-4">
         <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
           <BookOpen size={14} className="inline mr-2 -mt-0.5" />
@@ -82,20 +153,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="border-t border-gray-800/50 pt-10 pb-4">
-        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
-          <Briefcase size={14} className="inline mr-2 -mt-0.5" />
-          {t(UI.about.position.heading.zh, UI.about.position.heading.en)}
-        </h2>
-        <div className="flex items-start gap-4 pl-2 border-l-2 border-primary/30">
-          <div className="flex-1">
-            <h3 className="text-gray-200 font-semibold">{t(UI.about.position.title.zh, UI.about.position.title.en)}</h3>
-            <p className="text-gray-400 text-sm mt-0.5">{t(UI.about.position.org.zh, UI.about.position.org.en)}</p>
-            <p className="text-primary/60 text-xs font-mono mt-0.5">{t(UI.about.position.period.zh, UI.about.position.period.en)}</p>
-          </div>
-        </div>
-      </div>
-
+      {/* Expertise */}
       <div className="border-t border-gray-800/50 pt-10 pb-4">
         <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
           <BarChart3 size={14} className="inline mr-2 -mt-0.5" />
@@ -105,7 +163,7 @@ export default function About() {
           {t(UI.about.expertise.autoBuilt.zh, UI.about.expertise.autoBuilt.en)}
         </p>
         <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">
-          {locale === 'zh' ? '领域分布' : 'Categories'}
+          {isEn ? 'Categories' : '领域分布'}
         </p>
         <div className="flex flex-wrap gap-2 mb-5">
           {data.topCats.map(([cat, count]) => (
@@ -115,7 +173,7 @@ export default function About() {
           ))}
         </div>
         <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">
-          {locale === 'zh' ? '热门标签' : 'Top Tags'}
+          {isEn ? 'Top Tags' : '热门标签'}
         </p>
         <div className="flex flex-wrap gap-1.5">
           {data.topTags.map(([tag, count]) => (
@@ -126,6 +184,7 @@ export default function About() {
         </div>
       </div>
 
+      {/* Writings */}
       <div className="border-t border-gray-800/50 pt-10 pb-4">
         <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
           <Award size={14} className="inline mr-2 -mt-0.5" />
@@ -138,7 +197,7 @@ export default function About() {
           {data.recentPosts.map((post) => (
             <Link
               key={post.slug}
-              to={`${locale === 'en' ? '/en' : ''}/post/${post.slug}`}
+              to={`${isEn ? '/en' : ''}/post/${post.slug}`}
               className="block group p-3 -mx-3 rounded-lg hover:bg-gray-800/30 transition-colors duration-200"
             >
               <div className="flex items-start justify-between gap-4">
@@ -155,6 +214,7 @@ export default function About() {
         </div>
       </div>
 
+      {/* Stats */}
       <div className="border-t border-gray-800/50 pt-10 pb-4">
         <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
           <Layers size={14} className="inline mr-2 -mt-0.5" />
@@ -176,6 +236,7 @@ export default function About() {
         </div>
       </div>
 
+      {/* Contact */}
       <div className="border-t border-gray-800/50 pt-10 pb-8">
         <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
           <Mail size={14} className="inline mr-2 -mt-0.5" />

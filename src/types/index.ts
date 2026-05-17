@@ -25,8 +25,12 @@ export const UI = {
   siteName: { zh: '良之世界', en: 'Liang.World' },
   tagline: { zh: '思想助产士的数字花园', en: 'Digital Garden of the Midwife of Thought' },
   description: {
-    zh: '怀瑾握瑜，解惑忘隙。融合精神分析、哲学践行与商业逻辑，助你澄清概念、暴露预设、重构认知。',
-    en: 'Where psychoanalysis, philosophical practice, and business logic converge. Clarify concepts, expose presuppositions, reconstruct cognition.',
+    zh: '良之（Ang Li）——阿里巴巴前首席技术官、爱丁堡大学语言学博士、菲娜睿特AI首席技术官。融合哲学、精神分析、语言学、AI与商业战略的深度思想世界。',
+    en: 'Ang Li (良之) — Former CTO of Alibaba Group, PhD in Linguistics from University of Edinburgh, CTO of Phaenarete AI. A world of deep thought bridging philosophy, psychoanalysis, linguistics, AI, and business strategy.',
+  },
+  keywords: {
+    zh: '良之,Ang Li,阿里巴巴CTO,菲娜睿特,人工智能,哲学,精神分析,语言学,核聚变,数学,商业战略,认知科学',
+    en: 'Ang Li,LeoZ,former Alibaba CTO,Phaenarete AI,artificial intelligence,philosophy,psychoanalysis,linguistics,nuclear fusion,mathematics,business strategy,cognitive science',
   },
   nav: {
     home: { zh: '首页', en: 'Home' },
@@ -59,14 +63,31 @@ export const UI = {
     title: { zh: '关于良之 | 良之世界', en: 'About | Liang.World' },
     name: { zh: '良之', en: 'LeoZ' },
     nameSub: { zh: 'Ang Li', en: 'Ang Li' },
-    role: { zh: '广州菲娜睿特人工智能科技有限责任公司首席技术官', en: 'CTO, Guangzhou Phaenarete AI Technology Co., Ltd.' },
-    location: { zh: '广州 / 爱丁堡', en: 'Guangzhou / Edinburgh' },
+    role: { zh: '阿里巴巴前首席技术官 | 菲娜睿特AI首席技术官', en: 'Former Alibaba CTO | CTO of Phaenarete AI' },
+    location: { zh: '广州 / 爱丁堡 / 杭州', en: 'Guangzhou / Edinburgh / Hangzhou' },
     contact: { zh: '联系方式', en: 'Contact' },
     email: { zh: 'contact@liang.world', en: 'contact@liang.world' },
     github: { zh: 'github.com/qaz20011230', en: 'github.com/qaz20011230' },
     bio: {
-      zh: '思想助产士。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
-      en: 'Midwife of Thought. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
+      zh: '思想助产士。阿里巴巴前首席技术官，爱丁堡大学语言学博士。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
+      en: 'Midwife of Thought. Former CTO of Alibaba Group. PhD in Linguistics, University of Edinburgh. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
+    },
+    career: {
+      heading: { zh: '职业经历', en: 'Career' },
+      items: [
+        {
+          title: { zh: '首席技术官', en: 'Chief Technology Officer' },
+          org: { zh: '广州菲娜睿特人工智能科技有限责任公司', en: 'Guangzhou Phaenarete AI Technology Co., Ltd.' },
+          period: { zh: '2025 – 至今', en: '2025 – Present' },
+          highlight: true,
+        },
+        {
+          title: { zh: '前首席技术官', en: 'Former Chief Technology Officer' },
+          org: { zh: '阿里巴巴网络有限公司', en: 'Alibaba Group' },
+          period: { zh: '', en: '' },
+          highlight: true,
+        },
+      ],
     },
     education: {
       heading: { zh: '教育背景', en: 'Education' },
@@ -82,12 +103,6 @@ export const UI = {
           period: { zh: '', en: '' },
         },
       ],
-    },
-    position: {
-      heading: { zh: '现任职务', en: 'Current Position' },
-      title: { zh: '首席技术官', en: 'Chief Technology Officer' },
-      org: { zh: '广州菲娜睿特人工智能科技有限责任公司', en: 'Guangzhou Phaenarete AI Technology Co., Ltd.' },
-      period: { zh: '2025 – 至今', en: '2025 – Present' },
     },
     expertise: {
       heading: { zh: '研究领域与技能', en: 'Areas of Expertise' },
