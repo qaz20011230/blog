@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 06:31:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 10:12:03 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 06:31:29 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 10:12:03 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -35,6 +35,20 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Vocation of Dasein: A Letter to Young People Amidst the Age of Choosing]]></title>
+            <description><![CDATA[Marx's 1835 school essay, five hundred students at Zhejiang University's 2007 lecture hall, and the AI displacement wave of 2026 — spanning nearly two centuries, this essay re-answers the same question through Heidegger's phenomenology: what kind of work is worth your whole life? Not the "best" under the attention economy, but the "fitting" within the trust economy — the way Dasein dwells in the world.
+]]></description>
+            <link>https://liang.world/en/post/daseins-vocation-for-young-people-in-the-age-of-choosing</link>
+            <guid isPermaLink="false">https://liang.world/en/post/daseins-vocation-for-young-people-in-the-age-of-choosing</guid>
+            <category><![CDATA[career]]></category>
+            <category><![CDATA[Marx]]></category>
+            <category><![CDATA[Heidegger]]></category>
+            <category><![CDATA[trust economy]]></category>
+            <category><![CDATA[vocation]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Putting the Elephant in the Fridge: On Approaching the Riemann Hypothesis with Computational Methods]]></title>

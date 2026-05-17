@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 06:31:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 10:12:03 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 06:31:29 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 10:12:03 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -49,6 +49,20 @@
             <category><![CDATA[存储]]></category>
             <category><![CDATA[缓存]]></category>
             <category><![CDATA[取舍哲学]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[此在的志业：致择业时代的不易青年]]></title>
+            <description><![CDATA[1835年马克思的中学作文、2007年浙大讲堂的五百名学生、2026年AI替代浪潮——跨越近两个世纪，用海德格尔的现象学重新回答同一个问题：什么样的职业值得你从事一生？不是注意力经济下的“最好”，而是信任经济中的“合适”——那是此在在世的方式。
+]]></description>
+            <link>https://liang.world/post/此在的志业——致择业时代的不易青年</link>
+            <guid isPermaLink="false">https://liang.world/post/此在的志业——致择业时代的不易青年</guid>
+            <category><![CDATA[职业选择]]></category>
+            <category><![CDATA[马克思]]></category>
+            <category><![CDATA[海德格尔]]></category>
+            <category><![CDATA[信任经济]]></category>
+            <category><![CDATA[生涯规划]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>

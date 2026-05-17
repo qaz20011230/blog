@@ -669,6 +669,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/deep-seek-culture-letter"/>
   </url>
   <url>
+    <loc>https://liang.world/en/post/daseins-vocation-for-young-people-in-the-age-of-choosing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/daseins-vocation-for-young-people-in-the-age-of-choosing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/daseins-vocation-for-young-people-in-the-age-of-choosing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/daseins-vocation-for-young-people-in-the-age-of-choosing"/>
+  </url>
+  <url>
     <loc>https://liang.world/en/post/consumer-behavior-intro</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
