@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Mail, MapPin, BookOpen, Award, Briefcase, BarChart3, Hash, Layers } from 'lucide-react';
+import { Mail, MapPin, BookOpen, Award, Briefcase, BarChart3, Github } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { getAllPosts } from '../lib/content';
 import { UI } from '../types';
@@ -205,13 +205,24 @@ export default function About() {
           <Mail size={14} className="inline mr-2 -mt-0.5" />
           {t(UI.about.contact.zh, UI.about.contact.en)}
         </h2>
-        <a
-          href="mailto:contact@liang.world"
-          className="inline-flex items-center gap-2 text-gray-400 hover:text-primary transition-colors font-mono text-sm"
-        >
-          <Mail size={14} />
-          {t(UI.about.email.zh, UI.about.email.en)}
-        </a>
+        <div className="flex flex-col gap-2">
+          <a
+            href="mailto:contact@liang.world"
+            className="inline-flex items-center gap-2 text-gray-400 hover:text-primary transition-colors font-mono text-sm"
+          >
+            <Mail size={14} />
+            {t(UI.about.email.zh, UI.about.email.en)}
+          </a>
+          <a
+            href="https://github.com/qaz20011230"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-gray-400 hover:text-primary transition-colors font-mono text-sm"
+          >
+            <Github size={14} />
+            {t(UI.about.github.zh, UI.about.github.en)}
+          </a>
+        </div>
       </div>
     </div>
   );

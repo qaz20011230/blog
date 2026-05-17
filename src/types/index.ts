@@ -63,6 +63,7 @@ export const UI = {
     location: { zh: '广州 / 爱丁堡', en: 'Guangzhou / Edinburgh' },
     contact: { zh: '联系方式', en: 'Contact' },
     email: { zh: 'contact@liang.world', en: 'contact@liang.world' },
+    github: { zh: 'github.com/qaz20011230', en: 'github.com/qaz20011230' },
     bio: {
       zh: '思想助产士。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
       en: 'Midwife of Thought. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
