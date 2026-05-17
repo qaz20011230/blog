@@ -36,6 +36,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/逐日盗火：通往商用可控核聚变"/>
   </url>
   <url>
+    <loc>https://liang.world/post/冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学"/>
+  </url>
+  <url>
     <loc>https://liang.world/post/光能聚合，黑核脉冲：聚变产业链全息地图</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

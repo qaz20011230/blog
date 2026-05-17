@@ -1,81 +1,33 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Mail, MapPin, BookOpen, Award, Briefcase, BarChart3, Github, Layers } from 'lucide-react';
+import { Mail, MapPin, Github } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { getAllPosts } from '../lib/content';
 import { UI } from '../types';
 
-function useAboutData(locale: 'zh' | 'en') {
-  const posts = React.useMemo(() => getAllPosts(locale), [locale]);
-  return React.useMemo(() => {
-    const tagCount: Record<string, number> = {};
-    const catCount: Record<string, number> = {};
-    for (const p of posts) {
-      const cat = (p.category as string) || '';
-      if (cat) catCount[cat] = (catCount[cat] || 0) + 1;
-      for (const tag of p.tags || []) {
-        if (tag) tagCount[tag] = (tagCount[tag] || 0) + 1;
-      }
-    }
-    const topCats = Object.entries(catCount).sort((a, b) => b[1] - a[1]).slice(0, 8);
-    const topTags = Object.entries(tagCount).sort((a, b) => b[1] - a[1]).slice(0, 12);
-    return {
-      topCats, topTags,
-      totalPosts: posts.length,
-      totalTags: Object.keys(tagCount).length,
-      totalCats: Object.keys(catCount).length,
-      recentPosts: posts.slice(0, 6),
-    };
-  }, [posts]);
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="border-t border-gray-800/50 pt-10 pb-4">
+      <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">{title}</h2>
+      {children}
+    </div>
+  );
 }
 
 export default function About() {
   const { locale, t } = useLanguage();
-  const data = useAboutData(locale);
   const isEn = locale === 'en';
-  const keywords = t(UI.keywords.zh, UI.keywords.en);
-
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Person',
-    'name': isEn ? 'Ang Li (良之)' : '良之 (Ang Li)',
-    'alternateName': isEn ? 'LeoZ' : 'LeoZ',
-    'description': t(UI.about.bio.zh, UI.about.bio.en),
-    'url': 'https://liang.world',
-    'email': 'mailto:contact@liang.world',
-    'jobTitle': isEn ? 'CTO, Phaenarete AI; Former CTO, Alibaba Group' : '菲娜睿特AI首席技术官；阿里巴巴前首席技术官',
-    'worksFor': [
-      { '@type': 'Organization', 'name': 'Phaenarete AI', 'url': 'https://liang.world' },
-      { '@type': 'Organization', 'name': 'Alibaba Group', 'url': 'https://alibaba.com' },
-    ],
-    'alumniOf': [
-      { '@type': 'CollegeOrUniversity', 'name': 'University of Edinburgh' },
-      { '@type': 'CollegeOrUniversity', 'name': 'Guangdong University of Technology' },
-    ],
-    'knowsAbout': ['Philosophy', 'Psychoanalysis', 'Linguistics', 'Artificial Intelligence', 'Nuclear Fusion', 'Mathematics', 'Business Strategy', 'Cognitive Science'],
-    'sameAs': ['https://github.com/qaz20011230'],
-  };
+  const posts = getAllPosts(locale);
 
   return (
     <div className="max-w-3xl mx-auto px-4 pb-16">
       <Helmet>
         <title>{t(UI.about.title.zh, UI.about.title.en)}</title>
         <meta name="description" content={t(UI.about.bio.zh, UI.about.bio.en)} />
-        <meta name="keywords" content={keywords} />
-        <meta name="author" content="Ang Li (良之)" />
-        <meta property="og:title" content={t(UI.about.name.zh, UI.about.name.en) + ' — ' + t(UI.about.nameSub.zh, UI.about.nameSub.en)} />
+        <meta property="og:title" content={t(UI.about.name.zh, UI.about.name.en)} />
         <meta property="og:description" content={t(UI.about.bio.zh, UI.about.bio.en)} />
         <meta property="og:type" content="profile" />
-        <meta property="og:profile:first_name" content="Ang" />
-        <meta property="og:profile:last_name" content="Li" />
-        <meta property="og:profile:username" content="qaz20011230" />
-        <meta property="og:image" content="https://liang.world/favicon.jpg" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={t(UI.about.name.zh, UI.about.name.en)} />
-        <meta name="twitter:description" content={t(UI.about.bio.zh, UI.about.bio.en)} />
-        <meta name="twitter:image" content="https://liang.world/favicon.jpg" />
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
       {/* Hero */}
@@ -83,16 +35,13 @@ export default function About() {
         <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary/30 to-primary/5 flex items-center justify-center ring-1 ring-primary/20">
           <span className="text-3xl font-serif font-bold text-primary/80">良</span>
         </div>
-        <div>
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em]" style={{ fontFamily: '"Noto Serif SC", "SimSun", "STSong", serif' }}>
-            {t(UI.about.name.zh, UI.about.name.en)}
-          </h1>
-          <p className="text-sm text-gray-500 font-mono tracking-widest mt-1">
-            {t(UI.about.nameSub.zh, UI.about.nameSub.en)}
-          </p>
-        </div>
+        <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em]">
+          {t(UI.about.name.zh, UI.about.name.en)}
+        </h1>
+        <p className="text-sm text-gray-500 font-mono tracking-widest">
+          {t(UI.about.nameSub.zh, UI.about.nameSub.en)}
+        </p>
 
-        {/* Alibaba badge - prominent highlight */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-500/10 to-primary/10 border border-orange-500/30">
           <span className="text-xs font-mono text-orange-400 tracking-wider uppercase">
             {isEn ? 'Former CTO, Alibaba Group' : '阿里巴巴前首席技术官'}
@@ -100,47 +49,38 @@ export default function About() {
         </div>
 
         <p className="text-base md:text-lg text-gray-300 font-light tracking-wide">
-          {t(UI.about.role.zh, UI.about.role.en)}
+          {isEn ? 'CTO of Phaenarete AI' : '菲娜睿特AI首席技术官'}
         </p>
+
         <div className="flex items-center gap-2 text-sm text-gray-500 font-mono">
           <MapPin size={14} />
           <span>{t(UI.about.location.zh, UI.about.location.en)}</span>
         </div>
+
         <div className="w-12 h-[1px] bg-primary/40" />
+
         <p className="text-sm md:text-base text-gray-400 font-serif leading-relaxed max-w-xl italic">
           {t(UI.about.bio.zh, UI.about.bio.en)}
         </p>
       </div>
 
-      {/* Career - prominent section with highlights */}
-      <div className="border-t border-gray-800/50 pt-10 pb-4">
-        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
-          <Briefcase size={14} className="inline mr-2 -mt-0.5" />
-          {t(UI.about.career.heading.zh, UI.about.career.heading.en)}
-        </h2>
+      {/* Career */}
+      <Section title={t(UI.about.career.heading.zh, UI.about.career.heading.en)}>
         <div className="space-y-6">
           {UI.about.career.items.map((item, i) => (
-            <div key={i} className={`flex items-start gap-4 pl-2 border-l-2 ${item.highlight ? 'border-orange-500/60' : 'border-gray-800'}`}>
+            <div key={i} className="flex items-start gap-4 pl-2 border-l-2 border-orange-500/60">
               <div className="flex-1">
-                <h3 className={`font-semibold ${item.highlight ? 'text-orange-400' : 'text-gray-200'}`}>
-                  {t(item.title.zh, item.title.en)}
-                </h3>
+                <h3 className="text-orange-400 font-semibold">{t(item.title.zh, item.title.en)}</h3>
                 <p className="text-gray-400 text-sm mt-0.5">{t(item.org.zh, item.org.en)}</p>
-                {item.period.zh && (
-                  <p className="text-gray-600 text-xs font-mono mt-0.5">{t(item.period.zh, item.period.en)}</p>
-                )}
+                {item.period.zh && <p className="text-gray-600 text-xs font-mono mt-0.5">{t(item.period.zh, item.period.en)}</p>}
               </div>
             </div>
           ))}
         </div>
-      </div>
+      </Section>
 
       {/* Education */}
-      <div className="border-t border-gray-800/50 pt-10 pb-4">
-        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
-          <BookOpen size={14} className="inline mr-2 -mt-0.5" />
-          {t(UI.about.education.heading.zh, UI.about.education.heading.en)}
-        </h2>
+      <Section title={t(UI.about.education.heading.zh, UI.about.education.heading.en)}>
         <div className="space-y-6">
           {UI.about.education.items.map((item, i) => (
             <div key={i} className="flex items-start gap-4 pl-2 border-l-2 border-gray-800">
@@ -151,54 +91,30 @@ export default function About() {
             </div>
           ))}
         </div>
-      </div>
+      </Section>
 
       {/* Expertise */}
-      <div className="border-t border-gray-800/50 pt-10 pb-4">
-        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
-          <BarChart3 size={14} className="inline mr-2 -mt-0.5" />
-          {t(UI.about.expertise.heading.zh, UI.about.expertise.heading.en)}
-        </h2>
+      <Section title={t(UI.about.expertise.heading.zh, UI.about.expertise.heading.en)}>
         <p className="text-xs text-gray-600 font-mono mb-4">
           {t(UI.about.expertise.autoBuilt.zh, UI.about.expertise.autoBuilt.en)}
         </p>
-        <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">
-          {isEn ? 'Categories' : '领域分布'}
-        </p>
-        <div className="flex flex-wrap gap-2 mb-5">
-          {data.topCats.map(([cat, count]) => (
-            <span key={cat} className="inline-flex items-center gap-1 px-3 py-1 text-xs rounded-full bg-gray-800/50 text-gray-300 border border-gray-700/50">
-              {cat}<span className="text-gray-600 text-[10px]">×{count}</span>
+        <div className="flex flex-wrap gap-2">
+          {[...new Set(posts.map(p => p.category).filter(Boolean))].slice(0, 8).map(cat => (
+            <span key={cat} className="px-3 py-1 text-xs rounded-full bg-gray-800/50 text-gray-300 border border-gray-700/50">
+              {cat}
             </span>
           ))}
         </div>
-        <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">
-          {isEn ? 'Top Tags' : '热门标签'}
-        </p>
-        <div className="flex flex-wrap gap-1.5">
-          {data.topTags.map(([tag, count]) => (
-            <span key={tag} className="inline-flex items-center gap-1 px-2 py-0.5 text-[11px] rounded bg-gray-800/30 text-gray-500 border border-gray-800/50">
-              {tag}<span className="text-gray-700 text-[10px]">×{count}</span>
-            </span>
-          ))}
-        </div>
-      </div>
+      </Section>
 
       {/* Writings */}
-      <div className="border-t border-gray-800/50 pt-10 pb-4">
-        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
-          <Award size={14} className="inline mr-2 -mt-0.5" />
-          {t(UI.about.writings.heading.zh, UI.about.writings.heading.en)}
-        </h2>
-        <p className="text-xs text-gray-600 font-mono mb-4">
-          {t(UI.about.writings.autoBuilt.zh, UI.about.writings.autoBuilt.en)}
-        </p>
+      <Section title={t(UI.about.writings.heading.zh, UI.about.writings.heading.en)}>
         <div className="space-y-3">
-          {data.recentPosts.map((post) => (
+          {posts.slice(0, 5).map(post => (
             <Link
               key={post.slug}
               to={`${isEn ? '/en' : ''}/post/${post.slug}`}
-              className="block group p-3 -mx-3 rounded-lg hover:bg-gray-800/30 transition-colors duration-200"
+              className="block group p-3 -mx-3 rounded-lg hover:bg-gray-800/30 transition-colors"
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="min-w-0">
@@ -212,47 +128,19 @@ export default function About() {
             </Link>
           ))}
         </div>
-      </div>
-
-      {/* Stats */}
-      <div className="border-t border-gray-800/50 pt-10 pb-4">
-        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
-          <Layers size={14} className="inline mr-2 -mt-0.5" />
-          {t(UI.about.stats.heading.zh, UI.about.stats.heading.en)}
-        </h2>
-        <div className="grid grid-cols-3 gap-4">
-          <div className="text-center p-4 rounded-lg bg-gray-800/20 border border-gray-800/50">
-            <div className="text-2xl font-bold text-gray-200 font-mono">{data.totalPosts}</div>
-            <div className="text-xs text-gray-500 mt-1">{t(UI.about.stats.posts.zh, UI.about.stats.posts.en)}</div>
-          </div>
-          <div className="text-center p-4 rounded-lg bg-gray-800/20 border border-gray-800/50">
-            <div className="text-2xl font-bold text-gray-200 font-mono">{data.totalCats}</div>
-            <div className="text-xs text-gray-500 mt-1">{t(UI.about.stats.categories.zh, UI.about.stats.categories.en)}</div>
-          </div>
-          <div className="text-center p-4 rounded-lg bg-gray-800/20 border border-gray-800/50">
-            <div className="text-2xl font-bold text-gray-200 font-mono">{data.totalTags}</div>
-            <div className="text-xs text-gray-500 mt-1">{t(UI.about.stats.tags.zh, UI.about.stats.tags.en)}</div>
-          </div>
-        </div>
-      </div>
+      </Section>
 
       {/* Contact */}
-      <div className="border-t border-gray-800/50 pt-10 pb-8">
-        <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">
-          <Mail size={14} className="inline mr-2 -mt-0.5" />
-          {t(UI.about.contact.zh, UI.about.contact.en)}
-        </h2>
+      <Section title={t(UI.about.contact.zh, UI.about.contact.en)}>
         <div className="flex flex-col gap-3">
           <a href="mailto:contact@liang.world" className="inline-flex items-center gap-2 text-gray-400 hover:text-primary transition-colors font-mono text-sm">
-            <Mail size={14} />
-            {t(UI.about.email.zh, UI.about.email.en)}
+            <Mail size={14} />contact@liang.world
           </a>
           <a href="https://github.com/qaz20011230" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-gray-400 hover:text-primary transition-colors font-mono text-sm">
-            <Github size={14} />
-            {t(UI.about.github.zh, UI.about.github.en)}
+            <Github size={14} />github.com/qaz20011230
           </a>
         </div>
-      </div>
+      </Section>
     </div>
   );
 }
