@@ -265,6 +265,6 @@ Ultimately, the thought experiment of space fusion reminds us: **the significanc
 
 [30] Pulsar Fusion partners with UKAEA on Sunbird fusion propulsion modeling [EB/OL]. Military Aerospace, 2026-03-06. https://www.militaryaerospace.com.
 
-[31] Interstellar ramjet [EB/OL]. Baidu Baike. https://baike.baidu.com.
+[31] Bussard R W. Galactic Matter and Interstellar Flight [J]. Astronautica Acta, 1960, 6(4): 179-192.
 
 [32] Nuclear Fusion from First Principles — Vol.9: Fusion Propulsion [EB/OL]. Dev.to, 2026-02-27. https://dev.to.
