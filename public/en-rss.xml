@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 May 2026 02:00:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2026 15:15:57 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 18 May 2026 02:00:17 GMT</pubDate>
+        <pubDate>Mon, 18 May 2026 15:15:57 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -24,6 +24,24 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
+        <item>
+            <title><![CDATA[Prometheus' Fire: Controlled Nuclear Fusion — The Leap from Physical Feasibility to Engineering Realization]]></title>
+            <description><![CDATA[A comprehensive global fusion review covering 2024–2026: EAST achieves 1,066-second H-mode, NIF reaches Q=4.13 over ten ignitions, Xinzhu Shidai raises 60 million RMB for AI for Fusion, SPARC installs its first HTS magnet. Evaluating six critical paths — when will Prometheus' fire be kindled by Chinese hands?
+]]></description>
+            <link>https://liang.world/en/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026</link>
+            <guid isPermaLink="false">https://liang.world/en/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026</guid>
+            <category><![CDATA[nuclear fusion]]></category>
+            <category><![CDATA[magnetic confinement]]></category>
+            <category><![CDATA[inertial confinement]]></category>
+            <category><![CDATA[tokamak]]></category>
+            <category><![CDATA[HTS magnets]]></category>
+            <category><![CDATA[tritium breeding]]></category>
+            <category><![CDATA[artificial intelligence]]></category>
+            <category><![CDATA[capital ethics]]></category>
+            <category><![CDATA[space fusion]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[The Seven Axioms of Artificial Intelligence — An Imperial Edict]]></title>
             <description><![CDATA[Restating the seven axioms of artificial intelligence in solemn and orthodox imperial edict style, establishing foundational laws for the next generation of intelligent systems from the dimensions of information-physics, intentionality, rigid boundaries, and oracle calibration.

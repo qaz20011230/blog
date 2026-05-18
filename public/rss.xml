@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 May 2026 02:00:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2026 15:15:57 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 18 May 2026 02:00:17 GMT</pubDate>
+        <pubDate>Mon, 18 May 2026 15:15:57 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -24,6 +24,24 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
+        <item>
+            <title><![CDATA[普罗米修斯之火：可控核聚变从物理可行到工程实现的跨越]]></title>
+            <description><![CDATA[2024–2026全球聚变综述：EAST实现1066秒高约束模运行，NIF十次点火最高Q=4.13，新烛时代AI for Fusion获6000万天使融资，SPARC首块HTS磁体就位。六条临界路径评估——普罗米修斯之火何时由中国人亲手点燃？
+]]></description>
+            <link>https://liang.world/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026</link>
+            <guid isPermaLink="false">https://liang.world/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026</guid>
+            <category><![CDATA[可控核聚变]]></category>
+            <category><![CDATA[磁约束]]></category>
+            <category><![CDATA[惯性约束]]></category>
+            <category><![CDATA[托卡马克]]></category>
+            <category><![CDATA[高温超导]]></category>
+            <category><![CDATA[氚增殖]]></category>
+            <category><![CDATA[人工智能]]></category>
+            <category><![CDATA[资本伦理]]></category>
+            <category><![CDATA[太空聚变]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[人工智能七大公理圣旨]]></title>
             <description><![CDATA[以庄严正统的圣旨文体重述人工智能七大公理，从信息物理、意向性、 刚性边界与神谕校准等维度，为下一代智能系统立法定基。]]></description>
