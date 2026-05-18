@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 17 May 2026 10:43:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2026 02:00:17 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 17 May 2026 10:43:22 GMT</pubDate>
+        <pubDate>Mon, 18 May 2026 02:00:17 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -80,6 +80,20 @@
             <category><![CDATA[管理学批判]]></category>
             <category><![CDATA[权力分析]]></category>
             <category><![CDATA[现象学]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[颜值这件小事：关于容貌、教养与人生底气的长谈]]></title>
+            <description><![CDATA[用康德"澄清前提、划定界限"的方法拆解容貌焦虑——美貌溢价只在低门槛领域生效，施害者找的从不是"好看的"而是"没人保护的"，缺爱的孩子才会在恋爱里溺水。真正的底气来自一个随时可以回去的家，和一个比外貌更坚实的内在。
+]]></description>
+            <link>https://liang.world/post/颜值这件小事——关于容貌教养与人生底气的长谈</link>
+            <guid isPermaLink="false">https://liang.world/post/颜值这件小事——关于容貌教养与人生底气的长谈</guid>
+            <category><![CDATA[教育]]></category>
+            <category><![CDATA[亲子关系]]></category>
+            <category><![CDATA[容貌焦虑]]></category>
+            <category><![CDATA[安全感]]></category>
+            <category><![CDATA[内在修养]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>
