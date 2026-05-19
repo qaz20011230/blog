@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 May 2026 03:05:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 May 2026 15:04:21 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 May 2026 03:05:38 GMT</pubDate>
+        <pubDate>Tue, 19 May 2026 15:04:21 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -53,6 +53,20 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Shape of Time: On the Necessity and Uniqueness of Positional Encoding in Attention Mechanisms]]></title>
+            <description><![CDATA[A rigorous first-principles derivation of the mathematical boundaries of positional encoding: linearity + translation invariance + continuity → one-parameter groups → generator classification. Proving that RoPE, exponential decay, and their combinations are the "almost unique" admissible solutions. Group theory reveals that engineers are not inventing — they are discovering the shape of time locked in by mathematics itself.
+]]></description>
+            <link>https://liang.world/en/post/shape-of-time-positional-encoding-necessity-uniqueness</link>
+            <guid isPermaLink="false">https://liang.world/en/post/shape-of-time-positional-encoding-necessity-uniqueness</guid>
+            <category><![CDATA[positional encoding]]></category>
+            <category><![CDATA[RoPE]]></category>
+            <category><![CDATA[group theory]]></category>
+            <category><![CDATA[attention mechanism]]></category>
+            <category><![CDATA[Transformer]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[A Little Thing Called Looks: A Long Talk on Beauty, Upbringing, and the Bedrock of Life]]></title>

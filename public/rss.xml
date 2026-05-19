@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 May 2026 03:05:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 May 2026 15:04:21 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 May 2026 03:05:38 GMT</pubDate>
+        <pubDate>Tue, 19 May 2026 15:04:21 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -52,6 +52,20 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[时间的形状：论注意力机制中位置编码的必然性与唯一性]]></title>
+            <description><![CDATA[从第一性原理严格推导注意力机制中位置编码的数学边界：线性性+平移不变性+连续性→单参数子群→生成元分类。证明RoPE、指数衰减及二者组合是"几乎唯一"的合法解。群论告诉我们：工程师并非在创造，而是在发现数学早已锁定的时间的形状。
+]]></description>
+            <link>https://liang.world/post/shape-of-time-positional-encoding-necessity-uniqueness</link>
+            <guid isPermaLink="false">https://liang.world/post/shape-of-time-positional-encoding-necessity-uniqueness</guid>
+            <category><![CDATA[位置编码]]></category>
+            <category><![CDATA[RoPE]]></category>
+            <category><![CDATA[群论]]></category>
+            <category><![CDATA[注意力机制]]></category>
+            <category><![CDATA[Transformer]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学]]></title>
