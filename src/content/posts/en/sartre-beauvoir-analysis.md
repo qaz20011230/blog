@@ -1,13 +1,13 @@
 ---
-title: 亲密关系案例研究：拉康视域下的萨特-波伏瓦契约解析
+title: "Intimate Relationship Case Study: Deconstructing the Sartre-Beauvoir Contract Through a Lacanian Lens"
 date: '2026-02-04'
 category: Psychology
 tags:
   - Lacan
   - intimate relationships
-  - 案例分析
+  - case study
 description: >
-  借用拉康"性关系不存在"的核心论断，深度解构萨特与波伏瓦"开放式契约"背后的精神结构、语言幻象与实在界反击。
+  Drawing on Lacan's core thesis that "there is no sexual relationship," a deep deconstruction of the psychic structure, linguistic illusion, and the Real's counterstrike behind Sartre and Beauvoir's "open contract."
 ---
 
 **Abstract**: This article aims to transcend the romanticized or moralized debates surrounding Sartre and Beauvoir's "open relationship," and instead draws upon Jacques Lacan's core thesis that "there is no sexual relationship" (性关系不存在) to place their revolutionary philosophical experiment on the psychoanalytic "operating table" for dissection. By analyzing the operational mechanisms of their "contract," this article will reveal that this seemingly most liberated pair's relational pattern is precisely an excellent clinical specimen for Lacan's theory of psychic structure. Their division of "essential love" (必然之爱) and "contingent love" (偶然之爱) is essentially an attempt to use a symbolic "contract" to weave a fantasy capable of filling the黑洞 of the Real (实在界); their extreme demand for "transparency" enacted a tragic struggle against the deceptive nature of language (the domain of the "Big Other" / 大他者). Ultimately, this relationship not only failed to escape the subject's destiny of alienation, but under the gaze of the chasm of sexual difference, the内在困境 of feminism, and the death drive, it exposed the fundamental impossibility encountered by the modern subject in pursuing absolute freedom and authentic connection. Sartre and Beauvoir's "failure" thus becomes a costly yet profoundly meaningful intellectual torch illuminating the core困境 of contemporary intimate relationships.

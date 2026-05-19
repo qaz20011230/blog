@@ -1,5 +1,5 @@
 ---
-title: 树与云之间——一个教育者的思想漫步
+title: "Between Trees and Clouds: An Educator's Thought Walk"
 date: '2026-04-02'
 category: Philosophy
 tags:
@@ -7,7 +7,7 @@ tags:
   - philosophy
   - thought
 description: >
-  从一个六岁孩子的提问出发，重访"教育是一棵树摇动另一棵树"的原意：教育不是灌输而是唤醒；温柔与严厉同出于爱；纪律不是屈从而是自由的服从。最后回到当代语境，讨论教师如何以"知识剧"重建吸引与传承。
+  Starting from a six-year-old's question, revisiting the original meaning of "education is a tree shaking another tree": education is not indoctrination but awakening; gentleness and sternness both come from love; discipline is not submission but the obedience of freedom. Finally, returning to the contemporary context, discussing how teachers can rebuild engagement and transmission through the "drama of knowledge."
 ---
 
 ## I

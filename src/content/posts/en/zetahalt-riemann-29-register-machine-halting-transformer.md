@@ -1,13 +1,13 @@
 ---
-title: ZetaHalt：将黎曼猜想编码为一台 29 寄存器机的停机问题
+title: "ZetaHalt: Encoding the Riemann Hypothesis as the Halting Problem of a 29-Register Machine"
 date: '2026-04-07'
 category: Mathematics & Logic
 tags:
   - Riemann Hypothesis
   - mathematics
-  - 数论
+  - number theory
 description: >
-  把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。
+  Equivalently transforming the Riemann Hypothesis into the halting problem of a 29-register machine, and using reproducible simulation and causal Transformers as tools to explore potential invariants and formal verification pathways.
 ---
 
 ## 1. Introduction: Why We Need a New Perspective

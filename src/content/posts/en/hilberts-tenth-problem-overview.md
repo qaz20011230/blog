@@ -5,7 +5,7 @@ category: Mathematics & Logic
 tags:
   - Hilbert
   - mathematics
-  - 不可判定性
+  - undecidability
 description: >
   A definitive mathematical survey and theoretical framework of Hilbert's Tenth Problem, from Paris to Computability, the MRDP Theorem, and the latest breakthroughs over finitely generated rings.
 ---

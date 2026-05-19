@@ -1,13 +1,13 @@
 ---
-title: 破解股票长期回报密码：两步筛选法寻找真正的价值创造者
+title: "Cracking the Code of Long-Term Stock Returns: A Two-Step Screening Method to Find True Value Creators"
 date: '2026-02-12'
 category: Business & Strategy
 tags:
   - investment
-  - 股票
-  - 价值投资
+  - stocks
+  - value investing
 description: >
-  为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的"两步筛选法"，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。
+  Why can Apple weather cycles? This article provides a two-step screening method based on ROE and net inflow rate, helping investors see through the essence of corporate value creation and distribution, and build a systematic stock selection framework.
 ---
 
 > Generating nearly one hundred billion dollars in free cash flow annually while simultaneously executing a hundred-billion-dollar stock buyback program, Apple Inc. uses financial data to reveal the standard configuration of an outstanding enterprise.

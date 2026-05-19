@@ -165,6 +165,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/thinkers-content-startup-clear-light"/>
   </url>
   <url>
+    <loc>https://liang.world/en/post/think-different-manifesto-for-the-abnormal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/think-different-manifesto-for-the-abnormal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/think-different-manifesto-for-the-abnormal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/think-different-manifesto-for-the-abnormal"/>
+  </url>
+  <url>
     <loc>https://liang.world/en/post/the-7-axioms-of-artificial-intelligence</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -355,6 +363,14 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/prompt-engineering-quick-start"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/prompt-engineering-quick-start"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/prompt-engineering-quick-start"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026"/>
   </url>
   <url>
     <loc>https://liang.world/en/post/project-based-productivity</loc>
@@ -771,6 +787,14 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/adulting-beauty-ecommerce-dao"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/adulting-beauty-ecommerce-dao"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/adulting-beauty-ecommerce-dao"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
   </url>
   <url>
     <loc>https://liang.world/en/post/PKM-intro</loc>

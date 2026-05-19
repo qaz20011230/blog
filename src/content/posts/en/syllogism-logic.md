@@ -4,7 +4,7 @@ date: '2025-12-25'
 category: Mathematics & Logic
 tags:
   - logic
-  - 三段论
+  - syllogism
 description: >
   A beginner-friendly guide to Aristotelian syllogisms — understanding categorical propositions and translating natural language arguments into formal logic.
 ---

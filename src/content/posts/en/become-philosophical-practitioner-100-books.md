@@ -1,13 +1,13 @@
 ---
-title: 躬身入局：哲学践行者的百卷心智地图
+title: "Stepping Into the Arena: A Hundred-Volume Mental Map for the Philosophical Practitioner"
 date: '2026-03-25'
 category: Philosophy
 tags:
   - philosophy
-  - 书单
-  - 践行
+  - reading list
+  - practice
 description: >
-  这不是用来占有知识的书单，而是一张用于成为哲学践行者的心智地图：以问题为向导、以知行合一为原则，沿七个维度训练思维、良心、勇毅、节制、正义、至诚与弘仁。
+  This is not a book list for possessing knowledge, but a mental map for becoming a philosophical practitioner: guided by questions, grounded in the unity of knowledge and action, training the seven dimensions of thought, conscience, courage, temperance, justice, utmost sincerity, and expansive benevolence.
 ---
 
 > **Philosophy is not something you read in—it is something you do.**

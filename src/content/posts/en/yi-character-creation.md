@@ -5,7 +5,7 @@ category: Psychology
 tags:
   - language
   - AI
-  - character creation (造字)
+  - character creation
 description: >
   Through examining the creative logic of the new Chinese character "訑" (yí/chát), this article dissects the philosophical critique of technology carried by this linguistic event, revealing the "dissolution of alterity" and the "self-referential carnival of language" in AI chatbots.
 ---

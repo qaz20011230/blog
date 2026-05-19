@@ -9,7 +9,7 @@ tags:
   - academic path
   - education
 description: >
-  From undergraduate foundations to independent inquiry, the ascending path through thirty classics of linguistics—organized into four stages: Investigating Things and Extending Knowledge (格物致知), Exhausting Principle and Fulfilling Nature (穷理尽性), Casting the Sword and Testing the Edge (铸剑试锋), and Pursuing the Way Without Bound (问道无疆), guiding you step by step deeper into the labyrinth of language.
+  From undergraduate foundations to independent inquiry, the ascending path through thirty classics of linguistics—organized into four stages: Investigating Things and Extending Knowledge, Exhausting Principle and Fulfilling Nature, Casting the Sword and Testing the Edge, and Pursuing the Way Without Bound, guiding you step by step deeper into the labyrinth of language.
 ---
 
 ## —— A Linguistics Reading Chronicle · From Undergraduate to Doctoral

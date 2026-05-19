@@ -1,13 +1,13 @@
 ---
-title: 构建财富免疫系统：进取型永久投资组合指南
+title: "Building a Wealth Immune System: An Aggressive Permanent Portfolio Guide"
 date: '2026-03-04'
 category: Business & Strategy
 tags:
   - investment
-  - 资产配置
-  - 财富管理
+  - asset allocation
+  - wealth management
 description: >
-  在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于"永久投资组合"哲学，并针对年轻人进行了进取性优化。
+  In an era of volatility, safeguard growth with rational architecture and manage wealth with a steward's heart. This article provides a systematic blueprint, based on the "permanent portfolio" philosophy with aggressive optimizations tailored for young people.
 ---
 
 > In an era of volatility, guard growth with rational architecture; manage wealth with a steward's heart. — Wozhiji Shuode (沃兹基·硕德)

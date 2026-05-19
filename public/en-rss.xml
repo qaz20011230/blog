@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 18 May 2026 15:18:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 May 2026 03:05:38 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 18 May 2026 15:18:25 GMT</pubDate>
+        <pubDate>Tue, 19 May 2026 03:05:38 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -148,7 +148,7 @@
         </item>
         <item>
             <title><![CDATA[The Path of Seeking Language: Thirty Steps from Investigating Things to Pursuing Learning]]></title>
-            <description><![CDATA[From undergraduate foundations to independent inquiry, the ascending path through thirty classics of linguistics—organized into four stages: Investigating Things and Extending Knowledge (格物致知), Exhausting Principle and Fulfilling Nature (穷理尽性), Casting the Sword and Testing the Edge (铸剑试锋), and Pursuing the Way Without Bound (问道无疆), guiding you step by step deeper into the labyrinth of language.
+            <description><![CDATA[From undergraduate foundations to independent inquiry, the ascending path through thirty classics of linguistics—organized into four stages: Investigating Things and Extending Knowledge, Exhausting Principle and Fulfilling Nature, Casting the Sword and Testing the Edge, and Pursuing the Way Without Bound, guiding you step by step deeper into the labyrinth of language.
 ]]></description>
             <link>https://liang.world/en/post/linguistics-reading-path-thirty-steps</link>
             <guid isPermaLink="false">https://liang.world/en/post/linguistics-reading-path-thirty-steps</guid>
@@ -198,7 +198,7 @@
             <category><![CDATA[Tendre]]></category>
             <category><![CDATA[Xanthippe]]></category>
             <category><![CDATA[cognitive architecture]]></category>
-            <category><![CDATA[逻辑必然]]></category>
+            <category><![CDATA[logical necessity]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -231,7 +231,7 @@
         </item>
         <item>
             <title><![CDATA[From DeepSeekMath to Xanthippe, From "Surpassing Humans" to "Defining Perfection"]]></title>
-            <description><![CDATA[Greatness speaks for itself. We will create an ASI for the Gaokao (高考) mathematics exam. A deep dissection of how the Xanthippe architecture achieves logical necessity and perfect scores through million-token context and full-paper self-verification flywheels on 7B parameters.
+            <description><![CDATA[Greatness speaks for itself. We will create an ASI for the Gaokao mathematics exam. A deep dissection of how the Xanthippe architecture achieves logical necessity and perfect scores through million-token context and full-paper self-verification flywheels on 7B parameters.
 ]]></description>
             <link>https://liang.world/en/post/deepseekmath-to-xanthippe-asi-gaokao</link>
             <guid isPermaLink="false">https://liang.world/en/post/deepseekmath-to-xanthippe-asi-gaokao</guid>
@@ -339,14 +339,14 @@
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ZetaHalt：将黎曼猜想编码为一台 29 寄存器机的停机问题]]></title>
-            <description><![CDATA[把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。
+            <title><![CDATA[ZetaHalt: Encoding the Riemann Hypothesis as the Halting Problem of a 29-Register Machine]]></title>
+            <description><![CDATA[Equivalently transforming the Riemann Hypothesis into the halting problem of a 29-register machine, and using reproducible simulation and causal Transformers as tools to explore potential invariants and formal verification pathways.
 ]]></description>
             <link>https://liang.world/en/post/zetahalt-riemann-29-register-machine-halting-transformer</link>
             <guid isPermaLink="false">https://liang.world/en/post/zetahalt-riemann-29-register-machine-halting-transformer</guid>
             <category><![CDATA[Riemann Hypothesis]]></category>
             <category><![CDATA[mathematics]]></category>
-            <category><![CDATA[数论]]></category>
+            <category><![CDATA[number theory]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>
@@ -363,8 +363,8 @@
             <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[树与云之间——一个教育者的思想漫步]]></title>
-            <description><![CDATA[从一个六岁孩子的提问出发，重访"教育是一棵树摇动另一棵树"的原意：教育不是灌输而是唤醒；温柔与严厉同出于爱；纪律不是屈从而是自由的服从。最后回到当代语境，讨论教师如何以"知识剧"重建吸引与传承。
+            <title><![CDATA[Between Trees and Clouds: An Educator's Thought Walk]]></title>
+            <description><![CDATA[Starting from a six-year-old's question, revisiting the original meaning of "education is a tree shaking another tree": education is not indoctrination but awakening; gentleness and sternness both come from love; discipline is not submission but the obedience of freedom. Finally, returning to the contemporary context, discussing how teachers can rebuild engagement and transmission through the "drama of knowledge."
 ]]></description>
             <link>https://liang.world/en/post/tree-and-clouds-educators-thought-walk</link>
             <guid isPermaLink="false">https://liang.world/en/post/tree-and-clouds-educators-thought-walk</guid>
@@ -434,14 +434,14 @@
             <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[躬身入局：哲学践行者的百卷心智地图]]></title>
-            <description><![CDATA[这不是用来占有知识的书单，而是一张用于成为哲学践行者的心智地图：以问题为向导、以知行合一为原则，沿七个维度训练思维、良心、勇毅、节制、正义、至诚与弘仁。
+            <title><![CDATA[Stepping Into the Arena: A Hundred-Volume Mental Map for the Philosophical Practitioner]]></title>
+            <description><![CDATA[This is not a book list for possessing knowledge, but a mental map for becoming a philosophical practitioner: guided by questions, grounded in the unity of knowledge and action, training the seven dimensions of thought, conscience, courage, temperance, justice, utmost sincerity, and expansive benevolence.
 ]]></description>
             <link>https://liang.world/en/post/become-philosophical-practitioner-100-books</link>
             <guid isPermaLink="false">https://liang.world/en/post/become-philosophical-practitioner-100-books</guid>
             <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[书单]]></category>
-            <category><![CDATA[践行]]></category>
+            <category><![CDATA[reading list]]></category>
+            <category><![CDATA[practice]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -471,8 +471,6 @@
         </item>
         <item>
             <title><![CDATA[On the Methodological Foundations and Milestones of the Phaenarete Project]]></title>
-            <description><![CDATA[This article is addressed to researchers in mathematics and computer science, aiming to clarify in technical language the methodological内核, engineering architecture, and milestone deliverables of the Phaenarete Project. We will focus on three questions: what we are doing, why we are doing it now, and how we judge whether we have succeeded.
-]]></description>
             <link>https://liang.world/en/post/phaenarete-project-methodology-and-milestones</link>
             <guid isPermaLink="false">https://liang.world/en/post/phaenarete-project-methodology-and-milestones</guid>
             <category><![CDATA[Phaenarete]]></category>
@@ -601,13 +599,13 @@
             <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[提示词工程快速入门：小瑶的七天学习笔记]]></title>
-            <description><![CDATA[从词源到实战，用七天掌握七个最实用的提示词框架（CLEAR, ART, RICE, PAIR, SCAMPER, PESTEL, LIGHT）。这是一份给大一新生小瑶的入门指南，也是给所有希望驾驭AI的人的思维工具箱。
+            <title><![CDATA[Prompt Engineering Quick Start: Xiaoyao's Seven-Day Study Notes]]></title>
+            <description><![CDATA[From etymology to hands-on practice, master seven of the most practical prompt frameworks (CLEAR, ART, RICE, PAIR, SCAMPER, PESTEL, LIGHT) in seven days. An introductory guide for freshman Xiaoyao and a thinking toolkit for everyone who wants to harness AI.
 ]]></description>
             <link>https://liang.world/en/post/prompt-engineering-quick-start</link>
             <guid isPermaLink="false">https://liang.world/en/post/prompt-engineering-quick-start</guid>
-            <category><![CDATA[提示词工程]]></category>
-            <category><![CDATA[入门]]></category>
+            <category><![CDATA[Prompt Engineering]]></category>
+            <category><![CDATA[introduction]]></category>
             <category><![CDATA[AI]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
@@ -625,8 +623,8 @@
             <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[北辰七德：我为自己选择的星空坐标]]></title>
-            <description><![CDATA[我为自己选择的七个生命坐标：智慧、仁爱、勇敢、节制、公正、诚信、超越。这是一份关于如何以清醒、负责的态度，度过此生的实践宣言。
+            <title><![CDATA[The Polaris Seven Virtues: The Stellar Coordinates I Chose for Myself]]></title>
+            <description><![CDATA[The seven life coordinates I chose for myself: wisdom, benevolence, courage, temperance, justice, integrity, transcendence. A practical manifesto on how to live this life with clarity and responsibility.
 ]]></description>
             <link>https://liang.world/en/post/polaris-seven-virtues</link>
             <guid isPermaLink="false">https://liang.world/en/post/polaris-seven-virtues</guid>
@@ -649,14 +647,14 @@
             <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[构建财富免疫系统：进取型永久投资组合指南]]></title>
-            <description><![CDATA[在波动时代，以理性架构守护增长，以受托之心管理财富。本文为你提供一份系统性的建造蓝图，基于"永久投资组合"哲学，并针对年轻人进行了进取性优化。
+            <title><![CDATA[Building a Wealth Immune System: An Aggressive Permanent Portfolio Guide]]></title>
+            <description><![CDATA[In an era of volatility, safeguard growth with rational architecture and manage wealth with a steward's heart. This article provides a systematic blueprint, based on the "permanent portfolio" philosophy with aggressive optimizations tailored for young people.
 ]]></description>
             <link>https://liang.world/en/post/wealth-immune-system-permanent-portfolio-guide</link>
             <guid isPermaLink="false">https://liang.world/en/post/wealth-immune-system-permanent-portfolio-guide</guid>
             <category><![CDATA[investment]]></category>
-            <category><![CDATA[资产配置]]></category>
-            <category><![CDATA[财富管理]]></category>
+            <category><![CDATA[asset allocation]]></category>
+            <category><![CDATA[wealth management]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -680,7 +678,7 @@
             <guid isPermaLink="false">https://liang.world/en/post/hilberts-tenth-problem-complete-chronicle</guid>
             <category><![CDATA[Hilbert]]></category>
             <category><![CDATA[mathematics]]></category>
-            <category><![CDATA[不可判定性]]></category>
+            <category><![CDATA[undecidability]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
         </item>
@@ -780,14 +778,14 @@
             <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[破解股票长期回报密码：两步筛选法寻找真正的价值创造者]]></title>
-            <description><![CDATA[为什么苹果能穿越周期？本文提供一个基于ROE和净流入率的"两步筛选法"，帮助投资者透视企业价值创造与分配的本质，建立系统性的选股框架。
+            <title><![CDATA[Cracking the Code of Long-Term Stock Returns: A Two-Step Screening Method to Find True Value Creators]]></title>
+            <description><![CDATA[Why can Apple weather cycles? This article provides a two-step screening method based on ROE and net inflow rate, helping investors see through the essence of corporate value creation and distribution, and build a systematic stock selection framework.
 ]]></description>
             <link>https://liang.world/en/post/stock-return-secrets</link>
             <guid isPermaLink="false">https://liang.world/en/post/stock-return-secrets</guid>
             <category><![CDATA[investment]]></category>
-            <category><![CDATA[股票]]></category>
-            <category><![CDATA[价值投资]]></category>
+            <category><![CDATA[stocks]]></category>
+            <category><![CDATA[value investing]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -911,14 +909,14 @@
             <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[亲密关系案例研究：拉康视域下的萨特-波伏瓦契约解析]]></title>
-            <description><![CDATA[借用拉康"性关系不存在"的核心论断，深度解构萨特与波伏瓦"开放式契约"背后的精神结构、语言幻象与实在界反击。
+            <title><![CDATA[Intimate Relationship Case Study: Deconstructing the Sartre-Beauvoir Contract Through a Lacanian Lens]]></title>
+            <description><![CDATA[Drawing on Lacan's core thesis that "there is no sexual relationship," a deep deconstruction of the psychic structure, linguistic illusion, and the Real's counterstrike behind Sartre and Beauvoir's "open contract."
 ]]></description>
             <link>https://liang.world/en/post/sartre-beauvoir-analysis</link>
             <guid isPermaLink="false">https://liang.world/en/post/sartre-beauvoir-analysis</guid>
             <category><![CDATA[Lacan]]></category>
             <category><![CDATA[intimate relationships]]></category>
-            <category><![CDATA[案例分析]]></category>
+            <category><![CDATA[case study]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
         </item>
@@ -1002,7 +1000,7 @@
             <guid isPermaLink="false">https://liang.world/en/post/yi-character-creation</guid>
             <category><![CDATA[language]]></category>
             <category><![CDATA[AI]]></category>
-            <category><![CDATA[character creation (造字)]]></category>
+            <category><![CDATA[character creation]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -1038,7 +1036,7 @@
             <guid isPermaLink="false">https://liang.world/en/post/hilberts-tenth-problem-overview</guid>
             <category><![CDATA[Hilbert]]></category>
             <category><![CDATA[mathematics]]></category>
-            <category><![CDATA[不可判定性]]></category>
+            <category><![CDATA[undecidability]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
         </item>
@@ -1096,7 +1094,7 @@
             <link>https://liang.world/en/post/syllogism-logic</link>
             <guid isPermaLink="false">https://liang.world/en/post/syllogism-logic</guid>
             <category><![CDATA[logic]]></category>
-            <category><![CDATA[三段论]]></category>
+            <category><![CDATA[syllogism]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1149,14 +1147,14 @@
             <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[目光如炬，而非大海捞针：深度解读 DeepSeek-V3.2-Exp 与稀疏注意力革命]]></title>
-            <description><![CDATA[深度拆解 DeepSeek-V3.2-Exp 的 DSA 技术：如何用"闪电索引器"打破大模型长上下文的 O(L²) 二次复杂度魔咒，实现性能无损下的效率跃升。
+            <title><![CDATA[Eyes Like Torches, Not a Needle in a Haystack: A Deep Dive into DeepSeek-V3.2-Exp and the Sparse Attention Revolution]]></title>
+            <description><![CDATA[A thorough breakdown of DeepSeek-V3.2-Exp's DSA technology: how to break the O(L²) quadratic complexity curse of long-context large models with a "lightning indexer," achieving efficiency leaps without performance loss.
 ]]></description>
             <link>https://liang.world/en/post/deepseek-v3-2-exp-sparse-attention-revolution</link>
             <guid isPermaLink="false">https://liang.world/en/post/deepseek-v3-2-exp-sparse-attention-revolution</guid>
             <category><![CDATA[DeepSeek]]></category>
-            <category><![CDATA[稀疏注意力]]></category>
-            <category><![CDATA[架构]]></category>
+            <category><![CDATA[Sparse Attention]]></category>
+            <category><![CDATA[architecture]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate>
         </item>
@@ -1218,20 +1216,20 @@
             <link>https://liang.world/en/post/logic-basics</link>
             <guid isPermaLink="false">https://liang.world/en/post/logic-basics</guid>
             <category><![CDATA[logic]]></category>
-            <category><![CDATA[入门]]></category>
+            <category><![CDATA[introduction]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 22 May 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[架构师的白板：从C2C到AGI，深度复盘DeepSeek Scaling Law背后的极致务实]]></title>
-            <description><![CDATA[从2012年阿里巴巴B2B私有化的架构挑战出发，深度复盘DeepSeek LLM论文中的长期主义与极致务实，探讨通往AGI的Scaling Law规律与方法论。
+            <title><![CDATA[The Architect's Whiteboard: From C2C to AGI, A Deep Retrospective on the Extreme Pragmatism Behind DeepSeek's Scaling Law]]></title>
+            <description><![CDATA[Starting from the architectural challenges of Alibaba B2B's privatization in 2012, a deep retrospective on the long-termism and extreme pragmatism in DeepSeek's LLM papers, exploring the Scaling Law principles and methodology on the path to AGI.
 ]]></description>
             <link>https://liang.world/en/post/architect-whiteboard-deepseek-scaling-law</link>
             <guid isPermaLink="false">https://liang.world/en/post/architect-whiteboard-deepseek-scaling-law</guid>
             <category><![CDATA[DeepSeek]]></category>
             <category><![CDATA[Scaling Law]]></category>
             <category><![CDATA[AGI]]></category>
-            <category><![CDATA[架构]]></category>
+            <category><![CDATA[architecture]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
         </item>
@@ -1241,9 +1239,9 @@
 ]]></description>
             <link>https://liang.world/en/post/hello-world</link>
             <guid isPermaLink="false">https://liang.world/en/post/hello-world</guid>
-            <category><![CDATA[开篇]]></category>
+            <category><![CDATA[opening]]></category>
             <category><![CDATA[philosophy]]></category>
-            <category><![CDATA[博客]]></category>
+            <category><![CDATA[blog]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
         </item>

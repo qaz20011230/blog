@@ -1,5 +1,5 @@
 ---
-title: 北辰七德：我为自己选择的星空坐标
+title: "The Polaris Seven Virtues: The Stellar Coordinates I Chose for Myself"
 date: '2026-03-08'
 category: Philosophy
 tags:
@@ -7,7 +7,7 @@ tags:
   - philosophy
   - ethics
 description: >
-  我为自己选择的七个生命坐标：智慧、仁爱、勇敢、节制、公正、诚信、超越。这是一份关于如何以清醒、负责的态度，度过此生的实践宣言。
+  The seven life coordinates I chose for myself: wisdom, benevolence, courage, temperance, justice, integrity, transcendence. A practical manifesto on how to live this life with clarity and responsibility.
 ---
 
 > I dedicate this essay to the version of myself who chose to take the stars as coordinates and virtue as foundation.

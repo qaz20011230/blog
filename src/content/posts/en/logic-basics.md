@@ -4,7 +4,7 @@ date: '2024-05-22'
 category: Mathematics & Logic
 tags:
   - logic
-  - 入门
+  - introduction
 description: >
   An introduction to formal logic: propositions, syllogisms, and the fundamental tools of rational thought.
 ---

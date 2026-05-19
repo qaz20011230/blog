@@ -29,6 +29,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/about"/>
   </url>
   <url>
+    <loc>https://liang.world/post/颜值这件小事——关于容貌教养与人生底气的长谈</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/颜值这件小事——关于容貌教养与人生底气的长谈"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/颜值这件小事——关于容貌教养与人生底气的长谈"/>
+  </url>
+  <url>
+    <loc>https://liang.world/post/非同凡想——异常宣言</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/非同凡想——异常宣言"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/非同凡想——异常宣言"/>
+  </url>
+  <url>
     <loc>https://liang.world/post/逐日盗火：通往商用可控核聚变</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -383,6 +397,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/prompt-engineering-quick-start"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/prompt-engineering-quick-start"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/prompt-engineering-quick-start"/>
+  </url>
+  <url>
+    <loc>https://liang.world/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/prometheus-fire-controlled-nuclear-fusion-review-2024-2026"/>
   </url>
   <url>
     <loc>https://liang.world/post/project-based-productivity</loc>

@@ -7,7 +7,7 @@ tags:
   - mathematics
   - methodology
 description: >
-  This article is addressed to researchers in mathematics and computer science, aiming to clarify in technical language the methodological内核, engineering architecture, and milestone deliverables of the Phaenarete Project. We will focus on three questions: what we are doing, why we are doing it now, and how we judge whether we have succeeded.
+This article is addressed to researchers in mathematics and computer science, aiming to clarify in technical language the methodological core, engineering architecture, and milestone deliverables of the Phaenarete Project. We will focus on three questions: what we are doing, why we are doing it now, and how we judge whether we have succeeded.
 ---
 
 ## Preface

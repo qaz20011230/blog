@@ -8,7 +8,7 @@ tags:
   - AGI
   - mathematics
 description: >
-  Greatness speaks for itself. We will create an ASI for the Gaokao (高考) mathematics exam. A deep dissection of how the Xanthippe architecture achieves logical necessity and perfect scores through million-token context and full-paper self-verification flywheels on 7B parameters.
+  Greatness speaks for itself. We will create an ASI for the Gaokao mathematics exam. A deep dissection of how the Xanthippe architecture achieves logical necessity and perfect scores through million-token context and full-paper self-verification flywheels on 7B parameters.
 ---
 
 ## Prologue · Three Incompletions

@@ -5,7 +5,7 @@ category: "Mathematics & Logic"
 tags:
   - Hilbert
   - mathematics
-  - 不可判定性
+  - undecidability
 description: >
   A Complete Chronicle, Modern Proofs, and the Open Frontier: From the Entscheidungsproblem to the Undecidability of All Finitely Generated Rings.
 ---

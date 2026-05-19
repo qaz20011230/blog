@@ -1,13 +1,13 @@
 ---
-title: 目光如炬，而非大海捞针：深度解读 DeepSeek-V3.2-Exp 与稀疏注意力革命
+title: "Eyes Like Torches, Not a Needle in a Haystack: A Deep Dive into DeepSeek-V3.2-Exp and the Sparse Attention Revolution"
 date: '2025-09-30'
 category: AI & Technology
 tags:
   - DeepSeek
-  - 稀疏注意力
-  - 架构
+  - Sparse Attention
+  - architecture
 description: >
-  深度拆解 DeepSeek-V3.2-Exp 的 DSA 技术：如何用"闪电索引器"打破大模型长上下文的 O(L²) 二次复杂度魔咒，实现性能无损下的效率跃升。
+  A thorough breakdown of DeepSeek-V3.2-Exp's DSA technology: how to break the O(L²) quadratic complexity curse of long-context large models with a "lightning indexer," achieving efficiency leaps without performance loss.
 ---
 
 As history turns the page on 2025, competition in the large language model field has entered a fundamentally new dimension. In this era, a model's intelligence no longer depends solely on parameter scale or inference depth, but on a more essential capability—**how to precisely capture, from an ocean of information, that one droplet of knowledge pertaining to truth.** This is the core proposition of long-context understanding, and the chasm that must be bridged on the path toward artificial general intelligence.

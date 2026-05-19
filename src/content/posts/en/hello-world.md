@@ -3,9 +3,9 @@ title: "Hello, World — Opening Liang's World in Cyberspace"
 date: '2020-01-01'
 category: Philosophy
 tags:
-  - 开篇
+  - opening
   - philosophy
-  - 博客
+  - blog
 description: >
   The first post marking the birth of a digital garden where philosophy, psychoanalysis, and business logic converge.
 ---

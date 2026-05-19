@@ -1,13 +1,13 @@
 ---
-title: 提示词工程快速入门：小瑶的七天学习笔记
+title: "Prompt Engineering Quick Start: Xiaoyao's Seven-Day Study Notes"
 date: '2026-03-09'
 category: AI & Technology
 tags:
-  - 提示词工程
-  - 入门
+  - Prompt Engineering
+  - introduction
   - AI
 description: >
-  从词源到实战，用七天掌握七个最实用的提示词框架（CLEAR, ART, RICE, PAIR, SCAMPER, PESTEL, LIGHT）。这是一份给大一新生小瑶的入门指南，也是给所有希望驾驭AI的人的思维工具箱。
+  From etymology to hands-on practice, master seven of the most practical prompt frameworks (CLEAR, ART, RICE, PAIR, SCAMPER, PESTEL, LIGHT) in seven days. An introductory guide for freshman Xiaoyao and a thinking toolkit for everyone who wants to harness AI.
 ---
 
 > *"Prompt the actor, and the play unfolds; prompt the mind, and wisdom speaks."*
