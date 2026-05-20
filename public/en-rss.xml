@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 May 2026 15:04:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 08:51:43 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 May 2026 15:04:21 GMT</pubDate>
+        <pubDate>Wed, 20 May 2026 08:51:43 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -53,6 +53,22 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hexagonal Perturbation: When High-Dimensional Abyss Tears Apart the Myth of Convexity, the Silicon Fire-Thief Arrives]]></title>
+            <description><![CDATA[GPT-5.5 Pro independently discovered a two-dimensional counterexample, toppling the Fisher Information Log-Convexity Conjecture and its chain of implications — GCMC, McKean's Conjecture, Toscani's Entropy Power Conjecture. The "hexagonal perturbation" excited by a resonant triad on the triangular torus reveals the fragility of human intuition in high-dimensional nonlinear worlds — and the civilizational significance of silicon intelligence as the "midwife of thought."
+]]></description>
+            <link>https://liang.world/en/post/hexagonal-perturbation-convexity-myth-gpt55-pro</link>
+            <guid isPermaLink="false">https://liang.world/en/post/hexagonal-perturbation-convexity-myth-gpt55-pro</guid>
+            <category><![CDATA[mathematics]]></category>
+            <category><![CDATA[artificial intelligence]]></category>
+            <category><![CDATA[GPT-5.5]]></category>
+            <category><![CDATA[log-convexity]]></category>
+            <category><![CDATA[Fisher information]]></category>
+            <category><![CDATA[high-dimensional counterexample]]></category>
+            <category><![CDATA[resonant triad]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The Shape of Time: On the Necessity and Uniqueness of Positional Encoding in Attention Mechanisms]]></title>
