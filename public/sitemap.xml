@@ -199,6 +199,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/tolerate-let-be-hanshan-stoic-practice"/>
   </url>
   <url>
+    <loc>https://liang.world/post/thought-midwifes-cafe-philosophical-facilitation-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/thought-midwifes-cafe-philosophical-facilitation-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/thought-midwifes-cafe-philosophical-facilitation-guide"/>
+  </url>
+  <url>
     <loc>https://liang.world/post/thinkers-content-startup-clear-light</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -293,6 +300,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/song-of-primes-riemann-hypothesis-history-frontier-future"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/song-of-primes-riemann-hypothesis-history-frontier-future"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/song-of-primes-riemann-hypothesis-history-frontier-future"/>
+  </url>
+  <url>
+    <loc>https://liang.world/post/shape-of-time-positional-encoding-necessity-uniqueness</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/shape-of-time-positional-encoding-necessity-uniqueness"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/shape-of-time-positional-encoding-necessity-uniqueness"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/shape-of-time-positional-encoding-necessity-uniqueness"/>
   </url>
   <url>
     <loc>https://liang.world/post/seven-virtues-of-the-north-star</loc>
@@ -479,6 +494,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/on-criticism"/>
   </url>
   <url>
+    <loc>https://liang.world/post/nuclear-knowledge-holographic-map-first-principles-to-fusion-frontier</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/nuclear-knowledge-holographic-map-first-principles-to-fusion-frontier"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/nuclear-knowledge-holographic-map-first-principles-to-fusion-frontier"/>
+  </url>
+  <url>
     <loc>https://liang.world/post/nexus-relational-dynamics-three-foundations</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -605,6 +627,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/hilberts-tenth-problem-complete-chronicle"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/hilberts-tenth-problem-complete-chronicle"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/hilberts-tenth-problem-complete-chronicle"/>
+  </url>
+  <url>
+    <loc>https://liang.world/post/hexagonal-perturbation-convexity-myth-gpt55-pro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/hexagonal-perturbation-convexity-myth-gpt55-pro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/hexagonal-perturbation-convexity-myth-gpt55-pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/hexagonal-perturbation-convexity-myth-gpt55-pro"/>
   </url>
   <url>
     <loc>https://liang.world/post/hello-world</loc>

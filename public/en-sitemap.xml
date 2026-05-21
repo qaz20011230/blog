@@ -261,6 +261,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/song-of-primes-riemann-hypothesis-history-frontier-future"/>
   </url>
   <url>
+    <loc>https://liang.world/en/post/shape-of-time-positional-encoding-necessity-uniqueness</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/shape-of-time-positional-encoding-necessity-uniqueness"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/shape-of-time-positional-encoding-necessity-uniqueness"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/shape-of-time-positional-encoding-necessity-uniqueness"/>
+  </url>
+  <url>
     <loc>https://liang.world/en/post/seven-virtues-of-the-north-star</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -571,6 +579,14 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/hilberts-tenth-problem-complete-chronicle"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/hilberts-tenth-problem-complete-chronicle"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/hilberts-tenth-problem-complete-chronicle"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/hexagonal-perturbation-convexity-myth-gpt55-pro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/hexagonal-perturbation-convexity-myth-gpt55-pro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/hexagonal-perturbation-convexity-myth-gpt55-pro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/hexagonal-perturbation-convexity-myth-gpt55-pro"/>
   </url>
   <url>
     <loc>https://liang.world/en/post/hello-world</loc>
