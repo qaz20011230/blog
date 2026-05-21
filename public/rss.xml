@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 21 May 2026 05:01:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 10:11:03 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 21 May 2026 05:01:07 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 10:11:03 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -82,6 +82,21 @@
             <category><![CDATA[Fisher信息]]></category>
             <category><![CDATA[高维反例]]></category>
             <category><![CDATA[共振三元组]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[思想助产士的咖啡馆：一份哲学建导指南]]></title>
+            <description><![CDATA[从1992年巴黎巴士底广场旁的哲学咖啡馆说起，融合马里诺夫PEACE流程、柏尼菲苏格拉底提问、菲利普斯民主建导与哈特洛哲学漫步四大流派，提供一套可操作的哲学对话建导指南。思想助产士的使命：把哲学还给每一个人。
+]]></description>
+            <link>https://liang.world/post/thought-midwifes-cafe-philosophical-facilitation-guide</link>
+            <guid isPermaLink="false">https://liang.world/post/thought-midwifes-cafe-philosophical-facilitation-guide</guid>
+            <category><![CDATA[哲学践行]]></category>
+            <category><![CDATA[苏格拉底对话]]></category>
+            <category><![CDATA[哲学咖啡馆]]></category>
+            <category><![CDATA[建导]]></category>
+            <category><![CDATA[思想助产士]]></category>
+            <category><![CDATA[PEACE流程]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
         </item>
