@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 20 May 2026 08:51:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 04:50:54 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 May 2026 08:51:43 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 04:50:54 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -24,6 +24,22 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
+        <item>
+            <title><![CDATA[核研究知识体系全息图谱：从第一性原理到聚变工程前沿]]></title>
+            <description><![CDATA[一份完整的核聚变研究知识图谱：从普通物理和数学工具出发，穿越原子核物理、中子物理、反应堆热工水力、辐射防护、等离子体物理与磁约束聚变原理，抵达AI for Fusion、全球聚变装置与产业链前沿。献给所有跨专业考研核科学与技术的有志青年。
+]]></description>
+            <link>https://liang.world/post/nuclear-knowledge-holographic-map-first-principles-to-fusion-frontier</link>
+            <guid isPermaLink="false">https://liang.world/post/nuclear-knowledge-holographic-map-first-principles-to-fusion-frontier</guid>
+            <category><![CDATA[核聚变]]></category>
+            <category><![CDATA[等离子体物理]]></category>
+            <category><![CDATA[托卡马克]]></category>
+            <category><![CDATA[学科图谱]]></category>
+            <category><![CDATA[AI4Fusion]]></category>
+            <category><![CDATA[反应堆物理]]></category>
+            <category><![CDATA[热工水力]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[普罗米修斯之火：可控核聚变从物理可行到工程实现的跨越]]></title>
             <description><![CDATA[2024–2026全球聚变综述：EAST实现1066秒高约束模运行，NIF十次点火最高Q=4.13，新烛时代AI for Fusion获6000万天使融资，SPARC首块HTS磁体就位。六条临界路径评估——普罗米修斯之火何时由中国人亲手点燃？
