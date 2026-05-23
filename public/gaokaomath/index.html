@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Phaenarete AI · 赞希佩 | 可证明逻辑正确的AI数学辅导</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background-color: #ffffff; color: #1e1e2a; line-height: 1.5; scroll-behavior: smooth; }
+        .container { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+        .navbar { padding: 28px 0 20px; border-bottom: 1px solid #f0f0f0; position: sticky; top: 0; background: rgba(255,255,255,0.96); backdrop-filter: blur(4px); z-index: 100; }
+        .nav-inner { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 16px; }
+        .logo h1 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; }
+        .logo .en { font-size: 0.9rem; font-weight: 400; color: #666; margin-top: 4px; }
+        .logo a { text-decoration: none; color: #1e1e2a; }
+        .nav-links { display: flex; gap: 32px; font-weight: 500; }
+        .nav-links a { text-decoration: none; color: #2c2c38; font-size: 0.95rem; transition: color 0.2s; }
+        .nav-links a:hover { color: #D4AF37; }
+        section { padding: 80px 0; border-bottom: 1px solid #f0f0f0; }
+        .section-title { font-size: 2rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 16px; }
+        .section-sub { font-size: 1.1rem; color: #5a5a6e; max-width: 720px; margin-bottom: 48px; }
+        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 48px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+        .card { background: #fff; border-radius: 20px; padding: 0; }
+        .card h3 { font-size: 1.4rem; font-weight: 600; margin-bottom: 12px; }
+        .card p { color: #4a4a5a; font-size: 0.95rem; line-height: 1.5; }
+        .tech-tag { color: #D4AF37; font-weight: 500; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .btn { display: inline-block; padding: 12px 28px; border-radius: 40px; text-decoration: none; font-weight: 500; transition: all 0.2s; font-size: 0.95rem; }
+        .btn-primary { background-color: #1e1e2a; color: white; border: 1px solid #1e1e2a; }
+        .btn-primary:hover { background-color: #D4AF37; border-color: #D4AF37; color: #1e1e2a; }
+        .btn-outline { background: transparent; border: 1px solid #d4d4e0; color: #2c2c38; }
+        .btn-outline:hover { border-color: #D4AF37; color: #D4AF37; }
+        .hero { padding: 60px 0 80px; }
+        .hero h1 { font-size: 3.2rem; font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; max-width: 800px; margin-bottom: 24px; }
+        .hero .gold { color: #D4AF37; }
+        .hero p { font-size: 1.2rem; color: #5a5a6e; max-width: 640px; margin-bottom: 40px; }
+        .hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; }
+        .quote { background: #fafafc; border-radius: 24px; padding: 32px; margin: 40px 0 0; border-left: 4px solid #D4AF37; }
+        footer { padding: 48px 0 64px; background: #fbfbfd; color: #6c6c7a; font-size: 0.85rem; }
+        .footer-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px; }
+        .footer-copyright { margin-top: 48px; padding-top: 24px; border-top: 1px solid #eaeef2; text-align: center; }
+        @media (max-width: 800px) {
+            .container { padding: 0 24px; }
+            .grid-2, .grid-3 { grid-template-columns: 1fr; gap: 32px; }
+            .hero h1 { font-size: 2.2rem; }
+            .section-title { font-size: 1.8rem; }
+            .navbar { padding: 20px 0; }
+            .nav-links { gap: 20px; flex-wrap: wrap; }
+        }
+        .badge-patent { background: #f0f0f0; padding: 2px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 500; color: #1e1e2a; display: inline-block; }
+        .timeline { display: flex; flex-direction: column; gap: 24px; }
+        .timeline-item { display: flex; gap: 20px; border-left: 2px solid #e0e0e8; padding-left: 24px; position: relative; }
+        .timeline-year { font-weight: 700; color: #D4AF37; min-width: 80px; }
+        a { color: inherit; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <div class="logo">
+                <a href="#home"><h1>Phaenarete AI</h1></a>
+                <div class="en">广州菲娜睿特人工智能科技有限责任公司</div>
+            </div>
+            <div class="nav-links">
+                <a href="#project">项目</a>
+                <a href="#tech">技术</a>
+                <a href="#roadmap">路线图</a>
+                <a href="#team">团队</a>
+                <a href="#join">加入</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>第一个可证明逻辑正确的<br><span class="gold">AI数学辅导系统</span></h1>
+                <p>赞希佩 (Xanthippe) · Tendre认知架构 —— 广度 · 深度 · 刚性<br>2027年高考数学满分承诺，从每一步推理的刚性验证开始。</p>
+                <div class="hero-buttons">
+                    <a href="#project" class="btn btn-primary">了解项目</a>
+                    <a href="#join" class="btn btn-outline">申请内测</a>
+                </div>
+                <div class="quote">
+                    <p style="font-style: italic; margin-bottom: 8px;">"认知从来是广度、深度与刚性的统一运动；割裂三者，就不可能创造出真正的知识。"</p>
+                    <p style="font-size: 0.85rem;">——《Tendre Is All We Want》白皮书</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project">
+            <div class="container">
+                <h2 class="section-title">关于赞希佩</h2>
+                <div class="grid-2">
+                    <div>
+                        <p style="margin-bottom: 16px;"><strong>命名哲学</strong> —— Xanthippe（赞希佩），苏格拉底之妻，哲学史上以"尖锐追问"著称。我们的系统继承这份诘问精神：每一步推理都向自己提问——你凭什么说这一步是正确的？</p>
+                        <p style="margin-bottom: 16px;">传统大模型停留在"能指"平面，依赖统计共现，即使答案正确也可能是盖梯尔式的运气。赞希佩通过<span class="gold">Tendre三维架构</span>实现逻辑必然性：</p>
+                        <ul style="margin-left: 20px; color: #4a4a5a;">
+                            <li><strong>Attention (广度)</strong> —— 全概念空间信息交换</li>
+                            <li><strong>Intention (深度)</strong> —— 目标导向推理门控</li>
+                            <li><strong>Tension (刚性)</strong> —— 不可学习的逻辑约束检查</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 16px;">2027年6月，赞希佩将同步参与高考数学并公开直播满分验证，成为全球首个对数学命题声称"知识"（得到充分证成的真信念）的AI系统。</p>
+                        <p><span class="badge-patent">发明专利（申请中）</span> <span class="badge-patent" style="margin-left: 8px;">Tension刚性约束层</span> <span class="badge-patent">概念分割方法</span></p>
+                        <p style="margin-top: 20px;">我们已提交核心发明专利，覆盖基于逻辑约束的数学推理验证方法与动态概念分割技术。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tech">
+            <div class="container">
+                <h2 class="section-title">技术壁垒 · 算法密度</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="tech-tag">Tension 刚性层</div>
+                        <h3>逻辑必然性的具身</h3>
+                        <p>硬约束规则处理器：等价保持性、条件保真性、分支完备性检查。每一步操作后强制执行验证，阻断违规推理，彻底杜绝"统计运气"。</p>
+                    </div>
+                    <div class="card">
+                        <div class="tech-tag">概念分割 + DLCM</div>
+                        <h3>从能指到所指的跃迁</h3>
+                        <p>基于动态大概念模型的六类概念节点（知识/方法/操作/条件/验证/易错），将符号序列提升为结构化逻辑单元，实现所指空间的深度推理。</p>
+                    </div>
+                    <div class="card">
+                        <div class="tech-tag">形式化数学 + 知识图谱</div>
+                        <h3>可验证的知识库</h3>
+                        <p>依托Lean 4及高考数学知识图谱（632个核心知识点，600+规则库），结合Gaokao-Formal等基准，构建可机器验证的推理底座。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap">
+            <div class="container">
+                <h2 class="section-title">从原型到满分</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2026 Q3–Q4</div>
+                        <div><strong>产品原型完成</strong> – 在50道高考真题上实现100%正确率测试检测，种子用户内测启动，种子轮融资到位。</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2027 Q1–Q2</div>
+                        <div><strong>全系统集成冲刺</strong> – 首席数学家全职加盟，规则库扩展至全高考知识点，概念分割器完成训练。</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2027.06</div>
+                        <div><span style="background:#D4AF37; padding:0 6px; border-radius:12px; font-weight:600;">奇点时刻</span> – 高考当日同步解题，满分直播宣发，品牌信任跃迁，C端/B端市场全面打开。</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2028+</div>
+                        <div>C端订阅服务（29元/月，299元/年）及B端学校/教培授权，技术授权与教育硬件生态合作，构建AI数学教育新标准。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="container">
+                <h2 class="section-title">核心团队</h2>
+                <div class="grid-2" style="margin-bottom: 24px;">
+                    <div>
+                        <h3>Ang Li (LeoZ) · 创始人/CEO</h3>
+                        <p>爱丁堡大学语言学博士，Tendre架构原创者。跨学科整合语言学、逻辑学与管理科学，提出"广度-深度-刚性"认知三维度，白皮书《Tendre Is All We Want》唯一作者。</p>
+                    </div>
+                    <div>
+                        <h3>吴冶默 · 首席数学家</h3>
+                        <p>中国科学技术大学基础数学博士，6篇SCI论文，全国高中数学联赛一等奖保送。负责代数结构等价性验证与形式化证明方法论。</p>
+                    </div>
+                    <div>
+                        <h3>学术顾问</h3>
+                        <p>刘建亚院士、孙斌勇院士、张益唐教授。为项目提供数学方向性指导与学术公信力支持。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join">
+            <div class="container">
+                <h2 class="section-title">参与赞希佩</h2>
+                <div class="grid-2">
+                    <div>
+                        <h3>种子用户内测</h3>
+                        <p>优先面向2027届高三学生及数学教师，免费体验"逻辑审计式"解题，您的反馈将直接影响产品迭代。</p>
+                        <a href="#" style="display: inline-block; margin-top: 16px; background: #f0f0f0; padding: 8px 20px; border-radius: 30px; text-decoration: none; color:#1e1e2a;">提交申请 →</a>
+                        <p style="margin-top: 24px; font-size: 0.85rem; color:#666;">内测表单即将开放，抢先登记：contact@liang.world</p>
+                    </div>
+                    <div>
+                        <h3>人才 + 投资合作</h3>
+                        <p>招聘岗位：算法工程师（数学推理方向）、Lean形式化专家、数据标注运营。早期投资人通道同步开启，种子轮融资进行中，详情可联系。</p>
+                        <p style="margin-top: 16px;"><span class="badge-patent">contact@liang.world</span><span class="badge-patent" style="margin-left: 8px;">签署NDA获取白皮书</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="container">
+                <h2 class="section-title">新闻 · 洞察</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="tech-tag">2026.05</div>
+                        <h3>白皮书Tendre Is All We Want发布</h3>
+                        <p>系统性阐述赞希佩的认知架构与存在性定理，提出稳定满分系统的三必要条件，引起AI教育界广泛讨论。</p>
+                    </div>
+                    <div class="card">
+                        <div class="tech-tag">2026.04</div>
+                        <h3>首席数学家团队加入</h3>
+                        <p>王皓白博士与吴冶默博士确认意向，将主导高考数学知识图谱与Tension规则库建设，进一步强化数学内容权威性。</p>
+                    </div>
+                    <div class="card">
+                        <div class="tech-tag">2026.03</div>
+                        <h3>形式化数学基准合作</h3>
+                        <p>基于Gaokao-Formal数据集，推进高考证明题Lean 4形式化，并与Lean Workbook Plus社区深度对接，夯实推理数据底座。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 style="font-size:1.2rem; margin-bottom:8px;">Phaenarete AI</h3>
+                    <p>广州菲娜睿特人工智能科技有限责任公司</p>
+                </div>
+                <div>
+                    <p>contact@liang.world</p>
+                    <p>GitHub · 知乎 · B站 (即将上线)</p>
+                    <p>投资/合作：contact@liang.world</p>
+                </div>
+                <div>
+                    <p>© 2026 广州菲娜睿特人工智能科技有限责任公司</p>
+                    <p style="margin-top: 8px;">品牌 · Xanthippe 赞希佩 | Tendre is All We Want</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p style="font-size:0.75rem;">首个承诺高考数学稳定满分并公开验证的AI认知系统。我们不是在模拟智能，而是在建造可审计的知识架构。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-links a, .btn-primary, .btn-outline').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const hash = this.getAttribute('href');
+                if (hash && hash.startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(hash);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+        const applyBtn = document.querySelector('#join .btn-outline');
+        if(applyBtn) {
+            applyBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                alert('内测申请通道即将开放，敬请期待。您也可发送邮件至 contact@liang.world 提前登记。');
+            });
+        }
+        const heroApply = document.querySelector('.hero-buttons .btn-outline');
+        if(heroApply) {
+            heroApply.addEventListener('click', (e) => {
+                e.preventDefault();
+                alert('内测申请开放中，欢迎联系 contact@liang.world 获取优先资格。');
+            });
+        }
+    </script>
+</body>
+</html>
