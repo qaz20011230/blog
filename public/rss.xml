@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 May 2026 03:48:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 May 2026 20:48:06 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 25 May 2026 03:48:51 GMT</pubDate>
+        <pubDate>Mon, 25 May 2026 20:48:06 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -99,10 +99,24 @@
             <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[颜值这件小事：关于容貌、教养与人生底气的长谈]]></title>
+            <description><![CDATA[用康德"澄清前提、划定界限"的方法拆解容貌焦虑——美貌溢价只在低门槛领域生效，施害者找的从不是"好看的"而是"没人保护的"，缺爱的孩子才会在恋爱里溺水。真正的底气来自一个随时可以回去的家，和一个比外貌更坚实的内在。
+]]></description>
+            <link>https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life</link>
+            <guid isPermaLink="false">https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life</guid>
+            <category><![CDATA[教育]]></category>
+            <category><![CDATA[亲子关系]]></category>
+            <category><![CDATA[容貌焦虑]]></category>
+            <category><![CDATA[安全感]]></category>
+            <category><![CDATA[内在修养]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学]]></title>
             <description><![CDATA[阿里巴巴前CTO李昂二十年架构实战回忆录：从Doris分布式存储到Baza缓存框架，拆解数据/计算/链路三重冗余哲学，揭示大规模系统中"可靠性"与"成本"的平衡艺术。]]></description>
-            <link>https://liang.world/post/冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学</link>
-            <guid isPermaLink="false">https://liang.world/post/冗余的艺术——从Doris到Baza，大规模系统架构的取舍哲学</guid>
+            <link>https://liang.world/post/art-of-redundancy-from-doris-to-baza</link>
+            <guid isPermaLink="false">https://liang.world/post/art-of-redundancy-from-doris-to-baza</guid>
             <category><![CDATA[系统架构]]></category>
             <category><![CDATA[分布式系统]]></category>
             <category><![CDATA[Doris]]></category>
@@ -119,8 +133,8 @@
             <title><![CDATA[此在的志业：致择业时代的不易青年]]></title>
             <description><![CDATA[1835年马克思的中学作文、2007年浙大讲堂的五百名学生、2026年AI替代浪潮——跨越近两个世纪，用海德格尔的现象学重新回答同一个问题：什么样的职业值得你从事一生？不是注意力经济下的“最好”，而是信任经济中的“合适”——那是此在在世的方式。
 ]]></description>
-            <link>https://liang.world/post/此在的志业——致择业时代的不易青年</link>
-            <guid isPermaLink="false">https://liang.world/post/此在的志业——致择业时代的不易青年</guid>
+            <link>https://liang.world/post/daseins-vocation-for-young-people-in-the-age-of-choosing</link>
+            <guid isPermaLink="false">https://liang.world/post/daseins-vocation-for-young-people-in-the-age-of-choosing</guid>
             <category><![CDATA[职业选择]]></category>
             <category><![CDATA[马克思]]></category>
             <category><![CDATA[海德格尔]]></category>
@@ -133,8 +147,8 @@
             <title><![CDATA[非同凡想："异常"宣言]]></title>
             <description><![CDATA[四年管理学教育后对管理学的系统背叛。融合福柯的规训权力、海德格尔的"常人"诊断、列维纳斯的面容伦理、韩炳哲的倦怠社会、维特根斯坦的语言游戏——拆解"正常"如何成为最精致的权力装置，宣告一种绝不正常的存在方式。
 ]]></description>
-            <link>https://liang.world/post/非同凡想——异常宣言</link>
-            <guid isPermaLink="false">https://liang.world/post/非同凡想——异常宣言</guid>
+            <link>https://liang.world/post/think-different-manifesto-for-the-abnormal</link>
+            <guid isPermaLink="false">https://liang.world/post/think-different-manifesto-for-the-abnormal</guid>
             <category><![CDATA[福柯]]></category>
             <category><![CDATA[海德格尔]]></category>
             <category><![CDATA[列维纳斯]]></category>
@@ -147,24 +161,24 @@
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[颜值这件小事：关于容貌、教养与人生底气的长谈]]></title>
-            <description><![CDATA[用康德"澄清前提、划定界限"的方法拆解容貌焦虑——美貌溢价只在低门槛领域生效，施害者找的从不是"好看的"而是"没人保护的"，缺爱的孩子才会在恋爱里溺水。真正的底气来自一个随时可以回去的家，和一个比外貌更坚实的内在。
-]]></description>
-            <link>https://liang.world/post/颜值这件小事——关于容貌教养与人生底气的长谈</link>
-            <guid isPermaLink="false">https://liang.world/post/颜值这件小事——关于容貌教养与人生底气的长谈</guid>
-            <category><![CDATA[教育]]></category>
-            <category><![CDATA[亲子关系]]></category>
-            <category><![CDATA[容貌焦虑]]></category>
-            <category><![CDATA[安全感]]></category>
-            <category><![CDATA[内在修养]]></category>
+            <title><![CDATA[逐日盗火：通往商用可控核聚变]]></title>
+            <description><![CDATA[为有志于商用可控核聚变的研究生，绘制一份从入门到精通的完整文献地图——从Jackson电动力学到CFEDR集成设计，从Grad-Shafranov方程到AI驱动聚变控制。]]></description>
+            <link>https://liang.world/post/chasing-sun-stealing-fire-road-to-commercial-fusion</link>
+            <guid isPermaLink="false">https://liang.world/post/chasing-sun-stealing-fire-road-to-commercial-fusion</guid>
+            <category><![CDATA[核聚变]]></category>
+            <category><![CDATA[等离子体物理]]></category>
+            <category><![CDATA[文献综述]]></category>
+            <category><![CDATA[能源]]></category>
+            <category><![CDATA[托卡马克]]></category>
+            <category><![CDATA[AI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[光能聚合，黑核脉冲：聚变产业链全息地图]]></title>
             <description><![CDATA[将可控核聚变全产业链拆解为七个层次——从基础燃料到超导材料，从包层设备到AI控制，从资本政策到电站运营——为投资决策、企业战略与技术研发提供一张足够精细的产业地图。]]></description>
-            <link>https://liang.world/post/光能聚合，黑核脉冲：聚变产业链全息地图</link>
-            <guid isPermaLink="false">https://liang.world/post/光能聚合，黑核脉冲：聚变产业链全息地图</guid>
+            <link>https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage</link>
+            <guid isPermaLink="false">https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage</guid>
             <category><![CDATA[核聚变]]></category>
             <category><![CDATA[产业链]]></category>
             <category><![CDATA[投资]]></category>
@@ -172,20 +186,6 @@
             <category><![CDATA[超导]]></category>
             <category><![CDATA[AI]]></category>
             <category><![CDATA[氚工厂]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[逐日盗火：通往商用可控核聚变]]></title>
-            <description><![CDATA[为有志于商用可控核聚变的研究生，绘制一份从入门到精通的完整文献地图——从Jackson电动力学到CFEDR集成设计，从Grad-Shafranov方程到AI驱动聚变控制。]]></description>
-            <link>https://liang.world/post/逐日盗火：通往商用可控核聚变</link>
-            <guid isPermaLink="false">https://liang.world/post/逐日盗火：通往商用可控核聚变</guid>
-            <category><![CDATA[核聚变]]></category>
-            <category><![CDATA[等离子体物理]]></category>
-            <category><![CDATA[文献综述]]></category>
-            <category><![CDATA[能源]]></category>
-            <category><![CDATA[托卡马克]]></category>
-            <category><![CDATA[AI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
         </item>
@@ -257,23 +257,6 @@
             <category><![CDATA[安全]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[光能聚合宣言：论菲娜睿特的道路与共产主义新阶段]]></title>
-            <description><![CDATA[光能聚合，智造未来。 当人工智能与可控核聚变交汇于历史的分水岭，菲娜睿特以政治宣言的形式回答根本问题：谁掌握这些力量？为谁服务？向何处去？ 这不是商业白皮书，这是共产主义在新阶段的一份实践纲领。
-]]></description>
-            <link>https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage</link>
-            <guid isPermaLink="false">https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage</guid>
-            <category><![CDATA[共产主义]]></category>
-            <category><![CDATA[菲娜睿特]]></category>
-            <category><![CDATA[政治宣言]]></category>
-            <category><![CDATA[聚变]]></category>
-            <category><![CDATA[人工智能]]></category>
-            <category><![CDATA[北辰七德]]></category>
-            <category><![CDATA[人民企业]]></category>
-            <category><![CDATA[国际主义]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tendre is All We Want — 赞希佩V3.0的理论基础：从统计近然到逻辑必然的认知架构]]></title>

@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 May 2026 03:48:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 May 2026 20:48:06 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 25 May 2026 03:48:51 GMT</pubDate>
+        <pubDate>Mon, 25 May 2026 20:48:06 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -71,6 +71,21 @@
             <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[The Thought Midwife's Café: A Philosophical Facilitation Guide]]></title>
+            <description><![CDATA[Beginning at the Café des Phares beside Paris's Place de la Bastille in 1992, this guide weaves together Marinoff's PEACE process, Brenifier's Socratic questioning, Phillips's democratic facilitation, and Harteloh's philosophical walks, offering an actionable philosophical dialogue facilitation guide. The mission of the thought midwife: to return philosophy to everyone.
+]]></description>
+            <link>https://liang.world/en/post/thought-midwifes-cafe-philosophical-facilitation-guide</link>
+            <guid isPermaLink="false">https://liang.world/en/post/thought-midwifes-cafe-philosophical-facilitation-guide</guid>
+            <category><![CDATA[Philosophical Practice]]></category>
+            <category><![CDATA[Socratic Dialogue]]></category>
+            <category><![CDATA[Philosophical Café]]></category>
+            <category><![CDATA[Facilitation]]></category>
+            <category><![CDATA[Thought Midwife]]></category>
+            <category><![CDATA[PEACE Process]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[The Shape of Time: On the Necessity and Uniqueness of Positional Encoding in Attention Mechanisms]]></title>
             <description><![CDATA[A rigorous first-principles derivation of the mathematical boundaries of positional encoding: linearity + translation invariance + continuity → one-parameter groups → generator classification. Proving that RoPE, exponential decay, and their combinations are the "almost unique" admissible solutions. Group theory reveals that engineers are not inventing — they are discovering the shape of time locked in by mathematics itself.
 ]]></description>
@@ -95,6 +110,21 @@
             <category><![CDATA[security]]></category>
             <category><![CDATA[inner cultivation]]></category>
             <category><![CDATA[family]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Art of Redundancy — From Doris to Baza, the Trade-Off Philosophy of Large-Scale System Architecture]]></title>
+            <description><![CDATA[Former Alibaba CTO Li Ang's memoir of two decades in architecture: deconstructing the triple redundancy philosophy of data, computation, and path from Doris distributed storage to the Baza caching framework, unveiling the art of balancing reliability and cost in large-scale systems.
+]]></description>
+            <link>https://liang.world/en/post/art-of-redundancy-from-doris-to-baza</link>
+            <guid isPermaLink="false">https://liang.world/en/post/art-of-redundancy-from-doris-to-baza</guid>
+            <category><![CDATA[System Architecture]]></category>
+            <category><![CDATA[Distributed Systems]]></category>
+            <category><![CDATA[Doris]]></category>
+            <category><![CDATA[Baza]]></category>
+            <category><![CDATA[Alibaba]]></category>
+            <category><![CDATA[Redundancy]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
         </item>
@@ -128,6 +158,21 @@
             <category><![CDATA[phenomenology]]></category>
             <dc:creator><![CDATA[Ang Li]]></dc:creator>
             <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chasing the Sun, Stealing Fire: The Road to Commercial Controlled Nuclear Fusion]]></title>
+            <description><![CDATA[A complete literature roadmap — from basic to mastery — for graduate students aspiring to work on commercial controlled nuclear fusion: from Jackson's Electrodynamics to CFEDR integrated design, from the Grad-Shafranov equation to AI-driven fusion control.
+]]></description>
+            <link>https://liang.world/en/post/chasing-sun-stealing-fire-road-to-commercial-fusion</link>
+            <guid isPermaLink="false">https://liang.world/en/post/chasing-sun-stealing-fire-road-to-commercial-fusion</guid>
+            <category><![CDATA[Nuclear Fusion]]></category>
+            <category><![CDATA[Plasma Physics]]></category>
+            <category><![CDATA[Literature Review]]></category>
+            <category><![CDATA[Energy]]></category>
+            <category><![CDATA[Tokamak]]></category>
+            <category><![CDATA[AI]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Putting the Elephant in the Fridge: On Approaching the Riemann Hypothesis with Computational Methods]]></title>
