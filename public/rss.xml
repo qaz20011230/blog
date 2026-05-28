@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 May 2026 20:48:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 11:29:07 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 25 May 2026 20:48:06 GMT</pubDate>
+        <pubDate>Thu, 28 May 2026 11:29:07 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -52,6 +52,20 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[复盘力：在碎片之上重建自我的罗盘]]></title>
+            <description><![CDATA[复盘和复盘力，一字之差，天壤之别。前者是动作，后者是人格状态。从哲学咨询与AI创业出发，阐明真正的复盘力始于诚实、需要命名洁癖、指向结构改变——在AI时代，它将是人最后的护城河。
+]]></description>
+            <link>https://liang.world/post/power-of-retrospection-compass-beyond-fragments</link>
+            <guid isPermaLink="false">https://liang.world/post/power-of-retrospection-compass-beyond-fragments</guid>
+            <category><![CDATA[复盘]]></category>
+            <category><![CDATA[自我认知]]></category>
+            <category><![CDATA[哲学践行]]></category>
+            <category><![CDATA[成长]]></category>
+            <category><![CDATA[AI时代]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[六角微扰：当高维深渊撕碎凸性神话，硅基盗火者登场]]></title>
