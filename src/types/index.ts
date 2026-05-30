@@ -24,7 +24,7 @@ export const UI = {
   siteName: { zh: '良之世界', en: 'Liang.World' },
   tagline: { zh: '思想助产士的数字花园', en: 'Digital Garden of the Midwife of Thought' },
   description: {
-    zh: '良之（Ang Li）——阿里巴巴前首席技术官、爱丁堡大学语言学博士、菲娜睿特AI首席技术官。融合哲学、精神分析、语言学、AI与商业战略的深度思想世界。',
+    zh: '良之（Ang Li）——阿里巴巴前首席技术官、菲娜睿特AI首席技术官。融合哲学、精神分析、语言学、AI与商业战略的深度思想世界。',
     en: 'Ang Li (良之) — Former CTO of Alibaba Group, PhD in Linguistics from University of Edinburgh, CTO of Phaenarete AI. A world of deep thought bridging philosophy, psychoanalysis, linguistics, AI, and business strategy.',
   },
   keywords: {
@@ -68,7 +68,7 @@ export const UI = {
     email: { zh: 'contact@liang.world', en: 'contact@liang.world' },
     github: { zh: 'github.com/qaz20011230', en: 'github.com/qaz20011230' },
     bio: {
-      zh: '思想助产士。阿里巴巴前首席技术官，爱丁堡大学语言学博士。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
+      zh: '思想助产士。阿里巴巴前首席技术官。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
       en: 'Midwife of Thought. Former CTO of Alibaba Group. PhD in Linguistics, University of Edinburgh. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
     },
     career: {
@@ -92,7 +92,7 @@ export const UI = {
       heading: { zh: '教育背景', en: 'Education' },
       items: [
         {
-          degree: { zh: '语言学博士', en: 'PhD in Linguistics' },
+          degree: { zh: '语言学硕士', en: 'MA in Linguistics' },
           school: { zh: '爱丁堡大学', en: 'University of Edinburgh' },
           period: { zh: '', en: '' },
         },

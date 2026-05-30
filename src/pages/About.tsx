@@ -28,7 +28,7 @@ export default function About() {
 
   const content = {
     pageTitle: isEn ? 'About | Consultation — Liang.World' : '关于 | 哲学咨询 — 良之世界',
-    heroTitle: isEn ? 'Dr. Liangzhi · Philosophical Consultation' : '良之博士 · 咨询预约',
+    heroTitle: isEn ? 'Liangzhi · Philosophical Consultation' : '良之 · 咨询预约',
     heroSub: isEn ? 'Co-founder, Guangzhou Phaenarete AI · APPA Affiliate Member · IPP Research Assistant' : '广州菲娜睿特AI联合创始人 · APPA附属会员 · 法国哲学践行研究所研究助理',
     consultationBadge: isEn ? 'PHILOSOPHICAL PRACTICE OPEN TO THE WORLD' : '哲学践行向全世界开放',
 
@@ -64,10 +64,10 @@ export default function About() {
     bioItems: [
       isEn
         ? 'Ang Li (Liangzhi), PhD — philosophical practitioner, researcher in AI and energy technology.'
-        : '良之（Ang Li）博士，哲学践行者，人工智能与能源科技研究者。',
+        : '良之（Ang Li），哲学践行者，人工智能与能源科技研究者。',
       isEn
         ? 'PhD in Linguistics, University of Edinburgh; Bachelor of Management, Guangdong University of Technology.'
-        : '爱丁堡大学语言学博士，广东工业大学管理学学士。',
+        : '爱丁堡大学语言学硕士，广东工业大学管理学学士。',
       isEn
         ? 'Affiliate Member, American Philosophical Practitioners Association (APPA).'
         : '美国哲学从业者协会（APPA）附属会员。',
@@ -172,7 +172,7 @@ export default function About() {
     <div className="max-w-3xl mx-auto px-4 pb-16">
       <Helmet>
         <title>{content.pageTitle}</title>
-        <meta name="description" content={isEn ? 'Philosophical Consultation with Dr. Ang Li (Liangzhi). Socratic dialogue, PEACE process, Seven Virtues framework. Book online or in Guangzhou.' : '良之博士的哲学咨询：苏格拉底对话、PEACE流程、北辰七德框架。支持线上预约，广州可面询。'} />
+        <meta name="description" content={isEn ? 'Philosophical Consultation with Ang Li (Liangzhi). Socratic dialogue, PEACE process, Seven Virtues framework. Book online or in Guangzhou.' : '良之的哲学咨询：苏格拉底对话、PEACE流程、北辰七德框架。支持线上预约，广州可面询。'} />
         <meta property="og:title" content={content.pageTitle} />
         <meta property="og:type" content="profile" />
         <meta property="og:image" content="https://liang.world/favicon.jpg" />
