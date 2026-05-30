@@ -25,7 +25,7 @@ export const UI = {
   tagline: { zh: '思想助产士的数字花园', en: 'Digital Garden of the Midwife of Thought' },
   description: {
     zh: '良之（Ang Li）——阿里巴巴前首席技术官、菲娜睿特AI首席技术官。融合哲学、精神分析、语言学、AI与商业战略的深度思想世界。',
-    en: 'Ang Li (良之) — Former CTO of Alibaba Group, PhD in Linguistics from University of Edinburgh, CTO of Phaenarete AI. A world of deep thought bridging philosophy, psychoanalysis, linguistics, AI, and business strategy.',
+    en: 'Ang Li (良之) — Former CTO of Alibaba Group, CTO of Phaenarete AI. A world of deep thought bridging philosophy, psychoanalysis, linguistics, AI, and business strategy.',
   },
   keywords: {
     zh: '良之,Ang Li,阿里巴巴CTO,菲娜睿特,人工智能,哲学,精神分析,语言学,核聚变,数学,商业战略,认知科学',
@@ -63,13 +63,13 @@ export const UI = {
     name: { zh: '良之', en: 'LeoZ' },
     nameSub: { zh: 'Ang Li', en: 'Ang Li' },
     role: { zh: '阿里巴巴前首席技术官 | 菲娜睿特AI首席技术官', en: 'Former Alibaba CTO | CTO of Phaenarete AI' },
-    location: { zh: '广州 / 爱丁堡 / 杭州', en: 'Guangzhou / Edinburgh / Hangzhou' },
+    location: { zh: '广州 / 杭州', en: 'Guangzhou / Hangzhou' },
     contact: { zh: '联系方式', en: 'Contact' },
     email: { zh: 'contact@liang.world', en: 'contact@liang.world' },
     github: { zh: 'github.com/qaz20011230', en: 'github.com/qaz20011230' },
     bio: {
       zh: '思想助产士。阿里巴巴前首席技术官。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
-      en: 'Midwife of Thought. Former CTO of Alibaba Group. PhD in Linguistics, University of Edinburgh. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
+      en: 'Midwife of Thought. Former CTO of Alibaba Group. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
     },
     career: {
       heading: { zh: '职业经历', en: 'Career' },
@@ -91,11 +91,6 @@ export const UI = {
     education: {
       heading: { zh: '教育背景', en: 'Education' },
       items: [
-        {
-          degree: { zh: '语言学硕士', en: 'MA in Linguistics' },
-          school: { zh: '爱丁堡大学', en: 'University of Edinburgh' },
-          period: { zh: '', en: '' },
-        },
         {
           degree: { zh: '管理学学士', en: 'Bachelor of Management' },
           school: { zh: '广东工业大学', en: 'Guangdong University of Technology' },

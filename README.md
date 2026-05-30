@@ -19,7 +19,7 @@
 
 这里汇集了关于哲学践行、精神分析、AI 架构、数学证明、商业战略与教育理念的深度思考。全站中英双语，向 AI 代理和所有搜索引擎开放。
 
-**Liang.World** is the personal blog of Ang Li (Liangzhi). Former CTO of Alibaba Group, PhD in Linguistics from University of Edinburgh, CTO of Phaenarete AI, APPA Affiliate Member.
+**Liang.World** is the personal blog of Ang Li (Liangzhi). Former CTO of Alibaba Group, CTO of Phaenarete AI, APPA Affiliate Member.
 
 A bilingual digital garden of deep thought on philosophical practice, psychoanalysis, AI architecture, mathematical proof, business strategy, and education. Fully open to AI agents and all search engines.
 

@@ -63,11 +63,11 @@ export default function About() {
     bioLabel: isEn ? 'About the Consultant' : '咨询师简介',
     bioItems: [
       isEn
-        ? 'Ang Li (Liangzhi), PhD — philosophical practitioner, researcher in AI and energy technology.'
+        ? 'Ang Li (Liangzhi) — philosophical practitioner, researcher in AI and energy technology.'
         : '良之（Ang Li），哲学践行者，人工智能与能源科技研究者。',
       isEn
-        ? 'PhD in Linguistics, University of Edinburgh; Bachelor of Management, Guangdong University of Technology.'
-        : '爱丁堡大学语言学硕士，广东工业大学管理学学士。',
+        ? 'Bachelor of Management, Guangdong University of Technology.'
+        : '广东工业大学管理学学士。',
       isEn
         ? 'Affiliate Member, American Philosophical Practitioners Association (APPA).'
         : '美国哲学从业者协会（APPA）附属会员。',
