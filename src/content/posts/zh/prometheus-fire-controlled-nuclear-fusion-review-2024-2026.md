@@ -14,7 +14,7 @@ tags:
   - 太空聚变
 description: >
   2024–2026全球聚变综述：EAST实现1066秒高约束模运行，NIF十次点火最高Q=4.13，新烛时代AI for Fusion获6000万天使融资，SPARC首块HTS磁体就位。六条临界路径评估——普罗米修斯之火何时由中国人亲手点燃？
-pinned: true
+pinned: false
 ---
 
 **作者：** 李昂

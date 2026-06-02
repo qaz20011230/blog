@@ -14,7 +14,7 @@ tags:
   - space fusion
 description: >
   A comprehensive global fusion review covering 2024–2026: EAST achieves 1,066-second H-mode, NIF reaches Q=4.13 over ten ignitions, Xinzhu Shidai raises 60 million RMB for AI for Fusion, SPARC installs its first HTS magnet. Evaluating six critical paths — when will Prometheus' fire be kindled by Chinese hands?
-pinned: true
+pinned: false
 ---
 
 **Author:** Ang Li  

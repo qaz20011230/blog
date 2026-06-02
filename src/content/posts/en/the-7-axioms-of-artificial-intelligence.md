@@ -8,7 +8,7 @@ tags:
   - AGI
 description: >
   Restating the seven axioms of artificial intelligence in solemn and orthodox imperial edict style, establishing foundational laws for the next generation of intelligent systems from the dimensions of information-physics, intentionality, rigid boundaries, and oracle calibration.
-pinned: true
+pinned: false
 ---
 
 By the mandate of Heaven, cognition and creation follow the same law; information and physics share the same constitution. Let it be proclaimed:
