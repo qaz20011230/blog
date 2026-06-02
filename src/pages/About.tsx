@@ -196,6 +196,15 @@ export default function About() {
             {content.consultationBadge}
           </span>
         </div>
+
+        <a
+          href="/cv/Curriculum_Vitae_Ang_Li.pdf"
+          download
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 hover:border-primary/50 text-xs font-mono text-gray-400 hover:text-primary tracking-wider transition-all duration-300"
+        >
+          <ArrowRight size={12} />
+          {isEn ? 'Download CV (PDF)' : '下载简历 (PDF)'}
+        </a>
       </div>
 
       {/* Philosophy */}
