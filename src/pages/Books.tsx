@@ -5,7 +5,8 @@ import { useLanguage } from '../context/LanguageContext';
 import { UI } from '../types';
 
 const books = [
-  { id: 1, title: { zh: '我懂你', en: 'I Understand You' }, author: { zh: '良之', en: 'Ang Li' }, description: { zh: '深度洞察人性的本质与社会互动的底层逻辑。', en: 'A profound insight into the nature of humanity and the underlying logic of social interaction.' }, year: '2024', pdfUrl: '/books/wo-dong-ni.pdf' }
+  { id: 1, title: { zh: '我懂你', en: 'I Understand You' }, author: { zh: '良之', en: 'Ang Li' }, description: { zh: '深度洞察人性的本质与社会互动的底层逻辑。', en: 'A profound insight into the nature of humanity and the underlying logic of social interaction.' }, year: '2024', pdfUrl: '/books/wo-dong-ni.pdf' },
+  { id: 2, title: { zh: '李晟传：再造社稷的大唐忠武', en: 'Li Sheng: The Loyal Warrior Who Reforged the Tang Dynasty' }, author: { zh: '良之', en: 'Ang Li' }, description: { zh: '中唐名将李晟的生平传记，深度还原一位挽狂澜于既倒、扶大厦之将倾的铁血忠魂。', en: 'A biography of Li Sheng, the great Tang general who saved the dynasty from collapse, restoring the empire through unwavering loyalty and martial prowess.' }, year: '2025', pdfUrl: '/books/lisheng-biography.pdf' }
 ];
 
 export default function Books() {
