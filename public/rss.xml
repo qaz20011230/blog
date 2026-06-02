@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 May 2026 10:12:39 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jun 2026 02:46:40 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 30 May 2026 10:12:39 GMT</pubDate>
+        <pubDate>Tue, 02 Jun 2026 02:46:40 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -52,6 +52,22 @@
             <category><![CDATA[AGI]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ASI：我的文明阅读史]]></title>
+            <description><![CDATA[为专深智能锻造骨骼的阅读旅程。重读柏拉图的理想国、亚里士多德的伦理学、孔子论语、马克思资本论、维纳控制论、香农信息论、维特根斯坦语言哲学——从100本经典中提炼可为ASI立法的思想骨架。不是书单，是一个思想者为新时代立法的真实记录。
+]]></description>
+            <link>https://liang.world/post/asi-my-civilization-reading-history</link>
+            <guid isPermaLink="false">https://liang.world/post/asi-my-civilization-reading-history</guid>
+            <category><![CDATA[ASI]]></category>
+            <category><![CDATA[赞希佩]]></category>
+            <category><![CDATA[阅读]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[教育]]></category>
+            <category><![CDATA[人工智能]]></category>
+            <category><![CDATA[文明]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[复盘力：在碎片之上重建自我的罗盘]]></title>
