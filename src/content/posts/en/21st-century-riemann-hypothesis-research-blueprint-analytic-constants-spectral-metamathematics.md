@@ -253,6 +253,6 @@ As Terence Tao said at the conclusion of the Polymath15 project: "We may not hav
 
 ---
 
-*Written on Qingming 2026 in Yunxi Valley, Yangcheng (广州)*
+*Liangzhi, April 2026*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

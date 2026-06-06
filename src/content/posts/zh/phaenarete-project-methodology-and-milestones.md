@@ -341,7 +341,7 @@ def RiemannHypothesis : Prop :=
 
 项目主页： [Phaenarete Project](https://phaenarete-project.github.io/Maieutica/)
 代码仓库： [GitHub](https://github.com/Phaenarete-Project)
-联系方式： contact@example.com
+联系方式： contact@liang.world
 
 ---
 

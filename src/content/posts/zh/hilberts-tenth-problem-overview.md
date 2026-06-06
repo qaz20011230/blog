@@ -170,4 +170,4 @@ The author is profoundly grateful to Professor Yuri Matiyasevich for his graciou
 
 ---
 
-*二〇二六年元月良之写于羊城云汐谷*
+*良之，2026年*

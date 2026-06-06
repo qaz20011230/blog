@@ -114,6 +114,6 @@ Edges do not need to be constantly displayed. Those aggressive, competitive stra
 
 Choosing goodness is not naivety, holding to principles is not rigidity, letting bygones be bygones is not forgetfulness, being simple and transparent is not shallowness. They are, in this complex world, the truly invincible wisdom of survival—filtered through long evolution and repeated games.
 
-*Written on April 25, 2026, by Liangzhi (良之) at Jiahe Wanggang (嘉禾望岗)*
+*Liangzhi, April 2026*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

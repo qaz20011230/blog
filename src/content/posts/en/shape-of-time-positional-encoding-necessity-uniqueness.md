@@ -207,4 +207,4 @@ Just as physical laws limit the possible types of particles in the universe, gro
 [5] Press, O., Smith, N. A., & Lewis, M. (2021). Train short, test long: Attention with linear biases enables input length extrapolation. *arXiv preprint arXiv:2108.12409*. (ALiBi)
 
 
-*Liangzhi, May 2026, Guangzhou*
+*Liangzhi, May 2026*

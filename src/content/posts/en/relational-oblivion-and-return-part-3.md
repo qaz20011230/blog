@@ -326,6 +326,6 @@ So记录.
 
 ---
 
-*Written by Liangzhi in Yunxigu, Yangcheng, April 2026*
+*Liangzhi, April 2026*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

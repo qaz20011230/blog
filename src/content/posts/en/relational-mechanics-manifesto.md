@@ -13,7 +13,7 @@ description: >
 **Also on the Paradigm Experiment of Youqi (友栖) Philia**
 
 Liangzhi (良之)
-February 13, 2026, at Yunxi Valley (云汐谷)
+February 13, 2026, at  ()
 
 ---
 

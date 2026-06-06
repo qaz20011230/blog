@@ -340,7 +340,7 @@ def RiemannHypothesis : Prop :=
 #check RiemannHypothesis
 ```
 
-> **March 19, 2026, at Yunxi Valley (云汐谷)**
+
 > **Personal views; criticism welcome**
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

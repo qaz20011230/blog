@@ -14,7 +14,7 @@ description: >
 pinned: false
 ---
 
-**良之**
+*良之*
 
 **2026年5月**
 

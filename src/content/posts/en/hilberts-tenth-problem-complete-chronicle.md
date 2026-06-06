@@ -486,6 +486,6 @@ This survey was made possible by the collective efforts of the mathematical comm
 
 ---
 
-*二〇二六年三月良之写于羊城云汐谷*
+*良之，2026年*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

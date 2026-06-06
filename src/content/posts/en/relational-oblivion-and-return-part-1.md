@@ -381,6 +381,6 @@ If Leibniz had acknowledged monads have windows, then his monads would no longer
 
 ---
 
-*Written in April 2026 by Liangzhi at Yunxi Valley, Goat City*
+*Liangzhi, April 2026*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

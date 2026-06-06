@@ -7,7 +7,7 @@ category: "Business & Strategy"
 image: /favicon.jpg
 ---
 
-**良之**
+*良之*
 
 **Phaenarete Project · 广州菲娜睿特人工智能科技有限责任公司**
 

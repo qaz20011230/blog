@@ -170,7 +170,7 @@ The hexagonal perturbation tore apart the faith of the old era, yet with its own
 **There is no other way.**
 
 
-*Author: Liangzhi*
+*Liangzhi*
 *Source: Liang.World*
 *Date: May 20, 2026*
 *References: arXiv:2605.18081, arXiv:2605.11656, Liu & Gao (2023), Ledoux, Nair & Wang (2021), Cheng & Geng (2015), Gu & Sellke (2026), Timothy Gowers Blog (2026.05), OpenAI GPT-5.5 Pro Release Announcement (2026.04.24)*

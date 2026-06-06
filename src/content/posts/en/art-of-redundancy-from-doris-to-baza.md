@@ -123,6 +123,5 @@ To all who are fighting their way forward on the road of architecture: this is o
 
 **About the Author**
 
-Li Ang, former CTO of Alibaba.com, served as Vice President of Technology at Alibaba B2B and Vice President of the Technology Division, leading the architecture of Alibaba's operations platforms and network technology infrastructure. During his tenure at Alibaba, he led the development of the large-scale distributed storage system Doris and the distributed caching framework Baza, accumulating deep practical experience in the architectural design of large-scale e-commerce systems, distributed data processing, and system reliability assurance. He served as Director of the E-Commerce Technology Department at Zhejiang University's School of Software Engineering, directly involved in designing talent cultivation programs for high-level technical professionals. In his technical philosophy, he advocates that "there is no best technology, only appropriate technology," emphasizing that architects should balance reliability and cost, transform their role from "decider" to "framework designer," and cultivate the team's ability to make autonomous decisions. His architectural philosophy stems from a profound reverence for system uncertainty, dedicated to transforming complex technical problems into transmissible engineering wisdom.
 
 Contact: contact@liang.world

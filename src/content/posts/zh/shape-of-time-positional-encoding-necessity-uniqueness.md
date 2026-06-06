@@ -13,7 +13,7 @@ description: >
 pinned: false
 ---
 
-**良之**
+*良之*
 
 **2026年5月**
 
@@ -201,4 +201,4 @@ $$\begin{pmatrix} x_t \\ v_t \end{pmatrix} = \underbrace{\begin{pmatrix} 1 & t \
 
 [5] Press, O., Smith, N. A., & Lewis, M. (2021). Train short, test long: Attention with linear biases enables input length extrapolation. *arXiv preprint arXiv:2108.12409*. (ALiBi)
 
-*良之，2026年5月，广州*
+*良之，2026年*

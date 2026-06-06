@@ -121,6 +121,5 @@ Truth is within sight (真理在望); we are its midwives (吾辈助产).
 
 ---
 
-© 2026 Liangzhi World (良之世界). All rights reserved.
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

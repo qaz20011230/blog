@@ -275,6 +275,5 @@ And the knocking itself is already a kind of answer.
 
 ---
 
-*Ang Li (李昂), founder of the Phaenarete Project, founder of Guangzhou Phaenarete AI Technology Co., Ltd. (广州菲娜睿特人工智能科技有限责任公司). Affiliate member of the American Philosophical Practitioners Association (APPA), research assistant at the Institut de Pratique Philosophique (France). Research interests include cognitive architecture, formal verification, philosophical practice (哲学践行), and foundational questions at the intersection of mathematics and computation.*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

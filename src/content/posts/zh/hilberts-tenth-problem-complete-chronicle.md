@@ -482,4 +482,4 @@ This survey was made possible by the collective efforts of the mathematical comm
 
 ---
 
-*二〇二六年三月良之写于羊城云汐谷*
+*良之，2026年*

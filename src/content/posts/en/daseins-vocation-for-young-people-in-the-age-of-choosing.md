@@ -108,4 +108,3 @@ And that "fittingness" does not reside in any salary chart. It dwells in your co
 
 ---
 
-*Ang Li (李昂), Former CTO of Alibaba Group (1688.HK), currently CTO of Phaenarete AI. Joined Alibaba in 2004 and deeply participated in the design and strategic decision-making of core infrastructure including the Alipay trust system and the Alimama advertising system. This essay was first published on liang.world.*

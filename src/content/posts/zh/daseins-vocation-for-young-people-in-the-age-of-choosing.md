@@ -108,4 +108,3 @@ pinned: false
 
 ---
 
-*李昂（Ang Li），阿里巴巴网络有限公司（1688.HK）前CTO，现任Phaenarete AI CTO。2004年加入阿里巴巴，深度参与支付宝信任体系、阿里妈妈广告系统等核心基础设施的设计与战略决策。本文首发于 liang.world。*

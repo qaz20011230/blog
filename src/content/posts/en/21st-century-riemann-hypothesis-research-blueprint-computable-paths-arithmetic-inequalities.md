@@ -245,6 +245,6 @@ However, these verifications do not prove RH; they merely prove RH's consequence
 
 ---
 
-*Written on Qingming (清明), 2026, at Yunxi Valley (云汐谷), Guangzhou (羊城)*
+*Liangzhi, April 2026*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

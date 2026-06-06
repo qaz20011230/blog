@@ -36,6 +36,5 @@ True reserve (*jīnchí*), I believe, is not a transactional strategy but the **
 
 What is frightening is that when this doctrine becomes "widely accepted" wisdom, everyone will scramble to be the shrewd "reserved party." The marketplace will bristle with "high-value" signboards hung for the right price, yet no one will be willing to play the "foolish" drafter. Everyone holds currency awaiting purchase, and everyone is also rare goods — can this transaction still be completed? What remains will be countless exquisite abacuses, clattering in the silence, computing an eternal loneliness of the human species — a transaction that can never be closed.
 
-(February 2, 2026, written in imitation of Lu Xun's style, at Yunxi Valley, Guangzhou)
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

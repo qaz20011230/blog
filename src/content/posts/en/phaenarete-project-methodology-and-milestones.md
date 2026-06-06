@@ -343,7 +343,7 @@ This article deliberately回避 two narratives: the bold proclamation of "we are
 
 Project homepage: [Phaenarete Project](https://phaenarete-project.github.io/Maieutica/)
 Code repository: [GitHub](https://github.com/Phaenarete-Project)
-Contact: contact@example.com
+Contact: contact@liang.world
 
 ---
 

@@ -174,6 +174,6 @@ The author is profoundly grateful to Professor Yuri Matiyasevich for his graciou
 
 ---
 
-*二〇二六年元月良之写于羊城云汐谷*
+*良之，2026年*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

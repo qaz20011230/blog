@@ -518,8 +518,8 @@ Table C-1 Virtual Identity Data Samples
 
 | Field | Sample Value | Description |
 |------|--------|------|
-| Virtual identity number | 900101199001011234 | Using reserved code segment |
-| Virtual name | Zhang Mingyuan (张明远) | Algorithm-generated |
+| Virtual identity number | 000000000000000000 | Using reserved code segment |
+| Virtual name | Test User (测试用户) | Algorithm-generated |
 | Virtual birth date | 1990-01-01 | Randomly generated |
 | Virtual household registration address | Virtual Province Virtual City Virtual District | Not mapped to real location |
 | Virtual biometric hash | SHA256: a7b3f... | Feature vector hash value |
@@ -540,6 +540,6 @@ Publicly released artifacts will follow the MIT open-source license. For the vir
 
 ---
 
-*Written by Liangzhi in Yangcheng Yunxi Valley, May 2026*
+*Liangzhi, May 2026*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.

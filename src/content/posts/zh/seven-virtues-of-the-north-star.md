@@ -11,7 +11,7 @@ description: >-
 tags: ["北辰七德", "哲学", "伦理"]
 ---
 
-**良之**
+*良之*
 
 Institut de Pratiques Philosophiques, France
 

@@ -10,7 +10,7 @@ description: >
   A virtue-based ethical framework for philosophical practice grounded in Wang Yangming’s liangzhi, engaging MacIntyre and the situationist challenge, and introducing Virtue Resilience.
 ---
 
-**良之**
+*良之*
 
 Institut de Pratiques Philosophiques, France
 

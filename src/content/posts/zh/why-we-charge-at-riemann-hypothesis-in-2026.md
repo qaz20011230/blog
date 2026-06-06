@@ -338,5 +338,5 @@ def RiemannHypothesis : Prop :=
 #check RiemannHypothesis
 ```
 
-> **2026 年 3 月 19 日 于云汐谷**
+
 > **个人观点，欢迎批评**

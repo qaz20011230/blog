@@ -181,7 +181,7 @@ Project Links
 
 - Code Repository: https://github.com/Phaenarete-Project/ZetaHalt
 - Project Homepage (planned): https://riemann.phaenarete.org
-- Contact: <contact@example.com>
+- Contact: <contact@liang.world>
 
 Acknowledgments
 

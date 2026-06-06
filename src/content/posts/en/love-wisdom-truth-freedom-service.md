@@ -199,6 +199,6 @@ Through service.
 
 —May you be so too.
 
-Written on the twenty-fourth day of the twelfth lunar month in the year of Yisi (乙巳年腊月廿四), Liangzhi (良之) keystroking at Yunxi Valley (云汐谷)
+*Liangzhi, January 2026*
 
 > **Copyright Notice**: This is a preview translation — Chinese original is the authoritative version. Copyright belongs to Guangzhou Phaenarete AI Technology Co., Ltd. Unauthorized reproduction, citation, or distribution is prohibited.
