@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Jun 2026 23:04:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 02:50:18 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 02 Jun 2026 23:04:57 GMT</pubDate>
+        <pubDate>Sat, 06 Jun 2026 02:50:18 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -50,6 +50,20 @@
             <category><![CDATA[教育]]></category>
             <category><![CDATA[人工智能]]></category>
             <category><![CDATA[文明]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[当你不愿再打扮时，真正的美丽才刚刚开始]]></title>
+            <description><![CDATA[丧失打扮的欲望，也许正是你真正开始变美的时刻。审美是对世界的理解，礼仪是对社会的理解，健康是对自己的理解——归根到底，美丽取决于认知，而不是化妆品。
+]]></description>
+            <link>https://liang.world/post/when-you-no-longer-want-to-dress-up-true-beauty-begins</link>
+            <guid isPermaLink="false">https://liang.world/post/when-you-no-longer-want-to-dress-up-true-beauty-begins</guid>
+            <category><![CDATA[美丽]]></category>
+            <category><![CDATA[审美]]></category>
+            <category><![CDATA[礼仪]]></category>
+            <category><![CDATA[健康]]></category>
+            <category><![CDATA[自我认知]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
         </item>
