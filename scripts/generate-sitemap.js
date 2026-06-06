@@ -1,16 +1,43 @@
 import fs from 'fs';
 import path from 'path';
-import { glob } from 'glob';
+import matter from 'gray-matter';
 import { BASE_URL, STATIC_PAGES, CONTENT_DIRS } from './config.js';
 
 function escapeXml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+function readPostMeta(filePath) {
+  try {
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const { data } = matter(raw);
+    return {
+      date: data.date || '',
+      pinned: Boolean(data.pinned),
+    };
+  } catch {
+    return { date: '', pinned: false };
+  }
+}
+
+/** Adaptive priority: newer posts get higher priority (0.9 → 0.5 over time). */
+function computePriority(dateStr) {
+  if (!dateStr) return '0.6';
+  const daysAgo = (Date.now() - new Date(dateStr).getTime()) / (1000 * 60 * 60 * 24);
+  if (!Number.isFinite(daysAgo)) return '0.6';
+  if (daysAgo <= 7) return '0.9';
+  if (daysAgo <= 30) return '0.8';
+  if (daysAgo <= 180) return '0.7';
+  if (daysAgo <= 365) return '0.6';
+  return '0.5';
+}
+
 function buildXml(urls) {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
   for (const u of urls) {
-    xml += `  <url>\n    <loc>${escapeXml(u.loc)}</loc>\n    <changefreq>${u.changefreq || 'weekly'}</changefreq>\n    <priority>${u.priority}</priority>\n`;
+    xml += `  <url>\n    <loc>${escapeXml(u.loc)}</loc>\n`;
+    if (u.lastmod) xml += `    <lastmod>${u.lastmod}</lastmod>\n`;
+    xml += `    <changefreq>${u.changefreq || 'weekly'}</changefreq>\n    <priority>${u.priority}</priority>\n`;
     for (const alt of u.alternates || []) {
       xml += `    <xhtml:link rel="alternate" hreflang="${alt.hreflang}" href="${escapeXml(alt.href)}"/>\n`;
     }
@@ -23,20 +50,21 @@ function buildXml(urls) {
 function staticUrls(prefix) {
   const root = `${BASE_URL}${prefix}` || BASE_URL;
   return [
-    { loc: root, priority: '1.0' },
-    ...STATIC_PAGES.map(page => ({ loc: `${root}/${page}`, priority: '0.7' })),
+    { loc: root, priority: '1.0', changefreq: 'daily' },
+    ...STATIC_PAGES.map(page => ({ loc: `${root}/${page}`, priority: '0.7', changefreq: 'weekly' })),
   ];
 }
 
 async function generateSitemaps() {
-  const zhFiles = await glob(`${CONTENT_DIRS.zh}/*.md`);
-  const enFiles = await glob(`${CONTENT_DIRS.en}/*.md`);
+  const zhFiles = (await import('glob')).glob.sync(`${CONTENT_DIRS.zh}/*.md`);
+  const enFiles = (await import('glob')).glob.sync(`${CONTENT_DIRS.en}/*.md`);
   const enSlugs = new Set(enFiles.map(f => path.basename(f, '.md')));
 
   // === Chinese sitemap ===
   const zhUrls = staticUrls('');
   for (const file of zhFiles) {
     const slug = path.basename(file, '.md');
+    const meta = readPostMeta(file);
     const zhHref = `${BASE_URL}/post/${slug}`;
     const alternates = [
       { hreflang: 'zh', href: zhHref },
@@ -45,7 +73,13 @@ async function generateSitemaps() {
     if (enSlugs.has(slug)) {
       alternates.unshift({ hreflang: 'en', href: `${BASE_URL}/en/post/${slug}` });
     }
-    zhUrls.push({ loc: zhHref, priority: '0.8', changefreq: 'monthly', alternates });
+    zhUrls.push({
+      loc: zhHref,
+      lastmod: meta.date || undefined,
+      priority: computePriority(meta.date),
+      changefreq: meta.pinned ? 'weekly' : 'monthly',
+      alternates,
+    });
   }
   fs.writeFileSync(path.resolve('public', 'sitemap.xml'), buildXml(zhUrls));
   console.log(`Generated sitemap.xml (${zhUrls.length} URLs)`);
@@ -54,12 +88,14 @@ async function generateSitemaps() {
   const enUrls = staticUrls('/en');
   for (const file of enFiles) {
     const slug = path.basename(file, '.md');
+    const meta = readPostMeta(file);
     const enHref = `${BASE_URL}/en/post/${slug}`;
     const zhHref = `${BASE_URL}/post/${slug}`;
     enUrls.push({
       loc: enHref,
-      priority: '0.8',
-      changefreq: 'monthly',
+      lastmod: meta.date || undefined,
+      priority: computePriority(meta.date),
+      changefreq: meta.pinned ? 'weekly' : 'monthly',
       alternates: [
         { hreflang: 'zh', href: zhHref },
         { hreflang: 'en', href: enHref },

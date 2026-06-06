@@ -40,6 +40,9 @@ function LayoutContent() {
         <meta name="apple-mobile-web-app-title" content={t(UI.siteName.zh, UI.siteName.en)} />
         <meta name="geo.region" content={isEn ? 'GB-SCT' : 'CN-44'} />
         <meta name="geo.placename" content={isEn ? 'Guangzhou / Edinburgh' : '广州 / 爱丁堡'} />
+        <meta name="geo.position" content="23.1291;113.2644" />
+        <meta name="ICBM" content="23.1291, 113.2644" />
+        <meta name="generator" content="vite-react-ssg" />
         <link rel="canonical" href={canonicalUrl} />
         <link rel="alternate" hrefLang="zh" href={zhHref} />
         <link rel="alternate" hrefLang="en" href={enHref} />

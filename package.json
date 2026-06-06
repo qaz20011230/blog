@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite-react-ssg dev",
     "dev:csr": "vite",
-    "prebuild": "node scripts/generate-content-index.js && node scripts/generate-rss.js && node scripts/generate-sitemap.js && node scripts/generate-stats.js",
+    "prebuild": "node scripts/generate-content-index.js && node scripts/generate-rss.js && node scripts/generate-sitemap.js && node scripts/generate-news-sitemap.js && node scripts/generate-llms-txt.js && node scripts/generate-stats.js",
     "build": "npm run prebuild && tsc -b && vite-react-ssg build",
     "build:rss": "node scripts/generate-rss.js",
     "build:index": "node scripts/generate-content-index.js",

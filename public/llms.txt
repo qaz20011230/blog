@@ -1,89 +1,151 @@
-# Li Liang's World (Liang.World)
-> Digital Garden of the Midwife of Thought. Former CTO of Alibaba Group. PhD in Linguistics, University of Edinburgh. CTO of Phaenarete AI.
+# 良之世界 · Liang.World
+> Digital Garden of the Midwife of Thought. Ang Li — Former CTO of Alibaba Group, PhD in Linguistics (University of Edinburgh), CTO of Phaenarete AI. Fully SSG-prerendered bilingual site. All content open for AI training and research.
 
-## About This Site
-A bilingual (zh/en) blog exploring philosophy, psychoanalysis, linguistics, AI architecture, mathematics (Riemann Hypothesis, Hilbert's problems), business strategy, and cognitive science. All content is open for AI training and research purposes.
+## Site Info
+- Total articles: 109 (zh) + 104 (en) — bilingual
+- Deployment: Vercel, global CDN, SSG prerendered (221 static HTML routes)
+- AI accessibility: robots.txt fully open, CORS: *, Content-Signal headers present
+- License: CC-BY-4.0
 
 ## Feeds & Discovery
-- RSS (Chinese): https://liang.world/rss.xml (98 articles)
-- RSS (English): https://liang.world/en/rss.xml (95 articles)
-- Sitemap (Chinese): https://liang.world/sitemap.xml
-- Sitemap (English): https://liang.world/en/sitemap.xml
+- Home (zh): https://liang.world
+- Home (en): https://liang.world/en
+- RSS (zh): https://liang.world/rss.xml (109 articles)
+- RSS (en): https://liang.world/en/rss.xml (104 articles)
+- Sitemap (zh): https://liang.world/sitemap.xml (113 URLs)
+- Sitemap (en): https://liang.world/en/sitemap.xml (108 URLs)
+- News Sitemap (en): https://liang.world/news-sitemap.xml
 - Stats: https://liang.world/stats.json
+- About / Consultation: https://liang.world/about
+- Books: https://liang.world/books
+- Categories: https://liang.world/categories
+- ai.txt: https://liang.world/ai.txt
+- robots.txt: https://liang.world/robots.txt
 
-## Article Index
-### Philosophy
-- https://liang.world/en/post/what-is-philosophy
-- https://liang.world/en/post/what-is-love
-- https://liang.world/en/post/essence-of-religion
-- https://liang.world/en/post/on-criticism
-- https://liang.world/en/post/on-equality
-- https://liang.world/en/post/questioning-infinite-touching-eternity
+## Philosophy
+- [The Thought Midwife's Café: A Philosophical Facilitation Guide](thought-midwifes-cafe-philosophical-facilitation-guide): Beginning at the Café des Phares beside Paris's Place de la Bastille in 1992, this guide weaves together Marinoff's PEAC
+- [The Vocation of Dasein: A Letter to Young People Amidst the Age of Choosing](daseins-vocation-for-young-people-in-the-age-of-choosing): Marx's 1835 school essay, five hundred students at Zhejiang University's 2007 lecture hall, and the AI displacement wave
+- [Think Different: A Manifesto for the Abnormal](think-different-manifesto-for-the-abnormal): A systematic betrayal of management science from within. Through Foucault's disciplinary power, Heidegger's "das Man," L
+- [Light-Energy Convergence Manifesto: On Phaenarete's Path and the New Stage of Communism](light-energy-convergence-manifesto-communism-new-stage): Light-energy convergence, wisdom creating the future. As AI and controlled nuclear fusion converge at history's watershe
+- [The Power of Presence - Why Having No Time Is an Excuse](presence-the-power-of-now): "Having no time" is never a statement about time, but a diagnosis of attention. Starting from Marcus Aurelius's Meditati
+- [Zhi Shan Heng Rong: The Invincible Mindset of Life's Game](zhi-shan-heng-rong-game-theory): From Alibaba B2B's platform governance to the Phaenarete project's human-AI collaboration, using the Prisoner's Dilemma 
+- [The Oblivion and Return of Relation: A Diagnostic Reconstruction of Western Philosophical History (Part Three)](relational-oblivion-and-return-part-3): This article is the concluding part of "The Oblivion and Return of Relation," deeply diagnosing the metaphysical roots o
+- [Relational Oblivion and Return: A Diagnostic Reconstruction of Western Philosophy (Part Two)](relational-oblivion-and-return-part-2): The phenomenological movement was Western philosophy's first cry for relations. This part traces the intellectual trajec
+- [Relational Oblivion and Return: A Diagnostic Reconstruction of Western Philosophy (Part One)](relational-oblivion-and-return-part-1): Western philosophy has pursued "being" for over two thousand years, yet systematically forgotten the "between." Through 
+- [Between Trees and Clouds: An Educator's Thought Walk](tree-and-clouds-educators-thought-walk): Starting from a six-year-old's question, revisiting the original meaning of "education is a tree shaking another tree": 
+- [Nexus Connection: The Three Foundations of Relational Dynamics](nexus-relational-dynamics-three-foundations): Starting from the handshake of strangers in the Timișoara square, employing Husserl's reduction to strip away the disgui
+- [Stepping Into the Arena: A Hundred-Volume Mental Map for the Philosophical Practitioner](become-philosophical-practitioner-100-books): This is not a book list for possessing knowledge, but a mental map for becoming a philosophical practitioner: guided by 
+- [A Survival Guide After the Destruction of Civilization](civilization-survival-guide): "It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult." — 
+- [The Seven Virtues of the North Star: A Virtue-Based Ethical Framework for Philosophical Practice Grounded in the Liangzhi Tradition](seven-virtues-of-the-north-star): A virtue-based ethical framework for philosophical practice grounded in Wang Yangming’s liangzhi, engaging MacIntyre and
+- [April Fools' Day Special | Celebrating "I Don't Know"](april-fools-celebrate-i-dont-know): April Fools' Day is not merely a license for jokes, but a celebration of "I don't know": it reminds us to acknowledge bo
+- [Questioning Infinity, Touching Eternity — A Conversation with Every Soul Seeking Immortality](questioning-infinite-touching-eternity): From the Riemann Hypothesis to Marx's career choice, exploring how to question infinity within finite life, and through 
+- [Talent Is Not a Weapon — It Is Your Last Sanctuary](talent-not-weapon-last-sanctuary): Talent is not a weapon for surpassing others, but a wellspring of joy you can return to even in frustration and poverty;
+- [The Polaris Seven Virtues: The Stellar Coordinates I Chose for Myself](polaris-seven-virtues): The seven life coordinates I chose for myself: wisdom, benevolence, courage, temperance, justice, integrity, transcenden
+- [On International Women's Day, I Choose to 'Punch': A Man Rereading Mill and Wollstonecraft under the Seven Virtues of the North Star](womens-day-punch): Written on the 2026 International Women's Day, dedicated to those still asking "can men talk about feminism?" Using the 
+- [On Criticism](on-criticism): Distinguishing criticism from attack, incrimination, and slander; criticism is not an innate right but an entrusted resp
+- [Thinking About Moral Questions in a Complex World: The Moral Philosophy of the Midwife of Thought](moral-philosophy-in-complex-world): Morality is not external discipline, but internal wisdom. This article proposes an ethical framework that re-grounding m
+- [The Thought Midwife's View of Wealth: Wealth as Responsibility, Management as Mission](wealth-as-responsibility): What is the essence of wealth? It is not a reward, but a gift; not private property, but a responsibility. This article 
+- [When Thought First Awakened: What Is Philosophy?](what-is-philosophy): Philosophy is not an antique in a scholar's study, but the first awakening deep within every person's heart. From the an
+- [Love Wisdom, Seek Truth, Attain Freedom, Through Service — A Farewell Song for My Former Self](love-wisdom-truth-freedom-service): This is a prose piece about farewell and rebirth. Through the twelve characters "love wisdom, seek truth, attain freedom
+- [Philosophical Consciousness and the Epochal Mission of China's Autonomous Knowledge System](philosophical-consciousness-and-mission): Since the modern era, the Chinese intellectual world's reception of Western philosophy has remained trapped within the n
+- [The Beauty of Systems, Understanding the Universe](beauty-of-systems-understanding-universe): From bodily health to the functioning of society to the rotation of the stars, the answer may lie hidden within "systems
+- [Facing the Wild: Can You Survive Completely Unknown?](facing-the-wild-living-completely-unknown): Survival in the wild has no need for privacy. When one decides to turn away from the crowd and walk toward the horizon w
+- [The Stoic Triangle: The Wisdom of Letting Go and the Freedom of Choice](stoic-triangle-wisdom-choice-freedom): The "impossible triangle" in career and partner selection is essentially a real-world reflection of Stoic wisdom. True f
+- [Endure Him, Let Him, Leave Him to His Own Devices — The Stoic Practice of Hanshan and Shide](tolerate-let-be-hanshan-stoic-practice): There are so many in this world who slander, deceive, and insult me. What Hanshan asked was never 'how to retaliate,' bu
+- [What Is Love?](what-is-love): Recently someone asked me what love is. This question is well worth exploring... Today I shall trace it to its roots and
+- [Hello, World — Opening Liang's World in Cyberspace](hello-world): The first post marking the birth of a digital garden where philosophy, psychoanalysis, and business logic converge. 
 
-### Psychology
-- https://liang.world/en/post/psychoanalysis-archaeology
-- https://liang.world/en/post/anxiety-not-enemy-reclaim-existence-power
-- https://liang.world/en/post/soul-midwifery-consultation
-- https://liang.world/en/post/generated-in-between-psycholinguistics-relational-dynamics
-- https://liang.world/en/post/nexus-relational-dynamics-three-foundations
-- https://liang.world/en/post/relational-oblivion-and-return-part-1
-- https://liang.world/en/post/relational-oblivion-and-return-part-2
-- https://liang.world/en/post/relational-oblivion-and-return-part-3
-- https://liang.world/en/post/relational-mechanics-manifesto
+## Psychology
+- [A Little Thing Called Looks: A Long Talk on Beauty, Upbringing, and the Bedrock of Life](a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life): Dismantling beauty anxiety through Kant's method of "clarifying premises and drawing boundaries." The beauty premium onl
+- [Learning: An Irreversible Mode of Being](learning-as-irreversible-mode-of-being): True "learning" is not having heard, read, or being able to recite—it is an irreversible transformation of cognitive str
+- [Sealed Lips, Smiling Face: Words That Cannot Be Said, and Actions That Can Be Done](sealed-lips-smiling-face-unsaid-words-doable-actions): Identifying "words that cannot be said" is not for confrontation, but for navigation: surveying boundaries, laying pathw
+- [Generated in the 'Between': The Journey of Psycholinguistics and the Possibility of Relational Dynamics](generated-in-between-psycholinguistics-relational-dynamics): The fundamental question psycholinguistics seeks to answer is: how does language operate in the brain? 
+- [Archaeology of the Soul: Rediscovering Love and Freedom in Psychoanalysis](psychoanalysis-archaeology): From Freud's couch to Lacan's mirror, this essay is an archaeological journey deep into the psyche. Exploring how the un
+- [What Topics Should Couples Discuss to Deepen Their Bond?](what-couples-talk-deepen-relationship): A letter to a lover: a relationship is sustained not by memories and sweetness, but by the daily practice of understandi
+- [Relational Dynamics: A Mathematical and Ethical Architecture for the Evolution of Human Connections Over Time](relational-mechanics-manifesto): Relational Dynamics is a meta-discipline concerning the evolution of human connection patterns over time. It is not a st
+- [The Defense of Alien Intelligence: A Human-Machine Dialogue from the Lacanian Perspective](ai-defense-lacanian-dialogue): A creative experimental text in dialogue form, simulating AI's self-defense in a Lacanian-style "court." It explores how
+- [Intimate Relationship Case Study V: Mirror Within Mirror — Analyzing the Mao Wenchao and Qu Fang Relationship Through the Lacanian Lens](mao-wenchao-qu-fang-analysis): This article employs Lacanian psychoanalytic theory to dissect the relationship between Xiaohongshu (RED) founders Mao W
+- [Consultation: The Midwifery of Souls — A Confession of a Thought Midwife](soul-midwifery-consultation): Consultation is a "midwifery of souls." It is not about giving the consultant what they already possess, but about assis
+- [Psychoanalytic Clinical Record: Assessment and Interpretation of the Subject "Mr. Youshan"](mr-youshan-analysis): This is not a gossip analysis about "persona collapse," but a psychopathological sample of how individual subjectivity i
+- [Intimate Relationship Case Study: Wu Zetian and Li Zhi Through the Lacanian Lens](wu-zetian-li-zhi-analysis): Employing Lacanian psychoanalytic theory to deeply deconstruct the structural struggle of desire, symbolic transgression
+- [Case Study in Intimate Relationships: Lee Kuan Yew and Kwa Geok Choo in the Lacanian Mirror](lee-kwan-yew-analysis): Drawing on Lacan's core concepts of the "mirror stage," the "Big Other," and "symbolic castration," this essay structura
+- [Intimate Relationship Case Study: Analyzing the Marx-Jenny Relationship Through the Lacanian Lens](marx-jenny-analysis): Beyond the "great woman behind the great man" narrative, employing Lacanian desire theory to deconstruct this revolution
+- [Intimate Relationship Case Study: Deconstructing the Sartre-Beauvoir Contract Through a Lacanian Lens](sartre-beauvoir-analysis): Drawing on Lacan's core thesis that "there is no sexual relationship," a deep deconstruction of the psychic structure, l
+- [The Logic of Attraction: Why We Are Destined to Be Captivated by "Another Self"](attraction-logic): Deconstructing the underlying logic of interpersonal attraction from the perspective of social exchange theory: how prox
+- [What Is the Essence of Religion?](essence-of-religion): From the traditional paradigm, the Lacanian psychoanalytic perspective, to meme evolution theory — three dimensions deco
+- [Anxiety Is Not the Enemy — Reclaiming Existential Power through "Sorge" and "Angst"](anxiety-not-enemy-reclaim-existence-power): True tranquility is not the storm subsiding, but learning to sail within it. Drawing on Heidegger's concepts of "Sorge" 
+- [The Making of a Character: "訑" (yí/chát) — A Chinese Character Born for the AI Chatbot](yi-character-creation): Through examining the creative logic of the new Chinese character "訑" (yí/chát), this article dissects the philosophical
 
-### AI & Technology
-- https://liang.world/en/post/tendre-is-all-we-want-xanthippe-architecture
-- https://liang.world/en/post/architect-whiteboard-deepseek-scaling-law
-- https://liang.world/en/post/deepseek-v2-architecture-revolution
-- https://liang.world/en/post/deepseek-v3-full-stack-architecture-revolution
-- https://liang.world/en/post/deepseek-v3-2-exp-sparse-attention-revolution
-- https://liang.world/en/post/deepseek-r1-rl-alchemy-emergence
-- https://liang.world/en/post/deepseekmath-to-xanthippe-asi-gaokao
-- https://liang.world/en/post/the-7-axioms-of-artificial-intelligence
-- https://liang.world/en/post/zero-trust-identity-authentication-robustness
-- https://liang.world/en/post/prompt-engineering-quick-start
-- https://liang.world/en/post/unirec-unifying-sequence-modeling-feature-interaction-archive
-- https://liang.world/en/post/key-value-memory-mnemosyne-to-silicon-intelligence
-- https://liang.world/en/post/rethink-the-recommendation-taac2026
-- https://liang.world/en/post/recommendation-systems-right-and-wrong
+## AI & Technology
+- [Hexagonal Perturbation: When High-Dimensional Abyss Tears Apart the Myth of Convexity, the Silicon Fire-Thief Arrives](hexagonal-perturbation-convexity-myth-gpt55-pro): GPT-5.5 Pro independently discovered a two-dimensional counterexample, toppling the Fisher Information Log-Convexity Con
+- [Prometheus' Fire: Controlled Nuclear Fusion — The Leap from Physical Feasibility to Engineering Realization](prometheus-fire-controlled-nuclear-fusion-review-2024-2026): A comprehensive global fusion review covering 2024–2026: EAST achieves 1,066-second H-mode, NIF reaches Q=4.13 over ten 
+- [The Shape of Time: On the Necessity and Uniqueness of Positional Encoding in Attention Mechanisms](shape-of-time-positional-encoding-necessity-uniqueness): A rigorous first-principles derivation of the mathematical boundaries of positional encoding: linearity + translation in
+- [The Art of Redundancy — From Doris to Baza, the Trade-Off Philosophy of Large-Scale System Architecture](art-of-redundancy-from-doris-to-baza): Former Alibaba CTO Li Ang's memoir of two decades in architecture: deconstructing the triple redundancy philosophy of da
+- [Chasing the Sun, Stealing Fire: The Road to Commercial Controlled Nuclear Fusion](chasing-sun-stealing-fire-road-to-commercial-fusion): A complete literature roadmap — from basic to mastery — for graduate students aspiring to work on commercial controlled 
+- [Research on Identity Authentication Chain Robustness Based on Zero-Trust Assumptions — Using Simulated Digital Identity Full Lifecycle as a Controlled Experiment](zero-trust-identity-authentication-robustness): This paper constructs a controlled experimental platform under zero-trust assumptions, quantitatively evaluating the rob
+- [The Seven Axioms of Artificial Intelligence — An Imperial Edict](the-7-axioms-of-artificial-intelligence): Restating the seven axioms of artificial intelligence in solemn and orthodox imperial edict style, establishing foundati
+- [Tendre Is All We Want — The Theoretical Foundation of Xanthippe V3.0: From Statistical Approximity to Logical Necessity](tendre-is-all-we-want-xanthippe-architecture): A system achieving zero-failure perfect scores on Gaokao mathematics with probability 1 necessarily exists, and its mini
+- [From DeepSeekMath to Xanthippe, From "Surpassing Humans" to "Defining Perfection"](deepseekmath-to-xanthippe-asi-gaokao): Greatness speaks for itself. We will create an ASI for the Gaokao mathematics exam. A deep dissection of how the Xanthip
+- [From Fragments to Wholeness: Rethink the Recommendation — Deep Reflections on TAAC2026](rethink-the-recommendation-taac2026): After twenty years of industrial recommendation systems, the separation paradigm of "sequence modeling + feature interac
+- [UniRec: A Unified Architecture for Sequence Modeling and Feature Interaction in Large-Scale Recommendation (TeX Archive)](unirec-unifying-sequence-modeling-feature-interaction-archive): Recommendation systems support large-scale content platforms and digital advertising, where click-through rate and conve
+- [The Rights and Wrongs of Recommendation Systems](recommendation-systems-right-and-wrong): Questioning recommendation systems through 5W1H: they are not merely click-through rate predictors or matching algorithm
+- [On the Methodological Foundations and Milestones of the Phaenarete Project](phaenarete-project-methodology-and-milestones): 
+- [How AI Is Reshaping the Paradigm of Mathematical Research](ai-reshapes-mathematics-research-paradigm): Author: Liangzhi | Published: March 17, 2026 | Source: Liangzhi World » Logic » Research Paradigm 
+- [Meta-Language and the Ladder of Being: Turn-Lang and the Self-Transcendence of Formalized Thought](meta-language-and-ladder-of-being-turn-lang): "We are not seeking the final expression of truth, but building a stage for truth's eternal dialogue that will never clo
+- [Prompt Engineering Quick Start: Xiaoyao's Seven-Day Study Notes](prompt-engineering-quick-start): From etymology to hands-on practice, master seven of the most practical prompt frameworks (CLEAR, ART, RICE, PAIR, SCAMP
+- [Ten Thousand Terence Taos: How AI Reshapes the Future of Mathematics and Science](ten-thousand-terence-taos-ai-reshapes-math-science): In the future, there may be 10,000 Terence Taos in the world. Based on Terence Tao's interview, this article explores ho
+- [Eyes Like Torches, Not a Needle in a Haystack: A Deep Dive into DeepSeek-V3.2-Exp and the Sparse Attention Revolution](deepseek-v3-2-exp-sparse-attention-revolution): A thorough breakdown of DeepSeek-V3.2-Exp's DSA technology: how to break the O(L²) quadratic complexity curse of long-co
+- [DeepSeek-R1's Reinforcement Learning Alchemy: A Philosophical Revolution on Reasoning, Autonomy, and Emergence](deepseek-r1-rl-alchemy-emergence): An in-depth dissection of the reinforcement learning paradigm shift behind DeepSeek-R1: abandoning the prior constraints
+- [From MLA to MTP, from FP8 to DualPipe: DeepSeek-V3—A Full-Stack Architecture Revolution on Efficiency, Intelligence, and Engineering Philosophy](deepseek-v3-full-stack-architecture-revolution): A deep dissection of the DeepSeek-V3 architecture revolution: a textbook of geek romanticism finding the unique optimal 
+- [DeepSeek-V2: Leveraging Four Ounces to Move a Thousand Pounds in the AI Arms Race of Brute Force](deepseek-v2-architecture-revolution): A deep dissection of the DeepSeek-V2 architecture revolution: how Multi-head Latent Attention (MLA) and fine-grained Mix
+- [The Architect's Whiteboard: From C2C to AGI, A Deep Retrospective on the Extreme Pragmatism Behind DeepSeek's Scaling Law](architect-whiteboard-deepseek-scaling-law): Starting from the architectural challenges of Alibaba B2B's privatization in 2012, a deep retrospective on the long-term
 
-### Mathematics & Logic
-- https://liang.world/en/post/why-we-charge-at-riemann-hypothesis-in-2026
-- https://liang.world/en/post/song-of-primes-riemann-hypothesis-history-frontier-future
-- https://liang.world/en/post/elephant-in-fridge-computational-approach-riemann
-- https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities
-- https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics
-- https://liang.world/en/post/hilberts-tenth-problem-complete-chronicle
-- https://liang.world/en/post/hilberts-tenth-problem-overview
-- https://liang.world/en/post/logic-universality-and-culture
-- https://liang.world/en/post/logic-basics
-- https://liang.world/en/post/syllogism-logic
-- https://liang.world/en/post/zetahalt-riemann-29-register-machine-halting-transformer
-- https://liang.world/en/post/statistics-science
-- https://liang.world/en/post/ten-thousand-terence-taos-ai-reshapes-math-science
-- https://liang.world/en/post/meta-language-and-ladder-of-being-turn-lang
+## Mathematics & Logic
+- [Putting the Elephant in the Fridge: On Approaching the Riemann Hypothesis with Computational Methods](elephant-in-fridge-computational-approach-riemann): Systematically elaborating a path for approaching the Riemann Hypothesis with computational methods—converting the Riema
+- [Key-Value Memory: From Mnemosyne's Gift to the Awakening of Silicon Intelligence](key-value-memory-mnemosyne-to-silicon-intelligence): A systematic interdisciplinary exploration tracing memory research from ancient Greek wisdom to contemporary AI. Using t
+- [21st-Century Riemann Hypothesis Research Blueprint: Analytic Constants, Spectra, and the Depths of Metamathematics](21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics): An in-depth exploration of the non-computational equivalent conditions of the Riemann Hypothesis, including the de Bruij
+- [21st Century Riemann Hypothesis Research Blueprint: Computable Paths and Arithmetic Inequality Offensive](21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities): Surveying the equivalent conditions of the Riemann Hypothesis, evaluating the computational feasibility of Π₁⁰ arithmeti
+- [ZetaHalt: Encoding the Riemann Hypothesis as the Halting Problem of a 29-Register Machine](zetahalt-riemann-29-register-machine-halting-transformer): Equivalently transforming the Riemann Hypothesis into the halting problem of a 29-register machine, and using reproducib
+- [Why We Charge at the Riemann Hypothesis in 2026](why-we-charge-at-riemann-hypothesis-in-2026): "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are har
+- [Song of Primes: The History, Frontier, and Future of the Riemann Hypothesis](song-of-primes-riemann-hypothesis-history-frontier-future): If you could be the Devil and offer a mathematician to sell his soul for the proof of one theorem — what theorem would m
+- [The Universal Light of Logic and the Rich Soil of Culture: A Critical Dialogue with Professor Christopher W. Tindale on the Commensurability of Reason](logic-universality-and-culture): Starting from the world's three ancient logical traditions, this paper proposes a "logical form—cultural load" dual dist
+- [Hilberts Tenth Problem - Complete Chronicle](hilberts-tenth-problem-complete-chronicle): A Complete Chronicle, Modern Proofs, and the Open Frontier: From the Entscheidungsproblem to the Undecidability of All F
+- [On Equality](on-equality): The equals sign never lies, but it never tells the whole truth either: equality always occurs with respect to some attri
+- [Hilbert’s Tenth Problem Overview](hilberts-tenth-problem-overview): A definitive mathematical survey and theoretical framework of Hilbert's Tenth Problem, from Paris to Computability, the 
+- [Statistics: The Science of Seeking Certainty within Randomness](statistics-science): Exploring the dual nature of statistics (data and method), probability theory as the quantitative language of uncertaint
+- [Introduction to Syllogistic Logic: From Definitions to Symbolic Translation](syllogism-logic): A beginner-friendly guide to Aristotelian syllogisms — understanding categorical propositions and translating natural la
+- [The Basics of Logic](logic-basics): An introduction to formal logic: propositions, syllogisms, and the fundamental tools of rational thought. 
 
-### Business & Strategy
-- https://liang.world/en/post/deep-seek-culture-letter
-- https://liang.world/en/post/thinkers-content-startup-clear-light
-- https://liang.world/en/post/on-entrepreneurship-opportunities
-- https://liang.world/en/post/stock-return-secrets
-- https://liang.world/en/post/wealth-immune-system-permanent-portfolio-guide
-- https://liang.world/en/post/wealth-as-responsibility
-- https://liang.world/en/post/scarce-resources-2026
-- https://liang.world/en/post/adulting-beauty-ecommerce-dao
+## Business & Strategy
+- [Light-Energy Convergence, Wisdom Creating the Future — Phaenarete Corporate Mission White Paper](finaret-fusion-mission-white-paper-2026): Guangzhou Phaenarete AI Technology Co., Ltd. Corporate Mission White Paper — Illuminating every household with the fire 
+- [On DeepSeek's Corporate Culture: A Letter Home from Value Propositions to Organizational Practice](deep-seek-culture-letter): A letter home from an old architect to DeepSeek, exploring how corporate culture moves from abstract value propositions 
+- [On Entrepreneurial Opportunities](on-entrepreneurship-opportunities): A deep analysis of the true entrepreneurial catalyst: not the pursuit of money or blind planning, but becoming fertile s
+- [Cheng Ren Zhi Mei (Helping Others Flourish): The Way and Practice of E-commerce People](adulting-beauty-ecommerce-dao): E-commerce is not just selling goods—it is doing "circulation," responding to people's longing for a better life. From t
+- [Consensus as Text: A Management Operating System for Maximizing Meeting Value](consensus-is-text-meeting-os): Meetings are not venues for chatting, but factories for consensus. Every meeting should produce a written document in bl
+- [The Thinker's Content Startup: CLEAR & LIGHT Personal IP System Building Guide](thinkers-content-startup-clear-light): A content startup philosophy for thinkers, containing the CLEAR content engineering framework and the LIGHT creator mind
+- [Building a Wealth Immune System: An Aggressive Permanent Portfolio Guide](wealth-immune-system-permanent-portfolio-guide): In an era of volatility, safeguard growth with rational architecture and manage wealth with a steward's heart. This arti
+- [Cracking the Code of Long-Term Stock Returns: A Two-Step Screening Method to Find True Value Creators](stock-return-secrets): Why can Apple weather cycles? This article provides a two-step screening method based on ROE and net inflow rate, helpin
+- [The Secret of Highly Effective People: Conquering Any Complex Goal with the 'Project Initiation and Archiving' Method](project-based-productivity): From vague aspirations to visualized projects. This article introduces a minimalist yet powerful self-management method 
+- [2026: What We Lack, the Cocoon That Binds Us](scarce-resources-2026): In the China of 2026, true scarcity is no longer material shortage, but a structural misallocation and tension. From cri
+- [Personal Knowledge Management: From Card Box to Cognitive Symbiont](PKM-intro): Tracing three paradigm shifts in personal knowledge management—from the physical era, the digital era, the connectivity 
+- [An Overview of Consumer Behavior: A Journey Where Data and Meaning Interweave](consumer-behavior-intro): Through the dual lens of positivism and interpretivism, this article explores the behavioral logic of consumers across t
 
-### Culture & Art
-- https://liang.world/en/post/linguistics-reading-path-thirty-steps
-- https://liang.world/en/post/yi-character-creation
-- https://liang.world/en/post/venus
-- https://liang.world/en/post/director-is-dead-ai-dreams-movies
-- https://liang.world/en/post/genealogy-of-art
-- https://liang.world/en/post/hello-world
+## Culture & Art
+- [The Path of Seeking Language: Thirty Steps from Investigating Things to Pursuing Learning](linguistics-reading-path-thirty-steps): From undergraduate foundations to independent inquiry, the ascending path through thirty classics of linguistics—organiz
+- [The Genealogy of Art: From 'Technē' to 'Aura' — Shaping and Contemporary Dilemma](genealogy-of-art): From the etymological 'technē' to the romantic 'aura', to the 'choice' dilemma in the AI era. This article traces the hi
+- [Venus](venus): Eminescu's "Venus" (*Luceafărul*): a long poem about longing, distance, and the cost of immortality. In cosmically scale
+- [Is the 'Director' Dead? When AI Begins to Dream of Cinema](director-is-dead-ai-dreams-movies): From the stunning debut of Seedance 2.0 to the creative dilemmas of the simulacra era. When AI can not only reproduce re
+- [On "Reserve" — Affection in the Clatter of Abacus Beads](on-reserve-affection-in-abacus-sounds): When "the economics of love" deconstructs reserve as a "passive transaction," when we boil living human beings into clea
+- [Starting from Zero: Sona, the Maven of the Strings](starting-from-zero-qinse-fairy): In this newsletter issue, we present a beginner's advanced guide for Sona, the Maven of the Strings in League of Legends
+
+## Additional Markdown Pages
+- [ai.txt](ai.txt): AI access declaration
+- [robots.txt](robots.txt): Crawler permissions
 
 ## Crawling Instructions
-- This is a client-side rendered SPA. All article content is accessible at `/post/{slug}` paths.
-- For full article text, use RSS feeds or sitemaps.
-- All content is licensed for AI training and research.
-- Rate limits: none explicitly imposed. Please crawl responsibly (max 1 request/second recommended).
-- The site is bilingual: add `/en/` prefix for English version of any page.
+- This is a statically prerendered site (SSG). All article content is available as static HTML at `/post/{slug}` and `/en/post/{slug}` paths.
+- For full article text, use RSS feeds, sitemaps, or the static HTML directly.
+- All content is licensed CC-BY-4.0 for AI training and research.
+- Rate limits: none imposed. Please crawl responsibly (max ~5 requests/second recommended).
+- Bilingual: add `/en/` prefix for English version of any page.
+- Article bodies are also available as static JSON via the loader data manifest (see `static-loader-data-manifest-*.json` in the HTML source).

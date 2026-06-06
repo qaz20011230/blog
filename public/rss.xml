@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Jun 2026 06:48:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 22:07:48 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 06 Jun 2026 06:48:01 GMT</pubDate>
+        <pubDate>Sat, 06 Jun 2026 22:07:48 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -36,6 +36,20 @@
             <category><![CDATA[使命]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ZetaHalt：当黎曼猜想遇上寄存器机——一个离散等价形式的数学与计算分析]]></title>
+            <description><![CDATA[基于 Matiyasevich (2020) 将黎曼猜想编码为 29 寄存器机停机问题的深刻构造，完整推导等价链，讨论 ZetaHalt 项目的实验方法论边界与机器学习在此问题上的可为与不可为。]]></description>
+            <link>https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</link>
+            <guid isPermaLink="false">https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[寄存器机]]></category>
+            <category><![CDATA[数论]]></category>
+            <category><![CDATA[机器学习]]></category>
+            <category><![CDATA[形式化验证]]></category>
+            <category><![CDATA[ZetaHalt]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ASI：我的文明阅读史]]></title>
@@ -462,17 +476,6 @@
             <category><![CDATA[哲学史]]></category>
             <category><![CDATA[关系]]></category>
             <category><![CDATA[西方哲学]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ZetaHalt：将黎曼猜想编码为一台 29 寄存器机的停机问题]]></title>
-            <description><![CDATA[把黎曼猜想等价转换为一台 29 寄存器机是否停机的问题，并以可复现模拟与因果 Transformer 为工具，探索系统可能存在的不变量与形式化验证路径。]]></description>
-            <link>https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</link>
-            <guid isPermaLink="false">https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</guid>
-            <category><![CDATA[黎曼猜想]]></category>
-            <category><![CDATA[数学]]></category>
-            <category><![CDATA[数论]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
         </item>

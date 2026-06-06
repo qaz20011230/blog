@@ -1,4 +1,4 @@
-import { useNavigate, useLoaderData, type LoaderFunctionArgs } from 'react-router-dom';
+import { useNavigate, useLoaderData, useLocation, type LoaderFunctionArgs } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -99,6 +99,27 @@ export function Component() {
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.description} />
         {post.tags.map((tag) => <meta property="article:tag" content={tag} key={tag} />)}
+        <script type="application/ld+json">{JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: post.title,
+          description: post.description,
+          datePublished: post.date,
+          author: { '@type': 'Person', name: 'Ang Li', url: 'https://liang.world/about' },
+          publisher: { '@type': 'Person', name: 'Ang Li', url: 'https://liang.world/about' },
+          image: 'https://liang.world/favicon.jpg',
+          url: `https://liang.world${useLocation().pathname}`,
+          inLanguage: locale === 'zh' ? 'zh-CN' : 'en',
+          keywords: post.tags.join(', '),
+        })}</script>
+        <script type="application/ld+json">{JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: locale === 'zh' ? '良之世界' : 'Liang.World', item: locale === 'zh' ? 'https://liang.world' : 'https://liang.world/en' },
+            { '@type': 'ListItem', position: 2, name: post.title, item: `https://liang.world${useLocation().pathname}` },
+          ],
+        })}</script>
       </Head>
 
       <div className="reading-progress-bar" style={{ width: `${progress * 100}%` }} />
