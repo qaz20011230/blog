@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Jun 2026 02:50:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 02:53:00 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 06 Jun 2026 02:50:18 GMT</pubDate>
+        <pubDate>Sat, 06 Jun 2026 02:53:00 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -50,6 +50,20 @@
             <category><![CDATA[教育]]></category>
             <category><![CDATA[人工智能]]></category>
             <category><![CDATA[文明]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[爱的真实与幻梦：为什么清醒看见的人，才真正在爱]]></title>
+            <description><![CDATA[毛姆在《面纱》中写道："我知道你愚蠢、轻佻、头脑空虚，然而我爱你。"这不是宽容，不是降低标准，而是换了一个坐标系——唯一的重量是善良。真正的爱，是走到镜子背面看见全部不堪之后，仍然觉得这个人值得。
+]]></description>
+            <link>https://liang.world/post/the-truth-and-dream-of-love</link>
+            <guid isPermaLink="false">https://liang.world/post/the-truth-and-dream-of-love</guid>
+            <category><![CDATA[爱]]></category>
+            <category><![CDATA[毛姆]]></category>
+            <category><![CDATA[面纱]]></category>
+            <category><![CDATA[关系]]></category>
+            <category><![CDATA[自我认知]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
         </item>
