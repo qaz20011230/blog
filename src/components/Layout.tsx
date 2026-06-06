@@ -1,28 +1,27 @@
-import React, { useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vite-react-ssg';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import SicasShare from './SicasShare';
-import { useLanguage } from '../context/LanguageContext';
+import { LanguageProvider, useLanguage } from '../context/LanguageContext';
 import { UI } from '../types';
 
 export default function Layout() {
-  const location = useLocation();
-  const { locale, setLocale, t } = useLanguage();
+  return (
+    <LanguageProvider>
+      <LayoutContent />
+    </LanguageProvider>
+  );
+}
 
-  useEffect(() => {
-    const pathLocale = location.pathname.startsWith('/en') ? 'en' : 'zh';
-    if (pathLocale !== locale) {
-      setLocale(pathLocale);
-    }
-  }, [location.pathname, locale, setLocale]);
+function LayoutContent() {
+  const location = useLocation();
+  const { locale, t } = useLanguage();
 
   const isEn = locale === 'en';
   const canonicalUrl = `https://liang.world${location.pathname}`;
-  const altUrl = isEn
-    ? `https://liang.world${location.pathname.replace(/^\/en/, '') || '/'}`
-    : `https://liang.world/en${location.pathname === '/' ? '' : location.pathname}`;
+  const zhHref = `https://liang.world${location.pathname.replace(/^\/en/, '') || '/'}`;
+  const enHref = `https://liang.world/en${location.pathname === '/' ? '' : location.pathname.replace(/^\/en/, '')}`;
 
   const title = t(UI.siteName.zh, UI.siteName.en) + ' — ' + t(UI.tagline.zh, UI.tagline.en);
   const desc = t(UI.description.zh, UI.description.en);
@@ -30,7 +29,7 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col bg-hilbert font-sans text-text" lang={isEn ? 'en' : 'zh-CN'}>
-      <Helmet>
+      <Head>
         <html lang={isEn ? 'en' : 'zh-CN'} />
         <title>{title}</title>
         <meta name="description" content={desc} />
@@ -42,13 +41,10 @@ export default function Layout() {
         <meta name="geo.region" content={isEn ? 'GB-SCT' : 'CN-44'} />
         <meta name="geo.placename" content={isEn ? 'Guangzhou / Edinburgh' : '广州 / 爱丁堡'} />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="alternate" hrefLang="zh" href={`https://liang.world${location.pathname.replace(/^\/en/, '') || '/'}`} />
-        <link rel="alternate" hrefLang="en" href={`https://liang.world/en${location.pathname === '/' ? '' : location.pathname}`} />
-        <link rel="alternate" hrefLang="x-default" href={`https://liang.world${location.pathname.replace(/^\/en/, '') || '/'}`} />
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
-        <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Ang Li (良之)" />
+        <link rel="alternate" hrefLang="zh" href={zhHref} />
+        <link rel="alternate" hrefLang="en" href={enHref} />
+        <link rel="alternate" hrefLang="x-default" href={zhHref} />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href={isEn ? '/en/rss.xml' : '/rss.xml'} />
 
         <meta property="og:site_name" content={t(UI.siteName.zh, UI.siteName.en)} />
         <meta property="og:title" content={title} />
@@ -66,8 +62,7 @@ export default function Layout() {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={desc} />
         <meta name="twitter:image" content="https://liang.world/favicon.jpg" />
-
-        </Helmet>
+      </Head>
       <Navbar />
       <main className="relative flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8 max-w-4xl z-10">
         <div key={location.pathname} className="page-enter">

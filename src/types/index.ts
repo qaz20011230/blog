@@ -129,8 +129,4 @@ export const UI = {
     zh: '中文',
     en: 'EN',
   },
-  gate: {
-    zhHint: { zh: '请输入黎曼猜想的原始命题以进入网站', en: 'Enter the original statement of the Riemann Hypothesis to proceed' },
-    enHint: { zh: '输入黎曼猜想命题的英文进入英文网站', en: 'Enter the original statement of the Riemann Hypothesis to proceed' },
-  },
 } as const;

@@ -44,15 +44,6 @@
           "value": "attachment; filename=\"LiAng_Resume.pdf\""
         }
       ]
-    },
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        }
-      ]
     }
   ],
   "redirects": [
@@ -84,10 +75,6 @@
     {
       "source": "/en/rss.xml",
       "destination": "/en-rss.xml"
-    },
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/index"
     },
     {
       "source": "/(.*)",

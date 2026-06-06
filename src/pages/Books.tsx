@@ -1,5 +1,4 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vite-react-ssg';
 import { BookOpen, Download } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { UI } from '../types';
@@ -9,14 +8,14 @@ const books = [
   { id: 2, title: { zh: '李晟传：再造社稷的大唐忠武', en: 'Li Sheng: The Loyal Warrior Who Reforged the Tang Dynasty' }, author: { zh: '良之', en: 'Ang Li' }, description: { zh: '中唐名将李晟的生平传记，深度还原一位挽狂澜于既倒、扶大厦之将倾的铁血忠魂。', en: 'A biography of Li Sheng, the great Tang general who saved the dynasty from collapse, restoring the empire through unwavering loyalty and martial prowess.' }, year: '2025', pdfUrl: '/books/lisheng-biography.pdf' }
 ];
 
-export default function Books() {
+export function Component() {
   const { locale, t } = useLanguage();
 
   return (
     <div className="max-w-4xl mx-auto page-enter">
-      <Helmet>
+      <Head>
         <title>{t(UI.books.heading.zh, UI.books.heading.en)} | 良之世界</title>
-      </Helmet>
+      </Head>
       <div className="mb-12">
         <h1 className="text-3xl font-bold text-gray-100 mb-4 font-serif tracking-widest">{t(UI.books.heading.zh, UI.books.heading.en)}</h1>
         <p className="text-gray-400 font-mono text-sm tracking-wider">{t(UI.books.tagline.zh, UI.books.tagline.en)}</p>
@@ -35,7 +34,6 @@ export default function Books() {
               <p className="text-sm text-gray-400 leading-relaxed mb-6">{book.description[locale]}</p>
             </div>
             <div className="relative z-10 mt-auto pt-4 border-t border-gray-800/50">
-              {/* eslint-disable-next-line react/jsx-no-target-blank */}
               <a href={book.pdfUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-mono text-gray-400 hover:text-primary transition-all duration-300 group/link">
                 <Download size={16} className="group-hover/link:translate-y-0.5 transition-transform" />
                 <span>{t(UI.books.readPdf.zh, UI.books.readPdf.en)}</span>

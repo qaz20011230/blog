@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Post } from '../types';
-import { format } from 'date-fns';
+import { formatDate } from '../lib/utils';
 import { useLanguage } from '../context/LanguageContext';
 
 interface PostCardProps {
@@ -22,7 +21,7 @@ export default function PostCard({ post }: PostCardProps) {
           </Link>
         </h2>
         <div className="flex items-center gap-2 text-sm text-gray-500 font-mono">
-          <time dateTime={post.date}>{format(new Date(post.date), 'MMM d, yyyy')}</time>
+          <time dateTime={post.date}>{formatDate(post.date)}</time>
           <span className="text-gray-700">&bull;</span>
           <span className="bg-primary/10 text-primary border border-primary/20 px-2 py-0.5 text-xs font-medium uppercase tracking-wider transition-all duration-300 group-hover:bg-primary group-hover:text-white group-hover:border-primary">
             {post.category}

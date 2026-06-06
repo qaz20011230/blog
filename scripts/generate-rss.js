@@ -1,10 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import RSS from 'rss';
-import { glob } from 'glob';
 import matter from 'gray-matter';
-
-const BASE_URL = 'https://liang.world';
+import { BASE_URL, CONTACT_EMAIL, AUTHOR, SITE, CATEGORIES, CONTENT_DIRS } from './config.js';
 
 function parsePosts(dir) {
   const files = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
@@ -24,52 +22,43 @@ function parsePosts(dir) {
   });
 }
 
-async function generateRSS() {
-  console.log('Generating RSS feeds...');
+function buildFeed({ locale, sitePath, feedFile, outFile }) {
+  const meta = SITE[locale];
+  const posts = parsePosts(CONTENT_DIRS[locale]);
+  const author = AUTHOR[locale];
+  const editor = `${CONTACT_EMAIL} (${author})`;
+  const copyright = locale === 'zh'
+    ? `© ${new Date().getFullYear()} 良之世界 (Liang.World)`
+    : `© ${new Date().getFullYear()} Liang.World`;
 
-  // Chinese RSS
-  const zhPosts = parsePosts('src/content/posts/zh');
-  const zhFeed = new RSS({
-    title: '良之世界 | Liang.World',
-    description: '怀瑾握瑜，解惑忘隙。融合精神分析、哲学践行与商业逻辑。',
-    feed_url: `${BASE_URL}/rss.xml`,
-    site_url: BASE_URL,
+  const feed = new RSS({
+    title: meta.title,
+    description: meta.description,
+    feed_url: `${BASE_URL}${feedFile}`,
+    site_url: `${BASE_URL}${sitePath}`,
     image_url: `${BASE_URL}/favicon.jpg`,
-    managingEditor: 'contact@liang.world (思想助产士)',
-    webMaster: 'contact@liang.world (思想助产士)',
-    copyright: `© ${new Date().getFullYear()} 良之世界 (Liang.World)`,
-    language: 'zh-CN',
+    managingEditor: editor,
+    webMaster: editor,
+    copyright,
+    language: meta.language,
     pubDate: new Date(),
     ttl: 60,
-    categories: ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Others'],
+    categories: CATEGORIES,
   });
-  for (const p of zhPosts) {
-    zhFeed.item({ title: p.title, description: p.description, url: `${BASE_URL}/post/${p.slug}`, guid: `${BASE_URL}/post/${p.slug}`, categories: p.tags, author: '思想助产士', date: p.date });
-  }
-  fs.writeFileSync(path.resolve('public', 'rss.xml'), zhFeed.xml({ indent: true }));
-  console.log(`Generated rss.xml (${zhPosts.length} items)`);
 
-  // English RSS
-  const enPosts = parsePosts('src/content/posts/en');
-  const enFeed = new RSS({
-    title: 'Liang.World | Midwife of Thought',
-    description: 'Where psychoanalysis, philosophical practice, and business logic converge.',
-    feed_url: `${BASE_URL}/en/rss.xml`,
-    site_url: `${BASE_URL}/en`,
-    image_url: `${BASE_URL}/favicon.jpg`,
-    managingEditor: 'contact@liang.world (Ang Li)',
-    webMaster: 'contact@liang.world (Ang Li)',
-    copyright: `© ${new Date().getFullYear()} Liang.World`,
-    language: 'en',
-    pubDate: new Date(),
-    ttl: 60,
-    categories: ['Philosophy', 'Psychology', 'AI & Technology', 'Mathematics & Logic', 'Business & Strategy', 'Culture & Art', 'Others'],
-  });
-  for (const p of enPosts) {
-    enFeed.item({ title: p.title, description: p.description, url: `${BASE_URL}/en/post/${p.slug}`, guid: `${BASE_URL}/en/post/${p.slug}`, categories: p.tags, author: 'Ang Li', date: p.date });
+  for (const p of posts) {
+    const url = `${BASE_URL}${sitePath}/post/${p.slug}`;
+    feed.item({ title: p.title, description: p.description, url, guid: url, categories: p.tags, author, date: p.date });
   }
-  fs.writeFileSync(path.resolve('public', 'en-rss.xml'), enFeed.xml({ indent: true }));
-  console.log(`Generated en-rss.xml (${enPosts.length} items)`);
+
+  fs.writeFileSync(path.resolve('public', outFile), feed.xml({ indent: true }));
+  console.log(`Generated ${outFile} (${posts.length} items)`);
 }
 
-generateRSS().catch(console.error);
+function generateRSS() {
+  console.log('Generating RSS feeds...');
+  buildFeed({ locale: 'zh', sitePath: '', feedFile: '/rss.xml', outFile: 'rss.xml' });
+  buildFeed({ locale: 'en', sitePath: '/en', feedFile: '/en/rss.xml', outFile: 'en-rss.xml' });
+}
+
+generateRSS();

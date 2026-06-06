@@ -1,4 +1,3 @@
-import React from 'react';
 import { Rss, Mail } from 'lucide-react';
 import SiteStats from './SiteStats';
 import { useLanguage } from '../context/LanguageContext';

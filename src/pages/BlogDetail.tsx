@@ -1,29 +1,79 @@
-import React from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useNavigate, useLoaderData, type LoaderFunctionArgs } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import { format } from 'date-fns';
-import { getPostBySlug } from '../lib/content';
-import { Share2, ArrowLeft } from 'lucide-react';
-import { Helmet } from 'react-helmet-async';
 import rehypeRaw from 'rehype-raw';
+import { Head } from 'vite-react-ssg';
+import { Share2, ArrowLeft } from 'lucide-react';
 import { useScrollProgress } from '../hooks/useScrollProgress';
 import { useLanguage } from '../context/LanguageContext';
-import { UI } from '../types';
+import { formatDate } from '../lib/utils';
+import { UI, type Post, type Category } from '../types';
 
-export default function BlogDetail() {
-  const { slug } = useParams<{ slug: string }>();
+interface PostData {
+  post: Post;
+  body: string;
+}
+
+/**
+ * Loads a single post's metadata + body. This only runs at build time (SSG) and
+ * on the dev server — never in the production client (the `import.meta.env.SSR`
+ * guard lets Vite tree-shake `node:fs`/`gray-matter` out of the client bundle).
+ * On client navigation, vite-react-ssg fetches the prebuilt loader data instead.
+ */
+export async function loader({ params, request }: LoaderFunctionArgs): Promise<PostData | null> {
+  if (!import.meta.env.SSR) return null;
+
+  const slug = params.slug ?? '';
+  const pathname = new URL(request.url, 'http://localhost').pathname;
+  const locale = pathname.startsWith('/en') ? 'en' : 'zh';
+
+  const fs = await import('node:fs/promises');
+  const path = await import('node:path');
+  const matter = (await import('gray-matter')).default;
+
+  const file = path.resolve(process.cwd(), `src/content/posts/${locale}/${slug}.md`);
+  let raw: string;
+  try {
+    raw = await fs.readFile(file, 'utf-8');
+  } catch {
+    return null;
+  }
+
+  const { data, content } = matter(raw);
+  const rawDate = data.date;
+  const date =
+    rawDate instanceof Date
+      ? rawDate.toISOString().slice(0, 10)
+      : typeof rawDate === 'string'
+        ? rawDate
+        : '';
+
+  const post: Post = {
+    slug,
+    title: typeof data.title === 'string' ? data.title : slug,
+    date,
+    description: typeof data.description === 'string' ? data.description : '',
+    category: ((data.category as Category) || 'Others'),
+    tags: Array.isArray(data.tags) ? (data.tags as string[]) : [],
+    pinned: Boolean(data.pinned),
+  };
+
+  return { post, body: content };
+}
+
+export function Component() {
+  const data = useLoaderData() as PostData | null;
   const navigate = useNavigate();
   const { locale, t } = useLanguage();
-  const post = slug ? getPostBySlug(slug, locale) : undefined;
   const progress = useScrollProgress();
-  const prefix = locale === 'en' ? '/en' : '';
 
-  if (!post) {
+  if (!data?.post) {
     return <div className="text-center py-20">{t(UI.blogDetail.notFound.zh, UI.blogDetail.notFound.en)}</div>;
   }
+
+  const { post, body } = data;
 
   const handleShare = () => {
     if (navigator.share) {
@@ -36,7 +86,7 @@ export default function BlogDetail() {
 
   return (
     <article className="max-w-3xl mx-auto page-enter">
-      <Helmet>
+      <Head>
         <title>{post.title} | Liang's World</title>
         <meta name="description" content={post.description} />
         <meta property="og:title" content={post.title} />
@@ -48,8 +98,8 @@ export default function BlogDetail() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.description} />
-        {post.tags.map(tag => <meta property="article:tag" content={tag} key={tag} />)}
-      </Helmet>
+        {post.tags.map((tag) => <meta property="article:tag" content={tag} key={tag} />)}
+      </Head>
 
       <div className="reading-progress-bar" style={{ width: `${progress * 100}%` }} />
 
@@ -65,7 +115,7 @@ export default function BlogDetail() {
         </div>
         <h1 className="text-3xl md:text-5xl font-serif font-bold text-gray-100 mb-6 leading-tight">{post.title}</h1>
         <div className="flex justify-between items-center text-gray-500 text-sm font-mono tracking-widest">
-          <time dateTime={post.date}>{format(new Date(post.date), 'MMM dd, yyyy')}</time>
+          <time dateTime={post.date}>{formatDate(post.date, 'MMM dd, yyyy')}</time>
           <button onClick={handleShare} className="flex items-center gap-2 hover:text-primary transition-colors duration-300 group" title="Share">
             <Share2 size={16} className="group-hover:scale-110 transition-transform" />
             <span className="hidden sm:inline uppercase">{t(UI.blogDetail.share.zh, UI.blogDetail.share.en)}</span>
@@ -75,7 +125,7 @@ export default function BlogDetail() {
 
       <div className="prose prose-lg prose-invert prose-slate max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
         <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
-          {post.content || ''}
+          {body || ''}
         </ReactMarkdown>
       </div>
     </article>

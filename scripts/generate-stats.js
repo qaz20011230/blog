@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { glob } from 'glob';
 import matter from 'gray-matter';
+import { CONTENT_DIRS } from './config.js';
 
 const OUTPUT_FILE = path.resolve('public', 'stats.json');
 
@@ -75,13 +76,12 @@ async function countMarkdownFiles(globPattern) {
 async function generateStats() {
   console.log('Generating site stats...');
 
-  const zhPosts = await countMarkdownFiles('src/content/posts/zh/*.md');
-  const enPosts = await countMarkdownFiles('src/content/posts/en/*.md');
+  const zhPosts = await countMarkdownFiles(`${CONTENT_DIRS.zh}/*.md`);
+  const enPosts = await countMarkdownFiles(`${CONTENT_DIRS.en}/*.md`);
 
   const totalWords = zhPosts.totalWords + enPosts.totalWords;
   const totalFiles = zhPosts.files.length + enPosts.files.length;
   const payload = {
-    generatedAt: new Date().toISOString(),
     totalWords,
     totalFiles,
     posts: { files: totalFiles, words: totalWords },

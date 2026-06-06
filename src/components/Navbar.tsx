@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { cn } from '../lib/utils';
@@ -10,7 +10,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
-  const { locale, setLocale, t } = useLanguage();
+  const { locale, t } = useLanguage();
 
   const navItems = [
     { name: t(UI.nav.home.zh, UI.nav.home.en), path: '' },
@@ -32,8 +32,6 @@ export default function Navbar() {
 
   const handleLangSwitch = () => {
     const newLocale = locale === 'zh' ? 'en' : 'zh';
-    setLocale(newLocale);
-    localStorage.setItem('liang_world_locale', newLocale);
     const currentPath = location.pathname;
     let newPath: string;
     if (newLocale === 'en') {

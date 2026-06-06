@@ -1,45 +1,37 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tsconfigPaths from "vite-tsconfig-paths";
+import fs from 'node:fs'
+import path from 'node:path'
 
-export default defineConfig({
+function allRoutes() {
+  const idxPath = path.resolve('src/content/posts-index.json')
+  const idx = JSON.parse(fs.readFileSync(idxPath, 'utf-8'))
+  const base = ['/', '/categories', '/books', '/about', '/en', '/en/categories', '/en/books', '/en/about']
+  const zh = idx.zh.map((p) => `/post/${p.slug}`)
+  const en = idx.en.map((p) => `/en/post/${p.slug}`)
+  return [...base, ...zh, ...en]
+}
+
+export default defineConfig(({ command }) => ({
   plugins: [
     react({
       babel: {
-        plugins: ['react-dev-locator'],
+        // react-dev-locator is a dev-only inspector; keep it out of production
+        // builds so it doesn't inject attributes (and leak local paths) into the
+        // prerendered HTML.
+        plugins: command === 'serve' ? ['react-dev-locator'] : [],
       },
     }),
     tsconfigPaths(),
   ],
-  define: {
-    global: 'globalThis',
-  },
-  resolve: {
-    alias: {
-      buffer: 'buffer/',
+  ssgOptions: {
+    script: 'async',
+    dirStyle: 'nested',
+    entry: 'src/main.tsx',
+    formatting: 'none',
+    includedRoutes() {
+      return allRoutes()
     },
   },
-  optimizeDeps: {
-    include: ['buffer'],
-  },
-  server: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:3001',
-        changeOrigin: true,
-        secure: false,
-        configure: (proxy, _options) => {
-          proxy.on('error', (err, _req, _res) => {
-            console.log('proxy error', err);
-          });
-          proxy.on('proxyReq', (proxyReq, req, _res) => {
-            console.log('Sending Request to the Target:', req.method, req.url);
-          });
-          proxy.on('proxyRes', (proxyRes, req, _res) => {
-            console.log('Received Response from the Target:', proxyRes.statusCode, req.url);
-          });
-        },
-      }
-    }
-  }
-})
+}))

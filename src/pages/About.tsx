@@ -1,10 +1,9 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { Mail, MapPin, Github, Calendar, Clock, Shield, Users, Sparkles, BookOpen, Star, ArrowRight } from 'lucide-react';
+import type { ReactNode } from 'react';
+import { Head } from 'vite-react-ssg';
+import { Mail, Shield, Users, Sparkles, BookOpen, Star, ArrowRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import { UI } from '../types';
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
     <div className="border-t border-gray-800/50 pt-10 pb-4">
       <h2 className="text-sm font-mono text-primary tracking-[0.2em] uppercase mb-6">{title}</h2>
@@ -13,7 +12,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-function SubSection({ title, children }: { title: string; children: React.ReactNode }) {
+function SubSection({ title, children }: { title: string; children: ReactNode }) {
   return (
     <div className="mb-8">
       <h3 className="text-base font-medium text-gray-200 mb-3 font-serif">{title}</h3>
@@ -22,8 +21,8 @@ function SubSection({ title, children }: { title: string; children: React.ReactN
   );
 }
 
-export default function About() {
-  const { locale, t } = useLanguage();
+export function Component() {
+  const { locale } = useLanguage();
   const isEn = locale === 'en';
 
   const content = {
@@ -170,13 +169,13 @@ export default function About() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 pb-16">
-      <Helmet>
+      <Head>
         <title>{content.pageTitle}</title>
         <meta name="description" content={isEn ? 'Philosophical Consultation with Ang Li (Liangzhi). Socratic dialogue, PEACE process, Seven Virtues framework. Book online or in Guangzhou.' : '良之的哲学咨询：苏格拉底对话、PEACE流程、北辰七德框架。支持线上预约，广州可面询。'} />
         <meta property="og:title" content={content.pageTitle} />
         <meta property="og:type" content="profile" />
         <meta property="og:image" content="https://liang.world/favicon.jpg" />
-      </Helmet>
+      </Head>
 
       {/* Hero */}
       <div className="flex flex-col items-center text-center py-16 space-y-6">

@@ -1,20 +1,19 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vite-react-ssg';
 import { getAllPosts } from '../lib/content';
 import PostCard from '../components/PostCard';
 import { useLanguage } from '../context/LanguageContext';
 import { UI } from '../types';
 
-export default function Home() {
+export function Component() {
   const { locale, t } = useLanguage();
   const recentPosts = getAllPosts(locale).slice(0, 6);
 
   return (
     <div className="relative z-10">
-      <Helmet>
+      <Head>
         <title>{t(UI.siteName.zh, UI.siteName.en)} | Liang.World</title>
         <meta name="description" content={t(UI.description.zh, UI.description.en)} />
-      </Helmet>
+      </Head>
 
       <div className="flex flex-col items-center justify-center min-h-[50vh] text-center space-y-12 pt-8 pb-16">
         <div className="absolute inset-0 pointer-events-none overflow-hidden">

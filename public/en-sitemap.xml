@@ -4,29 +4,21 @@
     <loc>https://liang.world/en</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en"/>
   </url>
   <url>
     <loc>https://liang.world/en/categories</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/categories"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en/categories"/>
   </url>
   <url>
     <loc>https://liang.world/en/books</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/books"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en/books"/>
   </url>
   <url>
     <loc>https://liang.world/en/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/en/about"/>
   </url>
   <url>
     <loc>https://liang.world/en/post/zhi-shan-heng-rong-game-theory</loc>
@@ -155,6 +147,14 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/tolerate-let-be-hanshan-stoic-practice"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/tolerate-let-be-hanshan-stoic-practice"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/tolerate-let-be-hanshan-stoic-practice"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/thought-midwifes-cafe-philosophical-facilitation-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/thought-midwifes-cafe-philosophical-facilitation-guide"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/thought-midwifes-cafe-philosophical-facilitation-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/thought-midwifes-cafe-philosophical-facilitation-guide"/>
   </url>
   <url>
     <loc>https://liang.world/en/post/thinkers-content-startup-clear-light</loc>
@@ -733,6 +733,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/civilization-survival-guide"/>
   </url>
   <url>
+    <loc>https://liang.world/en/post/chasing-sun-stealing-fire-road-to-commercial-fusion</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/chasing-sun-stealing-fire-road-to-commercial-fusion"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/chasing-sun-stealing-fire-road-to-commercial-fusion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/chasing-sun-stealing-fire-road-to-commercial-fusion"/>
+  </url>
+  <url>
     <loc>https://liang.world/en/post/become-philosophical-practitioner-100-books</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -755,6 +763,14 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/attraction-logic"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/attraction-logic"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/attraction-logic"/>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/art-of-redundancy-from-doris-to-baza</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/art-of-redundancy-from-doris-to-baza"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/art-of-redundancy-from-doris-to-baza"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/art-of-redundancy-from-doris-to-baza"/>
   </url>
   <url>
     <loc>https://liang.world/en/post/architect-whiteboard-deepseek-scaling-law</loc>

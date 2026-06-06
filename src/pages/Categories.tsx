@@ -1,12 +1,13 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
+import { useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import { Head } from 'vite-react-ssg';
 import { getAllPosts } from '../lib/content';
 import PostCard from '../components/PostCard';
 import { useLanguage } from '../context/LanguageContext';
 import { UI, Category } from '../types';
 import { cn } from '../lib/utils';
 
-export default function Categories() {
+export function Component() {
   const { locale, t } = useLanguage();
   const allPosts = getAllPosts(locale);
   const [searchParams] = useSearchParams();
@@ -30,6 +31,10 @@ export default function Categories() {
 
   return (
     <div className="page-enter">
+      <Head>
+        <title>{t(UI.categories.heading.zh, UI.categories.heading.en)} | 良之世界</title>
+        <meta name="description" content={locale === 'zh' ? '良之世界的文章分类浏览——哲学、心理学、AI与技术、数学与逻辑、商业与战略、文化与艺术。' : 'Browse articles by category — Philosophy, Psychology, AI & Technology, Mathematics & Logic, Business & Strategy, Culture & Art.'} />
+      </Head>
       <h1 className="text-3xl font-bold text-gray-100 mb-8 font-serif tracking-widest">
         {t(UI.categories.heading.zh, UI.categories.heading.en)}
       </h1>

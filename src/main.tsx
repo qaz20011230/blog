@@ -1,18 +1,6 @@
-import { Buffer as BufferPolyfill } from 'buffer'
-window.Buffer = BufferPolyfill as unknown as typeof Buffer
-globalThis.Buffer = window.Buffer
+import { ViteReactSSG } from 'vite-react-ssg';
+import { routes } from './App';
+import './index.css';
+import 'katex/dist/katex.min.css';
 
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { HelmetProvider } from 'react-helmet-async'
-import App from './App'
-import './index.css'
-import 'katex/dist/katex.min.css'
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <HelmetProvider>
-      <App />
-    </HelmetProvider>
-  </StrictMode>,
-)
+export const createRoot = ViteReactSSG({ routes });

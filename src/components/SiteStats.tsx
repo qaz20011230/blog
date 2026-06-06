@@ -1,6 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { UI } from '../types';
 
 type StatsPayload = {
   totalWords: number;
