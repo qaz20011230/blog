@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Head } from 'vite-react-ssg';
-import { Mail, Shield, Users, Sparkles, BookOpen, Star, ArrowRight } from 'lucide-react';
+import { Mail, Shield, Users, Sparkles, BookOpen, Star } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
@@ -201,15 +201,6 @@ export function Component() {
             {content.consultationBadge}
           </span>
         </div>
-
-        <a
-          href="/cv/Curriculum_Vitae_Ang_Li.pdf"
-          download
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 hover:border-primary/50 text-xs font-mono text-gray-400 hover:text-primary tracking-wider transition-all duration-300"
-        >
-          <ArrowRight size={12} />
-          {isEn ? 'Download CV (PDF)' : '下载简历 (PDF)'}
-        </a>
       </div>
 
       {/* Philosophy */}

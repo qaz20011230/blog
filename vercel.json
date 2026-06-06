@@ -12,42 +12,6 @@
         { "key": "X-Robots-Tag", "value": "index, follow" },
         { "key": "Content-Signal", "value": "search=yes,ai-input=yes,ai-train=yes" }
       ]
-    },
-    {
-      "source": "/cv",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"Ang_Li_CV.pdf\""
-        }
-      ]
-    },
-    {
-      "source": "/cv_Ang.pdf",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"Ang_Li_CV.pdf\""
-        }
-      ]
-    },
-    {
-      "source": "/resume",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"LiAng_Resume.pdf\""
-        }
-      ]
-    },
-    {
-      "source": "/LiAng_Resume.pdf",
-      "headers": [
-        {
-          "key": "Content-Disposition",
-          "value": "attachment; filename=\"LiAng_Resume.pdf\""
-        }
-      ]
     }
   ],
   "redirects": [
@@ -64,14 +28,6 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/cv",
-      "destination": "/cv_Ang.pdf"
-    },
-    {
-      "source": "/resume",
-      "destination": "/LiAng_Resume.pdf"
-    },
     {
       "source": "/en/sitemap.xml",
       "destination": "/en-sitemap.xml"
