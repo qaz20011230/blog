@@ -185,8 +185,8 @@ export function Component() {
 
       {/* Hero */}
       <div className="flex flex-col items-center text-center py-16 space-y-6">
-        <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary/30 to-primary/5 flex items-center justify-center ring-1 ring-primary/20">
-          <span className="text-3xl font-serif font-bold text-primary/80">{isEn ? 'L' : '良'}</span>
+        <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-primary/30 shadow-[0_0_30px_rgba(0,47,167,0.15)]">
+          <img src="/AngPhD.png" alt={isEn ? 'Ang Li' : '良之'} className="w-full h-full object-cover" />
         </div>
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em]">
           {content.heroTitle}
