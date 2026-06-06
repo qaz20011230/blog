@@ -28,7 +28,7 @@ export function Component() {
   const content = {
     pageTitle: isEn ? 'About | Consultation — Liang.World' : '关于 | 哲学咨询 — 良之世界',
     heroTitle: isEn ? 'Liangzhi · Philosophical Consultation' : '良之 · 咨询预约',
-    heroSub: isEn ? 'Co-founder, Guangzhou Phaenarete AI · APPA Affiliate Member · IPP Research Assistant' : '广州菲娜睿特AI联合创始人 · APPA附属会员 · 法国哲学践行研究所研究助理',
+    heroSub: isEn ? 'PhD in Linguistics, University of Edinburgh · Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd. · PI, Phaenarete ASI Lab · APPA Affiliate Member · IPP Research Assistant' : '爱丁堡大学语言学博士 · 广州菲娜睿特人工智能科技有限责任公司联合创始人 · 菲娜睿特专深人工智能实验室首席研究员 · APPA附属会员 · 法国哲学践行研究所研究助理',
     consultationBadge: isEn ? 'PHILOSOPHICAL PRACTICE OPEN TO THE WORLD' : '哲学践行向全世界开放',
 
     philosLabel: isEn ? 'Philosophy' : '哲学理念',
@@ -64,6 +64,12 @@ export function Component() {
       isEn
         ? 'Ang Li (Liangzhi) — philosophical practitioner, researcher in AI and energy technology.'
         : '良之（Ang Li），哲学践行者，人工智能与能源科技研究者。',
+      isEn
+        ? 'PhD in Linguistics, University of Edinburgh.'
+        : '爱丁堡大学语言学博士。',
+      isEn
+        ? 'PI, Phaenarete ASI Lab.'
+        : '菲娜睿特专深人工智能实验室首席研究员。',
       isEn
         ? 'Bachelor of Management, Guangdong University of Technology.'
         : '广东工业大学管理学学士。',
@@ -102,8 +108,8 @@ export function Component() {
 
     preConsultLabel: isEn ? 'Pre-Consultation' : '首次预咨询',
     preConsultDesc: isEn
-      ? 'All new clients receive one free pre-consultation (approximately 30 minutes). Purpose: understand your intentions and expectations; assess whether philosophical counseling is suitable for you (if not, I will honestly tell you and provide referral suggestions where possible); jointly decide whether to enter formal counseling.'
-      : '所有新来访者均享有一次免费的预咨询（约 30 分钟）。目的：了解您的来意与期待；评估哲学咨询是否适合您（若不合适，我将坦诚告知并尽可能提供转介建议）；双方共同决定是否进入正式咨询。',
+      ? 'All new clients receive one free pre-consultation (approximately 15 minutes). Purpose: understand your intentions and expectations; assess whether philosophical counseling is suitable for you (if not, I will honestly tell you and provide referral suggestions where possible); jointly decide whether to enter formal counseling.'
+      : '所有新来访者均享有一次免费的预咨询（约 15 分钟）。目的：了解您的来意与期待；评估哲学咨询是否适合您（若不合适，我将坦诚告知并尽可能提供转介建议）；双方共同决定是否进入正式咨询。',
 
     formatLabel: isEn ? 'Format & Duration' : '咨询形式与时长',
     formatDesc: isEn
@@ -150,8 +156,8 @@ export function Component() {
         ? 'Pre-Consultation Confirmation: I will reply within 3 working days to confirm the pre-consultation time.'
         : '预咨询确认：我将在 3 个工作日内回复，与您确认预咨询时间。',
       isEn
-        ? 'Pre-Consultation: Approximately 30 minutes, free of charge. We assess whether formal consultation is suitable.'
-        : '预咨询：约 30 分钟，免费。评估是否适合进入正式咨询。',
+        ? 'Pre-Consultation: Approximately 15 minutes, free of charge. We assess whether formal consultation is suitable.'
+        : '预咨询：约 15 分钟，免费。评估是否适合进入正式咨询。',
       isEn
         ? 'Formal Consultation: Once confirmed, we agree on the first session time and subsequent arrangements.'
         : '正式咨询：确认进入后，商定首次咨询时间和后续安排。',
@@ -159,8 +165,8 @@ export function Component() {
 
     closingLabel: isEn ? 'A Word to the Hesitant' : '写给犹豫的你',
     closingText: isEn
-      ? 'Perhaps you find yourself in a moment of confusion — unsure which path to take, uncertain whether a relationship should continue or end, not knowing what you are doing, why you are doing it, or whether it is worth doing. Perhaps you only have a vague sense that "something is off," but cannot quite articulate it. These feelings are all where philosophy begins. Socrates said: "The unexamined life is not worth living." This sounds harsh, but the opposite is true — examination is not judgment; it is liberation. The moment you begin to question, you have already begun to change. Philosophical counseling is not only for those who are "ill" — it is for everyone who takes their life seriously. You only need to come with your confusion and your sincerity. If you are unsure whether this is right for you, why not begin with a pre-consultation? Thirty minutes, the time it takes for a cup of tea, free of charge, with no further obligation. Let us talk.'
-      : '也许你正处在一段困惑中——不知道该选哪条路，不知道一段关系该继续还是结束，不知道自己在做什么、为什么做、值不值得做。也许你只是隐约感到，"哪里不对"，却又说不清楚。这些感受，都是哲学开始的地方。苏格拉底说："未经省察的人生不值得过。"这句话听起来严苛，其实恰恰相反——省察不是审判，而是解放。当你开始追问，你就已经开始改变。哲学咨询不是只有"病了"才来——它是给每一个认真对待自己生命的人准备的。你只需要带着困惑和诚意来。如果你不确定自己是否适合，不妨从预咨询开始。30 分钟，一杯茶的时间，不收费，没有后续义务。我们聊聊。',
+      ? 'Perhaps you find yourself in a moment of confusion — unsure which path to take, uncertain whether a relationship should continue or end, not knowing what you are doing, why you are doing it, or whether it is worth doing. Perhaps you only have a vague sense that "something is off," but cannot quite articulate it. These feelings are all where philosophy begins. Socrates said: "The unexamined life is not worth living." This sounds harsh, but the opposite is true — examination is not judgment; it is liberation. The moment you begin to question, you have already begun to change. Philosophical counseling is not only for those who are "ill" — it is for everyone who takes their life seriously. You only need to come with your confusion and your sincerity. If you are unsure whether this is right for you, why not begin with a pre-consultation? Fifteen minutes, the time it takes for a cup of tea, free of charge, with no further obligation. Let us talk.'
+      : '也许你正处在一段困惑中——不知道该选哪条路，不知道一段关系该继续还是结束，不知道自己在做什么、为什么做、值不值得做。也许你只是隐约感到，"哪里不对"，却又说不清楚。这些感受，都是哲学开始的地方。苏格拉底说："未经省察的人生不值得过。"这句话听起来严苛，其实恰恰相反——省察不是审判，而是解放。当你开始追问，你就已经开始改变。哲学咨询不是只有"病了"才来——它是给每一个认真对待自己生命的人准备的。你只需要带着困惑和诚意来。如果你不确定自己是否适合，不妨从预咨询开始。15 分钟，一杯茶的时间，不收费，没有后续义务。我们聊聊。',
 
     footerNote: isEn
       ? 'Liangzhi · May 2026 · Guangzhou. Information on this page is subject to change without notice. Please refer to the latest version.'
