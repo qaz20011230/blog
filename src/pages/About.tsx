@@ -28,7 +28,7 @@ export function Component() {
   const content = {
     pageTitle: isEn ? 'About | Consultation — Liang.World' : '关于 | 哲学咨询 — 良之世界',
     heroTitle: isEn ? 'Liangzhi · Philosophical Consultation' : '良之 · 咨询预约',
-    heroSub: isEn ? 'PhD in Linguistics, University of Edinburgh · Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd. · PI, Phaenarete ASI Lab · APPA Affiliate Member · IPP Research Assistant' : '爱丁堡大学语言学博士 · 广州菲娜睿特人工智能科技有限责任公司联合创始人 · 菲娜睿特专深人工智能实验室首席研究员 · APPA附属会员 · 法国哲学践行研究所研究助理',
+    heroSub: isEn ? 'Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd. · PI, Phaenarete ASI Lab · APPA Affiliate Member · IPP Research Assistant' : '广州菲娜睿特人工智能科技有限责任公司联合创始人 · 菲娜睿特专深人工智能实验室首席研究员 · APPA附属会员 · 法国哲学践行研究所研究助理',
     consultationBadge: isEn ? 'PHILOSOPHICAL PRACTICE OPEN TO THE WORLD' : '哲学践行向全世界开放',
 
     philosLabel: isEn ? 'Philosophy' : '哲学理念',
@@ -64,9 +64,6 @@ export function Component() {
       isEn
         ? 'Ang Li (Liangzhi) — philosophical practitioner, researcher in AI and energy technology.'
         : '良之（Ang Li），哲学践行者，人工智能与能源科技研究者。',
-      isEn
-        ? 'PhD in Linguistics, University of Edinburgh.'
-        : '爱丁堡大学语言学博士。',
       isEn
         ? 'PI, Phaenarete ASI Lab.'
         : '菲娜睿特专深人工智能实验室首席研究员。',
