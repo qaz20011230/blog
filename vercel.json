@@ -38,16 +38,6 @@
     },
     {
       "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "gaokaomath.liang.world"
-        }
-      ],
-      "destination": "/gaokaomath/index.html"
-    },
-    {
-      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]

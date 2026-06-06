@@ -200,7 +200,7 @@ By then, Phaenarete will no longer be a单纯 energy or AI company, but the "lig
 
 ### Commitment Content
 
-Phaenarete solemnly commits: by the 2027 National College Entrance Examination (高考), an AI system based on the Tendre architecture will achieve a perfect score on the **National卷 College Entrance Examination Mathematics Paper**.
+Phaenarete solemnly commits: by the 2027 National College Entrance Examination (), an AI system based on the Tendre architecture will achieve a perfect score on the **National卷 College Entrance Examination Mathematics Paper**.
 
 This is not a marketing gimmick. This is the first large-scale public verification of the Tendre Ineluctability Theorem—for any mathematics problem, no matter how the question setters vary their approach, as long as the problem has a logically确定 answer, the Tendre architecture will produce the correct reasoning process.
 

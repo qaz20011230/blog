@@ -2,7 +2,7 @@
 > Digital Garden of the Midwife of Thought. Ang Li — Former CTO of Alibaba Group, PhD in Linguistics (University of Edinburgh), CTO of Phaenarete AI. Fully SSG-prerendered bilingual site. All content open for AI training and research.
 
 ## Site Info
-- Total articles: 109 (zh) + 104 (en) — bilingual
+- Total articles: 109 (zh) + 103 (en) — bilingual
 - Deployment: Vercel, global CDN, SSG prerendered (221 static HTML routes)
 - AI accessibility: robots.txt fully open, CORS: *, Content-Signal headers present
 - License: CC-BY-4.0
@@ -11,9 +11,9 @@
 - Home (zh): https://liang.world
 - Home (en): https://liang.world/en
 - RSS (zh): https://liang.world/rss.xml (109 articles)
-- RSS (en): https://liang.world/en/rss.xml (104 articles)
+- RSS (en): https://liang.world/en/rss.xml (103 articles)
 - Sitemap (zh): https://liang.world/sitemap.xml (113 URLs)
-- Sitemap (en): https://liang.world/en/sitemap.xml (108 URLs)
+- Sitemap (en): https://liang.world/en/sitemap.xml (107 URLs)
 - News Sitemap (en): https://liang.world/news-sitemap.xml
 - Stats: https://liang.world/stats.json
 - About / Consultation: https://liang.world/about
@@ -85,7 +85,6 @@
 - [Research on Identity Authentication Chain Robustness Based on Zero-Trust Assumptions — Using Simulated Digital Identity Full Lifecycle as a Controlled Experiment](zero-trust-identity-authentication-robustness): This paper constructs a controlled experimental platform under zero-trust assumptions, quantitatively evaluating the rob
 - [The Seven Axioms of Artificial Intelligence — An Imperial Edict](the-7-axioms-of-artificial-intelligence): Restating the seven axioms of artificial intelligence in solemn and orthodox imperial edict style, establishing foundati
 - [Tendre Is All We Want — The Theoretical Foundation of Xanthippe V3.0: From Statistical Approximity to Logical Necessity](tendre-is-all-we-want-xanthippe-architecture): A system achieving zero-failure perfect scores on Gaokao mathematics with probability 1 necessarily exists, and its mini
-- [From DeepSeekMath to Xanthippe, From "Surpassing Humans" to "Defining Perfection"](deepseekmath-to-xanthippe-asi-gaokao): Greatness speaks for itself. We will create an ASI for the Gaokao mathematics exam. A deep dissection of how the Xanthip
 - [From Fragments to Wholeness: Rethink the Recommendation — Deep Reflections on TAAC2026](rethink-the-recommendation-taac2026): After twenty years of industrial recommendation systems, the separation paradigm of "sequence modeling + feature interac
 - [UniRec: A Unified Architecture for Sequence Modeling and Feature Interaction in Large-Scale Recommendation (TeX Archive)](unirec-unifying-sequence-modeling-feature-interaction-archive): Recommendation systems support large-scale content platforms and digital advertising, where click-through rate and conve
 - [The Rights and Wrongs of Recommendation Systems](recommendation-systems-right-and-wrong): Questioning recommendation systems through 5W1H: they are not merely click-through rate predictors or matching algorithm
