@@ -27,8 +27,8 @@ export function Component() {
 
   const content = {
     pageTitle: isEn ? 'About | Consultation — Liang.World' : '关于 | 哲学咨询 — 良之世界',
-    heroTitle: isEn ? 'Liangzhi · Philosophical Consultation' : '良之 · 咨询预约',
-    heroSub: isEn ? 'PhD in Linguistics, University of Edinburgh · Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd. · PI, Phaenarete ASI Lab · APPA Affiliate Member · IPP Research Assistant' : '爱丁堡大学语言学博士 · 广州菲娜睿特人工智能科技有限责任公司联合创始人 · 菲娜睿特专深人工智能实验室首席研究员 · APPA附属会员 · 法国哲学践行研究所研究助理',
+    heroTitle: isEn ? 'Dr. Liangzhi · Philosophical Consultation' : '良之博士 · 咨询预约',
+    heroSub: isEn ? 'PhD in Linguistics, University of Edinburgh · Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd. · PI, Phaenarete ASI Lab' : '爱丁堡大学语言学博士 · 广州菲娜睿特人工智能科技有限责任公司联合创始人 · 菲娜睿特专深人工智能实验室首席研究员',
     consultationBadge: isEn ? 'PHILOSOPHICAL PRACTICE OPEN TO THE WORLD' : '哲学践行向全世界开放',
 
     philosLabel: isEn ? 'Philosophy' : '哲学理念',
@@ -62,32 +62,17 @@ export function Component() {
     bioLabel: isEn ? 'About the Consultant' : '咨询师简介',
     bioItems: [
       isEn
-        ? 'Ang Li (Liangzhi) — philosophical practitioner, researcher in AI and energy technology.'
-        : '良之（Ang Li），哲学践行者，人工智能与能源科技研究者。',
-      isEn
-        ? 'PI, Phaenarete ASI Lab.'
-        : '菲娜睿特专深人工智能实验室首席研究员。',
+        ? 'Dr. Ang Li (Liangzhi) — philosophical practitioner, researcher in AI and energy technology.'
+        : '良之博士（Ang Li），哲学践行者，人工智能与能源科技研究者。',
       isEn
         ? 'PhD in Linguistics, University of Edinburgh.'
         : '爱丁堡大学语言学博士。',
       isEn
-        ? 'Bachelor of Management, Guangdong University of Technology.'
-        : '广东工业大学管理学学士。',
-      isEn
-        ? 'Affiliate Member, American Philosophical Practitioners Association (APPA).'
-        : '美国哲学从业者协会（APPA）附属会员。',
-      isEn
-        ? 'Research Assistant, Institut de Pratiques Philosophiques (IPP), France.'
-        : '法国哲学践行研究所（Institut de Pratiques Philosophiques）研究助理。',
-      isEn
-        ? 'Speaker at the 2026 APPA Annual Conference. Presentation: "The Seven Virtues of the North Star."'
-        : '2026 年 APPA 年会讲演者，报告主题：The Seven Virtues of the North Star。',
-      isEn
-        ? 'Author of The Biography of Li Sheng; translator of Philosophical Counseling and The Unthinkable Guide to Argumentation.'
-        : '著有《李晟传》，译有《哲学咨询》《不可思议的论证指南》。',
-      isEn
         ? 'Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd.'
         : '广州菲娜睿特人工智能科技有限责任公司联合创始人。',
+      isEn
+        ? 'PI, Phaenarete ASI Lab.'
+        : '菲娜睿特专深人工智能实验室首席研究员。',
     ],
 
     slotsLabel: isEn ? 'Open Slots' : '开放名额',
