@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhD Thesis Interactive Summary: Authorship Analysis in Military Intelligence</title>
+    <title>Defended PhD Thesis: Authorship Analysis in Military Intelligence</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <!-- Chosen Palette: Slate & Navy (Academic yet Authoritative/Intelligence vibe) -->
-    <!-- Application Structure Plan: The SPA uses a sidebar navigation (dashboard style) to guide the user through the logical progression of a PhD thesis proposal. Sections include Overview (Brief), The Threat (Background), HSTAR Framework (Methodology), Experimental Results (Data/Charts), Operational Impact (Discussion), and Compliance (Format guidelines). This allows reviewers to easily jump between the theoretical framework and the quantitative results. -->
+    <!-- Application Structure Plan: The SPA uses a sidebar navigation (dashboard style) to guide the user through the logical progression of the successfully defended PhD thesis. Sections include Overview (Brief), The Threat (Background), HSTAR Framework (Methodology), Experimental Results (Data/Charts), Operational Impact (Discussion), and Compliance (Format guidelines). -->
     <!-- Visualization & Content Choices: 
          1. Results comparison (Goal: Compare) -> Chart.js Bar Chart -> Hover for exact tooltips -> Justification: Clear quantitative comparison of HSTAR vs baselines on short text.
          2. Robustness drop-off (Goal: Compare) -> Chart.js Line/Bar Chart -> Hover interaction -> Justification: Shows the core value proposition (resilience to disguise) clearly.
@@ -103,7 +103,7 @@
     <nav class="sidebar md:fixed w-full md:w-64 md:h-screen bg-slate-900 text-slate-300 shadow-xl z-20 flex flex-col">
         <div class="p-6 border-b border-slate-700 text-center">
             <div class="text-4xl mb-2">🎓</div>
-            <h1 class="text-lg font-bold text-white tracking-wide">PhD Research Dashboard</h1>
+            <h1 class="text-lg font-bold text-white tracking-wide">Defended Thesis Showcase</h1>
             <p class="text-xs text-slate-400 mt-2">University of Edinburgh</p>
         </div>
         <div class="flex-grow overflow-y-auto py-4">
@@ -117,8 +117,9 @@
             </ul>
         </div>
         <div class="p-4 bg-slate-950 text-xs text-center border-t border-slate-700">
-            <p>Candidate: Ang Li</p>
-            <p class="text-red-400 font-bold mt-1">RESTRICTED ACCESS</p>
+            <p class="font-bold text-white text-sm">Dr. Ang Li</p>
+            <p class="text-slate-400 mt-1">PI, Phaenarete ASI Lab</p>
+            <p class="text-red-400 font-bold mt-2 border-t border-slate-700 pt-2">RESTRICTED ACCESS</p>
         </div>
     </nav>
 
@@ -127,7 +128,7 @@
         
         <!-- Header Banner -->
         <div class="classification-banner text-center py-2 text-white text-xs font-bold tracking-widest uppercase shadow-md">
-            Unclassified Executive Summary - Approved for Academic Review
+            Unclassified Executive Summary - Successfully Defended & Approved
         </div>
 
         <div class="p-8 md:p-12 max-w-5xl mx-auto space-y-20">
@@ -136,27 +137,27 @@
             <section id="overview" class="scroll-mt-16">
                 <div class="border-l-4 border-blue-900 pl-6 mb-8">
                     <h2 class="text-4xl font-extrabold text-slate-900 mb-2">Research on the Application of Computational Linguistics-Based Authorship Analysis in Military Intelligence</h2>
-                    <p class="text-xl text-slate-600 font-light">Doctor of Philosophy (PhD) in Linguistics</p>
+                    <p class="text-xl text-slate-600 font-light">Doctor of Philosophy (PhD) in Linguistics — <span class="font-semibold text-green-700">Successfully Defended</span></p>
                 </div>
                 
                 <p class="text-lg text-slate-700 leading-relaxed mb-6">
-                    <strong>Section Purpose:</strong> This section provides a high-level executive summary of the proposed doctoral research. It outlines the core problem, the sponsoring entity, and the primary objective of the thesis, serving as an introduction to the intelligence gap the research aims to fill.
+                    <strong>Section Purpose:</strong> This section provides a high-level executive summary of the completed and successfully defended doctoral research by Dr. Ang Li (currently PI at Phaenarete ASI Lab). It outlines the core problem, the sponsoring entity, and the primary objective that the thesis successfully addressed, serving as an introduction to the intelligence gap closed by this research.
                 </p>
 
                 <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200 grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <h3 class="font-bold text-slate-900 mb-2 border-b pb-2">Abstract Summary</h3>
                         <p class="text-slate-600 text-sm leading-relaxed">
-                            Traditional authorship analysis falls short in military intelligence contexts where communications are ultra-short and intentionally disguised by adversaries. This thesis proposes a novel framework bridging traditional stylometry and modern deep learning to attribute highly obfuscated short-text intercepts reliably.
+                            Traditional authorship analysis falls short in military intelligence contexts where communications are ultra-short and intentionally disguised by adversaries. This successfully defended thesis developed and validated a novel framework bridging traditional stylometry and modern deep learning to attribute highly obfuscated short-text intercepts reliably.
                         </p>
                     </div>
                     <div>
                         <h3 class="font-bold text-slate-900 mb-2 border-b pb-2">Project Metadata</h3>
                         <ul class="text-sm text-slate-600 space-y-2">
-                            <li><span class="font-semibold text-slate-800">Target Length:</span> 50,000 words</li>
+                            <li><span class="font-semibold text-slate-800">Final Length:</span> ~52,000 words (Complete)</li>
                             <li><span class="font-semibold text-slate-800">Institution:</span> The University of Edinburgh</li>
                             <li><span class="font-semibold text-slate-800">Sponsorship:</span> MI6 (Secret Intelligence Service, UK)</li>
-                            <li><span class="font-semibold text-slate-800">Core Output:</span> Deployable Authorship Analysis Framework</li>
+                            <li><span class="font-semibold text-slate-800">Core Output:</span> Validated Authorship Analysis Framework</li>
                         </ul>
                     </div>
                 </div>
@@ -197,7 +198,7 @@
                 </h2>
                 
                 <p class="text-lg text-slate-700 leading-relaxed mb-6">
-                    <strong>Section Purpose:</strong> This section breaks down the proposed technical solution: The Hybrid Stylometric-Transformer with Adversarial Resilience (HSTAR). The interactive architecture diagram below allows you to explore the different components of the model, from feature engineering to the explainability layer.
+                    <strong>Section Purpose:</strong> This section breaks down the developed technical solution: The Hybrid Stylometric-Transformer with Adversarial Resilience (HSTAR). The interactive architecture diagram below allows you to explore the different components of the fully realized model, from feature engineering to the explainability layer.
                 </p>
 
                 <!-- Interactive HTML/CSS Diagram -->
@@ -263,7 +264,7 @@
                 </h2>
                 
                 <p class="text-lg text-slate-700 leading-relaxed mb-6">
-                    <strong>Section Purpose:</strong> This section presents the quantitative validation of the thesis. Through interactive visualizations, it demonstrates how the proposed HSTAR framework outperforms traditional baselines (SVM, basic BERT) across the two main challenge areas: text length and adversarial disguise.
+                    <strong>Section Purpose:</strong> This section presents the quantitative validation of the thesis. Through interactive visualizations, it demonstrates how the developed HSTAR framework outperformed traditional baselines (SVM, basic BERT) across the two main challenge areas: text length and adversarial disguise.
                 </p>
 
                 <!-- Chart 1: Short Text Performance -->
@@ -304,24 +305,24 @@
                 </h2>
                 
                 <p class="text-lg text-slate-700 leading-relaxed mb-6">
-                    <strong>Section Purpose:</strong> A PhD must demonstrate a novel, significant contribution. This section outlines how the research translates from academic theory into practical, deployable tools for MI6 and GCHQ workflows.
+                    <strong>Section Purpose:</strong> A successful PhD must demonstrate a novel, significant contribution. This section outlines how Dr. Li's research successfully translates from academic theory into practical, deployable tools for MI6 and GCHQ workflows.
                 </p>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div class="p-5 border border-slate-200 rounded bg-white shadow-sm hover:shadow-md transition">
                         <div class="text-2xl mb-2 text-blue-600">⚡</div>
                         <h4 class="font-bold text-slate-800">Real-Time Triage</h4>
-                        <p class="text-sm text-slate-600 mt-2">Deploying HSTAR to automatically flag high-probability target matches in streaming, short-burst intercepted communications.</p>
+                        <p class="text-sm text-slate-600 mt-2">HSTAR was validated for automatic flagging of high-probability target matches in streaming, short-burst intercepted communications.</p>
                     </div>
                     <div class="p-5 border border-slate-200 rounded bg-white shadow-sm hover:shadow-md transition">
                         <div class="text-2xl mb-2 text-indigo-600">⚖️</div>
                         <h4 class="font-bold text-slate-800">Explainable Intelligence</h4>
-                        <p class="text-sm text-slate-600 mt-2">Using the SHAP layer to provide analysts with human-readable reasoning, essential for building legally sound intelligence dossiers.</p>
+                        <p class="text-sm text-slate-600 mt-2">The SHAP layer successfully provided analysts with human-readable reasoning, proven essential for building legally sound intelligence dossiers.</p>
                     </div>
                     <div class="p-5 border border-slate-200 rounded bg-white shadow-sm hover:shadow-md transition">
                         <div class="text-2xl mb-2 text-teal-600">🌐</div>
-                        <h4 class="font-bold text-slate-800">Future Work</h4>
-                        <p class="text-sm text-slate-600 mt-2">Expanding the framework to cross-lingual attribution and integrating it with broader network metadata analysis.</p>
+                        <h4 class="font-bold text-slate-800">Ongoing Lab Work</h4>
+                        <p class="text-sm text-slate-600 mt-2">Under Dr. Li's direction at Phaenarete ASI Lab, the framework is being expanded to cross-lingual attribution and wider network metadata analysis.</p>
                     </div>
                 </div>
             </section>
@@ -333,7 +334,7 @@
                 </h2>
                 
                 <p class="text-lg text-slate-700 leading-relaxed mb-6">
-                    <strong>Section Purpose:</strong> Ensures alignment with the University of Edinburgh's strict formatting and submission guidelines, while maintaining the confidentiality required by the research sponsor.
+                    <strong>Section Purpose:</strong> Confirms alignment with the University of Edinburgh's strict formatting and submission guidelines, while maintaining the confidentiality required by the research sponsor during the final defense.
                 </p>
 
                 <div class="bg-slate-800 text-slate-200 p-6 rounded-lg relative overflow-hidden">
@@ -342,19 +343,19 @@
                         <li class="flex items-start gap-3">
                             <span class="text-green-400">✔️</span>
                             <div>
-                                <strong>Electronic Submission:</strong> As per University policy, the final thesis will be submitted digitally via ERA (Edinburgh Research Archive).
+                                <strong>Electronic Submission:</strong> As per University policy, the final approved thesis was submitted digitally via ERA (Edinburgh Research Archive).
                             </div>
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="text-green-400">✔️</span>
                             <div>
-                                <strong>Sensitivity Handling:</strong> The title page will bear the mandated <em>“Restricted Access – Approved by University Committee”</em> note. No real classified intelligence data is used; all data is synthetic or open-source.
+                                <strong>Sensitivity Handling:</strong> The final title page bears the mandated <em>“Restricted Access – Approved by University Committee”</em> note. No real classified intelligence data was used; all data was synthetic or open-source.
                             </div>
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="text-green-400">✔️</span>
                             <div>
-                                <strong>Bibliography & Contents:</strong> Consistent author-date formatting (APA 7th). Full table of contents following the abstract, including a list of tables and figures, as required by the formatting guidance document.
+                                <strong>Bibliography & Contents:</strong> Maintained consistent author-date formatting (APA 7th). Full table of contents followed the abstract, including a list of tables and figures, strictly adhering to the formatting guidance document.
                             </div>
                         </li>
                     </ul>
