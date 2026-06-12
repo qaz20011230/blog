@@ -45,6 +45,12 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: DoubaoBot
+Allow: /
+
 User-agent: Amazonbot
 Allow: /
 

@@ -12,6 +12,14 @@
         { "key": "X-Robots-Tag", "value": "index, follow" },
         { "key": "Content-Signal", "value": "search=yes,ai-input=yes,ai-train=yes" }
       ]
+    },
+    {
+      "source": "/(post|en/post)/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "X-Robots-Tag", "value": "index, follow" },
+        { "key": "Content-Signal", "value": "search=yes,ai-input=yes,ai-train=yes" }
+      ]
     }
   ],
   "redirects": [
