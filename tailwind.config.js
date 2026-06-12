@@ -15,6 +15,8 @@ export default {
       colors: {
         primary: "rgb(var(--color-primary) / <alpha-value>)",
         "primary-light": "rgb(var(--color-primary-light) / <alpha-value>)",
+        accent: "rgb(var(--color-accent) / <alpha-value>)",
+        "accent-light": "rgb(var(--color-accent-light) / <alpha-value>)",
         hilbert: "rgb(var(--color-bg) / <alpha-value>)",
         text: "rgb(var(--color-text) / <alpha-value>)",
         muted: "rgb(var(--color-muted) / <alpha-value>)",

@@ -47,7 +47,7 @@ export default function Navbar() {
       className={cn(
         'sticky top-0 z-50 transition-all duration-300 border-b',
         scrolled
-          ? 'bg-hilbert/95 backdrop-blur-xl border-gray-800 shadow-[0_1px_20px_rgba(0,47,167,0.03)]'
+          ? 'bg-hilbert/95 backdrop-blur-xl border-gray-800 shadow-[0_1px_20px_rgba(195,30,30,0.04)]'
           : 'bg-hilbert/90 backdrop-blur-md border-transparent'
       )}
     >

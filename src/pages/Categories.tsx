@@ -46,11 +46,11 @@ export function Component() {
         {t(UI.categories.heading.zh, UI.categories.heading.en)}
       </h1>
       <div className="flex flex-wrap gap-3 mb-12">
-        <button onClick={() => handleCategoryChange('All')} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === 'All' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
+        <button onClick={() => handleCategoryChange('All')} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === 'All' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(195,30,30,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
           {t(UI.categories.all.zh, UI.categories.all.en)}
         </button>
         {categories.map(cat => (
-          <button key={cat} onClick={() => handleCategoryChange(cat)} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === cat ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
+          <button key={cat} onClick={() => handleCategoryChange(cat)} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === cat ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(195,30,30,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
             {cat}
           </button>
         ))}
