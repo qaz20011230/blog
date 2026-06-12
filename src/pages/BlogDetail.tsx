@@ -66,6 +66,7 @@ export async function loader({ params, request }: LoaderFunctionArgs): Promise<P
 export function Component() {
   const data = useLoaderData() as PostData | null;
   const navigate = useNavigate();
+  const location = useLocation();
   const { locale, t } = useLanguage();
   const progress = useScrollProgress();
 
@@ -108,7 +109,7 @@ export function Component() {
           author: { '@type': 'Person', name: 'Ang Li', url: 'https://liang.world/about' },
           publisher: { '@type': 'Person', name: 'Ang Li', url: 'https://liang.world/about' },
           image: 'https://liang.world/favicon.jpg',
-          url: `https://liang.world${useLocation().pathname}`,
+          url: `https://liang.world${location.pathname}`,
           inLanguage: locale === 'zh' ? 'zh-CN' : 'en',
           keywords: post.tags.join(', '),
         })}</script>
@@ -117,7 +118,7 @@ export function Component() {
           '@type': 'BreadcrumbList',
           itemListElement: [
             { '@type': 'ListItem', position: 1, name: locale === 'zh' ? '良之世界' : 'Liang.World', item: locale === 'zh' ? 'https://liang.world' : 'https://liang.world/en' },
-            { '@type': 'ListItem', position: 2, name: post.title, item: `https://liang.world${useLocation().pathname}` },
+            { '@type': 'ListItem', position: 2, name: post.title, item: `https://liang.world${location.pathname}` },
           ],
         })}</script>
       </Head>

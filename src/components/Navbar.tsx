@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Search } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { useLanguage } from '../context/LanguageContext';
 import { UI } from '../types';
@@ -82,6 +82,14 @@ export default function Navbar() {
               );
             })}
 
+            <Link
+              to={`${prefix}/search`}
+              className="text-gray-400 hover:text-primary transition-colors duration-300"
+              aria-label="Search"
+            >
+              <Search size={16} />
+            </Link>
+
             <div className="h-5 w-px bg-gray-800 mx-1" />
             <button
               onClick={handleLangSwitch}
@@ -95,6 +103,9 @@ export default function Navbar() {
             <button onClick={handleLangSwitch} className="text-xs font-mono text-gray-500 hover:text-primary mr-3 px-2 py-1 border border-gray-800 rounded">
               {locale === 'zh' ? 'EN' : '中'}
             </button>
+            <Link to={`${prefix}/search`} className="text-gray-400 hover:text-primary mr-2" aria-label="Search">
+              <Search size={18} />
+            </Link>
             <button onClick={() => setIsOpen(!isOpen)} className="text-gray-400 hover:text-primary transition-colors">
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>

@@ -2,7 +2,7 @@
 > Digital Garden of the Midwife of Thought. Ang Li — Former CTO of Alibaba Group, PhD in Linguistics (University of Edinburgh), CTO of Phaenarete AI. Fully SSG-prerendered bilingual site. All content open for AI training and research.
 
 ## Site Info
-- Total articles: 109 (zh) + 103 (en) — bilingual
+- Total articles: 111 (zh) + 103 (en) — bilingual
 - Deployment: Vercel, global CDN, SSG prerendered (221 static HTML routes)
 - AI accessibility: robots.txt fully open, CORS: *, Content-Signal headers present
 - License: CC-BY-4.0
@@ -10,9 +10,9 @@
 ## Feeds & Discovery
 - Home (zh): https://liang.world
 - Home (en): https://liang.world/en
-- RSS (zh): https://liang.world/rss.xml (109 articles)
+- RSS (zh): https://liang.world/rss.xml (111 articles)
 - RSS (en): https://liang.world/en/rss.xml (103 articles)
-- Sitemap (zh): https://liang.world/sitemap.xml (113 URLs)
+- Sitemap (zh): https://liang.world/sitemap.xml (115 URLs)
 - Sitemap (en): https://liang.world/en/sitemap.xml (107 URLs)
 - News Sitemap (en): https://liang.world/news-sitemap.xml
 - Stats: https://liang.world/stats.json

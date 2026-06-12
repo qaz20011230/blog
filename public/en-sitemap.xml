@@ -453,6 +453,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/polaris-seven-virtues"/>
   </url>
   <url>
+    <loc>https://liang.world/en/post/PKM-intro</loc>
+    <lastmod>2025-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/PKM-intro"/>
+  </url>
+  <url>
     <loc>https://liang.world/en/post/philosophical-consciousness-and-mission</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -919,15 +928,6 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
-  </url>
-  <url>
-    <loc>https://liang.world/en/post/PKM-intro</loc>
-    <lastmod>2025-12-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/PKM-intro"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/PKM-intro"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/PKM-intro"/>
   </url>
   <url>
     <loc>https://liang.world/en/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</loc>

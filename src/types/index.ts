@@ -58,62 +58,6 @@ export const UI = {
     empty: { zh: '[ 档案馆当前为空 ]', en: '[ The archive is currently empty ]' },
     readPdf: { zh: '阅读PDF', en: 'READ_PDF' },
   },
-  about: {
-    title: { zh: '关于良之 | 良之世界', en: 'About | Liang.World' },
-    name: { zh: '良之', en: 'LeoZ' },
-    nameSub: { zh: 'Ang Li', en: 'Ang Li' },
-    role: { zh: '阿里巴巴前首席技术官 | 菲娜睿特AI首席技术官', en: 'Former Alibaba CTO | CTO of Phaenarete AI' },
-    location: { zh: '广州 / 杭州', en: 'Guangzhou / Hangzhou' },
-    contact: { zh: '联系方式', en: 'Contact' },
-    email: { zh: 'contact@liang.world', en: 'contact@liang.world' },
-    github: { zh: 'github.com/qaz20011230', en: 'github.com/qaz20011230' },
-    bio: {
-      zh: '思想助产士。阿里巴巴前首席技术官。融合精神分析、哲学践行、语言学与人工智能，致力于以认知之光穿透黑暗，以技术之火点燃未来。',
-      en: 'Midwife of Thought. Former CTO of Alibaba Group. Bridging psychoanalysis, philosophical practice, linguistics, and artificial intelligence — illuminating cognition and igniting the future through technology.',
-    },
-    career: {
-      heading: { zh: '职业经历', en: 'Career' },
-      items: [
-        {
-          title: { zh: '首席技术官', en: 'Chief Technology Officer' },
-          org: { zh: '广州菲娜睿特人工智能科技有限责任公司', en: 'Guangzhou Phaenarete AI Technology Co., Ltd.' },
-          period: { zh: '2025 – 至今', en: '2025 – Present' },
-          highlight: true,
-        },
-        {
-          title: { zh: '前首席技术官', en: 'Former Chief Technology Officer' },
-          org: { zh: '阿里巴巴网络有限公司', en: 'Alibaba Group' },
-          period: { zh: '', en: '' },
-          highlight: true,
-        },
-      ],
-    },
-    education: {
-      heading: { zh: '教育背景', en: 'Education' },
-      items: [
-        {
-          degree: { zh: '管理学学士', en: 'Bachelor of Management' },
-          school: { zh: '广东工业大学', en: 'Guangdong University of Technology' },
-          period: { zh: '', en: '' },
-        },
-      ],
-    },
-    expertise: {
-      heading: { zh: '研究领域与技能', en: 'Areas of Expertise' },
-      autoBuilt: { zh: '（以下数据基于博客内容自动生成）', en: '(Auto-generated from blog content)' },
-    },
-    writings: {
-      heading: { zh: '代表著述', en: 'Selected Writings' },
-      autoBuilt: { zh: '（以下筛选自最新博文）', en: '(Selected from recent posts)' },
-      viewAll: { zh: '查看全部文章 →', en: 'View All Posts →' },
-    },
-    stats: {
-      heading: { zh: '网站统计', en: 'Site Stats' },
-      posts: { zh: '篇文章', en: ' posts' },
-      tags: { zh: '个标签', en: ' tags' },
-      categories: { zh: '个领域', en: ' categories' },
-    },
-  },
   footer: {
     copyright: { zh: '版权所有', en: 'All rights reserved' },
     stats: {

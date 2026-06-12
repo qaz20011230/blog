@@ -6,8 +6,13 @@ import path from 'node:path'
 
 function allRoutes() {
   const idxPath = path.resolve('src/content/posts-index.json')
-  const idx = JSON.parse(fs.readFileSync(idxPath, 'utf-8'))
-  const base = ['/', '/categories', '/books', '/about', '/en', '/en/categories', '/en/books', '/en/about']
+  let idx: { zh: { slug: string }[]; en: { slug: string }[] }
+  try {
+    idx = JSON.parse(fs.readFileSync(idxPath, 'utf-8'))
+  } catch {
+    idx = { zh: [], en: [] }
+  }
+  const base = ['/', '/categories', '/books', '/about', '/search', '/en', '/en/categories', '/en/books', '/en/about', '/en/search']
   const zh = idx.zh.map((p) => `/post/${p.slug}`)
   const en = idx.en.map((p) => `/en/post/${p.slug}`)
   return [...base, ...zh, ...en]

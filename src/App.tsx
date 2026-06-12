@@ -8,6 +8,7 @@ function localeChildren(): RouteRecord[] {
     { path: 'categories', lazy: () => import('./pages/Categories') },
     { path: 'books', lazy: () => import('./pages/Books') },
     { path: 'about', lazy: () => import('./pages/About') },
+    { path: 'search', lazy: () => import('./pages/Search') },
   ];
 }
 

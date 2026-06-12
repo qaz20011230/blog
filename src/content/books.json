@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": { "zh": "我懂你", "en": "I Understand You" },
+    "author": { "zh": "良之", "en": "Ang Li" },
+    "description": {
+      "zh": "深度洞察人性的本质与社会互动的底层逻辑。",
+      "en": "A profound insight into the nature of humanity and the underlying logic of social interaction."
+    },
+    "year": "2024",
+    "pdfUrl": "/books/wo-dong-ni.pdf"
+  },
+  {
+    "id": 2,
+    "title": {
+      "zh": "李晟传：再造社稷的大唐忠武",
+      "en": "Li Sheng: The Loyal Warrior Who Reforged the Tang Dynasty"
+    },
+    "author": { "zh": "良之", "en": "Ang Li" },
+    "description": {
+      "zh": "中唐名将李晟的生平传记，深还原一位挽狂澜于既倒、扶大厦之将倾的铁血忠魂。",
+      "en": "A biography of Li Sheng, the great Tang general who saved the dynasty from collapse, restoring the empire through unwavering loyalty and martial prowess."
+    },
+    "year": "2025",
+    "pdfUrl": "/books/lisheng-biography.pdf"
+  },
+  {
+    "id": 3,
+    "title": {
+      "zh": "Artificial：技艺、智能与第二自然",
+      "en": "Artificial: Craft, Intelligence, and Second Nature"
+    },
+    "author": { "zh": "良之", "en": "Ang Li" },
+    "description": {
+      "zh": "从词源、古典哲学与中国工器传统出发，贯穿海德格尔、马克思、图灵、香农，重新夺回\u201c人工\u201d一词的尊严，提出专深人工智能（ASI）的完整定义与工程原则。",
+      "en": "Reclaiming the dignity of \"artificial\" — from etymology and classical philosophy through Heidegger, Marx, Turing, and Shannon, this treatise proposes a principled path toward Artificial Special Intelligence distinct from AGI."
+    },
+    "year": "2026",
+    "pdfUrl": "/books/Artificial.pdf"
+  }
+]

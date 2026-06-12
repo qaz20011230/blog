@@ -87,9 +87,17 @@
     <loc>https://liang.world/post/when-you-no-longer-want-to-dress-up-true-beauty-begins</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/when-you-no-longer-want-to-dress-up-true-beauty-begins"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/when-you-no-longer-want-to-dress-up-true-beauty-begins"/>
+  </url>
+  <url>
+    <loc>https://liang.world/post/what-is-reasoning</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/what-is-reasoning"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/what-is-reasoning"/>
   </url>
   <url>
     <loc>https://liang.world/post/what-is-philosophy</loc>
@@ -203,7 +211,7 @@
     <loc>https://liang.world/post/the-truth-and-dream-of-love</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/the-truth-and-dream-of-love"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/the-truth-and-dream-of-love"/>
   </url>
@@ -477,6 +485,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/polaris-seven-virtues"/>
   </url>
   <url>
+    <loc>https://liang.world/post/PKM-intro</loc>
+    <lastmod>2025-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/PKM-intro"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/PKM-intro"/>
+  </url>
+  <url>
     <loc>https://liang.world/post/philosophical-consciousness-and-mission</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -551,7 +568,7 @@
     <loc>https://liang.world/post/national-letter-and-messenger-why-i-keep-writing</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/national-letter-and-messenger-why-i-keep-writing"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/national-letter-and-messenger-why-i-keep-writing"/>
   </url>
@@ -638,7 +655,7 @@
   </url>
   <url>
     <loc>https://liang.world/post/light-energy-convergence-manifesto-communism-new-stage</loc>
-    <lastmod>Sat May 16 2026 08:00:00 GMT+0800 (China Standard Time)</lastmod>
+    <lastmod>Sat May 16 2026 08:00:00 GMT+0800 (中国标准时间)</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/light-energy-convergence-manifesto-communism-new-stage"/>
@@ -671,6 +688,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/key-value-memory-mnemosyne-to-silicon-intelligence"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/key-value-memory-mnemosyne-to-silicon-intelligence"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/key-value-memory-mnemosyne-to-silicon-intelligence"/>
+  </url>
+  <url>
+    <loc>https://liang.world/post/k80-pro-gaokao-math-perfect-score-xanthippe-r1</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/k80-pro-gaokao-math-perfect-score-xanthippe-r1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/k80-pro-gaokao-math-perfect-score-xanthippe-r1"/>
   </url>
   <url>
     <loc>https://liang.world/post/hilberts-tenth-problem-overview</loc>
@@ -728,7 +753,7 @@
   </url>
   <url>
     <loc>https://liang.world/post/finaret-fusion-mission-white-paper-2026</loc>
-    <lastmod>Wed May 06 2026 08:00:00 GMT+0800 (China Standard Time)</lastmod>
+    <lastmod>Wed May 06 2026 08:00:00 GMT+0800 (中国标准时间)</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/finaret-fusion-mission-white-paper-2026"/>
@@ -854,7 +879,7 @@
   </url>
   <url>
     <loc>https://liang.world/post/chasing-sun-stealing-fire-road-to-commercial-fusion</loc>
-    <lastmod>Sat May 16 2026 08:00:00 GMT+0800 (China Standard Time)</lastmod>
+    <lastmod>Sat May 16 2026 08:00:00 GMT+0800 (中国标准时间)</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/chasing-sun-stealing-fire-road-to-commercial-fusion"/>
@@ -892,13 +917,13 @@
     <loc>https://liang.world/post/asi-my-civilization-reading-history</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/asi-my-civilization-reading-history"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/asi-my-civilization-reading-history"/>
   </url>
   <url>
     <loc>https://liang.world/post/art-of-redundancy-from-doris-to-baza</loc>
-    <lastmod>Sun May 17 2026 08:00:00 GMT+0800 (China Standard Time)</lastmod>
+    <lastmod>Sun May 17 2026 08:00:00 GMT+0800 (中国标准时间)</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/art-of-redundancy-from-doris-to-baza"/>
@@ -967,15 +992,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/a-little-thing-called-looks-on-beauty-upbringing-and-the-bedrock-of-life"/>
-  </url>
-  <url>
-    <loc>https://liang.world/post/PKM-intro</loc>
-    <lastmod>2025-12-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://liang.world/en/post/PKM-intro"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://liang.world/post/PKM-intro"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://liang.world/post/PKM-intro"/>
   </url>
   <url>
     <loc>https://liang.world/post/21st-century-riemann-hypothesis-research-blueprint-computable-paths-arithmetic-inequalities</loc>

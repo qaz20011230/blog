@@ -10,7 +10,7 @@ import { cn } from '../lib/utils';
 export function Component() {
   const { locale, t } = useLanguage();
   const allPosts = getAllPosts(locale);
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const initialCategory = (searchParams.get('category') as Category) || 'All';
   const [selectedCategory, setSelectedCategory] = useState<Category | 'All'>(initialCategory);
 
@@ -27,6 +27,13 @@ export function Component() {
     if (cat && categories.includes(cat)) setSelectedCategory(cat);
   }, [searchParams, categories]);
 
+  const handleCategoryChange = (cat: Category | 'All') => {
+    setSelectedCategory(cat);
+    const params = new URLSearchParams();
+    if (cat !== 'All') params.set('category', cat);
+    setSearchParams(params, { replace: true });
+  };
+
   const filteredPosts = selectedCategory === 'All' ? allPosts : allPosts.filter(p => p.category === selectedCategory);
 
   return (
@@ -39,11 +46,11 @@ export function Component() {
         {t(UI.categories.heading.zh, UI.categories.heading.en)}
       </h1>
       <div className="flex flex-wrap gap-3 mb-12">
-        <button onClick={() => setSelectedCategory('All')} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === 'All' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
+        <button onClick={() => handleCategoryChange('All')} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === 'All' ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
           {t(UI.categories.all.zh, UI.categories.all.en)}
         </button>
         {categories.map(cat => (
-          <button key={cat} onClick={() => setSelectedCategory(cat)} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === cat ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
+          <button key={cat} onClick={() => handleCategoryChange(cat)} className={cn('px-4 py-1.5 border text-sm font-mono tracking-widest transition-all duration-300 uppercase', selectedCategory === cat ? 'bg-primary text-white border-primary shadow-[0_0_15px_rgba(0,47,167,0.3)]' : 'bg-transparent text-gray-400 border-gray-800 hover:border-primary hover:text-primary')}>
             {cat}
           </button>
         ))}

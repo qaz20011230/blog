@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://liang.world/post/network-versus-ability-real-relationship</loc>
+    <loc>https://liang.world/</loc>
     <news:news>
       <news:publication>
-        <news:name>良之世界 · Liang.World</news:name>
-        <news:language>zh</news:language>
+        <news:name>Liang.World</news:name>
+        <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-06-07T00:00:00.000Z</news:publication_date>
-      <news:title>专深能工智人：论人脉与能力的真实关系</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://liang.world/post/zetahalt-riemann-29-register-machine-halting-transformer</loc>
-    <news:news>
-      <news:publication>
-        <news:name>良之世界 · Liang.World</news:name>
-        <news:language>zh</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-06T00:00:00.000Z</news:publication_date>
-      <news:title>ZetaHalt：当黎曼猜想遇上寄存器机——一个离散等价形式的数学与计算分析</news:title>
+      <news:publication_date>2026-06-12T15:39:33.259Z</news:publication_date>
+      <news:title>Latest Articles</news:title>
     </news:news>
   </url>
 </urlset>
