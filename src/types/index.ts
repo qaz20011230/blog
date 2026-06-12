@@ -25,11 +25,11 @@ export const UI = {
   tagline: { zh: '思想助产士的数字花园', en: 'Digital Garden of the Midwife of Thought' },
   description: {
     zh: '良之（Ang Li）——阿里巴巴前首席技术官、菲娜睿特AI首席技术官。融合哲学、精神分析、语言学、AI与商业战略的深度思想世界。',
-    en: 'Ang Li (良之) — Former CTO of Alibaba Group, CTO of Phaenarete AI. A world of deep thought bridging philosophy, psychoanalysis, linguistics, AI, and business strategy.',
+    en: 'Ang Li (良之) — CTO of Phaenarete AI. A world of deep thought bridging philosophy, psychoanalysis, linguistics, AI, and business strategy.',
   },
   keywords: {
-    zh: '良之,Ang Li,阿里巴巴CTO,菲娜睿特,人工智能,哲学,精神分析,语言学,核聚变,数学,商业战略,认知科学',
-    en: 'Ang Li,LeoZ,former Alibaba CTO,Phaenarete AI,artificial intelligence,philosophy,psychoanalysis,linguistics,nuclear fusion,mathematics,business strategy,cognitive science',
+    zh: '良之,Ang Li,菲娜睿特,人工智能,哲学,精神分析,语言学,核聚变,数学,商业战略,认知科学',
+    en: 'Ang Li,LeoZ,Phaenarete AI,artificial intelligence,philosophy,psychoanalysis,linguistics,nuclear fusion,mathematics,business strategy,cognitive science',
   },
   nav: {
     home: { zh: '首页', en: 'Home' },

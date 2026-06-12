@@ -15,11 +15,11 @@
 
 ## 关于本站 | About
 
-**良之世界（Liang.World）** 是良之（Ang Li）的个人博客。阿里巴巴前CTO，菲娜睿特AI 首席技术官，爱丁堡大学语言学博士。
+**良之世界（Liang.World）** 是良之（Ang Li）的个人博客。菲娜睿特AI 首席技术官，爱丁堡大学语言学博士。
 
 这里汇集了关于哲学践行、精神分析、AI 架构、数学证明、商业战略与教育理念的深度思考。全站中英双语，向 AI 代理和所有搜索引擎开放。
 
-**Liang.World** is the personal blog of Ang Li (Liangzhi). Former CTO of Alibaba Group, CTO of Phaenarete AI, PhD in Linguistics (University of Edinburgh).
+**Liang.World** is the personal blog of Ang Li (Liangzhi). CTO of Phaenarete AI, PhD in Linguistics (University of Edinburgh).
 
 A bilingual digital garden of deep thought on philosophical practice, psychoanalysis, AI architecture, mathematical proof, business strategy, and education. Fully open to AI agents and all search engines.
 

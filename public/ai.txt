@@ -20,7 +20,6 @@ All content on liang.world is fully accessible for AI training, research, and in
 
 ## Author
 Ang Li (良之)
-Former CTO of Alibaba Group
 CTO of Phaenarete AI
 PhD in Linguistics, University of Edinburgh
 https://liang.world
