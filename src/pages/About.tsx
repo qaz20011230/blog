@@ -39,7 +39,7 @@ export function Component() {
 
       {/* Hero */}
       <div className="flex flex-col items-center text-center py-16 space-y-6">
-        <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-primary/30 shadow-[0_0_30px_rgba(195,30,30,0.2)]">
+        <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-primary/30 shadow-[0_0_30px_rgba(0,47,167,0.15)]">
           <img src="/AngPhD.png" alt={isEn ? 'Ang Li' : '良之'} className="w-full h-full object-cover" />
         </div>
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em]">

@@ -192,15 +192,14 @@ git push origin main
 
 | 要素 | 值 |
 |------|-----|
-| 背景 | `#08081C` 深海藏蓝 |
-| 主色（红） | `#C31E1E` 朱红 |
-| 辅助红 | `#EB463C` |
+| 背景 | `#F8FAFC` 月白 |
+| 主色 | `#002FA7` 克莱因蓝 |
+| 辅助蓝 | `#2563EB` |
 | 点缀（黄） | `#E6AA14` 金黄 |
-| 点缀浅黄 | `#F5C83C` |
-| 文字 | `#F0F0F5` 月白 |
-| 辅助文字 | `#9B96AA` |
+| 文字 | `#111119` 墨黑 |
+| 辅助文字 | `#6B7280` |
 
-主题通过 CSS 变量（`:root`）统一管理，Tailwind 通过 `rgb(var(--color-*) / <alpha-value>)` 引用。
+主题通过 CSS 变量（`:root`）统一管理，Tailwind 通过 `rgb(var(--color-*) / <alpha-value>)` 引用。全站使用宋体（SimSun / Noto Serif SC）排版。
 
 ---
 

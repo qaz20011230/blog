@@ -36,7 +36,7 @@ function LayoutContent() {
         <meta name="keywords" content={keywords} />
         <meta name="author" content="Ang Li (良之)" />
         <meta name="application-name" content={t(UI.siteName.zh, UI.siteName.en)} />
-        <meta name="theme-color" content="#08081c" />
+        <meta name="theme-color" content="#f8fafc" />
         <meta name="apple-mobile-web-app-title" content={t(UI.siteName.zh, UI.siteName.en)} />
         <meta name="geo.region" content={isEn ? 'GB-SCT' : 'CN-44'} />
         <meta name="geo.placename" content={isEn ? 'Guangzhou / Edinburgh' : '广州 / 爱丁堡'} />

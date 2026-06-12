@@ -145,7 +145,7 @@ export function Component() {
         </div>
       </header>
 
-      <div className="prose prose-lg prose-invert prose-slate max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
+      <div className="prose prose-lg max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
         <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
           {body || ''}
         </ReactMarkdown>
