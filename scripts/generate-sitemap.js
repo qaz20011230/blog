@@ -7,12 +7,18 @@ function escapeXml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+function normalizeDate(raw) {
+  if (raw instanceof Date) return raw.toISOString().slice(0, 10);
+  if (typeof raw === 'string') return raw.slice(0, 10);
+  return '';
+}
+
 function readPostMeta(filePath) {
   try {
     const raw = fs.readFileSync(filePath, 'utf-8');
     const { data } = matter(raw);
     return {
-      date: data.date || '',
+      date: normalizeDate(data.date),
       pinned: Boolean(data.pinned),
     };
   } catch {
