@@ -20,16 +20,31 @@ function readPostMeta(filePath) {
   }
 }
 
-/** Adaptive priority: newer posts get higher priority (0.9 → 0.5 over time). */
-function computePriority(dateStr) {
+/** Adaptive priority: newer posts get higher priority (0.9 → 0.5 over time).
+ *  @param {string} dateStr
+ *  @param {number} nowMs - deterministic anchor timestamp (latest post date)
+ */
+function computePriority(dateStr, nowMs) {
   if (!dateStr) return '0.6';
-  const daysAgo = (Date.now() - new Date(dateStr).getTime()) / (1000 * 60 * 60 * 24);
+  const daysAgo = (nowMs - new Date(dateStr).getTime()) / (1000 * 60 * 60 * 24);
   if (!Number.isFinite(daysAgo)) return '0.6';
   if (daysAgo <= 7) return '0.9';
   if (daysAgo <= 30) return '0.8';
   if (daysAgo <= 180) return '0.7';
   if (daysAgo <= 365) return '0.6';
   return '0.5';
+}
+
+function latestPostTimestamp(files) {
+  let latest = 0;
+  for (const file of files) {
+    const meta = readPostMeta(file);
+    if (meta.date) {
+      const t = new Date(meta.date).getTime();
+      if (Number.isFinite(t) && t > latest) latest = t;
+    }
+  }
+  return latest || Date.now();
 }
 
 function buildXml(urls) {
@@ -60,6 +75,8 @@ async function generateSitemaps() {
   const enFiles = (await import('glob')).glob.sync(`${CONTENT_DIRS.en}/*.md`);
   const enSlugs = new Set(enFiles.map(f => path.basename(f, '.md')));
 
+  const now = latestPostTimestamp([...zhFiles, ...enFiles]);
+
   // === Chinese sitemap ===
   const zhUrls = staticUrls('');
   for (const file of zhFiles) {
@@ -76,7 +93,7 @@ async function generateSitemaps() {
     zhUrls.push({
       loc: zhHref,
       lastmod: meta.date || undefined,
-      priority: computePriority(meta.date),
+      priority: computePriority(meta.date, now),
       changefreq: meta.pinned ? 'weekly' : 'monthly',
       alternates,
     });
@@ -94,7 +111,7 @@ async function generateSitemaps() {
     enUrls.push({
       loc: enHref,
       lastmod: meta.date || undefined,
-      priority: computePriority(meta.date),
+      priority: computePriority(meta.date, now),
       changefreq: meta.pinned ? 'weekly' : 'monthly',
       alternates: [
         { hreflang: 'zh', href: zhHref },
