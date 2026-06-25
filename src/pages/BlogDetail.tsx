@@ -22,6 +22,7 @@ interface PostData {
  * guard lets Vite tree-shake `node:fs`/`gray-matter` out of the client bundle).
  * On client navigation, vite-react-ssg fetches the prebuilt loader data instead.
  */
+// eslint-disable-next-line react-refresh/only-export-components
 export async function loader({ params, request }: LoaderFunctionArgs): Promise<PostData | null> {
   if (!import.meta.env.SSR) return null;
 
