@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Head } from 'vite-react-ssg';
-import { Mail, Shield, Users, Sparkles, BookOpen, Star } from 'lucide-react';
+import { Mail, Shield, Users, Sparkles, BookOpen, Star, Download } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { aboutContent } from '../content/about-content';
 
@@ -56,15 +56,26 @@ export function Component() {
           </span>
         </div>
 
-        <a
-          href="/thesis-proposal.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 hover:border-primary/50 text-xs font-mono text-gray-400 hover:text-primary tracking-wider transition-all duration-300"
-        >
-          <BookOpen size={14} />
-          {isEn ? 'PhD Thesis Dashboard →' : '博士论文交互概览 →'}
-        </a>
+        <div className="flex flex-wrap gap-3 justify-center">
+          <a
+            href="/thesis-proposal.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 hover:border-primary/50 text-xs font-mono text-gray-400 hover:text-primary tracking-wider transition-all duration-300"
+          >
+            <BookOpen size={14} />
+            {isEn ? 'PhD Thesis Dashboard →' : '博士论文交互概览 →'}
+          </a>
+          <a
+            href="/AngLi-CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 hover:border-primary/50 text-xs font-mono text-gray-400 hover:text-primary tracking-wider transition-all duration-300"
+          >
+            <Download size={14} />
+            {isEn ? 'Download CV (PDF)' : '下载简历 (PDF)'}
+          </a>
+        </div>
       </div>
 
       {/* Philosophy */}
