@@ -76,10 +76,10 @@ function sortFilesByDateDesc(files) {
     const mb = readPostMeta(b);
     const da = ma.date ? new Date(ma.date).getTime() : 0;
     const db = mb.date ? new Date(mb.date).getTime() : 0;
-    if (db !== da) return db - da; // descending by date
+    if (db !== da) return db - da;
     const sa = path.basename(a, '.md');
     const sb = path.basename(b, '.md');
-    return sa.localeCompare(sb); // ascending by slug
+    return sa < sb ? -1 : sa > sb ? 1 : 0;
   });
 }
 
