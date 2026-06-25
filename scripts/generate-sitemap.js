@@ -70,9 +70,22 @@ function staticUrls(prefix) {
   ];
 }
 
+function sortFilesByDateDesc(files) {
+  return files.slice().sort((a, b) => {
+    const ma = readPostMeta(a);
+    const mb = readPostMeta(b);
+    const da = ma.date ? new Date(ma.date).getTime() : 0;
+    const db = mb.date ? new Date(mb.date).getTime() : 0;
+    if (db !== da) return db - da; // descending by date
+    const sa = path.basename(a, '.md');
+    const sb = path.basename(b, '.md');
+    return sa.localeCompare(sb); // ascending by slug
+  });
+}
+
 async function generateSitemaps() {
-  const zhFiles = (await import('glob')).glob.sync(`${CONTENT_DIRS.zh}/*.md`);
-  const enFiles = (await import('glob')).glob.sync(`${CONTENT_DIRS.en}/*.md`);
+  const zhFiles = sortFilesByDateDesc((await import('glob')).glob.sync(`${CONTENT_DIRS.zh}/*.md`));
+  const enFiles = sortFilesByDateDesc((await import('glob')).glob.sync(`${CONTENT_DIRS.en}/*.md`));
   const enSlugs = new Set(enFiles.map(f => path.basename(f, '.md')));
 
   const now = latestPostTimestamp([...zhFiles, ...enFiles]);
