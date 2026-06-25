@@ -33,11 +33,11 @@ jobs:
 
       - name: Verify deterministic artifacts are up to date
         run: |
-          # sitemap.xml / en-sitemap.xml / stats.json are deterministic and must
-          # match the committed copies. (RSS feeds embed a build timestamp, so
-          # they are intentionally excluded from this drift check.)
-          if [ -n "$(git status --porcelain public/sitemap.xml public/en-sitemap.xml public/stats.json)" ]; then
+          # sitemap.xml / en-sitemap.xml / stats.json must match committed copies
+          # (line-ending differences tolerated via git config)
+          git diff --ignore-cr-at-eol -- public/sitemap.xml public/en-sitemap.xml public/stats.json > /tmp/drift.patch
+          if [ -s /tmp/drift.patch ]; then
             echo "::error::Generated artifacts are out of date. Run 'npm run build' and commit public/sitemap.xml, public/en-sitemap.xml, public/stats.json."
-            git --no-pager diff public/sitemap.xml public/en-sitemap.xml public/stats.json
+            cat /tmp/drift.patch
             exit 1
           fi

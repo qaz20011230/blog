@@ -1,0 +1,14 @@
+* text=auto
+
+# Generated artifacts — enforce LF so CI drift check passes on both Windows and Linux
+public/sitemap.xml text eol=lf
+public/en-sitemap.xml text eol=lf
+public/stats.json text eol=lf
+public/rss.xml text eol=lf
+public/en-rss.xml text eol=lf
+public/news-sitemap.xml text eol=lf
+public/llms.txt text eol=lf
+public/ai.txt text eol=lf
+public/robots.txt text eol=lf
+
+src/content/posts-index.json text eol=lf
