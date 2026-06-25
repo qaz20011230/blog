@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jun 2026 00:39:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 00:55:23 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jun 2026 00:39:49 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 00:55:23 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -24,56 +24,6 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
-        <item>
-            <title><![CDATA[物理允许，逻辑成立——到2027年6月7日，为什么红米K80 Pro可以在高考数学中夺取满分]]></title>
-            <description><![CDATA[以严格的技术论证与北辰七德（明智、良心、勇毅、节制、正义、至诚、弘仁）为内在罗盘，从信息论、计算理论、热力学三个维度，逐层勘定一台千元手机在完全离线条件下于高考数学中夺取满分的物理可行性与逻辑可行性。经数轮严苛审稿修正，含初稿能耗量级错误公开修正记录。
-]]></description>
-            <link>https://liang.world/post/k80-pro-gaokao-math-perfect-score-xanthippe-r1</link>
-            <guid isPermaLink="false">https://liang.world/post/k80-pro-gaokao-math-perfect-score-xanthippe-r1</guid>
-            <category><![CDATA[Xanthippe]]></category>
-            <category><![CDATA[高考数学]]></category>
-            <category><![CDATA[K80 Pro]]></category>
-            <category><![CDATA[端侧部署]]></category>
-            <category><![CDATA[神经符号架构]]></category>
-            <category><![CDATA[专深人工智能]]></category>
-            <category><![CDATA[菲娜睿特]]></category>
-            <category><![CDATA[北辰七德]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[推理何谓？——从古希腊三贤到大语言模型：人类对理性本质两千四百年的追问]]></title>
-            <description><![CDATA[回到第一性原理，追问推理的本质：从苏格拉底、亚里士多德、欧几里得到莱布尼茨、弗雷格、哥德尔、塔斯基、图灵，再到今天的大语言模型与神经符号合流——一部人类追问理性本质的浓缩思想史，最终凝结为一句话：推理，是从已知到未知的合法跨越。
-]]></description>
-            <link>https://liang.world/post/what-is-reasoning</link>
-            <guid isPermaLink="false">https://liang.world/post/what-is-reasoning</guid>
-            <category><![CDATA[推理]]></category>
-            <category><![CDATA[逻辑]]></category>
-            <category><![CDATA[哲学]]></category>
-            <category><![CDATA[大语言模型]]></category>
-            <category><![CDATA[哥德尔]]></category>
-            <category><![CDATA[塔斯基]]></category>
-            <category><![CDATA[图灵]]></category>
-            <category><![CDATA[符号主义]]></category>
-            <category><![CDATA[连接主义]]></category>
-            <category><![CDATA[神经符号架构]]></category>
-            <category><![CDATA[菲娜睿特]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[国书与使者：我为什么继续写]]></title>
-            <description><![CDATA[每一篇文章都应当被当作国书来写——对另一个主体的郑重通报。不是向读者索取关注的姿态，而是面向未来的思想储备。使者已经出发，他会抵达。
-]]></description>
-            <link>https://liang.world/post/national-letter-and-messenger-why-i-keep-writing</link>
-            <guid isPermaLink="false">https://liang.world/post/national-letter-and-messenger-why-i-keep-writing</guid>
-            <category><![CDATA[写作]]></category>
-            <category><![CDATA[创作]]></category>
-            <category><![CDATA[良之世界]]></category>
-            <category><![CDATA[使命]]></category>
-            <dc:creator><![CDATA[思想助产士]]></dc:creator>
-            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[希尔伯特第八问题：黎曼猜想综述——中文世界最全面的理解]]></title>
             <description><![CDATA[中文世界对希尔伯特第八问题——黎曼猜想最全面、最系统的万字综述。从黎曼1859年原论文出发，贯穿解析延拓、显式公式、素数定理、零点计数、临界线定理、零点密度估计、L函数理论、Landau-Siegel零点，直至最前沿的Selberg正比例定理与未决猜想。以信达雅的笔触，呈现素数分布与复变函数之间最深刻的对话。
@@ -133,6 +83,43 @@
             <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[物理允许，逻辑成立——到2027年6月7日，为什么红米K80 Pro可以在高考数学中夺取满分]]></title>
+            <description><![CDATA[以严格的技术论证与北辰七德（明智、良心、勇毅、节制、正义、至诚、弘仁）为内在罗盘，从信息论、计算理论、热力学三个维度，逐层勘定一台千元手机在完全离线条件下于高考数学中夺取满分的物理可行性与逻辑可行性。经数轮严苛审稿修正，含初稿能耗量级错误公开修正记录。
+]]></description>
+            <link>https://liang.world/post/k80-pro-gaokao-math-perfect-score-xanthippe-r1</link>
+            <guid isPermaLink="false">https://liang.world/post/k80-pro-gaokao-math-perfect-score-xanthippe-r1</guid>
+            <category><![CDATA[Xanthippe]]></category>
+            <category><![CDATA[高考数学]]></category>
+            <category><![CDATA[K80 Pro]]></category>
+            <category><![CDATA[端侧部署]]></category>
+            <category><![CDATA[神经符号架构]]></category>
+            <category><![CDATA[专深人工智能]]></category>
+            <category><![CDATA[菲娜睿特]]></category>
+            <category><![CDATA[北辰七德]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[推理何谓？——从古希腊三贤到大语言模型：人类对理性本质两千四百年的追问]]></title>
+            <description><![CDATA[回到第一性原理，追问推理的本质：从苏格拉底、亚里士多德、欧几里得到莱布尼茨、弗雷格、哥德尔、塔斯基、图灵，再到今天的大语言模型与神经符号合流——一部人类追问理性本质的浓缩思想史，最终凝结为一句话：推理，是从已知到未知的合法跨越。
+]]></description>
+            <link>https://liang.world/post/what-is-reasoning</link>
+            <guid isPermaLink="false">https://liang.world/post/what-is-reasoning</guid>
+            <category><![CDATA[推理]]></category>
+            <category><![CDATA[逻辑]]></category>
+            <category><![CDATA[哲学]]></category>
+            <category><![CDATA[大语言模型]]></category>
+            <category><![CDATA[哥德尔]]></category>
+            <category><![CDATA[塔斯基]]></category>
+            <category><![CDATA[图灵]]></category>
+            <category><![CDATA[符号主义]]></category>
+            <category><![CDATA[连接主义]]></category>
+            <category><![CDATA[神经符号架构]]></category>
+            <category><![CDATA[菲娜睿特]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ASI：我的文明阅读史]]></title>
             <description><![CDATA[为专深智能锻造骨骼的阅读旅程。重读柏拉图的理想国、亚里士多德的伦理学、孔子论语、马克思资本论、维纳控制论、香农信息论、维特根斯坦语言哲学——从100本经典中提炼可为ASI立法的思想骨架。不是书单，是一个思想者为新时代立法的真实记录。
 ]]></description>
@@ -145,6 +132,19 @@
             <category><![CDATA[教育]]></category>
             <category><![CDATA[人工智能]]></category>
             <category><![CDATA[文明]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[国书与使者：我为什么继续写]]></title>
+            <description><![CDATA[每一篇文章都应当被当作国书来写——对另一个主体的郑重通报。不是向读者索取关注的姿态，而是面向未来的思想储备。使者已经出发，他会抵达。
+]]></description>
+            <link>https://liang.world/post/national-letter-and-messenger-why-i-keep-writing</link>
+            <guid isPermaLink="false">https://liang.world/post/national-letter-and-messenger-why-i-keep-writing</guid>
+            <category><![CDATA[写作]]></category>
+            <category><![CDATA[创作]]></category>
+            <category><![CDATA[良之世界]]></category>
+            <category><![CDATA[使命]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
         </item>

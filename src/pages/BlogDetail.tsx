@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
+import rehypeHighlight from 'rehype-highlight';
 import { Head } from 'vite-react-ssg';
 import { Share2, ArrowLeft } from 'lucide-react';
 import { useScrollProgress } from '../hooks/useScrollProgress';
@@ -147,7 +148,7 @@ export function Component() {
       </header>
 
       <div className="prose prose-lg max-w-none prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg">
-        <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
+        <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex, rehypeHighlight]}>
           {body || ''}
         </ReactMarkdown>
       </div>

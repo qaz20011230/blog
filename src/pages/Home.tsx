@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import { Head } from 'vite-react-ssg';
+import { ArrowRight } from 'lucide-react';
 import { getAllPosts } from '../lib/content';
 import PostCard from '../components/PostCard';
 import { useLanguage } from '../context/LanguageContext';
@@ -6,6 +8,7 @@ import { UI } from '../types';
 
 export function Component() {
   const { locale, t } = useLanguage();
+  const prefix = locale === 'en' ? '/en' : '';
   const recentPosts = getAllPosts(locale).slice(0, 6);
 
   return (
@@ -55,6 +58,15 @@ export function Component() {
             {recentPosts.map((post) => (
               <PostCard key={post.slug} post={post} />
             ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link
+              to={`${prefix}/categories`}
+              className="inline-flex items-center gap-2 text-sm font-mono text-gray-400 hover:text-primary tracking-widest transition-colors duration-300 uppercase"
+            >
+              {locale === 'zh' ? '查看全部文章' : 'View All Posts'}
+              <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+            </Link>
           </div>
         </section>
       )}
