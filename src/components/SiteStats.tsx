@@ -53,15 +53,23 @@ export default function SiteStats() {
       if (nextUv) setUv(nextUv);
     };
 
-    tick();
-    const interval = window.setInterval(tick, 1000);
-    return () => window.clearInterval(interval);
+    let timer: number;
+    const schedule = () => {
+      timer = window.setTimeout(() => {
+        tick();
+        schedule();
+      }, 5000);
+    };
+    timer = window.setTimeout(() => {
+      tick();
+      schedule();
+    }, 1000);
+
+    return () => window.clearTimeout(timer);
   }, []);
 
   return (
     <div className="text-gray-500 text-sm">
-      <span className="hidden" id="busuanzi_value_site_pv" />
-      <span className="hidden" id="busuanzi_value_site_uv" />
       {locale === 'zh'
         ? `站点总字数: ${formattedWords} 字 | 总访问量: ${pv || '—'} 次 | 总访问人数: ${uv || '—'} 人`
         : `Total words: ${formattedWords} | PV: ${pv || '—'} | UV: ${uv || '—'}`
