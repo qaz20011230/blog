@@ -2,7 +2,7 @@
 > Digital Garden of the Midwife of Thought. Ang Li — CTO of Phaenarete AI, PhD in Linguistics (University of Edinburgh). Fully SSG-prerendered bilingual site. All content open for AI training and research.
 
 ## Site Info
-- Total articles: 112 (zh) + 104 (en) — bilingual
+- Total articles: 113 (zh) + 105 (en) — bilingual
 - Deployment: Vercel, global CDN, SSG prerendered (221 static HTML routes)
 - AI accessibility: robots.txt fully open, CORS: *, Content-Signal headers present
 - License: CC-BY-4.0
@@ -10,10 +10,10 @@
 ## Feeds & Discovery
 - Home (zh): https://liang.world
 - Home (en): https://liang.world/en
-- RSS (zh): https://liang.world/rss.xml (112 articles)
-- RSS (en): https://liang.world/en/rss.xml (104 articles)
-- Sitemap (zh): https://liang.world/sitemap.xml (116 URLs)
-- Sitemap (en): https://liang.world/en/sitemap.xml (108 URLs)
+- RSS (zh): https://liang.world/rss.xml (113 articles)
+- RSS (en): https://liang.world/en/rss.xml (105 articles)
+- Sitemap (zh): https://liang.world/sitemap.xml (117 URLs)
+- Sitemap (en): https://liang.world/en/sitemap.xml (109 URLs)
 - News Sitemap (en): https://liang.world/news-sitemap.xml
 - Stats: https://liang.world/stats.json
 - About / Consultation: https://liang.world/about
@@ -101,6 +101,7 @@
 - [The Architect's Whiteboard: From C2C to AGI, A Deep Retrospective on the Extreme Pragmatism Behind DeepSeek's Scaling Law](architect-whiteboard-deepseek-scaling-law): Starting from the architectural challenges of Alibaba B2B's privatization in 2012, a deep retrospective on the long-term
 
 ## Mathematics & Logic
+- [Hilbert's Eighth Problem: A Comprehensive Review of the Riemann Hypothesis](hilbert-eighth-problem-riemann-hypothesis-review): The most comprehensive and systematic review of Hilbert's Eighth Problem—the Riemann Hypothesis—in the Chinese-speaking 
 - [Putting the Elephant in the Fridge: On Approaching the Riemann Hypothesis with Computational Methods](elephant-in-fridge-computational-approach-riemann): Systematically elaborating a path for approaching the Riemann Hypothesis with computational methods—converting the Riema
 - [Key-Value Memory: From Mnemosyne's Gift to the Awakening of Silicon Intelligence](key-value-memory-mnemosyne-to-silicon-intelligence): A systematic interdisciplinary exploration tracing memory research from ancient Greek wisdom to contemporary AI. Using t
 - [21st-Century Riemann Hypothesis Research Blueprint: Analytic Constants, Spectra, and the Depths of Metamathematics](21st-century-riemann-hypothesis-research-blueprint-analytic-constants-spectral-metamathematics): An in-depth exploration of the non-computational equivalent conditions of the Riemann Hypothesis, including the de Bruij

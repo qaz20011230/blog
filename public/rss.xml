@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 23:46:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 00:00:41 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Jun 2026 23:46:52 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 00:00:41 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -73,6 +73,23 @@
             <category><![CDATA[使命]]></category>
             <dc:creator><![CDATA[思想助产士]]></dc:creator>
             <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[希尔伯特第八问题：黎曼猜想综述——中文世界最全面的理解]]></title>
+            <description><![CDATA[中文世界对希尔伯特第八问题——黎曼猜想最全面、最系统的万字综述。从黎曼1859年原论文出发，贯穿解析延拓、显式公式、素数定理、零点计数、临界线定理、零点密度估计、L函数理论、Landau-Siegel零点，直至最前沿的Selberg正比例定理与未决猜想。以信达雅的笔触，呈现素数分布与复变函数之间最深刻的对话。
+]]></description>
+            <link>https://liang.world/post/hilbert-eighth-problem-riemann-hypothesis-review</link>
+            <guid isPermaLink="false">https://liang.world/post/hilbert-eighth-problem-riemann-hypothesis-review</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[希尔伯特问题]]></category>
+            <category><![CDATA[解析数论]]></category>
+            <category><![CDATA[Riemann zeta函数]]></category>
+            <category><![CDATA[L函数]]></category>
+            <category><![CDATA[素数定理]]></category>
+            <category><![CDATA[Landau-Siegel猜想]]></category>
+            <category><![CDATA[零点分布]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[四海为家：如何在流动的世界里，为自己筑巢]]></title>

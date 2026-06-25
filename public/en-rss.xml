@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Jun 2026 23:46:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 00:00:41 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 24 Jun 2026 23:46:52 GMT</pubDate>
+        <pubDate>Thu, 25 Jun 2026 00:00:41 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -24,6 +24,23 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
+        <item>
+            <title><![CDATA[Hilbert's Eighth Problem: A Comprehensive Review of the Riemann Hypothesis]]></title>
+            <description><![CDATA[The most comprehensive and systematic review of Hilbert's Eighth Problem—the Riemann Hypothesis—in the Chinese-speaking world. From Riemann's 1859 original paper through analytic continuation, explicit formulas, the prime number theorem, zero counting, critical line theorems, zero density estimates, L-function theory, Landau-Siegel zeros, to the cutting-edge Selberg positive proportion theorem and open conjectures. A faithful, expressive, and elegant account of the deepest dialogue between prime distribution and complex analysis.
+]]></description>
+            <link>https://liang.world/en/post/hilbert-eighth-problem-riemann-hypothesis-review</link>
+            <guid isPermaLink="false">https://liang.world/en/post/hilbert-eighth-problem-riemann-hypothesis-review</guid>
+            <category><![CDATA[Riemann Hypothesis]]></category>
+            <category><![CDATA[Hilbert problems]]></category>
+            <category><![CDATA[analytic number theory]]></category>
+            <category><![CDATA[Riemann zeta function]]></category>
+            <category><![CDATA[L-functions]]></category>
+            <category><![CDATA[prime number theorem]]></category>
+            <category><![CDATA[Landau-Siegel conjecture]]></category>
+            <category><![CDATA[zero distribution]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Home Everywhere: How to Build Your Nest in a Fluid World]]></title>
             <description><![CDATA[Rootlessness is the chronic disease of this generation. It drains not your wallet but your enthusiasm for life. This essay offers a practical four-lesson process—knowing a city through your senses, caring about its future, showing up in public life, and allying with fellow travelers—to quickly put down roots in any city and replace rootlessness with belonging, inch by inch.
