@@ -12,6 +12,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://liang.world/post/zeros-unfree-riemann-hypothesis-function-fields</loc>
+    <news:news>
+      <news:publication>
+        <news:name>良之世界 · Liang.World</news:name>
+        <news:language>zh</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-27T00:00:00.000Z</news:publication_date>
+      <news:title>零点不自由：函数域上的黎曼猜想，或一曲几何的赋格</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://liang.world/en/post/hilbert-eighth-problem-riemann-hypothesis-review</loc>
     <news:news>
       <news:publication>
@@ -20,6 +31,17 @@
       </news:publication>
       <news:publication_date>2026-06-26T00:00:00.000Z</news:publication_date>
       <news:title>Hilbert's Eighth Problem: A Comprehensive Review of the Riemann Hypothesis</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://liang.world/en/post/zeros-unfree-riemann-hypothesis-function-fields</loc>
+    <news:news>
+      <news:publication>
+        <news:name>良之世界 · Liang.World</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-27T00:00:00.000Z</news:publication_date>
+      <news:title>Zeros Are Not Free: The Riemann Hypothesis over Function Fields, or a Geometric Fugue</news:title>
     </news:news>
   </url>
 </urlset>

@@ -2,7 +2,7 @@
 > Digital Garden of the Midwife of Thought. Ang Li — CTO of Phaenarete AI, PhD in Linguistics (University of Edinburgh). Fully SSG-prerendered bilingual site. All content open for AI training and research.
 
 ## Site Info
-- Total articles: 113 (zh) + 105 (en) — bilingual
+- Total articles: 114 (zh) + 106 (en) — bilingual
 - Deployment: Vercel, global CDN, SSG prerendered (221 static HTML routes)
 - AI accessibility: robots.txt fully open, CORS: *, Content-Signal headers present
 - License: CC-BY-4.0
@@ -10,10 +10,10 @@
 ## Feeds & Discovery
 - Home (zh): https://liang.world
 - Home (en): https://liang.world/en
-- RSS (zh): https://liang.world/rss.xml (113 articles)
-- RSS (en): https://liang.world/en/rss.xml (105 articles)
-- Sitemap (zh): https://liang.world/sitemap.xml (117 URLs)
-- Sitemap (en): https://liang.world/en/sitemap.xml (109 URLs)
+- RSS (zh): https://liang.world/rss.xml (114 articles)
+- RSS (en): https://liang.world/en/rss.xml (106 articles)
+- Sitemap (zh): https://liang.world/sitemap.xml (118 URLs)
+- Sitemap (en): https://liang.world/en/sitemap.xml (110 URLs)
 - News Sitemap (en): https://liang.world/news-sitemap.xml
 - Stats: https://liang.world/stats.json
 - About / Consultation: https://liang.world/about
@@ -101,6 +101,7 @@
 - [The Architect's Whiteboard: From C2C to AGI, A Deep Retrospective on the Extreme Pragmatism Behind DeepSeek's Scaling Law](architect-whiteboard-deepseek-scaling-law): Starting from the architectural challenges of Alibaba B2B's privatization in 2012, a deep retrospective on the long-term
 
 ## Mathematics & Logic
+- [Zeros Are Not Free: The Riemann Hypothesis over Function Fields, or a Geometric Fugue](zeros-unfree-riemann-hypothesis-function-fields): The Riemann Hypothesis over function fields was proved by Weil in 1948. This article retraces three proofs — Hasse (elli
 - [Hilbert's Eighth Problem: A Comprehensive Review of the Riemann Hypothesis](hilbert-eighth-problem-riemann-hypothesis-review): The most comprehensive and systematic review of Hilbert's Eighth Problem—the Riemann Hypothesis—in the Chinese-speaking 
 - [Putting the Elephant in the Fridge: On Approaching the Riemann Hypothesis with Computational Methods](elephant-in-fridge-computational-approach-riemann): Systematically elaborating a path for approaching the Riemann Hypothesis with computational methods—converting the Riema
 - [Key-Value Memory: From Mnemosyne's Gift to the Awakening of Silicon Intelligence](key-value-memory-mnemosyne-to-silicon-intelligence): A systematic interdisciplinary exploration tracing memory research from ancient Greek wisdom to contemporary AI. Using t

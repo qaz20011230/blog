@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jun 2026 00:59:03 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jun 2026 23:50:04 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jun 2026 00:59:03 GMT</pubDate>
+        <pubDate>Sat, 27 Jun 2026 23:50:04 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -24,6 +24,25 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
+        <item>
+            <title><![CDATA[零点不自由：函数域上的黎曼猜想，或一曲几何的赋格]]></title>
+            <description><![CDATA[函数域上的黎曼猜想已在1948年被韦伊证明。本文重走哈塞（椭圆曲线，1933）、韦伊（雅可比簇与曲面相交，1948）、格罗滕迪克-德利涅（平展上同调，1974）三条证明之路，揭示三者共享同一逻辑骨架：弗罗贝尼乌斯算子将零点变为特征值，对偶将其绑为成对，正定性将其钉死在临界线上。进而追问：为什么这套机制无法搬到整数上？答案在三处结构性缺失——没有全局弗罗贝尼乌斯，没有有限维上同调，没有基。
+]]></description>
+            <link>https://liang.world/post/zeros-unfree-riemann-hypothesis-function-fields</link>
+            <guid isPermaLink="false">https://liang.world/post/zeros-unfree-riemann-hypothesis-function-fields</guid>
+            <category><![CDATA[黎曼猜想]]></category>
+            <category><![CDATA[函数域]]></category>
+            <category><![CDATA[有限域]]></category>
+            <category><![CDATA[代数曲线]]></category>
+            <category><![CDATA[Hasse]]></category>
+            <category><![CDATA[Weil]]></category>
+            <category><![CDATA[Grothendieck]]></category>
+            <category><![CDATA[Deligne]]></category>
+            <category><![CDATA[平展上同调]]></category>
+            <category><![CDATA[弗罗贝尼乌斯]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[希尔伯特第八问题：黎曼猜想综述——中文世界最全面的理解]]></title>
             <description><![CDATA[中文世界对希尔伯特第八问题——黎曼猜想最全面、最系统的万字综述。从黎曼1859年原论文出发，贯穿解析延拓、显式公式、素数定理、零点计数、临界线定理、零点密度估计、L函数理论、Landau-Siegel零点，直至最前沿的Selberg正比例定理与未决猜想。以信达雅的笔触，呈现素数分布与复变函数之间最深刻的对话。
