@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Jun 2026 23:50:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2026 00:01:32 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 27 Jun 2026 23:50:04 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 00:01:32 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -24,6 +24,22 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
+        <item>
+            <title><![CDATA[在回答与沉默之间：论“教授咨询室”思想实验的认识论困境与认知边界]]></title>
+            <description><![CDATA[程京德教授的"教授咨询室"思想实验是对塞尔中文屋的精巧改造：一个外部的提问者，能否仅凭有限次问答，就区分出房间里的是真正的教授，还是一个拥有教授全部知识的LLM专家系统？本文从提问者的知识悖论、图灵测试的逆转、LLM能力边界的可测试性、认知规范性的来源、他心问题的现象学维度等多角度展开分析，最终给出六条最低必要条件。
+]]></description>
+            <link>https://liang.world/post/between-answer-and-silence-professor-office</link>
+            <guid isPermaLink="false">https://liang.world/post/between-answer-and-silence-professor-office</guid>
+            <category><![CDATA[人工智能哲学]]></category>
+            <category><![CDATA[中文屋]]></category>
+            <category><![CDATA[图灵测试]]></category>
+            <category><![CDATA[他心问题]]></category>
+            <category><![CDATA[认知规范性]]></category>
+            <category><![CDATA[大语言模型]]></category>
+            <category><![CDATA[教授咨询室]]></category>
+            <dc:creator><![CDATA[思想助产士]]></dc:creator>
+            <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[零点不自由：函数域上的黎曼猜想，或一曲几何的赋格]]></title>
             <description><![CDATA[函数域上的黎曼猜想已在1948年被韦伊证明。本文重走哈塞（椭圆曲线，1933）、韦伊（雅可比簇与曲面相交，1948）、格罗滕迪克-德利涅（平展上同调，1974）三条证明之路，揭示三者共享同一逻辑骨架：弗罗贝尼乌斯算子将零点变为特征值，对偶将其绑为成对，正定性将其钉死在临界线上。进而追问：为什么这套机制无法搬到整数上？答案在三处结构性缺失——没有全局弗罗贝尼乌斯，没有有限维上同调，没有基。

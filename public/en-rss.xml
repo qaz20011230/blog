@@ -9,9 +9,9 @@
             <link>https://liang.world/en</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Jun 2026 23:50:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2026 00:01:32 GMT</lastBuildDate>
         <atom:link href="https://liang.world/en/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 27 Jun 2026 23:50:04 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 00:01:32 GMT</pubDate>
         <copyright><![CDATA[© 2026 Liang.World]]></copyright>
         <language><![CDATA[en]]></language>
         <managingEditor><![CDATA[contact@liang.world (Ang Li)]]></managingEditor>
@@ -24,6 +24,23 @@
         <category><![CDATA[Business & Strategy]]></category>
         <category><![CDATA[Culture & Art]]></category>
         <category><![CDATA[Others]]></category>
+        <item>
+            <title><![CDATA[Between Answer and Silence: On the Epistemological Predicament and Cognitive Boundaries of the 'Professor's Office' Thought Experiment]]></title>
+            <description><![CDATA[Professor Cheng Jingde's "Professor's Office" thought experiment is an elegant refinement of Searle's Chinese Room: can an external questioner, through only a finite number of question-answer exchanges, distinguish whether the person behind the door is a real professor or an LLM expert system possessing all of the professor's knowledge? This essay analyzes the questioner's knowledge paradox, the reversal of the Turing Test, the testability of LLM capability boundaries, the source of cognitive normativity, and the phenomenological dimension of the Other Minds problem, ultimately proposing six minimal necessary conditions for indistinguishability.
+]]></description>
+            <link>https://liang.world/en/post/between-answer-and-silence-professor-office</link>
+            <guid isPermaLink="false">https://liang.world/en/post/between-answer-and-silence-professor-office</guid>
+            <category><![CDATA[philosophy of AI]]></category>
+            <category><![CDATA[Chinese Room]]></category>
+            <category><![CDATA[Turing Test]]></category>
+            <category><![CDATA[other minds]]></category>
+            <category><![CDATA[cognitive normativity]]></category>
+            <category><![CDATA[large language models]]></category>
+            <category><![CDATA[Searle]]></category>
+            <category><![CDATA[Professor Consultation Room]]></category>
+            <dc:creator><![CDATA[Ang Li]]></dc:creator>
+            <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Zeros Are Not Free: The Riemann Hypothesis over Function Fields, or a Geometric Fugue]]></title>
             <description><![CDATA[The Riemann Hypothesis over function fields was proved by Weil in 1948. This article retraces three proofs — Hasse (elliptic curves, 1933), Weil (Jacobians and surface intersection, 1948), and Grothendieck–Deligne (étale cohomology, 1974) — showing they share a single logical skeleton: the Frobenius operator turns zeros into eigenvalues, duality pairs them, and a positivity structure pins them to the critical circle. It then asks: why can't this machinery be transferred to the integers? The answer lies in three structural absences — no global Frobenius, no finite-dimensional cohomology, no base field.

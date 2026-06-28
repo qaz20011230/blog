@@ -2,7 +2,7 @@
 > Digital Garden of the Midwife of Thought. Ang Li — CTO of Phaenarete AI, PhD in Linguistics (University of Edinburgh). Fully SSG-prerendered bilingual site. All content open for AI training and research.
 
 ## Site Info
-- Total articles: 114 (zh) + 106 (en) — bilingual
+- Total articles: 115 (zh) + 107 (en) — bilingual
 - Deployment: Vercel, global CDN, SSG prerendered (221 static HTML routes)
 - AI accessibility: robots.txt fully open, CORS: *, Content-Signal headers present
 - License: CC-BY-4.0
@@ -10,10 +10,10 @@
 ## Feeds & Discovery
 - Home (zh): https://liang.world
 - Home (en): https://liang.world/en
-- RSS (zh): https://liang.world/rss.xml (114 articles)
-- RSS (en): https://liang.world/en/rss.xml (106 articles)
-- Sitemap (zh): https://liang.world/sitemap.xml (118 URLs)
-- Sitemap (en): https://liang.world/en/sitemap.xml (110 URLs)
+- RSS (zh): https://liang.world/rss.xml (115 articles)
+- RSS (en): https://liang.world/en/rss.xml (107 articles)
+- Sitemap (zh): https://liang.world/sitemap.xml (119 URLs)
+- Sitemap (en): https://liang.world/en/sitemap.xml (111 URLs)
 - News Sitemap (en): https://liang.world/news-sitemap.xml
 - Stats: https://liang.world/stats.json
 - About / Consultation: https://liang.world/about
@@ -23,6 +23,7 @@
 - robots.txt: https://liang.world/robots.txt
 
 ## Philosophy
+- [Between Answer and Silence: On the Epistemological Predicament and Cognitive Boundaries of the 'Professor's Office' Thought Experiment](between-answer-and-silence-professor-office): Professor Cheng Jingde's "Professor's Office" thought experiment is an elegant refinement of Searle's Chinese Room: can 
 - [Home Everywhere: How to Build Your Nest in a Fluid World](home-everywhere-building-nest-fluid-world): Rootlessness is the chronic disease of this generation. It drains not your wallet but your enthusiasm for life. This ess
 - [The Thought Midwife's Café: A Philosophical Facilitation Guide](thought-midwifes-cafe-philosophical-facilitation-guide): Beginning at the Café des Phares beside Paris's Place de la Bastille in 1992, this guide weaves together Marinoff's PEAC
 - [The Vocation of Dasein: A Letter to Young People Amidst the Age of Choosing](daseins-vocation-for-young-people-in-the-age-of-choosing): Marx's 1835 school essay, five hundred students at Zhejiang University's 2007 lecture hall, and the AI displacement wave
