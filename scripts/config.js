@@ -8,7 +8,7 @@ export const CONTACT_EMAIL = 'contact@liang.world';
 
 export const AUTHOR = {
   zh: '思想助产士',
-  en: 'Ang Li',
+  en: 'Leon',
 };
 
 export const SITE = {

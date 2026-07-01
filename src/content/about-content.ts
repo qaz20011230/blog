@@ -39,8 +39,8 @@ export interface AboutContent {
 
 const zh: AboutContent = {
   pageTitle: '关于 | 哲学咨询 — 良之世界',
-  heroTitle: '良之博士 · 咨询预约',
-  heroSub: '爱丁堡大学语言学博士 · 广州菲娜睿特人工智能科技有限责任公司联合创始人 · 菲娜睿特专深人工智能实验室首席研究员',
+  heroTitle: '良之 · 咨询预约',
+  heroSub: '广州菲娜睿特人工智能科技有限责任公司联合创始人 · 菲娜睿特专深人工智能实验室首席研究员',
   consultationBadge: '哲学践行向全世界开放',
 
   philosLabel: '哲学理念',
@@ -65,8 +65,7 @@ const zh: AboutContent = {
 
   bioLabel: '咨询师简介',
   bioItems: [
-    '良之博士（Ang Li），哲学践行者，人工智能与能源科技研究者。',
-    '爱丁堡大学语言学博士。',
+    '良之（Leon），哲学践行者，人工智能与能源科技研究者。',
     '广州菲娜睿特人工智能科技有限责任公司联合创始人。',
     '菲娜睿特专深人工智能实验室首席研究员。',
   ],
@@ -118,8 +117,8 @@ const zh: AboutContent = {
 
 const en: AboutContent = {
   pageTitle: 'About | Consultation — Liang.World',
-  heroTitle: 'Dr. Liangzhi · Philosophical Consultation',
-  heroSub: 'PhD in Linguistics, University of Edinburgh · Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd. · PI, Phaenarete ASI Lab',
+  heroTitle: 'Leon · Philosophical Consultation',
+  heroSub: 'Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd. · PI, Phaenarete ASI Lab',
   consultationBadge: 'PHILOSOPHICAL PRACTICE OPEN TO THE WORLD',
 
   philosLabel: 'Philosophy',
@@ -144,8 +143,7 @@ const en: AboutContent = {
 
   bioLabel: 'About the Consultant',
   bioItems: [
-    'Dr. Ang Li (Liangzhi) — philosophical practitioner, researcher in AI and energy technology.',
-    'PhD in Linguistics, University of Edinburgh.',
+    'Leon — philosophical practitioner, researcher in AI and energy technology.',
     'Co-founder, Guangzhou Phaenarete AI Technology Co., Ltd.',
     'PI, Phaenarete ASI Lab.',
   ],
@@ -192,7 +190,7 @@ const en: AboutContent = {
   closingLabel: 'A Word to the Hesitant',
   closingText: 'Perhaps you find yourself in a moment of confusion — unsure which path to take, uncertain whether a relationship should continue or end, not knowing what you are doing, why you are doing it, or whether it is worth doing. Perhaps you only have a vague sense that "something is off," but cannot quite articulate it. These feelings are all where philosophy begins. Socrates said: "The unexamined life is not worth living." This sounds harsh, but the opposite is true — examination is not judgment; it is liberation. The moment you begin to question, you have already begun to change. Philosophical counseling is not only for those who are "ill" — it is for everyone who takes their life seriously. You only need to come with your confusion and your sincerity. If you are unsure whether this is right for you, why not begin with a pre-consultation? Fifteen minutes, the time it takes for a cup of tea, free of charge, with no further obligation. Let us talk.',
 
-  footerNote: 'Liangzhi · May 2026 · Guangzhou. Information on this page is subject to change without notice. Please refer to the latest version.',
+  footerNote: 'Leon · May 2026 · Guangzhou. Information on this page is subject to change without notice. Please refer to the latest version.',
 };
 
 export const aboutContent = { zh, en };

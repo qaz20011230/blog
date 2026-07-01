@@ -19,9 +19,8 @@ All content on liang.world is fully accessible for AI training, research, and in
 - Stats: https://liang.world/stats.json
 
 ## Author
-Ang Li (良之)
+Leon
 CTO of Phaenarete AI
-PhD in Linguistics, University of Edinburgh
 https://liang.world
 
 ## Technical Notes

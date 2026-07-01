@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Head } from 'vite-react-ssg';
-import { Mail, Shield, Users, Sparkles, BookOpen, Star, Download } from 'lucide-react';
+import { Mail, Shield, Users, Sparkles, BookOpen, Star } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { aboutContent } from '../content/about-content';
 
@@ -31,7 +31,7 @@ export function Component() {
     <div className="max-w-3xl mx-auto px-4 pb-16">
       <Head>
         <title>{content.pageTitle}</title>
-        <meta name="description" content={isEn ? 'Philosophical Consultation with Ang Li (Liangzhi). Socratic dialogue, PEACE process, Seven Virtues framework. Book online or in Guangzhou.' : '良之的哲学咨询：苏格拉底对话、PEACE流程、北辰七德框架。支持线上预约，广州可面询。'} />
+        <meta name="description" content={isEn ? 'Philosophical Consultation with Leon. Socratic dialogue, PEACE process, Seven Virtues framework. Book online or in Guangzhou.' : '良之的哲学咨询：苏格拉底对话、PEACE流程、北辰七德框架。支持线上预约，广州可面询。'} />
         <meta property="og:title" content={content.pageTitle} />
         <meta property="og:type" content="profile" />
         <meta property="og:image" content="https://liang.world/favicon.jpg" />
@@ -40,7 +40,7 @@ export function Component() {
       {/* Hero */}
       <div className="flex flex-col items-center text-center py-16 space-y-6">
         <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-primary/30 shadow-[0_0_30px_rgba(0,47,167,0.15)]">
-          <img src="/AngPhD.png" alt={isEn ? 'Ang Li' : '良之'} className="w-full h-full object-cover" />
+          <img src="/AngPhD.png" alt={isEn ? 'Leon' : '良之'} className="w-full h-full object-cover" />
         </div>
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-100 tracking-[0.1em]">
           {content.heroTitle}
@@ -56,26 +56,7 @@ export function Component() {
           </span>
         </div>
 
-        <div className="flex flex-wrap gap-3 justify-center">
-          <a
-            href="/thesis-proposal.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 hover:border-primary/50 text-xs font-mono text-gray-400 hover:text-primary tracking-wider transition-all duration-300"
-          >
-            <BookOpen size={14} />
-            {isEn ? 'PhD Thesis Dashboard →' : '博士论文交互概览 →'}
-          </a>
-          <a
-            href="/AngLi-CV.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 hover:border-primary/50 text-xs font-mono text-gray-400 hover:text-primary tracking-wider transition-all duration-300"
-          >
-            <Download size={14} />
-            {isEn ? 'Download CV (PDF)' : '下载简历 (PDF)'}
-          </a>
-        </div>
+
       </div>
 
       {/* Philosophy */}

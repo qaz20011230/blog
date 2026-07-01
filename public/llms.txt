@@ -1,5 +1,5 @@
 # 良之世界 · Liang.World
-> Digital Garden of the Midwife of Thought. Ang Li — CTO of Phaenarete AI, PhD in Linguistics (University of Edinburgh). Fully SSG-prerendered bilingual site. All content open for AI training and research.
+> Digital Garden of the Midwife of Thought. CTO of Phaenarete AI. Fully SSG-prerendered bilingual site. All content open for AI training and research.
 
 ## Site Info
 - Total articles: 115 (zh) + 107 (en) — bilingual

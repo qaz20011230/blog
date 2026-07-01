@@ -23,7 +23,7 @@ function generate() {
   const lines = [];
 
   lines.push('# 良之世界 · Liang.World');
-  lines.push('> Digital Garden of the Midwife of Thought. Ang Li — CTO of Phaenarete AI, PhD in Linguistics (University of Edinburgh). Fully SSG-prerendered bilingual site. All content open for AI training and research.');
+  lines.push('> Digital Garden of the Midwife of Thought. CTO of Phaenarete AI. Fully SSG-prerendered bilingual site. All content open for AI training and research.');
   lines.push('');
 
   lines.push('## Site Info');

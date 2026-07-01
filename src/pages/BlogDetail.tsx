@@ -97,7 +97,7 @@ export function Component() {
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://liang.world/favicon.jpg" />
         <meta property="article:published_time" content={post.date} />
-        <meta property="article:author" content="Ang Li" />
+        <meta property="article:author" content="Leon" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.description} />
@@ -108,8 +108,8 @@ export function Component() {
           headline: post.title,
           description: post.description,
           datePublished: post.date,
-          author: { '@type': 'Person', name: 'Ang Li', url: 'https://liang.world/about' },
-          publisher: { '@type': 'Person', name: 'Ang Li', url: 'https://liang.world/about' },
+          author: { '@type': 'Person', name: 'Leon', url: 'https://liang.world/about' },
+          publisher: { '@type': 'Person', name: 'Leon', url: 'https://liang.world/about' },
           image: 'https://liang.world/favicon.jpg',
           url: `https://liang.world${location.pathname}`,
           inLanguage: locale === 'zh' ? 'zh-CN' : 'en',
