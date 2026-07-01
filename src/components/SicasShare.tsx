@@ -76,7 +76,7 @@ export default function SicasShare() {
         onClick={() => setIsOpen(!isOpen)}
         className={`
           flex items-center justify-center w-12 h-12 rounded-full shadow-lg transition-all duration-300
-          ${isOpen ? 'bg-gray-900 text-gray-400 rotate-90 border border-gray-800' : 'bg-primary text-white hover:bg-blue-800 hover:scale-110'}
+          ${isOpen ? 'bg-gray-900 text-gray-400 rotate-90 border border-gray-800' : 'bg-primary text-white hover:bg-primary-light hover:scale-110'}
         `}
         aria-label="Share"
       >

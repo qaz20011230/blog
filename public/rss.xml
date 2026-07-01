@@ -9,9 +9,9 @@
             <link>https://liang.world</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Jun 2026 04:02:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 08:32:12 GMT</lastBuildDate>
         <atom:link href="https://liang.world/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 29 Jun 2026 04:02:10 GMT</pubDate>
+        <pubDate>Wed, 01 Jul 2026 08:32:12 GMT</pubDate>
         <copyright><![CDATA[© 2026 良之世界 (Liang.World)]]></copyright>
         <language><![CDATA[zh-CN]]></language>
         <managingEditor><![CDATA[contact@liang.world (思想助产士)]]></managingEditor>
@@ -26,7 +26,7 @@
         <category><![CDATA[Others]]></category>
         <item>
             <title><![CDATA[在回答与沉默之间：论“教授咨询室”思想实验的认识论困境与认知边界]]></title>
-            <description><![CDATA[程京德教授的\u201c教授咨询室\u201d思想实验是对塞尔中文屋的精巧改造：一个外部的提问者，能否仅凭有限次问答，就区分出房间里的是真正的教授，还是一个拥有教授全部知识的LLM专家系统？本文从提问者的知识悖论、图灵测试的逆转、LLM能力边界的可测试性、认知规范性的来源、他心问题的现象学维度等多角度展开分析，最终给出六条最低必要条件。
+            <description><![CDATA[程京德教授的“教授咨询室”思想实验是对塞尔中文屋的精巧改造：一个外部的提问者，能否仅凭有限次问答，就区分出房间里的是真正的教授，还是一个拥有教授全部知识的LLM专家系统？本文从提问者的知识悖论、图灵测试的逆转、LLM能力边界的可测试性、认知规范性的来源、他心问题的现象学维度等多角度展开分析，最终给出六条最低必要条件。
 ]]></description>
             <link>https://liang.world/post/between-answer-and-silence-professor-office</link>
             <guid isPermaLink="false">https://liang.world/post/between-answer-and-silence-professor-office</guid>

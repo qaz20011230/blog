@@ -28,7 +28,7 @@ function LayoutContent() {
   const keywords = t(UI.keywords.zh, UI.keywords.en);
 
   return (
-    <div className="min-h-screen flex flex-col bg-hilbert font-sans text-text" lang={isEn ? 'en' : 'zh-CN'}>
+    <div className="min-h-screen flex flex-col bg-hilbert font-serif text-text" lang={isEn ? 'en' : 'zh-CN'}>
       <Head>
         <html lang={isEn ? 'en' : 'zh-CN'} />
         <title>{title}</title>
